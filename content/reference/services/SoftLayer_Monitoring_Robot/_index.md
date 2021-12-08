@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 DEPRECATED. 
 
 
@@ -38,16 +40,21 @@ DEPRECATED.
 
 <div id="method-div">
 
-<div class="method-row">
+<div class="method-row deprecated">
 
 #### [checkConnection](/reference/services/SoftLayer_Monitoring_Robot/checkConnection)
 DEPRECATED. Checks if a monitoring robot can communicate with SoftLayer monitoring management system 
+
+<span class="deprecation-label">Deprecated  </span>
+
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Monitoring_Robot/getObject)
 Retrieve a SoftLayer_Monitoring_Robot record.
+
 </div>
 </div>
 

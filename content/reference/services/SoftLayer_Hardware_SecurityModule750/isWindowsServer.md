@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::isWindowsServer
 
+
 Determine if a server runs the Microsoft Windows operating system.
 
 

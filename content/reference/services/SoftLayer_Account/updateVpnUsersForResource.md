@@ -13,6 +13,8 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::updateVpnUsersForResource
 
+<div class="deprecated"><span class="deprecation-label">Deprecated </span></div>
+
 [DEPRECATED] Creates or updates a user VPN access privileges for a server on account.
 
 

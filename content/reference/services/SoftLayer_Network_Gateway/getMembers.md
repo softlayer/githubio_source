@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Gateway](/reference/services/SoftLayer_Network_Gateway)::getMembers
 
+
 Retrieve the members for this gateway.
 
 

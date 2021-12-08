@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [answer]: #answer
 #### [answer]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ classes:
 [index]: #index
 #### [index]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

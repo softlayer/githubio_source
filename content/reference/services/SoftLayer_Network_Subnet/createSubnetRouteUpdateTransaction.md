@@ -14,6 +14,8 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::createSubnetRouteUpdateTransaction
 
+<div class="deprecated"><span class="deprecation-label">Deprecated </span></div>
+
 create a new transaction to modify a subnet route.
 
 

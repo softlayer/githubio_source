@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Benchmark_Certification](/reference/services/SoftLayer_Hardware_Benchmark_Certification)::getAccount
 
+
 Retrieve information regarding a benchmark certification result's associated SoftLayer customer account.
 
 

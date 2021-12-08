@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::refreshDuplicate
 
+
 Refreshes any duplicate volume with a snapshot taken from its parent.
 
 

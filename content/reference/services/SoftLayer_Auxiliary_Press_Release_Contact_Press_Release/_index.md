@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 The SoftLayer_Auxiliary_Press_Release_Contact_Press_Release service associates a press release to one or more contacts. 
 
 
@@ -42,17 +44,20 @@ The SoftLayer_Auxiliary_Press_Release_Contact_Press_Release service associates a
 
 #### [getContacts](/reference/services/SoftLayer_Auxiliary_Press_Release_Contact_Press_Release/getContacts)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Auxiliary_Press_Release_Contact_Press_Release/getObject)
 Retrieve a SoftLayer_Auxiliary_Press_Release_Contact_Press_Release record.
+
 </div>
 
 <div class="method-row">
 
 #### [getPressReleases](/reference/services/SoftLayer_Auxiliary_Press_Release_Contact_Press_Release/getPressReleases)
+
 
 </div>
 </div>

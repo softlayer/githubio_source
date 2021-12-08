@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_Firewall_Interface data type contains general information relating to a single SoftLayer firewall interface. This is the object which ties the firewall context access control list to a firewall. Use the [[SoftLayer Network Firewall Template]] service to pull SoftLayer recommended rule set templates. Use the [[SoftLayer Network Firewall Update Request]] service to submit a firewall update request. 
 
 ### External Links
@@ -59,7 +61,8 @@ The SoftLayer_Network_Firewall_Interface data type contains general information 
 [id]: #id
 #### [id]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -69,7 +72,8 @@ The SoftLayer_Network_Firewall_Interface data type contains general information 
 [name]: #name
 #### [name]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +89,8 @@ The SoftLayer_Network_Firewall_Interface data type contains general information 
 [firewallContextAccessControlLists]: #firewallcontextaccesscontrollists
 #### [firewallContextAccessControlLists]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Firewall_AccessControlList'>SoftLayer_Network_Firewall_AccessControlList[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Firewall_AccessControlList'>SoftLayer_Network_Firewall_AccessControlList[] </a>**  
+
 
 
 </div>
@@ -95,7 +100,8 @@ The SoftLayer_Network_Firewall_Interface data type contains general information 
 [networkVlan]: #networkvlan
 #### [networkVlan]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a>**  
+
 
 
 </div>
@@ -107,7 +113,8 @@ The SoftLayer_Network_Firewall_Interface data type contains general information 
 [firewallContextAccessControlListCount]: #firewallcontextaccesscontrollistcount
 #### [firewallContextAccessControlListCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

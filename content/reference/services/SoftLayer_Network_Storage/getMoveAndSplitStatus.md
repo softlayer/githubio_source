@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getMoveAndSplitStatus
 
+
 Retrieve the current status of split or move operation as a part of volume duplication.
 
 

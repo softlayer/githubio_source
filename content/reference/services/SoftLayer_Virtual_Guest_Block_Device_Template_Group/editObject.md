@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest_Block_Device_Template_Group](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group)::editObject
 
+
 Edit an image template group's name and note.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Item_Price](/reference/services/SoftLayer_Product_Item_Price)::getPresetConfigurations
 
+
 Retrieve a list of preset configurations this price is used in.'
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getNetworkStorage
 
+
 Retrieve an account's associated storage volumes. This includes Lockbox, NAS, EVault, and iSCSI volumes.
 
 

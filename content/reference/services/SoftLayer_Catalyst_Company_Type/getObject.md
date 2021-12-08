@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Catalyst_Company_Type](/reference/services/SoftLayer_Catalyst_Company_Type)::getObject
 
+
 Retrieve a SoftLayer_Catalyst_Company_Type record.
 
 

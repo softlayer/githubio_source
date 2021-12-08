@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Bandwidth_Version1_Allotment](/reference/services/SoftLayer_Network_Bandwidth_Version1_Allotment)::getCurrentBandwidthSummary
 
+
 Retrieve an object that provides commonly used bandwidth summary components for the current billing cycle.
 
 

@@ -16,6 +16,7 @@ aliases:
 
 
 
+
 ## Overview 
 Retrieves a promotion using its code.
 

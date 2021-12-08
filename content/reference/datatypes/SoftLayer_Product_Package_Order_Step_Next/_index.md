@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This datatype simply describes which steps are next in line for ordering. 
 
 
@@ -45,7 +47,8 @@ This datatype simply describes which steps are next in line for ordering.
 [id]: #id
 #### [id]
 The unique identifier for this object.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The unique identifier for this object.
 [nextOrderStepId]: #nextorderstepid
 #### [nextOrderStepId]
 The unique identifier for SoftLayer_Product_Package_Order_Step for the next step in the process.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The unique identifier for SoftLayer_Product_Package_Order_Step for the next step
 [orderStepId]: #orderstepid
 #### [orderStepId]
 The unique identifier for SoftLayer_Product_Package_Order_Step for the current step.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ The unique identifier for SoftLayer_Product_Package_Order_Step for the current s
 [step]: #step
 #### [step]
 The SoftLayer_Product_Package_Order_Step to which this object belongs.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Order_Step'>SoftLayer_Product_Package_Order_Step </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Order_Step'>SoftLayer_Product_Package_Order_Step </a>**  
+
 
 
 </div>

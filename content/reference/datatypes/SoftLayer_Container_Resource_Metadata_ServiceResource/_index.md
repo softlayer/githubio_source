@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The metadata service resource container is used to store information about a single service resource. 
 
 
@@ -45,7 +47,8 @@ The metadata service resource container is used to store information about a sin
 [backendIpAddress]: #backendipaddress
 #### [backendIpAddress]
 The backend IP address for this resource   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The backend IP address for this resource
 [type]: #type
 #### [type]
 The type for this resource   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Service_Resource_Type'>SoftLayer_Network_Service_Resource_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Service_Resource_Type'>SoftLayer_Network_Service_Resource_Type </a>**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getActiveTransactions
 
+
 Retrieve any active transaction(s) that are currently running for the server (example: os reload).
 
 

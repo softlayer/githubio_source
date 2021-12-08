@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest_Block_Device_Template_Group](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group)::getFlexImageFlag
 
+
 Retrieve a flag indicating if this is a flex image.
 
 

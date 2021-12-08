@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Schedule](/reference/services/SoftLayer_Network_Storage_Schedule)::getDayOfWeek
 
+
 Retrieve the day of the week parameter of this schedule.
 
 

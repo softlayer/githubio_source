@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getActiveAccountDiscountBillingItem
 
+
 Retrieve the billing item associated with an account's monthly discount.
 
 

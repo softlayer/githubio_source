@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getActiveColocationContainers
 
+
 Retrieve the account's active top level colocation containers.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Order](/reference/services/SoftLayer_Product_Order)::getExternalPaymentAuthorizationReceipt
 
+
 Returns an order receipt for a completed external (PayPal) payment authorization.
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Every piece of hardware and network connection owned by SoftLayer is tracked physically by location and stored in the SoftLayer_Location data type. SoftLayer locations exist in parent/child relationships, a convenient way to track equipment from it's city, datacenter, server room, rack, then slot. Network backbones are tied to datacenters only, not to a room, rack, or slot. 
 
 
@@ -52,7 +54,8 @@ Every piece of hardware and network connection owned by SoftLayer is tracked phy
 [id]: #id
 #### [id]
 The unique identifier of a specific location.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -62,7 +65,8 @@ The unique identifier of a specific location.
 [longName]: #longname
 #### [longName]
 A longer location description.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -72,7 +76,8 @@ A longer location description.
 [name]: #name
 #### [name]
 A short location description.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -82,7 +87,8 @@ A short location description.
 [statusId]: #statusid
 #### [statusId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -98,7 +104,8 @@ A short location description.
 [activePresaleEvents]: #activepresaleevents
 #### [activePresaleEvents]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Sales_Presale_Event'>SoftLayer_Sales_Presale_Event[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Sales_Presale_Event'>SoftLayer_Sales_Presale_Event[] </a>**  
+
 
 
 </div>
@@ -108,7 +115,8 @@ A short location description.
 [backboneDependents]: #backbonedependents
 #### [backboneDependents]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Backbone_Location_Dependent'>SoftLayer_Network_Backbone_Location_Dependent[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Backbone_Location_Dependent'>SoftLayer_Network_Backbone_Location_Dependent[] </a>**  
+
 
 
 </div>
@@ -118,7 +126,8 @@ A short location description.
 [bnppCompliantFlag]: #bnppcompliantflag
 #### [bnppCompliantFlag]
 A flag indicating whether or not the datacenter/location is BNPP compliant.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -128,7 +137,8 @@ A flag indicating whether or not the datacenter/location is BNPP compliant.
 [euCompliantFlag]: #eucompliantflag
 #### [euCompliantFlag]
 A flag indicating whether or not the datacenter/location is EU compliant.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -138,7 +148,8 @@ A flag indicating whether or not the datacenter/location is EU compliant.
 [groups]: #groups
 #### [groups]
 A location can be a member of 1 or more groups. This will show which groups to which a location belongs.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Group'>SoftLayer_Location_Group[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Group'>SoftLayer_Location_Group[] </a>**  
+
 
 
 </div>
@@ -148,7 +159,8 @@ A location can be a member of 1 or more groups. This will show which groups to w
 [hardwareFirewalls]: #hardwarefirewalls
 #### [hardwareFirewalls]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**  
+
 
 
 </div>
@@ -158,7 +170,8 @@ A location can be a member of 1 or more groups. This will show which groups to w
 [locationAddress]: #locationaddress
 #### [locationAddress]
 A location's physical address.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Address'>SoftLayer_Account_Address </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Address'>SoftLayer_Account_Address </a>**  
+
 
 
 </div>
@@ -168,7 +181,8 @@ A location's physical address.
 [locationAddresses]: #locationaddresses
 #### [locationAddresses]
 A location's physical addresses.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Address'>SoftLayer_Account_Address[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Address'>SoftLayer_Account_Address[] </a>**  
+
 
 
 </div>
@@ -178,7 +192,8 @@ A location's physical addresses.
 [locationReservationMember]: #locationreservationmember
 #### [locationReservationMember]
 A location's Dedicated Rack member  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Reservation_Rack_Member'>SoftLayer_Location_Reservation_Rack_Member </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Reservation_Rack_Member'>SoftLayer_Location_Reservation_Rack_Member </a>**  
+
 
 
 </div>
@@ -188,7 +203,8 @@ A location's Dedicated Rack member
 [locationStatus]: #locationstatus
 #### [locationStatus]
 The current locations status.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Status'>SoftLayer_Location_Status </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Status'>SoftLayer_Location_Status </a>**  
+
 
 
 </div>
@@ -198,7 +214,8 @@ The current locations status.
 [networkConfigurationAttribute]: #networkconfigurationattribute
 #### [networkConfigurationAttribute]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Attribute'>SoftLayer_Hardware_Attribute </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Attribute'>SoftLayer_Hardware_Attribute </a>**  
+
 
 
 </div>
@@ -208,7 +225,8 @@ The current locations status.
 [onlineSslVpnUserCount]: #onlinesslvpnusercount
 #### [onlineSslVpnUserCount]
 The total number of users online using SoftLayer's SSL VPN service for a location.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -218,7 +236,8 @@ The total number of users online using SoftLayer's SSL VPN service for a locatio
 [pathString]: #pathstring
 #### [pathString]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -228,7 +247,8 @@ The total number of users online using SoftLayer's SSL VPN service for a locatio
 [priceGroups]: #pricegroups
 #### [priceGroups]
 A location can be a member of 1 or more Price Groups. This will show which groups to which a location belongs.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Group'>SoftLayer_Location_Group[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Group'>SoftLayer_Location_Group[] </a>**  
+
 
 
 </div>
@@ -238,7 +258,8 @@ A location can be a member of 1 or more Price Groups. This will show which group
 [regions]: #regions
 #### [regions]
 A location can be a member of 1 or more regions. This will show which regions to which a location belongs.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Region'>SoftLayer_Location_Region[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Region'>SoftLayer_Location_Region[] </a>**  
+
 
 
 </div>
@@ -248,7 +269,8 @@ A location can be a member of 1 or more regions. This will show which regions to
 [timezone]: #timezone
 #### [timezone]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Locale_Timezone'>SoftLayer_Locale_Timezone </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Locale_Timezone'>SoftLayer_Locale_Timezone </a>**  
+
 
 
 </div>
@@ -258,7 +280,8 @@ A location can be a member of 1 or more regions. This will show which regions to
 [vdrGroup]: #vdrgroup
 #### [vdrGroup]
 A location can be a member of 1 Bandwidth Pooling Group. This will show which group to which a location belongs.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Group_Location_CrossReference'>SoftLayer_Location_Group_Location_CrossReference </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Group_Location_CrossReference'>SoftLayer_Location_Group_Location_CrossReference </a>**  
+
 
 
 </div>
@@ -270,7 +293,8 @@ A location can be a member of 1 Bandwidth Pooling Group. This will show which gr
 [activePresaleEventCount]: #activepresaleeventcount
 #### [activePresaleEventCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -280,7 +304,8 @@ A count of
 [backboneDependentCount]: #backbonedependentcount
 #### [backboneDependentCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -290,7 +315,8 @@ A count of
 [groupCount]: #groupcount
 #### [groupCount]
 A count of a location can be a member of 1 or more groups. This will show which groups to which a location belongs.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -300,7 +326,8 @@ A count of a location can be a member of 1 or more groups. This will show which 
 [hardwareFirewallCount]: #hardwarefirewallcount
 #### [hardwareFirewallCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -310,7 +337,8 @@ A count of
 [locationAddressCount]: #locationaddresscount
 #### [locationAddressCount]
 A count of a location's physical addresses.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -320,7 +348,8 @@ A count of a location's physical addresses.
 [priceGroupCount]: #pricegroupcount
 #### [priceGroupCount]
 A count of a location can be a member of 1 or more Price Groups. This will show which groups to which a location belongs.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -330,7 +359,8 @@ A count of a location can be a member of 1 or more Price Groups. This will show 
 [regionCount]: #regioncount
 #### [regionCount]
 A count of a location can be a member of 1 or more regions. This will show which regions to which a location belongs.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

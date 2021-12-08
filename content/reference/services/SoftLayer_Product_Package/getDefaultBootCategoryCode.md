@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getDefaultBootCategoryCode
 
+
 Retrieve the default boot category code for the package.
 
 

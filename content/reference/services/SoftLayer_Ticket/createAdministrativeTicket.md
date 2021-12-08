@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::createAdministrativeTicket
 
+
 Create an administrative support ticket.
 
 

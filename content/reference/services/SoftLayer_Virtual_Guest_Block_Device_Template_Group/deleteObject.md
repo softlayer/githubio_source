@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest_Block_Device_Template_Group](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group)::deleteObject
 
+
 Create a transaction that will remove all block device templates from the group and delete the disk images associated with them. 
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_LoadBalancer_VirtualIpAddress data type contains all the information relating to a specific load balancer assigned to a customer account. 
 
 Information retained on the object itself is the virtual IP address, load balancing method, and any notes that are related to the load balancer.  There is also an array of SoftLayer_Network_LoadBalancer_Service objects, which represent the load balancer services, explained more fully in the SoftLayer_Network_LoadBalancer_Service documentation. 
@@ -52,7 +54,8 @@ Information retained on the object itself is the virtual IP address, load balanc
 [connectionLimit]: #connectionlimit
 #### [connectionLimit]
 Connection limit on this VIP.  Can be upgraded through the upgradeConnectionLimit() function  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -62,7 +65,8 @@ Connection limit on this VIP.  Can be upgraded through the upgradeConnectionLimi
 [id]: #id
 #### [id]
 Unique ID for this object, used for the getObject method, and must be set if you are editing this object.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -72,7 +76,8 @@ Unique ID for this object, used for the getObject method, and must be set if you
 [loadBalancingMethod]: #loadbalancingmethod
 #### [loadBalancingMethod]
 The load balancing method that determines which server is used "next" by the load balancer.  The method is stored in an abbreviated form, represented in parentheses after the full name. Methods include: Round Robin (Value "rr"):  Each server is used sequentially in a circular queue Shortest Response (Value "sr"):  The server with the lowest ping at the last health check gets the next request Least Connections (Value "lc"):  The server with the least current connections is given the next request Persistent IP - Round Robin (Value "pi"): The same server will be returned to a request during a users session.  Servers are chosen through round robin. Persistent IP - Shortest Response (Value "pi-sr"): The same server will be returned to a request during a users session.  Servers are chosen through shortest response. Persistent IP - Least Connections (Value "pi-lc"): The same server will be returned to a request during a users session.  Servers are chosen through least connections. Insert Cookie - Round Robin (Value "ic"):  Inserts a cookie into the HTTP stream that will tie that client to a particular balanced server. Servers are chosen through round robin. Insert Cookie - Shortest Response (Value "ic-sr"): Inserts a cookie into the HTTP stream that will tie that client to a particular balanced server. Servers are chosen through shortest response. Insert Cookie - Least Connections (Value "ic-lc"): Inserts a cookie into the HTTP stream that will tie that client to a particular balanced server. Servers are chosen through least connections.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -82,7 +87,8 @@ The load balancing method that determines which server is used "next" by the loa
 [loadBalancingMethodFullName]: #loadbalancingmethodfullname
 #### [loadBalancingMethodFullName]
 A human readable version of loadBalancingMethod, intended mainly for API users.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -92,7 +98,8 @@ A human readable version of loadBalancingMethod, intended mainly for API users.
 [modifyDate]: #modifydate
 #### [modifyDate]
 Date this load balancer was last modified  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -102,7 +109,8 @@ Date this load balancer was last modified
 [name]: #name
 #### [name]
 The name of the load balancer instance  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -112,7 +120,8 @@ The name of the load balancer instance
 [notes]: #notes
 #### [notes]
 User-created notes on this load balancer.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -122,7 +131,8 @@ User-created notes on this load balancer.
 [securityCertificateId]: #securitycertificateid
 #### [securityCertificateId]
 The unique identifier of the Security Certificate to be utilized when SSL support is enabled.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -132,7 +142,8 @@ The unique identifier of the Security Certificate to be utilized when SSL suppor
 [sourcePort]: #sourceport
 #### [sourcePort]
 This is the port for incoming traffic.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -142,7 +153,8 @@ This is the port for incoming traffic.
 [type]: #type
 #### [type]
 The connection type of this VIP.  Valid values are HTTP, FTP, TCP, UDP, and DNS.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -152,7 +164,8 @@ The connection type of this VIP.  Valid values are HTTP, FTP, TCP, UDP, and DNS.
 [virtualIpAddress]: #virtualipaddress
 #### [virtualIpAddress]
 The virtual, public-facing IP address for your load balancer.  This is the address of all incoming traffic  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -168,7 +181,8 @@ The virtual, public-facing IP address for your load balancer.  This is the addre
 [account]: #account
 #### [account]
 The account that owns this load balancer.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -178,7 +192,8 @@ The account that owns this load balancer.
 [billingItem]: #billingitem
 #### [billingItem]
 The current billing item for the Load Balancer.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**  
+
 
 
 </div>
@@ -188,7 +203,8 @@ The current billing item for the Load Balancer.
 [customerManagedFlag]: #customermanagedflag
 #### [customerManagedFlag]
 If false, this VIP and associated services may be edited via the portal or the API. If true, you must configure this VIP manually on the device.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -198,7 +214,8 @@ If false, this VIP and associated services may be edited via the portal or the A
 [managedResourceFlag]: #managedresourceflag
 #### [managedResourceFlag]
 A flag indicating that the load balancer is a managed resource.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -208,7 +225,8 @@ A flag indicating that the load balancer is a managed resource.
 [services]: #services
 #### [services]
 the services on this load balancer.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_Service'>SoftLayer_Network_LoadBalancer_Service[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_Service'>SoftLayer_Network_LoadBalancer_Service[] </a>**  
+
 
 
 </div>
@@ -220,7 +238,8 @@ the services on this load balancer.
 [serviceCount]: #servicecount
 #### [serviceCount]
 A count of the services on this load balancer.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

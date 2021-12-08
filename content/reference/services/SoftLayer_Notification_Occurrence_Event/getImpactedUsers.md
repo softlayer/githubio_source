@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Notification_Occurrence_Event](/reference/services/SoftLayer_Notification_Occurrence_Event)::getImpactedUsers
 
+
 Retrieve a collection of users impacted by this event. Each impacted user record relates directly to a [SoftLayer_User_Customer]({{<ref "reference/datatypes/SoftLayer_User_Customer">}}).
 
 

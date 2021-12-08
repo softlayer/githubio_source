@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,12 +44,14 @@ classes:
 
 #### [getObject](/reference/services/SoftLayer_Network_LBaaS_HealthMonitor/getObject)
 Retrieve a SoftLayer_Network_LBaaS_HealthMonitor record.
+
 </div>
 
 <div class="method-row">
 
 #### [updateLoadBalancerHealthMonitors](/reference/services/SoftLayer_Network_LBaaS_HealthMonitor/updateLoadBalancerHealthMonitors)
 Update load balancer health monitors
+
 </div>
 </div>
 

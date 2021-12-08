@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Provides details for the subscriber's delivery methods. 
 
 
@@ -45,7 +47,8 @@ Provides details for the subscriber's delivery methods.
 [active]: #active
 #### [active]
 Indicates the subscriber's delivery method availability for notifications.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Indicates the subscriber's delivery method availability for notifications.
 [createDate]: #createdate
 #### [createDate]
 Date the subscriber's delivery method was created.   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Date the subscriber's delivery method was created.
 [modifyDate]: #modifydate
 #### [modifyDate]
 Date the subscriber's delivery method was last modified.   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Date the subscriber's delivery method was last modified.
 [notificationDeliveryMethodId]: #notificationdeliverymethodid
 #### [notificationDeliveryMethodId]
 Identifier for the notification delivery method.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Identifier for the notification delivery method.
 [notificationSubscriberId]: #notificationsubscriberid
 #### [notificationSubscriberId]
 Identifier for the subscriber.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ Identifier for the subscriber.
 [notificationDeliveryMethod]: #notificationdeliverymethod
 #### [notificationDeliveryMethod]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Delivery_Method'>SoftLayer_Notification_Delivery_Method </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Delivery_Method'>SoftLayer_Notification_Delivery_Method </a>**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ Identifier for the subscriber.
 [notificationSubscriber]: #notificationsubscriber
 #### [notificationSubscriber]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Subscriber'>SoftLayer_Notification_Subscriber </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Subscriber'>SoftLayer_Notification_Subscriber </a>**  
+
 
 
 </div>

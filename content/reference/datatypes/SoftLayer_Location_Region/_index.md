@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 A region is made up of a keyname and a description of that region. A region keyname can be used as part of an order. Check the SoftLayer_Product_Order service for more details. 
 
 
@@ -51,7 +53,8 @@ A region is made up of a keyname and a description of that region. A region keyn
 [description]: #description
 #### [description]
 A short description of a region's name. This description is seen on the order forms.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -61,7 +64,8 @@ A short description of a region's name. This description is seen on the order fo
 [keyname]: #keyname
 #### [keyname]
 A unique key name for a region. Provided for easy debugging. This is to be sent in with an order.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ A unique key name for a region. Provided for easy debugging. This is to be sent 
 [sortOrder]: #sortorder
 #### [sortOrder]
 An integer representing the order in which this element is displayed.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -87,7 +92,8 @@ An integer representing the order in which this element is displayed.
 [location]: #location
 #### [location]
 Each region can have many locations tied to it. However, this is the location we currently provision to for a region. This location is the current valid location for a region. (Deprecated, use 'locations')  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Region_Location'>SoftLayer_Location_Region_Location </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Region_Location'>SoftLayer_Location_Region_Location </a>**  
+
 
 
 </div>
@@ -97,7 +103,8 @@ Each region can have many locations tied to it. However, this is the location we
 [locations]: #locations
 #### [locations]
 The locations (like datacenters or PoPs) in this region.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Region_Location'>SoftLayer_Location_Region_Location[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Region_Location'>SoftLayer_Location_Region_Location[] </a>**  
+
 
 
 </div>
@@ -109,7 +116,8 @@ The locations (like datacenters or PoPs) in this region.
 [locationCount]: #locationcount
 #### [locationCount]
 A count of the locations (like datacenters or PoPs) in this region.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

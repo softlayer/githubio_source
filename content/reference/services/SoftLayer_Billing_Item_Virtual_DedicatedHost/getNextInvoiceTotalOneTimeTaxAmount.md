@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item_Virtual_DedicatedHost](/reference/services/SoftLayer_Billing_Item_Virtual_DedicatedHost)::getNextInvoiceTotalOneTimeTaxAmount
 
+
 Retrieve a Billing Item's total, including any child billing items if they exist.'
 
 

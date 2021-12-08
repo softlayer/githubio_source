@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Permission_Resource_Type](/reference/services/SoftLayer_User_Permission_Resource_Type)::getObject
 
+
 Retrieve a SoftLayer_User_Permission_Resource_Type record.
 
 

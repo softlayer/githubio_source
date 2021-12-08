@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_LBaaS_L7HealthMonitor type presents a structure containing attributes of a health monitor object associated with a L7 pool instance. Note that the relationship between backend (L7 pool) and health monitor is 1-to-1, pools object associated with a health monitor must have the same pair of protocol and port. Example: frontend FA: http, 80   - backend BA: http, 3456 - healthmonitor HM_http3456 frontend FB: https, 443 - backend BB: http, 3456 - healthmonitor HM_http3456 
 
 
@@ -49,7 +51,8 @@ The SoftLayer_Network_LBaaS_L7HealthMonitor type presents a structure containing
 [createDate]: #createdate
 #### [createDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -59,7 +62,8 @@ The SoftLayer_Network_LBaaS_L7HealthMonitor type presents a structure containing
 [interval]: #interval
 #### [interval]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -69,7 +73,8 @@ The SoftLayer_Network_LBaaS_L7HealthMonitor type presents a structure containing
 [maxRetries]: #maxretries
 #### [maxRetries]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -79,7 +84,8 @@ The SoftLayer_Network_LBaaS_L7HealthMonitor type presents a structure containing
 [modifyDate]: #modifydate
 #### [modifyDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -89,7 +95,8 @@ The SoftLayer_Network_LBaaS_L7HealthMonitor type presents a structure containing
 [monitorType]: #monitortype
 #### [monitorType]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -99,7 +106,8 @@ The SoftLayer_Network_LBaaS_L7HealthMonitor type presents a structure containing
 [provisioningStatus]: #provisioningstatus
 #### [provisioningStatus]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -109,7 +117,8 @@ The SoftLayer_Network_LBaaS_L7HealthMonitor type presents a structure containing
 [timeout]: #timeout
 #### [timeout]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -119,7 +128,8 @@ The SoftLayer_Network_LBaaS_L7HealthMonitor type presents a structure containing
 [urlPath]: #urlpath
 #### [urlPath]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

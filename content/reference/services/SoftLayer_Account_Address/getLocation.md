@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Address](/reference/services/SoftLayer_Account_Address)::getLocation
 
+
 Retrieve the location of this address.
 
 

@@ -13,6 +13,8 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getBackendBandwidthUse
 
+<div class="deprecated"><span class="deprecation-label">Deprecated </span></div>
+
 Retrieves private bandwidth usage records.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Storage_Repository](/reference/services/SoftLayer_Virtual_Storage_Repository)::getDatacenter
 
+
 Retrieve the datacenter that a virtual storage repository resides in.
 
 

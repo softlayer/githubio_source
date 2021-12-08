@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getHost
 
+
 Retrieve the virtual host on which a virtual guest resides (available only on private clouds).
 
 

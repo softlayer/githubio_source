@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 A SoftLayer_Account_Attachment_Employee models an assignment of a single [SoftLayer_User_Employee]({{<ref "reference/datatypes/SoftLayer_User_Employee">}}) 
 
 
@@ -45,7 +47,8 @@ A SoftLayer_Account_Attachment_Employee models an assignment of a single [SoftLa
 [roleId]: #roleid
 #### [roleId]
 Role identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -61,7 +64,8 @@ Role identifier.
 [account]: #account
 #### [account]
 A [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}).  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ A [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}).
 [employee]: #employee
 #### [employee]
 A [SoftLayer_User_Employee]({{<ref "reference/datatypes/SoftLayer_User_Employee">}}).  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee </a>**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ A [SoftLayer_User_Employee]({{<ref "reference/datatypes/SoftLayer_User_Employee"
 [employeeRole]: #employeerole
 #### [employeeRole]
 A [SoftLayer_User_Employee]({{<ref "reference/datatypes/SoftLayer_User_Employee">}}).  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Attachment_Employee_Role'>SoftLayer_Account_Attachment_Employee_Role </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Attachment_Employee_Role'>SoftLayer_Account_Attachment_Employee_Role </a>**  
+
 
 
 </div>

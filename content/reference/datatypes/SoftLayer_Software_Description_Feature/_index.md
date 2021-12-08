@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Software_Description_Feature data type represents a single software description feature. A feature may show up on more than one software description and can not be created, modified, or removed. 
 
 
@@ -50,7 +52,8 @@ The SoftLayer_Software_Description_Feature data type represents a single softwar
 [id]: #id
 #### [id]
 The unique identifier for a software description feature.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ The unique identifier for a software description feature.
 [keyName]: #keyname
 #### [keyName]
 A unique name used to reference this software description feature.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -70,7 +74,8 @@ A unique name used to reference this software description feature.
 [name]: #name
 #### [name]
 The name of a software description feature.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -80,7 +85,8 @@ The name of a software description feature.
 [vendor]: #vendor
 #### [vendor]
 The vendor that a software description feature belongs to.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

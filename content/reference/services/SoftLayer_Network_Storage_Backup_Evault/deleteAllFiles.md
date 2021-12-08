@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::deleteAllFiles
 
+
 Delete all files within a Storage account.
 
 

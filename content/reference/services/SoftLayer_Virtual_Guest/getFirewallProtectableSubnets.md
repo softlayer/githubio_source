@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getFirewallProtectableSubnets
 
+
 Get the subnets associated with this CloudLayer computing instance that are protectable by a network component firewall.
 
 

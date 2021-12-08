@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getAllFilesByFilter
 
+
 Retrieve a listing of all files matching the filter's criteria in a Storage account's root directory.
 
 

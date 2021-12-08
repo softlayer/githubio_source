@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_LoadBalancer_Global_Account](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account)::getLoadBalanceType
 
+
 Retrieve the load balance method of a global load balancer account
 
 

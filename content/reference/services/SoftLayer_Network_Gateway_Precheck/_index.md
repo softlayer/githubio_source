@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 A network gateway precheck is the precheck codes for member(s) of a gateway 
 
 
@@ -42,30 +44,35 @@ A network gateway precheck is the precheck codes for member(s) of a gateway
 
 #### [getObject](/reference/services/SoftLayer_Network_Gateway_Precheck/getObject)
 Retrieve a SoftLayer_Network_Gateway_Precheck record.
+
 </div>
 
 <div class="method-row">
 
 #### [getPrecheckStatus](/reference/services/SoftLayer_Network_Gateway_Precheck/getPrecheckStatus)
 Get Precheck status for Gateway
+
 </div>
 
 <div class="method-row">
 
 #### [licenseManagementPrecheck](/reference/services/SoftLayer_Network_Gateway_Precheck/licenseManagementPrecheck)
 License Management Gateway Precheck
+
 </div>
 
 <div class="method-row">
 
 #### [osReloadPrecheck](/reference/services/SoftLayer_Network_Gateway_Precheck/osReloadPrecheck)
 OS Reload Gateway Precheck
+
 </div>
 
 <div class="method-row">
 
 #### [upgradePrecheck](/reference/services/SoftLayer_Network_Gateway_Precheck/upgradePrecheck)
 Upgrade Gateway Precheck
+
 </div>
 </div>
 

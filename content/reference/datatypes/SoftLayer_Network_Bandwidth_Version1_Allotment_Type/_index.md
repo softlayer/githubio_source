@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_Bandwidth_Version1_Allotment_Type contains a description of the associated SoftLayer_Network_Bandwidth_Version1_Allotment object. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Network_Bandwidth_Version1_Allotment_Type contains a description o
 [description]: #description
 #### [description]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The SoftLayer_Network_Bandwidth_Version1_Allotment_Type contains a description o
 [id]: #id
 #### [id]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The SoftLayer_Network_Bandwidth_Version1_Allotment_Type contains a description o
 [keyName]: #keyname
 #### [keyName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The SoftLayer_Network_Bandwidth_Version1_Allotment_Type contains a description o
 [shortDescription]: #shortdescription
 #### [shortDescription]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

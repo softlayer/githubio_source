@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::editObjects
 
+
 Update a collection of users' information
 
 

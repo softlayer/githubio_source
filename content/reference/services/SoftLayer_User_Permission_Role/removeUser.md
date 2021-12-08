@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Permission_Role](/reference/services/SoftLayer_User_Permission_Role)::removeUser
 
+
 Unassign a user customer from the role.
 
 

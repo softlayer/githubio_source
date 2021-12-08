@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Resource_Metadata](/reference/services/SoftLayer_Resource_Metadata)::getRouter
 
+
 The router associated with a network component
 
 

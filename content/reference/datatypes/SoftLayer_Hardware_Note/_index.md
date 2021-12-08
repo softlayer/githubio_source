@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [createDate]: #createdate
 #### [createDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ classes:
 [hardwareId]: #hardwareid
 #### [hardwareId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ classes:
 [id]: #id
 #### [id]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ classes:
 [modifyDate]: #modifydate
 #### [modifyDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ classes:
 [note]: #note
 #### [note]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ classes:
 [typeId]: #typeid
 #### [typeId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ classes:
 [userRecordId]: #userrecordid
 #### [userRecordId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ classes:
 [employee]: #employee
 #### [employee]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee </a>**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ classes:
 [hardware]: #hardware
 #### [hardware]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ classes:
 [type]: #type
 #### [type]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Note_Type'>SoftLayer_Hardware_Note_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Note_Type'>SoftLayer_Hardware_Note_Type </a>**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ classes:
 [user]: #user
 #### [user]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**  
+
 
 
 </div>

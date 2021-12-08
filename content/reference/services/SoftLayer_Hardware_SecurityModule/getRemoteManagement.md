@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getRemoteManagement
 
+
 Retrieve a server's remote management card.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_ProofOfConcept_Funding_Type](/reference/services/SoftLayer_Account_ProofOfConcept_Funding_Type)::getObject
 
+
 Retrieve a SoftLayer_Account_ProofOfConcept_Funding_Type record.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Item_Price](/reference/services/SoftLayer_Product_Item_Price)::getDefinedSoftwareLicenseFlag
 
+
 Retrieve whether this price defines a software license for its product item.
 
 

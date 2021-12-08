@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::updateSubscriberDeliveryMethod
 
+
 Update a delivery method for the subscriber.
 
 

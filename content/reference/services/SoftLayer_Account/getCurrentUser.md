@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getCurrentUser
 
+
 Retrieve the current API user's record.
 
 

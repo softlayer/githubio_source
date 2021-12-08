@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect_TrustedProfile](/reference/services/SoftLayer_User_Customer_OpenIdConnect_TrustedProfile)::addPortalPermission
 
+
 Add a permission to a portal user's permission set.
 
 

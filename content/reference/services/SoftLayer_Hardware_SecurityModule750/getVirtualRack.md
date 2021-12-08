@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getVirtualRack
 
+
 Retrieve information regarding the bandwidth allotment to which a piece of hardware belongs.
 
 

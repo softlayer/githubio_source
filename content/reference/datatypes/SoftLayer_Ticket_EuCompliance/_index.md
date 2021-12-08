@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -51,7 +53,8 @@ classes:
 [datacenter]: #datacenter
 #### [datacenter]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**  
+
 
 
 </div>
@@ -61,7 +64,8 @@ classes:
 [securityLevel]: #securitylevel
 #### [securityLevel]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Security_Level'>SoftLayer_Security_Level </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Security_Level'>SoftLayer_Security_Level </a>**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ classes:
 [ticket]: #ticket
 #### [ticket]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>**  
+
 
 
 </div>

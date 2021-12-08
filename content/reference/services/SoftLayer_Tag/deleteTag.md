@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Tag](/reference/services/SoftLayer_Tag)::deleteTag
 
+
 delete tag for a given object.
 
 

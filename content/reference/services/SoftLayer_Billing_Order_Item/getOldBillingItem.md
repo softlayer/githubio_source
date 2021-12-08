@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Order_Item](/reference/services/SoftLayer_Billing_Order_Item)::getOldBillingItem
 
+
 Retrieve this is only populated when an upgrade order is placed. The old billing item represents what the billing was before the upgrade happened.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Scale_Policy_Trigger_OneTime](/reference/services/SoftLayer_Scale_Policy_Trigger_OneTime)::getType
 
+
 Retrieve the type of trigger.
 
 

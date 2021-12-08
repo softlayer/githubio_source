@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getMigratedToIbmCloudPortalFlag
 
+
 Retrieve flag indicating whether this account is restricted to the IBM Cloud portal.
 
 

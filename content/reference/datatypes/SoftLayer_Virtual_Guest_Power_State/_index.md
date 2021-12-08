@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The power state class provides a common set of values for which a guest's power state will be presented in the SoftLayer API. 
 
 
@@ -45,7 +47,8 @@ The power state class provides a common set of values for which a guest's power 
 [description]: #description
 #### [description]
 The description of a power state   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The description of a power state
 [keyName]: #keyname
 #### [keyName]
 The key name of a power state   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The key name of a power state
 [name]: #name
 #### [name]
 The name of a power state   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getIsBillingTermChangeAvailableFlag
 
+
 Retrieve whether or not this hardware object is eligible to change to term billing.
 
 

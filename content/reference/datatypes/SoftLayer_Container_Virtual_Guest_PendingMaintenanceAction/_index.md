@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Container_Virtual_Guest_PendingMaintenanceAction data type contains information relating to a SoftLayer_Virtual_Guest's pending maintenance actions. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Container_Virtual_Guest_PendingMaintenanceAction data type contain
 [actionId]: #actionid
 #### [actionId]
 The ID of the associated action.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The ID of the associated action.
 [dueDate]: #duedate
 #### [dueDate]
 The datetime at which this action will be initiated regardless of customer action (if it has not already been completed).   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -67,7 +71,8 @@ The datetime at which this action will be initiated regardless of customer actio
 User-friendly status. 
 
 The <code>Completed</code> status means that it is done, no further action is required. The <code>Scheduled</code> status means that the action is pending and will start on the <code>dueDate</code> if no customer action is taken before such time. The <code>In Progress</code> status means the action is currently being executed.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -77,7 +82,8 @@ The <code>Completed</code> status means that it is done, no further action is re
 [ticket]: #ticket
 #### [ticket]
 The ticket associated with this maintenance action.   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>**  
+
 
 
 </div>
@@ -87,7 +93,8 @@ The ticket associated with this maintenance action.
 [title]: #title
 #### [title]
 The Title for the associated action.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -97,7 +104,8 @@ The Title for the associated action.
 [triggerExplanation]: #triggerexplanation
 #### [triggerExplanation]
 The Trigger Explanation for the associated action.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

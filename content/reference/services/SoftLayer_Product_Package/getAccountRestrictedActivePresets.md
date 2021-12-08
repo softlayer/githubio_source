@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getAccountRestrictedActivePresets
 
+
 Retrieve the preset configurations available only for the authenticated account and this package.
 
 

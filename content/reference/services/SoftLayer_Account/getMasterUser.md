@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getMasterUser
 
+
 Retrieve an account's master user.
 
 

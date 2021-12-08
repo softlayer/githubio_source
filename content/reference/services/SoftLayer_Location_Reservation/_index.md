@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,11 +44,13 @@ classes:
 
 #### [getAccount](/reference/services/SoftLayer_Location_Reservation/getAccount)
 Retrieve the account that a billing item belongs to.
+
 </div>
 
 <div class="method-row">
 
 #### [getAccountReservations](/reference/services/SoftLayer_Location_Reservation/getAccountReservations)
+
 
 </div>
 
@@ -54,30 +58,35 @@ Retrieve the account that a billing item belongs to.
 
 #### [getAllotment](/reference/services/SoftLayer_Location_Reservation/getAllotment)
 Retrieve the bandwidth allotment that the reservation belongs to.
+
 </div>
 
 <div class="method-row">
 
 #### [getBillingItem](/reference/services/SoftLayer_Location_Reservation/getBillingItem)
 Retrieve the bandwidth allotment that the reservation belongs to.
+
 </div>
 
 <div class="method-row">
 
 #### [getLocation](/reference/services/SoftLayer_Location_Reservation/getLocation)
 Retrieve the datacenter location that the reservation belongs to.
+
 </div>
 
 <div class="method-row">
 
 #### [getLocationReservationRack](/reference/services/SoftLayer_Location_Reservation/getLocationReservationRack)
 Retrieve rack information for the reservation
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Location_Reservation/getObject)
 Retrieve a SoftLayer_Location_Reservation record.
+
 </div>
 </div>
 

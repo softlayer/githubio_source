@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getHardwareWithUrchin
 
+
 Retrieve all hardware associated with an account that has the Urchin web traffic analytics package installed.
 
 

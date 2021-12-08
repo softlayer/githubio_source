@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [firmwareVersionId]: #firmwareversionid
 #### [firmwareVersionId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ classes:
 [hardwareComponentId]: #hardwarecomponentid
 #### [hardwareComponentId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ classes:
 [id]: #id
 #### [id]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ classes:
 [biosDate]: #biosdate
 #### [biosDate]
 The firmware build date  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ The firmware build date
 [firmware]: #firmware
 #### [firmware]
 The Firmware installed on this record's Hardware Component.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Firmware'>SoftLayer_Hardware_Component_Firmware </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Firmware'>SoftLayer_Hardware_Component_Firmware </a>**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ The Firmware installed on this record's Hardware Component.
 [hardwareComponent]: #hardwarecomponent
 #### [hardwareComponent]
 The Hardware Component this revision record applies to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component </a>**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ The Hardware Component this revision record applies to.
 [revision]: #revision
 #### [revision]
 The firmware revision  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

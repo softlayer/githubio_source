@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Vlan_Firewall](/reference/services/SoftLayer_Network_Vlan_Firewall)::restoreDefaults
 
+
 Reset the FSA 10G firewall to factory settings.
 
 

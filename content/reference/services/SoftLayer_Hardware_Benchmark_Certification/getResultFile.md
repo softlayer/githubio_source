@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Benchmark_Certification](/reference/services/SoftLayer_Hardware_Benchmark_Certification)::getResultFile
 
+
 Retrieve the file for a benchmark certification result, if is exists.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getSanStorageCapabilityFlag
 
+
 Retrieve a flag indicating that a vlan can be assigned to a host that has SAN disk functionality.
 
 

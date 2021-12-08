@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Order](/reference/services/SoftLayer_Billing_Order)::getOrderTotalOneTimeTaxAmount
 
+
 Retrieve an order's total one time tax amount. This amount represents the tax that will be applied to the total charge, if the SoftLayer_Account tied to a SoftLayer_Billing_Order is a taxable account.
 
 

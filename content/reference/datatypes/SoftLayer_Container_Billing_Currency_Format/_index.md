@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [currency]: #currency
 #### [currency]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ classes:
 [display]: #display
 #### [display]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ classes:
 [format]: #format
 #### [format]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ classes:
 [locale]: #locale
 #### [locale]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ classes:
 [name]: #name
 #### [name]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ classes:
 [position]: #position
 #### [position]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ classes:
 [precision]: #precision
 #### [precision]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ classes:
 [script]: #script
 #### [script]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ classes:
 [service]: #service
 #### [service]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ classes:
 [symbol]: #symbol
 #### [symbol]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -145,7 +157,8 @@ classes:
 [tag]: #tag
 #### [tag]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -155,7 +168,8 @@ classes:
 [value]: #value
 #### [value]
   
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Product_Package_Server data type contains summarized information for bare metal servers regarding pricing, processor stats, and feature sets. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Product_Package_Server data type contains summarized information f
 [bareMetalReservedFlag]: #baremetalreservedflag
 #### [bareMetalReservedFlag]
 Flag to indicate if the server a Bare Metal Reserved offering.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Flag to indicate if the server a Bare Metal Reserved offering.
 [catalogId]: #catalogid
 #### [catalogId]
 The unique identifier of a [SoftLayer_Product_Catalog]({{<ref "reference/datatypes/SoftLayer_Product_Catalog">}}).  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The unique identifier of a [SoftLayer_Product_Catalog]({{<ref "reference/datatyp
 [datacenters]: #datacenters
 #### [datacenters]
 Comma-separated list of datacenter names this server is available in  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Comma-separated list of datacenter names this server is available in
 [defaultRamCapacity]: #defaultramcapacity
 #### [defaultRamCapacity]
 The minimum amount of RAM the server is configured with.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The minimum amount of RAM the server is configured with.
 [dualPathNetworkFlag]: #dualpathnetworkflag
 #### [dualPathNetworkFlag]
 Flag to indicate if the server configuration supports dual path network routing.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ Flag to indicate if the server configuration supports dual path network routing.
 [flexCoreServerFlag]: #flexcoreserverflag
 #### [flexCoreServerFlag]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ Flag to indicate if the server configuration supports dual path network routing.
 [gpuFlag]: #gpuflag
 #### [gpuFlag]
 Indicates whether or not the server contains a GPU.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ Indicates whether or not the server contains a GPU.
 [hourlyBillingFlag]: #hourlybillingflag
 #### [hourlyBillingFlag]
 Flag to determine if a server is available for hourly billing.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ Flag to determine if a server is available for hourly billing.
 [id]: #id
 #### [id]
 The unique identifier of a [SoftLayer_Product_Package_Server]({{<ref "reference/datatypes/SoftLayer_Product_Package_Server">}}).  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ The unique identifier of a [SoftLayer_Product_Package_Server]({{<ref "reference/
 [itemId]: #itemid
 #### [itemId]
 The unique identifier of a [SoftLayer_Product_Item]({{<ref "reference/datatypes/SoftLayer_Product_Item">}}).  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -145,7 +157,8 @@ The unique identifier of a [SoftLayer_Product_Item]({{<ref "reference/datatypes/
 [itemPriceId]: #itempriceid
 #### [itemPriceId]
 The unique identifier of a [SoftLayer_Product_Item_Price]({{<ref "reference/datatypes/SoftLayer_Product_Item_Price">}}).  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -155,7 +168,8 @@ The unique identifier of a [SoftLayer_Product_Item_Price]({{<ref "reference/data
 [maximumDriveCount]: #maximumdrivecount
 #### [maximumDriveCount]
 The maximum number of hard drives the server can support.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -165,7 +179,8 @@ The maximum number of hard drives the server can support.
 [maximumPortSpeed]: #maximumportspeed
 #### [maximumPortSpeed]
 The maximum available network speed for the server.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -175,7 +190,8 @@ The maximum available network speed for the server.
 [maximumRamCapacity]: #maximumramcapacity
 #### [maximumRamCapacity]
 The maximum amount of RAM the server can support.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -185,7 +201,8 @@ The maximum amount of RAM the server can support.
 [minimumPortSpeed]: #minimumportspeed
 #### [minimumPortSpeed]
 The minimum available network speed for the server.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -195,7 +212,8 @@ The minimum available network speed for the server.
 [networkGatewayApplianceRoleFlag]: #networkgatewayapplianceroleflag
 #### [networkGatewayApplianceRoleFlag]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -205,7 +223,8 @@ The minimum available network speed for the server.
 [outletFlag]: #outletflag
 #### [outletFlag]
 DEPRECATED. Indicates whether or not the server is being sold as part of an outlet package.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -215,7 +234,8 @@ DEPRECATED. Indicates whether or not the server is being sold as part of an outl
 [packageId]: #packageid
 #### [packageId]
 The unique identifier of a [SoftLayer_Product_Package]({{<ref "reference/datatypes/SoftLayer_Product_Package">}}).  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -225,7 +245,8 @@ The unique identifier of a [SoftLayer_Product_Package]({{<ref "reference/datatyp
 [packageType]: #packagetype
 #### [packageType]
 The type of service offering/package.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -235,7 +256,8 @@ The type of service offering/package.
 [powerServerFlag]: #powerserverflag
 #### [powerServerFlag]
 Flag to indicate if the server is an IBM Power server.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -245,7 +267,8 @@ Flag to indicate if the server is an IBM Power server.
 [presetId]: #presetid
 #### [presetId]
 The unique identifier of a [SoftLayer_Product_Package_Preset]({{<ref "reference/datatypes/SoftLayer_Product_Package_Preset">}}).  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -255,7 +278,8 @@ The unique identifier of a [SoftLayer_Product_Package_Preset]({{<ref "reference/
 [privateNetworkOnlyFlag]: #privatenetworkonlyflag
 #### [privateNetworkOnlyFlag]
 Indicates whether or not the server can only be configured with a private network.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -265,7 +289,8 @@ Indicates whether or not the server can only be configured with a private networ
 [processorBusSpeed]: #processorbusspeed
 #### [processorBusSpeed]
 The processor's bus speed.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -275,7 +300,8 @@ The processor's bus speed.
 [processorCache]: #processorcache
 #### [processorCache]
 The amount of cache the processor has.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -285,7 +311,8 @@ The amount of cache the processor has.
 [processorCores]: #processorcores
 #### [processorCores]
 The number of cores in each processor.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -295,7 +322,8 @@ The number of cores in each processor.
 [processorCount]: #processorcount
 #### [processorCount]
 The number of processors the server has.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -305,7 +333,8 @@ The number of processors the server has.
 [processorManufacturer]: #processormanufacturer
 #### [processorManufacturer]
 The manufacturer of the server's processor.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -315,7 +344,8 @@ The manufacturer of the server's processor.
 [processorModel]: #processormodel
 #### [processorModel]
 The model of the server's processor.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -325,7 +355,8 @@ The model of the server's processor.
 [processorName]: #processorname
 #### [processorName]
 The name of the server's processor.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -335,7 +366,8 @@ The name of the server's processor.
 [processorSpeed]: #processorspeed
 #### [processorSpeed]
 The processor speed.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -345,7 +377,8 @@ The processor speed.
 [productName]: #productname
 #### [productName]
 The name of the server product.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -355,7 +388,8 @@ The name of the server product.
 [redundantPowerFlag]: #redundantpowerflag
 #### [redundantPowerFlag]
 Indicates whether or not the server has the capability to support a redundant power supply.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -365,7 +399,8 @@ Indicates whether or not the server has the capability to support a redundant po
 [sapCertifiedServerFlag]: #sapcertifiedserverflag
 #### [sapCertifiedServerFlag]
 Flag to indicate if the server is SAP certified.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -375,7 +410,8 @@ Flag to indicate if the server is SAP certified.
 [startingHourlyPrice]: #startinghourlyprice
 #### [startingHourlyPrice]
 The hourly starting price for the server. This includes a sum of all the minimum required items, including RAM and hard drives. Not all servers are available hourly.   
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -385,7 +421,8 @@ The hourly starting price for the server. This includes a sum of all the minimum
 [startingMonthlyPrice]: #startingmonthlyprice
 #### [startingMonthlyPrice]
 The monthly starting price for the server. This includes a sum of all the minimum required items, including RAM and hard drives.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -395,7 +432,8 @@ The monthly starting price for the server. This includes a sum of all the minimu
 [termLength]: #termlength
 #### [termLength]
 The length of a term if a server has a term-based price  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -405,7 +443,8 @@ The length of a term if a server has a term-based price
 [totalCoreCount]: #totalcorecount
 #### [totalCoreCount]
 The total number of processor cores available for the server.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -415,7 +454,8 @@ The total number of processor cores available for the server.
 [txtTpmFlag]: #txttpmflag
 #### [txtTpmFlag]
 Flag to indicate if the server configuration supports TXT/TPM.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -425,7 +465,8 @@ Flag to indicate if the server configuration supports TXT/TPM.
 [unitSize]: #unitsize
 #### [unitSize]
 The size of the server.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -435,7 +476,8 @@ The size of the server.
 [vmwareVsanNodeFlag]: #vmwarevsannodeflag
 #### [vmwareVsanNodeFlag]
 Flag to indicate if the server is a VMware vSAN Node configuration.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -451,7 +493,8 @@ Flag to indicate if the server is a VMware vSAN Node configuration.
 [catalog]: #catalog
 #### [catalog]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Catalog'>SoftLayer_Product_Catalog </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Catalog'>SoftLayer_Product_Catalog </a>**  
+
 
 
 </div>
@@ -461,7 +504,8 @@ Flag to indicate if the server is a VMware vSAN Node configuration.
 [item]: #item
 #### [item]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>**  
+
 
 
 </div>
@@ -471,7 +515,8 @@ Flag to indicate if the server is a VMware vSAN Node configuration.
 [itemPrice]: #itemprice
 #### [itemPrice]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price </a>**  
+
 
 
 </div>
@@ -481,7 +526,8 @@ Flag to indicate if the server is a VMware vSAN Node configuration.
 [package]: #package
 #### [package]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package </a>**  
+
 
 
 </div>
@@ -491,7 +537,8 @@ Flag to indicate if the server is a VMware vSAN Node configuration.
 [preset]: #preset
 #### [preset]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Preset'>SoftLayer_Product_Package_Preset </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Preset'>SoftLayer_Product_Package_Preset </a>**  
+
 
 
 </div>

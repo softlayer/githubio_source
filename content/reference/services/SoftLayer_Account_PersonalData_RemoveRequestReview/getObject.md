@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_PersonalData_RemoveRequestReview](/reference/services/SoftLayer_Account_PersonalData_RemoveRequestReview)::getObject
 
+
 Retrieve a SoftLayer_Account_PersonalData_RemoveRequestReview record.
 
 

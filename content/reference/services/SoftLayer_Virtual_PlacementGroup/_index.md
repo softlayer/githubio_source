@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 SoftLayer_Virtual_PlacementGroup is a collection of virtual guests to be placed relative to each other according to a rule. 
 
 
@@ -42,11 +44,13 @@ SoftLayer_Virtual_PlacementGroup is a collection of virtual guests to be placed 
 
 #### [createObject](/reference/services/SoftLayer_Virtual_PlacementGroup/createObject)
 
+
 </div>
 
 <div class="method-row">
 
 #### [deleteObject](/reference/services/SoftLayer_Virtual_PlacementGroup/deleteObject)
+
 
 </div>
 
@@ -54,17 +58,20 @@ SoftLayer_Virtual_PlacementGroup is a collection of virtual guests to be placed 
 
 #### [editObject](/reference/services/SoftLayer_Virtual_PlacementGroup/editObject)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getAccount](/reference/services/SoftLayer_Virtual_PlacementGroup/getAccount)
 Retrieve the account that the placement group is implemented on.
+
 </div>
 
 <div class="method-row">
 
 #### [getAvailableRouters](/reference/services/SoftLayer_Virtual_PlacementGroup/getAvailableRouters)
+
 
 </div>
 
@@ -72,24 +79,28 @@ Retrieve the account that the placement group is implemented on.
 
 #### [getBackendRouter](/reference/services/SoftLayer_Virtual_PlacementGroup/getBackendRouter)
 Retrieve the router the placement group is implemented on.
+
 </div>
 
 <div class="method-row">
 
 #### [getGuests](/reference/services/SoftLayer_Virtual_PlacementGroup/getGuests)
 Retrieve the virtual guests that are members of the placement group.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Virtual_PlacementGroup/getObject)
 Retrieve a SoftLayer_Virtual_PlacementGroup record.
+
 </div>
 
 <div class="method-row">
 
 #### [getRule](/reference/services/SoftLayer_Virtual_PlacementGroup/getRule)
 Retrieve the placement rule that the placement group is implementing.
+
 </div>
 </div>
 

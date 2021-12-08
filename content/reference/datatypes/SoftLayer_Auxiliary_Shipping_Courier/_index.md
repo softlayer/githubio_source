@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Auxiliary_Shipping_Courier data type contains general information relating the different (major) couriers that SoftLayer may use for shipping. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Auxiliary_Shipping_Courier data type contains general information 
 [id]: #id
 #### [id]
 The unique id of the shipping courier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The unique id of the shipping courier.
 [keyName]: #keyname
 #### [keyName]
 The unique keyname of the shipping courier.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The unique keyname of the shipping courier.
 [name]: #name
 #### [name]
 The name of the shipping courier.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The name of the shipping courier.
 [url]: #url
 #### [url]
 The url to shipping courier's website.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

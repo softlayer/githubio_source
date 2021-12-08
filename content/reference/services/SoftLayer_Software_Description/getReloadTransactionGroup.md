@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Software_Description](/reference/services/SoftLayer_Software_Description)::getReloadTransactionGroup
 
+
 Retrieve the transaction group that a software description belongs to. A transaction group is a sequence of transactions that must be performed in a specific order for the installation of software.
 
 

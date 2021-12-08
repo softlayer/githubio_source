@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getDatacentersWithSubnetAllocations
 
+
 Retrieve datacenters which contain subnets that the account has access to route.
 
 

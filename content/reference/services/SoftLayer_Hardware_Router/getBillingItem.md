@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getBillingItem
 
+
 Retrieve information regarding the billing item for a server.
 
 

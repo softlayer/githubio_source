@@ -20,6 +20,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The monitoring result object is used to show the status of the actions taken by the monitoring system. 
 
 In general, only the responseStatus variable is needed, as it holds the information on the status of the service. 
@@ -49,7 +51,8 @@ In general, only the responseStatus variable is needed, as it holds the informat
 [finishTime]: #finishtime
 #### [finishTime]
 The timestamp of when this monitor was co  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -59,7 +62,8 @@ The timestamp of when this monitor was co
 [responseStatus]: #responsestatus
 #### [responseStatus]
 The response status for this server.  The response status meanings are: 0:  Down/Critical: Server is down and/or has passed the critical response threshold (extremely long ping response, abnormal behavior, etc.) 1:  Warning - Server may be recovering from a previous down state, or may have taken too long to respond 2:  Up 3:  Not used 4:  Unknown - An unknown error has occurred.  If the problem persists, contact support. 5:  Unknown - An unknown error has occurred.  If the problem persists, contact support.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -69,7 +73,8 @@ The response status for this server.  The response status meanings are: 0:  Down
 [responseTime]: #responsetime
 #### [responseTime]
 The length of time it took the server to respond  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -85,7 +90,8 @@ The length of time it took the server to respond
 [queryHost]: #queryhost
 #### [queryHost]
 References the queryHost that this response relates to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Host'>SoftLayer_Network_Monitor_Version1_Query_Host </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Host'>SoftLayer_Network_Monitor_Version1_Query_Host </a>**  
+
 
 
 </div>

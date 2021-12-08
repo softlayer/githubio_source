@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 This service manages purge history associated with a CDN mapping Configuration. 
 
 
@@ -42,12 +44,14 @@ This service manages purge history associated with a CDN mapping Configuration.
 
 #### [getObject](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Cache_PurgeHistory/getObject)
 Retrieve a SoftLayer_Network_CdnMarketplace_Configuration_Cache_PurgeHistory record.
+
 </div>
 
 <div class="method-row">
 
 #### [listPurgeGroupHistory](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Cache_PurgeHistory/listPurgeGroupHistory)
 This method returns the list of purge group histories 
+
 </div>
 </div>
 

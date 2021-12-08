@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Item_Price](/reference/services/SoftLayer_Product_Item_Price)::getPricingLocationGroup
 
+
 Retrieve the pricing location group that this price is applicable for. Prices that have a pricing location group will only be available for ordering with the locations specified on the location group.
 
 

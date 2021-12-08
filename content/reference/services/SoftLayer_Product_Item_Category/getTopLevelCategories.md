@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Item_Category](/reference/services/SoftLayer_Product_Item_Category)::getTopLevelCategories
 
+
 Returns a collection of top-level categories.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::isPingable
 
+
 Verifies whether or not a server is pingable.
 
 

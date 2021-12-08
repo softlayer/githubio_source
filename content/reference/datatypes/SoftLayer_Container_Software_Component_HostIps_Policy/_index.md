@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Container_Software_Component_HostIps_Policy container holds the title and value of a current host ips policy.
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Container_Software_Component_HostIps_Policy container holds the ti
 [policy]: #policy
 #### [policy]
 The value of a host ips category.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The value of a host ips category.
 [policyTitle]: #policytitle
 #### [policyTitle]
 The category title of a host ips policy.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

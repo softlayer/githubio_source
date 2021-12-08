@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [brandKeyName]: #brandkeyname
 #### [brandKeyName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ classes:
 [softLayerBrandMoveDate]: #softlayerbrandmovedate
 #### [softLayerBrandMoveDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_CdnMarketplace_Configuration_Behavior_TokenAuth](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_TokenAuth)::getObject
 
+
 Retrieve a SoftLayer_Network_CdnMarketplace_Configuration_Behavior_TokenAuth record.
 
 

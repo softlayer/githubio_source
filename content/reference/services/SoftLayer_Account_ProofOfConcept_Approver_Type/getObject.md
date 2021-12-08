@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_ProofOfConcept_Approver_Type](/reference/services/SoftLayer_Account_ProofOfConcept_Approver_Type)::getObject
 
+
 Retrieve a SoftLayer_Account_ProofOfConcept_Approver_Type record.
 
 

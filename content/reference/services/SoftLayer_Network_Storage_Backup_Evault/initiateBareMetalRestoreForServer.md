@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::initiateBareMetalRestoreForServer
 
+
 Initiate a bare metal restore for the specified server
 
 

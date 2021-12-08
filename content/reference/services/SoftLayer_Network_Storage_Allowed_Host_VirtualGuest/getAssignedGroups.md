@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Allowed_Host_VirtualGuest](/reference/services/SoftLayer_Network_Storage_Allowed_Host_VirtualGuest)::getAssignedGroups
 
+
 Retrieve the SoftLayer_Network_Storage_Group objects this SoftLayer_Network_Storage_Allowed_Host is present in.
 
 

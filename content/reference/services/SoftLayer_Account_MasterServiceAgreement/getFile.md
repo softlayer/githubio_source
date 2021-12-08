@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_MasterServiceAgreement](/reference/services/SoftLayer_Account_MasterServiceAgreement)::getFile
 
+
 Get the user's accounts current MSA
 
 

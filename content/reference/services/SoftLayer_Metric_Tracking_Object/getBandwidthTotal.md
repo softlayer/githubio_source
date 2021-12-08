@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Metric_Tracking_Object](/reference/services/SoftLayer_Metric_Tracking_Object)::getBandwidthTotal
 
+
 Retrieve the total bandwidth used within a given time frame.
 
 

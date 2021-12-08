@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::sparePool
 
+
 Allows servers to be added to or removed from the spare pool.
 
 

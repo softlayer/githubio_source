@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_CdnMarketplace_Configuration_Cache_PurgeGroup](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Cache_PurgeGroup)::getPurgeGroupByGroupId
 
+
 This method returns the purge group for a given domain and group ID. 
 
 

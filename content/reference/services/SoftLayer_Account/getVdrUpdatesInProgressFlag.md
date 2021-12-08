@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getVdrUpdatesInProgressFlag
 
+
 Retrieve return 0 if vpn updates are currently in progress on this account otherwise 1.
 
 

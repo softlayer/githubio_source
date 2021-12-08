@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getVirtualGuestsWithPlesk
 
+
 Retrieve all virtual guests associated with an account that has the Plesk web hosting control panel installed.
 
 

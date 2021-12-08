@@ -14,6 +14,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::createObject
 
+
 Create a new server
 
 

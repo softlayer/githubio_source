@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 Supported hardware raid modes 
 
 
@@ -42,11 +44,13 @@ Supported hardware raid modes
 
 #### [getAllObjects](/reference/services/SoftLayer_Configuration_Storage_Group_Array_Type/getAllObjects)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getHardwareComponentModels](/reference/services/SoftLayer_Configuration_Storage_Group_Array_Type/getHardwareComponentModels)
+
 
 </div>
 
@@ -54,6 +58,7 @@ Supported hardware raid modes
 
 #### [getObject](/reference/services/SoftLayer_Configuration_Storage_Group_Array_Type/getObject)
 Retrieve a SoftLayer_Configuration_Storage_Group_Array_Type record.
+
 </div>
 </div>
 

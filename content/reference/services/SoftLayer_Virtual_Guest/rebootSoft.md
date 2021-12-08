@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::rebootSoft
 
+
 Attempt to complete a soft reboot of a guest by shutting down the operating system.
 
 

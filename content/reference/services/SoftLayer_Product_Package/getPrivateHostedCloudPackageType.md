@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getPrivateHostedCloudPackageType
 
+
 Retrieve the server role of the private hosted cloud deployment. (Deprecated)
 
 

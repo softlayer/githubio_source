@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_Media_Transcode_Job_Status contains information on a transcode job status. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Network_Media_Transcode_Job_Status contains information on a trans
 [description]: #description
 #### [description]
 The description of a transcode job status  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The description of a transcode job status
 [id]: #id
 #### [id]
 The internal identifier of a transcode job status  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The internal identifier of a transcode job status
 [name]: #name
 #### [name]
 The status name  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

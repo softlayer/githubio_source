@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 A SoftLayer_Software_Component ties the installation of a specific piece of software onto a specific piece of hardware. 
 
 SoftLayer_Software_Component works with SoftLayer_Software_License and SoftLayer_Software_Description to tie this all together. 
@@ -62,7 +64,8 @@ SoftLayer_Software_Component works with SoftLayer_Software_License and SoftLayer
 [hardwareId]: #hardwareid
 #### [hardwareId]
 Hardware Identification Number for the server this Software Component is installed upon.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -72,7 +75,8 @@ Hardware Identification Number for the server this Software Component is install
 [id]: #id
 #### [id]
 An ID number identifying this Software Component (Software Installation)  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -82,7 +86,8 @@ An ID number identifying this Software Component (Software Installation)
 [manufacturerActivationCode]: #manufactureractivationcode
 #### [manufacturerActivationCode]
 The manufacturer code that is needed to activate a license.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -92,7 +97,8 @@ The manufacturer code that is needed to activate a license.
 [manufacturerLicenseInstance]: #manufacturerlicenseinstance
 #### [manufacturerLicenseInstance]
 A license key for this specific installation of software, if it is needed.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -108,7 +114,8 @@ A license key for this specific installation of software, if it is needed.
 [averageInstallationDuration]: #averageinstallationduration
 #### [averageInstallationDuration]
 The average amount of time that a software component takes to install.  
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -118,7 +125,8 @@ The average amount of time that a software component takes to install.
 [billingItem]: #billingitem
 #### [billingItem]
 The billing item for a software component.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**  
+
 
 
 </div>
@@ -128,7 +136,8 @@ The billing item for a software component.
 [hardware]: #hardware
 #### [hardware]
 The hardware this Software Component is installed upon.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**  
+
 
 
 </div>
@@ -138,7 +147,8 @@ The hardware this Software Component is installed upon.
 [passwordHistory]: #passwordhistory
 #### [passwordHistory]
 History Records for Software Passwords.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component_Password_History'>SoftLayer_Software_Component_Password_History[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component_Password_History'>SoftLayer_Software_Component_Password_History[] </a>**  
+
 
 
 </div>
@@ -148,7 +158,8 @@ History Records for Software Passwords.
 [passwords]: #passwords
 #### [passwords]
 Username/Password pairs used for access to this Software Installation.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component_Password'>SoftLayer_Software_Component_Password[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component_Password'>SoftLayer_Software_Component_Password[] </a>**  
+
 
 
 </div>
@@ -158,7 +169,8 @@ Username/Password pairs used for access to this Software Installation.
 [softwareDescription]: #softwaredescription
 #### [softwareDescription]
 The Software Description of this Software Component.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description </a>**  
+
 
 
 </div>
@@ -168,7 +180,8 @@ The Software Description of this Software Component.
 [softwareLicense]: #softwarelicense
 #### [softwareLicense]
 The License this Software Component uses.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_License'>SoftLayer_Software_License </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_License'>SoftLayer_Software_License </a>**  
+
 
 
 </div>
@@ -178,7 +191,8 @@ The License this Software Component uses.
 [virtualGuest]: #virtualguest
 #### [virtualGuest]
 The virtual guest this software component is installed upon.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**  
+
 
 
 </div>
@@ -190,7 +204,8 @@ The virtual guest this software component is installed upon.
 [passwordCount]: #passwordcount
 #### [passwordCount]
 A count of username/Password pairs used for access to this Software Installation.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -200,7 +215,8 @@ A count of username/Password pairs used for access to this Software Installation
 [passwordHistoryCount]: #passwordhistorycount
 #### [passwordHistoryCount]
 A count of history Records for Software Passwords.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::addFinalComments
 
+
 Add final comments to a closed ticket.
 
 

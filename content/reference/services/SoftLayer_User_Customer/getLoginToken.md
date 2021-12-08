@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getLoginToken
 
+
 Authenticate a user for the SoftLayer customer portal
 
 

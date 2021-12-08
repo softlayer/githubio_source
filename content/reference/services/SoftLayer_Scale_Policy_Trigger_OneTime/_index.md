@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 A trigger that will only execute once on the given date. If the auto scale group is suspended this will not occur. 
 
 
@@ -42,36 +44,42 @@ A trigger that will only execute once on the given date. If the auto scale group
 
 #### [createObject](/reference/services/SoftLayer_Scale_Policy_Trigger_OneTime/createObject)
 Create a one-time policy trigger.
+
 </div>
 
 <div class="method-row">
 
 #### [deleteObject](/reference/services/SoftLayer_Scale_Policy_Trigger_OneTime/deleteObject)
 Delete this trigger.
+
 </div>
 
 <div class="method-row">
 
 #### [editObject](/reference/services/SoftLayer_Scale_Policy_Trigger_OneTime/editObject)
 Edit this trigger.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Scale_Policy_Trigger_OneTime/getObject)
 Retrieve a SoftLayer_Scale_Policy_Trigger_OneTime record.
+
 </div>
 
 <div class="method-row">
 
 #### [getScalePolicy](/reference/services/SoftLayer_Scale_Policy_Trigger_OneTime/getScalePolicy)
 Retrieve the policy this trigger is on.
+
 </div>
 
 <div class="method-row">
 
 #### [getType](/reference/services/SoftLayer_Scale_Policy_Trigger_OneTime/getType)
 Retrieve the type of trigger.
+
 </div>
 </div>
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Hub_Cleversafe_Account](/reference/services/SoftLayer_Network_Storage_Hub_Cleversafe_Account)::getObject
 
+
 Retrieve a SoftLayer_Network_Storage_Hub_Cleversafe_Account record.
 
 

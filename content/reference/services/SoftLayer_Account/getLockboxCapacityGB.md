@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getLockboxCapacityGB
 
+
 Retrieve the total capacity of Legacy lockbox Volumes on an account, in GB.
 
 

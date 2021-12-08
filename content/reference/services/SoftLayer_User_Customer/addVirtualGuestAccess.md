@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::addVirtualGuestAccess
 
+
 Add a CloudLayer Computing Instance to a portal user's access list.
 
 

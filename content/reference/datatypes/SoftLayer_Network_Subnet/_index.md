@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_Subnet data type contains general information relating to a single SoftLayer subnet. Personal information in this type such as names, addresses, and phone numbers are assigned to the account only and not to users belonging to the account. 
 
 ### External Links
@@ -65,7 +67,8 @@ The SoftLayer_Network_Subnet data type contains general information relating to 
 [broadcastAddress]: #broadcastaddress
 #### [broadcastAddress]
 The last IP address in a subnet is the subnet's broadcast address. This is an IP address that will broadcast network requests to the entire subnet and may not be assigned to a network interface.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +78,8 @@ The last IP address in a subnet is the subnet's broadcast address. This is an IP
 [cidr]: #cidr
 #### [cidr]
 A subnet's Classless Inter-Domain Routing prefix. This is a number between 0 and 32 signifying the number of bits in a subnet's netmask. These bits separate a subnet's network address from it's host addresses. It performs the same function as the ''netmask'' property, but is represented as an integer.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +89,8 @@ A subnet's Classless Inter-Domain Routing prefix. This is a number between 0 and
 [gateway]: #gateway
 #### [gateway]
 A subnet's gateway address. This is an IP address that belongs to the router on the subnet and may not be assigned to a network interface.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +100,8 @@ A subnet's gateway address. This is an IP address that belongs to the router on 
 [id]: #id
 #### [id]
 A subnet's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +111,8 @@ A subnet's internal identifier.
 [isCustomerOwned]: #iscustomerowned
 #### [isCustomerOwned]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -115,7 +122,8 @@ A subnet's internal identifier.
 [isCustomerRoutable]: #iscustomerroutable
 #### [isCustomerRoutable]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -125,7 +133,8 @@ A subnet's internal identifier.
 [modifyDate]: #modifydate
 #### [modifyDate]
 The last time this subnet was last modified  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -135,7 +144,8 @@ The last time this subnet was last modified
 [netmask]: #netmask
 #### [netmask]
 A bitmask in dotted-quad format that is used to separate a subnet's network address from it's host addresses. This performs the same function as the ''cidr'' property, but is expressed in a string format.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -145,7 +155,8 @@ A bitmask in dotted-quad format that is used to separate a subnet's network addr
 [networkIdentifier]: #networkidentifier
 #### [networkIdentifier]
 A subnet's network identifier. This is the first IP address of a subnet and may not be assigned to a network interface.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -155,7 +166,8 @@ A subnet's network identifier. This is the first IP address of a subnet and may 
 [networkVlanId]: #networkvlanid
 #### [networkVlanId]
 A subnet's associated VLAN's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -165,7 +177,8 @@ A subnet's associated VLAN's internal identifier.
 [note]: #note
 #### [note]
 This is the note field.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -175,7 +188,8 @@ This is the note field.
 [sortOrder]: #sortorder
 #### [sortOrder]
 Used to sort subnets and group subnets of similar type together for use on customer facing portals.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -194,7 +208,8 @@ A subnet type can be any of the following:
 * STATIC_IP_ROUTED_6
 * GLOBAL_IP
 A "PRIMARY" subnet is the primary network bound to a VLAN within the softlayer network. An "ADDITIONAL_PRIMARY" subnet is bound to a network VLAN to augment the pool of available primary IP addresses that may be assigned to a server. A "SECONDARY_ON_VLAN" subnet is a secondary portable subnet whose IP addresses are managed by the end user. "STATIC_IP_ROUTED" subnets are subnets that are statically routed to a single endpoint IP address. A "PRIMARY_6" subnet is the primary IPv6 network bound to a VLAN. A "SUBNET_ON_VLAN" subnet is the secondary portable IPv6 subnet whose IP addresses are managed by the end user. A "STATIC_IP_ROUTED_6" subnet is statically routed to a single IPv6 endpoint IP address. A "GLOBAL_IP" subnet is a subnet that is routable to a single endpoint IP address. The "GLOBAL_IP" type is used for both IPv4 and IPv6 subnets.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -204,7 +219,8 @@ A "PRIMARY" subnet is the primary network bound to a VLAN within the softlayer n
 [totalIpAddresses]: #totalipaddresses
 #### [totalIpAddresses]
 The number of IP addresses contained within this subnet.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -214,7 +230,8 @@ The number of IP addresses contained within this subnet.
 [usableIpAddressCount]: #usableipaddresscount
 #### [usableIpAddressCount]
 The number of IP addresses that can be addressed within this subnet. For IPv4 subnets with a CIDR value of at most 30, a discount of 3 is taken from the total number of IP addresses for the subnet's unusable network, gateway and broadcast IP addresses. For IPv6 subnets with a CIDR value of at most 126, a discount of 2 is taken for the subnet's network and gateway IP addresses.   
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -224,7 +241,8 @@ The number of IP addresses that can be addressed within this subnet. For IPv4 su
 [version]: #version
 #### [version]
 This is the Internet Protocol version. Current values may be either 4 or 6.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -240,7 +258,8 @@ This is the Internet Protocol version. Current values may be either 4 or 6.
 [account]: #account
 #### [account]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -250,27 +269,32 @@ This is the Internet Protocol version. Current values may be either 4 or 6.
 [activeRegistration]: #activeregistration
 #### [activeRegistration]
 If present, the active registration for this subnet.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration'>SoftLayer_Network_Subnet_Registration </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration'>SoftLayer_Network_Subnet_Registration </a>**  
+
 
 
 </div>
-<div class="prop-row">
+<div class="prop-row deprecated">
 
 -----
 [activeSwipTransaction]: #activeswiptransaction
 #### [activeSwipTransaction]
 DEPRECATED  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_Swip_Transaction'>SoftLayer_Network_Subnet_Swip_Transaction </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_Swip_Transaction'>SoftLayer_Network_Subnet_Swip_Transaction </a>**  
+
+<span class="deprecation-label">Deprecated  </span>
 
 
 </div>
-<div class="prop-row">
+<div class="prop-row deprecated">
 
 -----
 [activeTransaction]: #activetransaction
 #### [activeTransaction]
 DEPRECATED  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction </a>**  
+
+<span class="deprecation-label">Deprecated  </span>
 
 
 </div>
@@ -280,7 +304,8 @@ DEPRECATED
 [addressSpace]: #addressspace
 #### [addressSpace]
 Identifier which distinguishes what classification of addresses the subnet represents.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -290,7 +315,8 @@ Identifier which distinguishes what classification of addresses the subnet repre
 [allowedHost]: #allowedhost
 #### [allowedHost]
 The SoftLayer_Network_Storage_Allowed_Host information to connect this Subnet to Network Storage supporting access control lists.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Allowed_Host'>SoftLayer_Network_Storage_Allowed_Host </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Allowed_Host'>SoftLayer_Network_Storage_Allowed_Host </a>**  
+
 
 
 </div>
@@ -300,7 +326,8 @@ The SoftLayer_Network_Storage_Allowed_Host information to connect this Subnet to
 [allowedNetworkStorage]: #allowednetworkstorage
 #### [allowedNetworkStorage]
 The SoftLayer_Network_Storage objects that this SoftLayer_Hardware has access to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**  
+
 
 
 </div>
@@ -310,7 +337,8 @@ The SoftLayer_Network_Storage objects that this SoftLayer_Hardware has access to
 [allowedNetworkStorageReplicas]: #allowednetworkstoragereplicas
 #### [allowedNetworkStorageReplicas]
 The SoftLayer_Network_Storage objects whose Replica that this SoftLayer_Hardware has access to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**  
+
 
 
 </div>
@@ -320,7 +348,8 @@ The SoftLayer_Network_Storage objects whose Replica that this SoftLayer_Hardware
 [billingItem]: #billingitem
 #### [billingItem]
 The billing item for a subnet.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**  
+
 
 
 </div>
@@ -330,7 +359,8 @@ The billing item for a subnet.
 [boundDescendants]: #bounddescendants
 #### [boundDescendants]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**  
+
 
 
 </div>
@@ -340,7 +370,8 @@ The billing item for a subnet.
 [boundRouterFlag]: #boundrouterflag
 #### [boundRouterFlag]
 Whether or not this subnet is associated with a router. Subnets that are not associated with a router cannot be routed.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -350,7 +381,8 @@ Whether or not this subnet is associated with a router. Subnets that are not ass
 [boundRouters]: #boundrouters
 #### [boundRouters]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**  
+
 
 
 </div>
@@ -360,7 +392,8 @@ Whether or not this subnet is associated with a router. Subnets that are not ass
 [children]: #children
 #### [children]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**  
+
 
 
 </div>
@@ -370,7 +403,8 @@ Whether or not this subnet is associated with a router. Subnets that are not ass
 [datacenter]: #datacenter
 #### [datacenter]
 The data center this subnet may be routed within.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Datacenter'>SoftLayer_Location_Datacenter </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Datacenter'>SoftLayer_Location_Datacenter </a>**  
+
 
 
 </div>
@@ -380,7 +414,8 @@ The data center this subnet may be routed within.
 [descendants]: #descendants
 #### [descendants]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**  
+
 
 
 </div>
@@ -390,7 +425,8 @@ The data center this subnet may be routed within.
 [displayLabel]: #displaylabel
 #### [displayLabel]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -400,7 +436,8 @@ The data center this subnet may be routed within.
 [endPointIpAddress]: #endpointipaddress
 #### [endPointIpAddress]
 A static routed ip address  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress </a>**  
+
 
 
 </div>
@@ -410,7 +447,8 @@ A static routed ip address
 [globalIpRecord]: #globaliprecord
 #### [globalIpRecord]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress_Global'>SoftLayer_Network_Subnet_IpAddress_Global </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress_Global'>SoftLayer_Network_Subnet_IpAddress_Global </a>**  
+
 
 
 </div>
@@ -420,7 +458,8 @@ A static routed ip address
 [hardware]: #hardware
 #### [hardware]
 The hardware using IP addresses on this subnet.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**  
+
 
 
 </div>
@@ -430,7 +469,8 @@ The hardware using IP addresses on this subnet.
 [ipAddresses]: #ipaddresses
 #### [ipAddresses]
 All the ip addresses associated with a subnet.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress[] </a>**  
+
 
 
 </div>
@@ -440,7 +480,8 @@ All the ip addresses associated with a subnet.
 [networkComponentFirewall]: #networkcomponentfirewall
 #### [networkComponentFirewall]
 The upstream network component firewall.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component_Firewall'>SoftLayer_Network_Component_Firewall </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component_Firewall'>SoftLayer_Network_Component_Firewall </a>**  
+
 
 
 </div>
@@ -450,7 +491,8 @@ The upstream network component firewall.
 [networkProtectionAddresses]: #networkprotectionaddresses
 #### [networkProtectionAddresses]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Protection_Address'>SoftLayer_Network_Protection_Address[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Protection_Address'>SoftLayer_Network_Protection_Address[] </a>**  
+
 
 
 </div>
@@ -460,7 +502,8 @@ The upstream network component firewall.
 [networkTunnelContexts]: #networktunnelcontexts
 #### [networkTunnelContexts]
 IPSec network tunnels that have access to a private subnet.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Tunnel_Module_Context'>SoftLayer_Network_Tunnel_Module_Context[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Tunnel_Module_Context'>SoftLayer_Network_Tunnel_Module_Context[] </a>**  
+
 
 
 </div>
@@ -470,7 +513,8 @@ IPSec network tunnels that have access to a private subnet.
 [networkVlan]: #networkvlan
 #### [networkVlan]
 The VLAN object that a subnet is associated with.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a>**  
+
 
 
 </div>
@@ -480,7 +524,8 @@ The VLAN object that a subnet is associated with.
 [podName]: #podname
 #### [podName]
 The pod in which this subnet resides.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -490,7 +535,8 @@ The pod in which this subnet resides.
 [protectedIpAddresses]: #protectedipaddresses
 #### [protectedIpAddresses]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress[] </a>**  
+
 
 
 </div>
@@ -500,7 +546,8 @@ The pod in which this subnet resides.
 [regionalInternetRegistry]: #regionalinternetregistry
 #### [regionalInternetRegistry]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Regional_Internet_Registry'>SoftLayer_Network_Regional_Internet_Registry </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Regional_Internet_Registry'>SoftLayer_Network_Regional_Internet_Registry </a>**  
+
 
 
 </div>
@@ -510,7 +557,8 @@ The pod in which this subnet resides.
 [registrations]: #registrations
 #### [registrations]
 All registrations that have been created for this subnet.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration'>SoftLayer_Network_Subnet_Registration[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration'>SoftLayer_Network_Subnet_Registration[] </a>**  
+
 
 
 </div>
@@ -520,7 +568,8 @@ All registrations that have been created for this subnet.
 [reverseDomain]: #reversedomain
 #### [reverseDomain]
 The reverse DNS domain associated with this subnet.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain </a>**  
+
 
 
 </div>
@@ -530,7 +579,8 @@ The reverse DNS domain associated with this subnet.
 [roleKeyName]: #rolekeyname
 #### [roleKeyName]
 An identifier of the role the subnet is within. Roles dictate how a subnet may be used.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -540,7 +590,8 @@ An identifier of the role the subnet is within. Roles dictate how a subnet may b
 [roleName]: #rolename
 #### [roleName]
 The name of the role the subnet is within. Roles dictate how a subnet may be used.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -550,7 +601,8 @@ The name of the role the subnet is within. Roles dictate how a subnet may be use
 [routingTypeKeyName]: #routingtypekeyname
 #### [routingTypeKeyName]
 The identifier for the type of route then subnet is currently configured for.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -560,17 +612,20 @@ The identifier for the type of route then subnet is currently configured for.
 [routingTypeName]: #routingtypename
 #### [routingTypeName]
 The name for the type of route then subnet is currently configured for.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
-<div class="prop-row">
+<div class="prop-row deprecated">
 
 -----
 [swipTransaction]: #swiptransaction
 #### [swipTransaction]
 DEPRECATED  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_Swip_Transaction'>SoftLayer_Network_Subnet_Swip_Transaction[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_Swip_Transaction'>SoftLayer_Network_Subnet_Swip_Transaction[] </a>**  
+
+<span class="deprecation-label">Deprecated  </span>
 
 
 </div>
@@ -580,7 +635,8 @@ DEPRECATED
 [tagReferences]: #tagreferences
 #### [tagReferences]
 References to all tags for this subnet.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Tag_Reference'>SoftLayer_Tag_Reference[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Tag_Reference'>SoftLayer_Tag_Reference[] </a>**  
+
 
 
 </div>
@@ -590,7 +646,8 @@ References to all tags for this subnet.
 [unboundDescendants]: #unbounddescendants
 #### [unboundDescendants]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**  
+
 
 
 </div>
@@ -600,7 +657,8 @@ References to all tags for this subnet.
 [utilizedIpAddressCount]: #utilizedipaddresscount
 #### [utilizedIpAddressCount]
 Provides the total number of utilized IP addresses on this subnet. The primary consumer of IP addresses are compute resources, which can consume more than one address. This value is only supported for primary subnet types.  
-<span class="type-label">Type: </span>**unsigned integer**
+<span class="type-label">Type: </span>**unsigned integer**  
+
 
 
 </div>
@@ -610,7 +668,8 @@ Provides the total number of utilized IP addresses on this subnet. The primary c
 [virtualGuests]: #virtualguests
 #### [virtualGuests]
 The Virtual Servers using IP addresses on this subnet.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**  
+
 
 
 </div>
@@ -622,7 +681,8 @@ The Virtual Servers using IP addresses on this subnet.
 [allowedNetworkStorageCount]: #allowednetworkstoragecount
 #### [allowedNetworkStorageCount]
 A count of the SoftLayer_Network_Storage objects that this SoftLayer_Hardware has access to.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -632,7 +692,8 @@ A count of the SoftLayer_Network_Storage objects that this SoftLayer_Hardware ha
 [allowedNetworkStorageReplicaCount]: #allowednetworkstoragereplicacount
 #### [allowedNetworkStorageReplicaCount]
 A count of the SoftLayer_Network_Storage objects whose Replica that this SoftLayer_Hardware has access to.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -642,7 +703,8 @@ A count of the SoftLayer_Network_Storage objects whose Replica that this SoftLay
 [boundDescendantCount]: #bounddescendantcount
 #### [boundDescendantCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -652,7 +714,8 @@ A count of
 [boundRouterCount]: #boundroutercount
 #### [boundRouterCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -662,7 +725,8 @@ A count of
 [childrenCount]: #childrencount
 #### [childrenCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -672,7 +736,8 @@ A count of
 [descendantCount]: #descendantcount
 #### [descendantCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -682,7 +747,8 @@ A count of
 [hardwareCount]: #hardwarecount
 #### [hardwareCount]
 A count of the hardware using IP addresses on this subnet.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -692,7 +758,8 @@ A count of the hardware using IP addresses on this subnet.
 [ipAddressCount]: #ipaddresscount
 #### [ipAddressCount]
 A count of all the ip addresses associated with a subnet.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -702,7 +769,8 @@ A count of all the ip addresses associated with a subnet.
 [networkProtectionAddressCount]: #networkprotectionaddresscount
 #### [networkProtectionAddressCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -712,7 +780,8 @@ A count of
 [networkTunnelContextCount]: #networktunnelcontextcount
 #### [networkTunnelContextCount]
 A count of iPSec network tunnels that have access to a private subnet.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -722,7 +791,8 @@ A count of iPSec network tunnels that have access to a private subnet.
 [protectedIpAddressCount]: #protectedipaddresscount
 #### [protectedIpAddressCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -732,7 +802,8 @@ A count of
 [registrationCount]: #registrationcount
 #### [registrationCount]
 A count of all registrations that have been created for this subnet.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -742,7 +813,8 @@ A count of all registrations that have been created for this subnet.
 [swipTransactionCount]: #swiptransactioncount
 #### [swipTransactionCount]
 A count of dEPRECATED   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -752,7 +824,8 @@ A count of dEPRECATED
 [tagReferenceCount]: #tagreferencecount
 #### [tagReferenceCount]
 A count of references to all tags for this subnet.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -762,7 +835,8 @@ A count of references to all tags for this subnet.
 [unboundDescendantCount]: #unbounddescendantcount
 #### [unboundDescendantCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -772,7 +846,8 @@ A count of
 [virtualGuestCount]: #virtualguestcount
 #### [virtualGuestCount]
 A count of the Virtual Servers using IP addresses on this subnet.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

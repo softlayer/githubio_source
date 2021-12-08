@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::allowAccessToNetworkStorageList
 
+
 Allow access to multiple SoftLayer_Network_Storage volumes from this device. 
 
 

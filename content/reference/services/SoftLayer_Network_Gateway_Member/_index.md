@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 A network gateway member is a device that serves as a gateway. Once the hardware becomes a member of the gateway, only a reclaim can remove it. A reclaim on the last member of the gateway triggers a reclaim of the entire gateway. 
 
 
@@ -42,36 +44,42 @@ A network gateway member is a device that serves as a gateway. Once the hardware
 
 #### [createObject](/reference/services/SoftLayer_Network_Gateway_Member/createObject)
 Add a member to a gateway
+
 </div>
 
 <div class="method-row">
 
 #### [createObjects](/reference/services/SoftLayer_Network_Gateway_Member/createObjects)
 Add a member to a gateway
+
 </div>
 
 <div class="method-row">
 
 #### [getAttributes](/reference/services/SoftLayer_Network_Gateway_Member/getAttributes)
 Retrieve the attributes for this member.
+
 </div>
 
 <div class="method-row">
 
 #### [getHardware](/reference/services/SoftLayer_Network_Gateway_Member/getHardware)
 Retrieve the device for this member.
+
 </div>
 
 <div class="method-row">
 
 #### [getNetworkGateway](/reference/services/SoftLayer_Network_Gateway_Member/getNetworkGateway)
 Retrieve the gateway this member belongs to.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Gateway_Member/getObject)
 Retrieve a SoftLayer_Network_Gateway_Member record.
+
 </div>
 </div>
 

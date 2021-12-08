@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This represents the type of SoftLayer_Notification_Occurrence_Event. 
 
 
@@ -45,7 +47,8 @@ This represents the type of SoftLayer_Notification_Occurrence_Event.
 [keyName]: #keyname
 #### [keyName]
 The friendly unique identifier for this event type.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

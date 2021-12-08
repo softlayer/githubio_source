@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Network_LBaaS_L7PoolMembersHealth provides statistics of members belonging to a particular L7 pool. 
 
 
@@ -45,7 +47,8 @@ SoftLayer_Network_LBaaS_L7PoolMembersHealth provides statistics of members belon
 [l7PoolUuid]: #l7pooluuid
 #### [l7PoolUuid]
 Instance uuid of the L7 pool  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Instance uuid of the L7 pool
 [membersHealth]: #membershealth
 #### [membersHealth]
 Members statistics of the L7 pool  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_MemberHealth'>SoftLayer_Network_LBaaS_MemberHealth[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_MemberHealth'>SoftLayer_Network_LBaaS_MemberHealth[] </a>**  
+
 
 
 </div>

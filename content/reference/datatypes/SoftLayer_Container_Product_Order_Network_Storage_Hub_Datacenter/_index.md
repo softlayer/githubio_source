@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This class is used to contain a datacenter location and its associated active usage rate prices for object storage ordering. 
 
 
@@ -45,7 +47,8 @@ This class is used to contain a datacenter location and its associated active us
 [location]: #location
 #### [location]
 The datacenter location where object storage is available.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The datacenter location where object storage is available.
 [usageRatePrices]: #usagerateprices
 #### [usageRatePrices]
 The collection of active usage rate item prices.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a>**  
+
 
 
 </div>

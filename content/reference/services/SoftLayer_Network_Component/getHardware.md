@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getHardware
 
+
 Retrieve the hardware that a network component resides in.
 
 

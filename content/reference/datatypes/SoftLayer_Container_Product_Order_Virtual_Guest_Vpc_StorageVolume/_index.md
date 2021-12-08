@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [attachmentName]: #attachmentname
 #### [attachmentName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ classes:
 [capacity]: #capacity
 #### [capacity]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ classes:
 [deleteOnReclaim]: #deleteonreclaim
 #### [deleteOnReclaim]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ classes:
 [id]: #id
 #### [id]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ classes:
 [index]: #index
 #### [index]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ classes:
 [iops]: #iops
 #### [iops]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ classes:
 [name]: #name
 #### [name]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ classes:
 [profile]: #profile
 #### [profile]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ classes:
 [resourceGroup]: #resourcegroup
 #### [resourceGroup]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ classes:
 [rootKeyCrn]: #rootkeycrn
 #### [rootKeyCrn]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

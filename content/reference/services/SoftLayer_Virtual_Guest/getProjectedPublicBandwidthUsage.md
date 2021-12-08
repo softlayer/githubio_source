@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getProjectedPublicBandwidthUsage
 
+
 Retrieve the projected public outbound bandwidth for this computing instance for the current billing cycle.
 
 

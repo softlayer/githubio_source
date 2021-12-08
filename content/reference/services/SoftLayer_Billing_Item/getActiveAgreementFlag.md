@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getActiveAgreementFlag
 
+
 Retrieve a flag indicating that the billing item is under an active agreement.
 
 

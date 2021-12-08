@@ -18,6 +18,9 @@ classes:
 </div>
 
 ## Description 
+
+<div class="deprecated"><span class="deprecation-label">Deprecated  </span></div>
+
 [DEPRECATED] All bandwidth tracking is maintained through the switch that the bandwidth is used through.  All bandwidth is stored in a "pod" repository.  An interface links the hardware switch with the pod repository identification number. This is only relevant to bandwidth data.  It is not common to use this. 
 
 
@@ -45,7 +48,8 @@ classes:
 [hostId]: #hostid
 #### [hostId]
 A interface's host.  The host stores the pod number for the bandwidth data.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +59,8 @@ A interface's host.  The host stores the pod number for the bandwidth data.
 [networkComponentId]: #networkcomponentid
 #### [networkComponentId]
 The network component for this interface.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -71,7 +76,8 @@ The network component for this interface.
 [host]: #host
 #### [host]
 [DEPRECATED] The host for an interface. This is not to be confused with SoftLayer Hardware  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Host'>SoftLayer_Network_Bandwidth_Version1_Host </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Host'>SoftLayer_Network_Bandwidth_Version1_Host </a>**  
+
 
 
 </div>
@@ -81,7 +87,8 @@ The network component for this interface.
 [networkComponent]: #networkcomponent
 #### [networkComponent]
 [DEPRECATED] The switch for an interface.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>**  
+
 
 
 </div>

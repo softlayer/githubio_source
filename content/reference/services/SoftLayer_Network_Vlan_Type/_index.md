@@ -21,6 +21,8 @@ classes:
 </div>
 
 ## Description
+
+
 A network VLAN type is a value representing the type of a network VLAN. The possible values are: 
 
 
@@ -49,6 +51,7 @@ A network VLAN type is a value representing the type of a network VLAN. The poss
 
 #### [getObject](/reference/services/SoftLayer_Network_Vlan_Type/getObject)
 Retrieve a SoftLayer_Network_Vlan_Type record.
+
 </div>
 </div>
 

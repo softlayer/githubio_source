@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_External_Binding](/reference/services/SoftLayer_User_External_Binding)::getNote
 
+
 Retrieve an optional note for identifying the external binding.
 
 

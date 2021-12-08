@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Location](/reference/services/SoftLayer_Location)::getBnppCompliantFlag
 
+
 Retrieve a flag indicating whether or not the datacenter/location is BNPP compliant.
 
 

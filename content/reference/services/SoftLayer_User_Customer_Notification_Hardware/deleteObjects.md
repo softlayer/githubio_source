@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_Notification_Hardware](/reference/services/SoftLayer_User_Customer_Notification_Hardware)::deleteObjects
 
+
 Delete a group of Customer_Notification_Hardware objects by passing in a collection of them
 
 

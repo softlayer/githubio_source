@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Regional_Registry_Detail](/reference/services/SoftLayer_Account_Regional_Registry_Detail)::getObject
 
+
 Retrieve a SoftLayer_Account_Regional_Registry_Detail record.
 
 

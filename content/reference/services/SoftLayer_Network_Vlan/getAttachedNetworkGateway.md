@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getAttachedNetworkGateway
 
+
 Retrieve the gateway this VLAN is inside of.
 
 

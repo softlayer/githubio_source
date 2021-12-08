@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_ProofOfConcept](/reference/services/SoftLayer_Account_ProofOfConcept)::getAuthenticationUrl
 
+
 Gets authentication URL
 
 

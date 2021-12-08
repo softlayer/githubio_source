@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getCurrentBenchmarkCertificationResultFile
 
+
 Get the file for the current benchmark certification result, if it exists.
 
 

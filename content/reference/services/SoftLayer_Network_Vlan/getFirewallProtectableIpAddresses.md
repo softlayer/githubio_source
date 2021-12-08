@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getFirewallProtectableIpAddresses
 
+
 Get the IP addresses associated with this server that are protectable by a network component firewall.
 
 

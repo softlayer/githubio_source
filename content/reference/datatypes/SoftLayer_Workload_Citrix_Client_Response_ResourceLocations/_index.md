@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [messageId]: #messageid
 #### [messageId]
 messageId of Citrix account validation response.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ messageId of Citrix account validation response.
 [resourceLocations]: #resourcelocations
 #### [resourceLocations]
   
-<span class="type-label">Type: </span>**array of strings**
+<span class="type-label">Type: </span>**array of strings**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ messageId of Citrix account validation response.
 [status]: #status
 #### [status]
 status of Citrix account validation.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ status of Citrix account validation.
 [statusMessage]: #statusmessage
 #### [statusMessage]
 status message of Citrix account validation.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

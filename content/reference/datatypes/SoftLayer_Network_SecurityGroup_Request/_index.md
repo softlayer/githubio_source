@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_SecurityGroup_Request data type contains the ID of a specific request sent to the API. This ID is used to identify specific calls to attach and detach network components, as well as add, edit, and remove security group rules. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Network_SecurityGroup_Request data type contains the ID of a speci
 [requestId]: #requestid
 #### [requestId]
 The unique ID for a request.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Location_Region_Location is very specific to the location where services will actually be provisioned. When accessed through a package, this location is the top priority location for a region. All new servers and services are provisioned at this location. When a server is ordered and a region is selected, this is the location within that region where the server will actually exist and have software/services installed. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Location_Region_Location is very specific to the location where se
 [locationId]: #locationid
 #### [locationId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -61,7 +64,8 @@ The SoftLayer_Location_Region_Location is very specific to the location where se
 [location]: #location
 #### [location]
 The SoftLayer_Location tied to a region's location. This provides more information about the location, including specific datacenter information.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ The SoftLayer_Location tied to a region's location. This provides more informati
 [locationPackageDetails]: #locationpackagedetails
 #### [locationPackageDetails]
 A region's location also has delivery information as well as other information to be determined. For now, availability is provided and could weigh into the decision as to where to decide to have a server provisioned.'  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Locations'>SoftLayer_Product_Package_Locations[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Locations'>SoftLayer_Product_Package_Locations[] </a>**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ A region's location also has delivery information as well as other information t
 [region]: #region
 #### [region]
 The region to which this location belongs.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Region'>SoftLayer_Location_Region </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Region'>SoftLayer_Location_Region </a>**  
+
 
 
 </div>
@@ -93,7 +99,8 @@ The region to which this location belongs.
 [locationPackageDetailCount]: #locationpackagedetailcount
 #### [locationPackageDetailCount]
 A count of a region's location also has delivery information as well as other information to be determined. For now, availability is provided and could weigh into the decision as to where to decide to have a server provisioned.'   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

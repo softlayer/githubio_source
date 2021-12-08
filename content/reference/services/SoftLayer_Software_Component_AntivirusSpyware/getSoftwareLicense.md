@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Software_Component_AntivirusSpyware](/reference/services/SoftLayer_Software_Component_AntivirusSpyware)::getSoftwareLicense
 
+
 Retrieve the License this Software Component uses.
 
 

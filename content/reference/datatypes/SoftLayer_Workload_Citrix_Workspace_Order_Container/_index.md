@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This is the datatype that needs to be populated and sent to SoftLayer_Workload_Citrix_Workspace_Order::placeWorkspaceOrder. 
 
 
@@ -51,7 +53,8 @@ This is the datatype that needs to be populated and sent to SoftLayer_Workload_C
 [activeDirectoryDomainName]: #activedirectorydomainname
 #### [activeDirectoryDomainName]
 The active directory domain name  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -61,7 +64,8 @@ The active directory domain name
 [activeDirectoryNetbiosName]: #activedirectorynetbiosname
 #### [activeDirectoryNetbiosName]
 The active directory netbios name (optional)  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ The active directory netbios name (optional)
 [activeDirectorySafeModePassword]: #activedirectorysafemodepassword
 #### [activeDirectorySafeModePassword]
 The active directory safe mode password  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ The active directory safe mode password
 [activeDirectoryTopology]: #activedirectorytopology
 #### [activeDirectoryTopology]
 The active directory topology  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ The active directory topology
 [citrixAPIClientId]: #citrixapiclientid
 #### [citrixAPIClientId]
 The Citrix API Client Id  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ The Citrix API Client Id
 [citrixAPIClientSecret]: #citrixapiclientsecret
 #### [citrixAPIClientSecret]
 The Citrix API Client Secret  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ The Citrix API Client Secret
 [citrixCustomerId]: #citrixcustomerid
 #### [citrixCustomerId]
 The Citrix customer id  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ The Citrix customer id
 [citrixResourceLocationName]: #citrixresourcelocationname
 #### [citrixResourceLocationName]
 The Citrix resource location name  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ The Citrix resource location name
 [domain]: #domain
 #### [domain]
 The default domain to be used for all server orders where the domain is not specified.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ The default domain to be used for all server orders where the domain is not spec
 [location]: #location
 #### [location]
 The specific [SoftLayer_Location_Datacenter]({{<ref "reference/datatypes/SoftLayer_Location_Datacenter">}}) id where the order should be provisioned.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ The specific [SoftLayer_Location_Datacenter]({{<ref "reference/datatypes/SoftLay
 [orderContainers]: #ordercontainers
 #### [orderContainers]
 There should be one child orderContainer for each component ordered.  The containerIdentifier should be set on each and have these exact values: proxy server, bare metal server with hypervisor, dhcp server, citrix connector servers, active directory server, vlan, subnet, storage   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order[] </a>**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ There should be one child orderContainer for each component ordered.  The contai
 [vmwareContainer]: #vmwarecontainer
 #### [vmwareContainer]
 Set this value to order IBM Cloud for VMware Solutions servers as part of your Citrix Virtual Apps and Desktops order   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Workload_Citrix_Workspace_Order_VMwareContainer'>SoftLayer_Workload_Citrix_Workspace_Order_VMwareContainer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Workload_Citrix_Workspace_Order_VMwareContainer'>SoftLayer_Workload_Citrix_Workspace_Order_VMwareContainer </a>**  
+
 
 
 </div>

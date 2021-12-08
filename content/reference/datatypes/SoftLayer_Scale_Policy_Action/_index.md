@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [createDate]: #createdate
 #### [createDate]
 When this action was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ When this action was created.
 [deleteFlag]: #deleteflag
 #### [deleteFlag]
 When set and true any edit that happens on this object, be it calling edit on this directly or setting as a child while editing a parent object, will end up being a deletion.   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ When set and true any edit that happens on this object, be it calling edit on th
 [id]: #id
 #### [id]
 An action's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ An action's internal identifier.
 [modifyDate]: #modifydate
 #### [modifyDate]
 Then this action was last modified.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Then this action was last modified.
 [scalePolicyId]: #scalepolicyid
 #### [scalePolicyId]
 The policy this action is on.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The policy this action is on.
 [typeId]: #typeid
 #### [typeId]
 The identifier of this action's type.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ The identifier of this action's type.
 [scalePolicy]: #scalepolicy
 #### [scalePolicy]
 The policy this action is on.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Scale_Policy'>SoftLayer_Scale_Policy </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Scale_Policy'>SoftLayer_Scale_Policy </a>**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ The policy this action is on.
 [type]: #type
 #### [type]
 The type of action.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Scale_Policy_Action_Type'>SoftLayer_Scale_Policy_Action_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Scale_Policy_Action_Type'>SoftLayer_Scale_Policy_Action_Type </a>**  
+
 
 
 </div>

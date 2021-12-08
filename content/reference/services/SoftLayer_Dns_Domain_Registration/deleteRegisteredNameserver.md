@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Dns_Domain_Registration](/reference/services/SoftLayer_Dns_Domain_Registration)::deleteRegisteredNameserver
 
+
 Deletes a registered nameserver.
 
 

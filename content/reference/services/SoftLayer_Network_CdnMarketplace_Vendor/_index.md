@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 This service allows internal users to create, read, update, and delete  vendor instances. 
 
 
@@ -42,12 +44,14 @@ This service allows internal users to create, read, update, and delete  vendor
 
 #### [getObject](/reference/services/SoftLayer_Network_CdnMarketplace_Vendor/getObject)
 Retrieve a SoftLayer_Network_CdnMarketplace_Vendor record.
+
 </div>
 
 <div class="method-row">
 
 #### [listVendors](/reference/services/SoftLayer_Network_CdnMarketplace_Vendor/listVendors)
 SOAP API will return all CDN vendors available. 
+
 </div>
 </div>
 

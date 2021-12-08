@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 Configuration definition groups help categorize definitions. 
 
 
@@ -42,17 +44,20 @@ Configuration definition groups help categorize definitions.
 
 #### [getAllGroups](/reference/services/SoftLayer_Configuration_Template_Section_Definition_Group/getAllGroups)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Configuration_Template_Section_Definition_Group/getObject)
 Retrieve a SoftLayer_Configuration_Template_Section_Definition_Group record.
+
 </div>
 
 <div class="method-row">
 
 #### [getParent](/reference/services/SoftLayer_Configuration_Template_Section_Definition_Group/getParent)
+
 
 </div>
 </div>

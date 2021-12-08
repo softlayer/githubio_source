@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getHardwareWithMcafeeIntrusionDetectionSystem
 
+
 Retrieve all hardware associated with an account that has McAfee Secure Intrusion Detection System software components.
 
 

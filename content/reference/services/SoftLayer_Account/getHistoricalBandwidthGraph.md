@@ -13,6 +13,8 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getHistoricalBandwidthGraph
 
+<div class="deprecated"><span class="deprecation-label">Deprecated </span></div>
+
 [DEPRECATED] This method returns a line graph of bandwidth statistics.
 
 

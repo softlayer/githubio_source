@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Monitor_Version1_Query_Host](/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host)::editObject
 
+
 Edit the object by passing in a modified instance of the object
 
 

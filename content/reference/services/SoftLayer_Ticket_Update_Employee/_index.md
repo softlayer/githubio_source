@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 Retrieve an update to a ticket made by a SoftLayer employee. Ticket updates created by employees have the option of being rated on a one to five scale. Because customer updates don't have this ability the SoftLayer_Ticket_Update_Employee class has it's own service. 
 
 
@@ -50,11 +52,13 @@ Retrieve an update to a ticket made by a SoftLayer employee. Ticket updates crea
 
 #### [addResponseRating](/reference/services/SoftLayer_Ticket_Update_Employee/addResponseRating)
 Set an update's response rating.
+
 </div>
 
 <div class="method-row">
 
 #### [getChangeOwnerActivity](/reference/services/SoftLayer_Ticket_Update_Employee/getChangeOwnerActivity)
+
 
 </div>
 
@@ -62,36 +66,42 @@ Set an update's response rating.
 
 #### [getChat](/reference/services/SoftLayer_Ticket_Update_Employee/getChat)
 Retrieve the chat between the Customer and Agent
+
 </div>
 
 <div class="method-row">
 
 #### [getEditor](/reference/services/SoftLayer_Ticket_Update_Employee/getEditor)
 Retrieve a representation of the SoftLayer employee who created a ticket update.
+
 </div>
 
 <div class="method-row">
 
 #### [getFileAttachment](/reference/services/SoftLayer_Ticket_Update_Employee/getFileAttachment)
 Retrieve the files attached to a ticket update.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Ticket_Update_Employee/getObject)
 Retrieve a SoftLayer_Ticket_Update_Employee record.
+
 </div>
 
 <div class="method-row">
 
 #### [getTicket](/reference/services/SoftLayer_Ticket_Update_Employee/getTicket)
 Retrieve the ticket that a ticket update belongs to.
+
 </div>
 
 <div class="method-row">
 
 #### [getType](/reference/services/SoftLayer_Ticket_Update_Employee/getType)
 Retrieve the Type of update to this ticket
+
 </div>
 </div>
 

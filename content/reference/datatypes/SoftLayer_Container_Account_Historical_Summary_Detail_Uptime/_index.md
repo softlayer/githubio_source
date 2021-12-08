@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Historical Summary Details Container for a host resource uptime 
 
 
@@ -45,7 +47,8 @@ Historical Summary Details Container for a host resource uptime
 [cloudComputingInstance]: #cloudcomputinginstance
 #### [cloudComputingInstance]
 The hardware for uptime details.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The hardware for uptime details.
 [data]: #data
 #### [data]
 The data associated with a host uptime details.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Data'>SoftLayer_Metric_Tracking_Object_Data[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Data'>SoftLayer_Metric_Tracking_Object_Data[] </a>**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The data associated with a host uptime details.
 [endDate]: #enddate
 #### [endDate]
 The maximum date included in the detail.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The maximum date included in the detail.
 [hardware]: #hardware
 #### [hardware]
 The hardware for uptime details.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The hardware for uptime details.
 [startDate]: #startdate
 #### [startDate]
 The minimum date included in the detail.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>

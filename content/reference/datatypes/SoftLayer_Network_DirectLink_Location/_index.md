@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_DirectLink_Location presents a structure containing attributes of a Direct Link location, and its related object SoftLayer location. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Network_DirectLink_Location presents a structure containing attrib
 [buildingColocationOwner]: #buildingcolocationowner
 #### [buildingColocationOwner]
 The Direct Link specific location owner for POP/DC facilities. Like Equinix, Pacnet, Verizon etc.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The Direct Link specific location owner for POP/DC facilities. Like Equinix, Pac
 [id]: #id
 #### [id]
 The unique identifier of a Direct Link location.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The unique identifier of a Direct Link location.
 [isRedundantXcr]: #isredundantxcr
 #### [isRedundantXcr]
 Specifies if The Direct Link specific location has Redundancy:secondary XCR availability.   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Specifies if The Direct Link specific location has Redundancy:secondary XCR avai
 [locationId]: #locationid
 #### [locationId]
 The Direct Link specific location ie. Data Center & Network POP facility. Refer to location object Like Dallas in US, London in England etc.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The Direct Link specific location ie. Data Center & Network POP facility. Refer 
 [marketGeography]: #marketgeography
 #### [marketGeography]
 The Direct Link Market location used in Direct Link Order. Like Europe, North America, Asia pacific etc.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ The Direct Link Market location used in Direct Link Order. Like Europe, North Am
 [location]: #location
 #### [location]
 The location of Direct Link facility.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ The location of Direct Link facility.
 [provider]: #provider
 #### [provider]
 The Id of Direct Link provider.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_DirectLink_Provider'>SoftLayer_Network_DirectLink_Provider </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_DirectLink_Provider'>SoftLayer_Network_DirectLink_Provider </a>**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ The Id of Direct Link provider.
 [serviceType]: #servicetype
 #### [serviceType]
 The Id of Direct Link service type.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_DirectLink_ServiceType'>SoftLayer_Network_DirectLink_ServiceType </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_DirectLink_ServiceType'>SoftLayer_Network_DirectLink_ServiceType </a>**  
+
 
 
 </div>

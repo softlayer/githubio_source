@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [description]: #description
 #### [description]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ classes:
 [id]: #id
 #### [id]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ classes:
 [locationGroupTypeId]: #locationgrouptypeid
 #### [locationGroupTypeId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ classes:
 [name]: #name
 #### [name]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ classes:
 [securityLevelId]: #securitylevelid
 #### [securityLevelId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ classes:
 [datacenters]: #datacenters
 #### [datacenters]
 The datacenters in a group.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ The datacenters in a group.
 [locationGroupType]: #locationgrouptype
 #### [locationGroupType]
 The type for this location group.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Group_Type'>SoftLayer_Location_Group_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Group_Type'>SoftLayer_Location_Group_Type </a>**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ The type for this location group.
 [locations]: #locations
 #### [locations]
 The locations in a group.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ The locations in a group.
 [preferredDatacenter]: #preferreddatacenter
 #### [preferredDatacenter]
 The preferred datacenters of a group.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Datacenter'>SoftLayer_Location_Datacenter </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Datacenter'>SoftLayer_Location_Datacenter </a>**  
+
 
 
 </div>
@@ -143,7 +154,8 @@ The preferred datacenters of a group.
 [datacenterCount]: #datacentercount
 #### [datacenterCount]
 A count of the datacenters in a group.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -153,7 +165,8 @@ A count of the datacenters in a group.
 [locationCount]: #locationcount
 #### [locationCount]
 A count of the locations in a group.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_LBaaS_L7Pool type presents a structure containing attributes of a load balancer's L7 pool such as the protocol, and the load balancing algorithm used. L7 pool is used for redirect_pool action of the L7 policy and is different from the default pool 
 
 
@@ -50,7 +52,8 @@ The SoftLayer_Network_LBaaS_L7Pool type presents a structure containing attribut
 [createDate]: #createdate
 #### [createDate]
 Create date of the L7 pool instance  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ Create date of the L7 pool instance
 [id]: #id
 #### [id]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -70,7 +74,8 @@ Create date of the L7 pool instance
 [loadBalancingAlgorithm]: #loadbalancingalgorithm
 #### [loadBalancingAlgorithm]
 Load balancing algorithm: "ROUNDROBIN", "WEIGHTED_RR", "LEASTCONNECTION"  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -80,7 +85,8 @@ Load balancing algorithm: "ROUNDROBIN", "WEIGHTED_RR", "LEASTCONNECTION"
 [modifyDate]: #modifydate
 #### [modifyDate]
 Last updated date of the L7 pool  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -90,7 +96,8 @@ Last updated date of the L7 pool
 [name]: #name
 #### [name]
 Name of the L7 pool.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -100,7 +107,8 @@ Name of the L7 pool.
 [protocol]: #protocol
 #### [protocol]
 Backends protocol, supported protocol is, "HTTP"  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -110,7 +118,8 @@ Backends protocol, supported protocol is, "HTTP"
 [provisioningStatus]: #provisioningstatus
 #### [provisioningStatus]
 Provisioning status of a load balancer's L7 pool.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -120,7 +129,8 @@ Provisioning status of a load balancer's L7 pool.
 [uuid]: #uuid
 #### [uuid]
 Instance uuid of the L7 pool  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -136,7 +146,8 @@ Instance uuid of the L7 pool
 [l7HealthMonitor]: #l7healthmonitor
 #### [l7HealthMonitor]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7HealthMonitor'>SoftLayer_Network_LBaaS_L7HealthMonitor </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7HealthMonitor'>SoftLayer_Network_LBaaS_L7HealthMonitor </a>**  
+
 
 
 </div>
@@ -146,7 +157,8 @@ Instance uuid of the L7 pool
 [l7Members]: #l7members
 #### [l7Members]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7Member'>SoftLayer_Network_LBaaS_L7Member[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7Member'>SoftLayer_Network_LBaaS_L7Member[] </a>**  
+
 
 
 </div>
@@ -156,7 +168,8 @@ Instance uuid of the L7 pool
 [l7Policies]: #l7policies
 #### [l7Policies]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7Policy'>SoftLayer_Network_LBaaS_L7Policy[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7Policy'>SoftLayer_Network_LBaaS_L7Policy[] </a>**  
+
 
 
 </div>
@@ -166,7 +179,8 @@ Instance uuid of the L7 pool
 [l7SessionAffinity]: #l7sessionaffinity
 #### [l7SessionAffinity]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7SessionAffinity'>SoftLayer_Network_LBaaS_L7SessionAffinity </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7SessionAffinity'>SoftLayer_Network_LBaaS_L7SessionAffinity </a>**  
+
 
 
 </div>
@@ -178,7 +192,8 @@ Instance uuid of the L7 pool
 [l7MemberCount]: #l7membercount
 #### [l7MemberCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -188,7 +203,8 @@ A count of
 [l7PolicyCount]: #l7policycount
 #### [l7PolicyCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

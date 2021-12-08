@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getActiveCommand
 
+
 Retrieve reboot/power (rebootDefault, rebootSoft, rebootHard, powerOn, powerOff and powerCycle) command currently executing by the server's remote management card.
 
 

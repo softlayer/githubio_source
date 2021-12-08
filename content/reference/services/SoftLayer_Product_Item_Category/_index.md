@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 Retrieve the category information for a product item.
 
 
@@ -42,11 +44,13 @@ Retrieve the category information for a product item.
 
 #### [getAdditionalProductsForCategory](/reference/services/SoftLayer_Product_Item_Category/getAdditionalProductsForCategory)
 Return a list of Items in the "Additional Services" package with their active prices for a given product item category.
+
 </div>
 
 <div class="method-row">
 
 #### [getBandwidthCategories](/reference/services/SoftLayer_Product_Item_Category/getBandwidthCategories)
+
 
 </div>
 
@@ -54,17 +58,20 @@ Return a list of Items in the "Additional Services" package with their active pr
 
 #### [getBillingItems](/reference/services/SoftLayer_Product_Item_Category/getBillingItems)
 Retrieve the billing items associated with an account that share a category code with an item category's category code.
+
 </div>
 
 <div class="method-row">
 
 #### [getComputingCategories](/reference/services/SoftLayer_Product_Item_Category/getComputingCategories)
 Returns a collection of computing categories.
+
 </div>
 
 <div class="method-row">
 
 #### [getCustomUsageRatesCategories](/reference/services/SoftLayer_Product_Item_Category/getCustomUsageRatesCategories)
+
 
 </div>
 
@@ -72,29 +79,34 @@ Returns a collection of computing categories.
 
 #### [getExternalResourceCategories](/reference/services/SoftLayer_Product_Item_Category/getExternalResourceCategories)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getGroup](/reference/services/SoftLayer_Product_Item_Category/getGroup)
 Retrieve this invoice item's "item category group". 
+
 </div>
 
 <div class="method-row">
 
 #### [getGroups](/reference/services/SoftLayer_Product_Item_Category/getGroups)
 Retrieve a collection of service offering category groups. Each group contains a collection of items associated with this category.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Product_Item_Category/getObject)
 Retrieve a SoftLayer_Product_Item_Category record.
+
 </div>
 
 <div class="method-row">
 
 #### [getObjectStorageCategories](/reference/services/SoftLayer_Product_Item_Category/getObjectStorageCategories)
+
 
 </div>
 
@@ -102,35 +114,41 @@ Retrieve a SoftLayer_Product_Item_Category record.
 
 #### [getOrderOptions](/reference/services/SoftLayer_Product_Item_Category/getOrderOptions)
 Retrieve any unique options associated with an item category.
+
 </div>
 
 <div class="method-row">
 
 #### [getPackageConfigurations](/reference/services/SoftLayer_Product_Item_Category/getPackageConfigurations)
 Retrieve a list of configuration available in this category.'
+
 </div>
 
 <div class="method-row">
 
 #### [getPresetConfigurations](/reference/services/SoftLayer_Product_Item_Category/getPresetConfigurations)
 Retrieve a list of preset configurations this category is used in.'
+
 </div>
 
 <div class="method-row">
 
 #### [getQuestionReferences](/reference/services/SoftLayer_Product_Item_Category/getQuestionReferences)
 Retrieve the question references that are associated with an item category.
+
 </div>
 
 <div class="method-row">
 
 #### [getQuestions](/reference/services/SoftLayer_Product_Item_Category/getQuestions)
 Retrieve the questions that are associated with an item category.
+
 </div>
 
 <div class="method-row">
 
 #### [getSoftwareCategories](/reference/services/SoftLayer_Product_Item_Category/getSoftwareCategories)
+
 
 </div>
 
@@ -138,23 +156,27 @@ Retrieve the questions that are associated with an item category.
 
 #### [getSubnetCategories](/reference/services/SoftLayer_Product_Item_Category/getSubnetCategories)
 Returns a list of subnet categories.
+
 </div>
 
 <div class="method-row">
 
 #### [getTopLevelCategories](/reference/services/SoftLayer_Product_Item_Category/getTopLevelCategories)
 Returns a collection of top-level categories.
+
 </div>
 
 <div class="method-row">
 
 #### [getValidCancelableServiceItemCategories](/reference/services/SoftLayer_Product_Item_Category/getValidCancelableServiceItemCategories)
 Returns service product categories that can be canceled via API
+
 </div>
 
 <div class="method-row">
 
 #### [getVlanCategories](/reference/services/SoftLayer_Product_Item_Category/getVlanCategories)
+
 
 </div>
 </div>

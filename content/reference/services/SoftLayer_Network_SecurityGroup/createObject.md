@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_SecurityGroup](/reference/services/SoftLayer_Network_SecurityGroup)::createObject
 
+
 Create a new security group.
 
 

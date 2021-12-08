@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Location_Datacenter](/reference/services/SoftLayer_Location_Datacenter)::getRoutableBoundSubnets
 
+
 Retrieve retrieve all subnets that are eligible to be routed; those which the account has permission to associate with a vlan.
 
 

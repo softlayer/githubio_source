@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getNetworkGateways
 
+
 Retrieve all network gateway devices on this account.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getUplinkHardware
 
+
 Retrieve the network device connected to a piece of hardware.
 
 

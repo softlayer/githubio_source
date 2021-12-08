@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Security_Certificate_Request](/reference/services/SoftLayer_Security_Certificate_Request)::validateCsr
 
+
 Validates a Certificate Signing Request (CSR) with the certificate authority (CA). 
 
 

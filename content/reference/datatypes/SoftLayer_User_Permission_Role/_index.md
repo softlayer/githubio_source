@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_User_Permission_Role data type contains local attributes to identify and describe the permission roles that have been created within IMS.  These includes a name, description, and account id.  Permission groups are defined specifically for a single [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}). 
 
 It also contains relational attributes that indicate what SoftLayer_User_Permission_Group objects are linked to a particular role, and the SoftLayer_User_Customer objects assigned to the role. 
@@ -47,7 +49,8 @@ It also contains relational attributes that indicate what SoftLayer_User_Permiss
 [accountId]: #accountid
 #### [accountId]
 Id of a [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}) to which this role belongs.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -57,7 +60,8 @@ Id of a [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}) t
 [createDate]: #createdate
 #### [createDate]
 The date the permission role record was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -67,7 +71,8 @@ The date the permission role record was created.
 [description]: #description
 #### [description]
 The description of the permission role.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -77,7 +82,8 @@ The description of the permission role.
 [id]: #id
 #### [id]
 A permission roles internal identifying number.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -87,7 +93,8 @@ A permission roles internal identifying number.
 [modifyDate]: #modifydate
 #### [modifyDate]
 The date the permission role record was last modified.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -97,7 +104,8 @@ The date the permission role record was last modified.
 [name]: #name
 #### [name]
 The name of the permission role.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -107,7 +115,8 @@ The name of the permission role.
 [newUserDefaultFlag]: #newuserdefaultflag
 #### [newUserDefaultFlag]
 A flag showing if new users should be automatically added to this role.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -117,7 +126,8 @@ A flag showing if new users should be automatically added to this role.
 [systemFlag]: #systemflag
 #### [systemFlag]
 A flag showing if the permission role was created by our internal system for a single user. If this flag is set, only a single user can be assigned to this permission role and it can not be deleted.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -133,7 +143,8 @@ A flag showing if the permission role was created by our internal system for a s
 [account]: #account
 #### [account]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -143,7 +154,8 @@ A flag showing if the permission role was created by our internal system for a s
 [actions]: #actions
 #### [actions]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Permission_Action'>SoftLayer_User_Permission_Action[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Permission_Action'>SoftLayer_User_Permission_Action[] </a>**  
+
 
 
 </div>
@@ -153,7 +165,8 @@ A flag showing if the permission role was created by our internal system for a s
 [groups]: #groups
 #### [groups]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Permission_Group'>SoftLayer_User_Permission_Group[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Permission_Group'>SoftLayer_User_Permission_Group[] </a>**  
+
 
 
 </div>
@@ -163,7 +176,8 @@ A flag showing if the permission role was created by our internal system for a s
 [users]: #users
 #### [users]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer[] </a>**  
+
 
 
 </div>
@@ -175,7 +189,8 @@ A flag showing if the permission role was created by our internal system for a s
 [actionCount]: #actioncount
 #### [actionCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -185,7 +200,8 @@ A count of
 [groupCount]: #groupcount
 #### [groupCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -195,7 +211,8 @@ A count of
 [userCount]: #usercount
 #### [userCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Bandwidth_Version1_Allotment](/reference/services/SoftLayer_Network_Bandwidth_Version1_Allotment)::getPrivateNetworkOnlyHardware
 
+
 Retrieve the private network only hardware contained within a virtual rack.
 
 

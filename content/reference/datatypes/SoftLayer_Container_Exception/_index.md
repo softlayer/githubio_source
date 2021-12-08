@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Container_Exception data type represents a SoftLayer_Exception. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Container_Exception data type represents a SoftLayer_Exception.
 [exceptionClass]: #exceptionclass
 #### [exceptionClass]
 The SoftLayer_Exception class that the error is.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The SoftLayer_Exception class that the error is.
 [exceptionMessage]: #exceptionmessage
 #### [exceptionMessage]
 The exception message.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

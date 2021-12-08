@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet_Swip_Transaction](/reference/services/SoftLayer_Network_Subnet_Swip_Transaction)::getAccount
 
+
 Retrieve the Account whose RWHOIS data was used to SWIP this subnet
 
 

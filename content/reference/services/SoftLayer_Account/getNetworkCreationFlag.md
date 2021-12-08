@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getNetworkCreationFlag
 
+
 Retrieve [Deprecated] Whether or not this account can define their own networks.
 
 

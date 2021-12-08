@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getOpenCancellationTicket
 
+
 Retrieve an open ticket requesting cancellation of this server, if one exists.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Address](/reference/services/SoftLayer_Account_Address)::getAllDataCenters
 
+
 Retrieve a list of SoftLayer datacenter addresses.
 
 

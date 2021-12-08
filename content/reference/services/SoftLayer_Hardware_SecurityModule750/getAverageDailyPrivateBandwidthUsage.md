@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getAverageDailyPrivateBandwidthUsage
 
+
 Retrieve the average daily private bandwidth usage for the current billing cycle.
 
 

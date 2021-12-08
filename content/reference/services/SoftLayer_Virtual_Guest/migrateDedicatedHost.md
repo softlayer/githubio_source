@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::migrateDedicatedHost
 
+
 Migrate a dedicated instance from one dedicated host to another dedicated host 
 
 

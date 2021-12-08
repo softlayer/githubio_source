@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 Every standard support ticket submitted to SoftLayer contains a relationship to a pre-determined subject which populates that ticket's title. The SoftLayer_Ticket_Subject service retrieves these subjects. These ticket subjects also determine which department a ticket is opened for. 
 
 
@@ -50,11 +52,13 @@ Every standard support ticket submitted to SoftLayer contains a relationship to 
 
 #### [getAllObjects](/reference/services/SoftLayer_Ticket_Subject/getAllObjects)
 Retrieve all ticket subjects.
+
 </div>
 
 <div class="method-row">
 
 #### [getCategory](/reference/services/SoftLayer_Ticket_Subject/getCategory)
+
 
 </div>
 
@@ -62,11 +66,13 @@ Retrieve all ticket subjects.
 
 #### [getChildren](/reference/services/SoftLayer_Ticket_Subject/getChildren)
 Retrieve a child subject
+
 </div>
 
 <div class="method-row">
 
 #### [getGroup](/reference/services/SoftLayer_Ticket_Subject/getGroup)
+
 
 </div>
 
@@ -74,18 +80,21 @@ Retrieve a child subject
 
 #### [getObject](/reference/services/SoftLayer_Ticket_Subject/getObject)
 Retrieve a SoftLayer_Ticket_Subject record.
+
 </div>
 
 <div class="method-row">
 
 #### [getParent](/reference/services/SoftLayer_Ticket_Subject/getParent)
 Retrieve a parent subject
+
 </div>
 
 <div class="method-row">
 
 #### [getTopFiveKnowledgeLayerQuestions](/reference/services/SoftLayer_Ticket_Subject/getTopFiveKnowledgeLayerQuestions)
 Retrieve the top five KnowledgeLayer questions for a ticket subject
+
 </div>
 </div>
 

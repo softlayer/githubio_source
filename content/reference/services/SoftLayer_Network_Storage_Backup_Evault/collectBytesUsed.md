@@ -15,6 +15,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::collectBytesUsed
 
+
 Retrieve the number of bytes capacity currently in use on a Storage account.
 
 

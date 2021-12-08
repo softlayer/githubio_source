@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_MassDataMigration_Request_KeyContact](/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request_KeyContact)::getObject
 
+
 Retrieve a SoftLayer_Network_Storage_MassDataMigration_Request_KeyContact record.
 
 

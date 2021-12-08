@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest_Block_Device_Template_Group](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group)::getImageType
 
+
 Retrieve the virtual disk image type of this template. Value will be populated on parent and child, but only supports object filtering on the parent.
 
 

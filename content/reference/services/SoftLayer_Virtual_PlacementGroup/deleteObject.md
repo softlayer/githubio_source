@@ -16,6 +16,7 @@ aliases:
 
 
 
+
 ## Overview 
 Delete a placement group from your account. 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Notification_Occurrence_Event](/reference/services/SoftLayer_Notification_Occurrence_Event)::getImpactedDevices
 
+
 Get devices impacted by this event
 
 

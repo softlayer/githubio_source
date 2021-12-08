@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::activatePartner
 
+
 This service enables a partner account that has been created but is currently inactive. This restricted service is only available for certain accounts. Please contact support for questions. 
 
 

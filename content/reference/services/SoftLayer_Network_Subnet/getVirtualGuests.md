@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::getVirtualGuests
 
+
 Retrieve the Virtual Servers using IP addresses on this subnet.
 
 

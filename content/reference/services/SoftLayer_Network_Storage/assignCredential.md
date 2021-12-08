@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::assignCredential
 
+
 This method will assign an existing credential to the current volume.
 
 

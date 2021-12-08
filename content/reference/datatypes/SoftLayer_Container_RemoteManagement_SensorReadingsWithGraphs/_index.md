@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Container_RemoteManagement_SensorReadingsWithGraphs contains the raw data retrieved from a server's remote management card.  Along with the raw data, two sets of graphs will be returned.  One set of graphs is used to display, using thermometer graphs, the temperatures (cpu(s) and system) retrieved from the management card.  The other set is used to display speed for each of the server's fans. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Container_RemoteManagement_SensorReadingsWithGraphs contains the r
 [rawData]: #rawdata
 #### [rawData]
 The raw data returned from the server's remote management card.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_RemoteManagement_SensorReading'>SoftLayer_Container_RemoteManagement_SensorReading[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_RemoteManagement_SensorReading'>SoftLayer_Container_RemoteManagement_SensorReading[] </a>**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The raw data returned from the server's remote management card.
 [speedGraphs]: #speedgraphs
 #### [speedGraphs]
 The graph(s) to display the server's fan speeds.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_RemoteManagement_Graphs_SensorSpeed'>SoftLayer_Container_RemoteManagement_Graphs_SensorSpeed[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_RemoteManagement_Graphs_SensorSpeed'>SoftLayer_Container_RemoteManagement_Graphs_SensorSpeed[] </a>**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The graph(s) to display the server's fan speeds.
 [temperatureGraphs]: #temperaturegraphs
 #### [temperatureGraphs]
 The graph(s) to display the server's cpu(s) and system temperatures.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_RemoteManagement_Graphs_SensorTemperature'>SoftLayer_Container_RemoteManagement_Graphs_SensorTemperature[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_RemoteManagement_Graphs_SensorTemperature'>SoftLayer_Container_RemoteManagement_Graphs_SensorTemperature[] </a>**  
+
 
 
 </div>

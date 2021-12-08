@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,54 +44,63 @@ classes:
 
 #### [createObject](/reference/services/SoftLayer_User_Customer_MobileDevice/createObject)
 Create a new mobile device association for a user.
+
 </div>
 
 <div class="method-row">
 
 #### [deleteObject](/reference/services/SoftLayer_User_Customer_MobileDevice/deleteObject)
 Delete a mobile device association for a user.
+
 </div>
 
 <div class="method-row">
 
 #### [editObject](/reference/services/SoftLayer_User_Customer_MobileDevice/editObject)
 Edit the object by passing in a modified instance of the object.
+
 </div>
 
 <div class="method-row">
 
 #### [getAvailablePushNotificationSubscriptions](/reference/services/SoftLayer_User_Customer_MobileDevice/getAvailablePushNotificationSubscriptions)
 Retrieve notification subscriptions available to a mobile device.
+
 </div>
 
 <div class="method-row">
 
 #### [getCustomer](/reference/services/SoftLayer_User_Customer_MobileDevice/getCustomer)
 Retrieve the user this mobile device belongs to.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_User_Customer_MobileDevice/getObject)
 Retrieve a SoftLayer_User_Customer_MobileDevice record.
+
 </div>
 
 <div class="method-row">
 
 #### [getOperatingSystem](/reference/services/SoftLayer_User_Customer_MobileDevice/getOperatingSystem)
 Retrieve the operating system this device is using
+
 </div>
 
 <div class="method-row">
 
 #### [getPushNotificationSubscriptions](/reference/services/SoftLayer_User_Customer_MobileDevice/getPushNotificationSubscriptions)
 Retrieve notification subscriptions attached to a mobile device.
+
 </div>
 
 <div class="method-row">
 
 #### [getType](/reference/services/SoftLayer_User_Customer_MobileDevice/getType)
 Retrieve the type of device this user is using
+
 </div>
 </div>
 

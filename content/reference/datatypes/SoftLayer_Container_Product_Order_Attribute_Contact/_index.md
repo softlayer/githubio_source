@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This is the datatype that needs to be populated and sent to SoftLayer_Product_Order::placeOrder. The SoftLayer_Container_Product_Order_Attribute_Contact datatype contains the contact information. 
 
 
@@ -45,7 +47,8 @@ This is the datatype that needs to be populated and sent to SoftLayer_Product_Or
 [address]: #address
 #### [address]
 The address information of the contact.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Product_Order_Attribute_Address'>SoftLayer_Container_Product_Order_Attribute_Address </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Product_Order_Attribute_Address'>SoftLayer_Container_Product_Order_Attribute_Address </a>**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The address information of the contact.
 [emailAddress]: #emailaddress
 #### [emailAddress]
 The email address of the contact.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The email address of the contact.
 [faxNumber]: #faxnumber
 #### [faxNumber]
 The fax number associated with a contact. This is an optional value.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The fax number associated with a contact. This is an optional value.
 [firstName]: #firstname
 #### [firstName]
 The first name of the contact.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The first name of the contact.
 [lastName]: #lastname
 #### [lastName]
 The last name of the contact.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The last name of the contact.
 [organizationName]: #organizationname
 #### [organizationName]
 The organization name of the contact.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The organization name of the contact.
 [phoneNumber]: #phonenumber
 #### [phoneNumber]
 The phone number associated with a contact.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ The phone number associated with a contact.
 [title]: #title
 #### [title]
 The title of the contact.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

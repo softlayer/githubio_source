@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getHourlyBillingFlag
 
+
 Retrieve a server's hourly billing status.
 
 

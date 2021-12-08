@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getLegacyBandwidthAllotments
 
+
 Retrieve the legacy bandwidth allotments for an account.
 
 

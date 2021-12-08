@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::setVlanSpan
 
+
 Set the flag that enables or disables automatic private network VLAN spanning for a SoftLayer customer account.
 
 

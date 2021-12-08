@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This exception is thrown if the component locator client cannot find or communicate with the component locator service. 
 
 

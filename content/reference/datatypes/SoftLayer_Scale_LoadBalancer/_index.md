@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [createDate]: #createdate
 #### [createDate]
 When this load balancer configuration was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ When this load balancer configuration was created.
 [deleteFlag]: #deleteflag
 #### [deleteFlag]
 When set and true any edit that happens on this object, be it calling edit on this directly or setting as a child while editing a parent object, will end up being a deletion.   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ When set and true any edit that happens on this object, be it calling edit on th
 [healthCheckId]: #healthcheckid
 #### [healthCheckId]
 The identifier for the health check of this load balancer configuration  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The identifier for the health check of this load balancer configuration
 [id]: #id
 #### [id]
 The load balancer configuration's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The load balancer configuration's internal identifier.
 [modifyDate]: #modifydate
 #### [modifyDate]
 When this load balancer configuration was last modified.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ When this load balancer configuration was last modified.
 [port]: #port
 #### [port]
 The port for this load balancer configuration.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The port for this load balancer configuration.
 [scaleGroupId]: #scalegroupid
 #### [scaleGroupId]
 The identifier of the group this load balancer configuration applies to.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ The identifier of the group this load balancer configuration applies to.
 [virtualServerId]: #virtualserverid
 #### [virtualServerId]
 The identifier of the virtual server this load balancer configuration uses.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ The identifier of the virtual server this load balancer configuration uses.
 [allocationPercent]: #allocationpercent
 #### [allocationPercent]
 The percentage of connections allocated to this virtual server.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ The percentage of connections allocated to this virtual server.
 [healthCheck]: #healthcheck
 #### [healthCheck]
 The health check for this configuration.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Check'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Check </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Check'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Check </a>**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ The health check for this configuration.
 [routingMethod]: #routingmethod
 #### [routingMethod]
 The routing method.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Routing_Method'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Routing_Method </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Routing_Method'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Routing_Method </a>**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ The routing method.
 [routingType]: #routingtype
 #### [routingType]
 The routing type.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Routing_Type'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Routing_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Routing_Type'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Routing_Type </a>**  
+
 
 
 </div>
@@ -171,7 +185,8 @@ The routing type.
 [scaleGroup]: #scalegroup
 #### [scaleGroup]
 The group this load balancer configuration is for.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Scale_Group'>SoftLayer_Scale_Group </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Scale_Group'>SoftLayer_Scale_Group </a>**  
+
 
 
 </div>
@@ -181,7 +196,8 @@ The group this load balancer configuration is for.
 [virtualIpAddressId]: #virtualipaddressid
 #### [virtualIpAddressId]
 The ID of the virtual IP address.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -191,7 +207,8 @@ The ID of the virtual IP address.
 [virtualServer]: #virtualserver
 #### [virtualServer]
 The virtual server for this configuration.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualServer'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualServer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualServer'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualServer </a>**  
+
 
 
 </div>
@@ -201,7 +218,8 @@ The virtual server for this configuration.
 [virtualServerPort]: #virtualserverport
 #### [virtualServerPort]
 The port on the virtual server.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

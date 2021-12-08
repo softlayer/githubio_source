@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 The SoftLayer_Network_Firewall_Interface service accesses general information relating to a single SoftLayer firewall interface.  This is the object which ties the firewall context access control list to a firewall. The current running rule set can be pulled from this service. Use the [[SoftLayer Network Firewall Template]] service to pull SoftLayer recommended rule set templates. Use the [[SoftLayer Network Firewall Update Request]] service to submit a firewall update request. 
 
 ### External Links
@@ -56,11 +58,13 @@ The SoftLayer_Network_Firewall_Interface service accesses general information re
 
 #### [getFirewallContextAccessControlLists](/reference/services/SoftLayer_Network_Firewall_Interface/getFirewallContextAccessControlLists)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getNetworkVlan](/reference/services/SoftLayer_Network_Firewall_Interface/getNetworkVlan)
+
 
 </div>
 
@@ -68,6 +72,7 @@ The SoftLayer_Network_Firewall_Interface service accesses general information re
 
 #### [getObject](/reference/services/SoftLayer_Network_Firewall_Interface/getObject)
 Retrieve a SoftLayer_Network_Firewall_Interface record.
+
 </div>
 </div>
 

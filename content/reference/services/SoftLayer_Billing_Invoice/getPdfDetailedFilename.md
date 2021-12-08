@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Invoice](/reference/services/SoftLayer_Billing_Invoice)::getPdfDetailedFilename
 
+
 Get the name of the detailed version of the PDF.
 
 

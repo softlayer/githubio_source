@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getEvaultNetworkStorage
 
+
 Retrieve information regarding a piece of hardware's associated EVault network storage service account.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::isCloudInit
 
+
 Determines if the virtual guest was provisioned from a cloud-init enabled image. 
 
 

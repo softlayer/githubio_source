@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Resource_Metadata](/reference/services/SoftLayer_Resource_Metadata)::getHostname
 
+
 A resource's hostname
 
 

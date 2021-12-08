@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Dns_Domain](/reference/services/SoftLayer_Dns_Domain)::createTxtRecord
 
+
 Create a TXT record on a domain.
 
 

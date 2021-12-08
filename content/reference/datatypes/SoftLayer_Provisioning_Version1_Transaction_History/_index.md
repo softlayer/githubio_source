@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [finishDate]: #finishdate
 #### [finishDate]
 The finish date of a transaction history record.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The finish date of a transaction history record.
 [guestId]: #guestid
 #### [guestId]
 The guest ID associated with a transaction history.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The guest ID associated with a transaction history.
 [hardwareId]: #hardwareid
 #### [hardwareId]
 The hardware ID associated with a transaction history.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The hardware ID associated with a transaction history.
 [hostId]: #hostid
 #### [hostId]
 The host ID associated with a transaction history.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The host ID associated with a transaction history.
 [id]: #id
 #### [id]
 The ID associated with a transaction history.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The ID associated with a transaction history.
 [startDate]: #startdate
 #### [startDate]
 The start date of a transaction history record.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The start date of a transaction history record.
 [transactionId]: #transactionid
 #### [transactionId]
 The transaction ID associated with a transaction history.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ The transaction ID associated with a transaction history.
 [transactionStatusId]: #transactionstatusid
 #### [transactionStatusId]
 The transaction status ID associated with a transaction history.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ The transaction status ID associated with a transaction history.
 [guest]: #guest
 #### [guest]
 The guest from where transaction history originates.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ The guest from where transaction history originates.
 [hardware]: #hardware
 #### [hardware]
 The hardware from where transaction history originates.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ The hardware from where transaction history originates.
 [transaction]: #transaction
 #### [transaction]
 The transaction from where transaction history originates.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction </a>**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ The transaction from where transaction history originates.
 [transactionStatus]: #transactionstatus
 #### [transactionStatus]
 The transaction status of a transaction history.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction_Status'>SoftLayer_Provisioning_Version1_Transaction_Status </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction_Status'>SoftLayer_Provisioning_Version1_Transaction_Status </a>**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Agreement](/reference/services/SoftLayer_Account_Agreement)::getStatus
 
+
 Retrieve the status of the agreement.
 
 

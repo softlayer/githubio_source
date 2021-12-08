@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Container_KnowledgeLayer_QuestionAnswer models a single question and answer pair from SoftLayer's KnowledgeLayer knowledge base. SoftLayer's backend network interfaces with the KnowledgeLayer to recommend helpful articles when support tickets are created. 
 
 ### External Links
@@ -56,7 +58,8 @@ SoftLayer_Container_KnowledgeLayer_QuestionAnswer models a single question and a
 [answer]: #answer
 #### [answer]
 The answer to a question asked on the SoftLayer KnowledgeLayer.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -66,7 +69,8 @@ The answer to a question asked on the SoftLayer KnowledgeLayer.
 [link]: #link
 #### [link]
 The link to a question asked on the SoftLayer KnowledgeLayer.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -76,7 +80,8 @@ The link to a question asked on the SoftLayer KnowledgeLayer.
 [question]: #question
 #### [question]
 A question asked on the SoftLayer KnowledgeLayer.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

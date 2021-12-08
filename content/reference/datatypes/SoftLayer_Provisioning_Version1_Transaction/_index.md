@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Provisioning_Version1_Transaction data type contains general information relating to a single SoftLayer hardware transaction. 
 
 SoftLayer customers are unable to change their hardware transactions. 
@@ -60,7 +62,8 @@ SoftLayer customers are unable to change their hardware transactions.
 [createDate]: #createdate
 #### [createDate]
 The date a transaction was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -70,7 +73,8 @@ The date a transaction was created.
 [elapsedSeconds]: #elapsedseconds
 #### [elapsedSeconds]
 The amount of seconds that have elapsed since the transaction was last modified.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -80,7 +84,8 @@ The amount of seconds that have elapsed since the transaction was last modified.
 [guestId]: #guestid
 #### [guestId]
 A transaction's associated guest identification number.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -90,7 +95,8 @@ A transaction's associated guest identification number.
 [hardwareId]: #hardwareid
 #### [hardwareId]
 A transaction's associated hardware identification number.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -100,7 +106,8 @@ A transaction's associated hardware identification number.
 [id]: #id
 #### [id]
 A transaction's identifying number.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -110,7 +117,8 @@ A transaction's identifying number.
 [modifyDate]: #modifydate
 #### [modifyDate]
 The date a transaction was last modified.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -120,7 +128,8 @@ The date a transaction was last modified.
 [statusChangeDate]: #statuschangedate
 #### [statusChangeDate]
 The date the transaction status was last modified.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -136,7 +145,8 @@ The date the transaction status was last modified.
 [account]: #account
 #### [account]
 The account that a transaction belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -146,7 +156,8 @@ The account that a transaction belongs to.
 [guest]: #guest
 #### [guest]
 The guest record for this transaction.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**  
+
 
 
 </div>
@@ -156,7 +167,8 @@ The guest record for this transaction.
 [hardware]: #hardware
 #### [hardware]
 The hardware object for this transaction.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**  
+
 
 
 </div>
@@ -166,7 +178,8 @@ The hardware object for this transaction.
 [loopback]: #loopback
 #### [loopback]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction[] </a>**  
+
 
 
 </div>
@@ -176,7 +189,8 @@ The hardware object for this transaction.
 [pendingTransactions]: #pendingtransactions
 #### [pendingTransactions]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction[] </a>**  
+
 
 
 </div>
@@ -186,7 +200,8 @@ The hardware object for this transaction.
 [ticketScheduledActionReference]: #ticketscheduledactionreference
 #### [ticketScheduledActionReference]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Attachment'>SoftLayer_Ticket_Attachment[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Attachment'>SoftLayer_Ticket_Attachment[] </a>**  
+
 
 
 </div>
@@ -196,7 +211,8 @@ The hardware object for this transaction.
 [transactionGroup]: #transactiongroup
 #### [transactionGroup]
 A transaction's group. This group object determines what type of service is being done on the hardware.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction_Group'>SoftLayer_Provisioning_Version1_Transaction_Group </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction_Group'>SoftLayer_Provisioning_Version1_Transaction_Group </a>**  
+
 
 
 </div>
@@ -206,7 +222,8 @@ A transaction's group. This group object determines what type of service is bein
 [transactionStatus]: #transactionstatus
 #### [transactionStatus]
 A transaction's status. This status object determines the state it is in the transaction group.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction_Status'>SoftLayer_Provisioning_Version1_Transaction_Status </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction_Status'>SoftLayer_Provisioning_Version1_Transaction_Status </a>**  
+
 
 
 </div>
@@ -218,7 +235,8 @@ A transaction's status. This status object determines the state it is in the tra
 [loopbackCount]: #loopbackcount
 #### [loopbackCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -228,7 +246,8 @@ A count of
 [pendingTransactionCount]: #pendingtransactioncount
 #### [pendingTransactionCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -238,7 +257,8 @@ A count of
 [ticketScheduledActionReferenceCount]: #ticketscheduledactionreferencecount
 #### [ticketScheduledActionReferenceCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

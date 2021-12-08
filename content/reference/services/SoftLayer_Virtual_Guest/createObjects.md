@@ -14,6 +14,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::createObjects
 
+
 Create new computing instances
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Container_Network_Storage_Hub_Container provides details about containers which store collections of files. 
 
 
@@ -56,7 +58,8 @@ SoftLayer_Container_Network_Storage_Hub_Container provides details about contain
 [bytes]: #bytes
 #### [bytes]
   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -66,7 +69,8 @@ SoftLayer_Container_Network_Storage_Hub_Container provides details about contain
 [count]: #count
 #### [count]
   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -76,7 +80,8 @@ SoftLayer_Container_Network_Storage_Hub_Container provides details about contain
 [name]: #name
 #### [name]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Scale_Group](/reference/services/SoftLayer_Scale_Group)::getLogs
 
+
 Retrieve collection of log entries for this group.
 
 

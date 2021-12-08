@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getPptpVpnUsers
 
+
 Retrieve an account's associated portal users with PPTP VPN access. (Deprecated)
 
 

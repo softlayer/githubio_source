@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getFailbackNotAllowed
 
+
 Retrieve determines whether the volume is allowed to failback
 
 

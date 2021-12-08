@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Host](/reference/services/SoftLayer_Virtual_Host)::getLiveGuestRecentMetricData
 
+
 Query a virtualization platform directly to retrieve recent metric data for a guest. 
 
 

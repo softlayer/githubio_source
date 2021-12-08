@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Location_Datacenter](/reference/services/SoftLayer_Location_Datacenter)::getViewableDatacenters
 
+
 Retrieve all datacenter locations
 
 

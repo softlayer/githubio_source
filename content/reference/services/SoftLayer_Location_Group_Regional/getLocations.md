@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Location_Group_Regional](/reference/services/SoftLayer_Location_Group_Regional)::getLocations
 
+
 Retrieve the locations in a group.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_MobileDevice_OperatingSystem](/reference/services/SoftLayer_User_Customer_MobileDevice_OperatingSystem)::getObject
 
+
 Retrieve a SoftLayer_User_Customer_MobileDevice_OperatingSystem record.
 
 

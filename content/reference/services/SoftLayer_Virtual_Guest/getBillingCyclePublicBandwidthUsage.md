@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getBillingCyclePublicBandwidthUsage
 
+
 Retrieve the raw public bandwidth usage data for the current billing cycle.
 
 

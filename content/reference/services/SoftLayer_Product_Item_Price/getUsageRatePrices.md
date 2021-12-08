@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Item_Price](/reference/services/SoftLayer_Product_Item_Price)::getUsageRatePrices
 
+
 Get all the rate-based prices for the location and items specified. 
 
 

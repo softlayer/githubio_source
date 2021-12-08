@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getPowerSupply
 
+
 Retrieve information regarding a piece of hardware's power supply.
 
 

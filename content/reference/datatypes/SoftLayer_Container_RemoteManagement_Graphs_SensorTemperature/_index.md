@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Container_RemoteManagement_Graphs_SensorTemperature contains graphs to display the cpu(s) and system temperatures retrieved from the management card using thermometer graphs. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Container_RemoteManagement_Graphs_SensorTemperature contains graph
 [graph]: #graph
 #### [graph]
 The graph to display the server's cpu(s) and system temperatures.  
-<span class="type-label">Type: </span>**binary data**
+<span class="type-label">Type: </span>**binary data**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The graph to display the server's cpu(s) and system temperatures.
 [title]: #title
 #### [title]
 A title that may be used to display for the graph.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

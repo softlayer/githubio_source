@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getMemoryMetricDataByDate
 
+
 Retrieve records containing the amount memory that was used for the specified time frame for a computing instance. 
 
 

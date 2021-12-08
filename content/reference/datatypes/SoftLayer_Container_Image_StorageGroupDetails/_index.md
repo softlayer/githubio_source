@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [drives]: #drives
 #### [drives]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Image_StorageGroupDetails_Drives'>SoftLayer_Container_Image_StorageGroupDetails_Drives[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Image_StorageGroupDetails_Drives'>SoftLayer_Container_Image_StorageGroupDetails_Drives[] </a>**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ classes:
 [storageGroupName]: #storagegroupname
 #### [storageGroupName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ classes:
 [storageGroupType]: #storagegrouptype
 #### [storageGroupType]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

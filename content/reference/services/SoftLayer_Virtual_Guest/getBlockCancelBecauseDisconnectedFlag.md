@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getBlockCancelBecauseDisconnectedFlag
 
+
 Retrieve determines whether the instance is ineligible for cancellation because it is disconnected.
 
 

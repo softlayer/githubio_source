@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Link_OpenStack](/reference/services/SoftLayer_Account_Link_OpenStack)::deleteObject
 
+
 Remove an account link.
 
 

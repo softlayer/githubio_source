@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Location_Datacenter](/reference/services/SoftLayer_Location_Datacenter)::getGroups
 
+
 Retrieve a location can be a member of 1 or more groups. This will show which groups to which a location belongs.
 
 

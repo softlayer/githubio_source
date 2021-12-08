@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Storage_Repository](/reference/services/SoftLayer_Virtual_Storage_Repository)::getArchiveDiskUsageRatePerGb
 
+
 The rate that is charged for archiving every 1 gigabyte of data for a computing instance 
 
 

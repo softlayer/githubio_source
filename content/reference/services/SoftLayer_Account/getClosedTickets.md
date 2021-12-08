@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getClosedTickets
 
+
 Retrieve all closed tickets associated with an account.
 
 

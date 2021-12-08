@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getPublicVlanByFqdn
 
+
 Retrieve a server's public VLAN based on it's fully-qualified domain name
 
 

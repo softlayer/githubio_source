@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getHasFullVirtualGuestAccessFlag
 
+
 Retrieve whether or not a portal user has access to all virtual guests on their account.
 
 

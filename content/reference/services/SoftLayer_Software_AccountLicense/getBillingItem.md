@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Software_AccountLicense](/reference/services/SoftLayer_Software_AccountLicense)::getBillingItem
 
+
 Retrieve the billing item for a software account license.
 
 

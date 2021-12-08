@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [previous_values]: #previous_values
 #### [previous_values]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_User_Customer_Profile_Event_HyperWarp_ProfileChange_EventProperties'>SoftLayer_Container_User_Customer_Profile_Event_HyperWarp_ProfileChange_EventProperties </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_User_Customer_Profile_Event_HyperWarp_ProfileChange_EventProperties'>SoftLayer_Container_User_Customer_Profile_Event_HyperWarp_ProfileChange_EventProperties </a>**  
+
 
 
 </div>

@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [effectiveDate]: #effectivedate
 #### [effectiveDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ classes:
 [expirationDate]: #expirationdate
 #### [expirationDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ classes:
 [id]: #id
 #### [id]
 The id of the exchange rate record.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The id of the exchange rate record.
 [rate]: #rate
 #### [rate]
   
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ The id of the exchange rate record.
 [fundingCurrency]: #fundingcurrency
 #### [fundingCurrency]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Currency'>SoftLayer_Billing_Currency </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Currency'>SoftLayer_Billing_Currency </a>**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ The id of the exchange rate record.
 [localCurrency]: #localcurrency
 #### [localCurrency]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Currency'>SoftLayer_Billing_Currency </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Currency'>SoftLayer_Billing_Currency </a>**  
+
 
 
 </div>

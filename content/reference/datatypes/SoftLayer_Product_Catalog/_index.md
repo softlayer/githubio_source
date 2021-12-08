@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 A Catalog is defined as a set of prices for products that SoftLayer offers for sale. These prices are organized into packages which represent the different servers and services that SoftLayer offers. 
 
 
@@ -45,7 +47,8 @@ A Catalog is defined as a set of prices for products that SoftLayer offers for s
 [keyName]: #keyname
 #### [keyName]
 The Key Name of the Catalog, used for direct references  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -61,7 +64,8 @@ The Key Name of the Catalog, used for direct references
 [brands]: #brands
 #### [brands]
 Brands using this Catalog  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Brand'>SoftLayer_Brand[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Brand'>SoftLayer_Brand[] </a>**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ Brands using this Catalog
 [packages]: #packages
 #### [packages]
 Packages available in this catalog  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package[] </a>**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ Packages available in this catalog
 [prices]: #prices
 #### [prices]
 Prices available in this catalog  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a>**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ Prices available in this catalog
 [products]: #products
 #### [products]
 Products available in catalog  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item[] </a>**  
+
 
 
 </div>
@@ -103,7 +110,8 @@ Products available in catalog
 [brandCount]: #brandcount
 #### [brandCount]
 A count of brands using this Catalog   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -113,7 +121,8 @@ A count of brands using this Catalog
 [packageCount]: #packagecount
 #### [packageCount]
 A count of packages available in this catalog   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -123,7 +132,8 @@ A count of packages available in this catalog
 [priceCount]: #pricecount
 #### [priceCount]
 A count of prices available in this catalog   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -133,7 +143,8 @@ A count of prices available in this catalog
 [productCount]: #productcount
 #### [productCount]
 A count of products available in catalog   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

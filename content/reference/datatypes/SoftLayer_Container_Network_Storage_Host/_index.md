@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Container_Network_Storage_Host will contain the reference id field for the object associated with the host.  The host object type will also be returned. 
 
 
@@ -51,7 +53,8 @@ The SoftLayer_Container_Network_Storage_Host will contain the reference id field
 [id]: #id
 #### [id]
 Reference id field for object associated with host.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -61,7 +64,8 @@ Reference id field for object associated with host.
 [objectType]: #objecttype
 #### [objectType]
 Type for the object associated with host  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

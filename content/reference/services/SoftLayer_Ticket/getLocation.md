@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getLocation
 
+
 Retrieve a ticket's associated location within the SoftLayer location hierarchy.
 
 

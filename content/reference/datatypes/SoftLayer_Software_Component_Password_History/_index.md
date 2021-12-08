@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This object allows you to find the history of password changes for a specific SoftLayer_Software Component 
 
 
@@ -53,7 +55,8 @@ This object allows you to find the history of password changes for a specific So
 [createDate]: #createdate
 #### [createDate]
 The date this username/password pair was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -63,7 +66,8 @@ The date this username/password pair was created.
 [notes]: #notes
 #### [notes]
 A note string stored for this username/password pair.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -73,7 +77,8 @@ A note string stored for this username/password pair.
 [password]: #password
 #### [password]
 The password part of this specific password history instance.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -83,7 +88,8 @@ The password part of this specific password history instance.
 [softwareComponentId]: #softwarecomponentid
 #### [softwareComponentId]
 The id number for the Software Component this username/password pair is for.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -93,7 +99,8 @@ The id number for the Software Component this username/password pair is for.
 [username]: #username
 #### [username]
 The username part of this specific password history instance.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -109,7 +116,8 @@ The username part of this specific password history instance.
 [softwareComponent]: #softwarecomponent
 #### [softwareComponent]
 An installed and licensed instance of a piece of software  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component </a>**  
+
 
 
 </div>

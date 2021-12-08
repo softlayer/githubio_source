@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::editCredential
 
+
 This method will change the password of a credential created using the 'addNewCredential' method.
 
 

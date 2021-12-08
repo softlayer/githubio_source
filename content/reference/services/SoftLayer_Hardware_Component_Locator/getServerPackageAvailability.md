@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Component_Locator](/reference/services/SoftLayer_Hardware_Component_Locator)::getServerPackageAvailability
 
+
 An API to retrieve server package availability at data centers
 
 

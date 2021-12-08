@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This data type presents the structure for a dedicated host. The data type contains relational properties to distinguish a dedicated host and associate an account to it. 
 
 
@@ -45,7 +47,8 @@ This data type presents the structure for a dedicated host. The data type contai
 [accountId]: #accountid
 #### [accountId]
 The dedicated host's associated account id.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The dedicated host's associated account id.
 [cpuCount]: #cpucount
 #### [cpuCount]
 The capacity that the dedicated host's CPU allocation is restricted to.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The capacity that the dedicated host's CPU allocation is restricted to.
 [createDate]: #createdate
 #### [createDate]
 The date that the dedicated host was created.   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The date that the dedicated host was created.
 [diskCapacity]: #diskcapacity
 #### [diskCapacity]
 The capacity that the dedicated host's disk allocation is restricted to.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The capacity that the dedicated host's disk allocation is restricted to.
 [id]: #id
 #### [id]
 The dedicated host's associated unique id.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The dedicated host's associated unique id.
 [memoryCapacity]: #memorycapacity
 #### [memoryCapacity]
 The capacity that the dedicated host's memory allocation is restricted to.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The capacity that the dedicated host's memory allocation is restricted to.
 [modifyDate]: #modifydate
 #### [modifyDate]
 The date that the dedicated host was last modified.   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ The date that the dedicated host was last modified.
 [name]: #name
 #### [name]
 The dedicated host's name.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ The dedicated host's name.
 [notes]: #notes
 #### [notes]
 A note of up to 1,000 characters about a dedicated host.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ A note of up to 1,000 characters about a dedicated host.
 [account]: #account
 #### [account]
 The account that the dedicated host belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ The account that the dedicated host belongs to.
 [allocationStatus]: #allocationstatus
 #### [allocationStatus]
 The container that represents allocations on the dedicated host.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Virtual_DedicatedHost_AllocationStatus'>SoftLayer_Container_Virtual_DedicatedHost_AllocationStatus </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Virtual_DedicatedHost_AllocationStatus'>SoftLayer_Container_Virtual_DedicatedHost_AllocationStatus </a>**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ The container that represents allocations on the dedicated host.
 [backendRouter]: #backendrouter
 #### [backendRouter]
 The backend router behind dedicated host's pool of resources.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Router_Backend'>SoftLayer_Hardware_Router_Backend </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Router_Backend'>SoftLayer_Hardware_Router_Backend </a>**  
+
 
 
 </div>
@@ -171,7 +185,8 @@ The backend router behind dedicated host's pool of resources.
 [billingItem]: #billingitem
 #### [billingItem]
 The billing item for the dedicated host.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item_Virtual_DedicatedHost'>SoftLayer_Billing_Item_Virtual_DedicatedHost </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item_Virtual_DedicatedHost'>SoftLayer_Billing_Item_Virtual_DedicatedHost </a>**  
+
 
 
 </div>
@@ -181,7 +196,8 @@ The billing item for the dedicated host.
 [datacenter]: #datacenter
 #### [datacenter]
 The datacenter that the dedicated host resides in.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**  
+
 
 
 </div>
@@ -191,7 +207,8 @@ The datacenter that the dedicated host resides in.
 [guests]: #guests
 #### [guests]
 The guests associated with the dedicated host.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**  
+
 
 
 </div>
@@ -201,7 +218,8 @@ The guests associated with the dedicated host.
 [internalTagReferences]: #internaltagreferences
 #### [internalTagReferences]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Tag_Reference'>SoftLayer_Tag_Reference[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Tag_Reference'>SoftLayer_Tag_Reference[] </a>**  
+
 
 
 </div>
@@ -211,7 +229,8 @@ The guests associated with the dedicated host.
 [pciDeviceAllocationStatus]: #pcideviceallocationstatus
 #### [pciDeviceAllocationStatus]
 The container that represents PCI device allocations on the dedicated host.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Virtual_DedicatedHost_Pci_Device_AllocationStatus'>SoftLayer_Container_Virtual_DedicatedHost_Pci_Device_AllocationStatus </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Virtual_DedicatedHost_Pci_Device_AllocationStatus'>SoftLayer_Container_Virtual_DedicatedHost_Pci_Device_AllocationStatus </a>**  
+
 
 
 </div>
@@ -221,7 +240,8 @@ The container that represents PCI device allocations on the dedicated host.
 [pciDevices]: #pcidevices
 #### [pciDevices]
 A collection of SoftLayer_Virtual_Host_PciDevice objects on the host.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Host_PciDevice'>SoftLayer_Virtual_Host_PciDevice[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Host_PciDevice'>SoftLayer_Virtual_Host_PciDevice[] </a>**  
+
 
 
 </div>
@@ -231,7 +251,8 @@ A collection of SoftLayer_Virtual_Host_PciDevice objects on the host.
 [tagReferences]: #tagreferences
 #### [tagReferences]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Tag_Reference'>SoftLayer_Tag_Reference[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Tag_Reference'>SoftLayer_Tag_Reference[] </a>**  
+
 
 
 </div>
@@ -243,7 +264,8 @@ A collection of SoftLayer_Virtual_Host_PciDevice objects on the host.
 [guestCount]: #guestcount
 #### [guestCount]
 A count of the guests associated with the dedicated host.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -253,7 +275,8 @@ A count of the guests associated with the dedicated host.
 [internalTagReferenceCount]: #internaltagreferencecount
 #### [internalTagReferenceCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -263,7 +286,8 @@ A count of
 [pciDeviceCount]: #pcidevicecount
 #### [pciDeviceCount]
 A count of a collection of SoftLayer_Virtual_Host_PciDevice objects on the host.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -273,7 +297,8 @@ A count of a collection of SoftLayer_Virtual_Host_PciDevice objects on the host.
 [tagReferenceCount]: #tagreferencecount
 #### [tagReferenceCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

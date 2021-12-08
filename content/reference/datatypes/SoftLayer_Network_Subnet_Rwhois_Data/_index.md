@@ -18,6 +18,9 @@ classes:
 </div>
 
 ## Description 
+
+<div class="deprecated"><span class="deprecation-label">Deprecated  </span></div>
+
 Every SoftLayer customer account has contact information associated with it for reverse WHOIS purposes. An account's RWHOIS data, modeled by the SoftLayer_Network_Subnet_Rwhois_Data data type, is used by SoftLayer's reverse WHOIS server as well as for SWIP transactions. SoftLayer's reverse WHOIS servers respond to WHOIS queries for IP addresses belonging to a customer's servers, returning this RWHOIS data. 
 
 A SoftLayer customer's RWHOIS data may not necessarily match their account or portal users' contact information. 
@@ -70,7 +73,8 @@ A SoftLayer customer's RWHOIS data may not necessarily match their account or po
 [abuseEmail]: #abuseemail
 #### [abuseEmail]
 An email address associated with an account's RWHOIS data that is responsible for responding to network abuse queries about malicious traffic coming from your servers' IP addresses.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -80,7 +84,8 @@ An email address associated with an account's RWHOIS data that is responsible fo
 [accountId]: #accountid
 #### [accountId]
 An account's RWHOIS data's associated account identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -90,7 +95,8 @@ An account's RWHOIS data's associated account identifier.
 [address1]: #address1
 #### [address1]
 The first line of the mailing address associated with an account's RWHOIS data.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -100,7 +106,8 @@ The first line of the mailing address associated with an account's RWHOIS data.
 [address2]: #address2
 #### [address2]
 The second line of the mailing address associated with an account's RWHOIS data.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -110,7 +117,8 @@ The second line of the mailing address associated with an account's RWHOIS data.
 [city]: #city
 #### [city]
 The city of the mailing address associated with an account's RWHOIS data.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -120,7 +128,8 @@ The city of the mailing address associated with an account's RWHOIS data.
 [companyName]: #companyname
 #### [companyName]
 The company name associated with an account's RWHOIS data.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -130,7 +139,8 @@ The company name associated with an account's RWHOIS data.
 [country]: #country
 #### [country]
 A two-letter abbreviation of the country of the mailing address associated with an account's RWHOIS data.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -140,7 +150,8 @@ A two-letter abbreviation of the country of the mailing address associated with 
 [createDate]: #createdate
 #### [createDate]
 The date an account's RWHOIS data was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -150,7 +161,8 @@ The date an account's RWHOIS data was created.
 [firstName]: #firstname
 #### [firstName]
 The first name associated with an account's RWHOIS data.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -160,7 +172,8 @@ The first name associated with an account's RWHOIS data.
 [id]: #id
 #### [id]
 An account's RWHOIS data's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -170,7 +183,8 @@ An account's RWHOIS data's internal identifier.
 [lastName]: #lastname
 #### [lastName]
 The last name associated with an account's RWHOIS data.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -180,7 +194,8 @@ The last name associated with an account's RWHOIS data.
 [modifyDate]: #modifydate
 #### [modifyDate]
 The date an account's RWHOIS data was last modified.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -190,7 +205,8 @@ The date an account's RWHOIS data was last modified.
 [postalCode]: #postalcode
 #### [postalCode]
 The postal code of the mailing address associated with an account's RWHOIS data.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -200,7 +216,8 @@ The postal code of the mailing address associated with an account's RWHOIS data.
 [privateResidenceFlag]: #privateresidenceflag
 #### [privateResidenceFlag]
 Whether an account's RWHOIS data refers to a private residence or not.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -210,7 +227,8 @@ Whether an account's RWHOIS data refers to a private residence or not.
 [state]: #state
 #### [state]
 A two-letter abbreviation of the state of the mailing address associated with an account's RWHOIS data. If an account does not reside in a province then this is typically blank.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -226,7 +244,8 @@ A two-letter abbreviation of the state of the mailing address associated with an
 [account]: #account
 #### [account]
 The SoftLayer customer account associated with this reverse WHOIS data.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>

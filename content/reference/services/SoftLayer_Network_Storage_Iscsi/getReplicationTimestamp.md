@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getReplicationTimestamp
 
+
 An API call to fetch the last timestamp of the replication process
 
 

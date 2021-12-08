@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getStandardCategories
 
+
 This call is similar to [SoftLayer_Product_Package::getCategories]({{<ref "reference/services/SoftLayer_Product_Package/getCategories">}}), except that it does not include account-restricted pricing. Not all accounts have restricted pricing. 
 
 

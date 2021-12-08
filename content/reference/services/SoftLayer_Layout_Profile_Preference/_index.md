@@ -20,6 +20,8 @@ classes:
 </div>
 
 ## Description
+
+
 The profile preferences are an aggregation of the default preferences and the customized preferences. 
 
 For each [SoftLayer_Layout_Profile_Containers]({{<ref "reference/datatypes/SoftLayer_Layout_Profile_Containers">}}) method. Rather than maintaining two different sets of preferences, all preferences are grouped together through the profile preferences, presenting the customized preferences in place of the default preferences they are overriding. 
@@ -57,11 +59,13 @@ For each [SoftLayer_Layout_Profile_Containers]({{<ref "reference/datatypes/SoftL
 
 #### [getLayoutContainer](/reference/services/SoftLayer_Layout_Profile_Preference/getLayoutContainer)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getLayoutItem](/reference/services/SoftLayer_Layout_Profile_Preference/getLayoutItem)
+
 
 </div>
 
@@ -69,11 +73,13 @@ For each [SoftLayer_Layout_Profile_Containers]({{<ref "reference/datatypes/SoftL
 
 #### [getLayoutPreference](/reference/services/SoftLayer_Layout_Profile_Preference/getLayoutPreference)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getLayoutProfile](/reference/services/SoftLayer_Layout_Profile_Preference/getLayoutProfile)
+
 
 </div>
 
@@ -81,6 +87,7 @@ For each [SoftLayer_Layout_Profile_Containers]({{<ref "reference/datatypes/SoftL
 
 #### [getObject](/reference/services/SoftLayer_Layout_Profile_Preference/getObject)
 Retrieve a SoftLayer_Layout_Profile_Preference record.
+
 </div>
 </div>
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Item_Price](/reference/services/SoftLayer_Product_Item_Price)::getPackageReferences
 
+
 Retrieve cross reference for packages
 
 

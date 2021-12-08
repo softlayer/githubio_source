@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getHardwareChassis
 
+
 Retrieve the chassis that a piece of hardware is housed in.
 
 

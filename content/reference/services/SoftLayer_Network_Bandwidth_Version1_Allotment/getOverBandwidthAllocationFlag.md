@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Bandwidth_Version1_Allotment](/reference/services/SoftLayer_Network_Bandwidth_Version1_Allotment)::getOverBandwidthAllocationFlag
 
+
 Retrieve whether the bandwidth usage for this bandwidth pool for the current billing cycle exceeds the allocation.
 
 

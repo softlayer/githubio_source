@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Container_Network_Storage_Hub_ObjectStorage_File provides specific details that only apply to files that are sent or received from CloudLayer storage resources. 
 
 
@@ -56,7 +58,8 @@ SoftLayer_Container_Network_Storage_Hub_ObjectStorage_File provides specific det
 [content]: #content
 #### [content]
 A file entity's raw content.  
-<span class="type-label">Type: </span>**binary data**
+<span class="type-label">Type: </span>**binary data**  
+
 
 
 </div>
@@ -66,7 +69,8 @@ A file entity's raw content.
 [contentType]: #contenttype
 #### [contentType]
 A file entity's MIME content type.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -76,7 +80,8 @@ A file entity's MIME content type.
 [createDate]: #createdate
 #### [createDate]
 The date a file entity was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -86,7 +91,8 @@ The date a file entity was created.
 [deleteDate]: #deletedate
 #### [deleteDate]
 The date a CloudLayer storage file entity was moved into the recycle bin. This field applies to files that are pending deletion in the recycle bin.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -96,7 +102,8 @@ The date a CloudLayer storage file entity was moved into the recycle bin. This f
 [folder]: #folder
 #### [folder]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -106,7 +113,8 @@ The date a CloudLayer storage file entity was moved into the recycle bin. This f
 [hash]: #hash
 #### [hash]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -116,7 +124,8 @@ The date a CloudLayer storage file entity was moved into the recycle bin. This f
 [id]: #id
 #### [id]
 Unique identifier for the file. This can be either a number or guid.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -126,7 +135,8 @@ Unique identifier for the file. This can be either a number or guid.
 [isShared]: #isshared
 #### [isShared]
 Whether a CloudLayer storage file entity is shared with another CloudLayer user.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -136,7 +146,8 @@ Whether a CloudLayer storage file entity is shared with another CloudLayer user.
 [modifyDate]: #modifydate
 #### [modifyDate]
 The date a file entity was last changed.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -146,7 +157,8 @@ The date a file entity was last changed.
 [name]: #name
 #### [name]
 A file entity's name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -156,7 +168,8 @@ A file entity's name.
 [owner]: #owner
 #### [owner]
 The owner is usually the account who first upload or created the file on the resource or the account who is responsible for the file at the moment.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -166,7 +179,8 @@ The owner is usually the account who first upload or created the file on the res
 [size]: #size
 #### [size]
 The size of a file entity in bytes.  
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -176,7 +190,8 @@ The size of a file entity in bytes.
 [type]: #type
 #### [type]
 A CloudLayer storage file entity's type. Types can include "file", "folder", "dir", and "project".   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -186,7 +201,8 @@ A CloudLayer storage file entity's type. Types can include "file", "folder", "di
 [version]: #version
 #### [version]
 The latest revision of a file on a CloudLayer storage volume. This number increments each time a new revision of the file is uploaded.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

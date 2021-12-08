@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_LBaaS_SSLCipher type presents a structure that contains attributes of load balancer cipher suites. 
 
 
@@ -47,7 +49,8 @@ The SoftLayer_Network_LBaaS_SSLCipher type presents a structure that contains at
 [id]: #id
 #### [id]
 Cipher identifier  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -57,7 +60,8 @@ Cipher identifier
 [name]: #name
 #### [name]
 Name of the cipher  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getOpenTicketsWaitingOnCustomer
 
+
 Retrieve all open tickets associated with an account last edited by an employee.
 
 

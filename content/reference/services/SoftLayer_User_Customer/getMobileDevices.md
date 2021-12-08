@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getMobileDevices
 
+
 Retrieve a portal user's associated mobile device profiles.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Software_Component](/reference/services/SoftLayer_Software_Component)::getSoftwareLicense
 
+
 Retrieve the License this Software Component uses.
 
 

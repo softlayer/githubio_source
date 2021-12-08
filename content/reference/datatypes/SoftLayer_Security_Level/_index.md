@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Security_Level data type contains the security level restriction for the account 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Security_Level data type contains the security level restriction f
 [keyName]: #keyname
 #### [keyName]
 The unique name of the security level the account is under  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The unique name of the security level the account is under
 [name]: #name
 #### [name]
 The name of the security level the account is under  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

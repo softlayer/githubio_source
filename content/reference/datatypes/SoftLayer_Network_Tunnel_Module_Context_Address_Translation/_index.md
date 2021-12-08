@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_Tunnel_Module_Context_Address_Translation data type contains general information relating to a single address translation. Information such as notes, ip addresses, along with record information, and network tunnel data may be retrieved. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Network_Tunnel_Module_Context_Address_Translation data type contai
 [customerIpAddress]: #customeripaddress
 #### [customerIpAddress]
 The ip address record that will receive the encrypted traffic.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The ip address record that will receive the encrypted traffic.
 [customerIpAddressId]: #customeripaddressid
 #### [customerIpAddressId]
 The unique identifier for the ip address record that will receive the encrypted traffic.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The unique identifier for the ip address record that will receive the encrypted 
 [id]: #id
 #### [id]
 An address translation's unique identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ An address translation's unique identifier.
 [internalIpAddress]: #internalipaddress
 #### [internalIpAddress]
 The ip address record that will deliver the encrypted traffic.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The ip address record that will deliver the encrypted traffic.
 [internalIpAddressId]: #internalipaddressid
 #### [internalIpAddressId]
 The unique identifier for the ip address record that will deliver the encrypted traffic.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The unique identifier for the ip address record that will deliver the encrypted 
 [networkTunnelContextId]: #networktunnelcontextid
 #### [networkTunnelContextId]
 An address translation's network tunnel identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ An address translation's network tunnel identifier.
 [notes]: #notes
 #### [notes]
 A name or description given to an address translation to help identify the address translation.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ A name or description given to an address translation to help identify the addre
 [customerIpAddressRecord]: #customeripaddressrecord
 #### [customerIpAddressRecord]
 The ip address record for the ip that will receive the encrypted traffic from the IPSec network tunnel.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Customer_Subnet_IpAddress'>SoftLayer_Network_Customer_Subnet_IpAddress </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Customer_Subnet_IpAddress'>SoftLayer_Network_Customer_Subnet_IpAddress </a>**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ The ip address record for the ip that will receive the encrypted traffic from th
 [internalIpAddressRecord]: #internalipaddressrecord
 #### [internalIpAddressRecord]
 The ip address record for the ip that will deliver the encrypted traffic from the IPSec network tunnel.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress </a>**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ The ip address record for the ip that will deliver the encrypted traffic from th
 [networkTunnelContext]: #networktunnelcontext
 #### [networkTunnelContext]
 The IPSec network tunnel an address translation belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Tunnel_Module_Context'>SoftLayer_Network_Tunnel_Module_Context </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Tunnel_Module_Context'>SoftLayer_Network_Tunnel_Module_Context </a>**  
+
 
 
 </div>

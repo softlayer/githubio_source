@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet_Rwhois_Data](/reference/services/SoftLayer_Network_Subnet_Rwhois_Data)::getObject
 
+
 Retrieve a SoftLayer_Network_Subnet_Rwhois_Data record.
 
 

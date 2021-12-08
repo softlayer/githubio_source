@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 The SoftLayer_Network_LBaaS_L7Policy service allows consumers to manage the Policies associated with a Listener. A Listener can have multiple policies. Polices are associated with priorities. The priorities indicate the order in which policies are evaluated. Each policy is configured with an action which is applied when http traffic matches rules associated with the policy. A policy can be configured with one of the following actions: redirect to pool, redirect to url, or reject. Policies configured with reject are always evaluated first irrespective of the priority followed by redirect to url, after which policies with action set to redirect to pool are evaluated. if policies are configured with redirect to https and reject also, then reject always evaluated first. Polices have multiple rules, each rule is evaluated to true or false. If all the rules of the policy evaluate to true then the action associated with that policy is applied to the request. 
 
 
@@ -42,23 +44,27 @@ The SoftLayer_Network_LBaaS_L7Policy service allows consumers to manage the Poli
 
 #### [addL7Policies](/reference/services/SoftLayer_Network_LBaaS_L7Policy/addL7Policies)
 Create layer 7 policies with rules for the given listener. 
+
 </div>
 
 <div class="method-row">
 
 #### [deleteObject](/reference/services/SoftLayer_Network_LBaaS_L7Policy/deleteObject)
 Deletes a l7 policy instance and the rules associated with the policy
+
 </div>
 
 <div class="method-row">
 
 #### [editObject](/reference/services/SoftLayer_Network_LBaaS_L7Policy/editObject)
 Edit a l7 policy instance's properties
+
 </div>
 
 <div class="method-row">
 
 #### [getL7Rules](/reference/services/SoftLayer_Network_LBaaS_L7Policy/getL7Rules)
+
 
 </div>
 
@@ -66,6 +72,7 @@ Edit a l7 policy instance's properties
 
 #### [getObject](/reference/services/SoftLayer_Network_LBaaS_L7Policy/getObject)
 Retrieve a SoftLayer_Network_LBaaS_L7Policy record.
+
 </div>
 </div>
 

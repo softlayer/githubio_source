@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::addBulkDedicatedHostAccess
 
+
 Grant access to the user for one or more dedicated hosts devices.
 
 

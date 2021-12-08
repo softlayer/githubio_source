@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getWebCCAuthenticationDetails
 
+
 Retrieve WebCC authentication details value. This value is required for the login process associated to the session information for WebCC. 
 
 

@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [id]: #id
 #### [id]
 the id of the resource (HARDWARE, GUEST, VLAN, SUBNET, VMWARE)  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ the id of the resource (HARDWARE, GUEST, VLAN, SUBNET, VMWARE)
 [messageId]: #messageid
 #### [messageId]
 messageId associated with any error  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ messageId associated with any error
 [name]: #name
 #### [name]
 the name associated with the resource (e.g. name, hostname)  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ the name associated with the resource (e.g. name, hostname)
 [status]: #status
 #### [status]
 status of service methods  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ status of service methods
 [statusMessage]: #statusmessage
 #### [statusMessage]
 status message  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ status message
 [typeName]: #typename
 #### [typeName]
 the type of resource (HARDWARE, GUEST, NETWORK_VLAN, SUBNET)  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::massSparePool
 
+
 Allows multiple servers to be added to or removed from the spare pool.
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Every piece of hardware in SoftLayer's datacenters, including customer servers, are housed in one of many hardware chassis. The SoftLayer_Hardware_Chassis data type defines these chassis. 
 
 
@@ -58,7 +60,8 @@ Every piece of hardware in SoftLayer's datacenters, including customer servers, 
 [formFactorId]: #formfactorid
 #### [formFactorId]
 A hardware form factor internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -68,7 +71,8 @@ A hardware form factor internal identifier.
 [id]: #id
 #### [id]
 A hardware chassis' internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -78,7 +82,8 @@ A hardware chassis' internal identifier.
 [manufacturer]: #manufacturer
 #### [manufacturer]
 A hardware chassis' manufacturer.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -88,7 +93,8 @@ A hardware chassis' manufacturer.
 [name]: #name
 #### [name]
 A hardware chassis' name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -98,7 +104,8 @@ A hardware chassis' name.
 [unitSize]: #unitsize
 #### [unitSize]
 The physical size of a hardware chassis.  Currently this relates to the 'U' size of a chassis buy default.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -108,7 +115,8 @@ The physical size of a hardware chassis.  Currently this relates to the 'U' size
 [version]: #version
 #### [version]
 A hardware chassis' revision number.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -124,7 +132,8 @@ A hardware chassis' revision number.
 [backplaneCapacity]: #backplanecapacity
 #### [backplaneCapacity]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -134,7 +143,8 @@ A hardware chassis' revision number.
 [bayCapacity]: #baycapacity
 #### [bayCapacity]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -144,7 +154,8 @@ A hardware chassis' revision number.
 [driveCapacity]: #drivecapacity
 #### [driveCapacity]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -154,7 +165,8 @@ A hardware chassis' revision number.
 [driveControllerCapacity]: #drivecontrollercapacity
 #### [driveControllerCapacity]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -164,7 +176,8 @@ A hardware chassis' revision number.
 [gpuCapacity]: #gpucapacity
 #### [gpuCapacity]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -174,7 +187,8 @@ A hardware chassis' revision number.
 [hardwareFunction]: #hardwarefunction
 #### [hardwareFunction]
 A hardware's function.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Function'>SoftLayer_Hardware_Function </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Function'>SoftLayer_Hardware_Function </a>**  
+
 
 
 </div>
@@ -184,7 +198,8 @@ A hardware's function.
 [moduleCapacity]: #modulecapacity
 #### [moduleCapacity]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -194,7 +209,8 @@ A hardware's function.
 [powerCapacity]: #powercapacity
 #### [powerCapacity]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -204,7 +220,8 @@ A hardware's function.
 [u2Capacity]: #u2capacity
 #### [u2Capacity]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

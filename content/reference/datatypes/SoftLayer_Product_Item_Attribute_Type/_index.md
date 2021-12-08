@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The [SoftLayer_Product_Item_Attribute_Type]({{<ref "reference/datatypes/SoftLayer_Product_Item_Attribute_Type">}}) data type defines the available type of product attributes that are available. This allows for convenient reference to a [SoftLayer_Product_Item_Attribute]({{<ref "reference/datatypes/SoftLayer_Product_Item_Attribute">}}) by a unique key name value. 
 
 
@@ -45,7 +47,8 @@ The [SoftLayer_Product_Item_Attribute_Type]({{<ref "reference/datatypes/SoftLaye
 [keyName]: #keyname
 #### [keyName]
 This is the unique identifier of the attribute type.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ This is the unique identifier of the attribute type.
 [name]: #name
 #### [name]
 This is the user-friendly readable name of the attribute type.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::executeRescueLayer
 
+
 Reboot a Linux guest into the Xen rescue image.
 
 

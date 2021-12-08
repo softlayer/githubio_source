@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Order](/reference/services/SoftLayer_Billing_Order)::getUpgradeRequestFlag
 
+
 Retrieve this flag indicates an order is an upgrade.
 
 

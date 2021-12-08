@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Business_Partner](/reference/services/SoftLayer_Account_Business_Partner)::getChannel
 
+
 Retrieve channel indicator used to categorize business partner revenue.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getProjectedOverBandwidthAllocationFlag
 
+
 Retrieve whether the bandwidth usage for this hardware for the current billing cycle is projected to exceed the allocation.
 
 

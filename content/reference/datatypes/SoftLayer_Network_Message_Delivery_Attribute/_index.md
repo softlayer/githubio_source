@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [value]: #value
 #### [value]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -61,7 +64,8 @@ classes:
 [networkMessageDelivery]: #networkmessagedelivery
 #### [networkMessageDelivery]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Message_Delivery'>SoftLayer_Network_Message_Delivery </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Message_Delivery'>SoftLayer_Network_Message_Delivery </a>**  
+
 
 
 </div>

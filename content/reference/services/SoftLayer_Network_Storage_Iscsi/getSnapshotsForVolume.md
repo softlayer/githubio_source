@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getSnapshotsForVolume
 
+
 Retrieves a list of snapshots for a given volume.
 
 

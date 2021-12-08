@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 This service manages Times To Live (TTLs) associated with a CDN mapping Configuration. A time to live represents the time a purge will occur at a given path. 
 
 
@@ -42,11 +44,13 @@ This service manages Times To Live (TTLs) associated with a CDN mapping Configur
 
 #### [createTimeToLive](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Cache_TimeToLive/createTimeToLive)
 Creates a Time To Live object and inserts it into the database 
+
 </div>
 
 <div class="method-row">
 
 #### [deleteTimeToLive](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Cache_TimeToLive/deleteTimeToLive)
+
 
 </div>
 
@@ -54,11 +58,13 @@ Creates a Time To Live object and inserts it into the database
 
 #### [getObject](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Cache_TimeToLive/getObject)
 Retrieve a SoftLayer_Network_CdnMarketplace_Configuration_Cache_TimeToLive record.
+
 </div>
 
 <div class="method-row">
 
 #### [listTimeToLive](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Cache_TimeToLive/listTimeToLive)
+
 
 </div>
 
@@ -66,6 +72,7 @@ Retrieve a SoftLayer_Network_CdnMarketplace_Configuration_Cache_TimeToLive recor
 
 #### [updateTimeToLive](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Cache_TimeToLive/updateTimeToLive)
 Updates an existing Time To Live object. If the old and new inputs are equal, exits early. 
+
 </div>
 </div>
 

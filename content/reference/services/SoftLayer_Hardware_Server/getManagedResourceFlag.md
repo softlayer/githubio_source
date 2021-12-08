@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getManagedResourceFlag
 
+
 Retrieve a flag indicating that the hardware is a managed resource.
 
 

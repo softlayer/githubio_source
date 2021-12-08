@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [attributes]: #attributes
 #### [attributes]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Marketplace_Partner_File_Attributes'>SoftLayer_Marketplace_Partner_File_Attributes </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Marketplace_Partner_File_Attributes'>SoftLayer_Marketplace_Partner_File_Attributes </a>**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ classes:
 [contents]: #contents
 #### [contents]
   
-<span class="type-label">Type: </span>**binary data**
+<span class="type-label">Type: </span>**binary data**  
+
 
 
 </div>

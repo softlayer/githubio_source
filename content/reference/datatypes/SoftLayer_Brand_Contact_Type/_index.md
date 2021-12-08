@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Brand_Contact_Type contains the contact type information for the brand contacts such as Corporate or Support contact type 
 
 
@@ -45,7 +47,8 @@ SoftLayer_Brand_Contact_Type contains the contact type information for the brand
 [description]: #description
 #### [description]
 Contact type description.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Contact type description.
 [keyName]: #keyname
 #### [keyName]
 Contact type key name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Contact type key name.
 [name]: #name
 #### [name]
 Contact type name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [isEuropeanUnionFlag]: #iseuropeanunionflag
 #### [isEuropeanUnionFlag]
 Binary flag denoting if this country is part of the European Union  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Binary flag denoting if this country is part of the European Union
 [isoCodeAlphaThree]: #isocodealphathree
 #### [isoCodeAlphaThree]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Binary flag denoting if this country is part of the European Union
 [longName]: #longname
 #### [longName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Binary flag denoting if this country is part of the European Union
 [postalCodeFormat]: #postalcodeformat
 #### [postalCodeFormat]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Binary flag denoting if this country is part of the European Union
 [postalCodeRequiredFlag]: #postalcoderequiredflag
 #### [postalCodeRequiredFlag]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ Binary flag denoting if this country is part of the European Union
 [shortName]: #shortname
 #### [shortName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ Binary flag denoting if this country is part of the European Union
 [vatIdRegex]: #vatidregex
 #### [vatIdRegex]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ Binary flag denoting if this country is part of the European Union
 [vatIdRequiredFlag]: #vatidrequiredflag
 #### [vatIdRequiredFlag]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ Binary flag denoting if this country is part of the European Union
 [states]: #states
 #### [states]
 States that belong to this country.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Locale_StateProvince'>SoftLayer_Locale_StateProvince[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Locale_StateProvince'>SoftLayer_Locale_StateProvince[] </a>**  
+
 
 
 </div>
@@ -143,7 +154,8 @@ States that belong to this country.
 [stateCount]: #statecount
 #### [stateCount]
 A count of states that belong to this country.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

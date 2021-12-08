@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_External_Binding_Verisign](/reference/services/SoftLayer_User_Customer_External_Binding_Verisign)::getType
 
+
 Retrieve the type of external authentication binding.
 
 

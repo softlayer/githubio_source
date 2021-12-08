@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::executeIderaBareMetalRestore
 
+
 Reboot a guest into the Idera Bare Metal Restore image.
 
 

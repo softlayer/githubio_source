@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Container_Authentication_Request_OpenIdConnect_External_Verisign data type contains information for requests to the getPortalLogin API. This class provides information to allow the user to submit a request to the SoftLayer OpenIdConnect (token) login service for a portal login token, as well as submitting a request to the Verisign 2 factor authentication service. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Container_Authentication_Request_OpenIdConnect_External_Verisign d
 [openIdConnectAccessToken]: #openidconnectaccesstoken
 #### [openIdConnectAccessToken]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The SoftLayer_Container_Authentication_Request_OpenIdConnect_External_Verisign d
 [openIdConnectAccountId]: #openidconnectaccountid
 #### [openIdConnectAccountId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The SoftLayer_Container_Authentication_Request_OpenIdConnect_External_Verisign d
 [openIdConnectProvider]: #openidconnectprovider
 #### [openIdConnectProvider]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The SoftLayer_Container_Authentication_Request_OpenIdConnect_External_Verisign d
 [secondSecurityCode]: #secondsecuritycode
 #### [secondSecurityCode]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The SoftLayer_Container_Authentication_Request_OpenIdConnect_External_Verisign d
 [securityCode]: #securitycode
 #### [securityCode]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The SoftLayer_Container_Authentication_Request_OpenIdConnect_External_Verisign d
 [securityQuestionAnswer]: #securityquestionanswer
 #### [securityQuestionAnswer]
 The answer to your security question.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The answer to your security question.
 [securityQuestionId]: #securityquestionid
 #### [securityQuestionId]
 A security question you wish to answer when authenticating to the SoftLayer customer portal. This parameter isn't required if no security questions are set on your portal account or if your account is configured to not require answering a security account upon login.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ A security question you wish to answer when authenticating to the SoftLayer cust
 [vendor]: #vendor
 #### [vendor]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

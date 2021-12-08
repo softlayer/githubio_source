@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getNetworkStorage
 
+
 Retrieve a guest's associated network storage accounts.
 
 

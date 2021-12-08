@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [attachmentId]: #attachmentid
 #### [attachmentId]
 The internal identifier of an item that is attached to a ticket.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The internal identifier of an item that is attached to a ticket.
 [createDate]: #createdate
 #### [createDate]
 The date that an item was attached to a ticket.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The date that an item was attached to a ticket.
 [id]: #id
 #### [id]
 A ticket attachment's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ A ticket attachment's internal identifier.
 [requestId]: #requestid
 #### [requestId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ A ticket attachment's internal identifier.
 [ticketId]: #ticketid
 #### [ticketId]
 The internal identifier of the ticket that an item is attached to.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ The internal identifier of the ticket that an item is attached to.
 [request]: #request
 #### [request]
 The Mass Data Migration request that is attached to a ticket.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_MassDataMigration_Request'>SoftLayer_Network_Storage_MassDataMigration_Request </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_MassDataMigration_Request'>SoftLayer_Network_Storage_MassDataMigration_Request </a>**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ The Mass Data Migration request that is attached to a ticket.
 [resource]: #resource
 #### [resource]
 The Mass Data Migration request that is attached to a ticket.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_MassDataMigration_Request'>SoftLayer_Network_Storage_MassDataMigration_Request </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_MassDataMigration_Request'>SoftLayer_Network_Storage_MassDataMigration_Request </a>**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ The Mass Data Migration request that is attached to a ticket.
 [ticket]: #ticket
 #### [ticket]
 The ticket that an item is attached to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>**  
+
 
 
 </div>

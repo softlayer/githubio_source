@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Ticket_Subject_Category](/reference/services/SoftLayer_Ticket_Subject_Category)::getAllObjects
 
+
 Retrieve all ticket subject categories.
 
 

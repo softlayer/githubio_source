@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Gateway_Vlan](/reference/services/SoftLayer_Network_Gateway_Vlan)::deleteObjects
 
+
 Attach a VLAN to a gateway
 
 

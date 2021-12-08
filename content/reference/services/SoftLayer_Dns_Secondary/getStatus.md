@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Dns_Secondary](/reference/services/SoftLayer_Dns_Secondary)::getStatus
 
+
 Retrieve the current status of the secondary DNS zone.
 
 

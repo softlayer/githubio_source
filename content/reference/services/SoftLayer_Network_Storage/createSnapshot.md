@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::createSnapshot
 
+
 Manually create a new snapshot of a storage volume.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress)::getAvailableSecureTransportCiphers
 
+
 Lists the SSL encryption ciphers available to this virtual IP address
 
 

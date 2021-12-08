@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [customerId]: #customerid
 #### [customerId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ classes:
 [endDate]: #enddate
 #### [endDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ classes:
 [startDate]: #startdate
 #### [startDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ classes:
 [transcript]: #transcript
 #### [transcript]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ classes:
 [agent]: #agent
 #### [agent]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee </a>**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ classes:
 [customer]: #customer
 #### [customer]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ classes:
 [ticketUpdate]: #ticketupdate
 #### [ticketUpdate]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Update_Chat'>SoftLayer_Ticket_Update_Chat </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Update_Chat'>SoftLayer_Ticket_Update_Chat </a>**  
+
 
 
 </div>

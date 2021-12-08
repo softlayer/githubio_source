@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_User_Customer data type contains general information relating to a single SoftLayer customer portal user. Personal information in this type such as names, addresses, and phone numbers are not necessarily associated with the customer account the user is assigned to. 
 
 
@@ -51,7 +53,8 @@ The SoftLayer_User_Customer data type contains general information relating to a
 [accountId]: #accountid
 #### [accountId]
 A portal user's associated [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}) id.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -61,7 +64,8 @@ A portal user's associated [SoftLayer_Account]({{<ref "reference/datatypes/SoftL
 [address1]: #address1
 #### [address1]
 The first line of the mailing address belonging to a portal user.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ The first line of the mailing address belonging to a portal user.
 [address2]: #address2
 #### [address2]
 The second line of the mailing address belonging to a portal user.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ The second line of the mailing address belonging to a portal user.
 [aim]: #aim
 #### [aim]
 A portal user's AOL Instant Messenger screen name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ A portal user's AOL Instant Messenger screen name.
 [alternatePhone]: #alternatephone
 #### [alternatePhone]
 A portal user's secondary phone number.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ A portal user's secondary phone number.
 [authenticationToken]: #authenticationtoken
 #### [authenticationToken]
 The authentication token used for logging into the SoftLayer customer portal.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_User_Authentication_Token'>SoftLayer_Container_User_Authentication_Token </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_User_Authentication_Token'>SoftLayer_Container_User_Authentication_Token </a>**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ The authentication token used for logging into the SoftLayer customer portal.
 [city]: #city
 #### [city]
 The city of the mailing address belonging to a portal user.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ The city of the mailing address belonging to a portal user.
 [companyName]: #companyname
 #### [companyName]
 A portal user's associated company. This may not be the same company as the customer that owns this portal user.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ A portal user's associated company. This may not be the same company as the cust
 [country]: #country
 #### [country]
 A two-letter abbreviation of the country in the mailing address belonging to a portal user.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ A two-letter abbreviation of the country in the mailing address belonging to a p
 [createDate]: #createdate
 #### [createDate]
 The date a portal user's record was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ The date a portal user's record was created.
 [daylightSavingsTimeFlag]: #daylightsavingstimeflag
 #### [daylightSavingsTimeFlag]
 Whether a portal user's time zone is affected by Daylight Savings Time.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ Whether a portal user's time zone is affected by Daylight Savings Time.
 [denyAllResourceAccessOnCreateFlag]: #denyallresourceaccessoncreateflag
 #### [denyAllResourceAccessOnCreateFlag]
 Flag used to deny access to all hardware and cloud computing instances upon user creation.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -171,7 +185,8 @@ Flag used to deny access to all hardware and cloud computing instances upon user
 [displayName]: #displayname
 #### [displayName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -181,7 +196,8 @@ Flag used to deny access to all hardware and cloud computing instances upon user
 [email]: #email
 #### [email]
 A portal user's email address.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -191,7 +207,8 @@ A portal user's email address.
 [firstName]: #firstname
 #### [firstName]
 A portal user's first name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -201,7 +218,8 @@ A portal user's first name.
 [forumPasswordHash]: #forumpasswordhash
 #### [forumPasswordHash]
 A user's password for the SoftLayer forums, hashed for auto-login capability from the SoftLayer customer portal  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -211,7 +229,8 @@ A user's password for the SoftLayer forums, hashed for auto-login capability fro
 [iamAuthorizationStatus]: #iamauthorizationstatus
 #### [iamAuthorizationStatus]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -221,7 +240,8 @@ A user's password for the SoftLayer forums, hashed for auto-login capability fro
 [iamId]: #iamid
 #### [iamId]
 The IAMid (realm-identifier) of the user being created by PaaS  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -231,7 +251,8 @@ The IAMid (realm-identifier) of the user being created by PaaS
 [icq]: #icq
 #### [icq]
 A portal user's ICQ UIN.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -241,7 +262,8 @@ A portal user's ICQ UIN.
 [id]: #id
 #### [id]
 A portal user's internal identifying number.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -251,7 +273,8 @@ A portal user's internal identifying number.
 [ipAddressRestriction]: #ipaddressrestriction
 #### [ipAddressRestriction]
 The IP addresses or IP ranges from which a user may login to the SoftLayer customer portal. Specify subnets in CIDR format and separate multiple addresses and subnets by commas. You may combine IPv4 and IPv6 addresses and subnets, for example: 192.168.0.0/16,fe80:021b::0/64.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -261,7 +284,8 @@ The IP addresses or IP ranges from which a user may login to the SoftLayer custo
 [isMasterUserFlag]: #ismasteruserflag
 #### [isMasterUserFlag]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -271,7 +295,8 @@ The IP addresses or IP ranges from which a user may login to the SoftLayer custo
 [lastName]: #lastname
 #### [lastName]
 A portal user's last name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -281,7 +306,8 @@ A portal user's last name.
 [linkedAccountIntegrationMode]: #linkedaccountintegrationmode
 #### [linkedAccountIntegrationMode]
 The linked account integration mode  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -291,7 +317,8 @@ The linked account integration mode
 [localeId]: #localeid
 #### [localeId]
 A portal user's associated [SoftLayer_Locale]({{<ref "reference/datatypes/SoftLayer_Locale">}}) id.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -301,7 +328,8 @@ A portal user's associated [SoftLayer_Locale]({{<ref "reference/datatypes/SoftLa
 [managedByFederationFlag]: #managedbyfederationflag
 #### [managedByFederationFlag]
 Determines if this portal user is managed by SAML federation.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -311,7 +339,8 @@ Determines if this portal user is managed by SAML federation.
 [managedByOpenIdConnectFlag]: #managedbyopenidconnectflag
 #### [managedByOpenIdConnectFlag]
 Determines if this portal user is managed by IBMid federation.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -321,7 +350,8 @@ Determines if this portal user is managed by IBMid federation.
 [minimumPasswordLifeHours]: #minimumpasswordlifehours
 #### [minimumPasswordLifeHours]
 The minimum number of hours that must pass between password resets.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -331,7 +361,8 @@ The minimum number of hours that must pass between password resets.
 [modifyDate]: #modifydate
 #### [modifyDate]
 The date a portal user's record was last modified.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -341,7 +372,8 @@ The date a portal user's record was last modified.
 [msn]: #msn
 #### [msn]
 A portal user's MSN address.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -351,7 +383,8 @@ A portal user's MSN address.
 [nameId]: #nameid
 #### [nameId]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -361,7 +394,8 @@ A portal user's MSN address.
 [officePhone]: #officephone
 #### [officePhone]
 A portal user's office phone number.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -371,7 +405,8 @@ A portal user's office phone number.
 [openIdConnectUserName]: #openidconnectusername
 #### [openIdConnectUserName]
 The BlueID username associated to with this user, if the account is managed by OpenIDConnect / BlueID federation  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -381,7 +416,8 @@ The BlueID username associated to with this user, if the account is managed by O
 [parentId]: #parentid
 #### [parentId]
 A portal user's parent user. Id a users parentId is ''null'' then it doesn't have a parent user in the customer portal.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -391,7 +427,8 @@ A portal user's parent user. Id a users parentId is ''null'' then it doesn't hav
 [passwordExpireDate]: #passwordexpiredate
 #### [passwordExpireDate]
 The expiration date for the user's password  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -401,7 +438,8 @@ The expiration date for the user's password
 [postalCode]: #postalcode
 #### [postalCode]
 The postal code of the mailing address belonging to an portal user.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -411,7 +449,8 @@ The postal code of the mailing address belonging to an portal user.
 [pptpVpnAllowedFlag]: #pptpvpnallowedflag
 #### [pptpVpnAllowedFlag]
 Whether a portal user may connect to the SoftLayer private network via PPTP VPN or not.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -421,7 +460,8 @@ Whether a portal user may connect to the SoftLayer private network via PPTP VPN 
 [preventPreviousPasswords]: #preventpreviouspasswords
 #### [preventPreviousPasswords]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -431,7 +471,8 @@ Whether a portal user may connect to the SoftLayer private network via PPTP VPN 
 [savedId]: #savedid
 #### [savedId]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -441,7 +482,8 @@ Whether a portal user may connect to the SoftLayer private network via PPTP VPN 
 [secondaryLoginManagementFlag]: #secondaryloginmanagementflag
 #### [secondaryLoginManagementFlag]
 Whether a user may change their security options (IP restriction, password expiration, or enforce security questions on login) which were pre-selected by their account's master user.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -451,7 +493,8 @@ Whether a user may change their security options (IP restriction, password expir
 [secondaryLoginRequiredFlag]: #secondaryloginrequiredflag
 #### [secondaryLoginRequiredFlag]
 Whether a user is required to answer a security question when logging into the SoftLayer customer portal.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -461,7 +504,8 @@ Whether a user is required to answer a security question when logging into the S
 [secondaryPasswordModifyDate]: #secondarypasswordmodifydate
 #### [secondaryPasswordModifyDate]
 The date when a user's password was last updated.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -471,7 +515,8 @@ The date when a user's password was last updated.
 [secondaryPasswordTimeoutDays]: #secondarypasswordtimeoutdays
 #### [secondaryPasswordTimeoutDays]
 The number of days for which a user's password is active.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -481,7 +526,8 @@ The number of days for which a user's password is active.
 [sms]: #sms
 #### [sms]
 A phone number that can receive SMS text messages for this portal user.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -491,7 +537,8 @@ A phone number that can receive SMS text messages for this portal user.
 [sslVpnAllowedFlag]: #sslvpnallowedflag
 #### [sslVpnAllowedFlag]
 Whether a portal user may connect to the SoftLayer private network via SSL VPN or not.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -501,7 +548,8 @@ Whether a portal user may connect to the SoftLayer private network via SSL VPN o
 [state]: #state
 #### [state]
 A two-letter abbreviation of the state in the mailing address belonging to a portal user. If a user does not reside in a province then this is typically blank.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -511,7 +559,8 @@ A two-letter abbreviation of the state in the mailing address belonging to a por
 [statusDate]: #statusdate
 #### [statusDate]
 The date a portal users record's last status change.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -521,7 +570,8 @@ The date a portal users record's last status change.
 [timezoneId]: #timezoneid
 #### [timezoneId]
 A portal user's time zone.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -531,7 +581,8 @@ A portal user's time zone.
 [userStatusId]: #userstatusid
 #### [userStatusId]
 A number reflecting the state of a portal user.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -541,7 +592,8 @@ A number reflecting the state of a portal user.
 [username]: #username
 #### [username]
 A portal user's username.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -551,7 +603,8 @@ A portal user's username.
 [verificationCode]: #verificationcode
 #### [verificationCode]
 The verification code from Bluemix BSS to save in the invitation  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -561,7 +614,8 @@ The verification code from Bluemix BSS to save in the invitation
 [vpnManualConfig]: #vpnmanualconfig
 #### [vpnManualConfig]
 Whether a portal user vpn subnets have been manual configured.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -571,7 +625,8 @@ Whether a portal user vpn subnets have been manual configured.
 [yahoo]: #yahoo
 #### [yahoo]
 A portal user's Yahoo! Chat name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -587,7 +642,8 @@ A portal user's Yahoo! Chat name.
 [account]: #account
 #### [account]
 The customer account that a user belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -597,7 +653,8 @@ The customer account that a user belongs to.
 [actions]: #actions
 #### [actions]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Permission_Action'>SoftLayer_User_Permission_Action[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Permission_Action'>SoftLayer_User_Permission_Action[] </a>**  
+
 
 
 </div>
@@ -607,7 +664,8 @@ The customer account that a user belongs to.
 [additionalEmails]: #additionalemails
 #### [additionalEmails]
 A portal user's additional email addresses. These email addresses are contacted when updates are made to support tickets.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_AdditionalEmail'>SoftLayer_User_Customer_AdditionalEmail[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_AdditionalEmail'>SoftLayer_User_Customer_AdditionalEmail[] </a>**  
+
 
 
 </div>
@@ -617,7 +675,8 @@ A portal user's additional email addresses. These email addresses are contacted 
 [apiAuthenticationKeys]: #apiauthenticationkeys
 #### [apiAuthenticationKeys]
 A portal user's API Authentication keys. There is a max limit of one API key per user.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_ApiAuthentication'>SoftLayer_User_Customer_ApiAuthentication[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_ApiAuthentication'>SoftLayer_User_Customer_ApiAuthentication[] </a>**  
+
 
 
 </div>
@@ -627,7 +686,8 @@ A portal user's API Authentication keys. There is a max limit of one API key per
 [childUsers]: #childusers
 #### [childUsers]
 A portal user's child users. Some portal users may not have child users.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer[] </a>**  
+
 
 
 </div>
@@ -637,7 +697,8 @@ A portal user's child users. Some portal users may not have child users.
 [closedTickets]: #closedtickets
 #### [closedTickets]
 An user's associated closed tickets.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>**  
+
 
 
 </div>
@@ -647,7 +708,8 @@ An user's associated closed tickets.
 [dedicatedHosts]: #dedicatedhosts
 #### [dedicatedHosts]
 The dedicated hosts to which the user has been granted access.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_DedicatedHost'>SoftLayer_Virtual_DedicatedHost[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_DedicatedHost'>SoftLayer_Virtual_DedicatedHost[] </a>**  
+
 
 
 </div>
@@ -657,7 +719,8 @@ The dedicated hosts to which the user has been granted access.
 [externalBindings]: #externalbindings
 #### [externalBindings]
 The external authentication bindings that link an external identifier to a SoftLayer user.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_External_Binding'>SoftLayer_User_External_Binding[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_External_Binding'>SoftLayer_User_External_Binding[] </a>**  
+
 
 
 </div>
@@ -667,7 +730,8 @@ The external authentication bindings that link an external identifier to a SoftL
 [hardware]: #hardware
 #### [hardware]
 A portal user's accessible hardware. These permissions control which hardware a user has access to in the SoftLayer customer portal.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**  
+
 
 
 </div>
@@ -677,7 +741,8 @@ A portal user's accessible hardware. These permissions control which hardware a 
 [hardwareNotifications]: #hardwarenotifications
 #### [hardwareNotifications]
 Hardware notifications associated with this user. A hardware notification links a user to a piece of hardware, and that user will be notified if any monitors on that hardware fail, if the monitors have a status of 'Notify User'.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_Notification_Hardware'>SoftLayer_User_Customer_Notification_Hardware[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_Notification_Hardware'>SoftLayer_User_Customer_Notification_Hardware[] </a>**  
+
 
 
 </div>
@@ -687,7 +752,8 @@ Hardware notifications associated with this user. A hardware notification links 
 [hasAcknowledgedSupportPolicyFlag]: #hasacknowledgedsupportpolicyflag
 #### [hasAcknowledgedSupportPolicyFlag]
 Whether or not a user has acknowledged the support policy.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -697,7 +763,8 @@ Whether or not a user has acknowledged the support policy.
 [hasFullDedicatedHostAccessFlag]: #hasfulldedicatedhostaccessflag
 #### [hasFullDedicatedHostAccessFlag]
 Permission granting the user access to all Dedicated Host devices on the account.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -707,7 +774,8 @@ Permission granting the user access to all Dedicated Host devices on the account
 [hasFullHardwareAccessFlag]: #hasfullhardwareaccessflag
 #### [hasFullHardwareAccessFlag]
 Whether or not a portal user has access to all hardware on their account.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -717,7 +785,8 @@ Whether or not a portal user has access to all hardware on their account.
 [hasFullVirtualGuestAccessFlag]: #hasfullvirtualguestaccessflag
 #### [hasFullVirtualGuestAccessFlag]
 Whether or not a portal user has access to all virtual guests on their account.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -727,7 +796,8 @@ Whether or not a portal user has access to all virtual guests on their account.
 [ibmIdLink]: #ibmidlink
 #### [ibmIdLink]
 Specifically relating the Customer instance to an IBMid. A Customer instance may or may not have an IBMid link.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_Link'>SoftLayer_User_Customer_Link </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_Link'>SoftLayer_User_Customer_Link </a>**  
+
 
 
 </div>
@@ -737,7 +807,8 @@ Specifically relating the Customer instance to an IBMid. A Customer instance may
 [layoutProfiles]: #layoutprofiles
 #### [layoutProfiles]
 Contains the definition of the layout profile.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Profile'>SoftLayer_Layout_Profile[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Profile'>SoftLayer_Layout_Profile[] </a>**  
+
 
 
 </div>
@@ -747,7 +818,8 @@ Contains the definition of the layout profile.
 [locale]: #locale
 #### [locale]
 A user's locale. Locale holds user's language and region information.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Locale'>SoftLayer_Locale </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Locale'>SoftLayer_Locale </a>**  
+
 
 
 </div>
@@ -757,7 +829,8 @@ A user's locale. Locale holds user's language and region information.
 [loginAttempts]: #loginattempts
 #### [loginAttempts]
 A user's attempts to log into the SoftLayer customer portal.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_Access_Authentication'>SoftLayer_User_Customer_Access_Authentication[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_Access_Authentication'>SoftLayer_User_Customer_Access_Authentication[] </a>**  
+
 
 
 </div>
@@ -767,7 +840,8 @@ A user's attempts to log into the SoftLayer customer portal.
 [mobileDevices]: #mobiledevices
 #### [mobileDevices]
 A portal user's associated mobile device profiles.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_MobileDevice'>SoftLayer_User_Customer_MobileDevice[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_MobileDevice'>SoftLayer_User_Customer_MobileDevice[] </a>**  
+
 
 
 </div>
@@ -777,7 +851,8 @@ A portal user's associated mobile device profiles.
 [notificationSubscribers]: #notificationsubscribers
 #### [notificationSubscribers]
 Notification subscription records for the user.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Subscriber'>SoftLayer_Notification_Subscriber[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Subscriber'>SoftLayer_Notification_Subscriber[] </a>**  
+
 
 
 </div>
@@ -787,7 +862,8 @@ Notification subscription records for the user.
 [openTickets]: #opentickets
 #### [openTickets]
 An user's associated open tickets.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>**  
+
 
 
 </div>
@@ -797,7 +873,8 @@ An user's associated open tickets.
 [overrides]: #overrides
 #### [overrides]
 A portal user's vpn accessible subnets.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Service_Vpn_Overrides'>SoftLayer_Network_Service_Vpn_Overrides[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Service_Vpn_Overrides'>SoftLayer_Network_Service_Vpn_Overrides[] </a>**  
+
 
 
 </div>
@@ -807,7 +884,8 @@ A portal user's vpn accessible subnets.
 [parent]: #parent
 #### [parent]
 A portal user's parent user. If a SoftLayer_User_Customer has a null parentId property then it doesn't have a parent user.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**  
+
 
 
 </div>
@@ -817,7 +895,8 @@ A portal user's parent user. If a SoftLayer_User_Customer has a null parentId pr
 [permissions]: #permissions
 #### [permissions]
 A portal user's permissions. These permissions control that user's access to functions within the SoftLayer customer portal and API.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_CustomerPermission_Permission'>SoftLayer_User_Customer_CustomerPermission_Permission[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_CustomerPermission_Permission'>SoftLayer_User_Customer_CustomerPermission_Permission[] </a>**  
+
 
 
 </div>
@@ -827,7 +906,8 @@ A portal user's permissions. These permissions control that user's access to fun
 [preferences]: #preferences
 #### [preferences]
 Data type contains a single user preference to a specific preference type.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Preference'>SoftLayer_User_Preference[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Preference'>SoftLayer_User_Preference[] </a>**  
+
 
 
 </div>
@@ -837,7 +917,8 @@ Data type contains a single user preference to a specific preference type.
 [roles]: #roles
 #### [roles]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Permission_Role'>SoftLayer_User_Permission_Role[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Permission_Role'>SoftLayer_User_Permission_Role[] </a>**  
+
 
 
 </div>
@@ -847,7 +928,8 @@ Data type contains a single user preference to a specific preference type.
 [salesforceUserLink]: #salesforceuserlink
 #### [salesforceUserLink]
 [DEPRECATED]  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_Link'>SoftLayer_User_Customer_Link </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_Link'>SoftLayer_User_Customer_Link </a>**  
+
 
 
 </div>
@@ -857,7 +939,8 @@ Data type contains a single user preference to a specific preference type.
 [securityAnswers]: #securityanswers
 #### [securityAnswers]
 A portal user's security question answers. Some portal users may not have security answers or may not be configured to require answering a security question on login.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_Security_Answer'>SoftLayer_User_Customer_Security_Answer[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_Security_Answer'>SoftLayer_User_Customer_Security_Answer[] </a>**  
+
 
 
 </div>
@@ -867,7 +950,8 @@ A portal user's security question answers. Some portal users may not have securi
 [subscribers]: #subscribers
 #### [subscribers]
 A user's notification subscription records.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_User_Subscriber'>SoftLayer_Notification_User_Subscriber[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_User_Subscriber'>SoftLayer_Notification_User_Subscriber[] </a>**  
+
 
 
 </div>
@@ -877,7 +961,8 @@ A user's notification subscription records.
 [successfulLogins]: #successfullogins
 #### [successfulLogins]
 A user's successful attempts to log into the SoftLayer customer portal.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_Access_Authentication'>SoftLayer_User_Customer_Access_Authentication[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_Access_Authentication'>SoftLayer_User_Customer_Access_Authentication[] </a>**  
+
 
 
 </div>
@@ -887,7 +972,8 @@ A user's successful attempts to log into the SoftLayer customer portal.
 [supportPolicyAcknowledgementRequiredFlag]: #supportpolicyacknowledgementrequiredflag
 #### [supportPolicyAcknowledgementRequiredFlag]
 Whether or not a user is required to acknowledge the support policy for portal access.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -897,7 +983,8 @@ Whether or not a user is required to acknowledge the support policy for portal a
 [surveyRequiredFlag]: #surveyrequiredflag
 #### [surveyRequiredFlag]
 Whether or not a user must take a brief survey the next time they log into the SoftLayer customer portal.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -907,7 +994,8 @@ Whether or not a user must take a brief survey the next time they log into the S
 [surveys]: #surveys
 #### [surveys]
 The surveys that a user has taken in the SoftLayer customer portal.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Survey'>SoftLayer_Survey[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Survey'>SoftLayer_Survey[] </a>**  
+
 
 
 </div>
@@ -917,7 +1005,8 @@ The surveys that a user has taken in the SoftLayer customer portal.
 [tickets]: #tickets
 #### [tickets]
 An user's associated tickets.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>**  
+
 
 
 </div>
@@ -927,7 +1016,8 @@ An user's associated tickets.
 [timezone]: #timezone
 #### [timezone]
 A portal user's time zone.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Locale_Timezone'>SoftLayer_Locale_Timezone </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Locale_Timezone'>SoftLayer_Locale_Timezone </a>**  
+
 
 
 </div>
@@ -937,7 +1027,8 @@ A portal user's time zone.
 [unsuccessfulLogins]: #unsuccessfullogins
 #### [unsuccessfulLogins]
 A user's unsuccessful attempts to log into the SoftLayer customer portal.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_Access_Authentication'>SoftLayer_User_Customer_Access_Authentication[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_Access_Authentication'>SoftLayer_User_Customer_Access_Authentication[] </a>**  
+
 
 
 </div>
@@ -947,7 +1038,8 @@ A user's unsuccessful attempts to log into the SoftLayer customer portal.
 [userLinks]: #userlinks
 #### [userLinks]
 User customer link with IBMid and IAMid.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_Link'>SoftLayer_User_Customer_Link[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_Link'>SoftLayer_User_Customer_Link[] </a>**  
+
 
 
 </div>
@@ -957,7 +1049,8 @@ User customer link with IBMid and IAMid.
 [userStatus]: #userstatus
 #### [userStatus]
 A portal user's status, which controls overall access to the SoftLayer customer portal and VPN access to the private network.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_Status'>SoftLayer_User_Customer_Status </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_Status'>SoftLayer_User_Customer_Status </a>**  
+
 
 
 </div>
@@ -967,7 +1060,8 @@ A portal user's status, which controls overall access to the SoftLayer customer 
 [virtualGuests]: #virtualguests
 #### [virtualGuests]
 A portal user's accessible CloudLayer Computing Instances. These permissions control which CloudLayer Computing Instances a user has access to in the SoftLayer customer portal.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**  
+
 
 
 </div>
@@ -979,7 +1073,8 @@ A portal user's accessible CloudLayer Computing Instances. These permissions con
 [actionCount]: #actioncount
 #### [actionCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -989,7 +1084,8 @@ A count of
 [additionalEmailCount]: #additionalemailcount
 #### [additionalEmailCount]
 A count of a portal user's additional email addresses. These email addresses are contacted when updates are made to support tickets.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -999,7 +1095,8 @@ A count of a portal user's additional email addresses. These email addresses are
 [apiAuthenticationKeyCount]: #apiauthenticationkeycount
 #### [apiAuthenticationKeyCount]
 A count of a portal user's API Authentication keys. There is a max limit of one API key per user.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1009,7 +1106,8 @@ A count of a portal user's API Authentication keys. There is a max limit of one 
 [childUserCount]: #childusercount
 #### [childUserCount]
 A count of a portal user's child users. Some portal users may not have child users.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1019,7 +1117,8 @@ A count of a portal user's child users. Some portal users may not have child use
 [closedTicketCount]: #closedticketcount
 #### [closedTicketCount]
 A count of an user's associated closed tickets.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1029,7 +1128,8 @@ A count of an user's associated closed tickets.
 [dedicatedHostCount]: #dedicatedhostcount
 #### [dedicatedHostCount]
 A count of the dedicated hosts to which the user has been granted access.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1039,7 +1139,8 @@ A count of the dedicated hosts to which the user has been granted access.
 [externalBindingCount]: #externalbindingcount
 #### [externalBindingCount]
 A count of the external authentication bindings that link an external identifier to a SoftLayer user.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1049,7 +1150,8 @@ A count of the external authentication bindings that link an external identifier
 [hardwareCount]: #hardwarecount
 #### [hardwareCount]
 A count of a portal user's accessible hardware. These permissions control which hardware a user has access to in the SoftLayer customer portal.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1059,7 +1161,8 @@ A count of a portal user's accessible hardware. These permissions control which 
 [hardwareNotificationCount]: #hardwarenotificationcount
 #### [hardwareNotificationCount]
 A count of hardware notifications associated with this user. A hardware notification links a user to a piece of hardware, and that user will be notified if any monitors on that hardware fail, if the monitors have a status of 'Notify User'.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1069,7 +1172,8 @@ A count of hardware notifications associated with this user. A hardware notifica
 [layoutProfileCount]: #layoutprofilecount
 #### [layoutProfileCount]
 A count of contains the definition of the layout profile.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1079,7 +1183,8 @@ A count of contains the definition of the layout profile.
 [loginAttemptCount]: #loginattemptcount
 #### [loginAttemptCount]
 A count of a user's attempts to log into the SoftLayer customer portal.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1089,7 +1194,8 @@ A count of a user's attempts to log into the SoftLayer customer portal.
 [mobileDeviceCount]: #mobiledevicecount
 #### [mobileDeviceCount]
 A count of a portal user's associated mobile device profiles.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1099,7 +1205,8 @@ A count of a portal user's associated mobile device profiles.
 [notificationSubscriberCount]: #notificationsubscribercount
 #### [notificationSubscriberCount]
 A count of notification subscription records for the user.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1109,7 +1216,8 @@ A count of notification subscription records for the user.
 [openTicketCount]: #openticketcount
 #### [openTicketCount]
 A count of an user's associated open tickets.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1119,7 +1227,8 @@ A count of an user's associated open tickets.
 [overrideCount]: #overridecount
 #### [overrideCount]
 A count of a portal user's vpn accessible subnets.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1129,7 +1238,8 @@ A count of a portal user's vpn accessible subnets.
 [permissionCount]: #permissioncount
 #### [permissionCount]
 A count of a portal user's permissions. These permissions control that user's access to functions within the SoftLayer customer portal and API.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1139,7 +1249,8 @@ A count of a portal user's permissions. These permissions control that user's ac
 [preferenceCount]: #preferencecount
 #### [preferenceCount]
 A count of data type contains a single user preference to a specific preference type.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1149,7 +1260,8 @@ A count of data type contains a single user preference to a specific preference 
 [roleCount]: #rolecount
 #### [roleCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1159,7 +1271,8 @@ A count of
 [securityAnswerCount]: #securityanswercount
 #### [securityAnswerCount]
 A count of a portal user's security question answers. Some portal users may not have security answers or may not be configured to require answering a security question on login.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1169,7 +1282,8 @@ A count of a portal user's security question answers. Some portal users may not 
 [subscriberCount]: #subscribercount
 #### [subscriberCount]
 A count of a user's notification subscription records.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1179,7 +1293,8 @@ A count of a user's notification subscription records.
 [successfulLoginCount]: #successfullogincount
 #### [successfulLoginCount]
 A count of a user's successful attempts to log into the SoftLayer customer portal.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1189,7 +1304,8 @@ A count of a user's successful attempts to log into the SoftLayer customer porta
 [surveyCount]: #surveycount
 #### [surveyCount]
 A count of the surveys that a user has taken in the SoftLayer customer portal.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1199,7 +1315,8 @@ A count of the surveys that a user has taken in the SoftLayer customer portal.
 [ticketCount]: #ticketcount
 #### [ticketCount]
 A count of an user's associated tickets.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1209,7 +1326,8 @@ A count of an user's associated tickets.
 [unsuccessfulLoginCount]: #unsuccessfullogincount
 #### [unsuccessfulLoginCount]
 A count of a user's unsuccessful attempts to log into the SoftLayer customer portal.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1219,7 +1337,8 @@ A count of a user's unsuccessful attempts to log into the SoftLayer customer por
 [userLinkCount]: #userlinkcount
 #### [userLinkCount]
 A count of user customer link with IBMid and IAMid.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1229,7 +1348,8 @@ A count of user customer link with IBMid and IAMid.
 [virtualGuestCount]: #virtualguestcount
 #### [virtualGuestCount]
 A count of a portal user's accessible CloudLayer Computing Instances. These permissions control which CloudLayer Computing Instances a user has access to in the SoftLayer customer portal.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

@@ -20,6 +20,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Configuration definition gives you details of the value that you're setting. 
 
 If value type is defined as "Resource Specific Values", you will have to make an additional API call to retrieve your system specific values. 
@@ -51,7 +53,8 @@ If value type is defined as "Resource Specific Values", you will have to make an
 [createDate]: #createdate
 #### [createDate]
 Created date  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -61,7 +64,8 @@ Created date
 [description]: #description
 #### [description]
 Description of a configuration definition.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ Description of a configuration definition.
 [enumerationValues]: #enumerationvalues
 #### [enumerationValues]
 Enumeration values separated by comma.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ Enumeration values separated by comma.
 [groupId]: #groupid
 #### [groupId]
 Definition group id.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ Definition group id.
 [id]: #id
 #### [id]
 Internal identifier of a configuration definition.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ Internal identifier of a configuration definition.
 [maximumValue]: #maximumvalue
 #### [maximumValue]
 Maximum value of a configuration definition.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ Maximum value of a configuration definition.
 [minimumValue]: #minimumvalue
 #### [minimumValue]
 Minimum value of a configuration definition.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ Minimum value of a configuration definition.
 [modifyDate]: #modifydate
 #### [modifyDate]
 Last modify date  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ Last modify date
 [name]: #name
 #### [name]
 Configuration definition name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ Configuration definition name.
 [path]: #path
 #### [path]
 Definition path.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ Definition path.
 [requireValueFlag]: #requirevalueflag
 #### [requireValueFlag]
 Indicates if a configuration value is required for this definition.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ Indicates if a configuration value is required for this definition.
 [sectionId]: #sectionid
 #### [sectionId]
 Internal identifier of a configuration section.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -171,7 +185,8 @@ Internal identifier of a configuration section.
 [shortName]: #shortname
 #### [shortName]
 Shortened configuration definition name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -181,7 +196,8 @@ Shortened configuration definition name.
 [sort]: #sort
 #### [sort]
 Sort order  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -191,7 +207,8 @@ Sort order
 [typeId]: #typeid
 #### [typeId]
 Internal identifier of a configuration definition type.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -207,7 +224,8 @@ Internal identifier of a configuration definition type.
 [attributes]: #attributes
 #### [attributes]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition_Attribute'>SoftLayer_Configuration_Template_Section_Definition_Attribute[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition_Attribute'>SoftLayer_Configuration_Template_Section_Definition_Attribute[] </a>**  
+
 
 
 </div>
@@ -217,7 +235,8 @@ Internal identifier of a configuration definition type.
 [defaultValue]: #defaultvalue
 #### [defaultValue]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition_Value'>SoftLayer_Configuration_Template_Section_Definition_Value </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition_Value'>SoftLayer_Configuration_Template_Section_Definition_Value </a>**  
+
 
 
 </div>
@@ -227,7 +246,8 @@ Internal identifier of a configuration definition type.
 [group]: #group
 #### [group]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition_Group'>SoftLayer_Configuration_Template_Section_Definition_Group </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition_Group'>SoftLayer_Configuration_Template_Section_Definition_Group </a>**  
+
 
 
 </div>
@@ -237,7 +257,8 @@ Internal identifier of a configuration definition type.
 [monitoringDataFlag]: #monitoringdataflag
 #### [monitoringDataFlag]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -247,7 +268,8 @@ Internal identifier of a configuration definition type.
 [section]: #section
 #### [section]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section'>SoftLayer_Configuration_Template_Section </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section'>SoftLayer_Configuration_Template_Section </a>**  
+
 
 
 </div>
@@ -257,7 +279,8 @@ Internal identifier of a configuration definition type.
 [valueType]: #valuetype
 #### [valueType]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition_Type'>SoftLayer_Configuration_Template_Section_Definition_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition_Type'>SoftLayer_Configuration_Template_Section_Definition_Type </a>**  
+
 
 
 </div>
@@ -269,7 +292,8 @@ Internal identifier of a configuration definition type.
 [attributeCount]: #attributecount
 #### [attributeCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

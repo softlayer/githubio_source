@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::getBoundRouterFlag
 
+
 Retrieve whether or not this subnet is associated with a router. Subnets that are not associated with a router cannot be routed.
 
 

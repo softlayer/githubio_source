@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Monitor_Version1_Query_Host_Stratum](/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host_Stratum)::getAllResponseTypes
 
+
 Return all ResponseType objects.
 
 

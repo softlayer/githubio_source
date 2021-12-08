@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress)::getSecurityCertificateEntry
 
+
 Retrieve the SSL certificate currently associated with the VIP. Provides chosen certificate visibility to unprivileged users.
 
 

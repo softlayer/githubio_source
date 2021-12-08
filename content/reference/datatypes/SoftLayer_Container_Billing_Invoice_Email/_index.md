@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This container is used to provide all the options for [SoftLayer_Billing_Invoice::emailInvoices]({{<ref "reference/services/SoftLayer_Billing_Invoice/emailInvoices">}}) in order to have the necessary invoices generated and links sent to the user's email. 
 
 
@@ -45,7 +47,8 @@ This container is used to provide all the options for [SoftLayer_Billing_Invoice
 [excelInvoiceIds]: #excelinvoiceids
 #### [excelInvoiceIds]
 Excel Invoices to email  
-<span class="type-label">Type: </span>**array of integers**
+<span class="type-label">Type: </span>**array of integers**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Excel Invoices to email
 [pdfDetailedInvoiceIds]: #pdfdetailedinvoiceids
 #### [pdfDetailedInvoiceIds]
 PDF Invoice Details to email  
-<span class="type-label">Type: </span>**array of integers**
+<span class="type-label">Type: </span>**array of integers**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ PDF Invoice Details to email
 [pdfInvoiceIds]: #pdfinvoiceids
 #### [pdfInvoiceIds]
 PDF Invoices to email  
-<span class="type-label">Type: </span>**array of integers**
+<span class="type-label">Type: </span>**array of integers**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ PDF Invoices to email
 [type]: #type
 #### [type]
 The type of Invoices to be emailed [current|next]. If next is selected, the account id will be used.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

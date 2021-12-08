@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getAttachedNetworkStorages
 
+
 Return a list of SoftLayer_Network_Storage volumes authorized to this device. 
 
 

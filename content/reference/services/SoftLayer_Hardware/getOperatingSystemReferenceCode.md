@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getOperatingSystemReferenceCode
 
+
 Retrieve a hardware's operating system software description.
 
 

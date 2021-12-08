@@ -21,6 +21,8 @@ classes:
 
 
 
+
+
 ### associatedMethods
 
 *  [SoftLayer_Auxiliary_Press_Release_Contact::getObject](/reference/services/SoftLayer_Auxiliary_Press_Release_Contact/getObject )
@@ -55,7 +57,8 @@ classes:
 [email]: #email
 #### [email]
 A press release contact's email  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +68,8 @@ A press release contact's email
 [firstName]: #firstname
 #### [firstName]
 A press release contact's first name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +79,8 @@ A press release contact's first name.
 [id]: #id
 #### [id]
 A press release contact's internal  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +90,8 @@ A press release contact's internal
 [lastName]: #lastname
 #### [lastName]
 A press release contact's last name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +101,8 @@ A press release contact's last name.
 [phone]: #phone
 #### [phone]
 A press release contact's phone  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +112,8 @@ A press release contact's phone
 [professionalTitle]: #professionaltitle
 #### [professionalTitle]
 A press release contact's  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

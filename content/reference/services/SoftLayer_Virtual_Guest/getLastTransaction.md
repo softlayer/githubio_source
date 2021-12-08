@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getLastTransaction
 
+
 Retrieve the last transaction a cloud server had performed.
 
 

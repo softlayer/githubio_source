@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Container_Authentication_Response_AccountIdMissing data type contains information for specific responses from the getPortalLogin API. This class is indicative of a request that is missing the account id. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Container_Authentication_Response_AccountIdMissing data type conta
 [accounts]: #accounts
 #### [accounts]
 The list of linked accounts for the authenticated SoftLayer customer portal user.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Authentication_Response_Account'>SoftLayer_Container_Authentication_Response_Account[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Authentication_Response_Account'>SoftLayer_Container_Authentication_Response_Account[] </a>**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The list of linked accounts for the authenticated SoftLayer customer portal user
 [statusKeyName]: #statuskeyname
 #### [statusKeyName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

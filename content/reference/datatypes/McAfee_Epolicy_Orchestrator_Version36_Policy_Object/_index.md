@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The McAfee_Epolicy_Orchestrator_Version36_Policy_Object data type contains the name of a policy that may be assigned to a server.
 
 
@@ -45,7 +47,8 @@ The McAfee_Epolicy_Orchestrator_Version36_Policy_Object data type contains the n
 [name]: #name
 #### [name]
 The name of a policy.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

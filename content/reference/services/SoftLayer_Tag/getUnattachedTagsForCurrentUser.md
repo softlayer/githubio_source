@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Tag](/reference/services/SoftLayer_Tag)::getUnattachedTagsForCurrentUser
 
+
 Get the tags not attached to references.
 
 

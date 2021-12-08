@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getAccount
 
+
 Retrieve the SoftLayer customer account associated with a VLAN.
 
 

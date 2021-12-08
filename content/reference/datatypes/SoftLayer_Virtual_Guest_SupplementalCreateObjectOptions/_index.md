@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [bootMode]: #bootmode
 #### [bootMode]
 The mode used to boot the [SoftLayer_Virtual_Guest]({{<ref "reference/datatypes/SoftLayer_Virtual_Guest">}}).  Supported values are 'PV' and 'HVM'.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The mode used to boot the [SoftLayer_Virtual_Guest]({{<ref "reference/datatypes/
 [flavorKeyName]: #flavorkeyname
 #### [flavorKeyName]
 When set the startCpus and maxMemory are defined by the flavor. If the flavor includes local storage blockDevice 0 is also defined by the flavor. When startCpus, maxMemory, or blockDevice 0 are also provided on the template object they are validated against the flavor provided.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ When set the startCpus and maxMemory are defined by the flavor. If the flavor in
 [immediateApprovalOnlyFlag]: #immediateapprovalonlyflag
 #### [immediateApprovalOnlyFlag]
 When explicitly set to true, createObject(s) will fail unless the order is started automatically. This can be used by automated systems to fail an order that might otherwise require manual approval. For multi-guest orders via [SoftLayer_Virtual_Guest::createObjects]({{<ref "reference/services/SoftLayer_Virtual_Guest/createObjects">}}), this value must be the exact same for every item.   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ When explicitly set to true, createObject(s) will fail unless the order is start
 [postInstallScriptUri]: #postinstallscripturi
 #### [postInstallScriptUri]
 URI of the script to be downloaded and executed after installation is complete. This can be different for each virtual guest when multiple are sent to [SoftLayer_Virtual_Guest::createObjects]({{<ref "reference/services/SoftLayer_Virtual_Guest/createObjects">}}).   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

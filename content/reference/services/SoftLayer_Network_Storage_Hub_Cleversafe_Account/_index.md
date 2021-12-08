@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 This class provides an interface for the management of IBM Cloud Object Storage Accounts and Credentials. 
 
 
@@ -42,11 +44,13 @@ This class provides an interface for the management of IBM Cloud Object Storage 
 
 #### [credentialCreate](/reference/services/SoftLayer_Network_Storage_Hub_Cleversafe_Account/credentialCreate)
 
+
 </div>
 
 <div class="method-row">
 
 #### [credentialDelete](/reference/services/SoftLayer_Network_Storage_Hub_Cleversafe_Account/credentialDelete)
+
 
 </div>
 
@@ -54,11 +58,13 @@ This class provides an interface for the management of IBM Cloud Object Storage 
 
 #### [getAccount](/reference/services/SoftLayer_Network_Storage_Hub_Cleversafe_Account/getAccount)
 Retrieve softLayer account to which an IBM Cloud Object Storage account belongs to.
+
 </div>
 
 <div class="method-row">
 
 #### [getAllObjects](/reference/services/SoftLayer_Network_Storage_Hub_Cleversafe_Account/getAllObjects)
+
 
 </div>
 
@@ -66,11 +72,13 @@ Retrieve softLayer account to which an IBM Cloud Object Storage account belongs 
 
 #### [getBillingItem](/reference/services/SoftLayer_Network_Storage_Hub_Cleversafe_Account/getBillingItem)
 Retrieve an associated parent billing item which is active. Includes billing items which are scheduled to be cancelled in the future.
+
 </div>
 
 <div class="method-row">
 
 #### [getBuckets](/reference/services/SoftLayer_Network_Storage_Hub_Cleversafe_Account/getBuckets)
+
 
 </div>
 
@@ -78,11 +86,13 @@ Retrieve an associated parent billing item which is active. Includes billing ite
 
 #### [getCancelledBillingItem](/reference/services/SoftLayer_Network_Storage_Hub_Cleversafe_Account/getCancelledBillingItem)
 Retrieve an associated parent billing item which has been cancelled.
+
 </div>
 
 <div class="method-row">
 
 #### [getCapacityUsage](/reference/services/SoftLayer_Network_Storage_Hub_Cleversafe_Account/getCapacityUsage)
+
 
 </div>
 
@@ -90,11 +100,13 @@ Retrieve an associated parent billing item which has been cancelled.
 
 #### [getCloudObjectStorageMetrics](/reference/services/SoftLayer_Network_Storage_Hub_Cleversafe_Account/getCloudObjectStorageMetrics)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getCredentialLimit](/reference/services/SoftLayer_Network_Storage_Hub_Cleversafe_Account/getCredentialLimit)
+
 
 </div>
 
@@ -102,11 +114,13 @@ Retrieve an associated parent billing item which has been cancelled.
 
 #### [getCredentials](/reference/services/SoftLayer_Network_Storage_Hub_Cleversafe_Account/getCredentials)
 Retrieve credentials used for generating an AWS signature. Max of 2.
+
 </div>
 
 <div class="method-row">
 
 #### [getEndpoints](/reference/services/SoftLayer_Network_Storage_Hub_Cleversafe_Account/getEndpoints)
+
 
 </div>
 
@@ -114,24 +128,28 @@ Retrieve credentials used for generating an AWS signature. Max of 2.
 
 #### [getEndpointsWithRefetch](/reference/services/SoftLayer_Network_Storage_Hub_Cleversafe_Account/getEndpointsWithRefetch)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getMetricTrackingObject](/reference/services/SoftLayer_Network_Storage_Hub_Cleversafe_Account/getMetricTrackingObject)
 Retrieve provides an interface to various metrics relating to the usage of an IBM Cloud Object Storage account.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Storage_Hub_Cleversafe_Account/getObject)
 Retrieve a SoftLayer_Network_Storage_Hub_Cleversafe_Account record.
+
 </div>
 
 <div class="method-row">
 
 #### [getUuid](/reference/services/SoftLayer_Network_Storage_Hub_Cleversafe_Account/getUuid)
 Retrieve unique identifier for an IBM Cloud Object Storage account.
+
 </div>
 </div>
 

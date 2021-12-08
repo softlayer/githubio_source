@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getGpuCount
 
+
 Retrieve the number of GPUs attached to the guest.
 
 

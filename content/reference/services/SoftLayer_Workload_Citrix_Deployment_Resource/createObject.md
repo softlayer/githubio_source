@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Workload_Citrix_Deployment_Resource](/reference/services/SoftLayer_Workload_Citrix_Deployment_Resource)::createObject
 
+
 Add the resource into CVAD deployment resources.
 
 

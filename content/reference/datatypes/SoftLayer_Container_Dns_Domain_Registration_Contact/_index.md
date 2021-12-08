@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Contact information container for domain registration 
 
 
@@ -45,7 +47,8 @@ Contact information container for domain registration
 [address1]: #address1
 #### [address1]
 The street address of the contact.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The street address of the contact.
 [address2]: #address2
 #### [address2]
 The second line in the address of the contact.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The second line in the address of the contact.
 [address3]: #address3
 #### [address3]
 The third line in the address of the contact.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The third line in the address of the contact.
 [city]: #city
 #### [city]
 The city of the contact.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The city of the contact.
 [country]: #country
 #### [country]
 The 2-character Country code. (i.e. US)  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The 2-character Country code. (i.e. US)
 [email]: #email
 #### [email]
 The email address of the contact.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The email address of the contact.
 [fax]: #fax
 #### [fax]
 The fax number of the contact.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ The fax number of the contact.
 [firstName]: #firstname
 #### [firstName]
 The first name of the contact.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ The first name of the contact.
 [lastName]: #lastname
 #### [lastName]
 The last name of the contact.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ The last name of the contact.
 [organizationName]: #organizationname
 #### [organizationName]
 The organization name of the contact.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -145,7 +157,8 @@ The organization name of the contact.
 [phone]: #phone
 #### [phone]
 The phone number of the contact.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -155,7 +168,8 @@ The phone number of the contact.
 [postalCode]: #postalcode
 #### [postalCode]
 The postal code of the contact.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -165,7 +179,8 @@ The postal code of the contact.
 [state]: #state
 #### [state]
 The state of the contact.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -179,7 +194,8 @@ The type of contact. The following are the valid types of contacts:
 * owner
 * billing
 * tech  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This object specifies a specific Software Component:  A cPanel instance. cPanel installations have a specific default port (2086) and a pattern for usernames and passwords.  Defaults are initiated by this object. 
 
 
@@ -45,7 +47,8 @@ This object specifies a specific Software Component:  A cPanel instance. cPanel 
 [hardwareId]: #hardwareid
 #### [hardwareId]
 Hardware Identification Number for the server this Software Component is installed upon.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Hardware Identification Number for the server this Software Component is install
 [id]: #id
 #### [id]
 An ID number identifying this Software Component (Software Installation)  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ An ID number identifying this Software Component (Software Installation)
 [manufacturerActivationCode]: #manufactureractivationcode
 #### [manufacturerActivationCode]
 The manufacturer code that is needed to activate a license.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The manufacturer code that is needed to activate a license.
 [manufacturerLicenseInstance]: #manufacturerlicenseinstance
 #### [manufacturerLicenseInstance]
 A license key for this specific installation of software, if it is needed.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ A license key for this specific installation of software, if it is needed.
 [averageInstallationDuration]: #averageinstallationduration
 #### [averageInstallationDuration]
 The average amount of time that a software component takes to install.  
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ The average amount of time that a software component takes to install.
 [billingItem]: #billingitem
 #### [billingItem]
 The billing item for a software component.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ The billing item for a software component.
 [hardware]: #hardware
 #### [hardware]
 The hardware this Software Component is installed upon.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ The hardware this Software Component is installed upon.
 [passwordHistory]: #passwordhistory
 #### [passwordHistory]
 History Records for Software Passwords.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component_Password_History'>SoftLayer_Software_Component_Password_History[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component_Password_History'>SoftLayer_Software_Component_Password_History[] </a>**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ History Records for Software Passwords.
 [softwareDescription]: #softwaredescription
 #### [softwareDescription]
 The Software Description of this Software Component.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description </a>**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ The Software Description of this Software Component.
 [softwareLicense]: #softwarelicense
 #### [softwareLicense]
 The License this Software Component uses.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_License'>SoftLayer_Software_License </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_License'>SoftLayer_Software_License </a>**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ The License this Software Component uses.
 [virtualGuest]: #virtualguest
 #### [virtualGuest]
 The virtual guest this software component is installed upon.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**  
+
 
 
 </div>
@@ -163,7 +176,8 @@ The virtual guest this software component is installed upon.
 [passwordHistoryCount]: #passwordhistorycount
 #### [passwordHistoryCount]
 A count of history Records for Software Passwords.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

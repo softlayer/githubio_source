@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [healthCheckTypeId]: #healthchecktypeid
 #### [healthCheckTypeId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ classes:
 [id]: #id
 #### [id]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ classes:
 [name]: #name
 #### [name]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ classes:
 [notes]: #notes
 #### [notes]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ classes:
 [attributes]: #attributes
 #### [attributes]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Attribute'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Attribute[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Attribute'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Attribute[] </a>**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ classes:
 [scaleLoadBalancers]: #scaleloadbalancers
 #### [scaleLoadBalancers]
 Collection of scale load balancers that use this health check.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Scale_LoadBalancer'>SoftLayer_Scale_LoadBalancer[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Scale_LoadBalancer'>SoftLayer_Scale_LoadBalancer[] </a>**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ Collection of scale load balancers that use this health check.
 [services]: #services
 #### [services]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service[] </a>**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ Collection of scale load balancers that use this health check.
 [type]: #type
 #### [type]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Check_Type'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Check_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Check_Type'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Check_Type </a>**  
+
 
 
 </div>
@@ -133,7 +143,8 @@ Collection of scale load balancers that use this health check.
 [attributeCount]: #attributecount
 #### [attributeCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -143,7 +154,8 @@ A count of
 [scaleLoadBalancerCount]: #scaleloadbalancercount
 #### [scaleLoadBalancerCount]
 A count of collection of scale load balancers that use this health check.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -153,7 +165,8 @@ A count of collection of scale load balancers that use this health check.
 [serviceCount]: #servicecount
 #### [serviceCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

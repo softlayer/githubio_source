@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getSecondaryDomains
 
+
 Retrieve the secondary DNS records for a SoftLayer customer account.
 
 

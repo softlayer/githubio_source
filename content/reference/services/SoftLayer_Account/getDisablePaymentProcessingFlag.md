@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getDisablePaymentProcessingFlag
 
+
 Retrieve a flag indicating whether payments are processed for this account.
 
 

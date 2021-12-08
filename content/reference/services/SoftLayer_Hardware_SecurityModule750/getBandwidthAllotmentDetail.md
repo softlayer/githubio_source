@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getBandwidthAllotmentDetail
 
+
 Retrieve a hardware's allotted detail record. Allotment details link bandwidth allocation with allotments.
 
 

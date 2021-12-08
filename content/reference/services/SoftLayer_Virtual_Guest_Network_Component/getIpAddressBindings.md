@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest_Network_Component](/reference/services/SoftLayer_Virtual_Guest_Network_Component)::getIpAddressBindings
 
+
 Retrieve the records of all IP addresses bound to a computing instance's network component.
 
 

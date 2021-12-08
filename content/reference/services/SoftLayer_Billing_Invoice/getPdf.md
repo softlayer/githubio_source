@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Invoice](/reference/services/SoftLayer_Billing_Invoice)::getPdf
 
+
 Retrieve a PDF copy of an invoice.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Resource_Metadata](/reference/services/SoftLayer_Resource_Metadata)::getDatacenterId
 
+
 The id for the datacenter which the resource is in
 
 

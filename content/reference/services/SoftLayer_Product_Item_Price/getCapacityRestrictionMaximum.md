@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Item_Price](/reference/services/SoftLayer_Product_Item_Price)::getCapacityRestrictionMaximum
 
+
 Retrieve the maximum capacity value for which this price is suitable.
 
 

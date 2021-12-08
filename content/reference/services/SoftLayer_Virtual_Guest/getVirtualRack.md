@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getVirtualRack
 
+
 Retrieve the name of the bandwidth allotment that a hardware belongs too.
 
 

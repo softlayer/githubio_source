@@ -16,6 +16,7 @@ aliases:
 
 
 
+
 ## Overview 
 This method allows you to remove BYOL attribute for a given image template. 
 

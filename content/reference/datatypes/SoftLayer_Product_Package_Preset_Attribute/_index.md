@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Package preset attributes contain supplementary information for a package preset. 
 
 
@@ -53,7 +55,8 @@ Package preset attributes contain supplementary information for a package preset
 [attributeTypeId]: #attributetypeid
 #### [attributeTypeId]
 The internal identifier of the type of attribute that a pacakge preset attribute belongs to.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -63,7 +66,8 @@ The internal identifier of the type of attribute that a pacakge preset attribute
 [id]: #id
 #### [id]
 A package preset attribute's internal identifier.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -73,7 +77,8 @@ A package preset attribute's internal identifier.
 [presetId]: #presetid
 #### [presetId]
 The internal identifier of the package preset an attribute belongs to.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -83,7 +88,8 @@ The internal identifier of the package preset an attribute belongs to.
 [value]: #value
 #### [value]
 A package preset's attribute value.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -99,7 +105,8 @@ A package preset's attribute value.
 [attributeType]: #attributetype
 #### [attributeType]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Preset_Attribute_Type'>SoftLayer_Product_Package_Preset_Attribute_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Preset_Attribute_Type'>SoftLayer_Product_Package_Preset_Attribute_Type </a>**  
+
 
 
 </div>
@@ -109,7 +116,8 @@ A package preset's attribute value.
 [preset]: #preset
 #### [preset]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Preset'>SoftLayer_Product_Package_Preset </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Preset'>SoftLayer_Product_Package_Preset </a>**  
+
 
 
 </div>

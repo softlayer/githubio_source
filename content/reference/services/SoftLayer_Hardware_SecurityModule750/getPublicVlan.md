@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getPublicVlan
 
+
 Retrieve the frontend VLAN for the primary IP address of the server
 
 

@@ -21,6 +21,8 @@ classes:
 
 
 
+
+
 ### associatedMethods
 
 *  [SoftLayer_Auxiliary_Press_Release_Media_Partner_Press_Release::getObject](/reference/services/SoftLayer_Auxiliary_Press_Release_Media_Partner_Press_Release/getObject )
@@ -55,7 +57,8 @@ classes:
 [id]: #id
 #### [id]
 A press release media partner cross  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +68,8 @@ A press release media partner cross
 [mediaPartnerId]: #mediapartnerid
 #### [mediaPartnerId]
 A press release media partner's  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +79,8 @@ A press release media partner's
 [pressReleaseId]: #pressreleaseid
 #### [pressReleaseId]
 A press release internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -91,7 +96,8 @@ A press release internal identifier.
 [mediaPartners]: #mediapartners
 #### [mediaPartners]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Auxiliary_Press_Release_Media_Partner'>SoftLayer_Auxiliary_Press_Release_Media_Partner[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Auxiliary_Press_Release_Media_Partner'>SoftLayer_Auxiliary_Press_Release_Media_Partner[] </a>**  
+
 
 
 </div>
@@ -101,7 +107,8 @@ A press release internal identifier.
 [pressReleases]: #pressreleases
 #### [pressReleases]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Auxiliary_Press_Release'>SoftLayer_Auxiliary_Press_Release[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Auxiliary_Press_Release'>SoftLayer_Auxiliary_Press_Release[] </a>**  
+
 
 
 </div>
@@ -113,7 +120,8 @@ A press release internal identifier.
 [mediaPartnerCount]: #mediapartnercount
 #### [mediaPartnerCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -123,7 +131,8 @@ A count of
 [pressReleaseCount]: #pressreleasecount
 #### [pressReleaseCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [backendRouterId]: #backendrouterid
 #### [backendRouterId]
 Identifier for this Pod's Backend Customer Router (BCR)  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Identifier for this Pod's Backend Customer Router (BCR)
 [backendRouterName]: #backendroutername
 #### [backendRouterName]
 Host name of Pod's Backend Customer Router (BCR), e.g. bcr01a.dal09  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Host name of Pod's Backend Customer Router (BCR), e.g. bcr01a.dal09
 [capabilities]: #capabilities
 #### [capabilities]
 Property providing a means to filter Pods based on available capabitilies. See [SoftLayer_Network_Pod::getAllObjects]({{<ref "reference/services/SoftLayer_Network_Pod/getAllObjects">}}) to filter for Pods with specific capabilities. See [SoftLayer_Network_Pod::getCapabilities]({{<ref "reference/services/SoftLayer_Network_Pod/getCapabilities">}}) to retrieve capabilities of a specific Pod.   
-<span class="type-label">Type: </span>**array of strings**
+<span class="type-label">Type: </span>**array of strings**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Property providing a means to filter Pods based on available capabitilies. See [
 [datacenterId]: #datacenterid
 #### [datacenterId]
 Identifier for the Data Center the Pod resides within  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Identifier for the Data Center the Pod resides within
 [datacenterLongName]: #datacenterlongname
 #### [datacenterLongName]
 Long form name of the data center in which this Pod resides, e.g. Dallas 9  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ Long form name of the data center in which this Pod resides, e.g. Dallas 9
 [datacenterName]: #datacentername
 #### [datacenterName]
 Name of data center in which this Pod resides, e.g. dal09  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ Name of data center in which this Pod resides, e.g. dal09
 [frontendRouterId]: #frontendrouterid
 #### [frontendRouterId]
 (optional) Identifier for this Pod's Frontend Customer Router (FCR)  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ Name of data center in which this Pod resides, e.g. dal09
 [frontendRouterName]: #frontendroutername
 #### [frontendRouterName]
 (optional) Host name of Pod's Frontend Customer Router (FCR), e.g. fcr01a.dal09  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ Name of data center in which this Pod resides, e.g. dal09
 [name]: #name
 #### [name]
 The unique name of the Pod. See [SoftLayer_Network_Pod]({{<ref "reference/datatypes/SoftLayer_Network_Pod">}}) for details of the name's construction.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

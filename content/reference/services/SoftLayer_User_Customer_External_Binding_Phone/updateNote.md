@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_External_Binding_Phone](/reference/services/SoftLayer_User_Customer_External_Binding_Phone)::updateNote
 
+
 Update the note of an external binding.
 
 

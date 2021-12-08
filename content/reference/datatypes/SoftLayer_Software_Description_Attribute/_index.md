@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Software_Description_Attribute data type represents an attributes associated with this software description. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Software_Description_Attribute data type represents an attributes 
 [value]: #value
 #### [value]
 The value that was assigned to this attribute.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -61,7 +64,8 @@ The value that was assigned to this attribute.
 [softwareDescription]: #softwaredescription
 #### [softwareDescription]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description </a>**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ The value that was assigned to this attribute.
 [type]: #type
 #### [type]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Description_Attribute_Type'>SoftLayer_Software_Description_Attribute_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Description_Attribute_Type'>SoftLayer_Software_Description_Attribute_Type </a>**  
+
 
 
 </div>

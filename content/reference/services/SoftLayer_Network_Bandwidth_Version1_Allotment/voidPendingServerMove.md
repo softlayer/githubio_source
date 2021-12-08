@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Bandwidth_Version1_Allotment](/reference/services/SoftLayer_Network_Bandwidth_Version1_Allotment)::voidPendingServerMove
 
+
 Void a pending server removal from this bandwidth pooling.
 
 

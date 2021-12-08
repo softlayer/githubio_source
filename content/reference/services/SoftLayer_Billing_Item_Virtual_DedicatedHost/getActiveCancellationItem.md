@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item_Virtual_DedicatedHost](/reference/services/SoftLayer_Billing_Item_Virtual_DedicatedHost)::getActiveCancellationItem
 
+
 Retrieve a service cancellation request item that corresponds to the billing item.
 
 

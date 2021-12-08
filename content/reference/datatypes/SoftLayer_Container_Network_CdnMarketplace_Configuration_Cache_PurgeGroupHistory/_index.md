@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Container_Network_CdnMarketplace_Configuration_Cache_PurgeGroupHistory data type contains information for specific responses from the Purge Group API and Purge History API. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Container_Network_CdnMarketplace_Configuration_Cache_PurgeGroupHis
 [createDate]: #createdate
 #### [createDate]
 Date in which record is created   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Date in which record is created
 [groupName]: #groupname
 #### [groupName]
 Purge Group name. The favorite group name must be unique, but un-favorite groups do not have this limitation   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Purge Group name. The favorite group name must be unique, but un-favorite groups
 [groupUniqueId]: #groupuniqueid
 #### [groupUniqueId]
 Purge group unique ID   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Purge group unique ID
 [status]: #status
 #### [status]
 The purge's status. Status can be SUCCESS, FAILED, or IN_PROGRESS.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The purge's status. Status can be SUCCESS, FAILED, or IN_PROGRESS.
 [uniqueId]: #uniqueid
 #### [uniqueId]
 Domain mapping unique ID.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

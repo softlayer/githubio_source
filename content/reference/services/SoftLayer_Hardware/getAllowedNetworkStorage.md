@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getAllowedNetworkStorage
 
+
 Retrieve the SoftLayer_Network_Storage objects that this SoftLayer_Hardware has access to.
 
 

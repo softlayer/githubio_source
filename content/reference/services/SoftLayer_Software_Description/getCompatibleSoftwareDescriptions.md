@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Software_Description](/reference/services/SoftLayer_Software_Description)::getCompatibleSoftwareDescriptions
 
+
 Retrieve a list of the software descriptions that are compatible with this software description.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Tag](/reference/services/SoftLayer_Tag)::getReferences
 
+
 Retrieve references that tie object to the tag.
 
 

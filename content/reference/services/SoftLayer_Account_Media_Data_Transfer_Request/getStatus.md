@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Media_Data_Transfer_Request](/reference/services/SoftLayer_Account_Media_Data_Transfer_Request)::getStatus
 
+
 Retrieve the status of the request.
 
 

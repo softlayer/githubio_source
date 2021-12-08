@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Layout_Item](/reference/services/SoftLayer_Layout_Item)::getObject
 
+
 Retrieve a SoftLayer_Layout_Item record.
 
 

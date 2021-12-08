@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Ticket_Subject data type models one of the possible subjects that a standard support ticket may belong to. A basic support ticket's title matches it's corresponding subject's name. 
 
 
@@ -60,7 +62,8 @@ The SoftLayer_Ticket_Subject data type models one of the possible subjects that 
 [categoryId]: #categoryid
 #### [categoryId]
 The subject category id that this ticket subject belongs to.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -70,7 +73,8 @@ The subject category id that this ticket subject belongs to.
 [id]: #id
 #### [id]
 A ticket subject's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -80,7 +84,8 @@ A ticket subject's internal identifier.
 [name]: #name
 #### [name]
 A ticket subject's name. This name is used for a standard support ticket's title.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -90,7 +95,8 @@ A ticket subject's name. This name is used for a standard support ticket's title
 [parentId]: #parentid
 #### [parentId]
 Specifies the parent subject id.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -106,7 +112,8 @@ Specifies the parent subject id.
 [category]: #category
 #### [category]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Subject_Category'>SoftLayer_Ticket_Subject_Category </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Subject_Category'>SoftLayer_Ticket_Subject_Category </a>**  
+
 
 
 </div>
@@ -116,7 +123,8 @@ Specifies the parent subject id.
 [children]: #children
 #### [children]
 A child subject  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Subject'>SoftLayer_Ticket_Subject[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Subject'>SoftLayer_Ticket_Subject[] </a>**  
+
 
 
 </div>
@@ -126,7 +134,8 @@ A child subject
 [group]: #group
 #### [group]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Group'>SoftLayer_Ticket_Group </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Group'>SoftLayer_Ticket_Group </a>**  
+
 
 
 </div>
@@ -136,7 +145,8 @@ A child subject
 [parent]: #parent
 #### [parent]
 A parent subject  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Subject'>SoftLayer_Ticket_Subject </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Subject'>SoftLayer_Ticket_Subject </a>**  
+
 
 
 </div>
@@ -148,7 +158,8 @@ A parent subject
 [childrenCount]: #childrencount
 #### [childrenCount]
 A count of a child subject   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

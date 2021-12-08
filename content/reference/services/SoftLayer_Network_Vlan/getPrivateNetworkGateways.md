@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getPrivateNetworkGateways
 
+
 Retrieve the gateways this VLAN is the private VLAN of.
 
 

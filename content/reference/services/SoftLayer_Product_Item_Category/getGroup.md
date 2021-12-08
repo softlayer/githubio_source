@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Item_Category](/reference/services/SoftLayer_Product_Item_Category)::getGroup
 
+
 Retrieve this invoice item's "item category group". 
 
 

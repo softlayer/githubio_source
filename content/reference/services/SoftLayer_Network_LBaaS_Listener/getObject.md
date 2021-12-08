@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_LBaaS_Listener](/reference/services/SoftLayer_Network_LBaaS_Listener)::getObject
 
+
 Retrieve a SoftLayer_Network_LBaaS_Listener record.
 
 

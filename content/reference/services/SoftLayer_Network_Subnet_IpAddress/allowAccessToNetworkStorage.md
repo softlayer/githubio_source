@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet_IpAddress](/reference/services/SoftLayer_Network_Subnet_IpAddress)::allowAccessToNetworkStorage
 
+
 Allow access to a SoftLayer_Network_Storage volume from this device. 
 
 

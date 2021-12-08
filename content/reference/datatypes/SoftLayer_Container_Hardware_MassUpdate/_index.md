@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [hardwareId]: #hardwareid
 #### [hardwareId]
 The hardwares updated by the mass update tool  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The hardwares updated by the mass update tool
 [message]: #message
 #### [message]
 Errors encountered while mass updating hardwares  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Errors encountered while mass updating hardwares
 [successFlag]: #successflag
 #### [successFlag]
 The hardwares that failed to update  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

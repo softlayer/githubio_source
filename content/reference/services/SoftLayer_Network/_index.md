@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 Provides services oriented to network-centric discovery and manipulation. 
 
 
@@ -42,24 +44,28 @@ Provides services oriented to network-centric discovery and manipulation.
 
 #### [connectPrivateEndpointService](/reference/services/SoftLayer_Network/connectPrivateEndpointService)
 Establishes a connection between the account and Service Endpoint networks.
+
 </div>
 
 <div class="method-row">
 
 #### [disconnectPrivateEndpointService](/reference/services/SoftLayer_Network/disconnectPrivateEndpointService)
 Terminates the connection between the account and Service Endpoint networks.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network/getObject)
 Retrieve a SoftLayer_Network record.
+
 </div>
 
 <div class="method-row">
 
 #### [isConnectedToPrivateEndpointService](/reference/services/SoftLayer_Network/isConnectedToPrivateEndpointService)
 Checks the current Service Endpoint network connection status.
+
 </div>
 </div>
 

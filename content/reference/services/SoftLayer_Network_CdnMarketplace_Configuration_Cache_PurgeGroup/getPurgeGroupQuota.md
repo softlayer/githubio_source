@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_CdnMarketplace_Configuration_Cache_PurgeGroup](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Cache_PurgeGroup)::getPurgeGroupQuota
 
+
 This method gets a purge group quota. 
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getRemoteManagementAccounts
 
+
 Retrieve user credentials to issue commands and/or interact with the server's remote management card.
 
 

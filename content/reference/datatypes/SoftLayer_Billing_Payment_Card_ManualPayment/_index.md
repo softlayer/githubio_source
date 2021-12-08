@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Billing_Payment_Card_ManualPayment data type contains general information related to requesting a manual payment. This supports enablement of 3D Secure via Cardinal Cruise implementation that allows for credit card authentication and is currently limited to specified merchants. 
 
 ### External Links
@@ -54,7 +56,8 @@ The SoftLayer_Billing_Payment_Card_ManualPayment data type contains general info
 [accountId]: #accountid
 #### [accountId]
 The account ID to which the credit card and billing information is associated with.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -64,7 +67,8 @@ The account ID to which the credit card and billing information is associated wi
 [amount]: #amount
 #### [amount]
 The total amount of the attempted transaction, represented in decimal format as US Dollars ($USD).  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -74,7 +78,8 @@ The total amount of the attempted transaction, represented in decimal format as 
 [authorizedCreditCardTransactionId]: #authorizedcreditcardtransactionid
 #### [authorizedCreditCardTransactionId]
 The unique identifier of an attempted credit card transaction.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -84,7 +89,8 @@ The unique identifier of an attempted credit card transaction.
 [authorizedPayPalTransactionId]: #authorizedpaypaltransactionid
 #### [authorizedPayPalTransactionId]
 The unique identifier of an attempted PayPal transaction.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -94,7 +100,8 @@ The unique identifier of an attempted PayPal transaction.
 [billingAddressLine1]: #billingaddressline1
 #### [billingAddressLine1]
 The physical street address. Reserve information such as "apartment #123" or "Suite 2" for line 1.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -104,7 +111,8 @@ The physical street address. Reserve information such as "apartment #123" or "Su
 [billingAddressLine2]: #billingaddressline2
 #### [billingAddressLine2]
 The second line in the address. Information such as suite number goes here.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -114,7 +122,8 @@ The second line in the address. Information such as suite number goes here.
 [billingCity]: #billingcity
 #### [billingCity]
 The city in which a customer's account resides.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -124,7 +133,8 @@ The city in which a customer's account resides.
 [billingCountryCode]: #billingcountrycode
 #### [billingCountryCode]
 The 2-character Country code for an account's address. (i.e. US)  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -134,7 +144,8 @@ The 2-character Country code for an account's address. (i.e. US)
 [billingEmail]: #billingemail
 #### [billingEmail]
 The email address associated with a customer account.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -144,7 +155,8 @@ The email address associated with a customer account.
 [billingNameCompany]: #billingnamecompany
 #### [billingNameCompany]
 the company name for an account.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -154,7 +166,8 @@ the company name for an account.
 [billingNameFirst]: #billingnamefirst
 #### [billingNameFirst]
 The first name of the customer account owner.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -164,7 +177,8 @@ The first name of the customer account owner.
 [billingNameLast]: #billingnamelast
 #### [billingNameLast]
 The last name of the customer account owner.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -174,7 +188,8 @@ The last name of the customer account owner.
 [billingPhoneFax]: #billingphonefax
 #### [billingPhoneFax]
 The fax number associated with a customer account.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -184,7 +199,8 @@ The fax number associated with a customer account.
 [billingPhoneVoice]: #billingphonevoice
 #### [billingPhoneVoice]
 The phone number associated with a customer account.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -194,7 +210,8 @@ The phone number associated with a customer account.
 [billingPostalCode]: #billingpostalcode
 #### [billingPostalCode]
 The Zip or Postal Code for the billing address on an account.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -204,7 +221,8 @@ The Zip or Postal Code for the billing address on an account.
 [billingState]: #billingstate
 #### [billingState]
 The State for the account.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -214,7 +232,8 @@ The State for the account.
 [cancelUrl]: #cancelurl
 #### [cancelUrl]
 The cancel URL is the page to which PayPal redirects if payment is not approved.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -224,7 +243,8 @@ The cancel URL is the page to which PayPal redirects if payment is not approved.
 [cardAccountHash]: #cardaccounthash
 #### [cardAccountHash]
 A hash value of the credit card number.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -234,7 +254,8 @@ A hash value of the credit card number.
 [cardAccountLast4]: #cardaccountlast4
 #### [cardAccountLast4]
 The last 4 digits of a customer's credit card.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -244,7 +265,8 @@ The last 4 digits of a customer's credit card.
 [cardAccountNumber]: #cardaccountnumber
 #### [cardAccountNumber]
 The card number submitted in the change request.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -254,7 +276,8 @@ The card number submitted in the change request.
 [cardExpirationMonth]: #cardexpirationmonth
 #### [cardExpirationMonth]
 The month (MM) in which a customer's payment card will expire.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -264,7 +287,8 @@ The month (MM) in which a customer's payment card will expire.
 [cardExpirationYear]: #cardexpirationyear
 #### [cardExpirationYear]
 The year (YYYY) in which a customer's payment card will expire.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -274,7 +298,8 @@ The year (YYYY) in which a customer's payment card will expire.
 [cardType]: #cardtype
 #### [cardType]
 The method key of the type payment issued (Visa - 001, Mastercard - 002, American Express - 003, Discover - 004, PayPal - paypal).  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -284,7 +309,8 @@ The method key of the type payment issued (Visa - 001, Mastercard - 002, America
 [creditCardVerificationNumber]: #creditcardverificationnumber
 #### [creditCardVerificationNumber]
 The credit card verification number submitted in the change request.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -294,7 +320,8 @@ The credit card verification number submitted in the change request.
 [currencyShortName]: #currencyshortname
 #### [currencyShortName]
 Describes the currency selected for payment  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -304,7 +331,8 @@ Describes the currency selected for payment
 [deviceFingerprintId]: #devicefingerprintid
 #### [deviceFingerprintId]
 Device Fingerprint Identifier - Used internally and can safely be ignored.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -314,7 +342,8 @@ Device Fingerprint Identifier - Used internally and can safely be ignored.
 [fromIpAddress]: #fromipaddress
 #### [fromIpAddress]
 The IP address from which the transaction originates.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -324,7 +353,8 @@ The IP address from which the transaction originates.
 [id]: #id
 #### [id]
 The unique identifier for a single manual payment request.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -334,7 +364,8 @@ The unique identifier for a single manual payment request.
 [notes]: #notes
 #### [notes]
 Notes generated as a result of the payment request.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -346,7 +377,8 @@ Notes generated as a result of the payment request.
 The purpose of this property is to allow enablement of 3D Secure (3DS). This is the Reference ID that corresponds to the device data for Payer Authentication. In order to properly enable 3DS, this will require implementation of Cardinal Cruise Hybrid. 
 
 Please refer to https://cardinaldocs.atlassian.net/wiki/spaces/CC/pages/360668/Cardinal+Cruise+Hybrid and view section under "DFReferenceId / ReferenceId" to populate this property accordingly.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -358,7 +390,8 @@ Please refer to https://cardinaldocs.atlassian.net/wiki/spaces/CC/pages/360668/C
 "Continue with Consumer Authentication" decoded response JWT (JSON Web Token) after successful authentication. The response is part of the implementation of Cardinal Cruise Hybrid. 
 
 Please refer to https://cardinaldocs.atlassian.net/wiki/spaces/CC/pages/360668/Cardinal+Cruise+Hybrid and view section under "Continue with Consumer Authentication" to populate this property accordingly based on the CCA response.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -368,7 +401,8 @@ Please refer to https://cardinaldocs.atlassian.net/wiki/spaces/CC/pages/360668/C
 [paymentType]: #paymenttype
 #### [paymentType]
 The description of the type of payment sent in a change transaction.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -378,7 +412,8 @@ The description of the type of payment sent in a change transaction.
 [returnUrl]: #returnurl
 #### [returnUrl]
 The return URL is the page to which PayPal redirects after payment is approved.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -388,7 +423,8 @@ The return URL is the page to which PayPal redirects after payment is approved.
 [type]: #type
 #### [type]
 Describes the type of manual payment (PAYPAL or CREDIT_CARD).  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -404,7 +440,8 @@ Describes the type of manual payment (PAYPAL or CREDIT_CARD).
 [account]: #account
 #### [account]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -414,7 +451,8 @@ Describes the type of manual payment (PAYPAL or CREDIT_CARD).
 [authorizedCreditCardTransaction]: #authorizedcreditcardtransaction
 #### [authorizedCreditCardTransaction]
 This is the credit card transaction data tied to a credit card manual payment.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Payment_Card_Transaction'>SoftLayer_Billing_Payment_Card_Transaction </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Payment_Card_Transaction'>SoftLayer_Billing_Payment_Card_Transaction </a>**  
+
 
 
 </div>
@@ -424,7 +462,8 @@ This is the credit card transaction data tied to a credit card manual payment.
 [authorizedPayPalTransaction]: #authorizedpaypaltransaction
 #### [authorizedPayPalTransaction]
 This is the PayPal transaction data tied to a PayPal manual payment.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Payment_PayPal_Transaction'>SoftLayer_Billing_Payment_PayPal_Transaction </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Payment_PayPal_Transaction'>SoftLayer_Billing_Payment_PayPal_Transaction </a>**  
+
 
 
 </div>
@@ -434,7 +473,8 @@ This is the PayPal transaction data tied to a PayPal manual payment.
 [captureCreditCardTransaction]: #capturecreditcardtransaction
 #### [captureCreditCardTransaction]
 The SoftLayer_Billing_Payment_Card_Transaction tied to the capture performed as part of this manual payment. This will only exist if the manual payment was performed with a credit card.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Payment_Card_Transaction'>SoftLayer_Billing_Payment_Card_Transaction </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Payment_Card_Transaction'>SoftLayer_Billing_Payment_Card_Transaction </a>**  
+
 
 
 </div>
@@ -444,7 +484,8 @@ The SoftLayer_Billing_Payment_Card_Transaction tied to the capture performed as 
 [capturePayPalTransaction]: #capturepaypaltransaction
 #### [capturePayPalTransaction]
 The SoftLayer_Billing_Payment_PayPal_Transaction tied to the capture performed as part of this manual payment. This will only exist if the manual payment was performed via PayPal.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Payment_PayPal_Transaction'>SoftLayer_Billing_Payment_PayPal_Transaction </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Payment_PayPal_Transaction'>SoftLayer_Billing_Payment_PayPal_Transaction </a>**  
+
 
 
 </div>
@@ -454,7 +495,8 @@ The SoftLayer_Billing_Payment_PayPal_Transaction tied to the capture performed a
 [ticketAttachmentReferences]: #ticketattachmentreferences
 #### [ticketAttachmentReferences]
 These are tickets tied to a credit card manual payment.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Attachment'>SoftLayer_Ticket_Attachment[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Attachment'>SoftLayer_Ticket_Attachment[] </a>**  
+
 
 
 </div>
@@ -466,7 +508,8 @@ These are tickets tied to a credit card manual payment.
 [ticketAttachmentReferenceCount]: #ticketattachmentreferencecount
 #### [ticketAttachmentReferenceCount]
 A count of these are tickets tied to a credit card manual payment.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

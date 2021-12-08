@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getSensorData
 
+
 Retrieve a server's hardware state via its internal sensors.
 
 

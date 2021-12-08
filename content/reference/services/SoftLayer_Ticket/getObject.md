@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getObject
 
+
 Retrieve a SoftLayer_Ticket record.
 
 

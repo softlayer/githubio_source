@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getHardwareWithMcafeeAntivirusWindows
 
+
 Retrieve all hardware associated with an account that has McAfee Secure AntiVirus for Windows software components.
 
 

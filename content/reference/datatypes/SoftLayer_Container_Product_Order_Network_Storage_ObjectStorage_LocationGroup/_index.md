@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This class is used to contain a location group and its associated active usage rate prices for object storage ordering. 
 
 
@@ -45,7 +47,8 @@ This class is used to contain a location group and its associated active usage r
 [clusterGeolocationType]: #clustergeolocationtype
 #### [clusterGeolocationType]
 The datacenter location where object storage is available.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The datacenter location where object storage is available.
 [locationGroup]: #locationgroup
 #### [locationGroup]
 The datacenter location where object storage is available.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Group'>SoftLayer_Location_Group </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Group'>SoftLayer_Location_Group </a>**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The datacenter location where object storage is available.
 [usageRatePrices]: #usagerateprices
 #### [usageRatePrices]
 The collection of active usage rate item prices.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a>**  
+
 
 
 </div>

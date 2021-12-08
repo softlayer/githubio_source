@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [createDate]: #createdate
 #### [createDate]
 When this member was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ When this member was created.
 [id]: #id
 #### [id]
 A member's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A member's internal identifier.
 [scaleGroupId]: #scalegroupid
 #### [scaleGroupId]
 The identifier of the group this member belongs to.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ The identifier of the group this member belongs to.
 [scaleGroup]: #scalegroup
 #### [scaleGroup]
 The group this member belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Scale_Group'>SoftLayer_Scale_Group </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Scale_Group'>SoftLayer_Scale_Group </a>**  
+
 
 
 </div>

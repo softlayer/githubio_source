@@ -16,6 +16,7 @@ aliases:
 
 
 
+
 ## Overview 
 This method allows you to mark this image template as cloud init 
 

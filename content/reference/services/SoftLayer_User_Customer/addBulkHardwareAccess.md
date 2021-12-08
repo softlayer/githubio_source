@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::addBulkHardwareAccess
 
+
 Add multiple hardware to a portal user's hardware access list.
 
 

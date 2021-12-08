@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Disk_Image](/reference/services/SoftLayer_Virtual_Disk_Image)::getCloudInitFlag
 
+
 Retrieve check if cloud-init is enabled.
 
 

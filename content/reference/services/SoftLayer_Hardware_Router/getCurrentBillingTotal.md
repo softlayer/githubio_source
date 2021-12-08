@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getCurrentBillingTotal
 
+
 Get the billing total for this instance's usage up to this point. This total includes all bandwidth charges. 
 
 

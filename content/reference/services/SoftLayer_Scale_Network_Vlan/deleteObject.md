@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Scale_Network_Vlan](/reference/services/SoftLayer_Scale_Network_Vlan)::deleteObject
 
+
 Delete this network VLAN reference. Note, this does not affect existing scaled members. Once deleted however, future scaled members will not be placed on this referenced VLAN. 
 
 

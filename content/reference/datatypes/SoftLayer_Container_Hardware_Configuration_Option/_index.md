@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 An option found within a [SoftLayer_Container_Hardware_Configuration]({{<ref "reference/datatypes/SoftLayer_Container_Hardware_Configuration">}}) structure. 
 
 
@@ -46,7 +48,8 @@ An option found within a [SoftLayer_Container_Hardware_Configuration]({{<ref "re
 #### [itemPrice]
 
 Provides hourly and monthly costs (if either are applicable), and a description of the option.   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price </a>**  
+
 
 
 </div>
@@ -57,7 +60,8 @@ Provides hourly and monthly costs (if either are applicable), and a description 
 #### [preset]
 
 Provides a description of a fixed configuration preset with monthly and hourly costs.   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Preset'>SoftLayer_Product_Package_Preset </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Preset'>SoftLayer_Product_Package_Preset </a>**  
+
 
 
 </div>
@@ -68,7 +72,8 @@ Provides a description of a fixed configuration preset with monthly and hourly c
 #### [template]
 
 Provides a fragment of the request with the properties and values that must be sent when creating a server with the option.   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**  
+
 
 
 </div>

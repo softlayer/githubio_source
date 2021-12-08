@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getParentVolume
 
+
 Retrieve the volume on which this iSCSI LUN is provisioned.
 
 

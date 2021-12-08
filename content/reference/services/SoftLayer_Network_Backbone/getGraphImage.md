@@ -13,6 +13,8 @@ aliases:
 ---
 # [SoftLayer_Network_Backbone](/reference/services/SoftLayer_Network_Backbone)::getGraphImage
 
+<div class="deprecated"><span class="deprecation-label">Deprecated </span></div>
+
 [DEPRECATED] Retrieve a graph of a SoftLayer backbone's last 24 hours of activity.
 
 

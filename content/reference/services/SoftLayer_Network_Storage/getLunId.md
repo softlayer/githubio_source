@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getLunId
 
+
 Retrieve the ID of the LUN volume.
 
 

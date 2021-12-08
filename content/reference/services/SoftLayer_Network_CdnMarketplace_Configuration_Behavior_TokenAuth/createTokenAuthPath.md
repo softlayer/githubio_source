@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_CdnMarketplace_Configuration_Behavior_TokenAuth](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_TokenAuth)::createTokenAuthPath
 
+
 SOAP API will create Token authentication Path for an existing CDN mapping and for a particular customer. 
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_MassDataMigration_Request](/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request)::getTickets
 
+
 Retrieve all tickets that are attached to the mass data migration request.
 
 

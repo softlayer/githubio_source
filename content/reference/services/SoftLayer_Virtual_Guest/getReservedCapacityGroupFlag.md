@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getReservedCapacityGroupFlag
 
+
 Retrieve flag to indicate whether or not a guest is part of a reserved capacity group.
 
 

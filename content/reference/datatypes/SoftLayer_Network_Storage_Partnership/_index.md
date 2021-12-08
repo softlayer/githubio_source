@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 A network storage partnership is used to link multiple volumes to each other. These partnerships describe replication hierarchies or link volume snapshots to their associated storage volume. 
 
 
@@ -45,7 +47,8 @@ A network storage partnership is used to link multiple volumes to each other. Th
 [createDate]: #createdate
 #### [createDate]
 The date a partnership was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The date a partnership was created.
 [modifyDate]: #modifydate
 #### [modifyDate]
 The date a partnership was last modified.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The date a partnership was last modified.
 [partnerVolumeId]: #partnervolumeid
 #### [partnerVolumeId]
 The child volume id which a partnership is associated with.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The child volume id which a partnership is associated with.
 [volumeId]: #volumeid
 #### [volumeId]
 The volume id which a partnership is associated with.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ The volume id which a partnership is associated with.
 [partnerVolume]: #partnervolume
 #### [partnerVolume]
 The associated child volume for a partnership.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a>**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ The associated child volume for a partnership.
 [type]: #type
 #### [type]
 The type provides a standardized definition for a partnership.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Partnership_Type'>SoftLayer_Network_Storage_Partnership_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Partnership_Type'>SoftLayer_Network_Storage_Partnership_Type </a>**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ The type provides a standardized definition for a partnership.
 [volume]: #volume
 #### [volume]
 The associated parent volume for a partnership.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a>**  
+
 
 
 </div>

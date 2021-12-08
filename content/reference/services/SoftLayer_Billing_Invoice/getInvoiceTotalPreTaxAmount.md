@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Invoice](/reference/services/SoftLayer_Billing_Invoice)::getInvoiceTotalPreTaxAmount
 
+
 Retrieve the total amount of this invoice. This does not include taxes.
 
 

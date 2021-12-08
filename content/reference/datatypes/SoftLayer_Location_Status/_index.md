@@ -21,6 +21,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Location_Status models the state of any location. SoftLayer uses the following status codes: 
 
 
@@ -61,7 +63,8 @@ Locations in use should stay in the ACTIVE state. If a locations status ever rea
 [id]: #id
 #### [id]
 A locations status's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -71,7 +74,8 @@ A locations status's internal identifier.
 [status]: #status
 #### [status]
 A Location's status code. See the SoftLayer_Locaiton_Status Overview for ''status''' possible values.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

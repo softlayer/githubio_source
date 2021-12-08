@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Hardware_Component_Firmware_QualificationTypes data type describes the current qualification status for a particular firmware. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Hardware_Component_Firmware_QualificationTypes data type describes
 [description]: #description
 #### [description]
 A description about the qualificationType.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ A description about the qualificationType.
 [id]: #id
 #### [id]
 The Id of the qualificationType.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The Id of the qualificationType.
 [keyName]: #keyname
 #### [keyName]
 KeyName representation for the qualificationType.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ KeyName representation for the qualificationType.
 [name]: #name
 #### [name]
 The qualificationType name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

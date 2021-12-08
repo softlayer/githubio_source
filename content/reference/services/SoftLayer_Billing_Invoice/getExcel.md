@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Invoice](/reference/services/SoftLayer_Billing_Invoice)::getExcel
 
+
 Retrieve a Microsoft Excel copy of an invoice.
 
 

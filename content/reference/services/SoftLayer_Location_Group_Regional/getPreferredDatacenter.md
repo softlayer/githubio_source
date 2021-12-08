@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Location_Group_Regional](/reference/services/SoftLayer_Location_Group_Regional)::getPreferredDatacenter
 
+
 Retrieve the preferred datacenters of a group.
 
 

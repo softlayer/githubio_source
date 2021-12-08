@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Contains business partner segment information 
 
 
@@ -45,7 +47,8 @@ Contains business partner segment information
 [description]: #description
 #### [description]
 Business partner segment description   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Business partner segment description
 [keyName]: #keyname
 #### [keyName]
 Business partner segment name   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

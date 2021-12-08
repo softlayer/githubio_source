@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Media_Transcode_Account](/reference/services/SoftLayer_Network_Media_Transcode_Account)::getFileDetail
 
+
 Returns detailed information on a video or audio file
 
 

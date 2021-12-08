@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_LoadBalancer_VirtualIpAddress](/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress)::getCustomerManagedFlag
 
+
 Retrieve if false, this VIP and associated services may be edited via the portal or the API. If true, you must configure this VIP manually on the device.
 
 

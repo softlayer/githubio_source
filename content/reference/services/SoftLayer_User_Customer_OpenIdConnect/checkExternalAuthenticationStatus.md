@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::checkExternalAuthenticationStatus
 
+
 Checks if an external authentication is complete or not
 
 

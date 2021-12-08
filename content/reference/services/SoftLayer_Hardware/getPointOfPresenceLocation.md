@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getPointOfPresenceLocation
 
+
 Retrieve information regarding the Point of Presence (PoP) location in which a piece of hardware resides.
 
 

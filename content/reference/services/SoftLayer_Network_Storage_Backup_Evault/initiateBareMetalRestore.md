@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::initiateBareMetalRestore
 
+
 Initiate a bare metal restore for the server tied to the EVault account
 
 

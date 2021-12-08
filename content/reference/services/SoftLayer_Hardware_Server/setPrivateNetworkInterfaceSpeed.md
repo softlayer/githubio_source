@@ -15,6 +15,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::setPrivateNetworkInterfaceSpeed
 
+
 Set the speed and redundancy configuration of a server's private network interface.
 
 

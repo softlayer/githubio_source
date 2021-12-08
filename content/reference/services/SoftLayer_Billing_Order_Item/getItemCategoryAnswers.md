@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Order_Item](/reference/services/SoftLayer_Billing_Order_Item)::getItemCategoryAnswers
 
+
 Retrieve this is an item's category answers.
 
 

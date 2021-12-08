@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Invoice](/reference/services/SoftLayer_Billing_Invoice)::getAmount
 
+
 Retrieve this is the amount of this invoice.
 
 

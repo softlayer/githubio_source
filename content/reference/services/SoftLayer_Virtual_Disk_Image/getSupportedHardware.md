@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Disk_Image](/reference/services/SoftLayer_Virtual_Disk_Image)::getSupportedHardware
 
+
 Retrieve return supported hardware component IDs for symantec disk
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getHardware
 
+
 Retrieve all of the hardware that exists on a VLAN. Hardware is associated with a VLAN by its networking components.
 
 

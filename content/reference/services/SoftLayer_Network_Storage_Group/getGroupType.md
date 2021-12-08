@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Group](/reference/services/SoftLayer_Network_Storage_Group)::getGroupType
 
+
 Retrieve the type which defines this group.
 
 

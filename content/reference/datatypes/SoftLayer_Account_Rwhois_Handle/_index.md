@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Provides a means of tracking handle identifiers at the various regional internet registries (RIRs). These objects are used by the [SoftLayer_Network_Subnet_Registration]({{<ref "reference/datatypes/SoftLayer_Network_Subnet_Registration">}}) objects to identify a customer or organization when a subnet is registered. 
 
 
@@ -45,7 +47,8 @@ Provides a means of tracking handle identifiers at the various regional internet
 [accountId]: #accountid
 #### [accountId]
 The handle object's associated [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}) id   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The handle object's associated [SoftLayer_Account]({{<ref "reference/datatypes/S
 [createDate]: #createdate
 #### [createDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The handle object's associated [SoftLayer_Account]({{<ref "reference/datatypes/S
 [handle]: #handle
 #### [handle]
 The handle object's unique identifier as assigned by the RIR.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The handle object's unique identifier as assigned by the RIR.
 [id]: #id
 #### [id]
 Unique ID of the handle object   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Unique ID of the handle object
 [modifyDate]: #modifydate
 #### [modifyDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ Unique ID of the handle object
 [account]: #account
 #### [account]
 The account that this handle belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>

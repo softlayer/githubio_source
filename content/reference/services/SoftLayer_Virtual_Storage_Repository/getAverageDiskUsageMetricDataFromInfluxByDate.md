@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Storage_Repository](/reference/services/SoftLayer_Virtual_Storage_Repository)::getAverageDiskUsageMetricDataFromInfluxByDate
 
+
 Returns the average disk usage for the timeframe based on the parameters provided. 
 
 

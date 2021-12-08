@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Invoice_Item](/reference/services/SoftLayer_Billing_Invoice_Item)::getTotalOneTimeAmount
 
+
 Retrieve an invoice Item's total, including any child invoice items if they exist.
 
 

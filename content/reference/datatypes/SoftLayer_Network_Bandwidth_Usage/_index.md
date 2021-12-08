@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_Bandwidth_Usage data type contains specific information relating to bandwidth utilization at a specific point in time on a given network interface. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Network_Bandwidth_Usage data type contains specific information re
 [amountIn]: #amountin
 #### [amountIn]
 Incoming bandwidth utilization.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Incoming bandwidth utilization.
 [amountOut]: #amountout
 #### [amountOut]
 Outgoing bandwidth utilization.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Outgoing bandwidth utilization.
 [bandwidthUsageDetailTypeId]: #bandwidthusagedetailtypeid
 #### [bandwidthUsageDetailTypeId]
 ID of the bandwidth usage detail type for this record.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ ID of the bandwidth usage detail type for this record.
 [trackingObject]: #trackingobject
 #### [trackingObject]
 The tracking object this bandwidth usage record describes.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object'>SoftLayer_Metric_Tracking_Object </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object'>SoftLayer_Metric_Tracking_Object </a>**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ The tracking object this bandwidth usage record describes.
 [type]: #type
 #### [type]
 In and out bandwidth utilization for a specified time stamp.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Usage_Detail_Type'>SoftLayer_Network_Bandwidth_Version1_Usage_Detail_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Usage_Detail_Type'>SoftLayer_Network_Bandwidth_Version1_Usage_Detail_Type </a>**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Item_Price](/reference/services/SoftLayer_Product_Item_Price)::getPriceType
 
+
 Retrieve the type keyname of this price which can be STANDARD, TIERED, or TERM.
 
 

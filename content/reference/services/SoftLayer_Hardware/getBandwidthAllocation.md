@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getBandwidthAllocation
 
+
 Retrieve a hardware's allotted bandwidth (measured in GB).
 
 

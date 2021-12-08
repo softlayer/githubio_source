@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Application_Delivery_Controller](/reference/services/SoftLayer_Network_Application_Delivery_Controller)::getAccount
 
+
 Retrieve the SoftLayer customer account that owns an application delivery controller record.
 
 

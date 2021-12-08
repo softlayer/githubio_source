@@ -13,6 +13,8 @@ aliases:
 ---
 # [SoftLayer_Metric_Tracking_Object](/reference/services/SoftLayer_Metric_Tracking_Object)::getBackboneBandwidthGraph
 
+<div class="deprecated"><span class="deprecation-label">Deprecated </span></div>
+
 [DEPRECATED] Retrieve a graph of a SoftLayer backbone's recent traffic activity.
 
 

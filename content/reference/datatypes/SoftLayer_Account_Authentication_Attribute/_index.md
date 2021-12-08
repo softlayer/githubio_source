@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Account authentication has many different settings that can be set. This class allows the customer or employee to set these settigns. 
 
 
@@ -58,7 +60,8 @@ Account authentication has many different settings that can be set. This class a
 [accountId]: #accountid
 #### [accountId]
 The internal identifier of the SoftLayer customer account that is assigned an account authenction attribute.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -68,7 +71,8 @@ The internal identifier of the SoftLayer customer account that is assigned an ac
 [id]: #id
 #### [id]
 A SoftLayer account authenction attribute's internal identifier.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -78,7 +82,8 @@ A SoftLayer account authenction attribute's internal identifier.
 [typeId]: #typeid
 #### [typeId]
 The internal identifier of the type of attribute that a SoftLayer account authenction attribute belongs to.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -88,7 +93,8 @@ The internal identifier of the type of attribute that a SoftLayer account authen
 [value]: #value
 #### [value]
 A SoftLayer account authenction attribute's value.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -104,7 +110,8 @@ A SoftLayer account authenction attribute's value.
 [account]: #account
 #### [account]
 The SoftLayer customer account.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -114,7 +121,8 @@ The SoftLayer customer account.
 [authenticationRecord]: #authenticationrecord
 #### [authenticationRecord]
 The SoftLayer account authentication that has an attribute.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Authentication_Saml'>SoftLayer_Account_Authentication_Saml </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Authentication_Saml'>SoftLayer_Account_Authentication_Saml </a>**  
+
 
 
 </div>
@@ -124,7 +132,8 @@ The SoftLayer account authentication that has an attribute.
 [type]: #type
 #### [type]
 The type of attribute assigned to a SoftLayer account authentication.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Authentication_Attribute_Type'>SoftLayer_Account_Authentication_Attribute_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Authentication_Attribute_Type'>SoftLayer_Account_Authentication_Attribute_Type </a>**  
+
 
 
 </div>

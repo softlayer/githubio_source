@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 OpenStack domain creation details
 
 
@@ -45,7 +47,8 @@ OpenStack domain creation details
 [domainId]: #domainid
 #### [domainId]
 Id for the domain this user was added to.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Id for the domain this user was added to.
 [userId]: #userid
 #### [userId]
 Id for the user given the Cloud Admin role for this domain.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Id for the user given the Cloud Admin role for this domain.
 [userName]: #username
 #### [userName]
 Name for the user given the Cloud Admin role for this domain.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

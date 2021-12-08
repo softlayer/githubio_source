@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 This service provides summarization functionality for Swift based accounts. It uses influxDB as a backend 
 
 
@@ -42,11 +44,13 @@ This service provides summarization functionality for Swift based accounts. It u
 
 #### [getMetricData](/reference/services/SoftLayer_Network_Storage_Hub_Swift_Metrics/getMetricData)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getSummaryData](/reference/services/SoftLayer_Network_Storage_Hub_Swift_Metrics/getSummaryData)
+
 
 </div>
 </div>

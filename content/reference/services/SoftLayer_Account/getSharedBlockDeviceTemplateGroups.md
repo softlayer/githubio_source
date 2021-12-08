@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getSharedBlockDeviceTemplateGroups
 
+
 Get the collection of template group objects that have been shared with this account.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getAssignedUser
 
+
 Retrieve the portal user that a ticket is assigned to.
 
 

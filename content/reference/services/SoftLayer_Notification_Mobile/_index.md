@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 SoftLayer Customers can use this service to view all of the available mobile notifications that can be subscribed to.  No mobile notifications are required. 
 
 
@@ -42,30 +44,35 @@ SoftLayer Customers can use this service to view all of the available mobile not
 
 #### [createSubscriberForMobileDevice](/reference/services/SoftLayer_Notification_Mobile/createSubscriberForMobileDevice)
 Create a new subscriber for a given resource.
+
 </div>
 
 <div class="method-row">
 
 #### [getAllObjects](/reference/services/SoftLayer_Notification_Mobile/getAllObjects)
 Retrieve all Notifications that can be subscribed to.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Notification_Mobile/getObject)
 Retrieve a SoftLayer_Notification_Mobile record.
+
 </div>
 
 <div class="method-row">
 
 #### [getPreferences](/reference/services/SoftLayer_Notification_Mobile/getPreferences)
 Retrieve the preferences related to the notification. These are preferences are configurable and optional for subscribers to use.
+
 </div>
 
 <div class="method-row">
 
 #### [getRequiredPreferences](/reference/services/SoftLayer_Notification_Mobile/getRequiredPreferences)
 Retrieve the required preferences related to the notification. While configurable, the subscriber does not have the option whether to use the preference.
+
 </div>
 </div>
 

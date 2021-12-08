@@ -16,6 +16,7 @@ aliases:
 
 
 
+
 ## Overview 
 Add a placement group to your account for use during VSI provisioning. 
 

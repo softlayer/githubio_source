@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Scale_Termination_Policy](/reference/services/SoftLayer_Scale_Termination_Policy)::getObject
 
+
 Retrieve a SoftLayer_Scale_Termination_Policy record.
 
 

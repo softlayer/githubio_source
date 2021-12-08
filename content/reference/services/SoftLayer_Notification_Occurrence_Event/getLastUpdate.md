@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Notification_Occurrence_Event](/reference/services/SoftLayer_Notification_Occurrence_Event)::getLastUpdate
 
+
 Retrieve the last update for this event.
 
 

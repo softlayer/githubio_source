@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Container_Network_Bandwidth_Data_Summary models an interface's overall bandwidth usage during it's current billing cycle. 
 
 
@@ -51,7 +53,8 @@ SoftLayer_Container_Network_Bandwidth_Data_Summary models an interface's overall
 [allowedUsage]: #allowedusage
 #### [allowedUsage]
 The amount of bandwidth a server has allocated to it in it's current billing period.  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -61,7 +64,8 @@ The amount of bandwidth a server has allocated to it in it's current billing per
 [estimatedUsage]: #estimatedusage
 #### [estimatedUsage]
 The amount of bandwidth that a server has used within it's current billing period.  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ The amount of bandwidth that a server has used within it's current billing perio
 [projectedUsage]: #projectedusage
 #### [projectedUsage]
 The amount of bandwidth a server is projected to use within its billing period, based on it's current usage.  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ The amount of bandwidth a server is projected to use within its billing period, 
 [usageUnits]: #usageunits
 #### [usageUnits]
 The unit of measurement used in a bandwidth data summary.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

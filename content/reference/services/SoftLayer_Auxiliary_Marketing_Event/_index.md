@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,12 +44,14 @@ classes:
 
 #### [getMarketingEvents](/reference/services/SoftLayer_Auxiliary_Marketing_Event/getMarketingEvents)
 This method retrieves marketing events.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Auxiliary_Marketing_Event/getObject)
 Retrieve a SoftLayer_Auxiliary_Marketing_Event record.
+
 </div>
 </div>
 

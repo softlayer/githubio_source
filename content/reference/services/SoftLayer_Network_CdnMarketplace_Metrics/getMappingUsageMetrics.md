@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_CdnMarketplace_Metrics](/reference/services/SoftLayer_Network_CdnMarketplace_Metrics)::getMappingUsageMetrics
 
+
 Get the total number of predetermined statistics for direct display for the given mapping 
 
 

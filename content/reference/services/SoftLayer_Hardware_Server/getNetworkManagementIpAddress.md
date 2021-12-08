@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getNetworkManagementIpAddress
 
+
 Retrieve a piece of hardware's network management IP address.
 
 

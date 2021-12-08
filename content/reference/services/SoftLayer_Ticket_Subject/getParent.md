@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Ticket_Subject](/reference/services/SoftLayer_Ticket_Subject)::getParent
 
+
 Retrieve a parent subject
 
 

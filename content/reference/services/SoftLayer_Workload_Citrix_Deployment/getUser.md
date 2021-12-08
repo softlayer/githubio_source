@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Workload_Citrix_Deployment](/reference/services/SoftLayer_Workload_Citrix_Deployment)::getUser
 
+
 Retrieve it is the [SoftLayer_User_Customer]({{<ref "reference/datatypes/SoftLayer_User_Customer">}}) who placed the order for CVAD.
 
 

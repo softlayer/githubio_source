@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Location_Datacenter](/reference/services/SoftLayer_Location_Datacenter)::getLocationAddresses
 
+
 Retrieve a location's physical addresses.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Software_Component_AntivirusSpyware](/reference/services/SoftLayer_Software_Component_AntivirusSpyware)::getBillingItem
 
+
 Retrieve the billing item for a software component.
 
 

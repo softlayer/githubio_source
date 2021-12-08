@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Vlan_Firewall](/reference/services/SoftLayer_Network_Vlan_Firewall)::getBandwidthAllocation
 
+
 Retrieve a firewall's allotted bandwidth (measured in GB).
 
 

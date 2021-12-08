@@ -16,6 +16,7 @@ aliases:
 
 
 
+
 ## Overview 
 Returns true if the country code is in the European Union (EU), false otherwise. 
 

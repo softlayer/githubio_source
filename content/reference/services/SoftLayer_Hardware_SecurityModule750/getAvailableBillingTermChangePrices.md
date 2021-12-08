@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getAvailableBillingTermChangePrices
 
+
 Retrieves a list of available term prices available to this of hardware. 
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getUpgradeRequest
 
+
 Retrieve an account's associated upgrade request object, if any.
 
 

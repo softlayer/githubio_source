@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The [SoftLayer_Brand_Restriction_Location_CustomerCountry]({{<ref "reference/datatypes/SoftLayer_Brand_Restriction_Location_CustomerCountry">}}) data type defines the relationship between brands, locations and countries associated with a user's account that are ineligible when ordering products. For example, the India datacenter may not be available on the SoftLayer US brand for customers that live in Great Britain. 
 
 
@@ -45,7 +47,8 @@ The [SoftLayer_Brand_Restriction_Location_CustomerCountry]({{<ref "reference/dat
 [brandId]: #brandid
 #### [brandId]
 The brand associated with customer's account.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The brand associated with customer's account.
 [customerCountryCode]: #customercountrycode
 #### [customerCountryCode]
 country code associated with customer's account.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ country code associated with customer's account.
 [locationId]: #locationid
 #### [locationId]
 The id for datacenter location.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ The id for datacenter location.
 [brand]: #brand
 #### [brand]
 This references the brand that has a brand-location-country restriction setup.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Brand'>SoftLayer_Brand </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Brand'>SoftLayer_Brand </a>**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ This references the brand that has a brand-location-country restriction setup.
 [location]: #location
 #### [location]
 This references the datacenter that has a brand-location-country restriction setup. For example, if a datacenter is listed with a restriction for Canada, a Canadian customer may not be eligible to order services at that location.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**  
+
 
 
 </div>

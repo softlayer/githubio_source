@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 When an order is placed (SoftLayer_Product_Order::placeOrder), a receipt is returned when the order is created successfully. The information in the receipt helps explain information about the order. It's order ID, and all the data within the order as well. 
 
 For PayPal Orders, an URL is also returned to the user so that the user can complete the transaction. Users paying with PayPal must continue on to this URL, login and pay. When doing this, PayPal will redirect the user back to a SoftLayer page which will then "finalize" the authorization process. From here, Sales will verify the order by contacting the user in some way, unless sales has already spoken to the user about approving the order. 
@@ -53,7 +55,8 @@ This URL refers to the location where you will visit to complete the payment aut
 Once you visit this location, you will be presented with the options to confirm payment or deny payment. If you confirm payment, you will be redirected back to the receipt for your order. If you deny, you will be redirected back to the cancel order page where you do not need to take any additional action. 
 
 Until you confirm payment with the external service, your products will not be provisioned or accessible for your consumption. Upon successfully confirming payment, our system will be notified and the order approval and provisioning systems will begin processing. After provisioning is complete, your services will be available.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -63,7 +66,8 @@ Until you confirm payment with the external service, your products will not be p
 [externalPaymentToken]: #externalpaymenttoken
 #### [externalPaymentToken]
 This token refers to the identifier for the external payment authorization. This token is associated with the <code>externalPaymentCheckoutUrl</code> and is only populated when purchasing products with an external service like PayPal.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -73,7 +77,8 @@ This token refers to the identifier for the external payment authorization. This
 [orderDate]: #orderdate
 #### [orderDate]
 The date when SoftLayer received the order.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -83,7 +88,8 @@ The date when SoftLayer received the order.
 [orderDetails]: #orderdetails
 #### [orderDetails]
 This is a copy of the order container (SoftLayer_Container_Product_Order) which holds all the data related to an order. This will only return when an order is processed successfully. It will contain all the items in an order as well as the order totals.   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order </a>**  
+
 
 
 </div>
@@ -93,7 +99,8 @@ This is a copy of the order container (SoftLayer_Container_Product_Order) which 
 [orderId]: #orderid
 #### [orderId]
 SoftLayer's unique identifier for the order.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -109,7 +116,8 @@ This URL refers to the location where you will visit to complete the payment aut
 Once you visit PayPal's site, you will be presented with the options to confirm payment or deny payment. If you confirm payment, you will be redirected back to the receipt for your order. If you deny, you will be redirected back to the cancel order page where you do not need to take any additional action. 
 
 Until you confirm payment with PayPal, your products will not be provisioned or accessible for your consumption. Upon successfully confirming payment, our system will be notified and the order approval and provisioning systems will begin processing. After provisioning is complete, your services will be available.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -121,7 +129,8 @@ Until you confirm payment with PayPal, your products will not be provisioned or 
 Deprecation notice: use <code>externalPaymentToken</code> instead of this property. 
 
 This token refers to the identifier provided when payment is processed via PayPal. This token is associated with the <code>paypalCheckoutUrl</code>.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -131,7 +140,8 @@ This token refers to the identifier provided when payment is processed via PayPa
 [placedOrder]: #placedorder
 #### [placedOrder]
 This is a copy of the order that was successfully placed (SoftLayer_Billing_Order). This will only return when an order is processed successfully.   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order </a>**  
+
 
 
 </div>
@@ -141,7 +151,8 @@ This is a copy of the order that was successfully placed (SoftLayer_Billing_Orde
 [quote]: #quote
 #### [quote]
 This is a copy of the quote container (SoftLayer_Billing_Order_Quote) which holds all the data related to a quote. This will only return when a quote is processed successfully.   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order_Quote'>SoftLayer_Billing_Order_Quote </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order_Quote'>SoftLayer_Billing_Order_Quote </a>**  
+
 
 
 </div>

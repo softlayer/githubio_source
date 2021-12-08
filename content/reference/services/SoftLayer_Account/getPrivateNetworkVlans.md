@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getPrivateNetworkVlans
 
+
 Retrieve the private network VLANs assigned to an account.
 
 

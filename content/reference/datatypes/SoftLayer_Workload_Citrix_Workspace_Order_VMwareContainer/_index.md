@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This is the datatype that needs to be populated and sent to SoftLayer_Workload_Citrix_Workspace_Order::placeWorkspaceOrder to order and provision one or more VMware server instances to be used with Citrix Virtual Apps and Desktops. 
 
 
@@ -51,7 +53,8 @@ This is the datatype that needs to be populated and sent to SoftLayer_Workload_C
 [disks]: #disks
 #### [disks]
 The bare metal disks  
-<span class="type-label">Type: </span>**array of strings**
+<span class="type-label">Type: </span>**array of strings**  
+
 
 
 </div>
@@ -61,7 +64,8 @@ The bare metal disks
 [domain]: #domain
 #### [domain]
 The domain for the ordered hosts (e.g. example.org)  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ The domain for the ordered hosts (e.g. example.org)
 [licenseKeys]: #licensekeys
 #### [licenseKeys]
 Customer provided license keys (optional)  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Workload_Citrix_Workspace_Order_LicenseKey'>SoftLayer_Workload_Citrix_Workspace_Order_LicenseKey[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Workload_Citrix_Workspace_Order_LicenseKey'>SoftLayer_Workload_Citrix_Workspace_Order_LicenseKey[] </a>**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ Customer provided license keys (optional)
 [location]: #location
 #### [location]
 The datacenter location  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ The datacenter location
 [name]: #name
 #### [name]
 The name associated with the order  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ The name associated with the order
 [nickname]: #nickname
 #### [nickname]
 The nickname for the vSRX service  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ The nickname for the vSRX service
 [quantity]: #quantity
 #### [quantity]
 The number of instances to order  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ The number of instances to order
 [ram]: #ram
 #### [ram]
 The bare metal ram type  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ The bare metal ram type
 [server]: #server
 #### [server]
 The bare metal server type  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ The bare metal server type
 [sharedStorage]: #sharedstorage
 #### [sharedStorage]
 The bare metal shared nfs storage (optional)  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Workload_Citrix_Workspace_Order_SharedStorage'>SoftLayer_Workload_Citrix_Workspace_Order_SharedStorage[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Workload_Citrix_Workspace_Order_SharedStorage'>SoftLayer_Workload_Citrix_Workspace_Order_SharedStorage[] </a>**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ The bare metal shared nfs storage (optional)
 [subdomain]: #subdomain
 #### [subdomain]
 The subdomain for the ordered hosts (e.g. corp).  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ The subdomain for the ordered hosts (e.g. corp).
 [vsanCacheDisks]: #vsancachedisks
 #### [vsanCacheDisks]
 The bare metal vsan cache disks (optional)  
-<span class="type-label">Type: </span>**array of strings**
+<span class="type-label">Type: </span>**array of strings**  
+
 
 
 </div>

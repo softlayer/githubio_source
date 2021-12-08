@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,17 +44,20 @@ classes:
 
 #### [getAllotment](/reference/services/SoftLayer_Location_Reservation_Rack/getAllotment)
 Retrieve the bandwidth allotment that the reservation belongs to.
+
 </div>
 
 <div class="method-row">
 
 #### [getChildren](/reference/services/SoftLayer_Location_Reservation_Rack/getChildren)
 Retrieve members of the rack.
+
 </div>
 
 <div class="method-row">
 
 #### [getLocation](/reference/services/SoftLayer_Location_Reservation_Rack/getLocation)
+
 
 </div>
 
@@ -60,12 +65,14 @@ Retrieve members of the rack.
 
 #### [getLocationReservation](/reference/services/SoftLayer_Location_Reservation_Rack/getLocationReservation)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Location_Reservation_Rack/getObject)
 Retrieve a SoftLayer_Location_Reservation_Rack record.
+
 </div>
 </div>
 

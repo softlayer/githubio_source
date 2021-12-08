@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Application_Delivery_Controller](/reference/services/SoftLayer_Network_Application_Delivery_Controller)::getPrimaryIpAddress
 
+
 Retrieve an application delivery controller's primary public IP address.
 
 

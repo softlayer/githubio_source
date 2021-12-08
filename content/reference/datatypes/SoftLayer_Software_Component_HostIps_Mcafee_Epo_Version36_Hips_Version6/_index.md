@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Software_Component_HostIps_Mcafee_Epo_Version36_Hips_Version6 data type represents a single McAfee Secure Host IPS software component for version 6 of the Host IPS client and uses the ePolicy Orchestrator version 3.6 backend. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Software_Component_HostIps_Mcafee_Epo_Version36_Hips_Version6 data
 [epoVersion]: #epoversion
 #### [epoVersion]
 The version of ePolicy Orchestrator that the host IPS client communicates with.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The version of ePolicy Orchestrator that the host IPS client communicates with.
 [hardwareId]: #hardwareid
 #### [hardwareId]
 Hardware Identification Number for the server this Software Component is installed upon.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Hardware Identification Number for the server this Software Component is install
 [id]: #id
 #### [id]
 An ID number identifying this Software Component (Software Installation)  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ An ID number identifying this Software Component (Software Installation)
 [manufacturerActivationCode]: #manufactureractivationcode
 #### [manufacturerActivationCode]
 The manufacturer code that is needed to activate a license.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The manufacturer code that is needed to activate a license.
 [manufacturerLicenseInstance]: #manufacturerlicenseinstance
 #### [manufacturerLicenseInstance]
 A license key for this specific installation of software, if it is needed.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ A license key for this specific installation of software, if it is needed.
 [agentDetails]: #agentdetails
 #### [agentDetails]
 The host IPS agent details.  
-<span class="type-label">Type: </span>**McAfee_Epolicy_Orchestrator_Version36_Agent_Details**
+<span class="type-label">Type: </span>**McAfee_Epolicy_Orchestrator_Version36_Agent_Details**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ The host IPS agent details.
 [applicationModePolicyNames]: #applicationmodepolicynames
 #### [applicationModePolicyNames]
 The names of the possible policy options for the application mode setting.  
-<span class="type-label">Type: </span>**McAfee_Epolicy_Orchestrator_Version36_Policy_Object[]**
+<span class="type-label">Type: </span>**McAfee_Epolicy_Orchestrator_Version36_Policy_Object[]**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ The names of the possible policy options for the application mode setting.
 [applicationRuleSetPolicyNames]: #applicationrulesetpolicynames
 #### [applicationRuleSetPolicyNames]
 The names of the possible policy options for the application rule set setting.  
-<span class="type-label">Type: </span>**McAfee_Epolicy_Orchestrator_Version36_Policy_Object[]**
+<span class="type-label">Type: </span>**McAfee_Epolicy_Orchestrator_Version36_Policy_Object[]**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ The names of the possible policy options for the application rule set setting.
 [averageInstallationDuration]: #averageinstallationduration
 #### [averageInstallationDuration]
 The average amount of time that a software component takes to install.  
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ The average amount of time that a software component takes to install.
 [billingItem]: #billingitem
 #### [billingItem]
 The billing item for a software component.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ The billing item for a software component.
 [blockedApplicationEvents]: #blockedapplicationevents
 #### [blockedApplicationEvents]
 The blocked application events for this software component.  
-<span class="type-label">Type: </span>**McAfee_Epolicy_Orchestrator_Version36_Hips_Version6_BlockedApplicationEvent[]**
+<span class="type-label">Type: </span>**McAfee_Epolicy_Orchestrator_Version36_Hips_Version6_BlockedApplicationEvent[]**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ The blocked application events for this software component.
 [enforcementPolicyNames]: #enforcementpolicynames
 #### [enforcementPolicyNames]
 The names of the possible options for the enforcement policy setting.  
-<span class="type-label">Type: </span>**McAfee_Epolicy_Orchestrator_Version36_Policy_Object[]**
+<span class="type-label">Type: </span>**McAfee_Epolicy_Orchestrator_Version36_Policy_Object[]**  
+
 
 
 </div>
@@ -171,7 +185,8 @@ The names of the possible options for the enforcement policy setting.
 [firewallModePolicyNames]: #firewallmodepolicynames
 #### [firewallModePolicyNames]
 The names of the possible policy options for the firewall mode setting.  
-<span class="type-label">Type: </span>**McAfee_Epolicy_Orchestrator_Version36_Policy_Object[]**
+<span class="type-label">Type: </span>**McAfee_Epolicy_Orchestrator_Version36_Policy_Object[]**  
+
 
 
 </div>
@@ -181,7 +196,8 @@ The names of the possible policy options for the firewall mode setting.
 [firewallRuleSetPolicyNames]: #firewallrulesetpolicynames
 #### [firewallRuleSetPolicyNames]
 The names of the possible policy options for the firewall rule set setting.  
-<span class="type-label">Type: </span>**McAfee_Epolicy_Orchestrator_Version36_Policy_Object[]**
+<span class="type-label">Type: </span>**McAfee_Epolicy_Orchestrator_Version36_Policy_Object[]**  
+
 
 
 </div>
@@ -191,7 +207,8 @@ The names of the possible policy options for the firewall rule set setting.
 [hardware]: #hardware
 #### [hardware]
 The hardware this Software Component is installed upon.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**  
+
 
 
 </div>
@@ -201,7 +218,8 @@ The hardware this Software Component is installed upon.
 [ipsEvents]: #ipsevents
 #### [ipsEvents]
 The host IPS events for this software component.  
-<span class="type-label">Type: </span>**McAfee_Epolicy_Orchestrator_Version36_Hips_Version6_IPSEvent[]**
+<span class="type-label">Type: </span>**McAfee_Epolicy_Orchestrator_Version36_Hips_Version6_IPSEvent[]**  
+
 
 
 </div>
@@ -211,7 +229,8 @@ The host IPS events for this software component.
 [ipsModePolicyNames]: #ipsmodepolicynames
 #### [ipsModePolicyNames]
 The names of the possible policy options for the host IPS mode setting.  
-<span class="type-label">Type: </span>**McAfee_Epolicy_Orchestrator_Version36_Policy_Object[]**
+<span class="type-label">Type: </span>**McAfee_Epolicy_Orchestrator_Version36_Policy_Object[]**  
+
 
 
 </div>
@@ -221,7 +240,8 @@ The names of the possible policy options for the host IPS mode setting.
 [ipsProtectionPolicyNames]: #ipsprotectionpolicynames
 #### [ipsProtectionPolicyNames]
 The names of the possible policy options for the host IPS protection setting.  
-<span class="type-label">Type: </span>**McAfee_Epolicy_Orchestrator_Version36_Policy_Object[]**
+<span class="type-label">Type: </span>**McAfee_Epolicy_Orchestrator_Version36_Policy_Object[]**  
+
 
 
 </div>
@@ -231,7 +251,8 @@ The names of the possible policy options for the host IPS protection setting.
 [passwordHistory]: #passwordhistory
 #### [passwordHistory]
 History Records for Software Passwords.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component_Password_History'>SoftLayer_Software_Component_Password_History[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component_Password_History'>SoftLayer_Software_Component_Password_History[] </a>**  
+
 
 
 </div>
@@ -241,7 +262,8 @@ History Records for Software Passwords.
 [passwords]: #passwords
 #### [passwords]
 Username/Password pairs used for access to this Software Installation.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component_Password'>SoftLayer_Software_Component_Password[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component_Password'>SoftLayer_Software_Component_Password[] </a>**  
+
 
 
 </div>
@@ -251,7 +273,8 @@ Username/Password pairs used for access to this Software Installation.
 [softwareDescription]: #softwaredescription
 #### [softwareDescription]
 The Software Description of this Software Component.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description </a>**  
+
 
 
 </div>
@@ -261,7 +284,8 @@ The Software Description of this Software Component.
 [softwareLicense]: #softwarelicense
 #### [softwareLicense]
 The License this Software Component uses.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_License'>SoftLayer_Software_License </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_License'>SoftLayer_Software_License </a>**  
+
 
 
 </div>
@@ -271,7 +295,8 @@ The License this Software Component uses.
 [transactionStatus]: #transactionstatus
 #### [transactionStatus]
 The current transaction status of a server.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -281,7 +306,8 @@ The current transaction status of a server.
 [virtualGuest]: #virtualguest
 #### [virtualGuest]
 The virtual guest this software component is installed upon.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**  
+
 
 
 </div>
@@ -293,7 +319,8 @@ The virtual guest this software component is installed upon.
 [applicationModePolicyNameCount]: #applicationmodepolicynamecount
 #### [applicationModePolicyNameCount]
 A count of the names of the possible policy options for the application mode setting.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -303,7 +330,8 @@ A count of the names of the possible policy options for the application mode set
 [applicationRuleSetPolicyNameCount]: #applicationrulesetpolicynamecount
 #### [applicationRuleSetPolicyNameCount]
 A count of the names of the possible policy options for the application rule set setting.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -313,7 +341,8 @@ A count of the names of the possible policy options for the application rule set
 [blockedApplicationEventCount]: #blockedapplicationeventcount
 #### [blockedApplicationEventCount]
 A count of the blocked application events for this software component.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -323,7 +352,8 @@ A count of the blocked application events for this software component.
 [enforcementPolicyNameCount]: #enforcementpolicynamecount
 #### [enforcementPolicyNameCount]
 A count of the names of the possible options for the enforcement policy setting.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -333,7 +363,8 @@ A count of the names of the possible options for the enforcement policy setting.
 [firewallModePolicyNameCount]: #firewallmodepolicynamecount
 #### [firewallModePolicyNameCount]
 A count of the names of the possible policy options for the firewall mode setting.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -343,7 +374,8 @@ A count of the names of the possible policy options for the firewall mode settin
 [firewallRuleSetPolicyNameCount]: #firewallrulesetpolicynamecount
 #### [firewallRuleSetPolicyNameCount]
 A count of the names of the possible policy options for the firewall rule set setting.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -353,7 +385,8 @@ A count of the names of the possible policy options for the firewall rule set se
 [ipsEventCount]: #ipseventcount
 #### [ipsEventCount]
 A count of the host IPS events for this software component.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -363,7 +396,8 @@ A count of the host IPS events for this software component.
 [ipsModePolicyNameCount]: #ipsmodepolicynamecount
 #### [ipsModePolicyNameCount]
 A count of the names of the possible policy options for the host IPS mode setting.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -373,7 +407,8 @@ A count of the names of the possible policy options for the host IPS mode settin
 [ipsProtectionPolicyNameCount]: #ipsprotectionpolicynamecount
 #### [ipsProtectionPolicyNameCount]
 A count of the names of the possible policy options for the host IPS protection setting.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -383,7 +418,8 @@ A count of the names of the possible policy options for the host IPS protection 
 [passwordCount]: #passwordcount
 #### [passwordCount]
 A count of username/Password pairs used for access to this Software Installation.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -393,7 +429,8 @@ A count of username/Password pairs used for access to this Software Installation
 [passwordHistoryCount]: #passwordhistorycount
 #### [passwordHistoryCount]
 A count of history Records for Software Passwords.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_Notification_Virtual_Guest](/reference/services/SoftLayer_User_Customer_Notification_Virtual_Guest)::getGuest
 
+
 Retrieve the virtual guest object that will be monitored.
 
 

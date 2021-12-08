@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::removeBulkVirtualGuestAccess
 
+
 Remove multiple CloudLayer Computing Instances from a portal user's access list.
 
 

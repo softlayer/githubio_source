@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Lockdown_Request](/reference/services/SoftLayer_Account_Lockdown_Request)::cancelRequest
 
+
 Allows approved brands to cancel a previously scheduled lockdown request.
 
 

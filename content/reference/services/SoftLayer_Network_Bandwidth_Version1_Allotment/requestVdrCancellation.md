@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Bandwidth_Version1_Allotment](/reference/services/SoftLayer_Network_Bandwidth_Version1_Allotment)::requestVdrCancellation
 
+
 cancel a bandwidth pooling and assign contents, if any, to bandwidth pool.
 
 

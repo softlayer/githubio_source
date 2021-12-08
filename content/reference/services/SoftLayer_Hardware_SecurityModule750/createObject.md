@@ -14,6 +14,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::createObject
 
+
 Create a new server
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet_IpAddress](/reference/services/SoftLayer_Network_Subnet_IpAddress)::getAttachedNetworkStorages
 
+
 Return a list of SoftLayer_Network_Storage volumes authorized to this device. 
 
 

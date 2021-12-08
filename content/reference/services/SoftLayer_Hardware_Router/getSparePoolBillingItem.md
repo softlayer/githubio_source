@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getSparePoolBillingItem
 
+
 Retrieve information regarding the billing item for a spare pool server.
 
 

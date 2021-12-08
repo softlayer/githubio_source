@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getNasNetworkStorage
 
+
 Retrieve an account's associated NAS storage volumes.
 
 

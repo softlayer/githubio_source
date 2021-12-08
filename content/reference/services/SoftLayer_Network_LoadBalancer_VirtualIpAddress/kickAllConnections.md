@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_LoadBalancer_VirtualIpAddress](/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress)::kickAllConnections
 
+
 Kick all active connections off a Virtual IP Address.
 
 

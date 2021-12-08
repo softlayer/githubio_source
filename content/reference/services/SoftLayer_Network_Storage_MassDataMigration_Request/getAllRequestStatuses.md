@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_MassDataMigration_Request](/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request)::getAllRequestStatuses
 
+
 Retrieves a list of all the possible statuses
 
 

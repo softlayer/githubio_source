@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getHasFullDedicatedHostAccessFlag
 
+
 Retrieve permission granting the user access to all Dedicated Host devices on the account.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Location_Reservation](/reference/services/SoftLayer_Location_Reservation)::getObject
 
+
 Retrieve a SoftLayer_Location_Reservation record.
 
 

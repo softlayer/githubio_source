@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The MonitorType type stores a name, long description, and default arguments for the monitor types.  The only use for this object is in reference.  The user chooses a monitoring type that would be appropriate for their server, and sets the id of the Query_Type to SoftLayer_Network_Monitor_Version1_Query_Host->queryTypeId 
 
 The user can retrieve all available Query Types with the getAllObjects method on this service. 
@@ -52,7 +54,8 @@ The user can retrieve all available Query Types with the getAllObjects method on
 [argumentDescription]: #argumentdescription
 #### [argumentDescription]
 The type of parameter sent to the monitoring command.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -62,7 +65,8 @@ The type of parameter sent to the monitoring command.
 [description]: #description
 #### [description]
 Long description of the monitoring type.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -72,7 +76,8 @@ Long description of the monitoring type.
 [id]: #id
 #### [id]
 The unique identifier for this object  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -82,7 +87,8 @@ The unique identifier for this object
 [monitorLevel]: #monitorlevel
 #### [monitorLevel]
 The level of this monitoring type.  The level the customer has access to is determined by values in SoftLayer_Network_Monitor_Version1_Query_Host_Stratum  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -92,7 +98,8 @@ The level of this monitoring type.  The level the customer has access to is dete
 [name]: #name
 #### [name]
 Short name of the monitoring type  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

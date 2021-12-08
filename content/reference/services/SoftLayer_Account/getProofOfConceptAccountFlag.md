@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getProofOfConceptAccountFlag
 
+
 Retrieve boolean flag indicating whether or not this account is a Proof of Concept account.
 
 

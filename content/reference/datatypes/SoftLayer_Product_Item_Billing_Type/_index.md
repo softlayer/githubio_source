@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Product_Item_Billing_Type data type models special billing types for non-monthly billed items in the SoftLayer product catalog. 
 
 
@@ -50,7 +52,8 @@ The SoftLayer_Product_Item_Billing_Type data type models special billing types f
 [name]: #name
 #### [name]
 A keyword describing a SoftLayer product item billing type.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

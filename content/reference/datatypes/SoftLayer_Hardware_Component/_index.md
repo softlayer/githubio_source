@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Hardware_Component data type abstracts information related to a hardware component. 
 
 
@@ -62,7 +64,8 @@ The SoftLayer_Hardware_Component data type abstracts information related to a ha
 [hardwareComponentModelId]: #hardwarecomponentmodelid
 #### [hardwareComponentModelId]
 The internal identifier of a hardware component's component model.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -72,7 +75,8 @@ The internal identifier of a hardware component's component model.
 [hardwareId]: #hardwareid
 #### [hardwareId]
 The internal identifier of the hardware that a hardware component resides inside.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -82,7 +86,8 @@ The internal identifier of the hardware that a hardware component resides inside
 [id]: #id
 #### [id]
 A hardware component's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -92,7 +97,8 @@ A hardware component's internal identifier.
 [modifyDate]: #modifydate
 #### [modifyDate]
 The date that a hardware component was last modified.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -102,7 +108,8 @@ The date that a hardware component was last modified.
 [name]: #name
 #### [name]
 The name of this component as referenced by the operating system.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -112,7 +119,8 @@ The name of this component as referenced by the operating system.
 [serialNumber]: #serialnumber
 #### [serialNumber]
 The component serial number.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -122,7 +130,8 @@ The component serial number.
 [serviceProviderId]: #serviceproviderid
 #### [serviceProviderId]
 A hardware's internal identification number at its service provider  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -138,7 +147,8 @@ A hardware's internal identification number at its service provider
 [capacity]: #capacity
 #### [capacity]
 A component's capacity.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -148,7 +158,8 @@ A component's capacity.
 [children]: #children
 #### [children]
 A components sub components. Devices that are usually integrated or in some way attached to a component.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>**  
+
 
 
 </div>
@@ -158,7 +169,8 @@ A components sub components. Devices that are usually integrated or in some way 
 [componentRevision]: #componentrevision
 #### [componentRevision]
 A component's Revision.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -168,7 +180,8 @@ A component's Revision.
 [downlinkHardwareComponents]: #downlinkhardwarecomponents
 #### [downlinkHardwareComponents]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>**  
+
 
 
 </div>
@@ -178,7 +191,8 @@ A component's Revision.
 [hardware]: #hardware
 #### [hardware]
 The hardware object that this component belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**  
+
 
 
 </div>
@@ -188,7 +202,8 @@ The hardware object that this component belongs to.
 [hardwareComponentModel]: #hardwarecomponentmodel
 #### [hardwareComponentModel]
 The general group of component models.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model'>SoftLayer_Hardware_Component_Model </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model'>SoftLayer_Hardware_Component_Model </a>**  
+
 
 
 </div>
@@ -198,7 +213,8 @@ The general group of component models.
 [hardwareComponentType]: #hardwarecomponenttype
 #### [hardwareComponentType]
 A components type.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Type'>SoftLayer_Hardware_Component_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Type'>SoftLayer_Hardware_Component_Type </a>**  
+
 
 
 </div>
@@ -208,7 +224,8 @@ A components type.
 [isChildModule]: #ischildmodule
 #### [isChildModule]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -218,7 +235,8 @@ A components type.
 [logicalVolumeStorageGroups]: #logicalvolumestoragegroups
 #### [logicalVolumeStorageGroups]
 Returns the associated logic volume storage groups for the hardware component.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Storage_Group'>SoftLayer_Configuration_Storage_Group[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Storage_Group'>SoftLayer_Configuration_Storage_Group[] </a>**  
+
 
 
 </div>
@@ -228,7 +246,8 @@ Returns the associated logic volume storage groups for the hardware component.
 [m2SataSlotCapacity]: #m2sataslotcapacity
 #### [m2SataSlotCapacity]
 A component's M.2 SATA capacity.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -238,7 +257,8 @@ A component's M.2 SATA capacity.
 [moduleComponents]: #modulecomponents
 #### [moduleComponents]
 The module's hardware components  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>**  
+
 
 
 </div>
@@ -248,7 +268,8 @@ The module's hardware components
 [moduleHardwareComponents]: #modulehardwarecomponents
 #### [moduleHardwareComponents]
 The module's hardware components  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>**  
+
 
 
 </div>
@@ -258,7 +279,8 @@ The module's hardware components
 [moduleNetworkComponents]: #modulenetworkcomponents
 #### [moduleNetworkComponents]
 The module's network components  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>**  
+
 
 
 </div>
@@ -268,7 +290,8 @@ The module's network components
 [modules]: #modules
 #### [modules]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>**  
+
 
 
 </div>
@@ -278,7 +301,8 @@ The module's network components
 [networkComponents]: #networkcomponents
 #### [networkComponents]
 The components local ethernet and remote management interfaces  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component[] </a>**  
+
 
 
 </div>
@@ -288,7 +312,8 @@ The components local ethernet and remote management interfaces
 [owner]: #owner
 #### [owner]
 The account this component belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -298,7 +323,8 @@ The account this component belongs to.
 [parent]: #parent
 #### [parent]
 A components parent. Devices that are usually integrated or in some way attached to a component.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component </a>**  
+
 
 
 </div>
@@ -308,7 +334,8 @@ A components parent. Devices that are usually integrated or in some way attached
 [parentModule]: #parentmodule
 #### [parentModule]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component </a>**  
+
 
 
 </div>
@@ -318,7 +345,8 @@ A components parent. Devices that are usually integrated or in some way attached
 [prefixAttribute]: #prefixattribute
 #### [prefixAttribute]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model_Generic_Attribute'>SoftLayer_Hardware_Component_Model_Generic_Attribute </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model_Generic_Attribute'>SoftLayer_Hardware_Component_Model_Generic_Attribute </a>**  
+
 
 
 </div>
@@ -328,7 +356,8 @@ A components parent. Devices that are usually integrated or in some way attached
 [raidMode]: #raidmode
 #### [raidMode]
 A RAID controllers RAID mode.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -338,7 +367,8 @@ A RAID controllers RAID mode.
 [revision]: #revision
 #### [revision]
 The component revision designation.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Revision'>SoftLayer_Hardware_Component_Revision </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Revision'>SoftLayer_Hardware_Component_Revision </a>**  
+
 
 
 </div>
@@ -348,7 +378,8 @@ The component revision designation.
 [serviceProvider]: #serviceprovider
 #### [serviceProvider]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Service_Provider'>SoftLayer_Service_Provider </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Service_Provider'>SoftLayer_Service_Provider </a>**  
+
 
 
 </div>
@@ -358,7 +389,8 @@ The component revision designation.
 [uplinkHardwareComponents]: #uplinkhardwarecomponents
 #### [uplinkHardwareComponents]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>**  
+
 
 
 </div>
@@ -370,7 +402,8 @@ The component revision designation.
 [childrenCount]: #childrencount
 #### [childrenCount]
 A count of a components sub components. Devices that are usually integrated or in some way attached to a component.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -380,7 +413,8 @@ A count of a components sub components. Devices that are usually integrated or i
 [downlinkHardwareComponentCount]: #downlinkhardwarecomponentcount
 #### [downlinkHardwareComponentCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -390,7 +424,8 @@ A count of
 [logicalVolumeStorageGroupCount]: #logicalvolumestoragegroupcount
 #### [logicalVolumeStorageGroupCount]
 A count of returns the associated logic volume storage groups for the hardware component.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -400,7 +435,8 @@ A count of returns the associated logic volume storage groups for the hardware c
 [moduleComponentCount]: #modulecomponentcount
 #### [moduleComponentCount]
 A count of the module's hardware components   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -410,7 +446,8 @@ A count of the module's hardware components
 [moduleCount]: #modulecount
 #### [moduleCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -420,7 +457,8 @@ A count of
 [moduleHardwareComponentCount]: #modulehardwarecomponentcount
 #### [moduleHardwareComponentCount]
 A count of the module's hardware components   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -430,7 +468,8 @@ A count of the module's hardware components
 [moduleNetworkComponentCount]: #modulenetworkcomponentcount
 #### [moduleNetworkComponentCount]
 A count of the module's network components   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -440,7 +479,8 @@ A count of the module's network components
 [networkComponentCount]: #networkcomponentcount
 #### [networkComponentCount]
 A count of the components local ethernet and remote management interfaces   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -450,7 +490,8 @@ A count of the components local ethernet and remote management interfaces
 [uplinkHardwareComponentCount]: #uplinkhardwarecomponentcount
 #### [uplinkHardwareComponentCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

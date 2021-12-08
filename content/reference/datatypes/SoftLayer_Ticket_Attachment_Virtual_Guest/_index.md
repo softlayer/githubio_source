@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer tickets have the ability to be associated with specific virtual guests in a customer's inventory. Attaching virtual guests to a ticket can greatly increase response time from SoftLayer for issues that are related to one or more specific servers on a customer's account. The SoftLayer_Ticket_Attachment_Virtual_Guest data type models the relationship between a virtual guest and a ticket. Only one attachment record may exist per virtual guest per ticket. 
 
 
@@ -63,7 +65,8 @@ SoftLayer tickets have the ability to be associated with specific virtual guests
 [attachmentId]: #attachmentid
 #### [attachmentId]
 The internal identifier of an item that is attached to a ticket.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -73,7 +76,8 @@ The internal identifier of an item that is attached to a ticket.
 [createDate]: #createdate
 #### [createDate]
 The date that an item was attached to a ticket.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -83,7 +87,8 @@ The date that an item was attached to a ticket.
 [id]: #id
 #### [id]
 A ticket attachment's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -93,7 +98,8 @@ A ticket attachment's internal identifier.
 [ticketId]: #ticketid
 #### [ticketId]
 The internal identifier of the ticket that an item is attached to.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -103,7 +109,8 @@ The internal identifier of the ticket that an item is attached to.
 [virtualGuestId]: #virtualguestid
 #### [virtualGuestId]
 The internal identifier of the virtualized guest or CloudLayer Computing Instance that is attached to a ticket.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -119,7 +126,8 @@ The internal identifier of the virtualized guest or CloudLayer Computing Instanc
 [resource]: #resource
 #### [resource]
 The virtualized guest or CloudLayer Computing Instance that is attached to a ticket.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**  
+
 
 
 </div>
@@ -129,7 +137,8 @@ The virtualized guest or CloudLayer Computing Instance that is attached to a tic
 [ticket]: #ticket
 #### [ticket]
 The ticket that an item is attached to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>**  
+
 
 
 </div>
@@ -139,7 +148,8 @@ The ticket that an item is attached to.
 [virtualGuest]: #virtualguest
 #### [virtualGuest]
 The virtualized guest or CloudLayer Computing Instance that is attached to a ticket.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**  
+
 
 
 </div>

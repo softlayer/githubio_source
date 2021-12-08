@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getTransactionHistory
 
+
 Get transaction history for a piece of hardware.
 
 

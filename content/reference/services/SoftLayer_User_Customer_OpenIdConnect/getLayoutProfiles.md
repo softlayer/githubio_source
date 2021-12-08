@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getLayoutProfiles
 
+
 Retrieve contains the definition of the layout profile.
 
 

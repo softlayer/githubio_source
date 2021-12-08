@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getInterface
 
+
 Retrieve [DEPRECATED] A hardware switch's interface to the bandwidth pod.
 
 

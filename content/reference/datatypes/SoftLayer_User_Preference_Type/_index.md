@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_User_Preference_Type data type contains a single preference type including the accepted values. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_User_Preference_Type data type contains a single preference type i
 [description]: #description
 #### [description]
 A description of the preference type  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ A description of the preference type
 [keyName]: #keyname
 #### [keyName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A description of the preference type
 [name]: #name
 #### [name]
 The name of the preference type  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The name of the preference type
 [valueExample]: #valueexample
 #### [valueExample]
 An example of accepted preference values  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

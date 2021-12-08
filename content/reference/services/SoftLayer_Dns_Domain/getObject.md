@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Dns_Domain](/reference/services/SoftLayer_Dns_Domain)::getObject
 
+
 Retrieve a SoftLayer_Dns_Domain record.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Auxiliary_Notification_Emergency](/reference/services/SoftLayer_Auxiliary_Notification_Emergency)::getSignature
 
+
 Retrieve the signature of the SoftLayer employee department associated with this notification.
 
 

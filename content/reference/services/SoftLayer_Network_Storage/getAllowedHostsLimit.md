@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getAllowedHostsLimit
 
+
 Retrieves the total number of allowed hosts limit per volume.
 
 

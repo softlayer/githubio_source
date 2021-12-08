@@ -13,6 +13,8 @@ aliases:
 ---
 # [SoftLayer_Network_Bandwidth_Version1_Allotment](/reference/services/SoftLayer_Network_Bandwidth_Version1_Allotment)::getFrontendBandwidthByHour
 
+<div class="deprecated"><span class="deprecation-label">Deprecated </span></div>
+
 [DEPRECATED] return a collection of public usage objects that contain hourly incoming and outgoing network traffic amounts for a 24 hour period. 
 
 

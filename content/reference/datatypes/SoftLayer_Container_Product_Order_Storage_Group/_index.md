@@ -20,6 +20,8 @@ classes:
 </div>
 
 ## Description 
+
+
 A single storage group container used for a hardware server order. 
 
 This object describes a single storage group that can be added to an order container. 
@@ -49,7 +51,8 @@ This object describes a single storage group that can be added to an order conta
 [arraySize]: #arraysize
 #### [arraySize]
 Size of the array in gigabytes. Must be within limitations of the smallest drive assigned to the storage group and the storage group type.   
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -59,7 +62,8 @@ Size of the array in gigabytes. Must be within limitations of the smallest drive
 [arrayTypeId]: #arraytypeid
 #### [arrayTypeId]
 The array type id from a [SoftLayer_Configuration_Storage_Group_Array_Type]({{<ref "reference/datatypes/SoftLayer_Configuration_Storage_Group_Array_Type">}}) object.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ The array type id from a [SoftLayer_Configuration_Storage_Group_Array_Type]({{<r
 Defines the disk controller to put the storage group and the hard drives on. 
 
 This must match a disk controller price on the order. The disk controller index is 0-indexed. 'disk_controller' = 0 'disk_controller1' = 1 'disk_controller2' = 2   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ This must match a disk controller price on the order. The disk controller index 
 [hardDrives]: #harddrives
 #### [hardDrives]
 Integer array of drive indexes to use in the storage group.  
-<span class="type-label">Type: </span>**array of integers**
+<span class="type-label">Type: </span>**array of integers**  
+
 
 
 </div>
@@ -93,7 +99,8 @@ Integer array of drive indexes to use in the storage group.
 If an array should be protected by an hotspare, the drive index of the hotspares should be here. 
 
 If a drive is a hotspare for all arrays then a separate storage group with array type GLOBAL_HOT_SPARE should be used   
-<span class="type-label">Type: </span>**array of integers**
+<span class="type-label">Type: </span>**array of integers**  
+
 
 
 </div>
@@ -103,7 +110,8 @@ If a drive is a hotspare for all arrays then a separate storage group with array
 [lvmFlag]: #lvmflag
 #### [lvmFlag]
 << EOT  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -115,7 +123,8 @@ If a drive is a hotspare for all arrays then a separate storage group with array
 The id for a [SoftLayer_Hardware_Component_Partition_Template]({{<ref "reference/datatypes/SoftLayer_Hardware_Component_Partition_Template">}}) object, which will determine the partitions to add to the storage group. 
 
 If this storage group is not a primary storage group, then this will not be used.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -127,7 +136,8 @@ If this storage group is not a primary storage group, then this will not be used
 Defines the partitions for the storage group. 
 
 If this storage group is not a secondary storage group, then this will not be used.   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Product_Order_Storage_Group_Partition'>SoftLayer_Container_Product_Order_Storage_Group_Partition[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Product_Order_Storage_Group_Partition'>SoftLayer_Container_Product_Order_Storage_Group_Partition[] </a>**  
+
 
 
 </div>

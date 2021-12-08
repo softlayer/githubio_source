@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getNonEuCompliantFlag
 
+
 Retrieve whether the package is not in compliance with EU support.
 
 

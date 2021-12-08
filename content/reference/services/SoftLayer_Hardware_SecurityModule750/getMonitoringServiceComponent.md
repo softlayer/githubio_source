@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getMonitoringServiceComponent
 
+
 Retrieve information regarding a piece of hardware's network monitoring services.
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Metric_Tracking_Object_VirtualDedicatedRack models tracking objects specific to virtual dedicated racks. Bandwidth Pooling aggregate the bandwidth used by multiple servers within the rack. 
 
 
@@ -50,7 +52,8 @@ SoftLayer_Metric_Tracking_Object_VirtualDedicatedRack models tracking objects sp
 [data]: #data
 #### [data]
 The data recorded by a tracking object.   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Data'>SoftLayer_Metric_Tracking_Object_Data[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Data'>SoftLayer_Metric_Tracking_Object_Data[] </a>**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ The data recorded by a tracking object.
 [id]: #id
 #### [id]
 A tracking object's internal identifier.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -70,7 +74,8 @@ A tracking object's internal identifier.
 [label]: #label
 #### [label]
 Tracking object label   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -80,7 +85,8 @@ Tracking object label
 [resourceTableId]: #resourcetableid
 #### [resourceTableId]
 The identifier of the existing resource this object is attempting to track.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -90,7 +96,8 @@ The identifier of the existing resource this object is attempting to track.
 [startDate]: #startdate
 #### [startDate]
 The date this tracker began tracking this particular resource.   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -106,7 +113,8 @@ The date this tracker began tracking this particular resource.
 [billingCycleBandwidthUsage]: #billingcyclebandwidthusage
 #### [billingCycleBandwidthUsage]
 The raw bandwidth usage data for the current billing cycle. One object is returned for each network this server is attached to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Usage'>SoftLayer_Network_Bandwidth_Usage[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Usage'>SoftLayer_Network_Bandwidth_Usage[] </a>**  
+
 
 
 </div>
@@ -116,7 +124,8 @@ The raw bandwidth usage data for the current billing cycle. One object is return
 [billingCyclePrivateBandwidthUsage]: #billingcycleprivatebandwidthusage
 #### [billingCyclePrivateBandwidthUsage]
 The raw bandwidth usage data for the current billing cycle. One object is returned for each network this server is attached to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Usage'>SoftLayer_Network_Bandwidth_Usage[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Usage'>SoftLayer_Network_Bandwidth_Usage[] </a>**  
+
 
 
 </div>
@@ -126,7 +135,8 @@ The raw bandwidth usage data for the current billing cycle. One object is return
 [billingCyclePrivateUsageIn]: #billingcycleprivateusagein
 #### [billingCyclePrivateUsageIn]
 The total private inbound bandwidth for this item's resource for the current billing cycle.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -136,7 +146,8 @@ The total private inbound bandwidth for this item's resource for the current bil
 [billingCyclePrivateUsageOut]: #billingcycleprivateusageout
 #### [billingCyclePrivateUsageOut]
 The total private outbound bandwidth for this item's resource for the current billing cycle.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -146,7 +157,8 @@ The total private outbound bandwidth for this item's resource for the current bi
 [billingCyclePrivateUsageTotal]: #billingcycleprivateusagetotal
 #### [billingCyclePrivateUsageTotal]
 The total private bandwidth for this item's resource for the current billing cycle.  
-<span class="type-label">Type: </span>**unsigned integer**
+<span class="type-label">Type: </span>**unsigned integer**  
+
 
 
 </div>
@@ -156,7 +168,8 @@ The total private bandwidth for this item's resource for the current billing cyc
 [billingCyclePublicBandwidthUsage]: #billingcyclepublicbandwidthusage
 #### [billingCyclePublicBandwidthUsage]
 The raw bandwidth usage data for the current billing cycle. One object is returned for each network this server is attached to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Usage'>SoftLayer_Network_Bandwidth_Usage </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Usage'>SoftLayer_Network_Bandwidth_Usage </a>**  
+
 
 
 </div>
@@ -166,7 +179,8 @@ The raw bandwidth usage data for the current billing cycle. One object is return
 [billingCyclePublicUsageIn]: #billingcyclepublicusagein
 #### [billingCyclePublicUsageIn]
 The total public inbound bandwidth for this item's resource for the current billing cycle.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -176,7 +190,8 @@ The total public inbound bandwidth for this item's resource for the current bill
 [billingCyclePublicUsageOut]: #billingcyclepublicusageout
 #### [billingCyclePublicUsageOut]
 The total public outbound bandwidth for this item's resource for the current billing cycle.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -186,7 +201,8 @@ The total public outbound bandwidth for this item's resource for the current bil
 [billingCyclePublicUsageTotal]: #billingcyclepublicusagetotal
 #### [billingCyclePublicUsageTotal]
 The total public bandwidth for this item's resource for the current billing cycle.  
-<span class="type-label">Type: </span>**unsigned integer**
+<span class="type-label">Type: </span>**unsigned integer**  
+
 
 
 </div>
@@ -196,7 +212,8 @@ The total public bandwidth for this item's resource for the current billing cycl
 [resource]: #resource
 #### [resource]
 The virtual rack that this tracking object tracks.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment'>SoftLayer_Network_Bandwidth_Version1_Allotment </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment'>SoftLayer_Network_Bandwidth_Version1_Allotment </a>**  
+
 
 
 </div>
@@ -206,7 +223,8 @@ The virtual rack that this tracking object tracks.
 [type]: #type
 #### [type]
 The type of data that a tracking object polls.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Type'>SoftLayer_Metric_Tracking_Object_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Type'>SoftLayer_Metric_Tracking_Object_Type </a>**  
+
 
 
 </div>
@@ -218,7 +236,8 @@ The type of data that a tracking object polls.
 [billingCycleBandwidthUsageCount]: #billingcyclebandwidthusagecount
 #### [billingCycleBandwidthUsageCount]
 A count of the raw bandwidth usage data for the current billing cycle. One object is returned for each network this server is attached to.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -228,7 +247,8 @@ A count of the raw bandwidth usage data for the current billing cycle. One objec
 [billingCyclePrivateBandwidthUsageCount]: #billingcycleprivatebandwidthusagecount
 #### [billingCyclePrivateBandwidthUsageCount]
 A count of the raw bandwidth usage data for the current billing cycle. One object is returned for each network this server is attached to.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

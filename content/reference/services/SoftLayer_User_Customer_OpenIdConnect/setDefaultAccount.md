@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::setDefaultAccount
 
+
 Sets the default account for the OpenIdConnect identity that is linked to the current SoftLayer user identity.
 
 

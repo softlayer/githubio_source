@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 Processes requests by IBM employees to create an IaaS account tied to their email. Request process cannot be initiated directly and must go through the Bluemix IBMer account request form. 
 
 
@@ -42,17 +44,20 @@ Processes requests by IBM employees to create an IaaS account tied to their emai
 
 #### [getAccountTypes](/reference/services/SoftLayer_Account_Internal_Ibm/getAccountTypes)
 Retrieves allowed internal IBM account categories
+
 </div>
 
 <div class="method-row">
 
 #### [getAuthorizationUrl](/reference/services/SoftLayer_Account_Internal_Ibm/getAuthorizationUrl)
 Gets the redirect URL for manager validation
+
 </div>
 
 <div class="method-row">
 
 #### [getBmsCountryList](/reference/services/SoftLayer_Account_Internal_Ibm/getBmsCountryList)
+
 
 </div>
 
@@ -60,36 +65,42 @@ Gets the redirect URL for manager validation
 
 #### [getEmployeeAccessToken](/reference/services/SoftLayer_Account_Internal_Ibm/getEmployeeAccessToken)
 Exchanges a token
+
 </div>
 
 <div class="method-row">
 
 #### [getManagerPreview](/reference/services/SoftLayer_Account_Internal_Ibm/getManagerPreview)
 Gets a container representing the pending request
+
 </div>
 
 <div class="method-row">
 
 #### [hasExistingRequest](/reference/services/SoftLayer_Account_Internal_Ibm/hasExistingRequest)
 Checks for an existing request which would block an IBMer application
+
 </div>
 
 <div class="method-row">
 
 #### [managerApprove](/reference/services/SoftLayer_Account_Internal_Ibm/managerApprove)
 Applies manager approval to a pending internal IBM account request
+
 </div>
 
 <div class="method-row">
 
 #### [managerDeny](/reference/services/SoftLayer_Account_Internal_Ibm/managerDeny)
 Applies manager denial to a pending request
+
 </div>
 
 <div class="method-row">
 
 #### [requestAccount](/reference/services/SoftLayer_Account_Internal_Ibm/requestAccount)
 Processes IBMer requests for new IaaS/PaaS accounts
+
 </div>
 </div>
 

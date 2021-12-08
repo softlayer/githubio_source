@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This class represents a software description's required user 
 
 
@@ -45,7 +47,8 @@ This class represents a software description's required user
 [defaultPassword]: #defaultpassword
 #### [defaultPassword]
 If the default password is set the user will be created with that password, otherwise a random password is generated.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ If the default password is set the user will be created with that password, othe
 [username]: #username
 #### [username]
 If this software has a required user (such as "root") this string contains it's name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

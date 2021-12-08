@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_ApiAuthentication](/reference/services/SoftLayer_User_Customer_ApiAuthentication)::getObject
 
+
 Retrieve a SoftLayer_User_Customer_ApiAuthentication record.
 
 

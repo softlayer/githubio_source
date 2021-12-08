@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,12 +44,14 @@ classes:
 
 #### [getAllObjects](/reference/services/SoftLayer_Catalyst_Company_Type/getAllObjects)
 Get all catalyst company types
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Catalyst_Company_Type/getObject)
 Retrieve a SoftLayer_Catalyst_Company_Type record.
+
 </div>
 </div>
 

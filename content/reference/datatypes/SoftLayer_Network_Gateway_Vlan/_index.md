@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [bypassFlag]: #bypassflag
 #### [bypassFlag]
 If true, this VLAN is bypassed. If false, it is routed through the gateway.   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ If true, this VLAN is bypassed. If false, it is routed through the gateway.
 [id]: #id
 #### [id]
 A gateway VLAN's internal identifier.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A gateway VLAN's internal identifier.
 [networkGatewayId]: #networkgatewayid
 #### [networkGatewayId]
 The internal identifier of the gateway this VLAN is attached to.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The internal identifier of the gateway this VLAN is attached to.
 [networkVlanId]: #networkvlanid
 #### [networkVlanId]
 The internal identifier of the network VLAN.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ The internal identifier of the network VLAN.
 [networkGateway]: #networkgateway
 #### [networkGateway]
 The gateway this VLAN is attached to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Gateway'>SoftLayer_Network_Gateway </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Gateway'>SoftLayer_Network_Gateway </a>**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ The gateway this VLAN is attached to.
 [networkVlan]: #networkvlan
 #### [networkVlan]
 The network VLAN record.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a>**  
+
 
 
 </div>

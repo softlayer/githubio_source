@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::disasterRecoveryFailoverToReplicant
 
+
 Failover an inaccessible block/file volume to its available replicant volume.
 
 

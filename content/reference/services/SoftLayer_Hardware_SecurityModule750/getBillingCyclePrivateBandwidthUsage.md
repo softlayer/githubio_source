@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getBillingCyclePrivateBandwidthUsage
 
+
 Retrieve the raw private bandwidth usage data for the current billing cycle.
 
 

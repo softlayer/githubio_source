@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_DedicatedHost](/reference/services/SoftLayer_Virtual_DedicatedHost)::getAvailableRouters
 
+
 Get available backend routers in a datacenter to order a dedicated host. 
 
 

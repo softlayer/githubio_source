@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Nameserver container for domain registration 
 
 
@@ -45,7 +47,8 @@ Nameserver container for domain registration
 [nameservers]: #nameservers
 #### [nameservers]
 The list of fully qualified names of the nameserver.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_Nameserver_List'>SoftLayer_Container_Dns_Domain_Registration_Nameserver_List[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_Nameserver_List'>SoftLayer_Container_Dns_Domain_Registration_Nameserver_List[] </a>**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Brand](/reference/services/SoftLayer_Brand)::getContactInformation
 
+
 Retrieve the contact information for the customer account brand.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getCost
 
+
 Retrieve the total cost of a server, measured in US Dollars ($USD).
 
 

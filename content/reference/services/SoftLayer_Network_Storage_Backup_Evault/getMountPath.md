@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getMountPath
 
+
 Retrieve retrieves the NFS Network Mount Path for a given File Storage Volume.
 
 

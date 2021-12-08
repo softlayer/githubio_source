@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getLastOperatingSystemReload
 
+
 Retrieve the last transaction that a server's operating system was loaded.
 
 

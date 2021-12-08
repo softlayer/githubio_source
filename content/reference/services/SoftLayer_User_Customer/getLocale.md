@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getLocale
 
+
 Retrieve a user's locale. Locale holds user's language and region information.
 
 

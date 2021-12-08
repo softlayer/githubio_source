@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getStatus
 
+
 Retrieve a ticket's status.
 
 

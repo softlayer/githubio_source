@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_SecurityGroup](/reference/services/SoftLayer_Network_SecurityGroup)::getNetworkComponentBindings
 
+
 Retrieve the network component bindings for this security group.
 
 

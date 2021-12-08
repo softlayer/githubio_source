@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_LoadBalancer_Service](/reference/services/SoftLayer_Network_LoadBalancer_Service)::getGraphImage
 
+
 Get the connection or status graph image for a load balancer service.
 
 

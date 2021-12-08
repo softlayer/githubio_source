@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getStorageNetworkComponents
 
+
 Retrieve a piece of hardware's private storage network components. [Deprecated]
 
 

@@ -20,6 +20,8 @@ classes:
 </div>
 
 ## Description
+
+
 SoftLayer_Configuration_Template_Type defines the types of configuration template. 
 
 Template types can be custom, default and so on. 
@@ -46,6 +48,7 @@ Template types can be custom, default and so on.
 
 #### [getObject](/reference/services/SoftLayer_Configuration_Template_Type/getObject)
 Retrieve a SoftLayer_Configuration_Template_Type record.
+
 </div>
 </div>
 

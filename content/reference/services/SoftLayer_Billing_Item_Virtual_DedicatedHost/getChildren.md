@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item_Virtual_DedicatedHost](/reference/services/SoftLayer_Billing_Item_Virtual_DedicatedHost)::getChildren
 
+
 Retrieve a Billing Item's child billing items'
 
 

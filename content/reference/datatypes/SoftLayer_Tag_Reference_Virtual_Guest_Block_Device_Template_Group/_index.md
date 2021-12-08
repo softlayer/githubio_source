@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [empRecordId]: #emprecordid
 #### [empRecordId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ classes:
 [id]: #id
 #### [id]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ classes:
 [resourceTableId]: #resourcetableid
 #### [resourceTableId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ classes:
 [tagId]: #tagid
 #### [tagId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ classes:
 [tagTypeId]: #tagtypeid
 #### [tagTypeId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ classes:
 [usrRecordId]: #usrrecordid
 #### [usrRecordId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ classes:
 [customer]: #customer
 #### [customer]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ classes:
 [employee]: #employee
 #### [employee]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee </a>**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ classes:
 [resource]: #resource
 #### [resource]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group'>SoftLayer_Virtual_Guest_Block_Device_Template_Group </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group'>SoftLayer_Virtual_Guest_Block_Device_Template_Group </a>**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ classes:
 [tag]: #tag
 #### [tag]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Tag'>SoftLayer_Tag </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Tag'>SoftLayer_Tag </a>**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ classes:
 [tagType]: #tagtype
 #### [tagType]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Tag_Type'>SoftLayer_Tag_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Tag_Type'>SoftLayer_Tag_Type </a>**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Location_Datacenter](/reference/services/SoftLayer_Location_Datacenter)::getBrandCountryRestrictions
 
+
 Retrieve this references relationship between brands, locations and countries associated with a user's account that are ineligible when ordering products. For example, the India datacenter may not be available on this brand for customers that live in Great Britain.
 
 

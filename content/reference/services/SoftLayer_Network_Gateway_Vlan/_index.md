@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 An inside VLAN is a VLAN which is attached to a network gateway and can be routed or bypassed. 
 
 
@@ -42,54 +44,63 @@ An inside VLAN is a VLAN which is attached to a network gateway and can be route
 
 #### [bypass](/reference/services/SoftLayer_Network_Gateway_Vlan/bypass)
 Bypass VLAN
+
 </div>
 
 <div class="method-row">
 
 #### [createObject](/reference/services/SoftLayer_Network_Gateway_Vlan/createObject)
 Attach a VLAN to a gateway
+
 </div>
 
 <div class="method-row">
 
 #### [createObjects](/reference/services/SoftLayer_Network_Gateway_Vlan/createObjects)
 Attach a VLAN to a gateway
+
 </div>
 
 <div class="method-row">
 
 #### [deleteObject](/reference/services/SoftLayer_Network_Gateway_Vlan/deleteObject)
 Detach VLAN
+
 </div>
 
 <div class="method-row">
 
 #### [deleteObjects](/reference/services/SoftLayer_Network_Gateway_Vlan/deleteObjects)
 Attach a VLAN to a gateway
+
 </div>
 
 <div class="method-row">
 
 #### [getNetworkGateway](/reference/services/SoftLayer_Network_Gateway_Vlan/getNetworkGateway)
 Retrieve the gateway this VLAN is attached to.
+
 </div>
 
 <div class="method-row">
 
 #### [getNetworkVlan](/reference/services/SoftLayer_Network_Gateway_Vlan/getNetworkVlan)
 Retrieve the network VLAN record.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Gateway_Vlan/getObject)
 Retrieve a SoftLayer_Network_Gateway_Vlan record.
+
 </div>
 
 <div class="method-row">
 
 #### [unbypass](/reference/services/SoftLayer_Network_Gateway_Vlan/unbypass)
 Unbypass VLAN
+
 </div>
 </div>
 

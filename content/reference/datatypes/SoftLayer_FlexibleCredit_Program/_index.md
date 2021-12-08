@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [id]: #id
 #### [id]
 Primary ID of the Flexible Credit Program  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Primary ID of the Flexible Credit Program
 [keyName]: #keyname
 #### [keyName]
 Unique name for the Flexible Credit Program  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Unique name for the Flexible Credit Program
 [name]: #name
 #### [name]
 Name of the Flexible Credit Program.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

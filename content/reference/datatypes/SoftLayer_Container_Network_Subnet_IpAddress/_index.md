@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Container_Subnet_IPAddress models an IP v4 address as it exists as a member of it's subnet, letting the user know if it is a network identifier, gateway, broadcast, or useable address. Addresses that are neither the network identifier nor the gateway nor the broadcast addresses are usable by SoftLayer servers. 
 
 ### External Links
@@ -70,7 +72,8 @@ SoftLayer_Container_Subnet_IPAddress models an IP v4 address as it exists as a m
 [hardware]: #hardware
 #### [hardware]
 The hardware that an IP address is associated with.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**  
+
 
 
 </div>
@@ -80,7 +83,8 @@ The hardware that an IP address is associated with.
 [ipAddress]: #ipaddress
 #### [ipAddress]
 An IP address expressed in dotted-quad notation.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -90,7 +94,8 @@ An IP address expressed in dotted-quad notation.
 [isBroadcastAddress]: #isbroadcastaddress
 #### [isBroadcastAddress]
 Whether an IP address is its subnet's broadcast address.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -100,7 +105,8 @@ Whether an IP address is its subnet's broadcast address.
 [isGatewayAddress]: #isgatewayaddress
 #### [isGatewayAddress]
 Whether an IP address is its subnet's gateway address. Gateway addresses exist on SoftLayer's routers and many not be assigned to servers.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -110,7 +116,8 @@ Whether an IP address is its subnet's gateway address. Gateway addresses exist o
 [isNetworkAddress]: #isnetworkaddress
 #### [isNetworkAddress]
 Whether an IP address is its subnet's network identifier address.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>

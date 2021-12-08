@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Vlan_Firewall](/reference/services/SoftLayer_Network_Vlan_Firewall)::getMetricTrackingObjectId
 
+
 Retrieve the metric tracking object ID for this firewall.
 
 

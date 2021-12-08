@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getVirtualGuests
 
+
 Retrieve all of the Virtual Servers that are connected to a VLAN.
 
 

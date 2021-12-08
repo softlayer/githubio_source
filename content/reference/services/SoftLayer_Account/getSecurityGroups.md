@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getSecurityGroups
 
+
 Retrieve the security groups belonging to this account.
 
 

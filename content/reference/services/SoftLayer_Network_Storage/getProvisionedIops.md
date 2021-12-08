@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getProvisionedIops
 
+
 Retrieve the number of IOPs provisioned for this volume.
 
 

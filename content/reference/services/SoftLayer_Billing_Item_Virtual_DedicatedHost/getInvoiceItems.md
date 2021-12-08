@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item_Virtual_DedicatedHost](/reference/services/SoftLayer_Billing_Item_Virtual_DedicatedHost)::getInvoiceItems
 
+
 Retrieve all invoice items associated with the billing item
 
 

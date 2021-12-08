@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest_Network_Component](/reference/services/SoftLayer_Virtual_Guest_Network_Component)::getGuest
 
+
 Retrieve the computing instance that this network component exists on.
 
 

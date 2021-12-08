@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Media](/reference/services/SoftLayer_Account_Media)::removeMediaFromList
 
+
 Remove a media from a SoftLayer account's list of media.
 
 

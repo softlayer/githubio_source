@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_Customer_Subnet_IpAddress data type contains general information relating to a single Customer Subnet (Remote) IPv4 address. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Network_Customer_Subnet_IpAddress data type contains general infor
 [id]: #id
 #### [id]
 Unique identifier for an ip address.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Unique identifier for an ip address.
 [ipAddress]: #ipaddress
 #### [ipAddress]
 An IP address expressed in dotted quad format.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ An IP address expressed in dotted quad format.
 [notes]: #notes
 #### [notes]
 An IP address' user defined note.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ An IP address' user defined note.
 [subnetId]: #subnetid
 #### [subnetId]
 The unique identifier for the customer subnet (remote) the ip address belongs to.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ The unique identifier for the customer subnet (remote) the ip address belongs to
 [subnet]: #subnet
 #### [subnet]
 The customer subnet (remote) that the ip address belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Customer_Subnet'>SoftLayer_Network_Customer_Subnet </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Customer_Subnet'>SoftLayer_Network_Customer_Subnet </a>**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ The customer subnet (remote) that the ip address belongs to.
 [translations]: #translations
 #### [translations]
 All the address translations that are tied to an IP address.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Tunnel_Module_Context_Address_Translation'>SoftLayer_Network_Tunnel_Module_Context_Address_Translation[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Tunnel_Module_Context_Address_Translation'>SoftLayer_Network_Tunnel_Module_Context_Address_Translation[] </a>**  
+
 
 
 </div>
@@ -113,7 +121,8 @@ All the address translations that are tied to an IP address.
 [translationCount]: #translationcount
 #### [translationCount]
 A count of all the address translations that are tied to an IP address.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

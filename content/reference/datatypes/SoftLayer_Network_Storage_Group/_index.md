@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [accountId]: #accountid
 #### [accountId]
 The account ID which owns this group  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The account ID which owns this group
 [alias]: #alias
 #### [alias]
 The friendly name of this group  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The friendly name of this group
 [createDate]: #createdate
 #### [createDate]
 The date this group was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The date this group was created.
 [groupTypeId]: #grouptypeid
 #### [groupTypeId]
 The SoftLayer_Network_Storage_Group_Type which describes this group.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The SoftLayer_Network_Storage_Group_Type which describes this group.
 [id]: #id
 #### [id]
 The internal identifier of the group  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The internal identifier of the group
 [modifyDate]: #modifydate
 #### [modifyDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The internal identifier of the group
 [osTypeId]: #ostypeid
 #### [osTypeId]
 A SoftLayer_Network_Storage_OS_Type Operating System designation that this group was created for.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ A SoftLayer_Network_Storage_OS_Type Operating System designation that this group
 [serviceResourceId]: #serviceresourceid
 #### [serviceResourceId]
 A SoftLayer_Network_Service_Resource that this group was created on.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ A SoftLayer_Network_Service_Resource that this group was created on.
 [account]: #account
 #### [account]
 The SoftLayer_Account which owns this group.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ The SoftLayer_Account which owns this group.
 [allowedHosts]: #allowedhosts
 #### [allowedHosts]
 The allowed hosts list for this group.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Allowed_Host'>SoftLayer_Network_Storage_Allowed_Host[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Allowed_Host'>SoftLayer_Network_Storage_Allowed_Host[] </a>**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ The allowed hosts list for this group.
 [attachedVolumes]: #attachedvolumes
 #### [attachedVolumes]
 The network storage volumes this group is attached to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ The network storage volumes this group is attached to.
 [groupType]: #grouptype
 #### [groupType]
 The type which defines this group.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Group_Type'>SoftLayer_Network_Storage_Group_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Group_Type'>SoftLayer_Network_Storage_Group_Type </a>**  
+
 
 
 </div>
@@ -171,7 +185,8 @@ The type which defines this group.
 [osType]: #ostype
 #### [osType]
 The OS Type this group is configured for.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Iscsi_OS_Type'>SoftLayer_Network_Storage_Iscsi_OS_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Iscsi_OS_Type'>SoftLayer_Network_Storage_Iscsi_OS_Type </a>**  
+
 
 
 </div>
@@ -181,7 +196,8 @@ The OS Type this group is configured for.
 [serviceResource]: #serviceresource
 #### [serviceResource]
 The network resource this group is created on.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Service_Resource'>SoftLayer_Network_Service_Resource </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Service_Resource'>SoftLayer_Network_Service_Resource </a>**  
+
 
 
 </div>
@@ -193,7 +209,8 @@ The network resource this group is created on.
 [allowedHostCount]: #allowedhostcount
 #### [allowedHostCount]
 A count of the allowed hosts list for this group.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -203,7 +220,8 @@ A count of the allowed hosts list for this group.
 [attachedVolumeCount]: #attachedvolumecount
 #### [attachedVolumeCount]
 A count of the network storage volumes this group is attached to.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

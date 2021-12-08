@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Scale_Network_Vlan](/reference/services/SoftLayer_Scale_Network_Vlan)::getScaleGroup
 
+
 Retrieve the group this network VLAN is for.
 
 

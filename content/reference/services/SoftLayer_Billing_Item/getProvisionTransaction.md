@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getProvisionTransaction
 
+
 Retrieve provisioning transaction for this billing item
 
 

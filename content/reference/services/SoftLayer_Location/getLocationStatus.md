@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Location](/reference/services/SoftLayer_Location)::getLocationStatus
 
+
 Retrieve the current locations status.
 
 

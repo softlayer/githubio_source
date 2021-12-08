@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Allowed_Host_IpAddress](/reference/services/SoftLayer_Network_Storage_Allowed_Host_IpAddress)::getSourceSubnet
 
+
 Retrieve connections to a target with a source IP in this subnet prefix are allowed.
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 MassDataMigration_CrossRegion_Country_Xref provides a list of countries where Mass Data Migration Device could be shipped for each CleverSafe Object Storage Region. 
 
 
@@ -42,30 +44,35 @@ MassDataMigration_CrossRegion_Country_Xref provides a list of countries where Ma
 
 #### [getAllObjects](/reference/services/SoftLayer_Network_Storage_MassDataMigration_CrossRegion_Country_Xref/getAllObjects)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getCountry](/reference/services/SoftLayer_Network_Storage_MassDataMigration_CrossRegion_Country_Xref/getCountry)
 Retrieve softLayer_Locale_Country Id.
+
 </div>
 
 <div class="method-row">
 
 #### [getLocationGroup](/reference/services/SoftLayer_Network_Storage_MassDataMigration_CrossRegion_Country_Xref/getLocationGroup)
 Retrieve location Group ID of CleverSafe cross region.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Storage_MassDataMigration_CrossRegion_Country_Xref/getObject)
 Retrieve a SoftLayer_Network_Storage_MassDataMigration_CrossRegion_Country_Xref record.
+
 </div>
 
 <div class="method-row">
 
 #### [getValidCountriesForRegion](/reference/services/SoftLayer_Network_Storage_MassDataMigration_CrossRegion_Country_Xref/getValidCountriesForRegion)
 return countries assigned to the region having pricing info set.
+
 </div>
 </div>
 

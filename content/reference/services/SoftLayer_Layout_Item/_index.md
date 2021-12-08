@@ -20,6 +20,8 @@ classes:
 </div>
 
 ## Description
+
+
 Layout items are used in the customization of the Portal 4 customer experience. 
 
 Each [SoftLayer_Layout_Container]({{<ref "reference/datatypes/SoftLayer_Layout_Container">}}). 
@@ -57,18 +59,21 @@ Each [SoftLayer_Layout_Container]({{<ref "reference/datatypes/SoftLayer_Layout_C
 
 #### [getLayoutItemPreferences](/reference/services/SoftLayer_Layout_Item/getLayoutItemPreferences)
 Retrieve the layout preferences assigned to this layout item
+
 </div>
 
 <div class="method-row">
 
 #### [getLayoutItemType](/reference/services/SoftLayer_Layout_Item/getLayoutItemType)
 Retrieve the type of the layout item object
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Layout_Item/getObject)
 Retrieve a SoftLayer_Layout_Item record.
+
 </div>
 </div>
 

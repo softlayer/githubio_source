@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getVirtualStoragePublicRepositories
 
+
 Retrieve an account's associated virtual server public storage repositories.
 
 

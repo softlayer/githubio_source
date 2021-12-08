@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This object holds authentication data to a server. 
 
 
@@ -50,7 +52,8 @@ This object holds authentication data to a server.
 [host]: #host
 #### [host]
 The name of a host  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ The name of a host
 [password]: #password
 #### [password]
 The authentication password  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -70,7 +74,8 @@ The authentication password
 [port]: #port
 #### [port]
 The port number  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -80,7 +85,8 @@ The port number
 [type]: #type
 #### [type]
 The type of network protocol. This can be ftp, ssh and so on.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -90,7 +96,8 @@ The type of network protocol. This can be ftp, ssh and so on.
 [username]: #username
 #### [username]
 The authentication username  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

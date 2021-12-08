@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Configuration_Template](/reference/services/SoftLayer_Configuration_Template)::editObject
 
+
 Edit the object by passing in a modified instance of the object
 
 

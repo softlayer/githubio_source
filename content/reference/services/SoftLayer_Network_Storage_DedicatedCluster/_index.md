@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,11 +44,13 @@ classes:
 
 #### [getAccount](/reference/services/SoftLayer_Network_Storage_DedicatedCluster/getAccount)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getDedicatedClusterList](/reference/services/SoftLayer_Network_Storage_DedicatedCluster/getDedicatedClusterList)
+
 
 </div>
 
@@ -54,11 +58,13 @@ classes:
 
 #### [getObject](/reference/services/SoftLayer_Network_Storage_DedicatedCluster/getObject)
 Retrieve a SoftLayer_Network_Storage_DedicatedCluster record.
+
 </div>
 
 <div class="method-row">
 
 #### [getServiceResource](/reference/services/SoftLayer_Network_Storage_DedicatedCluster/getServiceResource)
+
 
 </div>
 </div>

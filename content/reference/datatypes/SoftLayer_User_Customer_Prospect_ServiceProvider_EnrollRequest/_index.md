@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Contains user information for Service Provider Enrollment. 
 
 
@@ -45,7 +47,8 @@ Contains user information for Service Provider Enrollment.
 [acceptAllAgreementsFlag]: #acceptallagreementsflag
 #### [acceptAllAgreementsFlag]
 Flag indicating whether or not applicant has accepted all current SSP agreements.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Flag indicating whether or not applicant has accepted all current SSP agreements
 [accountId]: #accountid
 #### [accountId]
 accountId of existing SoftLayer Customer  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ accountId of existing SoftLayer Customer
 [address1]: #address1
 #### [address1]
 Service provider address1  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Service provider address1
 [address2]: #address2
 #### [address2]
 Service provider address2  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Service provider address2
 [cardAccountNumber]: #cardaccountnumber
 #### [cardAccountNumber]
 Credit card account number  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ Credit card account number
 [cardExpirationMonth]: #cardexpirationmonth
 #### [cardExpirationMonth]
 Credit card expiration month  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ Credit card expiration month
 [cardExpirationYear]: #cardexpirationyear
 #### [cardExpirationYear]
 Credit card expiration year  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ Credit card expiration year
 [cardType]: #cardtype
 #### [cardType]
 Type of credit card being used  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ Type of credit card being used
 [cardVerificationNumber]: #cardverificationnumber
 #### [cardVerificationNumber]
 Credit card verification number  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ Credit card verification number
 [city]: #city
 #### [city]
 Service provider city  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -145,7 +157,8 @@ Service provider city
 [companyName]: #companyname
 #### [companyName]
 Service provider company name  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -155,7 +168,8 @@ Service provider company name
 [companyTypeId]: #companytypeid
 #### [companyTypeId]
 Id of the company type which best describes applicant's company  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -165,7 +179,8 @@ Id of the company type which best describes applicant's company
 [companyUrl]: #companyurl
 #### [companyUrl]
 Service provider company url  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -175,7 +190,8 @@ Service provider company url
 [contactEmail]: #contactemail
 #### [contactEmail]
 Service provider contact's email  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -185,7 +201,8 @@ Service provider contact's email
 [contactFirstName]: #contactfirstname
 #### [contactFirstName]
 Service provider contact's first name  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -195,7 +212,8 @@ Service provider contact's first name
 [contactLastName]: #contactlastname
 #### [contactLastName]
 Service provider contact's last name  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -205,7 +223,8 @@ Service provider contact's last name
 [contactPhone]: #contactphone
 #### [contactPhone]
 Service provider contact's Phone  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -215,7 +234,8 @@ Service provider contact's Phone
 [country]: #country
 #### [country]
 Service provider country  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -225,7 +245,8 @@ Service provider country
 [customerProspectId]: #customerprospectid
 #### [customerProspectId]
 Customer Prospect id  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -235,7 +256,8 @@ Customer Prospect id
 [deviceFingerprintId]: #devicefingerprintid
 #### [deviceFingerprintId]
 Id of the device fingerprint  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -245,7 +267,8 @@ Id of the device fingerprint
 [email]: #email
 #### [email]
 Service provider email  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -255,7 +278,8 @@ Service provider email
 [existingCustomerFlag]: #existingcustomerflag
 #### [existingCustomerFlag]
 Indicates if customer has an existing SoftLayer account  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -265,7 +289,8 @@ Indicates if customer has an existing SoftLayer account
 [firstName]: #firstname
 #### [firstName]
 Service provider first name  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -275,7 +300,8 @@ Service provider first name
 [ibmIdUsername]: #ibmidusername
 #### [ibmIdUsername]
 Service provider IBMid username, if different than the email.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -285,7 +311,8 @@ Service provider IBMid username, if different than the email.
 [ibmPartnerWorldId]: #ibmpartnerworldid
 #### [ibmPartnerWorldId]
 IBM partner world id  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -295,7 +322,8 @@ IBM partner world id
 [ibmPartnerWorldMemberFlag]: #ibmpartnerworldmemberflag
 #### [ibmPartnerWorldMemberFlag]
 Indicates if the customer is IBM partner world member  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -305,7 +333,8 @@ Indicates if the customer is IBM partner world member
 [lastName]: #lastname
 #### [lastName]
 Service provider last name  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -315,7 +344,8 @@ Service provider last name
 [masterAgreementCompleteFlag]: #masteragreementcompleteflag
 #### [masterAgreementCompleteFlag]
 Flag indicating whether or not applicant acknowledged MSA  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -325,7 +355,8 @@ Flag indicating whether or not applicant acknowledged MSA
 [officePhone]: #officephone
 #### [officePhone]
 Service provider office phone  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -335,7 +366,8 @@ Service provider office phone
 [postalCode]: #postalcode
 #### [postalCode]
 Service provider postalCode  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -345,7 +377,8 @@ Service provider postalCode
 [serviceProviderAddendumFlag]: #serviceprovideraddendumflag
 #### [serviceProviderAddendumFlag]
 Flag indicating whether or not applicant acknowledged service provider addendum  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -355,7 +388,8 @@ Flag indicating whether or not applicant acknowledged service provider addendum
 [state]: #state
 #### [state]
 Service provider state  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -365,7 +399,8 @@ Service provider state
 [surveyResponses]: #surveyresponses
 #### [surveyResponses]
 Survey responses  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Survey_Response'>SoftLayer_Survey_Response[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Survey_Response'>SoftLayer_Survey_Response[] </a>**  
+
 
 
 </div>
@@ -375,7 +410,8 @@ Survey responses
 [vatId]: #vatid
 #### [vatId]
 Applicant's VAT id, if one exists  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -391,7 +427,8 @@ Applicant's VAT id, if one exists
 [companyType]: #companytype
 #### [companyType]
 Catalyst company types.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Catalyst_Company_Type'>SoftLayer_Catalyst_Company_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Catalyst_Company_Type'>SoftLayer_Catalyst_Company_Type </a>**  
+
 
 
 </div>

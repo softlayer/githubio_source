@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Tag](/reference/services/SoftLayer_Tag)::getObject
 
+
 Retrieve a SoftLayer_Tag record.
 
 

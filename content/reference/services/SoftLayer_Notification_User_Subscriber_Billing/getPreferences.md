@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Notification_User_Subscriber_Billing](/reference/services/SoftLayer_Notification_User_Subscriber_Billing)::getPreferences
 
+
 Retrieve associated subscriber preferences used for the notification subscription. For example, preferences include number of deliveries (limit) and threshold.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Dns_Secondary](/reference/services/SoftLayer_Dns_Secondary)::getErrorMessages
 
+
 Retrieve the error messages created during secondary DNS record transfer.
 
 

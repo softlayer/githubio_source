@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Group](/reference/services/SoftLayer_Network_Storage_Group)::getNetworkConnectionDetails
 
+
 Retrieve network connection information for SoftLayer_Network_Storage_Allowed_Host objects to connect to the Network Storage Volumes within this group 
 
 

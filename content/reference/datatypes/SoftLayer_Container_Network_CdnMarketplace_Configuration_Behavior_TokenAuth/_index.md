@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Container_Network_CdnMarketplace_Configuration_Behavior_TokenAuth data type contains information for specific responses from the Token Authentication API. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Container_Network_CdnMarketplace_Configuration_Behavior_TokenAuth 
 [aclDelimiter]: #acldelimiter
 #### [aclDelimiter]
 Specifies a single character to separate access control list (ACL) fields. The default value is '!'.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Specifies a single character to separate access control list (ACL) fields. The d
 [escapeTokenInputs]: #escapetokeninputs
 #### [escapeTokenInputs]
 Possible values '0' and '1'. If set to '1', input values are escaped before adding them to the token. Default value is '1'.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Possible values '0' and '1'. If set to '1', input values are escaped before addi
 [hmacAlgorithm]: #hmacalgorithm
 #### [hmacAlgorithm]
 Specifies the algorithm to use for the token's hash-based message authentication code (HMAC) field. Valid entries are 'SHA256', 'SHA1', or 'MD5'. The default value is 'SHA256'.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Specifies the algorithm to use for the token's hash-based message authentication
 [ignoreQueryString]: #ignorequerystring
 #### [ignoreQueryString]
 Possible values '0' and '1'. If set to '1', query strings are removed from a URL when computing the token's HMAC algorithm. Default value is '0'.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Possible values '0' and '1'. If set to '1', query strings are removed from a URL
 [name]: #name
 #### [name]
 The token name. If this value is empty, then it is set to the default value '__token__'.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The token name. If this value is empty, then it is set to the default value '__t
 [path]: #path
 #### [path]
 The path, relative to the domain that is accessed via token authentication.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The path, relative to the domain that is accessed via token authentication.
 [tokenDelimiter]: #tokendelimiter
 #### [tokenDelimiter]
 Specifies a single character to separate the individual token fields. The default value is '~'.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ Specifies a single character to separate the individual token fields. The defaul
 [tokenKey]: #tokenkey
 #### [tokenKey]
 The token encryption key, which specifies an even number of hex digits for the token key. An entry can be up to 64 characters in length.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ The token encryption key, which specifies an even number of hex digits for the t
 [transitionKey]: #transitionkey
 #### [transitionKey]
 The token transition key, which specifies an even number of hex digits for the token transition key. An entry can be up to 64 characters in length.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ The token transition key, which specifies an even number of hex digits for the t
 [uniqueId]: #uniqueid
 #### [uniqueId]
 The uniqueId of the mapping to which the existing behavior belongs.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

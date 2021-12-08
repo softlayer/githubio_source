@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet_Swip_Transaction](/reference/services/SoftLayer_Network_Subnet_Swip_Transaction)::getSubnet
 
+
 Retrieve the subnet that this SWIP transaction was created for.
 
 

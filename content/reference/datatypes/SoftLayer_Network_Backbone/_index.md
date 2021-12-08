@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 A SoftLayer_Network_Backbone represents a single backbone connection from SoftLayer to the public Internet, from the Internet to the SoftLayer private network, or a link that connects the private networks between SoftLayer's datacenters. The SoftLayer_Network_Backbone data type is a collection of data associated with one of those connections. 
 
 
@@ -51,7 +53,8 @@ A SoftLayer_Network_Backbone represents a single backbone connection from SoftLa
 [capacity]: #capacity
 #### [capacity]
 The numeric portion of the bandwidth capacity of a SoftLayer backbone. For instance, if a backbone is rated at "1 GigE" capacity then the capacity property of the backbone is 1.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -61,7 +64,8 @@ The numeric portion of the bandwidth capacity of a SoftLayer backbone. For insta
 [capacityUnits]: #capacityunits
 #### [capacityUnits]
 The unit portion of the bandwidth capacity of a SoftLayer backbone. For instance, if a backbone is rated at "10 G" capacity then the capacityUnits property of the backbone is "G".   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ The unit portion of the bandwidth capacity of a SoftLayer backbone. For instance
 [id]: #id
 #### [id]
 A backbone's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ A backbone's internal identifier.
 [name]: #name
 #### [name]
 A backbone's name. This is usually the name of the backbone's network provider followed by a number in case SoftLayer uses more than one backbone from a provider. Backbone provider numbers start with the number one and increment from there.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ A backbone's name. This is usually the name of the backbone's network provider f
 [networkComponentId]: #networkcomponentid
 #### [networkComponentId]
 The internal identifier of the network component that backbone is connected to.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ The internal identifier of the network component that backbone is connected to.
 [type]: #type
 #### [type]
 Whether a SoftLayer backbone connects to the public Internet, to the private network, or connecting the private networks of SoftLayer's datacenters. Type is either the string "public", "private", or "private-interconnect".   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -117,7 +125,8 @@ Whether a SoftLayer backbone connects to the public Internet, to the private net
 [health]: #health
 #### [health]
 A backbone's status.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -127,7 +136,8 @@ A backbone's status.
 [location]: #location
 #### [location]
 Which of the SoftLayer datacenters a backbone is connected to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**  
+
 
 
 </div>
@@ -137,7 +147,8 @@ Which of the SoftLayer datacenters a backbone is connected to.
 [networkComponent]: #networkcomponent
 #### [networkComponent]
 A backbone's primary network component.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>**  
+
 
 
 </div>

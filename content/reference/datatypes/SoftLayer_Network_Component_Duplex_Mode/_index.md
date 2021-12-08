@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Duplex Mode allows finer grained control over networking options and settings. 
 
 
@@ -45,7 +47,8 @@ Duplex Mode allows finer grained control over networking options and settings.
 [description]: #description
 #### [description]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Duplex Mode allows finer grained control over networking options and settings.
 [keyname]: #keyname
 #### [keyname]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Duplex Mode allows finer grained control over networking options and settings.
 [name]: #name
 #### [name]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

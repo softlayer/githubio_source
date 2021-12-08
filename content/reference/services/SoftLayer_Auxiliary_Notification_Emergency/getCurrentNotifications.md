@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Auxiliary_Notification_Emergency](/reference/services/SoftLayer_Auxiliary_Notification_Emergency)::getCurrentNotifications
 
+
 Retrieve current notification events.
 
 

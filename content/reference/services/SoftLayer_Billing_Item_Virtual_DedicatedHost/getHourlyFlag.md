@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item_Virtual_DedicatedHost](/reference/services/SoftLayer_Billing_Item_Virtual_DedicatedHost)::getHourlyFlag
 
+
 Retrieve a flag that will reflect whether this billing item is billed on an hourly basis or not.
 
 

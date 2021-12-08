@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getUplinkNetworkComponents
 
+
 Retrieve information regarding the network component that is one level higher than a piece of hardware on the network infrastructure.
 
 

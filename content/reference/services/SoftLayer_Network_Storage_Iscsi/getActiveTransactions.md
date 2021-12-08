@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getActiveTransactions
 
+
 Retrieve the currently active transactions on a network storage volume.
 
 

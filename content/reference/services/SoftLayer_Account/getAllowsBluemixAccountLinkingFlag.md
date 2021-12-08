@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getAllowsBluemixAccountLinkingFlag
 
+
 Retrieve flag indicating if this account can be linked with Bluemix.
 
 

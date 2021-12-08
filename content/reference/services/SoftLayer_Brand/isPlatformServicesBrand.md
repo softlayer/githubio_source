@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Brand](/reference/services/SoftLayer_Brand)::isPlatformServicesBrand
 
+
 Check if the alternate billing system of brand is Bluemix.
 
 

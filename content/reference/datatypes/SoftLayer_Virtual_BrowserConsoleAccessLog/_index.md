@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Virtual_BrowserConsoleAccessLog data type presents the data for events associated with accessing a VSIs console via the browser interface. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Virtual_BrowserConsoleAccessLog data type presents the data for ev
 [createDate]: #createdate
 #### [createDate]
 Date created   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Date created
 [eventType]: #eventtype
 #### [eventType]
 The event type that was triggered   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The event type that was triggered
 [id]: #id
 #### [id]
 Unique ID for a console log event instance.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Unique ID for a console log event instance.
 [message]: #message
 #### [message]
 The message for the event   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The message for the event
 [modifyDate]: #modifydate
 #### [modifyDate]
 Date modified   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ Date modified
 [sourceIp]: #sourceip
 #### [sourceIp]
 The IP address of the client that triggered the event   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The IP address of the client that triggered the event
 [sourcePort]: #sourceport
 #### [sourcePort]
 The IP port of the client that triggered the event   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ The IP port of the client that triggered the event
 [userId]: #userid
 #### [userId]
 The user id that triggered the event   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ The user id that triggered the event
 [userType]: #usertype
 #### [userType]
 The user type that triggered the event   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ The user type that triggered the event
 [username]: #username
 #### [username]
 The username of the user that triggered the event   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getFsboaSupportedFlag
 
+
 Retrieve a ticket's associated FSBOA compliant record
 
 

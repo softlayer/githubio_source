@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Order_Item](/reference/services/SoftLayer_Billing_Order_Item)::getBundledItems
 
+
 Retrieve the other items included with an ordered item.
 
 

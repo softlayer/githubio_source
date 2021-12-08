@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Scale_Policy](/reference/services/SoftLayer_Scale_Policy)::deleteObject
 
+
 Delete this policy from the group.
 
 

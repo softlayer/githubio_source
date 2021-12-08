@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getNetworkComponents
 
+
 Retrieve returns a hardware's network components.
 
 

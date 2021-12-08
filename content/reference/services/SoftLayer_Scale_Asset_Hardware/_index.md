@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 A hardware asset is a fixed asset of scale group. It is not automatically scaled up or down in any way. Its purpose is to provide information (e.g. metrics) to policies to affect scaling decisions. Currently hardware assets are unsupported. 
 
 
@@ -42,36 +44,42 @@ A hardware asset is a fixed asset of scale group. It is not automatically scaled
 
 #### [createObject](/reference/services/SoftLayer_Scale_Asset_Hardware/createObject)
 Pin hardware on a group. This can be done at anytime, whether the group is active or not. 
+
 </div>
 
 <div class="method-row">
 
 #### [deleteObject](/reference/services/SoftLayer_Scale_Asset_Hardware/deleteObject)
 Delete this group asset.
+
 </div>
 
 <div class="method-row">
 
 #### [getHardware](/reference/services/SoftLayer_Scale_Asset_Hardware/getHardware)
 Retrieve the hardware for this asset.
+
 </div>
 
 <div class="method-row">
 
 #### [getHardwareId](/reference/services/SoftLayer_Scale_Asset_Hardware/getHardwareId)
 Retrieve the identifier of the hardware for this asset.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Scale_Asset_Hardware/getObject)
 Retrieve a SoftLayer_Scale_Asset_Hardware record.
+
 </div>
 
 <div class="method-row">
 
 #### [getScaleGroup](/reference/services/SoftLayer_Scale_Asset_Hardware/getScaleGroup)
 Retrieve the group this asset belongs to.
+
 </div>
 </div>
 

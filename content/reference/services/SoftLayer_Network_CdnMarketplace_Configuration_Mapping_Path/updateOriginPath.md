@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_CdnMarketplace_Configuration_Mapping_Path](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Mapping_Path)::updateOriginPath
 
+
 SOAP API will update Origin Path for an existing mapping and for a particular customer. 
 
 When passing the $input object as a parameter, it will expect the following properties to be set: $oldPath $uniqueId $originType, $path, $origin, $httpPort, $httpsPort, and if the path's origin type is object storage, the $bucketName and the $fileExtension. 

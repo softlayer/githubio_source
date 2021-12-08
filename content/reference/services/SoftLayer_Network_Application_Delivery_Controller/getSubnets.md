@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Application_Delivery_Controller](/reference/services/SoftLayer_Network_Application_Delivery_Controller)::getSubnets
 
+
 Retrieve a network application controller's subnets. A subnet is a group of IP addresses
 
 

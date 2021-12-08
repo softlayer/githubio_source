@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,24 +44,28 @@ classes:
 
 #### [getAccount](/reference/services/SoftLayer_Account_Business_Partner/getAccount)
 Retrieve account associated with the business partner data
+
 </div>
 
 <div class="method-row">
 
 #### [getChannel](/reference/services/SoftLayer_Account_Business_Partner/getChannel)
 Retrieve channel indicator used to categorize business partner revenue.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Account_Business_Partner/getObject)
 Retrieve a SoftLayer_Account_Business_Partner record.
+
 </div>
 
 <div class="method-row">
 
 #### [getSegment](/reference/services/SoftLayer_Account_Business_Partner/getSegment)
 Retrieve segment indicator used to categorize business partner revenue.
+
 </div>
 </div>
 

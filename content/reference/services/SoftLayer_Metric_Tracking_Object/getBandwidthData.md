@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Metric_Tracking_Object](/reference/services/SoftLayer_Metric_Tracking_Object)::getBandwidthData
 
+
 Retrieve raw bandwidth data from a tracking object.
 
 

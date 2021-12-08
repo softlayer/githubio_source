@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::initiateOriginVolumeReclaim
 
+
 Initiates Origin Volume Reclaim to delete volume from NetApp.
 
 

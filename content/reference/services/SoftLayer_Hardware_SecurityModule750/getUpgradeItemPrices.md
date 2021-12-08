@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getUpgradeItemPrices
 
+
 Retrieve a list of upgradable items available to a piece of hardware.
 
 

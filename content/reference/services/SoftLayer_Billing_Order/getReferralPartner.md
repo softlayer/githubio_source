@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Order](/reference/services/SoftLayer_Billing_Order)::getReferralPartner
 
+
 Retrieve the Referral Partner who referred this order. (Only necessary for new customer orders)
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Invoice](/reference/services/SoftLayer_Billing_Invoice)::getLocalCurrencyExchangeRate
 
+
 Retrieve exchange rate used for billing this invoice.
 
 

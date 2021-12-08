@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,17 +44,20 @@ classes:
 
 #### [getExtensionWhitelist](/reference/services/SoftLayer_Ticket_Attachment_File/getExtensionWhitelist)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Ticket_Attachment_File/getObject)
 Retrieve a SoftLayer_Ticket_Attachment_File record.
+
 </div>
 
 <div class="method-row">
 
 #### [getTicket](/reference/services/SoftLayer_Ticket_Attachment_File/getTicket)
+
 
 </div>
 
@@ -60,6 +65,7 @@ Retrieve a SoftLayer_Ticket_Attachment_File record.
 
 #### [getUpdate](/reference/services/SoftLayer_Ticket_Attachment_File/getUpdate)
 Retrieve the ticket that a file is attached to.
+
 </div>
 </div>
 

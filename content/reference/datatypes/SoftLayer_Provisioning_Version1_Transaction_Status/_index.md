@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Provisioning_Version1_Transaction_Status data type contains general information relating to a single SoftLayer hardware transaction status. 
 
 SoftLayer customers are unable to change their hardware transaction status. 
@@ -52,7 +54,8 @@ SoftLayer customers are unable to change their hardware transaction status.
 [averageDuration]: #averageduration
 #### [averageDuration]
 Hardware transaction status average duration.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -62,7 +65,8 @@ Hardware transaction status average duration.
 [friendlyName]: #friendlyname
 #### [friendlyName]
 Transaction status friendly name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -72,7 +76,8 @@ Transaction status friendly name.
 [name]: #name
 #### [name]
 Transaction status name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -88,7 +93,8 @@ Transaction status name.
 [nonCompletedTransactions]: #noncompletedtransactions
 #### [nonCompletedTransactions]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction[] </a>**  
+
 
 
 </div>
@@ -100,7 +106,8 @@ Transaction status name.
 [nonCompletedTransactionCount]: #noncompletedtransactioncount
 #### [nonCompletedTransactionCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

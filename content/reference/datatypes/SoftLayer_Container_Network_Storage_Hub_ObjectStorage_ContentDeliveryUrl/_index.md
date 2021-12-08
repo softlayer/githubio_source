@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Container_Network_Storage_Hub_ObjectStorage_ContentDeliveryUrl provides specific details is a container which contains the cdn urls associated with an object storage account 
 
 
@@ -55,7 +57,8 @@ SoftLayer_Container_Network_Storage_Hub_ObjectStorage_ContentDeliveryUrl provide
 [datacenter]: #datacenter
 #### [datacenter]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +68,8 @@ SoftLayer_Container_Network_Storage_Hub_ObjectStorage_ContentDeliveryUrl provide
 [flashUrl]: #flashurl
 #### [flashUrl]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +79,8 @@ SoftLayer_Container_Network_Storage_Hub_ObjectStorage_ContentDeliveryUrl provide
 [httpUrl]: #httpurl
 #### [httpUrl]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

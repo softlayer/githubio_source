@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Configuration definition group gives you details of the definition and allows extra functionality. 
 
 
@@ -47,7 +49,8 @@ Configuration definition group gives you details of the definition and allows ex
 [createDate]: #createdate
 #### [createDate]
 Created date  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -57,7 +60,8 @@ Created date
 [description]: #description
 #### [description]
 Internal Description of a definition group.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -67,7 +71,8 @@ Internal Description of a definition group.
 [id]: #id
 #### [id]
 Internal identifier of a definition group.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -77,7 +82,8 @@ Internal identifier of a definition group.
 [name]: #name
 #### [name]
 Internal Definition group name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -87,7 +93,8 @@ Internal Definition group name.
 [sortOrder]: #sortorder
 #### [sortOrder]
 Sort order  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -103,7 +110,8 @@ Sort order
 [parent]: #parent
 #### [parent]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition_Group'>SoftLayer_Configuration_Template_Section_Definition_Group </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition_Group'>SoftLayer_Configuration_Template_Section_Definition_Group </a>**  
+
 
 
 </div>

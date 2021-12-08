@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Software_Component](/reference/services/SoftLayer_Software_Component)::getPasswords
 
+
 Retrieve username/Password pairs used for access to this Software Installation.
 
 

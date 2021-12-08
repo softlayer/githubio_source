@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getMaximumExpansionSize
 
+
 Returns the maximum volume expansion size in GB.
 
 

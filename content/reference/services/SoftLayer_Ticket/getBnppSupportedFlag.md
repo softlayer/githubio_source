@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getBnppSupportedFlag
 
+
 Retrieve a ticket's associated BNPP compliant record
 
 

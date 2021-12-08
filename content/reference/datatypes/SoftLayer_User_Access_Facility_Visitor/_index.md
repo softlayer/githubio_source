@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This class represents a facility visitor that is not an active employee or customer.
 
 
@@ -45,7 +47,8 @@ This class represents a facility visitor that is not an active employee or custo
 [companyName]: #companyname
 #### [companyName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ This class represents a facility visitor that is not an active employee or custo
 [firstName]: #firstname
 #### [firstName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ This class represents a facility visitor that is not an active employee or custo
 [lastName]: #lastname
 #### [lastName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ This class represents a facility visitor that is not an active employee or custo
 [typeId]: #typeid
 #### [typeId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ This class represents a facility visitor that is not an active employee or custo
 [visitorType]: #visitortype
 #### [visitorType]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Access_Facility_Visitor_Type'>SoftLayer_User_Access_Facility_Visitor_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Access_Facility_Visitor_Type'>SoftLayer_User_Access_Facility_Visitor_Type </a>**  
+
 
 
 </div>

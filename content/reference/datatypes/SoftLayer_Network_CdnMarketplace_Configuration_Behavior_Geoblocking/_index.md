@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [accessType]: #accesstype
 #### [accessType]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ classes:
 [regionType]: #regiontype
 #### [regionType]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ classes:
 [regions]: #regions
 #### [regions]
   
-<span class="type-label">Type: </span>**array of strings**
+<span class="type-label">Type: </span>**array of strings**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ classes:
 [status]: #status
 #### [status]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

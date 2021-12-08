@@ -16,6 +16,7 @@ aliases:
 ---
 # [SoftLayer_Software_Component_AntivirusSpyware](/reference/services/SoftLayer_Software_Component_AntivirusSpyware)::updateAntivirusSpywarePolicy
 
+
 Update an anti-virus/spyware policy.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getCurrentBandwidthSummary
 
+
 Retrieve an object that provides commonly used bandwidth summary components for the current billing cycle.
 
 

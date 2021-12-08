@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Allowed_Host_Subnet](/reference/services/SoftLayer_Network_Storage_Allowed_Host_Subnet)::getObject
 
+
 Retrieve a SoftLayer_Network_Storage_Allowed_Host_Subnet record.
 
 

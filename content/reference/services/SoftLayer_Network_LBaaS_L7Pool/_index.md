@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,17 +44,20 @@ classes:
 
 #### [createL7Pool](/reference/services/SoftLayer_Network_LBaaS_L7Pool/createL7Pool)
 create L7 pools
+
 </div>
 
 <div class="method-row">
 
 #### [deleteObject](/reference/services/SoftLayer_Network_LBaaS_L7Pool/deleteObject)
 deletes L7 pools
+
 </div>
 
 <div class="method-row">
 
 #### [getL7HealthMonitor](/reference/services/SoftLayer_Network_LBaaS_L7Pool/getL7HealthMonitor)
+
 
 </div>
 
@@ -60,11 +65,13 @@ deletes L7 pools
 
 #### [getL7Members](/reference/services/SoftLayer_Network_LBaaS_L7Pool/getL7Members)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getL7Policies](/reference/services/SoftLayer_Network_LBaaS_L7Pool/getL7Policies)
+
 
 </div>
 
@@ -72,11 +79,13 @@ deletes L7 pools
 
 #### [getL7PoolMemberHealth](/reference/services/SoftLayer_Network_LBaaS_L7Pool/getL7PoolMemberHealth)
 Return load balancer's all L7 pools members health
+
 </div>
 
 <div class="method-row">
 
 #### [getL7SessionAffinity](/reference/services/SoftLayer_Network_LBaaS_L7Pool/getL7SessionAffinity)
+
 
 </div>
 
@@ -84,12 +93,14 @@ Return load balancer's all L7 pools members health
 
 #### [getObject](/reference/services/SoftLayer_Network_LBaaS_L7Pool/getObject)
 Retrieve a SoftLayer_Network_LBaaS_L7Pool record.
+
 </div>
 
 <div class="method-row">
 
 #### [updateL7Pool](/reference/services/SoftLayer_Network_LBaaS_L7Pool/updateL7Pool)
 updates L7 pools
+
 </div>
 </div>
 

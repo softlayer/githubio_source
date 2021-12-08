@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_Subnet_IpAddress data type contains general information relating to a single SoftLayer IPv6 address. 
 
 ### External Links
@@ -71,7 +73,8 @@ The SoftLayer_Network_Subnet_IpAddress data type contains general information re
 [id]: #id
 #### [id]
 An IP's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -81,7 +84,8 @@ An IP's internal identifier.
 [ipAddress]: #ipaddress
 #### [ipAddress]
 An IP address expressed in dotted quad format.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -91,7 +95,8 @@ An IP address expressed in dotted quad format.
 [isBroadcast]: #isbroadcast
 #### [isBroadcast]
 Indicates if an IP address is reserved to be used as the network broadcast address and cannot be assigned to a network interface   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -101,7 +106,8 @@ Indicates if an IP address is reserved to be used as the network broadcast addre
 [isGateway]: #isgateway
 #### [isGateway]
 Indicates if an IP address is reserved to a gateway and cannot be assigned to a network interface   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -111,7 +117,8 @@ Indicates if an IP address is reserved to a gateway and cannot be assigned to a 
 [isNetwork]: #isnetwork
 #### [isNetwork]
 Indicates if an IP address is reserved to a network address and cannot be assigned to a network interface   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -121,7 +128,8 @@ Indicates if an IP address is reserved to a network address and cannot be assign
 [isReserved]: #isreserved
 #### [isReserved]
 Indicates if an IP address is reserved and cannot be assigned to a network interface   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -131,7 +139,8 @@ Indicates if an IP address is reserved and cannot be assigned to a network inter
 [note]: #note
 #### [note]
 An IP address' user defined note.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -141,7 +150,8 @@ An IP address' user defined note.
 [subnetId]: #subnetid
 #### [subnetId]
 An IP address' subnet id.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -157,7 +167,8 @@ An IP address' subnet id.
 [allowedHost]: #allowedhost
 #### [allowedHost]
 The SoftLayer_Network_Storage_Allowed_Host information to connect this IP Address to Network Storage supporting access control lists.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Allowed_Host'>SoftLayer_Network_Storage_Allowed_Host </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Allowed_Host'>SoftLayer_Network_Storage_Allowed_Host </a>**  
+
 
 
 </div>
@@ -167,7 +178,8 @@ The SoftLayer_Network_Storage_Allowed_Host information to connect this IP Addres
 [allowedNetworkStorage]: #allowednetworkstorage
 #### [allowedNetworkStorage]
 The SoftLayer_Network_Storage objects that this SoftLayer_Hardware has access to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**  
+
 
 
 </div>
@@ -177,7 +189,8 @@ The SoftLayer_Network_Storage objects that this SoftLayer_Hardware has access to
 [allowedNetworkStorageReplicas]: #allowednetworkstoragereplicas
 #### [allowedNetworkStorageReplicas]
 The SoftLayer_Network_Storage objects whose Replica that this SoftLayer_Hardware has access to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**  
+
 
 
 </div>
@@ -187,7 +200,8 @@ The SoftLayer_Network_Storage objects whose Replica that this SoftLayer_Hardware
 [applicationDeliveryController]: #applicationdeliverycontroller
 #### [applicationDeliveryController]
 The application delivery controller using this address.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller'>SoftLayer_Network_Application_Delivery_Controller </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller'>SoftLayer_Network_Application_Delivery_Controller </a>**  
+
 
 
 </div>
@@ -197,7 +211,8 @@ The application delivery controller using this address.
 [contextTunnelTranslations]: #contexttunneltranslations
 #### [contextTunnelTranslations]
 An IPSec network tunnel's address translations. These translations use a SoftLayer ip address from an assigned static NAT subnet to deliver the packets to the remote (customer) destination.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Tunnel_Module_Context_Address_Translation'>SoftLayer_Network_Tunnel_Module_Context_Address_Translation[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Tunnel_Module_Context_Address_Translation'>SoftLayer_Network_Tunnel_Module_Context_Address_Translation[] </a>**  
+
 
 
 </div>
@@ -207,7 +222,8 @@ An IPSec network tunnel's address translations. These translations use a SoftLay
 [endpointSubnets]: #endpointsubnets
 #### [endpointSubnets]
 All the subnets routed to an IP address.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**  
+
 
 
 </div>
@@ -217,7 +233,8 @@ All the subnets routed to an IP address.
 [guestNetworkComponent]: #guestnetworkcomponent
 #### [guestNetworkComponent]
 A network component that is statically routed to an IP address.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Network_Component'>SoftLayer_Virtual_Guest_Network_Component </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Network_Component'>SoftLayer_Virtual_Guest_Network_Component </a>**  
+
 
 
 </div>
@@ -227,7 +244,8 @@ A network component that is statically routed to an IP address.
 [guestNetworkComponentBinding]: #guestnetworkcomponentbinding
 #### [guestNetworkComponentBinding]
 A network component that is statically routed to an IP address.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Network_Component_IpAddress'>SoftLayer_Virtual_Guest_Network_Component_IpAddress </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Network_Component_IpAddress'>SoftLayer_Virtual_Guest_Network_Component_IpAddress </a>**  
+
 
 
 </div>
@@ -237,7 +255,8 @@ A network component that is statically routed to an IP address.
 [hardware]: #hardware
 #### [hardware]
 The hardware that this IP address is routed to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**  
+
 
 
 </div>
@@ -247,7 +266,8 @@ The hardware that this IP address is routed to.
 [networkComponent]: #networkcomponent
 #### [networkComponent]
 A network component that is statically routed to an IP address.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>**  
+
 
 
 </div>
@@ -257,7 +277,8 @@ A network component that is statically routed to an IP address.
 [privateNetworkGateway]: #privatenetworkgateway
 #### [privateNetworkGateway]
 The network gateway appliance using this address as the private IP address.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Gateway'>SoftLayer_Network_Gateway </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Gateway'>SoftLayer_Network_Gateway </a>**  
+
 
 
 </div>
@@ -267,7 +288,8 @@ The network gateway appliance using this address as the private IP address.
 [protectionAddress]: #protectionaddress
 #### [protectionAddress]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Protection_Address'>SoftLayer_Network_Protection_Address[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Protection_Address'>SoftLayer_Network_Protection_Address[] </a>**  
+
 
 
 </div>
@@ -277,7 +299,8 @@ The network gateway appliance using this address as the private IP address.
 [publicNetworkGateway]: #publicnetworkgateway
 #### [publicNetworkGateway]
 The network gateway appliance using this address as the public IP address.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Gateway'>SoftLayer_Network_Gateway </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Gateway'>SoftLayer_Network_Gateway </a>**  
+
 
 
 </div>
@@ -287,7 +310,8 @@ The network gateway appliance using this address as the public IP address.
 [publicVersion6NetworkGateway]: #publicversion6networkgateway
 #### [publicVersion6NetworkGateway]
 The network gateway appliance using this address as the public IPv6 address.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Gateway'>SoftLayer_Network_Gateway </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Gateway'>SoftLayer_Network_Gateway </a>**  
+
 
 
 </div>
@@ -297,7 +321,8 @@ The network gateway appliance using this address as the public IPv6 address.
 [remoteManagementNetworkComponent]: #remotemanagementnetworkcomponent
 #### [remoteManagementNetworkComponent]
 An IPMI-based management network component of the IP address.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>**  
+
 
 
 </div>
@@ -307,7 +332,8 @@ An IPMI-based management network component of the IP address.
 [subnet]: #subnet
 #### [subnet]
 An IP address' associated subnet.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>**  
+
 
 
 </div>
@@ -317,7 +343,8 @@ An IP address' associated subnet.
 [syslogEventsOneDay]: #syslogeventsoneday
 #### [syslogEventsOneDay]
 All events for this IP address stored in the datacenter syslogs from the last 24 hours  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Logging_Syslog'>SoftLayer_Network_Logging_Syslog[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Logging_Syslog'>SoftLayer_Network_Logging_Syslog[] </a>**  
+
 
 
 </div>
@@ -327,7 +354,8 @@ All events for this IP address stored in the datacenter syslogs from the last 24
 [syslogEventsSevenDays]: #syslogeventssevendays
 #### [syslogEventsSevenDays]
 All events for this IP address stored in the datacenter syslogs from the last 7 days  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Logging_Syslog'>SoftLayer_Network_Logging_Syslog[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Logging_Syslog'>SoftLayer_Network_Logging_Syslog[] </a>**  
+
 
 
 </div>
@@ -337,7 +365,8 @@ All events for this IP address stored in the datacenter syslogs from the last 7 
 [topTenSyslogEventsByDestinationPortOneDay]: #toptensyslogeventsbydestinationportoneday
 #### [topTenSyslogEventsByDestinationPortOneDay]
 Top Ten network datacenter syslog events, grouped by destination port, for the last 24 hours  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Logging_Syslog'>SoftLayer_Network_Logging_Syslog[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Logging_Syslog'>SoftLayer_Network_Logging_Syslog[] </a>**  
+
 
 
 </div>
@@ -347,7 +376,8 @@ Top Ten network datacenter syslog events, grouped by destination port, for the l
 [topTenSyslogEventsByDestinationPortSevenDays]: #toptensyslogeventsbydestinationportsevendays
 #### [topTenSyslogEventsByDestinationPortSevenDays]
 Top Ten network datacenter syslog events, grouped by destination port, for the last 7 days  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Logging_Syslog'>SoftLayer_Network_Logging_Syslog[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Logging_Syslog'>SoftLayer_Network_Logging_Syslog[] </a>**  
+
 
 
 </div>
@@ -357,7 +387,8 @@ Top Ten network datacenter syslog events, grouped by destination port, for the l
 [topTenSyslogEventsByProtocolsOneDay]: #toptensyslogeventsbyprotocolsoneday
 #### [topTenSyslogEventsByProtocolsOneDay]
 Top Ten network datacenter syslog events, grouped by source port, for the last 24 hours  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Logging_Syslog'>SoftLayer_Network_Logging_Syslog[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Logging_Syslog'>SoftLayer_Network_Logging_Syslog[] </a>**  
+
 
 
 </div>
@@ -367,7 +398,8 @@ Top Ten network datacenter syslog events, grouped by source port, for the last 2
 [topTenSyslogEventsByProtocolsSevenDays]: #toptensyslogeventsbyprotocolssevendays
 #### [topTenSyslogEventsByProtocolsSevenDays]
 Top Ten network datacenter syslog events, grouped by source port, for the last 7 days  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Logging_Syslog'>SoftLayer_Network_Logging_Syslog[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Logging_Syslog'>SoftLayer_Network_Logging_Syslog[] </a>**  
+
 
 
 </div>
@@ -377,7 +409,8 @@ Top Ten network datacenter syslog events, grouped by source port, for the last 7
 [topTenSyslogEventsBySourceIpOneDay]: #toptensyslogeventsbysourceiponeday
 #### [topTenSyslogEventsBySourceIpOneDay]
 Top Ten network datacenter syslog events, grouped by source ip address, for the last 24 hours  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Logging_Syslog'>SoftLayer_Network_Logging_Syslog[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Logging_Syslog'>SoftLayer_Network_Logging_Syslog[] </a>**  
+
 
 
 </div>
@@ -387,7 +420,8 @@ Top Ten network datacenter syslog events, grouped by source ip address, for the 
 [topTenSyslogEventsBySourceIpSevenDays]: #toptensyslogeventsbysourceipsevendays
 #### [topTenSyslogEventsBySourceIpSevenDays]
 Top Ten network datacenter syslog events, grouped by source ip address, for the last 7 days  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Logging_Syslog'>SoftLayer_Network_Logging_Syslog[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Logging_Syslog'>SoftLayer_Network_Logging_Syslog[] </a>**  
+
 
 
 </div>
@@ -397,7 +431,8 @@ Top Ten network datacenter syslog events, grouped by source ip address, for the 
 [topTenSyslogEventsBySourcePortOneDay]: #toptensyslogeventsbysourceportoneday
 #### [topTenSyslogEventsBySourcePortOneDay]
 Top Ten network datacenter syslog events, grouped by source port, for the last 24 hours  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Logging_Syslog'>SoftLayer_Network_Logging_Syslog[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Logging_Syslog'>SoftLayer_Network_Logging_Syslog[] </a>**  
+
 
 
 </div>
@@ -407,7 +442,8 @@ Top Ten network datacenter syslog events, grouped by source port, for the last 2
 [topTenSyslogEventsBySourcePortSevenDays]: #toptensyslogeventsbysourceportsevendays
 #### [topTenSyslogEventsBySourcePortSevenDays]
 Top Ten network datacenter syslog events, grouped by source port, for the last 7 days  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Logging_Syslog'>SoftLayer_Network_Logging_Syslog[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Logging_Syslog'>SoftLayer_Network_Logging_Syslog[] </a>**  
+
 
 
 </div>
@@ -417,7 +453,8 @@ Top Ten network datacenter syslog events, grouped by source port, for the last 7
 [virtualGuest]: #virtualguest
 #### [virtualGuest]
 A virtual guest that this IP address is routed to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**  
+
 
 
 </div>
@@ -427,7 +464,8 @@ A virtual guest that this IP address is routed to.
 [virtualLicenses]: #virtuallicenses
 #### [virtualLicenses]
 Virtual licenses allocated for an IP Address.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_VirtualLicense'>SoftLayer_Software_VirtualLicense[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_VirtualLicense'>SoftLayer_Software_VirtualLicense[] </a>**  
+
 
 
 </div>
@@ -439,7 +477,8 @@ Virtual licenses allocated for an IP Address.
 [allowedNetworkStorageCount]: #allowednetworkstoragecount
 #### [allowedNetworkStorageCount]
 A count of the SoftLayer_Network_Storage objects that this SoftLayer_Hardware has access to.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -449,7 +488,8 @@ A count of the SoftLayer_Network_Storage objects that this SoftLayer_Hardware ha
 [allowedNetworkStorageReplicaCount]: #allowednetworkstoragereplicacount
 #### [allowedNetworkStorageReplicaCount]
 A count of the SoftLayer_Network_Storage objects whose Replica that this SoftLayer_Hardware has access to.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -459,7 +499,8 @@ A count of the SoftLayer_Network_Storage objects whose Replica that this SoftLay
 [contextTunnelTranslationCount]: #contexttunneltranslationcount
 #### [contextTunnelTranslationCount]
 A count of an IPSec network tunnel's address translations. These translations use a SoftLayer ip address from an assigned static NAT subnet to deliver the packets to the remote (customer) destination.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -469,7 +510,8 @@ A count of an IPSec network tunnel's address translations. These translations us
 [endpointSubnetCount]: #endpointsubnetcount
 #### [endpointSubnetCount]
 A count of all the subnets routed to an IP address.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -479,7 +521,8 @@ A count of all the subnets routed to an IP address.
 [protectionAddressCount]: #protectionaddresscount
 #### [protectionAddressCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -489,7 +532,8 @@ A count of
 [syslogEventsOneDayCount]: #syslogeventsonedaycount
 #### [syslogEventsOneDayCount]
 A count of all events for this IP address stored in the datacenter syslogs from the last 24 hours   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -499,7 +543,8 @@ A count of all events for this IP address stored in the datacenter syslogs from 
 [syslogEventsSevenDayCount]: #syslogeventssevendaycount
 #### [syslogEventsSevenDayCount]
 A count of all events for this IP address stored in the datacenter syslogs from the last 7 days   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -509,7 +554,8 @@ A count of all events for this IP address stored in the datacenter syslogs from 
 [topTenSyslogEventsByDestinationPortOneDayCount]: #toptensyslogeventsbydestinationportonedaycount
 #### [topTenSyslogEventsByDestinationPortOneDayCount]
 A count of top Ten network datacenter syslog events, grouped by destination port, for the last 24 hours   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -519,7 +565,8 @@ A count of top Ten network datacenter syslog events, grouped by destination port
 [topTenSyslogEventsByDestinationPortSevenDayCount]: #toptensyslogeventsbydestinationportsevendaycount
 #### [topTenSyslogEventsByDestinationPortSevenDayCount]
 A count of top Ten network datacenter syslog events, grouped by destination port, for the last 7 days   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -529,7 +576,8 @@ A count of top Ten network datacenter syslog events, grouped by destination port
 [topTenSyslogEventsByProtocolsOneDayCount]: #toptensyslogeventsbyprotocolsonedaycount
 #### [topTenSyslogEventsByProtocolsOneDayCount]
 A count of top Ten network datacenter syslog events, grouped by source port, for the last 24 hours   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -539,7 +587,8 @@ A count of top Ten network datacenter syslog events, grouped by source port, for
 [topTenSyslogEventsByProtocolsSevenDayCount]: #toptensyslogeventsbyprotocolssevendaycount
 #### [topTenSyslogEventsByProtocolsSevenDayCount]
 A count of top Ten network datacenter syslog events, grouped by source port, for the last 7 days   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -549,7 +598,8 @@ A count of top Ten network datacenter syslog events, grouped by source port, for
 [topTenSyslogEventsBySourceIpOneDayCount]: #toptensyslogeventsbysourceiponedaycount
 #### [topTenSyslogEventsBySourceIpOneDayCount]
 A count of top Ten network datacenter syslog events, grouped by source ip address, for the last 24 hours   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -559,7 +609,8 @@ A count of top Ten network datacenter syslog events, grouped by source ip addres
 [topTenSyslogEventsBySourceIpSevenDayCount]: #toptensyslogeventsbysourceipsevendaycount
 #### [topTenSyslogEventsBySourceIpSevenDayCount]
 A count of top Ten network datacenter syslog events, grouped by source ip address, for the last 7 days   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -569,7 +620,8 @@ A count of top Ten network datacenter syslog events, grouped by source ip addres
 [topTenSyslogEventsBySourcePortOneDayCount]: #toptensyslogeventsbysourceportonedaycount
 #### [topTenSyslogEventsBySourcePortOneDayCount]
 A count of top Ten network datacenter syslog events, grouped by source port, for the last 24 hours   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -579,7 +631,8 @@ A count of top Ten network datacenter syslog events, grouped by source port, for
 [topTenSyslogEventsBySourcePortSevenDayCount]: #toptensyslogeventsbysourceportsevendaycount
 #### [topTenSyslogEventsBySourcePortSevenDayCount]
 A count of top Ten network datacenter syslog events, grouped by source port, for the last 7 days   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -589,7 +642,8 @@ A count of top Ten network datacenter syslog events, grouped by source port, for
 [virtualLicenseCount]: #virtuallicensecount
 #### [virtualLicenseCount]
 A count of virtual licenses allocated for an IP Address.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

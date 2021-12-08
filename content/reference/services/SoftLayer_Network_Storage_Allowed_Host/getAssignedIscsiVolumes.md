@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Allowed_Host](/reference/services/SoftLayer_Network_Storage_Allowed_Host)::getAssignedIscsiVolumes
 
+
 Retrieve the SoftLayer_Network_Storage volumes to which this SoftLayer_Network_Storage_Allowed_Host is allowed access.
 
 

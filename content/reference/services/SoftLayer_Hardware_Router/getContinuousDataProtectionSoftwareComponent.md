@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getContinuousDataProtectionSoftwareComponent
 
+
 Retrieve a continuous data protection/server backup software component object.
 
 

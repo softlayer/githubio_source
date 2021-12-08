@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This class represents the mobile operating system installed on a user's registered mobile device. It assists us when determining the how to get a push notification to the user. 
 
 
@@ -45,7 +47,8 @@ This class represents the mobile operating system installed on a user's register
 [buildVersion]: #buildversion
 #### [buildVersion]
 Build revision number of the operating system.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Build revision number of the operating system.
 [createDate]: #createdate
 #### [createDate]
 Create date of the record.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Create date of the record.
 [description]: #description
 #### [description]
 Description of the mobile operating system..  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Description of the mobile operating system..
 [id]: #id
 #### [id]
 Indentifier for the record.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Indentifier for the record.
 [majorVersion]: #majorversion
 #### [majorVersion]
 Major revision number of the operating system.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ Major revision number of the operating system.
 [minorVersion]: #minorversion
 #### [minorVersion]
 Minor revision number of the operating system.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ Minor revision number of the operating system.
 [modifyDate]: #modifydate
 #### [modifyDate]
 Modify date of the record.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ Modify date of the record.
 [name]: #name
 #### [name]
 Name of the mobile operating system.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

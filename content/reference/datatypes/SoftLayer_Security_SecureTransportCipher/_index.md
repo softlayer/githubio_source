@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Encryption algorithm intended for use in SSL/TLS communications
 
 
@@ -50,7 +52,8 @@ Encryption algorithm intended for use in SSL/TLS communications
 [keyName]: #keyname
 #### [keyName]
 Unique identifier for the encryption algorithm  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

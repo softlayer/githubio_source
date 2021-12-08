@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Group](/reference/services/SoftLayer_Network_Storage_Group)::getServiceResource
 
+
 Retrieve the network resource this group is created on.
 
 

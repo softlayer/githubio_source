@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 This service is used to order an implementation of Citrix Virtual Apps and Desktops running on IBM Cloud 
 
 
@@ -42,23 +44,27 @@ This service is used to order an implementation of Citrix Virtual Apps and Deskt
 
 #### [cancelWorkspaceResources](/reference/services/SoftLayer_Workload_Citrix_Workspace_Order/cancelWorkspaceResources)
 Cancel the orders associated with resources on the provided VLAN
+
 </div>
 
 <div class="method-row">
 
 #### [getWorkspaceNames](/reference/services/SoftLayer_Workload_Citrix_Workspace_Order/getWorkspaceNames)
 Get a list of all VLAN names which have 'cvad' tags associated with them.
+
 </div>
 
 <div class="method-row">
 
 #### [getWorkspaceResources](/reference/services/SoftLayer_Workload_Citrix_Workspace_Order/getWorkspaceResources)
 List the orders associated with resources on the provided VLAN
+
 </div>
 
 <div class="method-row">
 
 #### [placeWorkspaceOrder](/reference/services/SoftLayer_Workload_Citrix_Workspace_Order/placeWorkspaceOrder)
+
 
 </div>
 
@@ -66,6 +72,7 @@ List the orders associated with resources on the provided VLAN
 
 #### [verifyWorkspaceOrder](/reference/services/SoftLayer_Workload_Citrix_Workspace_Order/verifyWorkspaceOrder)
 Verify that an order may be successfully placed with the details provided.
+
 </div>
 </div>
 

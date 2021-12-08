@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,11 +44,13 @@ classes:
 
 #### [createHotlinkProtection](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_HotlinkProtection/createHotlinkProtection)
 
+
 </div>
 
 <div class="method-row">
 
 #### [deleteHotlinkProtection](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_HotlinkProtection/deleteHotlinkProtection)
+
 
 </div>
 
@@ -54,17 +58,20 @@ classes:
 
 #### [getHotlinkProtection](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_HotlinkProtection/getHotlinkProtection)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_HotlinkProtection/getObject)
 Retrieve a SoftLayer_Network_CdnMarketplace_Configuration_Behavior_HotlinkProtection record.
+
 </div>
 
 <div class="method-row">
 
 #### [updateHotlinkProtection](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_HotlinkProtection/updateHotlinkProtection)
+
 
 </div>
 </div>

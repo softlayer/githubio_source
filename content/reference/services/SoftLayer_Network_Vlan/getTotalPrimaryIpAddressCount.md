@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getTotalPrimaryIpAddressCount
 
+
 Retrieve the number of primary IP addresses in a VLAN.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getPendingInvoiceTotalAmount
 
+
 Retrieve the total amount of an account's pending invoice, if one exists.
 
 

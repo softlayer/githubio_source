@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getExecutiveSummaryPdf
 
+
 This method provides an executive summary PDF for managed hosting services. 
 
 

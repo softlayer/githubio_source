@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Dns_Domain_ResourceRecord](/reference/services/SoftLayer_Dns_Domain_ResourceRecord)::deleteObjects
 
+
 Delete multiple resource records from a domain.
 
 

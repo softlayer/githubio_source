@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect_TrustedProfile](/reference/services/SoftLayer_User_Customer_OpenIdConnect_TrustedProfile)::removeDedicatedHostAccess
 
+
 Revoke access for the user to a single dedicated hosts device.
 
 

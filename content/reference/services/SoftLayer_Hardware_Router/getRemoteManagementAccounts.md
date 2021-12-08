@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getRemoteManagementAccounts
 
+
 Retrieve user credentials to issue commands and/or interact with the server's remote management card.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getMetricTrackingObject
 
+
 Retrieve the metric tracking object for this network component.
 
 

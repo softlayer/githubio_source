@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,6 +44,7 @@ classes:
 
 #### [getObject](/reference/services/SoftLayer_Metric_Tracking_Object_Bandwidth_Summary/getObject)
 Retrieve a SoftLayer_Metric_Tracking_Object_Bandwidth_Summary record.
+
 </div>
 </div>
 

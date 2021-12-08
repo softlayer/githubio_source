@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getMappedAccounts
 
+
 Retrieve a list of all the accounts that belong to this customer.
 
 

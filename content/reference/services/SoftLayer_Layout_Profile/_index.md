@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 Layout profiles are the primary object used to tie customized portal experiences to the [SoftLayer_User_Customer]({{<ref "reference/datatypes/SoftLayer_User_Customer">}}). 
 
 In order to take full advantage of the flexible customization of the portal, each user must be given one or more layout profiles. Each layout profile is then assigned one of the [SoftLayer_Layout_Container]({{<ref "reference/datatypes/SoftLayer_Layout_Container">}}) method, giving the user their own customized configuration. 
@@ -58,23 +60,27 @@ In order to take full advantage of the flexible customization of the portal, eac
 
 #### [createObject](/reference/services/SoftLayer_Layout_Profile/createObject)
 Create a new layout profile
+
 </div>
 
 <div class="method-row">
 
 #### [deleteObject](/reference/services/SoftLayer_Layout_Profile/deleteObject)
 Delete a layout profile
+
 </div>
 
 <div class="method-row">
 
 #### [editObject](/reference/services/SoftLayer_Layout_Profile/editObject)
 Edit the layout profile object
+
 </div>
 
 <div class="method-row">
 
 #### [getLayoutContainers](/reference/services/SoftLayer_Layout_Profile/getLayoutContainers)
+
 
 </div>
 
@@ -82,24 +88,28 @@ Edit the layout profile object
 
 #### [getLayoutPreferences](/reference/services/SoftLayer_Layout_Profile/getLayoutPreferences)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Layout_Profile/getObject)
 Retrieve a SoftLayer_Layout_Profile record.
+
 </div>
 
 <div class="method-row">
 
 #### [modifyPreference](/reference/services/SoftLayer_Layout_Profile/modifyPreference)
 Modifies an associated layout preference
+
 </div>
 
 <div class="method-row">
 
 #### [modifyPreferences](/reference/services/SoftLayer_Layout_Profile/modifyPreferences)
 Modifies a collection of associated preferences
+
 </div>
 </div>
 

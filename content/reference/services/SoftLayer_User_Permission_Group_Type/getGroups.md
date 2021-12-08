@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Permission_Group_Type](/reference/services/SoftLayer_User_Permission_Group_Type)::getGroups
 
+
 Retrieve the groups that are of this type.
 
 

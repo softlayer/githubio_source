@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getFixedConfigurationPreset
 
+
 Retrieve defines the fixed components in a fixed configuration bare metal server.
 
 

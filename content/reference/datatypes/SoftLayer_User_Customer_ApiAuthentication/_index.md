@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_User_Customer_ApiAuthentication type contains user's authentication key(s). 
 
 
@@ -56,7 +58,8 @@ The SoftLayer_User_Customer_ApiAuthentication type contains user's authenticatio
 [authenticationKey]: #authenticationkey
 #### [authenticationKey]
 The user's authentication key for API access.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -66,7 +69,8 @@ The user's authentication key for API access.
 [id]: #id
 #### [id]
 The user's API authentication identifying number.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -76,7 +80,8 @@ The user's API authentication identifying number.
 [ipAddressRestriction]: #ipaddressrestriction
 #### [ipAddressRestriction]
 The IP addresses or IP ranges from which this user may access the SoftLayer API. Specify subnets in CIDR format and separate multiple addresses and subnets by commas. You may combine IPv4 and IPv6 addresses and subnets, for example: 192.168.0.0/16,fe80:021b::0/64.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -86,7 +91,8 @@ The IP addresses or IP ranges from which this user may access the SoftLayer API.
 [timestampKey]: #timestampkey
 #### [timestampKey]
 The user's authentication key modification date.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -96,7 +102,8 @@ The user's authentication key modification date.
 [userId]: #userid
 #### [userId]
 The user's identifying number.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -112,7 +119,8 @@ The user's identifying number.
 [user]: #user
 #### [user]
 The user who owns the api authentication key.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**  
+
 
 
 </div>

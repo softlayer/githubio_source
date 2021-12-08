@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::updateFirewallIntraVlanCommunication
 
+
 Update a VLAN's firewall to allow or disallow intra-VLAN communication.
 
 

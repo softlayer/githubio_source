@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Shipment](/reference/services/SoftLayer_Account_Shipment)::getOriginationAddress
 
+
 Retrieve the address from which the shipment is sent.
 
 

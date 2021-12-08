@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,24 +44,28 @@ classes:
 
 #### [getAccount](/reference/services/SoftLayer_Account_Authentication_Attribute/getAccount)
 Retrieve the SoftLayer customer account.
+
 </div>
 
 <div class="method-row">
 
 #### [getAuthenticationRecord](/reference/services/SoftLayer_Account_Authentication_Attribute/getAuthenticationRecord)
 Retrieve the SoftLayer account authentication that has an attribute.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Account_Authentication_Attribute/getObject)
 Retrieve a SoftLayer_Account_Authentication_Attribute record.
+
 </div>
 
 <div class="method-row">
 
 #### [getType](/reference/services/SoftLayer_Account_Authentication_Attribute/getType)
 Retrieve the type of attribute assigned to a SoftLayer account authentication.
+
 </div>
 </div>
 

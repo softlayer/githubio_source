@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getDownlinkServers
 
+
 Retrieve information regarding all servers attached to a piece of network hardware.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Scale_LoadBalancer](/reference/services/SoftLayer_Scale_LoadBalancer)::getHealthCheck
 
+
 Retrieve the health check for this configuration.
 
 

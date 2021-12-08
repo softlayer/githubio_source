@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The McAfee_Epolicy_Orchestrator_Version45_Hips_Event_Signature_Version7 data type contains the signature name of a rule that generated an IPS event.
 
 
@@ -45,7 +47,8 @@ The McAfee_Epolicy_Orchestrator_Version45_Hips_Event_Signature_Version7 data typ
 [signatureName]: #signaturename
 #### [signatureName]
 The name of a rule that triggered an IPS event.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

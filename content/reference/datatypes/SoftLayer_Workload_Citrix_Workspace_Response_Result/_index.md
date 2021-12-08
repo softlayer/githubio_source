@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [items]: #items
 #### [items]
 identification and operation result for each item  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Workload_Citrix_Workspace_Response'>SoftLayer_Workload_Citrix_Workspace_Response[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Workload_Citrix_Workspace_Response'>SoftLayer_Workload_Citrix_Workspace_Response[] </a>**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ identification and operation result for each item
 [messageId]: #messageid
 #### [messageId]
 messageId associated with any error  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ messageId associated with any error
 [status]: #status
 #### [status]
 status of service methods  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ status of service methods
 [statusMessage]: #statusmessage
 #### [statusMessage]
 status message  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

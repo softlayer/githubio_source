@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Item_Policy_Assignment](/reference/services/SoftLayer_Product_Item_Policy_Assignment)::getPolicyDocumentContents
 
+
 Retrieve the binary content of the policy document.
 
 

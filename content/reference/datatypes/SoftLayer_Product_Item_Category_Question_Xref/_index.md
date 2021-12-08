@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Product_Item_Category_Question_Xref data type represents a link between an item category and an item category question.  It also contains a 'required' field that designates if the question is required to be answered for the given item category. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Product_Item_Category_Question_Xref data type represents a link be
 [id]: #id
 #### [id]
 Identifier for category question xref record.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Identifier for category question xref record.
 [itemCategoryId]: #itemcategoryid
 #### [itemCategoryId]
 Identifier for item category.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Identifier for item category.
 [locationId]: #locationid
 #### [locationId]
 Identifier for the question.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Identifier for the question.
 [questionId]: #questionid
 #### [questionId]
 Identifier for the question.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Identifier for the question.
 [required]: #required
 #### [required]
 Flag to indicate whether an answer is required for the question..  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ Flag to indicate whether an answer is required for the question..
 [itemCategory]: #itemcategory
 #### [itemCategory]
 The product item category that this reference points to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category </a>**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ The product item category that this reference points to.
 [question]: #question
 #### [question]
 The item category question that this reference points to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category_Question'>SoftLayer_Product_Item_Category_Question </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category_Question'>SoftLayer_Product_Item_Category_Question </a>**  
+
 
 
 </div>

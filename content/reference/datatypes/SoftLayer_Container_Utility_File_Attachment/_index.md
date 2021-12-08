@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 At times,such as when attaching files to tickets, it is necessary to send files to SoftLayer API methods. The SoftLayer_Container_Utility_File_Attachment data type models a single file to upload to the API. 
 
 
@@ -50,7 +52,8 @@ At times,such as when attaching files to tickets, it is necessary to send files 
 [data]: #data
 #### [data]
 The contents of a file that is uploaded to the SoftLayer API.  
-<span class="type-label">Type: </span>**binary data**
+<span class="type-label">Type: </span>**binary data**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ The contents of a file that is uploaded to the SoftLayer API.
 [filename]: #filename
 #### [filename]
 The name of a file that is uploaded to the SoftLayer API.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

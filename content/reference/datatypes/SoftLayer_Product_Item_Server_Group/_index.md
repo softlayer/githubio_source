@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Product_Item_Server_Group data type details the type of compute service a [SoftLayer_Product_Item]({{<ref "reference/datatypes/SoftLayer_Product_Item">}}) belongs to. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Product_Item_Server_Group data type details the type of compute se
 [keyName]: #keyname
 #### [keyName]
 The server group's string identifier  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The server group's string identifier
 [name]: #name
 #### [name]
 The server group's friendly name  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

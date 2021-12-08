@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Allowed_Host_VirtualGuest](/reference/services/SoftLayer_Network_Storage_Allowed_Host_VirtualGuest)::getResource
 
+
 Retrieve the SoftLayer_Virtual_Guest object which this SoftLayer_Network_Storage_Allowed_Host is referencing.
 
 

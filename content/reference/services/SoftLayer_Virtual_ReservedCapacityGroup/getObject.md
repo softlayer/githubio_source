@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_ReservedCapacityGroup](/reference/services/SoftLayer_Virtual_ReservedCapacityGroup)::getObject
 
+
 Retrieve a SoftLayer_Virtual_ReservedCapacityGroup record.
 
 

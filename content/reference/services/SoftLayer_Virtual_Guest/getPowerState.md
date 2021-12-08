@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getPowerState
 
+
 Retrieve the current power state of a virtual guest.
 
 

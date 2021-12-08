@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Permission_Action](/reference/services/SoftLayer_User_Permission_Action)::getAllObjects
 
+
 Retrieve all customer permission actions in IMS.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Software_VirtualLicense](/reference/services/SoftLayer_Software_VirtualLicense)::getObject
 
+
 Retrieve a SoftLayer_Software_VirtualLicense record.
 
 

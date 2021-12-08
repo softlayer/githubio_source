@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -47,7 +49,8 @@ classes:
 The date a ssh key was added. 
 
 This property is read only. Changes made will be silently ignored.   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -59,7 +62,8 @@ This property is read only. Changes made will be silently ignored.
 A short sequence of bytes used to authenticate or lookup a longer ssh key. This will automatically be generated upon adding or modifying the ssh key. 
 
 This property is read only. Changes made will be silently ignored.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -69,7 +73,8 @@ This property is read only. Changes made will be silently ignored.
 [id]: #id
 #### [id]
 The ID of the ssh key record.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -79,7 +84,8 @@ The ID of the ssh key record.
 [key]: #key
 #### [key]
 The ssh key.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -89,7 +95,8 @@ The ssh key.
 [label]: #label
 #### [label]
 A descriptive name used to identify a ssh key.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ A descriptive name used to identify a ssh key.
 The date a ssh key was last modified. 
 
 This property is read only. Changes made will be silently ignored.   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ This property is read only. Changes made will be silently ignored.
 [notes]: #notes
 #### [notes]
 A small note about a ssh key to use at your discretion.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -127,7 +136,8 @@ A small note about a ssh key to use at your discretion.
 [account]: #account
 #### [account]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -137,7 +147,8 @@ A small note about a ssh key to use at your discretion.
 [blockDeviceTemplateGroups]: #blockdevicetemplategroups
 #### [blockDeviceTemplateGroups]
 The image template groups that are linked to an SSH key.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group'>SoftLayer_Virtual_Guest_Block_Device_Template_Group[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group'>SoftLayer_Virtual_Guest_Block_Device_Template_Group[] </a>**  
+
 
 
 </div>
@@ -147,7 +158,8 @@ The image template groups that are linked to an SSH key.
 [softwarePasswords]: #softwarepasswords
 #### [softwarePasswords]
 The OS root users that are linked to an SSH key.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component_Password'>SoftLayer_Software_Component_Password[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component_Password'>SoftLayer_Software_Component_Password[] </a>**  
+
 
 
 </div>
@@ -159,7 +171,8 @@ The OS root users that are linked to an SSH key.
 [blockDeviceTemplateGroupCount]: #blockdevicetemplategroupcount
 #### [blockDeviceTemplateGroupCount]
 A count of the image template groups that are linked to an SSH key.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -169,7 +182,8 @@ A count of the image template groups that are linked to an SSH key.
 [softwarePasswordCount]: #softwarepasswordcount
 #### [softwarePasswordCount]
 A count of the OS root users that are linked to an SSH key.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

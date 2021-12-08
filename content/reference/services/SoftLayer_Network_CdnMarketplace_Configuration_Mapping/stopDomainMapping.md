@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_CdnMarketplace_Configuration_Mapping](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Mapping)::stopDomainMapping
 
+
 SOAP API will stop CDN mapping for a particular customer. 
 
 

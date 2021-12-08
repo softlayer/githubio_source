@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_LBaaS_L7Policy](/reference/services/SoftLayer_Network_LBaaS_L7Policy)::deleteObject
 
+
 Deletes a l7 policy instance and the rules associated with the policy
 
 

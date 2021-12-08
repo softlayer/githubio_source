@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item_Virtual_DedicatedHost](/reference/services/SoftLayer_Billing_Item_Virtual_DedicatedHost)::getNonZeroNextInvoiceChildren
 
+
 Retrieve a Billing Item's associated child billing items, excluding ALL items with a $0.00 recurring fee.
 
 

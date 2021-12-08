@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This represents one order item in a tax calculation. 
 
 
@@ -45,7 +47,8 @@ This represents one order item in a tax calculation.
 [categoryCode]: #categorycode
 #### [categoryCode]
 The category code for the referenced product.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The category code for the referenced product.
 [containerHash]: #containerhash
 #### [containerHash]
 This hash will match to the hash on an order container.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ This hash will match to the hash on an order container.
 [itemPriceId]: #itempriceid
 #### [itemPriceId]
 The reference to the price for this order item.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The reference to the price for this order item.
 [taxRates]: #taxrates
 #### [taxRates]
 This is the container containing the individual tax rates.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Tax_Rates'>SoftLayer_Container_Tax_Rates </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Tax_Rates'>SoftLayer_Container_Tax_Rates </a>**  
+
 
 
 </div>

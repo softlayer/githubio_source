@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Metric_Tracking_Object](/reference/services/SoftLayer_Metric_Tracking_Object)::getDetailsForDateRange
 
+
 Retrieve metric detail data over a date range.
 
 

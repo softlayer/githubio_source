@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Configuration_Template_Section_Reference data type contains information of a configuration section and its associated configuration template. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Configuration_Template_Section_Reference data type contains inform
 [createDate]: #createdate
 #### [createDate]
 Created date  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Created date
 [id]: #id
 #### [id]
 Internal identifier of a configuration section reference.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Internal identifier of a configuration section reference.
 [modifyDate]: #modifydate
 #### [modifyDate]
 Modified date  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Modified date
 [sectionId]: #sectionid
 #### [sectionId]
 Internal identifier of a configuration section.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Internal identifier of a configuration section.
 [templateId]: #templateid
 #### [templateId]
 Internal identifier of a configuration template.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ Internal identifier of a configuration template.
 [section]: #section
 #### [section]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section'>SoftLayer_Configuration_Template_Section </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section'>SoftLayer_Configuration_Template_Section </a>**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ Internal identifier of a configuration template.
 [template]: #template
 #### [template]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template'>SoftLayer_Configuration_Template </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template'>SoftLayer_Configuration_Template </a>**  
+
 
 
 </div>

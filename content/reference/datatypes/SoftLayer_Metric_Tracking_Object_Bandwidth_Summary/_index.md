@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This data type provides commonly used bandwidth summary components for the current billing cycle. 
 
 
@@ -45,7 +47,8 @@ This data type provides commonly used bandwidth summary components for the curre
 [allocationAmount]: #allocationamount
 #### [allocationAmount]
 This is the amount of bandwidth (measured in gigabytes) allocated for this tracking object.   
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ This is the amount of bandwidth (measured in gigabytes) allocated for this track
 [allocationId]: #allocationid
 #### [allocationId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ This is the amount of bandwidth (measured in gigabytes) allocated for this track
 [amountOut]: #amountout
 #### [amountOut]
 The amount of outbound bandwidth (measured in gigabytes) currently used this billing period. Same as $outboundBandwidthAmount. Aliased for backward compatability.   
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The amount of outbound bandwidth (measured in gigabytes) currently used this bil
 [averageDailyUsage]: #averagedailyusage
 #### [averageDailyUsage]
 The daily average amount of outbound bandwidth usage.   
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The daily average amount of outbound bandwidth usage.
 [currentlyOverAllocationFlag]: #currentlyoverallocationflag
 #### [currentlyOverAllocationFlag]
 A flag that tells whether or not this tracking object's bandwidth usage is already over the allocation. 1 means yes, 0 means no.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ A flag that tells whether or not this tracking object's bandwidth usage is alrea
 [id]: #id
 #### [id]
 The metric tracking id for this resource.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The metric tracking id for this resource.
 [outboundBandwidthAmount]: #outboundbandwidthamount
 #### [outboundBandwidthAmount]
 The amount of outbound bandwidth (measured in gigabytes) currently used this billing period   
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ The amount of outbound bandwidth (measured in gigabytes) currently used this bil
 [projectedBandwidthUsage]: #projectedbandwidthusage
 #### [projectedBandwidthUsage]
 The amount of bandwidth (measured in gigabytes) of projected usage, using a basic average calculation of daily usage.   
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ The amount of bandwidth (measured in gigabytes) of projected usage, using a basi
 [projectedOverAllocationFlag]: #projectedoverallocationflag
 #### [projectedOverAllocationFlag]
 A flag that tells whether or not this tracking object's bandwidth usage is projected to go over the allocation, based on daily average usage. 1 means yes, 0 means no.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

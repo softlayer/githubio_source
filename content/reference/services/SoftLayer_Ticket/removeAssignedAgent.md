@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::removeAssignedAgent
 
+
 Remove an assigned agent from a ticket.
 
 

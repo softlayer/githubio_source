@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Affiliation](/reference/services/SoftLayer_Account_Affiliation)::getAccountAffiliationsByAffiliateId
 
+
 Get account affiliation information associated with affiliate id.
 
 

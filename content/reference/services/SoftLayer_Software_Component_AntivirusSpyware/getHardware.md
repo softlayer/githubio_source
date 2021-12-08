@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Software_Component_AntivirusSpyware](/reference/services/SoftLayer_Software_Component_AntivirusSpyware)::getHardware
 
+
 Retrieve the hardware this Software Component is installed upon.
 
 

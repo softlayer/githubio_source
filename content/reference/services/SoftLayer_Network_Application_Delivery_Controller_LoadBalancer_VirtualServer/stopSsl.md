@@ -13,6 +13,8 @@ aliases:
 ---
 # [SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualServer](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualServer)::stopSsl
 
+<div class="deprecated"><span class="deprecation-label">Deprecated </span></div>
+
 
 
 

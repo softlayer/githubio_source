@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Marketplace_Partner](/reference/services/SoftLayer_Marketplace_Partner)::getObject
 
+
 Retrieve a SoftLayer_Marketplace_Partner record.
 
 

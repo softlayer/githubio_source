@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Brand_Restriction_Location_CustomerCountry](/reference/services/SoftLayer_Brand_Restriction_Location_CustomerCountry)::getObject
 
+
 Retrieve a SoftLayer_Brand_Restriction_Location_CustomerCountry record.
 
 

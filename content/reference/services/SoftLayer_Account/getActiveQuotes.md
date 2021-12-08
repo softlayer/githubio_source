@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getActiveQuotes
 
+
 Retrieve an account's non-expired quotes.
 
 

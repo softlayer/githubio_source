@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getAvailableMonitoring
 
+
 Retrieve an object that stores the maximum level for the monitoring query types and response types.
 
 

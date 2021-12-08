@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This container data type contains the extended attribute name that is required by an extended attribute option. 
 
 
@@ -50,7 +52,8 @@ This container data type contains the extended attribute name that is required b
 [name]: #name
 #### [name]
 The name of an extended attribute that is required by an extended attribute option.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

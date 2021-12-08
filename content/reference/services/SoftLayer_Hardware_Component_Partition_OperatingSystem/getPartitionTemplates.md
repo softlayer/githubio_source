@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Component_Partition_OperatingSystem](/reference/services/SoftLayer_Hardware_Component_Partition_OperatingSystem)::getPartitionTemplates
 
+
 Retrieve information regarding an operating system's [SoftLayer_Hardware_Component_Partition_Template]({{<ref "reference/datatypes/SoftLayer_Hardware_Component_Partition_Template">}}).
 
 

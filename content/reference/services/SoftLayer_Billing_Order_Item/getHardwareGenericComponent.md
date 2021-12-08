@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Order_Item](/reference/services/SoftLayer_Billing_Order_Item)::getHardwareGenericComponent
 
+
 Retrieve the component type tied to an order item. All hardware-specific items should have a generic hardware component.
 
 

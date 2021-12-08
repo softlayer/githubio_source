@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Network_LBaaS_LoadBalancerHealthMonitorConfiguration specifies the check method to be used for health monitoring backend members. 
 
 
@@ -45,7 +47,8 @@ SoftLayer_Network_LBaaS_LoadBalancerHealthMonitorConfiguration specifies the che
 [backendPort]: #backendport
 #### [backendPort]
 Backends port  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Backends port
 [backendProtocol]: #backendprotocol
 #### [backendProtocol]
 Backends protocol. Valid values are "TCP", "HTTP"   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Backends protocol. Valid values are "TCP", "HTTP"
 [healthMonitorUuid]: #healthmonitoruuid
 #### [healthMonitorUuid]
 Health Monitor UUID, required for update only  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Health Monitor UUID, required for update only
 [interval]: #interval
 #### [interval]
 <<< EOT Interval in seconds to perform  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Health Monitor UUID, required for update only
 [maxRetries]: #maxretries
 #### [maxRetries]
 Max number of retries until the member is considered as DOWN   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ Max number of retries until the member is considered as DOWN
 [timeout]: #timeout
 #### [timeout]
 Health check methods timeout in  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ Health check methods timeout in
 [urlPath]: #urlpath
 #### [urlPath]
 If monitor is "HTTP", this specifies URL path  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

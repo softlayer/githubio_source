@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getPendingMaintenanceActions
 
+
 Returns a list of all the pending maintenance actions affecting this guest. 
 
 

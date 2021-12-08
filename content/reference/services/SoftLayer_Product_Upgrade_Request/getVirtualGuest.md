@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Upgrade_Request](/reference/services/SoftLayer_Product_Upgrade_Request)::getVirtualGuest
 
+
 Retrieve a virtual server object associated with the upgrade request if any.
 
 

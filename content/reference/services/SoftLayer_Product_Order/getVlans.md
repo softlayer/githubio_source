@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Order](/reference/services/SoftLayer_Product_Order)::getVlans
 
+
 Get the VLANs that are available during ordering
 
 

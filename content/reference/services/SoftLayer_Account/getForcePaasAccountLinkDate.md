@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getForcePaasAccountLinkDate
 
+
 Retrieve timestamp representing the point in time when an account is required to link with PaaS.
 
 

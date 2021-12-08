@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_Storage_History contains the username/password past history for Storage services except Evault. Information such as the username, passwords, notes and the date of the password change may be retrieved. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Network_Storage_History contains the username/password past histor
 [createDate]: #createdate
 #### [createDate]
 Date the password was changed.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Date the password was changed.
 [notes]: #notes
 #### [notes]
 Past notes for the Storage service.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Past notes for the Storage service.
 [password]: #password
 #### [password]
 Password for the Storage service that was used in the past.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Password for the Storage service that was used in the past.
 [username]: #username
 #### [username]
 Username for the Storage service.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ Username for the Storage service.
 [account]: #account
 #### [account]
 The account that the Storage services belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ The account that the Storage services belongs to.
 [nasVolume]: #nasvolume
 #### [nasVolume]
 The Storage service that the password history belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a>**  
+
 
 
 </div>

@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [id]: #id
 #### [id]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ classes:
 [name]: #name
 #### [name]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ classes:
 [firewallContextAccessControlLists]: #firewallcontextaccesscontrollists
 #### [firewallContextAccessControlLists]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Firewall_AccessControlList'>SoftLayer_Network_Firewall_AccessControlList[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Firewall_AccessControlList'>SoftLayer_Network_Firewall_AccessControlList[] </a>**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ classes:
 [networkVlan]: #networkvlan
 #### [networkVlan]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a>**  
+
 
 
 </div>
@@ -93,7 +99,8 @@ classes:
 [firewallContextAccessControlListCount]: #firewallcontextaccesscontrollistcount
 #### [firewallContextAccessControlListCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

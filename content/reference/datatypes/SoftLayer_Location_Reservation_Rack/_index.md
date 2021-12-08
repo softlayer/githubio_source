@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [locationId]: #locationid
 #### [locationId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ classes:
 [locationReservationId]: #locationreservationid
 #### [locationReservationId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ classes:
 [networkConnectionCapacity]: #networkconnectioncapacity
 #### [networkConnectionCapacity]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ classes:
 [networkConnectionReservation]: #networkconnectionreservation
 #### [networkConnectionReservation]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ classes:
 [powerConnectionCapacity]: #powerconnectioncapacity
 #### [powerConnectionCapacity]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ classes:
 [powerConnectionReservation]: #powerconnectionreservation
 #### [powerConnectionReservation]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ classes:
 [slotCapacity]: #slotcapacity
 #### [slotCapacity]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ classes:
 [slotReservation]: #slotreservation
 #### [slotReservation]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ classes:
 [allotment]: #allotment
 #### [allotment]
 The bandwidth allotment that the reservation belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment'>SoftLayer_Network_Bandwidth_Version1_Allotment </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment'>SoftLayer_Network_Bandwidth_Version1_Allotment </a>**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ The bandwidth allotment that the reservation belongs to.
 [children]: #children
 #### [children]
 Members of the rack.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Reservation_Rack_Member'>SoftLayer_Location_Reservation_Rack_Member[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Reservation_Rack_Member'>SoftLayer_Location_Reservation_Rack_Member[] </a>**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ Members of the rack.
 [location]: #location
 #### [location]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ Members of the rack.
 [locationReservation]: #locationreservation
 #### [locationReservation]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Reservation'>SoftLayer_Location_Reservation </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Reservation'>SoftLayer_Location_Reservation </a>**  
+
 
 
 </div>
@@ -173,7 +187,8 @@ Members of the rack.
 [childrenCount]: #childrencount
 #### [childrenCount]
 A count of members of the rack.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

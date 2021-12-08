@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [detectionPath]: #detectionpath
 #### [detectionPath]
 The detectionPath is used by CDN edge servers to find the best optimized route from edge to the origin server. The Akamai edge servers fetch the test object from the origin to know the network condition to your origin server, and then calculate the best optimized route with the network condition. The best path to origin must be known at the time a user’s request arrives at an edge server, since any in-line analysis or probing would defeat the purpose of speeding things up.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -57,7 +60,8 @@ The detectionPath is used by CDN edge servers to find the best optimized route f
 Serving compressed images reduces the amount of content required to load a page. This feature helps offset less robust connections, such as those formed with mobile devices. Basically, if your site visitors have slow network speeds, MobileImageCompression technology can automatically increase compression of JPEG images to speed up loading. On the other hand, this feature results in lossy compression or irreversible compression, and may affect the quality of the images on your site. 
 
 JPG supported file extensions: .jpg, .jpeg, .jpe, .jig, .jgig, .jgi The default is enabled.   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ Inspects HTML responses and prefetches embedded objects in HTML files. Prefetchi
 aif, aiff, au, avi, bin, bmp, cab, carb, cct, cdf, class, css, doc, dcr, dtd, exe, flv, gcf, gff, gif, grv, hdml, hqx, ico, ini, jpeg, jpg, js, mov, mp3, nc, pct, pdf, png, ppc, pws, swa, swf, txt, vbs, w32, wav, wbmp, wml, wmlc, wmls, wmlsc, xsd, and zip. 
 
 The default is enabled.   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>

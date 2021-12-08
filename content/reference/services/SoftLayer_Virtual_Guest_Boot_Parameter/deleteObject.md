@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest_Boot_Parameter](/reference/services/SoftLayer_Virtual_Guest_Boot_Parameter)::deleteObject
 
+
 Removes a boot parameter
 
 

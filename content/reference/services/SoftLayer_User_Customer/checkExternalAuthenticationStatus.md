@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::checkExternalAuthenticationStatus
 
+
 Checks if an external authentication is complete or not
 
 

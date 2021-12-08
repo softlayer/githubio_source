@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getDependentDuplicate
 
+
 Retrieve whether or not a network storage volume is a dependent duplicate.
 
 

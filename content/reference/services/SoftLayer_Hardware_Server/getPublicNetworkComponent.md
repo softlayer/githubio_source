@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getPublicNetworkComponent
 
+
 Retrieve a server's public network component.
 
 

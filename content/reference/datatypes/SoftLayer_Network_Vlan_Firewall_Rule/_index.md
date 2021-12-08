@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 A SoftLayer_Network_Component_Firewall_Rule object type represents a currently running firewall rule and contains relative information. Use the [[SoftLayer Network Firewall Update Request]] service to submit a firewall update request. Use the [[SoftLayer Network Firewall Template]] service to pull SoftLayer recommended rule set templates. 
 
 ### External Links
@@ -51,7 +53,8 @@ A SoftLayer_Network_Component_Firewall_Rule object type represents a currently r
 [action]: #action
 #### [action]
 The action that the rule is to take [permit or deny].  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -61,7 +64,8 @@ The action that the rule is to take [permit or deny].
 [destinationIpAddress]: #destinationipaddress
 #### [destinationIpAddress]
 The destination IP address considered for determining rule application.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ The destination IP address considered for determining rule application.
 [destinationIpCidr]: #destinationipcidr
 #### [destinationIpCidr]
 The CIDR is used for determining rule application. This value will  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ The CIDR is used for determining rule application. This value will
 [destinationIpSubnetMask]: #destinationipsubnetmask
 #### [destinationIpSubnetMask]
 The destination IP subnet mask considered for determining rule application.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ The destination IP subnet mask considered for determining rule application.
 [destinationPortRangeEnd]: #destinationportrangeend
 #### [destinationPortRangeEnd]
 The ending (upper end of range) destination port considered for determining rule application.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ The ending (upper end of range) destination port considered for determining rule
 [destinationPortRangeStart]: #destinationportrangestart
 #### [destinationPortRangeStart]
 The starting (lower end of range) destination port considered for determining rule application.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ The starting (lower end of range) destination port considered for determining ru
 [id]: #id
 #### [id]
 The rule's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ The rule's internal identifier.
 [notes]: #notes
 #### [notes]
 The notes field for the rule.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ The notes field for the rule.
 [orderValue]: #ordervalue
 #### [orderValue]
 The numeric value describing the order in which the rule should be applied.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ The numeric value describing the order in which the rule should be applied.
 [protocol]: #protocol
 #### [protocol]
 The protocol considered for determining rule application.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ The protocol considered for determining rule application.
 [sourceIpAddress]: #sourceipaddress
 #### [sourceIpAddress]
 The source IP address considered for determining rule application.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ The source IP address considered for determining rule application.
 [sourceIpCidr]: #sourceipcidr
 #### [sourceIpCidr]
 The CIDR is used for determining rule application. This value will  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -171,7 +185,8 @@ The CIDR is used for determining rule application. This value will
 [sourceIpSubnetMask]: #sourceipsubnetmask
 #### [sourceIpSubnetMask]
 The source IP subnet mask considered for determining rule application.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -181,7 +196,8 @@ The source IP subnet mask considered for determining rule application.
 [status]: #status
 #### [status]
 Current status of the network component firewall.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -191,7 +207,8 @@ Current status of the network component firewall.
 [version]: #version
 #### [version]
 Whether this rule is an IPv4 rule or an IPv6 rule. If  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -207,7 +224,8 @@ Whether this rule is an IPv4 rule or an IPv6 rule. If
 [networkComponentFirewall]: #networkcomponentfirewall
 #### [networkComponentFirewall]
 The network component firewall that this rule belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component_Firewall'>SoftLayer_Network_Component_Firewall </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component_Firewall'>SoftLayer_Network_Component_Firewall </a>**  
+
 
 
 </div>

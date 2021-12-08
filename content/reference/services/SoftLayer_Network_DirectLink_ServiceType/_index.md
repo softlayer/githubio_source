@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 The SoftLayer_Network_DirectLink_ServiceType service allows users to create, update, delete, get details of a Direct Link Service Type and retrieve all existing details. Service Types can be EXCHANGE, NSP, COLO or CONNECT 
 
 
@@ -42,6 +44,7 @@ The SoftLayer_Network_DirectLink_ServiceType service allows users to create, upd
 
 #### [getObject](/reference/services/SoftLayer_Network_DirectLink_ServiceType/getObject)
 Retrieve a SoftLayer_Network_DirectLink_ServiceType record.
+
 </div>
 </div>
 

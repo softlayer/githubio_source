@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Firewall_Update_Request](/reference/services/SoftLayer_Network_Firewall_Update_Request)::getFirewallUpdateRequestRuleAttributes
 
+
 Get the possible attribute values for a firewall update request rule.
 
 

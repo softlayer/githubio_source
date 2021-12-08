@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getMemory
 
+
 Retrieve information regarding a piece of hardware's memory.
 
 

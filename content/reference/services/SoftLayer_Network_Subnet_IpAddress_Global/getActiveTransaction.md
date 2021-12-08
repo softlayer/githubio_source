@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet_IpAddress_Global](/reference/services/SoftLayer_Network_Subnet_IpAddress_Global)::getActiveTransaction
 
+
 Retrieval: DEPRECATED
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getOrderedPackageId
 
+
 Retrieve the original package id provided with the order for a Cloud Computing Instance.
 
 

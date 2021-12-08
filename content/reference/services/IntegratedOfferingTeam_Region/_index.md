@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 This class represents an Integrated Offering Team region. 
 
 
@@ -42,11 +44,13 @@ This class represents an Integrated Offering Team region.
 
 #### [getAllObjects](/reference/services/IntegratedOfferingTeam_Region/getAllObjects)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getRegionLeads](/reference/services/IntegratedOfferingTeam_Region/getRegionLeads)
+
 
 </div>
 </div>

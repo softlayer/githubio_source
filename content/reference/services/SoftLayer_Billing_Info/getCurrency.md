@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Info](/reference/services/SoftLayer_Billing_Info)::getCurrency
 
+
 Retrieve currency to be used by this customer account.
 
 

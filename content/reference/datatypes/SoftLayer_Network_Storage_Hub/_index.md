@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_Storage_Hub data type models Virtual Server type Storage storage offerings. 
 
 
@@ -59,7 +61,8 @@ The SoftLayer_Network_Storage_Hub data type models Virtual Server type Storage s
 [accountId]: #accountid
 #### [accountId]
 The internal identifier of the SoftLayer customer account that a Storage account belongs to.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -69,7 +72,8 @@ The internal identifier of the SoftLayer customer account that a Storage account
 [capacityGb]: #capacitygb
 #### [capacityGb]
 A Storage account's capacity, measured in gigabytes.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -79,7 +83,8 @@ A Storage account's capacity, measured in gigabytes.
 [createDate]: #createdate
 #### [createDate]
 The date a network storage volume was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -89,7 +94,8 @@ The date a network storage volume was created.
 [guestId]: #guestid
 #### [guestId]
 The unique identification number of the guest associated with a Storage volume.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -99,7 +105,8 @@ The unique identification number of the guest associated with a Storage volume.
 [hardwareId]: #hardwareid
 #### [hardwareId]
 The server that is associated with a Storage service.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -109,7 +116,8 @@ The server that is associated with a Storage service.
 [hostId]: #hostid
 #### [hostId]
 The unique identification number of the host associated with a Storage volume.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -119,7 +127,8 @@ The unique identification number of the host associated with a Storage volume.
 [id]: #id
 #### [id]
 A Storage account's unique identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -129,7 +138,8 @@ A Storage account's unique identifier.
 [nasType]: #nastype
 #### [nasType]
 A Storage account's type. Valid examples are "NAS", "LOCKBOX", "ISCSI", "EVAULT", and "HUB".   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -139,7 +149,8 @@ A Storage account's type. Valid examples are "NAS", "LOCKBOX", "ISCSI", "EVAULT"
 [notes]: #notes
 #### [notes]
 Public notes related to a Storage volume.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -149,7 +160,8 @@ Public notes related to a Storage volume.
 [password]: #password
 #### [password]
 The password used to access a non-EVault Storage volume. This password is used to register the EVault server agent with the vault backup system.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -159,7 +171,8 @@ The password used to access a non-EVault Storage volume. This password is used t
 [serviceProviderId]: #serviceproviderid
 #### [serviceProviderId]
 Service Provider ID   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -169,7 +182,8 @@ Service Provider ID
 [storageTypeId]: #storagetypeid
 #### [storageTypeId]
 A storage object's type.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -179,7 +193,8 @@ A storage object's type.
 [upgradableFlag]: #upgradableflag
 #### [upgradableFlag]
 This flag indicates whether this storage type is upgradable or not.   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -189,7 +204,8 @@ This flag indicates whether this storage type is upgradable or not.
 [username]: #username
 #### [username]
 The username used to access a non-EVault Storage volume. This username is used to register the EVault server agent with the vault backup system.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -205,7 +221,8 @@ The username used to access a non-EVault Storage volume. This username is used t
 [account]: #account
 #### [account]
 The account that a Storage services belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -215,7 +232,8 @@ The account that a Storage services belongs to.
 [accountPassword]: #accountpassword
 #### [accountPassword]
 Other usernames and passwords associated with a Storage volume.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Password'>SoftLayer_Account_Password </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Password'>SoftLayer_Account_Password </a>**  
+
 
 
 </div>
@@ -225,7 +243,8 @@ Other usernames and passwords associated with a Storage volume.
 [activeTransactions]: #activetransactions
 #### [activeTransactions]
 The currently active transactions on a network storage volume.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction[] </a>**  
+
 
 
 </div>
@@ -235,7 +254,8 @@ The currently active transactions on a network storage volume.
 [allowDisasterRecoveryFailback]: #allowdisasterrecoveryfailback
 #### [allowDisasterRecoveryFailback]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -245,7 +265,8 @@ The currently active transactions on a network storage volume.
 [allowDisasterRecoveryFailover]: #allowdisasterrecoveryfailover
 #### [allowDisasterRecoveryFailover]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -255,7 +276,8 @@ The currently active transactions on a network storage volume.
 [allowedHardware]: #allowedhardware
 #### [allowedHardware]
 The SoftLayer_Hardware objects which are allowed access to this storage volume.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**  
+
 
 
 </div>
@@ -265,7 +287,8 @@ The SoftLayer_Hardware objects which are allowed access to this storage volume.
 [allowedIpAddresses]: #allowedipaddresses
 #### [allowedIpAddresses]
 The SoftLayer_Network_Subnet_IpAddress objects which are allowed access to this storage volume.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress[] </a>**  
+
 
 
 </div>
@@ -275,7 +298,8 @@ The SoftLayer_Network_Subnet_IpAddress objects which are allowed access to this 
 [allowedReplicationHardware]: #allowedreplicationhardware
 #### [allowedReplicationHardware]
 The SoftLayer_Hardware objects which are allowed access to this storage volume's Replicant.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**  
+
 
 
 </div>
@@ -285,7 +309,8 @@ The SoftLayer_Hardware objects which are allowed access to this storage volume's
 [allowedReplicationIpAddresses]: #allowedreplicationipaddresses
 #### [allowedReplicationIpAddresses]
 The SoftLayer_Network_Subnet_IpAddress objects which are allowed access to this storage volume's Replicant.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress[] </a>**  
+
 
 
 </div>
@@ -295,7 +320,8 @@ The SoftLayer_Network_Subnet_IpAddress objects which are allowed access to this 
 [allowedReplicationSubnets]: #allowedreplicationsubnets
 #### [allowedReplicationSubnets]
 The SoftLayer_Network_Subnet objects which are allowed access to this storage volume's Replicant.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**  
+
 
 
 </div>
@@ -305,7 +331,8 @@ The SoftLayer_Network_Subnet objects which are allowed access to this storage vo
 [allowedReplicationVirtualGuests]: #allowedreplicationvirtualguests
 #### [allowedReplicationVirtualGuests]
 The SoftLayer_Hardware objects which are allowed access to this storage volume's Replicant.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**  
+
 
 
 </div>
@@ -315,7 +342,8 @@ The SoftLayer_Hardware objects which are allowed access to this storage volume's
 [allowedSubnets]: #allowedsubnets
 #### [allowedSubnets]
 The SoftLayer_Network_Subnet objects which are allowed access to this storage volume.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**  
+
 
 
 </div>
@@ -325,7 +353,8 @@ The SoftLayer_Network_Subnet objects which are allowed access to this storage vo
 [allowedVirtualGuests]: #allowedvirtualguests
 #### [allowedVirtualGuests]
 The SoftLayer_Virtual_Guest objects which are allowed access to this storage volume.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**  
+
 
 
 </div>
@@ -335,7 +364,8 @@ The SoftLayer_Virtual_Guest objects which are allowed access to this storage vol
 [bandwidthBillingItems]: #bandwidthbillingitems
 #### [bandwidthBillingItems]
 The billing items tied to a Storage service's bandwidth usage.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>**  
+
 
 
 </div>
@@ -345,7 +375,8 @@ The billing items tied to a Storage service's bandwidth usage.
 [billingItem]: #billingitem
 #### [billingItem]
 The current billing item for a Storage volume.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**  
+
 
 
 </div>
@@ -355,7 +386,8 @@ The current billing item for a Storage volume.
 [billingItemCategory]: #billingitemcategory
 #### [billingItemCategory]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category </a>**  
+
 
 
 </div>
@@ -365,7 +397,8 @@ The current billing item for a Storage volume.
 [bytesUsed]: #bytesused
 #### [bytesUsed]
 The amount of space used by the volume, in bytes.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -375,7 +408,8 @@ The amount of space used by the volume, in bytes.
 [creationScheduleId]: #creationscheduleid
 #### [creationScheduleId]
 The schedule id which was executed to create a snapshot.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -385,7 +419,8 @@ The schedule id which was executed to create a snapshot.
 [credentials]: #credentials
 #### [credentials]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Credential'>SoftLayer_Network_Storage_Credential[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Credential'>SoftLayer_Network_Storage_Credential[] </a>**  
+
 
 
 </div>
@@ -395,7 +430,8 @@ The schedule id which was executed to create a snapshot.
 [dailySchedule]: #dailyschedule
 #### [dailySchedule]
 The Daily Schedule which is associated with this network storage volume.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule'>SoftLayer_Network_Storage_Schedule </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule'>SoftLayer_Network_Storage_Schedule </a>**  
+
 
 
 </div>
@@ -405,7 +441,8 @@ The Daily Schedule which is associated with this network storage volume.
 [dependentDuplicate]: #dependentduplicate
 #### [dependentDuplicate]
 Whether or not a network storage volume is a dependent duplicate.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -415,7 +452,8 @@ Whether or not a network storage volume is a dependent duplicate.
 [dependentDuplicates]: #dependentduplicates
 #### [dependentDuplicates]
 The network storage volumes configured to be dependent duplicates of a volume.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**  
+
 
 
 </div>
@@ -425,7 +463,8 @@ The network storage volumes configured to be dependent duplicates of a volume.
 [events]: #events
 #### [events]
 The events which have taken place on a network storage volume.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Event'>SoftLayer_Network_Storage_Event[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Event'>SoftLayer_Network_Storage_Event[] </a>**  
+
 
 
 </div>
@@ -435,7 +474,8 @@ The events which have taken place on a network storage volume.
 [failbackNotAllowed]: #failbacknotallowed
 #### [failbackNotAllowed]
 Determines whether the volume is allowed to failback  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -445,7 +485,8 @@ Determines whether the volume is allowed to failback
 [failoverNotAllowed]: #failovernotallowed
 #### [failoverNotAllowed]
 Determines whether the volume is allowed to failover  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -455,7 +496,8 @@ Determines whether the volume is allowed to failover
 [fileNetworkMountAddress]: #filenetworkmountaddress
 #### [fileNetworkMountAddress]
 Retrieves the NFS Network Mount Address Name for a given File Storage Volume.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -465,7 +507,8 @@ Retrieves the NFS Network Mount Address Name for a given File Storage Volume.
 [hardware]: #hardware
 #### [hardware]
 When applicable, the hardware associated with a Storage service.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**  
+
 
 
 </div>
@@ -475,7 +518,8 @@ When applicable, the hardware associated with a Storage service.
 [hasEncryptionAtRest]: #hasencryptionatrest
 #### [hasEncryptionAtRest]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -485,7 +529,8 @@ When applicable, the hardware associated with a Storage service.
 [hourlySchedule]: #hourlyschedule
 #### [hourlySchedule]
 The Hourly Schedule which is associated with this network storage volume.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule'>SoftLayer_Network_Storage_Schedule </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule'>SoftLayer_Network_Storage_Schedule </a>**  
+
 
 
 </div>
@@ -495,7 +540,8 @@ The Hourly Schedule which is associated with this network storage volume.
 [intervalSchedule]: #intervalschedule
 #### [intervalSchedule]
 The Interval Schedule which is associated with this network storage volume.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule'>SoftLayer_Network_Storage_Schedule </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule'>SoftLayer_Network_Storage_Schedule </a>**  
+
 
 
 </div>
@@ -505,7 +551,8 @@ The Interval Schedule which is associated with this network storage volume.
 [iops]: #iops
 #### [iops]
 The maximum number of IOPs selected for this volume.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -515,7 +562,8 @@ The maximum number of IOPs selected for this volume.
 [isDependentDuplicateProvisionCompleted]: #isdependentduplicateprovisioncompleted
 #### [isDependentDuplicateProvisionCompleted]
 Determines whether dependent volume provision is completed on background.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -525,7 +573,8 @@ Determines whether dependent volume provision is completed on background.
 [isInDedicatedServiceResource]: #isindedicatedserviceresource
 #### [isInDedicatedServiceResource]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -535,7 +584,8 @@ Determines whether dependent volume provision is completed on background.
 [isMagneticStorage]: #ismagneticstorage
 #### [isMagneticStorage]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -545,7 +595,8 @@ Determines whether dependent volume provision is completed on background.
 [isReadyForSnapshot]: #isreadyforsnapshot
 #### [isReadyForSnapshot]
 Determines whether a volume is ready to order snapshot space, or, if snapshot space is already available, to assign a snapshot schedule, or to take a manual snapshot.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -555,7 +606,8 @@ Determines whether a volume is ready to order snapshot space, or, if snapshot sp
 [isReadyToMount]: #isreadytomount
 #### [isReadyToMount]
 Determines whether a volume is ready to have Hosts authorized to access it. This does not indicate whether another operation may be blocking, please refer to this volume's volumeStatus property for details.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -565,7 +617,8 @@ Determines whether a volume is ready to have Hosts authorized to access it. This
 [iscsiLuns]: #iscsiluns
 #### [iscsiLuns]
 Relationship between a container volume and iSCSI LUNs.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**  
+
 
 
 </div>
@@ -575,7 +628,8 @@ Relationship between a container volume and iSCSI LUNs.
 [iscsiTargetIpAddresses]: #iscsitargetipaddresses
 #### [iscsiTargetIpAddresses]
 Returns the target IP addresses of an iSCSI volume.  
-<span class="type-label">Type: </span>**array of strings**
+<span class="type-label">Type: </span>**array of strings**  
+
 
 
 </div>
@@ -585,7 +639,8 @@ Returns the target IP addresses of an iSCSI volume.
 [lunId]: #lunid
 #### [lunId]
 The ID of the LUN volume.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -595,7 +650,8 @@ The ID of the LUN volume.
 [manualSnapshots]: #manualsnapshots
 #### [manualSnapshots]
 The manually-created snapshots associated with this SoftLayer_Network_Storage volume. Does not support pagination by result limit and offset.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**  
+
 
 
 </div>
@@ -605,7 +661,8 @@ The manually-created snapshots associated with this SoftLayer_Network_Storage vo
 [metricTrackingObject]: #metrictrackingobject
 #### [metricTrackingObject]
 A network storage volume's metric tracking object. This object records all periodic polled data available to this volume.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object'>SoftLayer_Metric_Tracking_Object </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object'>SoftLayer_Metric_Tracking_Object </a>**  
+
 
 
 </div>
@@ -615,7 +672,8 @@ A network storage volume's metric tracking object. This object records all perio
 [mountPath]: #mountpath
 #### [mountPath]
 Retrieves the NFS Network Mount Path for a given File Storage Volume.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -625,7 +683,8 @@ Retrieves the NFS Network Mount Path for a given File Storage Volume.
 [mountableFlag]: #mountableflag
 #### [mountableFlag]
 Whether or not a network storage volume may be mounted.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -635,7 +694,8 @@ Whether or not a network storage volume may be mounted.
 [moveAndSplitStatus]: #moveandsplitstatus
 #### [moveAndSplitStatus]
 The current status of split or move operation as a part of volume duplication.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -645,7 +705,8 @@ The current status of split or move operation as a part of volume duplication.
 [notificationSubscribers]: #notificationsubscribers
 #### [notificationSubscribers]
 The subscribers that will be notified for usage amount warnings and overages.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_User_Subscriber'>SoftLayer_Notification_User_Subscriber[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_User_Subscriber'>SoftLayer_Notification_User_Subscriber[] </a>**  
+
 
 
 </div>
@@ -655,7 +716,8 @@ The subscribers that will be notified for usage amount warnings and overages.
 [originalSnapshotName]: #originalsnapshotname
 #### [originalSnapshotName]
 The name of the snapshot that this volume was duplicated from.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -665,7 +727,8 @@ The name of the snapshot that this volume was duplicated from.
 [originalVolumeName]: #originalvolumename
 #### [originalVolumeName]
 The name of the volume that this volume was duplicated from.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -675,7 +738,8 @@ The name of the volume that this volume was duplicated from.
 [originalVolumeSize]: #originalvolumesize
 #### [originalVolumeSize]
 The size (in GB) of the volume or LUN before any size expansion, or of the volume (before any possible size expansion) from which the duplicate volume or LUN was created.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -685,7 +749,8 @@ The size (in GB) of the volume or LUN before any size expansion, or of the volum
 [osType]: #ostype
 #### [osType]
 A volume's configured SoftLayer_Network_Storage_Iscsi_OS_Type.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Iscsi_OS_Type'>SoftLayer_Network_Storage_Iscsi_OS_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Iscsi_OS_Type'>SoftLayer_Network_Storage_Iscsi_OS_Type </a>**  
+
 
 
 </div>
@@ -695,7 +760,8 @@ A volume's configured SoftLayer_Network_Storage_Iscsi_OS_Type.
 [osTypeId]: #ostypeid
 #### [osTypeId]
 A volume's configured SoftLayer_Network_Storage_Iscsi_OS_Type ID.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -705,7 +771,8 @@ A volume's configured SoftLayer_Network_Storage_Iscsi_OS_Type ID.
 [parentPartnerships]: #parentpartnerships
 #### [parentPartnerships]
 The volumes or snapshots partnered with a network storage volume in a parental role.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Partnership'>SoftLayer_Network_Storage_Partnership[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Partnership'>SoftLayer_Network_Storage_Partnership[] </a>**  
+
 
 
 </div>
@@ -715,7 +782,8 @@ The volumes or snapshots partnered with a network storage volume in a parental r
 [parentVolume]: #parentvolume
 #### [parentVolume]
 The parent volume of a volume in a complex storage relationship.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a>**  
+
 
 
 </div>
@@ -725,7 +793,8 @@ The parent volume of a volume in a complex storage relationship.
 [partnerships]: #partnerships
 #### [partnerships]
 The volumes or snapshots partnered with a network storage volume.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Partnership'>SoftLayer_Network_Storage_Partnership[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Partnership'>SoftLayer_Network_Storage_Partnership[] </a>**  
+
 
 
 </div>
@@ -735,7 +804,8 @@ The volumes or snapshots partnered with a network storage volume.
 [permissionsGroups]: #permissionsgroups
 #### [permissionsGroups]
 All permissions group(s) this volume is in.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Group'>SoftLayer_Network_Storage_Group[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Group'>SoftLayer_Network_Storage_Group[] </a>**  
+
 
 
 </div>
@@ -745,7 +815,8 @@ All permissions group(s) this volume is in.
 [properties]: #properties
 #### [properties]
 The properties used to provide additional details about a network storage volume.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Property'>SoftLayer_Network_Storage_Property[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Property'>SoftLayer_Network_Storage_Property[] </a>**  
+
 
 
 </div>
@@ -755,7 +826,8 @@ The properties used to provide additional details about a network storage volume
 [provisionedIops]: #provisionediops
 #### [provisionedIops]
 The number of IOPs provisioned for this volume.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -765,7 +837,8 @@ The number of IOPs provisioned for this volume.
 [replicatingLuns]: #replicatingluns
 #### [replicatingLuns]
 The iSCSI LUN volumes being replicated by this network storage volume.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**  
+
 
 
 </div>
@@ -775,7 +848,8 @@ The iSCSI LUN volumes being replicated by this network storage volume.
 [replicatingVolume]: #replicatingvolume
 #### [replicatingVolume]
 The network storage volume being replicated by a volume.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a>**  
+
 
 
 </div>
@@ -785,7 +859,8 @@ The network storage volume being replicated by a volume.
 [replicationEvents]: #replicationevents
 #### [replicationEvents]
 The volume replication events.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Event'>SoftLayer_Network_Storage_Event[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Event'>SoftLayer_Network_Storage_Event[] </a>**  
+
 
 
 </div>
@@ -795,7 +870,8 @@ The volume replication events.
 [replicationPartners]: #replicationpartners
 #### [replicationPartners]
 The network storage volumes configured to be replicants of a volume.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**  
+
 
 
 </div>
@@ -805,7 +881,8 @@ The network storage volumes configured to be replicants of a volume.
 [replicationSchedule]: #replicationschedule
 #### [replicationSchedule]
 The Replication Schedule associated with a network storage volume.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule'>SoftLayer_Network_Storage_Schedule </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule'>SoftLayer_Network_Storage_Schedule </a>**  
+
 
 
 </div>
@@ -815,7 +892,8 @@ The Replication Schedule associated with a network storage volume.
 [replicationStatus]: #replicationstatus
 #### [replicationStatus]
 The current replication status of a network storage volume. Indicates Failover or Failback status.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -825,7 +903,8 @@ The current replication status of a network storage volume. Indicates Failover o
 [schedules]: #schedules
 #### [schedules]
 The schedules which are associated with a network storage volume.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule'>SoftLayer_Network_Storage_Schedule[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule'>SoftLayer_Network_Storage_Schedule[] </a>**  
+
 
 
 </div>
@@ -835,7 +914,8 @@ The schedules which are associated with a network storage volume.
 [serviceResource]: #serviceresource
 #### [serviceResource]
 The network resource a Storage service is connected to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Service_Resource'>SoftLayer_Network_Service_Resource </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Service_Resource'>SoftLayer_Network_Service_Resource </a>**  
+
 
 
 </div>
@@ -845,7 +925,8 @@ The network resource a Storage service is connected to.
 [serviceResourceBackendIpAddress]: #serviceresourcebackendipaddress
 #### [serviceResourceBackendIpAddress]
 The IP address of a Storage resource.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -855,7 +936,8 @@ The IP address of a Storage resource.
 [serviceResourceName]: #serviceresourcename
 #### [serviceResourceName]
 The name of a Storage's network resource.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -865,7 +947,8 @@ The name of a Storage's network resource.
 [snapshotCapacityGb]: #snapshotcapacitygb
 #### [snapshotCapacityGb]
 A volume's configured snapshot space size.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -875,7 +958,8 @@ A volume's configured snapshot space size.
 [snapshotCreationTimestamp]: #snapshotcreationtimestamp
 #### [snapshotCreationTimestamp]
 The creation timestamp of the snapshot on the storage platform.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -885,7 +969,8 @@ The creation timestamp of the snapshot on the storage platform.
 [snapshotDeletionThresholdPercentage]: #snapshotdeletionthresholdpercentage
 #### [snapshotDeletionThresholdPercentage]
 The percentage of used snapshot space after which to delete automated snapshots.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -895,7 +980,8 @@ The percentage of used snapshot space after which to delete automated snapshots.
 [snapshotNotificationStatus]: #snapshotnotificationstatus
 #### [snapshotNotificationStatus]
 Whether or not a network storage volume may be mounted.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -905,7 +991,8 @@ Whether or not a network storage volume may be mounted.
 [snapshotSizeBytes]: #snapshotsizebytes
 #### [snapshotSizeBytes]
 The snapshot size in bytes.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -915,7 +1002,8 @@ The snapshot size in bytes.
 [snapshotSpaceAvailable]: #snapshotspaceavailable
 #### [snapshotSpaceAvailable]
 A volume's available snapshot reservation space.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -925,7 +1013,8 @@ A volume's available snapshot reservation space.
 [snapshots]: #snapshots
 #### [snapshots]
 The snapshots associated with this SoftLayer_Network_Storage volume.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**  
+
 
 
 </div>
@@ -935,7 +1024,8 @@ The snapshots associated with this SoftLayer_Network_Storage volume.
 [staasVersion]: #staasversion
 #### [staasVersion]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -945,7 +1035,8 @@ The snapshots associated with this SoftLayer_Network_Storage volume.
 [storageGroups]: #storagegroups
 #### [storageGroups]
 The network storage groups this volume is attached to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Group'>SoftLayer_Network_Storage_Group[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Group'>SoftLayer_Network_Storage_Group[] </a>**  
+
 
 
 </div>
@@ -955,7 +1046,8 @@ The network storage groups this volume is attached to.
 [storageTierLevel]: #storagetierlevel
 #### [storageTierLevel]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -965,7 +1057,8 @@ The network storage groups this volume is attached to.
 [storageType]: #storagetype
 #### [storageType]
 A description of the Storage object.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Type'>SoftLayer_Network_Storage_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Type'>SoftLayer_Network_Storage_Type </a>**  
+
 
 
 </div>
@@ -975,7 +1068,8 @@ A description of the Storage object.
 [totalBytesUsed]: #totalbytesused
 #### [totalBytesUsed]
 The amount of space used by the volume.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -985,7 +1079,8 @@ The amount of space used by the volume.
 [totalScheduleSnapshotRetentionCount]: #totalschedulesnapshotretentioncount
 #### [totalScheduleSnapshotRetentionCount]
 The total snapshot retention count of all schedules on this network storage volume.  
-<span class="type-label">Type: </span>**unsigned integer**
+<span class="type-label">Type: </span>**unsigned integer**  
+
 
 
 </div>
@@ -995,7 +1090,8 @@ The total snapshot retention count of all schedules on this network storage volu
 [usageNotification]: #usagenotification
 #### [usageNotification]
 The usage notification for SL Storage services.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification'>SoftLayer_Notification </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification'>SoftLayer_Notification </a>**  
+
 
 
 </div>
@@ -1005,7 +1101,8 @@ The usage notification for SL Storage services.
 [vendorName]: #vendorname
 #### [vendorName]
 The type of network storage service.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -1015,7 +1112,8 @@ The type of network storage service.
 [virtualGuest]: #virtualguest
 #### [virtualGuest]
 When applicable, the virtual guest associated with a Storage service.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**  
+
 
 
 </div>
@@ -1025,7 +1123,8 @@ When applicable, the virtual guest associated with a Storage service.
 [volumeHistory]: #volumehistory
 #### [volumeHistory]
 The username and password history for a Storage service.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_History'>SoftLayer_Network_Storage_History[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_History'>SoftLayer_Network_Storage_History[] </a>**  
+
 
 
 </div>
@@ -1035,7 +1134,8 @@ The username and password history for a Storage service.
 [volumeStatus]: #volumestatus
 #### [volumeStatus]
 The current status of a network storage volume.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -1045,7 +1145,8 @@ The current status of a network storage volume.
 [webccAccount]: #webccaccount
 #### [webccAccount]
 The account username and password for the EVault webCC interface.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Password'>SoftLayer_Account_Password </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Password'>SoftLayer_Account_Password </a>**  
+
 
 
 </div>
@@ -1055,7 +1156,8 @@ The account username and password for the EVault webCC interface.
 [weeklySchedule]: #weeklyschedule
 #### [weeklySchedule]
 The Weekly Schedule which is associated with this network storage volume.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule'>SoftLayer_Network_Storage_Schedule </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule'>SoftLayer_Network_Storage_Schedule </a>**  
+
 
 
 </div>
@@ -1067,7 +1169,8 @@ The Weekly Schedule which is associated with this network storage volume.
 [activeTransactionCount]: #activetransactioncount
 #### [activeTransactionCount]
 A count of the currently active transactions on a network storage volume.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1077,7 +1180,8 @@ A count of the currently active transactions on a network storage volume.
 [allowedHardwareCount]: #allowedhardwarecount
 #### [allowedHardwareCount]
 A count of the SoftLayer_Hardware objects which are allowed access to this storage volume.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1087,7 +1191,8 @@ A count of the SoftLayer_Hardware objects which are allowed access to this stora
 [allowedIpAddressCount]: #allowedipaddresscount
 #### [allowedIpAddressCount]
 A count of the SoftLayer_Network_Subnet_IpAddress objects which are allowed access to this storage volume.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1097,7 +1202,8 @@ A count of the SoftLayer_Network_Subnet_IpAddress objects which are allowed acce
 [allowedReplicationHardwareCount]: #allowedreplicationhardwarecount
 #### [allowedReplicationHardwareCount]
 A count of the SoftLayer_Hardware objects which are allowed access to this storage volume's Replicant.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1107,7 +1213,8 @@ A count of the SoftLayer_Hardware objects which are allowed access to this stora
 [allowedReplicationIpAddressCount]: #allowedreplicationipaddresscount
 #### [allowedReplicationIpAddressCount]
 A count of the SoftLayer_Network_Subnet_IpAddress objects which are allowed access to this storage volume's Replicant.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1117,7 +1224,8 @@ A count of the SoftLayer_Network_Subnet_IpAddress objects which are allowed acce
 [allowedReplicationSubnetCount]: #allowedreplicationsubnetcount
 #### [allowedReplicationSubnetCount]
 A count of the SoftLayer_Network_Subnet objects which are allowed access to this storage volume's Replicant.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1127,7 +1235,8 @@ A count of the SoftLayer_Network_Subnet objects which are allowed access to this
 [allowedReplicationVirtualGuestCount]: #allowedreplicationvirtualguestcount
 #### [allowedReplicationVirtualGuestCount]
 A count of the SoftLayer_Hardware objects which are allowed access to this storage volume's Replicant.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1137,7 +1246,8 @@ A count of the SoftLayer_Hardware objects which are allowed access to this stora
 [allowedSubnetCount]: #allowedsubnetcount
 #### [allowedSubnetCount]
 A count of the SoftLayer_Network_Subnet objects which are allowed access to this storage volume.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1147,7 +1257,8 @@ A count of the SoftLayer_Network_Subnet objects which are allowed access to this
 [allowedVirtualGuestCount]: #allowedvirtualguestcount
 #### [allowedVirtualGuestCount]
 A count of the SoftLayer_Virtual_Guest objects which are allowed access to this storage volume.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1157,7 +1268,8 @@ A count of the SoftLayer_Virtual_Guest objects which are allowed access to this 
 [bandwidthBillingItemCount]: #bandwidthbillingitemcount
 #### [bandwidthBillingItemCount]
 A count of the billing items tied to a Storage service's bandwidth usage.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1167,7 +1279,8 @@ A count of the billing items tied to a Storage service's bandwidth usage.
 [credentialCount]: #credentialcount
 #### [credentialCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1177,7 +1290,8 @@ A count of
 [dependentDuplicateCount]: #dependentduplicatecount
 #### [dependentDuplicateCount]
 A count of the network storage volumes configured to be dependent duplicates of a volume.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1187,7 +1301,8 @@ A count of the network storage volumes configured to be dependent duplicates of 
 [eventCount]: #eventcount
 #### [eventCount]
 A count of the events which have taken place on a network storage volume.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1197,7 +1312,8 @@ A count of the events which have taken place on a network storage volume.
 [iscsiLunCount]: #iscsiluncount
 #### [iscsiLunCount]
 A count of relationship between a container volume and iSCSI LUNs.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1207,7 +1323,8 @@ A count of relationship between a container volume and iSCSI LUNs.
 [iscsiTargetIpAddressCount]: #iscsitargetipaddresscount
 #### [iscsiTargetIpAddressCount]
 A count of returns the target IP addresses of an iSCSI volume.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1217,7 +1334,8 @@ A count of returns the target IP addresses of an iSCSI volume.
 [manualSnapshotCount]: #manualsnapshotcount
 #### [manualSnapshotCount]
 A count of the manually-created snapshots associated with this SoftLayer_Network_Storage volume. Does not support pagination by result limit and offset.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1227,7 +1345,8 @@ A count of the manually-created snapshots associated with this SoftLayer_Network
 [notificationSubscriberCount]: #notificationsubscribercount
 #### [notificationSubscriberCount]
 A count of the subscribers that will be notified for usage amount warnings and overages.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1237,7 +1356,8 @@ A count of the subscribers that will be notified for usage amount warnings and o
 [parentPartnershipCount]: #parentpartnershipcount
 #### [parentPartnershipCount]
 A count of the volumes or snapshots partnered with a network storage volume in a parental role.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1247,7 +1367,8 @@ A count of the volumes or snapshots partnered with a network storage volume in a
 [partnershipCount]: #partnershipcount
 #### [partnershipCount]
 A count of the volumes or snapshots partnered with a network storage volume.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1257,7 +1378,8 @@ A count of the volumes or snapshots partnered with a network storage volume.
 [permissionsGroupCount]: #permissionsgroupcount
 #### [permissionsGroupCount]
 A count of all permissions group(s) this volume is in.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1267,7 +1389,8 @@ A count of all permissions group(s) this volume is in.
 [propertyCount]: #propertycount
 #### [propertyCount]
 A count of the properties used to provide additional details about a network storage volume.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1277,7 +1400,8 @@ A count of the properties used to provide additional details about a network sto
 [replicatingLunCount]: #replicatingluncount
 #### [replicatingLunCount]
 A count of the iSCSI LUN volumes being replicated by this network storage volume.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1287,7 +1411,8 @@ A count of the iSCSI LUN volumes being replicated by this network storage volume
 [replicationEventCount]: #replicationeventcount
 #### [replicationEventCount]
 A count of the volume replication events.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1297,7 +1422,8 @@ A count of the volume replication events.
 [replicationPartnerCount]: #replicationpartnercount
 #### [replicationPartnerCount]
 A count of the network storage volumes configured to be replicants of a volume.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1307,7 +1433,8 @@ A count of the network storage volumes configured to be replicants of a volume.
 [scheduleCount]: #schedulecount
 #### [scheduleCount]
 A count of the schedules which are associated with a network storage volume.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1317,7 +1444,8 @@ A count of the schedules which are associated with a network storage volume.
 [snapshotCount]: #snapshotcount
 #### [snapshotCount]
 A count of the snapshots associated with this SoftLayer_Network_Storage volume.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1327,7 +1455,8 @@ A count of the snapshots associated with this SoftLayer_Network_Storage volume.
 [storageGroupCount]: #storagegroupcount
 #### [storageGroupCount]
 A count of the network storage groups this volume is attached to.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -1337,7 +1466,8 @@ A count of the network storage groups this volume is attached to.
 [volumeHistoryCount]: #volumehistorycount
 #### [volumeHistoryCount]
 A count of the username and password history for a Storage service.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

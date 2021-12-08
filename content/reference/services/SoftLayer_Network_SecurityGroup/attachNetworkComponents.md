@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_SecurityGroup](/reference/services/SoftLayer_Network_SecurityGroup)::attachNetworkComponents
 
+
 Attach network components to a security group by creating a network component binding. 
 
 

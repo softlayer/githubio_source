@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item_Cancellation_Request](/reference/services/SoftLayer_Billing_Item_Cancellation_Request)::void
 
+
 Voids a pending or approved cancellation request
 
 

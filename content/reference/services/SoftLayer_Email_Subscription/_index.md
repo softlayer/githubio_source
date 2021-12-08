@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 SoftLayer customers can use this service to manage or view all of the available email subscriptions that they can suppress. 
 
 
@@ -42,17 +44,20 @@ SoftLayer customers can use this service to manage or view all of the available 
 
 #### [disable](/reference/services/SoftLayer_Email_Subscription/disable)
 Disable email subscription.
+
 </div>
 
 <div class="method-row">
 
 #### [enable](/reference/services/SoftLayer_Email_Subscription/enable)
 Enable email subscription.
+
 </div>
 
 <div class="method-row">
 
 #### [getAllObjects](/reference/services/SoftLayer_Email_Subscription/getAllObjects)
+
 
 </div>
 
@@ -60,12 +65,14 @@ Enable email subscription.
 
 #### [getEnabled](/reference/services/SoftLayer_Email_Subscription/getEnabled)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Email_Subscription/getObject)
 Retrieve a SoftLayer_Email_Subscription record.
+
 </div>
 </div>
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getHasFullHardwareAccessFlag
 
+
 Retrieve whether or not a portal user has access to all hardware on their account.
 
 

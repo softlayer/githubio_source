@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 A User's status. It can be Active, Inactive, Disabled, Delete User, or VPN Only.
 
 
@@ -42,12 +44,14 @@ A User's status. It can be Active, Inactive, Disabled, Delete User, or VPN Only.
 
 #### [getAllObjects](/reference/services/SoftLayer_User_Customer_Status/getAllObjects)
 Retrieve all user status objects.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_User_Customer_Status/getObject)
 Retrieve a SoftLayer_User_Customer_Status record.
+
 </div>
 </div>
 

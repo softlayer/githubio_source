@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Software_Component_HostIps](/reference/services/SoftLayer_Software_Component_HostIps)::getBillingItem
 
+
 Retrieve the billing item for a software component.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Auxiliary_Notification_Emergency](/reference/services/SoftLayer_Auxiliary_Notification_Emergency)::getStatus
 
+
 Retrieve the status of this notification.
 
 

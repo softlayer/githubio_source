@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Provisioning_Maintenance_Classification represent a maintenance type for the specific hardware maintenance desired. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Provisioning_Maintenance_Classification represent a maintenance ty
 [id]: #id
 #### [id]
 The id of the maintenance classification.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The id of the maintenance classification.
 [slots]: #slots
 #### [slots]
 The number of slots required for the maintenance classification.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The number of slots required for the maintenance classification.
 [type]: #type
 #### [type]
 The type or name of the maintenance classification.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ The type or name of the maintenance classification.
 [itemCategories]: #itemcategories
 #### [itemCategories]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Classification_Item_Category'>SoftLayer_Provisioning_Maintenance_Classification_Item_Category[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Classification_Item_Category'>SoftLayer_Provisioning_Maintenance_Classification_Item_Category[] </a>**  
+
 
 
 </div>
@@ -93,7 +99,8 @@ The type or name of the maintenance classification.
 [itemCategoryCount]: #itemcategorycount
 #### [itemCategoryCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Brand](/reference/services/SoftLayer_Brand)::getBusinessPartner
 
+
 Retrieve business Partner details for the brand. Country Enterprise Code, Channel, Segment, Reseller Level.
 
 

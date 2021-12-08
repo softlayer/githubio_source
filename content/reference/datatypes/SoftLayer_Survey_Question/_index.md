@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Survey_Question data type contains general information relating to a single SoftLayer survey question. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Survey_Question data type contains general information relating to
 [id]: #id
 #### [id]
 A survey question's Id.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ A survey question's Id.
 [isRequired]: #isrequired
 #### [isRequired]
 A flag indicating that a survey question requires a response.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A flag indicating that a survey question requires a response.
 [multiAnswer]: #multianswer
 #### [multiAnswer]
 A flag indicating that a survey question can have multiple answers responded to.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ A flag indicating that a survey question can have multiple answers responded to.
 [question]: #question
 #### [question]
 A survey question's question.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ A survey question's question.
 [questionOrder]: #questionorder
 #### [questionOrder]
 A value indicating the order in when a survey question will be asked.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ A value indicating the order in when a survey question will be asked.
 [surveyId]: #surveyid
 #### [surveyId]
 A survey question's associated [SoftLayer_Survey]({{<ref "reference/datatypes/SoftLayer_Survey">}}) Id.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ A survey question's associated [SoftLayer_Survey]({{<ref "reference/datatypes/So
 [answers]: #answers
 #### [answers]
 The possible answers for a survey question.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Survey_Answer'>SoftLayer_Survey_Answer[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Survey_Answer'>SoftLayer_Survey_Answer[] </a>**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ The possible answers for a survey question.
 [survey]: #survey
 #### [survey]
 The survey that a question belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Survey'>SoftLayer_Survey </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Survey'>SoftLayer_Survey </a>**  
+
 
 
 </div>
@@ -133,7 +143,8 @@ The survey that a question belongs to.
 [answerCount]: #answercount
 #### [answerCount]
 A count of the possible answers for a survey question.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

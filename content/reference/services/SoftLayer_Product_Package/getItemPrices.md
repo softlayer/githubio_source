@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getItemPrices
 
+
 Retrieve a collection of SoftLayer_Product_Item_Prices that are valid for this package.
 
 

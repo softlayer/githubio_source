@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Survey_Type data type contains survey type information. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Survey_Type data type contains survey type information.
 [description]: #description
 #### [description]
 Description of a survey type  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Description of a survey type
 [id]: #id
 #### [id]
 Internal identifier of a survey type  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Internal identifier of a survey type
 [name]: #name
 #### [name]
 Name of a survey type  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

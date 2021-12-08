@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 A network storage partnership type is used to define the link between two volumes. 
 
 
@@ -45,7 +47,8 @@ A network storage partnership type is used to define the link between two volume
 [description]: #description
 #### [description]
 A type's description, for example 'ISCSI snapshot partnership'.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ A type's description, for example 'ISCSI snapshot partnership'.
 [keyname]: #keyname
 #### [keyname]
 A type's key name, for example 'ISCSI_SNAPSHOT'.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A type's key name, for example 'ISCSI_SNAPSHOT'.
 [name]: #name
 #### [name]
 A type's name, for example 'ISCSI Snapshot'.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

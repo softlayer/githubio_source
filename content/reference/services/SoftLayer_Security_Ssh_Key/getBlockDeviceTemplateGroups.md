@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Security_Ssh_Key](/reference/services/SoftLayer_Security_Ssh_Key)::getBlockDeviceTemplateGroups
 
+
 Retrieve the image template groups that are linked to an SSH key.
 
 

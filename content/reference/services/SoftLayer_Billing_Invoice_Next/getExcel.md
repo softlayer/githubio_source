@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Invoice_Next](/reference/services/SoftLayer_Billing_Invoice_Next)::getExcel
 
+
 Retrieve the next billing period's invoice as an Excel.
 
 

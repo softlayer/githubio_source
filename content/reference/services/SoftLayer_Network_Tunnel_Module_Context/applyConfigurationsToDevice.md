@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Tunnel_Module_Context](/reference/services/SoftLayer_Network_Tunnel_Module_Context)::applyConfigurationsToDevice
 
+
 Apply current configuration settings to the network device
 
 

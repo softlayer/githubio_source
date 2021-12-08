@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getServiceProvider
 
+
 Retrieve information regarding the piece of hardware's service provider.
 
 

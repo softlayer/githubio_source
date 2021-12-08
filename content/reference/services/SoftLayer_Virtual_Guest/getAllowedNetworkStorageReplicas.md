@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getAllowedNetworkStorageReplicas
 
+
 Retrieve the SoftLayer_Network_Storage objects whose Replica that this SoftLayer_Virtual_Guest has access to.
 
 

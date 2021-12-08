@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Application_Delivery_Controller_Configuration_History](/reference/services/SoftLayer_Network_Application_Delivery_Controller_Configuration_History)::getObject
 
+
 Retrieve a SoftLayer_Network_Application_Delivery_Controller_Configuration_History record.
 
 

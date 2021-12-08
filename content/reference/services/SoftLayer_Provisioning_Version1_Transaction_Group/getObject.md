@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Provisioning_Version1_Transaction_Group](/reference/services/SoftLayer_Provisioning_Version1_Transaction_Group)::getObject
 
+
 Retrieve a SoftLayer_Provisioning_Version1_Transaction_Group record.
 
 

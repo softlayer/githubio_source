@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This class describes a specific type of license, like a Microsoft Windows Site License, a GPL license, or a license of another type. 
 
 
@@ -53,7 +55,8 @@ This class describes a specific type of license, like a Microsoft Windows Site L
 [id]: #id
 #### [id]
 An ID number for this specific License type.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -63,7 +66,8 @@ An ID number for this specific License type.
 [softwareDescriptionId]: #softwaredescriptionid
 #### [softwareDescriptionId]
 The ID number of a Software Description that this specific license is valid for.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -79,7 +83,8 @@ The ID number of a Software Description that this specific license is valid for.
 [account]: #account
 #### [account]
 The account that owns this specific License instance.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -89,7 +94,8 @@ The account that owns this specific License instance.
 [owner]: #owner
 #### [owner]
 The account that owns this specific License instance.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -99,7 +105,8 @@ The account that owns this specific License instance.
 [softwareDescription]: #softwaredescription
 #### [softwareDescription]
 A Description of the software that this license instance is valid for.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description </a>**  
+
 
 
 </div>

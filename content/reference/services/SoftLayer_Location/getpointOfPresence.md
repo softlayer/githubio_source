@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Location](/reference/services/SoftLayer_Location)::getpointOfPresence
 
+
 Retrieve all points of presence locations
 
 

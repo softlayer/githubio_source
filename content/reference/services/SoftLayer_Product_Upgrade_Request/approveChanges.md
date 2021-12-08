@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Upgrade_Request](/reference/services/SoftLayer_Product_Upgrade_Request)::approveChanges
 
+
 Approves the upgrade request order that was revised by SoftLayer Sales
 
 

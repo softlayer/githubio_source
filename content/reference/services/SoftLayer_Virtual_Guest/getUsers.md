@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getUsers
 
+
 Retrieve a list of users that have access to this computing instance.
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Dns_Domain_ResourceRecord_SoaType defines a domains' Start of Authority (or SOA) resource record. A domain's SOA record contains a domain's general and propagation information. Every domain must have one SOA record, and it is not possible to remove a domain's SOA record. 
 
 SOA records typically contain a domain's serial number, but the SoftLayer API associates a domain's serial number directly with it's SoftLayer_Dns_Domain record. 
@@ -55,7 +57,8 @@ SOA records typically contain a domain's serial number, but the SoftLayer API as
 [domainId]: #domainid
 #### [domainId]
 An identifier belonging to the domain that a resource record is associated with.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +68,8 @@ An identifier belonging to the domain that a resource record is associated with.
 [expire]: #expire
 #### [expire]
 The amount of time in seconds that a secondary name server (or servers) will hold a zone before it is no longer considered authoritative.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +79,8 @@ The amount of time in seconds that a secondary name server (or servers) will hol
 [id]: #id
 #### [id]
 A domain resource record's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +90,8 @@ A domain resource record's internal identifier.
 [minimum]: #minimum
 #### [minimum]
 The amount of time in seconds that a domain's resource records are valid. This is also known as a minimum TTL, and can be overridden by an individual resource record's TTL.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +101,8 @@ The amount of time in seconds that a domain's resource records are valid. This i
 [mxPriority]: #mxpriority
 #### [mxPriority]
 Useful in cases where a domain has more than one mail exchanger, the priority property is the priority of the MTA that delivers mail for a domain. A lower number denotes a higher priority, and mail will attempt to deliver through that MTA before moving to lower priority mail servers. Priority is defaulted to 10 upon resource record creation.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +112,8 @@ Useful in cases where a domain has more than one mail exchanger, the priority pr
 [refresh]: #refresh
 #### [refresh]
 The amount of time in seconds that a secondary name server should wait to check for a new copy of a DNS zone from the domain's primary name server. If a zone file has changed then the secondary DNS server will update it's copy of the zone to match the primary DNS server's zone.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -115,7 +123,8 @@ The amount of time in seconds that a secondary name server should wait to check 
 [responsiblePerson]: #responsibleperson
 #### [responsiblePerson]
 The email address of the person responsible for a domain, with the "@" replaced with a ".". For instance, if root@example.org is responsible for example.org, then example.org's SOA responsibility is "root.example.org.".   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -125,7 +134,8 @@ The email address of the person responsible for a domain, with the "@" replaced 
 [retry]: #retry
 #### [retry]
 The amount of time in seconds that a domain's primary name server (or servers) should wait if an attempt to refresh by a secondary name server failed before attempting to refresh a domain's zone with that secondary name server again.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -135,7 +145,8 @@ The amount of time in seconds that a domain's primary name server (or servers) s
 [ttl]: #ttl
 #### [ttl]
 The Time To Live value of a resource record, measured in seconds. TTL is used by a name server to determine how long to cache a resource record. An SOA record's TTL value defines the domain's overall TTL.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -145,7 +156,8 @@ The Time To Live value of a resource record, measured in seconds. TTL is used by
 [type]: #type
 #### [type]
 The string "soa" which defines a resource record as an SOA record.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -161,7 +173,8 @@ The string "soa" which defines a resource record as an SOA record.
 [domain]: #domain
 #### [domain]
 The domain that a resource record belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain </a>**  
+
 
 
 </div>

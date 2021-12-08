@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [createDate]: #createdate
 #### [createDate]
 When this network VLAN reference was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ When this network VLAN reference was created.
 [deleteFlag]: #deleteflag
 #### [deleteFlag]
 When set and true any edit that happens on this object, be it calling edit on this directly or setting as a child while editing a parent object, will end up being a deletion.   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ When set and true any edit that happens on this object, be it calling edit on th
 [id]: #id
 #### [id]
 The network VLAN reference's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The network VLAN reference's internal identifier.
 [networkVlanId]: #networkvlanid
 #### [networkVlanId]
 The identifier for the VLAN to scale with.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The identifier for the VLAN to scale with.
 [scaleGroupId]: #scalegroupid
 #### [scaleGroupId]
 The identifier of the group this network VLAN reference applies to.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ The identifier of the group this network VLAN reference applies to.
 [networkVlan]: #networkvlan
 #### [networkVlan]
 The network VLAN to scale with.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a>**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ The network VLAN to scale with.
 [scaleGroup]: #scalegroup
 #### [scaleGroup]
 The group this network VLAN is for.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Scale_Group'>SoftLayer_Scale_Group </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Scale_Group'>SoftLayer_Scale_Group </a>**  
+
 
 
 </div>

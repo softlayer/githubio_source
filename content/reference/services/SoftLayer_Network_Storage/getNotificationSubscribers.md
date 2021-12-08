@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getNotificationSubscribers
 
+
 Retrieve the subscribers that will be notified for usage amount warnings and overages.
 
 

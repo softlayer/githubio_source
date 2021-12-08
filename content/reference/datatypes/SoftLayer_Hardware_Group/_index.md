@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [domain]: #domain
 #### [domain]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ classes:
 [hostname]: #hostname
 #### [hostname]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ classes:
 [id]: #id
 #### [id]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ classes:
 [downlinkServers]: #downlinkservers
 #### [downlinkServers]
 All servers attached to a network hardware.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ All servers attached to a network hardware.
 [downlinkVirtualGuests]: #downlinkvirtualguests
 #### [downlinkVirtualGuests]
 All virtual guests attached to a network hardware.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ All virtual guests attached to a network hardware.
 [downstreamNetworkHardware]: #downstreamnetworkhardware
 #### [downstreamNetworkHardware]
 All network hardware downstream from this hardware.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ All network hardware downstream from this hardware.
 [downstreamNetworkHardwareWithIncidents]: #downstreamnetworkhardwarewithincidents
 #### [downstreamNetworkHardwareWithIncidents]
 All network hardware with monitoring warnings or errors downstream from this hardware.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ All network hardware with monitoring warnings or errors downstream from this har
 [hardwareChassis]: #hardwarechassis
 #### [hardwareChassis]
 The chassis that a piece of hardware is housed in.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Chassis'>SoftLayer_Hardware_Chassis </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Chassis'>SoftLayer_Hardware_Chassis </a>**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ The chassis that a piece of hardware is housed in.
 [networkMonitorAttachedDownHardware]: #networkmonitorattacheddownhardware
 #### [networkMonitorAttachedDownHardware]
 All servers attached downstream to a hardware that have failed monitoring  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ All servers attached downstream to a hardware that have failed monitoring
 [networkMonitorAttachedDownVirtualGuests]: #networkmonitorattacheddownvirtualguests
 #### [networkMonitorAttachedDownVirtualGuests]
 Virtual guests that are attached downstream to a hardware that have failed monitoring  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ Virtual guests that are attached downstream to a hardware that have failed monit
 [networkStatus]: #networkstatus
 #### [networkStatus]
 The value of a hardware's network status attribute.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -163,7 +176,8 @@ The value of a hardware's network status attribute.
 [downlinkServerCount]: #downlinkservercount
 #### [downlinkServerCount]
 A count of all servers attached to a network hardware.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -173,7 +187,8 @@ A count of all servers attached to a network hardware.
 [downlinkVirtualGuestCount]: #downlinkvirtualguestcount
 #### [downlinkVirtualGuestCount]
 A count of all virtual guests attached to a network hardware.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -183,7 +198,8 @@ A count of all virtual guests attached to a network hardware.
 [downstreamNetworkHardwareCount]: #downstreamnetworkhardwarecount
 #### [downstreamNetworkHardwareCount]
 A count of all network hardware downstream from this hardware.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -193,7 +209,8 @@ A count of all network hardware downstream from this hardware.
 [downstreamNetworkHardwareWithIncidentCount]: #downstreamnetworkhardwarewithincidentcount
 #### [downstreamNetworkHardwareWithIncidentCount]
 A count of all network hardware with monitoring warnings or errors downstream from this hardware.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -203,7 +220,8 @@ A count of all network hardware with monitoring warnings or errors downstream fr
 [networkMonitorAttachedDownHardwareCount]: #networkmonitorattacheddownhardwarecount
 #### [networkMonitorAttachedDownHardwareCount]
 A count of all servers attached downstream to a hardware that have failed monitoring   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -213,7 +231,8 @@ A count of all servers attached downstream to a hardware that have failed monito
 [networkMonitorAttachedDownVirtualGuestCount]: #networkmonitorattacheddownvirtualguestcount
 #### [networkMonitorAttachedDownVirtualGuestCount]
 A count of virtual guests that are attached downstream to a hardware that have failed monitoring   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getVirtualGuestsWithUrchin
 
+
 Retrieve all virtual guests associated with an account that has the Urchin web traffic analytics package installed.
 
 

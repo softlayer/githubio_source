@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Lockdown_Request](/reference/services/SoftLayer_Account_Lockdown_Request)::disconnectCompute
 
+
 Disconnecting a customer will disable all hardware resources (servers and
 
 

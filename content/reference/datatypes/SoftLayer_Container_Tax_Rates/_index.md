@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This contains the four tax rates, one for each fee type. 
 
 
@@ -45,7 +47,8 @@ This contains the four tax rates, one for each fee type.
 [laborTaxRate]: #labortaxrate
 #### [laborTaxRate]
 The tax rate associated with the labor fee.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The tax rate associated with the labor fee.
 [locationId]: #locationid
 #### [locationId]
 A reference to a location.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A reference to a location.
 [oneTimeTaxRate]: #onetimetaxrate
 #### [oneTimeTaxRate]
 The tax rate associated with the one-time fee.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The tax rate associated with the one-time fee.
 [recurringTaxRate]: #recurringtaxrate
 #### [recurringTaxRate]
 The tax rate associated with the recurring fee.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The tax rate associated with the recurring fee.
 [setupTaxRate]: #setuptaxrate
 #### [setupTaxRate]
 The tax rate associated with the setup fee.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>

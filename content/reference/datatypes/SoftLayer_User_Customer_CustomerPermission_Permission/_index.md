@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Each SoftLayer portal account is assigned a series of permissions that determine what access the user has to functions within the SoftLayer customer portal. This status is reflected in the SoftLayer_User_Customer_Status data type. Permissions differ from user status in that user status applies globally to the portal while user permissions are applied to specific portal functions. 
 
 
@@ -59,7 +61,8 @@ Each SoftLayer portal account is assigned a series of permissions that determine
 [key]: #key
 #### [key]
 A user permission's short name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -69,7 +72,8 @@ A user permission's short name.
 [keyName]: #keyname
 #### [keyName]
 A user permission's key name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -79,7 +83,8 @@ A user permission's key name.
 [name]: #name
 #### [name]
 A user permission's name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

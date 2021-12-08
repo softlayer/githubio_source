@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 A scale policy is a combination of triggers and actions that can occur on a scale group. When any trigger is satisfied (or the policy is manually triggered) the actions will be executed. 
 
 
@@ -42,72 +44,84 @@ A scale policy is a combination of triggers and actions that can occur on a scal
 
 #### [createObject](/reference/services/SoftLayer_Scale_Policy/createObject)
 Add a policy to a group.
+
 </div>
 
 <div class="method-row">
 
 #### [deleteObject](/reference/services/SoftLayer_Scale_Policy/deleteObject)
 Delete this policy from the group.
+
 </div>
 
 <div class="method-row">
 
 #### [editObject](/reference/services/SoftLayer_Scale_Policy/editObject)
 Edit this policy's name.
+
 </div>
 
 <div class="method-row">
 
 #### [getActions](/reference/services/SoftLayer_Scale_Policy/getActions)
 Retrieve the actions to perform upon any trigger hit. Currently this must be a single value.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Scale_Policy/getObject)
 Retrieve a SoftLayer_Scale_Policy record.
+
 </div>
 
 <div class="method-row">
 
 #### [getOneTimeTriggers](/reference/services/SoftLayer_Scale_Policy/getOneTimeTriggers)
 Retrieve the one-time triggers to check for this group.
+
 </div>
 
 <div class="method-row">
 
 #### [getRepeatingTriggers](/reference/services/SoftLayer_Scale_Policy/getRepeatingTriggers)
 Retrieve the repeating triggers to check for this group.
+
 </div>
 
 <div class="method-row">
 
 #### [getResourceUseTriggers](/reference/services/SoftLayer_Scale_Policy/getResourceUseTriggers)
 Retrieve the resource-use triggers to check for this group.
+
 </div>
 
 <div class="method-row">
 
 #### [getScaleActions](/reference/services/SoftLayer_Scale_Policy/getScaleActions)
 Retrieve the scale actions to perform upon any trigger hit. Currently this must be a single value.
+
 </div>
 
 <div class="method-row">
 
 #### [getScaleGroup](/reference/services/SoftLayer_Scale_Policy/getScaleGroup)
 Retrieve the group this policy is on.
+
 </div>
 
 <div class="method-row">
 
 #### [getTriggers](/reference/services/SoftLayer_Scale_Policy/getTriggers)
 Retrieve the triggers to check for this group.
+
 </div>
 
 <div class="method-row">
 
 #### [trigger](/reference/services/SoftLayer_Scale_Policy/trigger)
 Manually trigger the actions on this policy. 
+
 </div>
 </div>
 

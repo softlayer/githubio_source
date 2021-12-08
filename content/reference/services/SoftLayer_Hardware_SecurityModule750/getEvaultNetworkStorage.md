@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getEvaultNetworkStorage
 
+
 Retrieve information regarding a piece of hardware's associated EVault network storage service account.
 
 

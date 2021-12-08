@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getOsType
 
+
 Retrieve a volume's configured SoftLayer_Network_Storage_Iscsi_OS_Type.
 
 

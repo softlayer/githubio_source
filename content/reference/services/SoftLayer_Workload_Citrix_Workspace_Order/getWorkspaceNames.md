@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Workload_Citrix_Workspace_Order](/reference/services/SoftLayer_Workload_Citrix_Workspace_Order)::getWorkspaceNames
 
+
 Get a list of all VLAN names which have 'cvad' tags associated with them.
 
 

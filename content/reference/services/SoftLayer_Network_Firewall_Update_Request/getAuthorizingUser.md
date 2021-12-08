@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Firewall_Update_Request](/reference/services/SoftLayer_Network_Firewall_Update_Request)::getAuthorizingUser
 
+
 Retrieve the user that authorized this firewall update request.
 
 

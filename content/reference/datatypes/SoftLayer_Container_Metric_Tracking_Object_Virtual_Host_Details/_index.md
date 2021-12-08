@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Container_Metric_Tracking_Object_Virtual_Host_Details This container details a virtual host's metric data.
 
 
@@ -50,7 +52,8 @@ SoftLayer_Container_Metric_Tracking_Object_Virtual_Host_Details This container d
 [day]: #day
 #### [day]
 The day this metric was collected.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ The day this metric was collected.
 [maxInstances]: #maxinstances
 #### [maxInstances]
 The maximum number of guests hosted by this platform for the given day.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -70,7 +74,8 @@ The maximum number of guests hosted by this platform for the given day.
 [maxMemoryUsage]: #maxmemoryusage
 #### [maxMemoryUsage]
 The maximum amount of memory utilized by this platform for the given day.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -80,7 +85,8 @@ The maximum amount of memory utilized by this platform for the given day.
 [meanInstances]: #meaninstances
 #### [meanInstances]
 The mean number of guests hosted by this platform for the given day.  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -90,7 +96,8 @@ The mean number of guests hosted by this platform for the given day.
 [meanMemoryUsage]: #meanmemoryusage
 #### [meanMemoryUsage]
 The mean amount of memory utilized by this platform for the given day.  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -100,7 +107,8 @@ The mean amount of memory utilized by this platform for the given day.
 [metricName]: #metricname
 #### [metricName]
 The name that best describes the metric being collected.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -110,7 +118,8 @@ The name that best describes the metric being collected.
 [minInstances]: #mininstances
 #### [minInstances]
 The minimum number of guests hosted by this platform for the given day.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -120,7 +129,8 @@ The minimum number of guests hosted by this platform for the given day.
 [minMemoryUsage]: #minmemoryusage
 #### [minMemoryUsage]
 The minimum amount of memory utilized by this platform for the given day.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

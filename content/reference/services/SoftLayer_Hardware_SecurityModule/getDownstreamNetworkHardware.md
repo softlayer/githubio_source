@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getDownstreamNetworkHardware
 
+
 Retrieve all network hardware downstream from the selected piece of hardware.
 
 

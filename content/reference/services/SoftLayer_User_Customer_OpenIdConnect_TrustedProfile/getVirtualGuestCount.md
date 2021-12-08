@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect_TrustedProfile](/reference/services/SoftLayer_User_Customer_OpenIdConnect_TrustedProfile)::getVirtualGuestCount
 
+
 Retrieve the current number of CloudLayer Computing Instances a portal user has access to.
 
 

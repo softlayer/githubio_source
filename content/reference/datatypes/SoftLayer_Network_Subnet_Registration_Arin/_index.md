@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 ARIN-specific registration object. For more detail see [SoftLayer_Network_Subnet_Registration]({{<ref "reference/datatypes/SoftLayer_Network_Subnet_Registration">}}). 
 
 
@@ -45,7 +47,8 @@ ARIN-specific registration object. For more detail see [SoftLayer_Network_Subnet
 [accountId]: #accountid
 #### [accountId]
 The registration object's associated [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}) id   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The registration object's associated [SoftLayer_Account]({{<ref "reference/datat
 [cidr]: #cidr
 #### [cidr]
 The CIDR prefix for the registered subnet   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The CIDR prefix for the registered subnet
 [createDate]: #createdate
 #### [createDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The CIDR prefix for the registered subnet
 [id]: #id
 #### [id]
 Unique ID of the registration object   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Unique ID of the registration object
 [modifyDate]: #modifydate
 #### [modifyDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ Unique ID of the registration object
 [networkHandle]: #networkhandle
 #### [networkHandle]
 The RIR-specific handle or name of the registered subnet. This field is read-only.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The RIR-specific handle or name of the registered subnet. This field is read-onl
 [networkIdentifier]: #networkidentifier
 #### [networkIdentifier]
 The base IP address of the registered subnet   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ The base IP address of the registered subnet
 [regionalInternetRegistryHandleId]: #regionalinternetregistryhandleid
 #### [regionalInternetRegistryHandleId]
 The registration object's associated [SoftLayer_Account_Rwhois_Handle]({{<ref "reference/datatypes/SoftLayer_Account_Rwhois_Handle">}}) id   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ The registration object's associated [SoftLayer_Account_Rwhois_Handle]({{<ref "r
 [regionalInternetRegistryId]: #regionalinternetregistryid
 #### [regionalInternetRegistryId]
 The registration object's associated [SoftLayer_Network_Regional_Internet_Registry]({{<ref "reference/datatypes/SoftLayer_Network_Regional_Internet_Registry">}}) id   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ The registration object's associated [SoftLayer_Network_Regional_Internet_Regist
 [statusId]: #statusid
 #### [statusId]
 The registration object's associated [SoftLayer_Network_Subnet_Registration_Status]({{<ref "reference/datatypes/SoftLayer_Network_Subnet_Registration_Status">}}) id   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ The registration object's associated [SoftLayer_Network_Subnet_Registration_Stat
 [account]: #account
 #### [account]
 The account that this registration belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ The account that this registration belongs to.
 [detailReferences]: #detailreferences
 #### [detailReferences]
 The cross-reference records that tie the [SoftLayer_Account_Regional_Registry_Detail]({{<ref "reference/datatypes/SoftLayer_Account_Regional_Registry_Detail">}}) objects to the registration object.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration_Details'>SoftLayer_Network_Subnet_Registration_Details[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration_Details'>SoftLayer_Network_Subnet_Registration_Details[] </a>**  
+
 
 
 </div>
@@ -171,7 +185,8 @@ The cross-reference records that tie the [SoftLayer_Account_Regional_Registry_De
 [events]: #events
 #### [events]
 The related registration events.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration_Event'>SoftLayer_Network_Subnet_Registration_Event[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration_Event'>SoftLayer_Network_Subnet_Registration_Event[] </a>**  
+
 
 
 </div>
@@ -181,7 +196,8 @@ The related registration events.
 [networkDetail]: #networkdetail
 #### [networkDetail]
 The "network" detail object.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Regional_Registry_Detail'>SoftLayer_Account_Regional_Registry_Detail </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Regional_Registry_Detail'>SoftLayer_Account_Regional_Registry_Detail </a>**  
+
 
 
 </div>
@@ -191,7 +207,8 @@ The "network" detail object.
 [personDetail]: #persondetail
 #### [personDetail]
 The "person" detail object.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Regional_Registry_Detail'>SoftLayer_Account_Regional_Registry_Detail </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Regional_Registry_Detail'>SoftLayer_Account_Regional_Registry_Detail </a>**  
+
 
 
 </div>
@@ -201,7 +218,8 @@ The "person" detail object.
 [regionalInternetRegistry]: #regionalinternetregistry
 #### [regionalInternetRegistry]
 The related Regional Internet Registry.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Regional_Internet_Registry'>SoftLayer_Network_Regional_Internet_Registry </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Regional_Internet_Registry'>SoftLayer_Network_Regional_Internet_Registry </a>**  
+
 
 
 </div>
@@ -211,7 +229,8 @@ The related Regional Internet Registry.
 [regionalInternetRegistryHandle]: #regionalinternetregistryhandle
 #### [regionalInternetRegistryHandle]
 The RIR handle that this registration object belongs to. This field may not be populated until the registration is complete.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Rwhois_Handle'>SoftLayer_Account_Rwhois_Handle </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Rwhois_Handle'>SoftLayer_Account_Rwhois_Handle </a>**  
+
 
 
 </div>
@@ -221,7 +240,8 @@ The RIR handle that this registration object belongs to. This field may not be p
 [status]: #status
 #### [status]
 The status of this registration.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration_Status'>SoftLayer_Network_Subnet_Registration_Status </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration_Status'>SoftLayer_Network_Subnet_Registration_Status </a>**  
+
 
 
 </div>
@@ -231,7 +251,8 @@ The status of this registration.
 [subnet]: #subnet
 #### [subnet]
 The subnet that this registration pertains to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>**  
+
 
 
 </div>
@@ -243,7 +264,8 @@ The subnet that this registration pertains to.
 [detailReferenceCount]: #detailreferencecount
 #### [detailReferenceCount]
 A count of the cross-reference records that tie the [SoftLayer_Account_Regional_Registry_Detail]({{<ref "reference/datatypes/SoftLayer_Account_Regional_Registry_Detail">}}) objects to the registration object.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -253,7 +275,8 @@ A count of the cross-reference records that tie the [SoftLayer_Account_Regional_
 [eventCount]: #eventcount
 #### [eventCount]
 A count of the related registration events.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

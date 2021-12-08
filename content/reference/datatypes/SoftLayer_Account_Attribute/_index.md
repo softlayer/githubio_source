@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Many SoftLayer customer accounts have individual attributes assigned to them that describe features or special features for that account, such as special pricing, account statuses, and ordering instructions. The SoftLayer_Account_Attribute data type contains information relating to a single SoftLayer_Account attribute. 
 
 
@@ -58,7 +60,8 @@ Many SoftLayer customer accounts have individual attributes assigned to them tha
 [accountAttributeTypeId]: #accountattributetypeid
 #### [accountAttributeTypeId]
 The internal identifier of the type of attribute that a SoftLayer customer account attribute belongs to.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -68,7 +71,8 @@ The internal identifier of the type of attribute that a SoftLayer customer accou
 [accountId]: #accountid
 #### [accountId]
 The internal identifier of the SoftLayer customer account that is assigned an account attribute.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -78,7 +82,8 @@ The internal identifier of the SoftLayer customer account that is assigned an ac
 [id]: #id
 #### [id]
 A SoftLayer customer account attribute's internal identifier.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -88,7 +93,8 @@ A SoftLayer customer account attribute's internal identifier.
 [value]: #value
 #### [value]
 A SoftLayer account attribute's value.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -104,7 +110,8 @@ A SoftLayer account attribute's value.
 [account]: #account
 #### [account]
 The SoftLayer customer account that has an attribute.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -114,7 +121,8 @@ The SoftLayer customer account that has an attribute.
 [accountAttributeType]: #accountattributetype
 #### [accountAttributeType]
 The type of attribute assigned to a SoftLayer customer account.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Attribute_Type'>SoftLayer_Account_Attribute_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Attribute_Type'>SoftLayer_Account_Attribute_Type </a>**  
+
 
 
 </div>

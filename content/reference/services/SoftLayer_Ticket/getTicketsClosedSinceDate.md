@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getTicketsClosedSinceDate
 
+
 Retrieve tickets closed since a given date. 
 
 

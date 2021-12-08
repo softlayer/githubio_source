@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Product_Item_Category_Question_Field_Type data type represents the recommended type of field that should be rendered on an HTML form. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Product_Item_Category_Question_Field_Type data type represents the
 [id]: #id
 #### [id]
 Identifier for the question type.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Identifier for the question type.
 [keyName]: #keyname
 #### [keyName]
 Keyname for the question field type.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Keyname for the question field type.
 [name]: #name
 #### [name]
 Short name for the question field type.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

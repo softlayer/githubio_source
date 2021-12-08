@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Gateway](/reference/services/SoftLayer_Network_Gateway)::changeGatewayVersion
 
+
 Change Juniper vSRX version on a Gateway
 
 

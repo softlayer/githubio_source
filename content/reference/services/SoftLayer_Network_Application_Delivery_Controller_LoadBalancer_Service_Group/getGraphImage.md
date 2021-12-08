@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service_Group](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service_Group)::getGraphImage
 
+
 Get the connection or status graph image for a load balancer service group.
 
 

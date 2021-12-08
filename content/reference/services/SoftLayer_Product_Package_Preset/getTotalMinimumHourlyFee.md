@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Package_Preset](/reference/services/SoftLayer_Product_Package_Preset)::getTotalMinimumHourlyFee
 
+
 Retrieve the starting hourly price for this configuration. Additional options not defined in the preset may increase the cost.
 
 

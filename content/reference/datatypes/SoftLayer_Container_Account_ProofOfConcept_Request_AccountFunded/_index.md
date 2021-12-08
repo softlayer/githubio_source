@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Proof of concept request using the account team funding model. Note that proof of concept account request are available only to internal IBM employees. 
 
 
@@ -50,7 +52,8 @@ Proof of concept request using the account team funding model. Note that proof o
 [amount]: #amount
 #### [amount]
 Dollar amount of funding requested for the proof of concept period  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ Dollar amount of funding requested for the proof of concept period
 [costRecoveryRequest]: #costrecoveryrequest
 #### [costRecoveryRequest]
 Billing codes for the department paying for the proof of concept account  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Request_CostRecovery'>SoftLayer_Container_Account_ProofOfConcept_Request_CostRecovery </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Request_CostRecovery'>SoftLayer_Container_Account_ProofOfConcept_Request_CostRecovery </a>**  
+
 
 
 </div>
@@ -70,7 +74,8 @@ Billing codes for the department paying for the proof of concept account
 [customer]: #customer
 #### [customer]
 Customer intended to take over ownership and and billing of the account  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Contact_Customer'>SoftLayer_Container_Account_ProofOfConcept_Contact_Customer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Contact_Customer'>SoftLayer_Container_Account_ProofOfConcept_Contact_Customer </a>**  
+
 
 
 </div>
@@ -80,7 +85,8 @@ Customer intended to take over ownership and and billing of the account
 [description]: #description
 #### [description]
 Explanation of the purpose of the proof of concept request  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -90,7 +96,8 @@ Explanation of the purpose of the proof of concept request
 [endDate]: #enddate
 #### [endDate]
 End date for the proof of concept period  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -100,7 +107,8 @@ End date for the proof of concept period
 [opportunity]: #opportunity
 #### [opportunity]
 Internal opportunity system details  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Request_Opportunity'>SoftLayer_Container_Account_ProofOfConcept_Request_Opportunity </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Request_Opportunity'>SoftLayer_Container_Account_ProofOfConcept_Request_Opportunity </a>**  
+
 
 
 </div>
@@ -110,7 +118,8 @@ Internal opportunity system details
 [projectName]: #projectname
 #### [projectName]
 Name of the project or company and will become the account companyName  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -120,7 +129,8 @@ Name of the project or company and will become the account companyName
 [regionKeyName]: #regionkeyname
 #### [regionKeyName]
 IBM region responsible for overseeing the proof of concept account  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -130,7 +140,8 @@ IBM region responsible for overseeing the proof of concept account
 [requester]: #requester
 #### [requester]
 IBMer requesting the proof of concept account  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Contact_Ibmer_Requester'>SoftLayer_Container_Account_ProofOfConcept_Contact_Ibmer_Requester </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Contact_Ibmer_Requester'>SoftLayer_Container_Account_ProofOfConcept_Contact_Ibmer_Requester </a>**  
+
 
 
 </div>
@@ -140,7 +151,8 @@ IBMer requesting the proof of concept account
 [startDate]: #startdate
 #### [startDate]
 Start date for the proof of concept period  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -150,7 +162,8 @@ Start date for the proof of concept period
 [technicalContact]: #technicalcontact
 #### [technicalContact]
 IBMer assisting with technical aspects of account configuration  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Contact_Ibmer_Technical'>SoftLayer_Container_Account_ProofOfConcept_Contact_Ibmer_Technical </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Contact_Ibmer_Technical'>SoftLayer_Container_Account_ProofOfConcept_Contact_Ibmer_Technical </a>**  
+
 
 
 </div>

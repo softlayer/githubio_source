@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getAttachedFile
 
+
 Retrieve a file attached to a ticket.
 
 

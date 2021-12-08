@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,11 +44,13 @@ classes:
 
 #### [approveRequest](/reference/services/SoftLayer_Account_PersonalData_RemoveRequestReview/approveRequest)
 Approve a personal information removal request.
+
 </div>
 
 <div class="method-row">
 
 #### [getAccount](/reference/services/SoftLayer_Account_PersonalData_RemoveRequestReview/getAccount)
+
 
 </div>
 
@@ -54,41 +58,48 @@ Approve a personal information removal request.
 
 #### [getApprovedFlag](/reference/services/SoftLayer_Account_PersonalData_RemoveRequestReview/getApprovedFlag)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getAuthorizationUrl](/reference/services/SoftLayer_Account_PersonalData_RemoveRequestReview/getAuthorizationUrl)
 Gets the redirect URL for GDPR removal review.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Account_PersonalData_RemoveRequestReview/getObject)
 Retrieve a SoftLayer_Account_PersonalData_RemoveRequestReview record.
+
 </div>
 
 <div class="method-row">
 
 #### [getPendingRequests](/reference/services/SoftLayer_Account_PersonalData_RemoveRequestReview/getPendingRequests)
 Gets information removal requests to review.
+
 </div>
 
 <div class="method-row">
 
 #### [getReviewerAccessToken](/reference/services/SoftLayer_Account_PersonalData_RemoveRequestReview/getReviewerAccessToken)
 Retrieves an access token.
+
 </div>
 
 <div class="method-row">
 
 #### [getReviewerEmailFromAccessToken](/reference/services/SoftLayer_Account_PersonalData_RemoveRequestReview/getReviewerEmailFromAccessToken)
 Fetches an email address using a token
+
 </div>
 
 <div class="method-row">
 
 #### [getTotalPendingRequests](/reference/services/SoftLayer_Account_PersonalData_RemoveRequestReview/getTotalPendingRequests)
+
 
 </div>
 </div>

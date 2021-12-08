@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::isDuplicateReadyForSnapshot
 
+
 Displays the if clone snapshots can be ordered.
 
 

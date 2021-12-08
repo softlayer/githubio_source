@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_Bandwidth_Version1_Allotment_Detail data type contains specific information relating to a single bandwidth allotment record. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Network_Bandwidth_Version1_Allotment_Detail data type contains spe
 [allocationId]: #allocationid
 #### [allocationId]
 Allocated bandwidth.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Allocated bandwidth.
 [bandwidthAllotmentId]: #bandwidthallotmentid
 #### [bandwidthAllotmentId]
 Bandwidth Pool associated with this detail.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Bandwidth Pool associated with this detail.
 [effectiveDate]: #effectivedate
 #### [effectiveDate]
 Beginning this date the bandwidth allotment is active.   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Beginning this date the bandwidth allotment is active.
 [endEffectiveDate]: #endeffectivedate
 #### [endEffectiveDate]
 From this date the bandwidth allotment is no longer active.   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ From this date the bandwidth allotment is no longer active.
 [id]: #id
 #### [id]
 Internal ID associated with this allotment detail.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ Internal ID associated with this allotment detail.
 [serviceProviderId]: #serviceproviderid
 #### [serviceProviderId]
 Service Provider Id for an allotment  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ Service Provider Id for an allotment
 [allocation]: #allocation
 #### [allocation]
 Allocated bandwidth.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allocation'>SoftLayer_Network_Bandwidth_Version1_Allocation </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allocation'>SoftLayer_Network_Bandwidth_Version1_Allocation </a>**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ Allocated bandwidth.
 [bandwidthAllotment]: #bandwidthallotment
 #### [bandwidthAllotment]
 The parent Bandwidth Pool.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment'>SoftLayer_Network_Bandwidth_Version1_Allotment </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Allotment'>SoftLayer_Network_Bandwidth_Version1_Allotment </a>**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ The parent Bandwidth Pool.
 [bandwidthUsage]: #bandwidthusage
 #### [bandwidthUsage]
 Bandwidth used.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Usage'>SoftLayer_Network_Bandwidth_Version1_Usage[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Usage'>SoftLayer_Network_Bandwidth_Version1_Usage[] </a>**  
+
 
 
 </div>
@@ -143,7 +154,8 @@ Bandwidth used.
 [bandwidthUsageCount]: #bandwidthusagecount
 #### [bandwidthUsageCount]
 A count of bandwidth used.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

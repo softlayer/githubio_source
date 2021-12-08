@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Ticket_Priority](/reference/services/SoftLayer_Ticket_Priority)::getPriorities
 
+
 Obtain a container of valid ticket priority values with value/name key pairs.
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Most packages are available in many locations. This object describes that availability for each package. 
 
 
@@ -45,7 +47,8 @@ Most packages are available in many locations. This object describes that availa
 [deliveryTimeInformation]: #deliverytimeinformation
 #### [deliveryTimeInformation]
 This describes the availability of the package tied to this location.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ This describes the availability of the package tied to this location.
 [isAvailable]: #isavailable
 #### [isAvailable]
 A simple flag which describes whether or not this location is available for this package.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A simple flag which describes whether or not this location is available for this
 [locationId]: #locationid
 #### [locationId]
 The location id tied to this object.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The location id tied to this object.
 [packageId]: #packageid
 #### [packageId]
 The SoftLayer_Product_Package ID tied to this object.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ The SoftLayer_Product_Package ID tied to this object.
 [location]: #location
 #### [location]
 The location to which this object belongs.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ The location to which this object belongs.
 [package]: #package
 #### [package]
 The package to which this object belongs.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package </a>**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Notification_Occurrence_User](/reference/services/SoftLayer_Notification_Occurrence_User)::getImpactedResources
 
+
 Retrieve a collection of resources impacted by the associated event.
 
 

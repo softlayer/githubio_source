@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Package_Type](/reference/services/SoftLayer_Product_Package_Type)::getPackages
 
+
 Retrieve all the packages associated with the given package type.
 
 

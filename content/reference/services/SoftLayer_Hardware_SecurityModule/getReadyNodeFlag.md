@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getReadyNodeFlag
 
+
 Retrieve determine if hardware object is vSan Ready Node.
 
 

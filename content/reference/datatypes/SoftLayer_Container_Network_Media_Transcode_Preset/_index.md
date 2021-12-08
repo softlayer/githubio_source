@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Transcode preset is a set of configuration parameters that defines a Transcode output format. SoftLayer_Container_Network_Media_Transcode_Preset contains a preset information defined on a Transcode server 
 
 
@@ -58,7 +60,8 @@ Transcode preset is a set of configuration parameters that defines a Transcode o
 [GUID]: #guid
 #### [GUID]
 The unique id that is used by a Transcode server  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -68,7 +71,8 @@ The unique id that is used by a Transcode server
 [category]: #category
 #### [category]
 The category that a preset belongs to  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -78,7 +82,8 @@ The category that a preset belongs to
 [description]: #description
 #### [description]
 The description of the preset  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -88,7 +93,8 @@ The description of the preset
 [name]: #name
 #### [name]
 The friendly name of a preset  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

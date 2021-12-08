@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Hardware_Component_RemoteManagement_Command_Request contains details for remote management commands issued to a server's remote management card.  Details for remote management commands such as powerOn, powerOff, powerCycle, rebootDefault, rebootSoft, rebootHard can be retrieved.  Details such as the user who issued the command, the id of the remote management card the command was issued, when the command was issued may be retrieved. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Hardware_Component_RemoteManagement_Command_Request contains detai
 [createDate]: #createdate
 #### [createDate]
 The timestamp the remote management command was issued.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The timestamp the remote management command was issued.
 [hardwareId]: #hardwareid
 #### [hardwareId]
 The hardware id the command was issued for.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The hardware id the command was issued for.
 [modifyDate]: #modifydate
 #### [modifyDate]
 The timestamp recorded when the remote management command returned a status of the command issued.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The timestamp recorded when the remote management command returned a status of t
 [processed]: #processed
 #### [processed]
 Execution status of the remote management command.  True is successful.  False is failure.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ Execution status of the remote management command.  True is successful.  False i
 [hardware]: #hardware
 #### [hardware]
 The id of the hardware to perform the remote management or powerstrip command on.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ The id of the hardware to perform the remote management or powerstrip command on
 [networkComponent]: #networkcomponent
 #### [networkComponent]
 A hardware's network components. Network components are hardware components such as IPMI cards or Ethernet cards.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ A hardware's network components. Network components are hardware components such
 [remoteManagementCommand]: #remotemanagementcommand
 #### [remoteManagementCommand]
 The remote management command issued.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_RemoteManagement_Command'>SoftLayer_Hardware_Component_RemoteManagement_Command </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_RemoteManagement_Command'>SoftLayer_Hardware_Component_RemoteManagement_Command </a>**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ The remote management command issued.
 [user]: #user
 #### [user]
 Information regarding the user who issued the remote management command.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**  
+
 
 
 </div>

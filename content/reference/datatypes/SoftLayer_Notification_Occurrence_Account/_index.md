@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [active]: #active
 #### [active]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -61,7 +64,8 @@ classes:
 [account]: #account
 #### [account]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ classes:
 [lastNotificationUpdate]: #lastnotificationupdate
 #### [lastNotificationUpdate]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Update'>SoftLayer_Notification_Occurrence_Update </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Update'>SoftLayer_Notification_Occurrence_Update </a>**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ classes:
 [notificationOccurrenceEvent]: #notificationoccurrenceevent
 #### [notificationOccurrenceEvent]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Event'>SoftLayer_Notification_Occurrence_Event </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Event'>SoftLayer_Notification_Occurrence_Event </a>**  
+
 
 
 </div>

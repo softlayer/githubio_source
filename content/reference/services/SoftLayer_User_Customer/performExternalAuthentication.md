@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::performExternalAuthentication
 
+
 Perform an external authentication using the given authentication container. 
 
 

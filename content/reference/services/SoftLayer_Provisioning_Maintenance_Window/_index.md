@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 The SoftLayer_Provisioning_Maintenance_Window service returns available maintenance windows at SoftLayer data centers. 
 
 
@@ -42,48 +44,56 @@ The SoftLayer_Provisioning_Maintenance_Window service returns available maintena
 
 #### [addCustomerUpgradeWindow](/reference/services/SoftLayer_Provisioning_Maintenance_Window/addCustomerUpgradeWindow)
 Updates or creates records in the
+
 </div>
 
 <div class="method-row">
 
 #### [getMaintenanceClassifications](/reference/services/SoftLayer_Provisioning_Maintenance_Window/getMaintenanceClassifications)
 Returns the maintenance classifications
+
 </div>
 
 <div class="method-row">
 
 #### [getMaintenanceStartEndTime](/reference/services/SoftLayer_Provisioning_Maintenance_Window/getMaintenanceStartEndTime)
 Returns a specific maintenance window
+
 </div>
 
 <div class="method-row">
 
 #### [getMaintenanceWindowForTicket](/reference/services/SoftLayer_Provisioning_Maintenance_Window/getMaintenanceWindowForTicket)
 Returns a specific maintenance window
+
 </div>
 
 <div class="method-row">
 
 #### [getMaintenanceWindowTicketsByTicketId](/reference/services/SoftLayer_Provisioning_Maintenance_Window/getMaintenanceWindowTicketsByTicketId)
 Returns maintenance window ticket
+
 </div>
 
 <div class="method-row">
 
 #### [getMaintenanceWindows](/reference/services/SoftLayer_Provisioning_Maintenance_Window/getMaintenanceWindows)
 Returns available maintenance windows
+
 </div>
 
 <div class="method-row">
 
 #### [getMaintenceWindows](/reference/services/SoftLayer_Provisioning_Maintenance_Window/getMaintenceWindows)
 Returns available maintenance windows
+
 </div>
 
 <div class="method-row">
 
 #### [updateCustomerUpgradeWindow](/reference/services/SoftLayer_Provisioning_Maintenance_Window/updateCustomerUpgradeWindow)
 Creates records in the appropriate
+
 </div>
 </div>
 

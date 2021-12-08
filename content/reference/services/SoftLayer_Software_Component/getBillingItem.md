@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Software_Component](/reference/services/SoftLayer_Software_Component)::getBillingItem
 
+
 Retrieve the billing item for a software component.
 
 

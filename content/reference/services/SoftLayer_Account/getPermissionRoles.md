@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getPermissionRoles
 
+
 Retrieve an account's user roles.
 
 

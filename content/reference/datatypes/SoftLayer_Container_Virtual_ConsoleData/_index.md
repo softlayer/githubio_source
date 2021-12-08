@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Container_Virtual_ConsoleData data type contains information used to access a VSIs console 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Container_Virtual_ConsoleData data type contains information used 
 [websocketHost]: #websockethost
 #### [websocketHost]
 The websocket host address used to access the console  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The websocket host address used to access the console
 [websocketPath]: #websocketpath
 #### [websocketPath]
 The path to the websocket  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The path to the websocket
 [websocketPort]: #websocketport
 #### [websocketPort]
 The websocket port used to access the console  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The websocket port used to access the console
 [websocketToken]: #websockettoken
 #### [websocketToken]
 The token used to authenticate with the console websocket  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Survey data type contains general information relating to a single SoftLayer survey. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Survey data type contains general information relating to a single
 [active]: #active
 #### [active]
 A flag indicating if a survey can be taken.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ A flag indicating if a survey can be taken.
 [createDate]: #createdate
 #### [createDate]
 The date that a survey had originally started.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The date that a survey had originally started.
 [id]: #id
 #### [id]
 A survey's id.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ A survey's id.
 [name]: #name
 #### [name]
 A survey's name or title.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ A survey's name or title.
 [statusId]: #statusid
 #### [statusId]
 The status id of the survey.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The status id of the survey.
 [typeId]: #typeid
 #### [typeId]
 The type id of the survey.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ The type id of the survey.
 [questions]: #questions
 #### [questions]
 The questions for a survey.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Survey_Question'>SoftLayer_Survey_Question[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Survey_Question'>SoftLayer_Survey_Question[] </a>**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ The questions for a survey.
 [status]: #status
 #### [status]
 The status of the survey  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Survey_Status'>SoftLayer_Survey_Status </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Survey_Status'>SoftLayer_Survey_Status </a>**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ The status of the survey
 [type]: #type
 #### [type]
 The type of survey  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Survey_Type'>SoftLayer_Survey_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Survey_Type'>SoftLayer_Survey_Type </a>**  
+
 
 
 </div>
@@ -143,7 +154,8 @@ The type of survey
 [questionCount]: #questioncount
 #### [questionCount]
 A count of the questions for a survey.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

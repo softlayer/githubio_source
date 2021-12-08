@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Check](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Check)::getObject
 
+
 Retrieve a SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Check record.
 
 

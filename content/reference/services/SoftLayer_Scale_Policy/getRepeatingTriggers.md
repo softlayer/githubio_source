@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Scale_Policy](/reference/services/SoftLayer_Scale_Policy)::getRepeatingTriggers
 
+
 Retrieve the repeating triggers to check for this group.
 
 

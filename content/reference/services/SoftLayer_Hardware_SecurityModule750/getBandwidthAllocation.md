@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getBandwidthAllocation
 
+
 Retrieve a hardware's allotted bandwidth (measured in GB).
 
 

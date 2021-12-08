@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Shipment](/reference/services/SoftLayer_Account_Shipment)::getMasterTrackingData
 
+
 Retrieve the one master tracking data for the shipment.
 
 

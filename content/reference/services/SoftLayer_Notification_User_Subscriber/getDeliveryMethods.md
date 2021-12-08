@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Notification_User_Subscriber](/reference/services/SoftLayer_Notification_User_Subscriber)::getDeliveryMethods
 
+
 Retrieve the delivery methods used to send the subscribed notification.
 
 

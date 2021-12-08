@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Application_Delivery_Controller](/reference/services/SoftLayer_Network_Application_Delivery_Controller)::getLicenseExpirationDate
 
+
 Retrieve the date in which the license for this application delivery controller will expire.
 
 

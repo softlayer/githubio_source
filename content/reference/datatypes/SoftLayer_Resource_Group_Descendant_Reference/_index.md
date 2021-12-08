@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Resource_Group_Descendant_Reference data type simplifies the link between one SoftLayer_Resource_Group_Member object and all of its parents. 
 
 
@@ -53,7 +55,8 @@ The SoftLayer_Resource_Group_Descendant_Reference data type simplifies the link 
 [group]: #group
 #### [group]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group'>SoftLayer_Resource_Group </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group'>SoftLayer_Resource_Group </a>**  
+
 
 
 </div>
@@ -63,7 +66,8 @@ The SoftLayer_Resource_Group_Descendant_Reference data type simplifies the link 
 [groupMember]: #groupmember
 #### [groupMember]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member'>SoftLayer_Resource_Group_Member </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member'>SoftLayer_Resource_Group_Member </a>**  
+
 
 
 </div>

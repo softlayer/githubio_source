@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Every SoftLayer_Auxiliary_Notification_Emergency has a statusId that references a SoftLayer_Auxiliary_Notification_Emergency_Status data type.  The status is used to determine the current state of the event. 
 
 
@@ -50,7 +52,8 @@ Every SoftLayer_Auxiliary_Notification_Emergency has a statusId that references 
 [name]: #name
 #### [name]
 A name describing the status of the current Emergency Notification.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

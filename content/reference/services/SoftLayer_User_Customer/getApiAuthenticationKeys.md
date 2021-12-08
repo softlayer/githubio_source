@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getApiAuthenticationKeys
 
+
 Retrieve a portal user's API Authentication keys. There is a max limit of one API key per user.
 
 

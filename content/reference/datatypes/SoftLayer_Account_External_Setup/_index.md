@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [accountId]: #accountid
 #### [accountId]
 The SoftLayer customer account the request belongs to.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The SoftLayer customer account the request belongs to.
 [currencyId]: #currencyid
 #### [currencyId]
 The currency requested after the billing switch.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The currency requested after the billing switch.
 [id]: #id
 #### [id]
 The unique identifier for this setup request.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The unique identifier for this setup request.
 [serviceProviderId]: #serviceproviderid
 #### [serviceProviderId]
 The external system that will handle billing.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The external system that will handle billing.
 [statusCode]: #statuscode
 #### [statusCode]
 The status of the account setup request.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The status of the account setup request.
 [typeCode]: #typecode
 #### [typeCode]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The status of the account setup request.
 [verifyCardTransactionId]: #verifycardtransactionid
 #### [verifyCardTransactionId]
 The related credit card transaction record for card verification.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ The related credit card transaction record for card verification.
 [verifyCardTransaction]: #verifycardtransaction
 #### [verifyCardTransaction]
 The transaction information related to verifying the customer credit card.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Payment_Card_Transaction'>SoftLayer_Billing_Payment_Card_Transaction </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Payment_Card_Transaction'>SoftLayer_Billing_Payment_Card_Transaction </a>**  
+
 
 
 </div>

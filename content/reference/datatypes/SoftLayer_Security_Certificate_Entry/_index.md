@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [certificateId]: #certificateid
 #### [certificateId]
 The ID of the certificate record.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The ID of the certificate record.
 [commonName]: #commonname
 #### [commonName]
 The common name (usually a domain name) encoded within the certificate.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The common name (usually a domain name) encoded within the certificate.
 [keySize]: #keysize
 #### [keySize]
 The size (number of bits) of the public key represented by the certificate.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The size (number of bits) of the public key represented by the certificate.
 [organizationName]: #organizationname
 #### [organizationName]
 The organizational name encoded in the certificate.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The organizational name encoded in the certificate.
 [validityBegin]: #validitybegin
 #### [validityBegin]
 The UTC timestamp representing the beginning of the certificate's validity   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The UTC timestamp representing the beginning of the certificate's validity
 [validityDays]: #validitydays
 #### [validityDays]
 The number of days remaining in the validity period for the certificate.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The number of days remaining in the validity period for the certificate.
 [validityEnd]: #validityend
 #### [validityEnd]
 The UTC timestamp representing the end of the certificate's validity period.   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>

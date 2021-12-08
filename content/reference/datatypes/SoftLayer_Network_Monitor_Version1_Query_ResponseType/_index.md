@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The ResponseType type stores only an ID and a description of the response type.  The only use for this object is in reference.  The user chooses a response action that would be appropriate for a monitoring instance, and sets the ResponseTypeId to the SoftLayer_Network_Monitor_Version1_Query_Host->responseActionId value. 
 
 The user can retrieve all available ResponseTypes with the getAllObjects method on this service. 
@@ -52,7 +54,8 @@ The user can retrieve all available ResponseTypes with the getAllObjects method 
 [actionDescription]: #actiondescription
 #### [actionDescription]
 The description of the action the monitoring system will take on failure  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -62,7 +65,8 @@ The description of the action the monitoring system will take on failure
 [id]: #id
 #### [id]
 The unique identifier for this object  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -72,7 +76,8 @@ The unique identifier for this object
 [level]: #level
 #### [level]
 The level of this response.  The level the customer has access to is determined by values in SoftLayer_Network_Monitor_Version1_Query_Host_Stratum  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

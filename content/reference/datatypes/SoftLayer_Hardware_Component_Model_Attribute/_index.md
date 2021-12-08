@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Hardware_Component__Model_Attribute data type contains general information relating to a single hardware setting or attribute for a component model. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Hardware_Component__Model_Attribute data type contains general inf
 [attributeTypeId]: #attributetypeid
 #### [attributeTypeId]
 A hardware component model attribute's associated [SoftLayer_Hardware_Component_Model_Attribute_Type]({{<ref "reference/datatypes/SoftLayer_Hardware_Component_Model_Attribute_Type">}}) Id.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ A hardware component model attribute's associated [SoftLayer_Hardware_Component_
 [hardwareComponentModelId]: #hardwarecomponentmodelid
 #### [hardwareComponentModelId]
 A hardware component model attribute's associated [SoftLayer_Hardware_Component_Model]({{<ref "reference/datatypes/SoftLayer_Hardware_Component_Model">}}) Id.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A hardware component model attribute's associated [SoftLayer_Hardware_Component_
 [value]: #value
 #### [value]
 A hardware component model attribute's value.  A value can have many different values depending on the attributes [SoftLayer_Hardware_Component_Model_Attribute_Type]({{<ref "reference/datatypes/SoftLayer_Hardware_Component_Model_Attribute_Type">}}).  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ A hardware component model attribute's value.  A value can have many different v
 [hardwareComponent]: #hardwarecomponent
 #### [hardwareComponent]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model'>SoftLayer_Hardware_Component_Model </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model'>SoftLayer_Hardware_Component_Model </a>**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ A hardware component model attribute's value.  A value can have many different v
 [hardwareComponentAttributeType]: #hardwarecomponentattributetype
 #### [hardwareComponentAttributeType]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model_Attribute_Type'>SoftLayer_Hardware_Component_Model_Attribute_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model_Attribute_Type'>SoftLayer_Hardware_Component_Model_Attribute_Type </a>**  
+
 
 
 </div>

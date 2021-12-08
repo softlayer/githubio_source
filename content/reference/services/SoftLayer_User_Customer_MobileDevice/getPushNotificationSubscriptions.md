@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_MobileDevice](/reference/services/SoftLayer_User_Customer_MobileDevice)::getPushNotificationSubscriptions
 
+
 Retrieve notification subscriptions attached to a mobile device.
 
 

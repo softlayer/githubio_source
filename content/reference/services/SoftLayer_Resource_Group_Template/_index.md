@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,11 +44,13 @@ classes:
 
 #### [getAllObjects](/reference/services/SoftLayer_Resource_Group_Template/getAllObjects)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getChildren](/reference/services/SoftLayer_Resource_Group_Template/getChildren)
+
 
 </div>
 
@@ -54,17 +58,20 @@ classes:
 
 #### [getMembers](/reference/services/SoftLayer_Resource_Group_Template/getMembers)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Resource_Group_Template/getObject)
 Retrieve a SoftLayer_Resource_Group_Template record.
+
 </div>
 
 <div class="method-row">
 
 #### [getPackage](/reference/services/SoftLayer_Resource_Group_Template/getPackage)
+
 
 </div>
 </div>

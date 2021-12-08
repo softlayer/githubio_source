@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getThirdPartyPoliciesAcceptanceStatus
 
+
 Get the acceptance status of the applicable third-party policies.
 
 

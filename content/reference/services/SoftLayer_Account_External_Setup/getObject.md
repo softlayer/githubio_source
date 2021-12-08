@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_External_Setup](/reference/services/SoftLayer_Account_External_Setup)::getObject
 
+
 Retrieve a SoftLayer_Account_External_Setup record.
 
 

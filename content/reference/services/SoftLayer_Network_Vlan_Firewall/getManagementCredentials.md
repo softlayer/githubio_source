@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Vlan_Firewall](/reference/services/SoftLayer_Network_Vlan_Firewall)::getManagementCredentials
 
+
 Retrieve the credentials to log in to a firewall device. This is only present for dedicated appliances.
 
 

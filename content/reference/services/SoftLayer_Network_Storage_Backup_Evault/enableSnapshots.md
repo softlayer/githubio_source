@@ -15,6 +15,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::enableSnapshots
 
+
 Enable snapshots of this Storage Volume on a schedule.
 
 

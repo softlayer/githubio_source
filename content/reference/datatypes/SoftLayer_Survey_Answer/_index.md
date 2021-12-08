@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Survey_Answer data type contains general information relating to a single SoftLayer survey answer. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Survey_Answer data type contains general information relating to a
 [answer]: #answer
 #### [answer]
 A survey answer's answer that a user can response too.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ A survey answer's answer that a user can response too.
 [answerOrder]: #answerorder
 #### [answerOrder]
 A value indicating the order in when a survey answer will be displayed to a user.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A value indicating the order in when a survey answer will be displayed to a user
 [id]: #id
 #### [id]
 A survey answer's Id.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ A survey answer's Id.
 [surveyQuestionId]: #surveyquestionid
 #### [surveyQuestionId]
 A survey answer's associated [SoftLayer_Survey_Question]({{<ref "reference/datatypes/SoftLayer_Survey_Question">}}) Id.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ A survey answer's associated [SoftLayer_Survey_Question]({{<ref "reference/datat
 [surveyQuestion]: #surveyquestion
 #### [surveyQuestion]
 The survey question that this answer belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Survey_Question'>SoftLayer_Survey_Question </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Survey_Question'>SoftLayer_Survey_Question </a>**  
+
 
 
 </div>

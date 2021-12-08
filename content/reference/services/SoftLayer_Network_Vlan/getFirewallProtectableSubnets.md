@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getFirewallProtectableSubnets
 
+
 Get the subnets associated with this server that are protectable by a network component firewall.
 
 

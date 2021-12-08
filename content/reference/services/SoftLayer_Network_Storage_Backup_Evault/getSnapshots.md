@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getSnapshots
 
+
 Retrieve the snapshots associated with this SoftLayer_Network_Storage volume.
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Account_Lockdown_Request data type holds information on API requests from brand customers. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Account_Lockdown_Request data type holds information on API reques
 [accountId]: #accountid
 #### [accountId]
 Account ID associated with this lockdown request.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Account ID associated with this lockdown request.
 [action]: #action
 #### [action]
 Type of request.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Type of request.
 [createDate]: #createdate
 #### [createDate]
 Timestamp when the lockdown request was initially made.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Timestamp when the lockdown request was initially made.
 [id]: #id
 #### [id]
 ID of this lockdown request.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ ID of this lockdown request.
 [modifyDate]: #modifydate
 #### [modifyDate]
 Timestamp when the lockdown request was modified.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ Timestamp when the lockdown request was modified.
 [status]: #status
 #### [status]
 Status of the lockdown request denoting whether it's been completed.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

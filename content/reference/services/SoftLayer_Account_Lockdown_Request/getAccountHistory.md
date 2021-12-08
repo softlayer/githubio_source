@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Lockdown_Request](/reference/services/SoftLayer_Account_Lockdown_Request)::getAccountHistory
 
+
 Provides a history of an account's lockdown requests and their status.
 
 

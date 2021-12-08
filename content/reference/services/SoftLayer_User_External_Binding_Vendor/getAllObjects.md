@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_External_Binding_Vendor](/reference/services/SoftLayer_User_External_Binding_Vendor)::getAllObjects
 
+
 Get a list of all available external binding vendors that SoftLayer supports.
 
 

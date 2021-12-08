@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::countHourlyInstances
 
+
 Retrieve the number of hourly services on an account that are active, plus any pending orders with hourly services attached. 
 
 

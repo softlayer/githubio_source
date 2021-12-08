@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getScaleAssets
 
+
 Retrieve collection of scale assets this hardware corresponds to.
 
 

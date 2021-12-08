@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [accountId]: #accountid
 #### [accountId]
 The saml account id.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The saml account id.
 [certificate]: #certificate
 #### [certificate]
 The identity provider x509 certificate.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The identity provider x509 certificate.
 [certificateFingerprint]: #certificatefingerprint
 #### [certificateFingerprint]
 The identity provider x509 certificate fingerprint.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The identity provider x509 certificate fingerprint.
 [entityId]: #entityid
 #### [entityId]
 The identity provider entity ID.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The identity provider entity ID.
 [id]: #id
 #### [id]
 The saml internal identifying number.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The saml internal identifying number.
 [serviceProviderCertificate]: #serviceprovidercertificate
 #### [serviceProviderCertificate]
 The service provider x509 certificate.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The service provider x509 certificate.
 [serviceProviderEntityId]: #serviceproviderentityid
 #### [serviceProviderEntityId]
 The service provider entity IDs.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ The service provider entity IDs.
 [serviceProviderPublicKey]: #serviceproviderpublickey
 #### [serviceProviderPublicKey]
 The service provider public key.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ The service provider public key.
 [serviceProviderSingleLogoutEncoding]: #serviceprovidersinglelogoutencoding
 #### [serviceProviderSingleLogoutEncoding]
 The service provider signle logout encoding.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ The service provider signle logout encoding.
 [serviceProviderSingleLogoutUrl]: #serviceprovidersinglelogouturl
 #### [serviceProviderSingleLogoutUrl]
 The service provider signle logout address.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -145,7 +157,8 @@ The service provider signle logout address.
 [serviceProviderSingleSignOnEncoding]: #serviceprovidersinglesignonencoding
 #### [serviceProviderSingleSignOnEncoding]
 The service provider signle sign on encoding.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -155,7 +168,8 @@ The service provider signle sign on encoding.
 [serviceProviderSingleSignOnUrl]: #serviceprovidersinglesignonurl
 #### [serviceProviderSingleSignOnUrl]
 The service provider signle sign on address.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -165,7 +179,8 @@ The service provider signle sign on address.
 [singleLogoutEncoding]: #singlelogoutencoding
 #### [singleLogoutEncoding]
 The identity provider single logout encoding.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -175,7 +190,8 @@ The identity provider single logout encoding.
 [singleLogoutUrl]: #singlelogouturl
 #### [singleLogoutUrl]
 The identity provider sigle logout address.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -185,7 +201,8 @@ The identity provider sigle logout address.
 [singleSignOnEncoding]: #singlesignonencoding
 #### [singleSignOnEncoding]
 The identity provider single sign on encoding.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -195,7 +212,8 @@ The identity provider single sign on encoding.
 [singleSignOnUrl]: #singlesignonurl
 #### [singleSignOnUrl]
 The identity provider signle sign on address.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -211,7 +229,8 @@ The identity provider signle sign on address.
 [account]: #account
 #### [account]
 The account associated with this saml configuration.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -221,7 +240,8 @@ The account associated with this saml configuration.
 [attributes]: #attributes
 #### [attributes]
 The saml attribute values for a SoftLayer customer account.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Authentication_Attribute'>SoftLayer_Account_Authentication_Attribute[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Authentication_Attribute'>SoftLayer_Account_Authentication_Attribute[] </a>**  
+
 
 
 </div>
@@ -233,7 +253,8 @@ The saml attribute values for a SoftLayer customer account.
 [attributeCount]: #attributecount
 #### [attributeCount]
 A count of the saml attribute values for a SoftLayer customer account.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

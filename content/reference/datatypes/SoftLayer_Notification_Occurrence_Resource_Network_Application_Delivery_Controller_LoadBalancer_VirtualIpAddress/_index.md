@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This type contains general information related to a [SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress]({{<ref "reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress">}}) resource that is impacted by a [SoftLayer_Notification_Occurrence_Event]({{<ref "reference/datatypes/SoftLayer_Notification_Occurrence_Event">}}). 
 
 
@@ -45,7 +47,8 @@ This type contains general information related to a [SoftLayer_Network_Applicati
 [active]: #active
 #### [active]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ This type contains general information related to a [SoftLayer_Network_Applicati
 [filterLabel]: #filterlabel
 #### [filterLabel]
 <<< EOT A label which gives some background as to what piece of  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ This type contains general information related to a [SoftLayer_Network_Applicati
 [hostname]: #hostname
 #### [hostname]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ This type contains general information related to a [SoftLayer_Network_Applicati
 [notificationOccurrenceEventId]: #notificationoccurrenceeventid
 #### [notificationOccurrenceEventId]
 <<< EOT The unique identifier for the associated  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ This type contains general information related to a [SoftLayer_Network_Applicati
 [publicIp]: #publicip
 #### [publicIp]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ This type contains general information related to a [SoftLayer_Network_Applicati
 [resourceAccountId]: #resourceaccountid
 #### [resourceAccountId]
 <<< EOT The unique identifier for the [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}) associated with  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ This type contains general information related to a [SoftLayer_Network_Applicati
 [resourceName]: #resourcename
 #### [resourceName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ This type contains general information related to a [SoftLayer_Network_Applicati
 [resourceTableId]: #resourcetableid
 #### [resourceTableId]
 <<< EOT The unique identifier for the physical resource that is associated  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ This type contains general information related to a [SoftLayer_Network_Applicati
 [resourceType]: #resourcetype
 #### [resourceType]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ This type contains general information related to a [SoftLayer_Network_Applicati
 [notificationOccurrenceEvent]: #notificationoccurrenceevent
 #### [notificationOccurrenceEvent]
 The associated event.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Event'>SoftLayer_Notification_Occurrence_Event </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Event'>SoftLayer_Notification_Occurrence_Event </a>**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ The associated event.
 [resource]: #resource
 #### [resource]
 The physical resource.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Entity'>SoftLayer_Entity </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Entity'>SoftLayer_Entity </a>**  
+
 
 
 </div>

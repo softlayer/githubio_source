@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_Notification_Hardware](/reference/services/SoftLayer_User_Customer_Notification_Hardware)::getHardware
 
+
 Retrieve the hardware object that will be monitored.
 
 

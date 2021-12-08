@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Configuration_Template_Section_Definition](/reference/services/SoftLayer_Configuration_Template_Section_Definition)::getObject
 
+
 Retrieve a SoftLayer_Configuration_Template_Section_Definition record.
 
 

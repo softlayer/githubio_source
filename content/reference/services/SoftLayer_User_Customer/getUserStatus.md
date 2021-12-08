@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getUserStatus
 
+
 Retrieve a portal user's status, which controls overall access to the SoftLayer customer portal and VPN access to the private network.
 
 

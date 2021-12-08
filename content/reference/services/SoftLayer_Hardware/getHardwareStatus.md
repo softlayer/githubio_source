@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getHardwareStatus
 
+
 Retrieve a hardware's status.
 
 

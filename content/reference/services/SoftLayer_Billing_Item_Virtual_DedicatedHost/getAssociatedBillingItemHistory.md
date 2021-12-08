@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item_Virtual_DedicatedHost](/reference/services/SoftLayer_Billing_Item_Virtual_DedicatedHost)::getAssociatedBillingItemHistory
 
+
 Retrieve a history of billing items which a billing item has been associated with.
 
 

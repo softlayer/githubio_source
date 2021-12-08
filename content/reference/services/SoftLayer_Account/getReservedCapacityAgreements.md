@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getReservedCapacityAgreements
 
+
 Retrieve all reserved capacity agreements for an account
 
 

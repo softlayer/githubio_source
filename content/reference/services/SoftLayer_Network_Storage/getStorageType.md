@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getStorageType
 
+
 Retrieve a description of the Storage object.
 
 

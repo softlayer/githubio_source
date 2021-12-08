@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::shutdownPrivatePort
 
+
 Disconnect a server's private network interface.
 
 

@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [accountId]: #accountid
 #### [accountId]
 The account ID to which the deployment belongs.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The account ID to which the deployment belongs.
 [activeDirectoryTopology]: #activedirectorytopology
 #### [activeDirectoryTopology]
 Topology used for the Citrix Virtual Apps And  Desktop deployment.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Topology used for the Citrix Virtual Apps And  Desktop deployment.
 [createDate]: #createdate
 #### [createDate]
 The date when this record was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The date when this record was created.
 [id]: #id
 #### [id]
 It is the unique identifier for the deployment.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ It is the unique identifier for the deployment.
 [modifyDate]: #modifydate
 #### [modifyDate]
 The date when this record was last modified.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The date when this record was last modified.
 [typeId]: #typeid
 #### [typeId]
 The [SoftLayer_Workload_Citrix_Deployment_Type]({{<ref "reference/datatypes/SoftLayer_Workload_Citrix_Deployment_Type">}}) of the deployment.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The [SoftLayer_Workload_Citrix_Deployment_Type]({{<ref "reference/datatypes/Soft
 [userRecordId]: #userrecordid
 #### [userRecordId]
 The identifier for the customer who placed the CVAD order.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ The identifier for the customer who placed the CVAD order.
 [vlanId]: #vlanid
 #### [vlanId]
 VLAN ID of the deployment.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ VLAN ID of the deployment.
 [vmwareOrderId]: #vmwareorderid
 #### [vmwareOrderId]
 It is an internal identifier for the VMware solution. It gets set if the CVAD order is for VMware.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ It is an internal identifier for the VMware solution. It gets set if the CVAD or
 [account]: #account
 #### [account]
 The [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}) to which the deployment belongs.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ The [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}) to wh
 [resources]: #resources
 #### [resources]
 It contains a collection of items under the CVAD deployment.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Workload_Citrix_Deployment_Resource'>SoftLayer_Workload_Citrix_Deployment_Resource[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Workload_Citrix_Deployment_Resource'>SoftLayer_Workload_Citrix_Deployment_Resource[] </a>**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ It contains a collection of items under the CVAD deployment.
 [type]: #type
 #### [type]
 It shows if the deployment is for Citrix Hypervisor or VMware.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Workload_Citrix_Deployment_Type'>SoftLayer_Workload_Citrix_Deployment_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Workload_Citrix_Deployment_Type'>SoftLayer_Workload_Citrix_Deployment_Type </a>**  
+
 
 
 </div>
@@ -171,7 +185,8 @@ It shows if the deployment is for Citrix Hypervisor or VMware.
 [user]: #user
 #### [user]
 It is the [SoftLayer_User_Customer]({{<ref "reference/datatypes/SoftLayer_User_Customer">}}) who placed the order for CVAD.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**  
+
 
 
 </div>
@@ -181,7 +196,8 @@ It is the [SoftLayer_User_Customer]({{<ref "reference/datatypes/SoftLayer_User_C
 [vlan]: #vlan
 #### [vlan]
 It is the VLAN resource for the CVAD deployment.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a>**  
+
 
 
 </div>
@@ -193,7 +209,8 @@ It is the VLAN resource for the CVAD deployment.
 [resourceCount]: #resourcecount
 #### [resourceCount]
 A count of it contains a collection of items under the CVAD deployment.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

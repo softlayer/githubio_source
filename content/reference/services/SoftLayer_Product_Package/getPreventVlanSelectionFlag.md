@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getPreventVlanSelectionFlag
 
+
 Retrieve whether the package prevents the user from specifying a Vlan.
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Retrieve details for preferences.  Preferences are used to allow the subscriber to modify their subscription in various ways.  Details such as friendly name, keyname maximum and minimum values can be retrieved.  These provide details to help configure subscriber preferences correctly. 
 
 
@@ -45,7 +47,8 @@ Retrieve details for preferences.  Preferences are used to allow the subscriber 
 [description]: #description
 #### [description]
 A description of what the preference is used for.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ A description of what the preference is used for.
 [id]: #id
 #### [id]
 Unique identifier for the notification preference.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Unique identifier for the notification preference.
 [keyName]: #keyname
 #### [keyName]
 Name that can be used by external systems to refer to preference.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Name that can be used by external systems to refer to preference.
 [maximumValue]: #maximumvalue
 #### [maximumValue]
 Largest value allowed for the preference.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Largest value allowed for the preference.
 [minimumValue]: #minimumvalue
 #### [minimumValue]
 Smallest value allowed for the preference.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ Smallest value allowed for the preference.
 [name]: #name
 #### [name]
 Friendly name for the notification.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ Friendly name for the notification.
 [units]: #units
 #### [units]
 The unit of measure used for the preference's value, minimum and maximum as well.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ The unit of measure used for the preference's value, minimum and maximum as well
 [value]: #value
 #### [value]
 Default value used when setting up preferences for a new subscriber.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

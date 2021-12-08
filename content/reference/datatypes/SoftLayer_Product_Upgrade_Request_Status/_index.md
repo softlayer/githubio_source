@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Product_Upgrade_Request_Status data type contains detailed information relating to an hardware or software upgrade request. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Product_Upgrade_Request_Status data type contains detailed informa
 [description]: #description
 #### [description]
 The detailed description of an upgrade request status.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The detailed description of an upgrade request status.
 [id]: #id
 #### [id]
 An internal identifier of an upgrade request status.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ An internal identifier of an upgrade request status.
 [name]: #name
 #### [name]
 The name of an upgrade request status.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The name of an upgrade request status.
 [statusCode]: #statuscode
 #### [statusCode]
 The status code of an upgrade request status.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

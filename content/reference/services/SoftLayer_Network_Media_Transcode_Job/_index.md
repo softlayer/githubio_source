@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 SoftLayer_Network_Media_Transcode_Job holds information on a transcode job. To create a transcode job, use a [SoftLayer_Network_Media_Transcode_Account]({{<ref "reference/datatypes/SoftLayer_Network_Media_Transcode_Account">}}) object. 
 
 
@@ -42,11 +44,13 @@ SoftLayer_Network_Media_Transcode_Job holds information on a transcode job. To c
 
 #### [createObject](/reference/services/SoftLayer_Network_Media_Transcode_Job/createObject)
 Creates a transcode job
+
 </div>
 
 <div class="method-row">
 
 #### [getHistory](/reference/services/SoftLayer_Network_Media_Transcode_Job/getHistory)
+
 
 </div>
 
@@ -54,30 +58,35 @@ Creates a transcode job
 
 #### [getObject](/reference/services/SoftLayer_Network_Media_Transcode_Job/getObject)
 Retrieve a SoftLayer_Network_Media_Transcode_Job record.
+
 </div>
 
 <div class="method-row">
 
 #### [getTranscodeAccount](/reference/services/SoftLayer_Network_Media_Transcode_Job/getTranscodeAccount)
 Retrieve the transcode service account
+
 </div>
 
 <div class="method-row">
 
 #### [getTranscodeStatus](/reference/services/SoftLayer_Network_Media_Transcode_Job/getTranscodeStatus)
 Retrieve the status information of a transcode job
+
 </div>
 
 <div class="method-row">
 
 #### [getTranscodeStatusName](/reference/services/SoftLayer_Network_Media_Transcode_Job/getTranscodeStatusName)
 Retrieve the status of a transcode job
+
 </div>
 
 <div class="method-row">
 
 #### [getUser](/reference/services/SoftLayer_Network_Media_Transcode_Job/getUser)
 Retrieve the SoftLayer user that created the transcode job
+
 </div>
 </div>
 

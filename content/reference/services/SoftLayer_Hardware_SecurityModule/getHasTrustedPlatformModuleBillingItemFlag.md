@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getHasTrustedPlatformModuleBillingItemFlag
 
+
 Retrieve determine in hardware object has TPM enabled.
 
 

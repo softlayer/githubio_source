@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_Storage_Evault_Version6 contains the names of the remote management commands.  Currently, only the reboot and power commands for the remote management card exist. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Network_Storage_Evault_Version6 contains the names of the remote m
 [keyName]: #keyname
 #### [keyName]
 The name of the remote management command.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -61,7 +64,8 @@ The name of the remote management command.
 [requests]: #requests
 #### [requests]
 All requests issued for the remote management command.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_RemoteManagement_Command_Request'>SoftLayer_Hardware_Component_RemoteManagement_Command_Request[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_RemoteManagement_Command_Request'>SoftLayer_Hardware_Component_RemoteManagement_Command_Request[] </a>**  
+
 
 
 </div>
@@ -73,7 +77,8 @@ All requests issued for the remote management command.
 [requestCount]: #requestcount
 #### [requestCount]
 A count of all requests issued for the remote management command.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

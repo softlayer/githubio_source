@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Vlan_Firewall](/reference/services/SoftLayer_Network_Vlan_Firewall)::getDatacenter
 
+
 Retrieve the datacenter that the firewall resides in.
 
 

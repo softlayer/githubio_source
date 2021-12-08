@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Search](/reference/services/SoftLayer_Search)::getObjectTypes
 
+
 Return a collection of indexed object types. 
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Item_Category](/reference/services/SoftLayer_Product_Item_Category)::getAdditionalProductsForCategory
 
+
 Return a list of Items in the "Additional Services" package with their active prices for a given product item category.
 
 

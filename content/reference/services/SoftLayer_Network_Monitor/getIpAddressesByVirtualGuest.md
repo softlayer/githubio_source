@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Monitor](/reference/services/SoftLayer_Network_Monitor)::getIpAddressesByVirtualGuest
 
+
 Returns an ArrayObject of subnet ip address objects for a guest resource.
 
 

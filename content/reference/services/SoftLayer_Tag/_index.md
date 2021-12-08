@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 SoftLayer's tagging service gives customers the ability to tag devices with keywords that can later be used to search upon. 
 
 
@@ -42,60 +44,70 @@ SoftLayer's tagging service gives customers the ability to tag devices with keyw
 
 #### [autoComplete](/reference/services/SoftLayer_Tag/autoComplete)
 Autocomplete tag inputted by a user.
+
 </div>
 
 <div class="method-row">
 
 #### [deleteTag](/reference/services/SoftLayer_Tag/deleteTag)
 delete tag for a given object.
+
 </div>
 
 <div class="method-row">
 
 #### [getAccount](/reference/services/SoftLayer_Tag/getAccount)
 Retrieve the account to which the tag is tied.
+
 </div>
 
 <div class="method-row">
 
 #### [getAllTagTypes](/reference/services/SoftLayer_Tag/getAllTagTypes)
 Get all valid tag types.
+
 </div>
 
 <div class="method-row">
 
 #### [getAttachedTagsForCurrentUser](/reference/services/SoftLayer_Tag/getAttachedTagsForCurrentUser)
 Get the tags attached to references.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Tag/getObject)
 Retrieve a SoftLayer_Tag record.
+
 </div>
 
 <div class="method-row">
 
 #### [getReferences](/reference/services/SoftLayer_Tag/getReferences)
 Retrieve references that tie object to the tag.
+
 </div>
 
 <div class="method-row">
 
 #### [getTagByTagName](/reference/services/SoftLayer_Tag/getTagByTagName)
 Get the tag object based on what the user inputs.
+
 </div>
 
 <div class="method-row">
 
 #### [getUnattachedTagsForCurrentUser](/reference/services/SoftLayer_Tag/getUnattachedTagsForCurrentUser)
 Get the tags not attached to references.
+
 </div>
 
 <div class="method-row">
 
 #### [setTags](/reference/services/SoftLayer_Tag/setTags)
 Set the tags for a given object.
+
 </div>
 </div>
 

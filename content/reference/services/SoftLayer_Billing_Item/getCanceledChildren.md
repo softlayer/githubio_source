@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getCanceledChildren
 
+
 Retrieve a Billing Item's active child billing items.
 
 

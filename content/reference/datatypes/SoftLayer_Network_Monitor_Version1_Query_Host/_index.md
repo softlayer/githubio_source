@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The Monitoring_Query_Host type represents a monitoring instance.  It consists of a hardware ID to monitor, an IP address attached to that hardware ID, a method of monitoring, and what to do in the instance that the monitor ever fails. 
 
 
@@ -50,7 +52,8 @@ The Monitoring_Query_Host type represents a monitoring instance.  It consists of
 [arg1Value]: #arg1value
 #### [arg1Value]
 The argument to be used for this monitor, if necessary.  The lowest monitoring levels (like ping) ignore this setting, but higher levels like HTTP custom use it.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ The argument to be used for this monitor, if necessary.  The lowest monitoring l
 [guestId]: #guestid
 #### [guestId]
 Virtual Guest Identification Number for the guest being monitored.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -70,7 +74,8 @@ Virtual Guest Identification Number for the guest being monitored.
 [hardwareId]: #hardwareid
 #### [hardwareId]
 The ID of the hardware being monitored  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -80,7 +85,8 @@ The ID of the hardware being monitored
 [hostId]: #hostid
 #### [hostId]
 Identification Number for the host being monitored.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -90,7 +96,8 @@ Identification Number for the host being monitored.
 [id]: #id
 #### [id]
 The unique identifier for this object  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -100,7 +107,8 @@ The unique identifier for this object
 [ipAddress]: #ipaddress
 #### [ipAddress]
 The IP address to be monitored.  Must be attached to the hardware on this object  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -110,7 +118,8 @@ The IP address to be monitored.  Must be attached to the hardware on this object
 [queryTypeId]: #querytypeid
 #### [queryTypeId]
 The ID of the query type to use.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -120,7 +129,8 @@ The ID of the query type to use.
 [responseActionId]: #responseactionid
 #### [responseActionId]
 The ID of the response action to take when the monitor fails  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -130,7 +140,8 @@ The ID of the response action to take when the monitor fails
 [status]: #status
 #### [status]
 The status of this monitoring instance.  Anything other than "ON" means that the monitor has been disabled  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -140,7 +151,8 @@ The status of this monitoring instance.  Anything other than "ON" means that the
 [waitCycles]: #waitcycles
 #### [waitCycles]
 The number of 5-minute cycles to wait before the "responseAction" is taken.  If set to 0, the response action will be taken immediately  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -156,7 +168,8 @@ The number of 5-minute cycles to wait before the "responseAction" is taken.  If 
 [hardware]: #hardware
 #### [hardware]
 The hardware that is being monitored by this monitoring instance  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**  
+
 
 
 </div>
@@ -166,7 +179,8 @@ The hardware that is being monitored by this monitoring instance
 [lastResult]: #lastresult
 #### [lastResult]
 The most recent result for this particular monitoring instance.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Result'>SoftLayer_Network_Monitor_Version1_Query_Result </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Result'>SoftLayer_Network_Monitor_Version1_Query_Result </a>**  
+
 
 
 </div>
@@ -176,7 +190,8 @@ The most recent result for this particular monitoring instance.
 [queryType]: #querytype
 #### [queryType]
 The type of monitoring query that is executed when this hardware is monitored.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Type'>SoftLayer_Network_Monitor_Version1_Query_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_Type'>SoftLayer_Network_Monitor_Version1_Query_Type </a>**  
+
 
 
 </div>
@@ -186,7 +201,8 @@ The type of monitoring query that is executed when this hardware is monitored.
 [responseAction]: #responseaction
 #### [responseAction]
 The action taken when a monitor fails.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_ResponseType'>SoftLayer_Network_Monitor_Version1_Query_ResponseType </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Monitor_Version1_Query_ResponseType'>SoftLayer_Network_Monitor_Version1_Query_ResponseType </a>**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Software_Component_HostIps](/reference/services/SoftLayer_Software_Component_HostIps)::getAverageInstallationDuration
 
+
 Retrieve the average amount of time that a software component takes to install.
 
 

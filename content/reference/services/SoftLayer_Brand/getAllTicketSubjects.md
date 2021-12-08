@@ -13,6 +13,8 @@ aliases:
 ---
 # [SoftLayer_Brand](/reference/services/SoftLayer_Brand)::getAllTicketSubjects
 
+<div class="deprecated"><span class="deprecation-label">Deprecated </span></div>
+
 
 
 

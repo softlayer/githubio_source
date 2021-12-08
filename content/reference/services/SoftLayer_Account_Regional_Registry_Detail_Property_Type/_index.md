@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,12 +44,14 @@ classes:
 
 #### [getAllObjects](/reference/services/SoftLayer_Account_Regional_Registry_Detail_Property_Type/getAllObjects)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Account_Regional_Registry_Detail_Property_Type/getObject)
 Retrieve a SoftLayer_Account_Regional_Registry_Detail_Property_Type record.
+
 </div>
 </div>
 

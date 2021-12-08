@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Container_Network_CdnMarketplace_Configuration_Cache_PurgeGroup data type contains information for specific responses from the Purge Group API. Each of the Purge Group APIs returns a collection of this type 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Container_Network_CdnMarketplace_Configuration_Cache_PurgeGroup da
 [createDate]: #createdate
 #### [createDate]
 Date in which record is created   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Date in which record is created
 [groupUniqueId]: #groupuniqueid
 #### [groupUniqueId]
 A identifier that is unique to purge group.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A identifier that is unique to purge group.
 [lastPurgeDate]: #lastpurgedate
 #### [lastPurgeDate]
 The Unix timestamp of the last purge.   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The Unix timestamp of the last purge.
 [name]: #name
 #### [name]
 Purge Group name. The favorite group name must be unique, but non-favorite groups do not have this limitation   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Purge Group name. The favorite group name must be unique, but non-favorite group
 [option]: #option
 #### [option]
 The following options are available to create a Purge Group: option 1: only purge the paths in the group, but don't save as favorite. option 2: only save the purge group as favorite, but don't purge paths. option 3: save the purge group as favorite and also purge paths.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The following options are available to create a Purge Group: option 1: only purg
 [pathCount]: #pathcount
 #### [pathCount]
 Total number of purge paths.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ Total number of purge paths.
 [paths]: #paths
 #### [paths]
 A collection of purge paths.   
-<span class="type-label">Type: </span>**array of strings**
+<span class="type-label">Type: </span>**array of strings**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ A collection of purge paths.
 [purgeStatus]: #purgestatus
 #### [purgeStatus]
 The purge's status when the input option field is 1 or 3. Status can be SUCCESS, FAILED, or IN_PROGRESS.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ The purge's status when the input option field is 1 or 3. Status can be SUCCESS,
 [saved]: #saved
 #### [saved]
 Type of the Purge Group, currently SAVED or UNSAVED.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ Type of the Purge Group, currently SAVED or UNSAVED.
 [uniqueId]: #uniqueid
 #### [uniqueId]
 A identifier that is unique to domain mapping.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

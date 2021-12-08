@@ -20,6 +20,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The guest configuration container is used to provide configuration options for creating computing instances. 
 
 Each configuration option will include both an <code>itemPrice</code> and a <code>template</code>. 
@@ -76,7 +78,8 @@ The <code>localDiskFlag</code> value in the template represents whether the opti
 
 Note: The block device number <code>'1'</code> is reserved for the SWAP disk attached to the computing instance. 
 </div>   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration_Option'>SoftLayer_Container_Virtual_Guest_Configuration_Option[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration_Option'>SoftLayer_Container_Virtual_Guest_Configuration_Option[] </a>**  
+
 
 
 </div>
@@ -92,7 +95,8 @@ Available datacenter options.
 
 The <code>datacenter.name</code> value in the template represents which datacenter the computing instance will be provisioned in. 
 </div>   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration_Option'>SoftLayer_Container_Virtual_Guest_Configuration_Option[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration_Option'>SoftLayer_Container_Virtual_Guest_Configuration_Option[] </a>**  
+
 
 
 </div>
@@ -113,7 +117,8 @@ The <code>supplementalCreateObjectOptions.flavorKeyName</code> value in the temp
 
 When providing a <code>supplementalCreateObjectOptions.flavorKeyName</code> option the core, ram, and primary disk options are not needed. If those options are provided they are validated against the flavor. 
 </div>   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration_Option'>SoftLayer_Container_Virtual_Guest_Configuration_Option[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration_Option'>SoftLayer_Container_Virtual_Guest_Configuration_Option[] </a>**  
+
 
 
 </div>
@@ -129,7 +134,8 @@ Available memory options.
 
 The <code>maxMemory</code> value in the template represents the amount of memory, in megabytes, allocated to the computing instance. 
 </div>   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration_Option'>SoftLayer_Container_Virtual_Guest_Configuration_Option[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration_Option'>SoftLayer_Container_Virtual_Guest_Configuration_Option[] </a>**  
+
 
 
 </div>
@@ -145,7 +151,8 @@ Available network component options.
 
 The <code>networkComponent.maxSpeed</code> value in the template represents the link speed, in megabits per second, of the network connections for a computing instance. 
 </div>   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration_Option'>SoftLayer_Container_Virtual_Guest_Configuration_Option[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration_Option'>SoftLayer_Container_Virtual_Guest_Configuration_Option[] </a>**  
+
 
 
 </div>
@@ -176,7 +183,8 @@ For Windows based operating systems the version will represent both the release 
 
 <b>Notice</b> - Some operating systems are charged based on the value specified in <code>startCpus</code>. The price which is used can be determined by calling [SoftLayer_Virtual_Guest::generateOrderTemplate]({{<ref "reference/services/SoftLayer_Virtual_Guest/generateOrderTemplate">}}) with your desired device specifications. 
 </div>   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration_Option'>SoftLayer_Container_Virtual_Guest_Configuration_Option[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration_Option'>SoftLayer_Container_Virtual_Guest_Configuration_Option[] </a>**  
+
 
 
 </div>
@@ -193,7 +201,8 @@ Available processor options.
 The <code>startCpus</code> value in the template represents the number of cores allocated to the computing instance. 
 The <code>dedicatedAccountHostOnlyFlag</code> value in the template represents whether the instance will run on hosts with instances belonging to other accounts. 
 </div>   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration_Option'>SoftLayer_Container_Virtual_Guest_Configuration_Option[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Virtual_Guest_Configuration_Option'>SoftLayer_Container_Virtual_Guest_Configuration_Option[] </a>**  
+
 
 
 </div>

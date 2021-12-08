@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Schedule properties provide attributes such as start date, end date, interval, and other properties to a storage schedule. 
 
 
@@ -45,7 +47,8 @@ Schedule properties provide attributes such as start date, end date, interval, a
 [createDate]: #createdate
 #### [createDate]
 The date a schedule property was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The date a schedule property was created.
 [id]: #id
 #### [id]
 A schedule property's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A schedule property's internal identifier.
 [modifyDate]: #modifydate
 #### [modifyDate]
 The date a schedule property was last modified.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The date a schedule property was last modified.
 [typeId]: #typeid
 #### [typeId]
 An identifier for the type of a property.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ An identifier for the type of a property.
 [value]: #value
 #### [value]
 The value of a property.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ The value of a property.
 [schedule]: #schedule
 #### [schedule]
 The associated schedule for a property.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule'>SoftLayer_Network_Storage_Schedule </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule'>SoftLayer_Network_Storage_Schedule </a>**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ The associated schedule for a property.
 [type]: #type
 #### [type]
 The type provides a standardized definition for a property.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule_Property_Type'>SoftLayer_Network_Storage_Schedule_Property_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule_Property_Type'>SoftLayer_Network_Storage_Schedule_Property_Type </a>**  
+
 
 
 </div>

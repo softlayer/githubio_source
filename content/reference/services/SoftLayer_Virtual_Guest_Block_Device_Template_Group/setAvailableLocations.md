@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest_Block_Device_Template_Group](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group)::setAvailableLocations
 
+
 This method generates the necessary transaction(s) to set available locations for archived block devices. 
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Metric_Tracking_Object_Abstract models a generic tracking object type. Typically a tracking object with a specific purpose has it's own data type defined within the SoftLayer API. 
 
 
@@ -50,7 +52,8 @@ SoftLayer_Metric_Tracking_Object_Abstract models a generic tracking object type.
 [data]: #data
 #### [data]
 The data recorded by a tracking object.   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Data'>SoftLayer_Metric_Tracking_Object_Data[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Data'>SoftLayer_Metric_Tracking_Object_Data[] </a>**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ The data recorded by a tracking object.
 [id]: #id
 #### [id]
 A tracking object's internal identifier.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -70,7 +74,8 @@ A tracking object's internal identifier.
 [label]: #label
 #### [label]
 Tracking object label   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -80,7 +85,8 @@ Tracking object label
 [resourceTableId]: #resourcetableid
 #### [resourceTableId]
 The identifier of the existing resource this object is attempting to track.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -90,7 +96,8 @@ The identifier of the existing resource this object is attempting to track.
 [startDate]: #startdate
 #### [startDate]
 The date this tracker began tracking this particular resource.   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -106,7 +113,8 @@ The date this tracker began tracking this particular resource.
 [type]: #type
 #### [type]
 The type of data that a tracking object polls.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Type'>SoftLayer_Metric_Tracking_Object_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Type'>SoftLayer_Metric_Tracking_Object_Type </a>**  
+
 
 
 </div>

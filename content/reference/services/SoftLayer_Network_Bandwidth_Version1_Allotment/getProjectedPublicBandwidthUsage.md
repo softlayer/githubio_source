@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Bandwidth_Version1_Allotment](/reference/services/SoftLayer_Network_Bandwidth_Version1_Allotment)::getProjectedPublicBandwidthUsage
 
+
 Retrieve the projected public outbound bandwidth for this virtual server for the current billing cycle.
 
 

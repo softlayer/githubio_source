@@ -20,6 +20,9 @@ classes:
 
 ## Description
 
+<div class="deprecated"><span class="deprecation-label">Deprecated  </span></div>
+
+
 **DEPRECATED**
 SoftLayer's Automated Swip System is a finite state machine; it works by locally tracking a transaction between SoftLayer and the relevant Regional Internet Registry (RIR), assigning responsibility of a subnet to a customer. Transactions are dictated by the RIR's processing system, and the nature of the communication medium with each RIR, namely their REST API. 
 
@@ -54,58 +57,85 @@ Using this API, SoftLayer Customers are able to initiate, monitor, update, and r
 
 <div id="method-div">
 
-<div class="method-row">
+<div class="method-row deprecated">
 
 #### [findMyTransactions](/reference/services/SoftLayer_Network_Subnet_Swip_Transaction/findMyTransactions)
 returns SWIP transaction objects that are currently in transaction with ARIN.
+
+<span class="deprecation-label">Deprecated  </span>
+
+
 </div>
 
 <div class="method-row">
 
 #### [getAccount](/reference/services/SoftLayer_Network_Subnet_Swip_Transaction/getAccount)
 Retrieve the Account whose RWHOIS data was used to SWIP this subnet
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Subnet_Swip_Transaction/getObject)
 Retrieve a SoftLayer_Network_Subnet_Swip_Transaction record.
+
 </div>
 
 <div class="method-row">
 
 #### [getSubnet](/reference/services/SoftLayer_Network_Subnet_Swip_Transaction/getSubnet)
 Retrieve the subnet that this SWIP transaction was created for.
+
 </div>
 
-<div class="method-row">
+<div class="method-row deprecated">
 
 #### [removeAllSubnetSwips](/reference/services/SoftLayer_Network_Subnet_Swip_Transaction/removeAllSubnetSwips)
 Removes registration information from ARIN for all your subnets
+
+<span class="deprecation-label">Deprecated  </span>
+
+
 </div>
 
-<div class="method-row">
+<div class="method-row deprecated">
 
 #### [removeSwipData](/reference/services/SoftLayer_Network_Subnet_Swip_Transaction/removeSwipData)
 Deletes registration information from ARIN for a single subnet
+
+<span class="deprecation-label">Deprecated  </span>
+
+
 </div>
 
-<div class="method-row">
+<div class="method-row deprecated">
 
 #### [resendSwipData](/reference/services/SoftLayer_Network_Subnet_Swip_Transaction/resendSwipData)
 Sends updated RWHOIS information to ARIN for a single subnet.
+
+<span class="deprecation-label">Deprecated  </span>
+
+
 </div>
 
-<div class="method-row">
+<div class="method-row deprecated">
 
 #### [swipAllSubnets](/reference/services/SoftLayer_Network_Subnet_Swip_Transaction/swipAllSubnets)
 create SWIP transactions for all subnets that do not already have a SWIP transaction in progress.
+
+<span class="deprecation-label">Deprecated  </span>
+
+
 </div>
 
-<div class="method-row">
+<div class="method-row deprecated">
 
 #### [updateAllSubnetSwips](/reference/services/SoftLayer_Network_Subnet_Swip_Transaction/updateAllSubnetSwips)
 Update all subnets on the account with an "OK" status.
+
+<span class="deprecation-label">Deprecated  </span>
+
+
 </div>
 </div>
 

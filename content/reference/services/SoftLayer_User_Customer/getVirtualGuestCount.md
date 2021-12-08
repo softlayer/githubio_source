@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getVirtualGuestCount
 
+
 Retrieve the current number of CloudLayer Computing Instances a portal user has access to.
 
 

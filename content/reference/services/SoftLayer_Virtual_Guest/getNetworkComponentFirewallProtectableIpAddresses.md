@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getNetworkComponentFirewallProtectableIpAddresses
 
+
 Get the IP addresses associated with this CloudLayer computing instance that are protectable by a network component firewall.
 
 

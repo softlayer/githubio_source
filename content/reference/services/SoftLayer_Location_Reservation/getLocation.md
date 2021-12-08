@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Location_Reservation](/reference/services/SoftLayer_Location_Reservation)::getLocation
 
+
 Retrieve the datacenter location that the reservation belongs to.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Regional_Registry_Detail](/reference/services/SoftLayer_Account_Regional_Registry_Detail)::getRegionalInternetRegistryHandle
 
+
 Retrieve the associated RWhois handle of this detail object. Used only when detailed reassignments are necessary.
 
 

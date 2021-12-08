@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Billing_Item_Cancellation_Reason data type contains cancellation reasons. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Billing_Item_Cancellation_Reason data type contains cancellation r
 [billingCancelReasonCategoryId]: #billingcancelreasoncategoryid
 #### [billingCancelReasonCategoryId]
 A cancel reason category internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ A cancel reason category internal identifier.
 [id]: #id
 #### [id]
 A reason internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A reason internal identifier.
 [keyName]: #keyname
 #### [keyName]
 A standardized reason internal identifier.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ A standardized reason internal identifier.
 [reason]: #reason
 #### [reason]
 The descriptoin of the reason  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ The descriptoin of the reason
 [billingCancellationReasonCategory]: #billingcancellationreasoncategory
 #### [billingCancellationReasonCategory]
 An billing cancellation reason category.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Reason_Category'>SoftLayer_Billing_Item_Cancellation_Reason_Category </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Reason_Category'>SoftLayer_Billing_Item_Cancellation_Reason_Category </a>**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ An billing cancellation reason category.
 [billingItems]: #billingitems
 #### [billingItems]
 The corresponding billing items having the specific cancellation reason.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ The corresponding billing items having the specific cancellation reason.
 [translatedReason]: #translatedreason
 #### [translatedReason]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -123,7 +132,8 @@ The corresponding billing items having the specific cancellation reason.
 [billingItemCount]: #billingitemcount
 #### [billingItemCount]
 A count of the corresponding billing items having the specific cancellation reason.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

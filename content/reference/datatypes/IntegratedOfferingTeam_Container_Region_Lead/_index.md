@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [emailAddress]: #emailaddress
 #### [emailAddress]
 Regional lead's email address  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Regional lead's email address
 [firstName]: #firstname
 #### [firstName]
 Regional lead's first name  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Regional lead's first name
 [lastName]: #lastname
 #### [lastName]
 Regional lead's last name  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Regional lead's last name
 [regionKeyName]: #regionkeyname
 #### [regionKeyName]
 Key name of the region this lead is in charge of  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Key name of the region this lead is in charge of
 [regionName]: #regionname
 #### [regionName]
 Full name of the region this lead is in charge of  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

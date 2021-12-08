@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Dns_Domain_ResourceRecord_CnameType is a SoftLayer_Dns_Domain_ResourceRecord object whose ''type'' property is set to "cname" and defines a DNS CNAME record on a SoftLayer hosted domain. A CNAME record directs a host name to another host. For instance, if the CNAME record for "alias.example.org" points to the host "host.example.org" then the ''host'' property equals "alias" and the ''data'' property equals "host.example.org.". 
 
 DNS entries defined by CNAME should not be used as the data field for an MX record. 
@@ -66,7 +68,8 @@ DNS entries defined by CNAME should not be used as the data field for an MX reco
 [data]: #data
 #### [data]
 The value of a domain's resource record. This can be an IP address or a hostname. Fully qualified host and domain name data must end with the "." character.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -76,7 +79,8 @@ The value of a domain's resource record. This can be an IP address or a hostname
 [domainId]: #domainid
 #### [domainId]
 An identifier belonging to the domain that a resource record is associated with.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -86,7 +90,8 @@ An identifier belonging to the domain that a resource record is associated with.
 [expire]: #expire
 #### [expire]
 The amount of time in seconds that a secondary name server (or servers) will hold a zone before it is no longer considered authoritative.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -96,7 +101,8 @@ The amount of time in seconds that a secondary name server (or servers) will hol
 [host]: #host
 #### [host]
 The host defined by a resource record. A value of "@" denotes a wildcard.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -106,7 +112,8 @@ The host defined by a resource record. A value of "@" denotes a wildcard.
 [id]: #id
 #### [id]
 A domain resource record's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -116,7 +123,8 @@ A domain resource record's internal identifier.
 [minimum]: #minimum
 #### [minimum]
 The amount of time in seconds that a domain's resource records are valid. This is also known as a minimum TTL, and can be overridden by an individual resource record's TTL.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -126,7 +134,8 @@ The amount of time in seconds that a domain's resource records are valid. This i
 [mxPriority]: #mxpriority
 #### [mxPriority]
 Useful in cases where a domain has more than one mail exchanger, the priority property is the priority of the MTA that delivers mail for a domain. A lower number denotes a higher priority, and mail will attempt to deliver through that MTA before moving to lower priority mail servers. Priority is defaulted to 10 upon resource record creation.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -136,7 +145,8 @@ Useful in cases where a domain has more than one mail exchanger, the priority pr
 [refresh]: #refresh
 #### [refresh]
 The amount of time in seconds that a secondary name server should wait to check for a new copy of a DNS zone from the domain's primary name server. If a zone file has changed then the secondary DNS server will update it's copy of the zone to match the primary DNS server's zone.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -146,7 +156,8 @@ The amount of time in seconds that a secondary name server should wait to check 
 [responsiblePerson]: #responsibleperson
 #### [responsiblePerson]
 The email address of the person responsible for a domain, with the "@" replaced with a ".". For instance, if root@example.org is responsible for example.org, then example.org's SOA responsibility is "root.example.org.".   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -156,7 +167,8 @@ The email address of the person responsible for a domain, with the "@" replaced 
 [retry]: #retry
 #### [retry]
 The amount of time in seconds that a domain's primary name server (or servers) should wait if an attempt to refresh by a secondary name server failed before attempting to refresh a domain's zone with that secondary name server again.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -166,7 +178,8 @@ The amount of time in seconds that a domain's primary name server (or servers) s
 [ttl]: #ttl
 #### [ttl]
 The Time To Live value of a resource record, measured in seconds. TTL is used by a name server to determine how long to cache a resource record. An SOA record's TTL value defines the domain's overall TTL.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -176,7 +189,8 @@ The Time To Live value of a resource record, measured in seconds. TTL is used by
 [type]: #type
 #### [type]
 The string "cname" which defines a resource record as an CNAME record.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -192,7 +206,8 @@ The string "cname" which defines a resource record as an CNAME record.
 [domain]: #domain
 #### [domain]
 The domain that a resource record belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain </a>**  
+
 
 
 </div>

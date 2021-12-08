@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getDeployments
 
+
 Retrieve the package that represents a multi-server solution. (Deprecated)
 
 

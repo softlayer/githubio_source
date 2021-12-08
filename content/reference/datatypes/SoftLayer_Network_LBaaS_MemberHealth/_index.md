@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Network_LBaaS_MemberHealth is a collection member metrics retrieved from a LBaaS VSI instance. The available metrics are: <ul> <li>Name of the member</li> <li>Status of the member up or down</li> <li>Uuid of the member</li> </ul> 
 
 
@@ -45,7 +47,8 @@ SoftLayer_Network_LBaaS_MemberHealth is a collection member metrics retrieved fr
 [status]: #status
 #### [status]
 Members status (UP/DOWN).  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Members status (UP/DOWN).
 [uuid]: #uuid
 #### [uuid]
 Members UUID.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

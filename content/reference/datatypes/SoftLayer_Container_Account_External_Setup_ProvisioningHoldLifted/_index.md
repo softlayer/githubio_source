@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [additionalAttributes]: #additionalattributes
 #### [additionalAttributes]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_External_Setup_ProvisioningHoldLifted_Attributes'>SoftLayer_Container_Account_External_Setup_ProvisioningHoldLifted_Attributes </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_External_Setup_ProvisioningHoldLifted_Attributes'>SoftLayer_Container_Account_External_Setup_ProvisioningHoldLifted_Attributes </a>**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ classes:
 [code]: #code
 #### [code]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ classes:
 [error]: #error
 #### [error]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ classes:
 [state]: #state
 #### [state]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

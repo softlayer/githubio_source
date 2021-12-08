@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Hardware_Component_Attribute_Type data type contains general information for the type of an attribute for a hardware component. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Hardware_Component_Attribute_Type data type contains general infor
 [description]: #description
 #### [description]
 The description for the date that a hardware component attribute type's [SoftLayer_Hardware_Component_Attribute]({{<ref "reference/datatypes/SoftLayer_Hardware_Component_Attribute">}}) contains.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The description for the date that a hardware component attribute type's [SoftLay
 [id]: #id
 #### [id]
 A hardware component attribute type's Id.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A hardware component attribute type's Id.
 [keyName]: #keyname
 #### [keyName]
 A hardware component attribute type's unique name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ A hardware component attribute type's unique name.
 [name]: #name
 #### [name]
 A hardware component attribute type's name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

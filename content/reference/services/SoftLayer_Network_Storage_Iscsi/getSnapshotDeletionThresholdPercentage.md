@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getSnapshotDeletionThresholdPercentage
 
+
 Retrieve the percentage of used snapshot space after which to delete automated snapshots.
 
 

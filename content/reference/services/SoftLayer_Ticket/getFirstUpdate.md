@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getFirstUpdate
 
+
 Retrieve the first update made to a ticket. This is typically the contents of a ticket when it's created.
 
 

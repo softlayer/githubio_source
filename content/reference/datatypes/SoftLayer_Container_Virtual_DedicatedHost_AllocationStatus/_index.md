@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This data type represents the structure to hold the allocation properties of a [SoftLayer_Virtual_DedicatedHost]({{<ref "reference/datatypes/SoftLayer_Virtual_DedicatedHost">}}). 
 
 
@@ -45,7 +47,8 @@ This data type represents the structure to hold the allocation properties of a [
 [cpuAllocated]: #cpuallocated
 #### [cpuAllocated]
 Number of allocated CPU cores on the specified dedicated host.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Number of allocated CPU cores on the specified dedicated host.
 [cpuAvailable]: #cpuavailable
 #### [cpuAvailable]
 Number of available CPU cores on the specified dedicated host.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Number of available CPU cores on the specified dedicated host.
 [cpuCount]: #cpucount
 #### [cpuCount]
 Total number of CPU cores on the dedicated host.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Total number of CPU cores on the dedicated host.
 [diskAllocated]: #diskallocated
 #### [diskAllocated]
 Amount of allocated disk space on the specified dedicated host.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Amount of allocated disk space on the specified dedicated host.
 [diskAvailable]: #diskavailable
 #### [diskAvailable]
 Amount of available disk space on the specified dedicated host.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ Amount of available disk space on the specified dedicated host.
 [diskCapacity]: #diskcapacity
 #### [diskCapacity]
 Total amount of disk capacity on the dedicated host.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ Total amount of disk capacity on the dedicated host.
 [guestCount]: #guestcount
 #### [guestCount]
 Number of allocated guests on the specified dedicated host.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ Number of allocated guests on the specified dedicated host.
 [memoryAllocated]: #memoryallocated
 #### [memoryAllocated]
 Amount of allocated memory on the specified dedicated host.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ Amount of allocated memory on the specified dedicated host.
 [memoryAvailable]: #memoryavailable
 #### [memoryAvailable]
 Amount of available memory on the specified dedicated host.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ Amount of available memory on the specified dedicated host.
 [memoryCapacity]: #memorycapacity
 #### [memoryCapacity]
 Total amount of memory capacity on the dedicated host.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

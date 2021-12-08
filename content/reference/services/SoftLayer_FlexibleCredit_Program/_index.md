@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,11 +44,13 @@ classes:
 
 #### [getAffiliatesAvailableForSelfEnrollmentByVerificationType](/reference/services/SoftLayer_FlexibleCredit_Program/getAffiliatesAvailableForSelfEnrollmentByVerificationType)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getCompanyTypes](/reference/services/SoftLayer_FlexibleCredit_Program/getCompanyTypes)
+
 
 </div>
 
@@ -54,11 +58,13 @@ classes:
 
 #### [getObject](/reference/services/SoftLayer_FlexibleCredit_Program/getObject)
 Retrieve a SoftLayer_FlexibleCredit_Program record.
+
 </div>
 
 <div class="method-row">
 
 #### [selfEnrollNewAccount](/reference/services/SoftLayer_FlexibleCredit_Program/selfEnrollNewAccount)
+
 
 </div>
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Layout_Container](/reference/services/SoftLayer_Layout_Container)::getLayoutContainerType
 
+
 Retrieve the type of the layout container object
 
 

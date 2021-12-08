@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 The SoftLayer_Auxiliary_Press_Release_About service provides all the about paragraphs associated to a press release. 
 
 
@@ -42,6 +44,7 @@ The SoftLayer_Auxiliary_Press_Release_About service provides all the about parag
 
 #### [getObject](/reference/services/SoftLayer_Auxiliary_Press_Release_About/getObject)
 Retrieve a SoftLayer_Auxiliary_Press_Release_About record.
+
 </div>
 </div>
 

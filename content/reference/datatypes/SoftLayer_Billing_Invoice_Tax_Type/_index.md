@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The invoice tax type data type models a single strategy for handling tax calculations. 
 
 
@@ -45,7 +47,8 @@ The invoice tax type data type models a single strategy for handling tax calcula
 [id]: #id
 #### [id]
 A tax type's internal identifier. Each type of tax calculation strategy has a unique ID value.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ A tax type's internal identifier. Each type of tax calculation strategy has a un
 [keyName]: #keyname
 #### [keyName]
 A unique string that identifies each strategy and is guaranteed to be stable over time.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A unique string that identifies each strategy and is guaranteed to be stable ove
 [name]: #name
 #### [name]
 A human-readable label for each tax strategy.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

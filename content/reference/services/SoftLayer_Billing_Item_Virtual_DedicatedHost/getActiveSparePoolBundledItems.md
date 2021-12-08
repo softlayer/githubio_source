@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item_Virtual_DedicatedHost](/reference/services/SoftLayer_Billing_Item_Virtual_DedicatedHost)::getActiveSparePoolBundledItems
 
+
 Retrieve a Billing Item's spare pool bundled billing items.
 
 

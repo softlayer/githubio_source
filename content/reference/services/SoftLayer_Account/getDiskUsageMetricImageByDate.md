@@ -13,6 +13,8 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getDiskUsageMetricImageByDate
 
+<div class="deprecated"><span class="deprecation-label">Deprecated </span></div>
+
 Retrieve an image of the disk usage data on a [SoftLayer_Virtual_Guest]({{<ref "reference/datatypes/SoftLayer_Virtual_Guest">}}) image for the time range you provide. 
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Internal_Ibm](/reference/services/SoftLayer_Account_Internal_Ibm)::managerApprove
 
+
 Applies manager approval to a pending internal IBM account request
 
 

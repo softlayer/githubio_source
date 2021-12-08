@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [createDate]: #createdate
 #### [createDate]
 Timestamp of when the reference was created  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Timestamp of when the reference was created
 [id]: #id
 #### [id]
 The internal identifier of the container reference  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The internal identifier of the container reference
 [layoutContainerId]: #layoutcontainerid
 #### [layoutContainerId]
 The id of the referenced [SoftLayer_Layout_Container]({{<ref "reference/datatypes/SoftLayer_Layout_Container">}})  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The id of the referenced [SoftLayer_Layout_Container]({{<ref "reference/datatype
 [layoutProfileId]: #layoutprofileid
 #### [layoutProfileId]
 The id of the referenced [SoftLayer_Layout_Profile]({{<ref "reference/datatypes/SoftLayer_Layout_Profile">}})  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The id of the referenced [SoftLayer_Layout_Profile]({{<ref "reference/datatypes/
 [modifyDate]: #modifydate
 #### [modifyDate]
 Timestamp of when the reference was last updated  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ Timestamp of when the reference was last updated
 [layoutContainerType]: #layoutcontainertype
 #### [layoutContainerType]
 The container to be contained  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Container'>SoftLayer_Layout_Container </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Container'>SoftLayer_Layout_Container </a>**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ The container to be contained
 [layoutProfile]: #layoutprofile
 #### [layoutProfile]
 The profile containing this container  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Profile'>SoftLayer_Layout_Profile </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Profile'>SoftLayer_Layout_Profile </a>**  
+
 
 
 </div>

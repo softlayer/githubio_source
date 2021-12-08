@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 A policy for automatic removal of members from a group. This policy determines which members are chosen first for removal. The values can be: 
 
 
@@ -50,12 +52,14 @@ will let you remove the member you have gotten the most out of. Note, this is us
 
 #### [getAllObjects](/reference/services/SoftLayer_Scale_Termination_Policy/getAllObjects)
 Get a list of all termination policies
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Scale_Termination_Policy/getObject)
 Retrieve a SoftLayer_Scale_Termination_Policy record.
+
 </div>
 </div>
 

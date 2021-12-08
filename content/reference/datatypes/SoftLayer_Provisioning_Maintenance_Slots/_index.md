@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Provisioning_Maintenance_Slots represent the available slots for a given maintenance window at a SoftLayer data center. 
 
 
@@ -50,7 +52,8 @@ The SoftLayer_Provisioning_Maintenance_Slots represent the available slots for a
 [availableSlots]: #availableslots
 #### [availableSlots]
 The available slots for a maintenance window.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

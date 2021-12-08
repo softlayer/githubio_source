@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_Tunnel_Module_Context data type contains general information relating to a single SoftLayer network tunnel.  The SoftLayer_Network_Tunnel_Module_Context is useful to gather information such as related customer subnets (remote) and internal subnets (local) associated with the network tunnel as well as other information needed to manage the network tunnel.  Account and billing information related to the network tunnel can also be retrieved. 
 
 ### External Links
@@ -51,7 +53,8 @@ The SoftLayer_Network_Tunnel_Module_Context data type contains general informati
 [accountId]: #accountid
 #### [accountId]
 A network tunnel's account identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -61,7 +64,8 @@ A network tunnel's account identifier.
 [advancedConfigurationFlag]: #advancedconfigurationflag
 #### [advancedConfigurationFlag]
 A flag used to specify when advanced configurations, complex configurations that require manual setup, are being applied to network devices for a network tunnel. When the flag is set to true (1), a network tunnel cannot be configured through the management portal nor the API.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ A flag used to specify when advanced configurations, complex configurations that
 [createDate]: #createdate
 #### [createDate]
 The date a network tunnel was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ The date a network tunnel was created.
 [customerPeerIpAddress]: #customerpeeripaddress
 #### [customerPeerIpAddress]
 The remote end of a network tunnel. This end of the network tunnel resides on an outside network and will be sending and receiving the IPSec packets.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ The remote end of a network tunnel. This end of the network tunnel resides on an
 [friendlyName]: #friendlyname
 #### [friendlyName]
 The name giving to a network tunnel by a user.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ The name giving to a network tunnel by a user.
 [id]: #id
 #### [id]
 A network tunnel's unique identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ A network tunnel's unique identifier.
 [internalPeerIpAddress]: #internalpeeripaddress
 #### [internalPeerIpAddress]
 The local  end of a network tunnel. This end of the network tunnel resides on the SoftLayer networks and allows access to remote end of the tunnel to subnets on SoftLayer networks.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -123,7 +132,8 @@ The local  end of a network tunnel. This end of the network tunnel resides on th
 The date a network tunnel was last modified. 
 
 NOTE:  This date should NOT be used to determine when the network tunnel configurations were last applied to the network device.   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -133,7 +143,8 @@ NOTE:  This date should NOT be used to determine when the network tunnel configu
 [name]: #name
 #### [name]
 A network tunnel's unique name used on the network device.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -143,7 +154,8 @@ A network tunnel's unique name used on the network device.
 [phaseOneAuthentication]: #phaseoneauthentication
 #### [phaseOneAuthentication]
 Authentication used to generate keys for protecting the negotiations for a network tunnel.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -153,7 +165,8 @@ Authentication used to generate keys for protecting the negotiations for a netwo
 [phaseOneDiffieHellmanGroup]: #phaseonediffiehellmangroup
 #### [phaseOneDiffieHellmanGroup]
 Determines the strength of the key used in the key exchange process.  The higher the group number the stronger the key is and the more secure it is.  However, processing time will increase as the strength of the key increases.  Both peers in the must use the Diffie-Hellman Group.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -163,7 +176,8 @@ Determines the strength of the key used in the key exchange process.  The higher
 [phaseOneEncryption]: #phaseoneencryption
 #### [phaseOneEncryption]
 Encryption used to generate keys for protecting the negotiations for a network tunnel.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -173,7 +187,8 @@ Encryption used to generate keys for protecting the negotiations for a network t
 [phaseOneKeylife]: #phaseonekeylife
 #### [phaseOneKeylife]
 Amount of time (in seconds) allowed to pass before the encryption key expires.  A new key is generated without interrupting service. Valid times are from 120 to 172800 seconds.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -183,7 +198,8 @@ Amount of time (in seconds) allowed to pass before the encryption key expires.  
 [phaseTwoAuthentication]: #phasetwoauthentication
 #### [phaseTwoAuthentication]
 The authentication used in phase 2 proposal negotiation process.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -193,7 +209,8 @@ The authentication used in phase 2 proposal negotiation process.
 [phaseTwoDiffieHellmanGroup]: #phasetwodiffiehellmangroup
 #### [phaseTwoDiffieHellmanGroup]
 Determines the strength of the key used in the key exchange process.  The higher the group number the stronger the key is and the more secure it is.  However, processing time will increase as the strength of the key increases.  Both peers must use the Diffie-Hellman Group.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -203,7 +220,8 @@ Determines the strength of the key used in the key exchange process.  The higher
 [phaseTwoEncryption]: #phasetwoencryption
 #### [phaseTwoEncryption]
 The encryption used in phase 2 proposal negotiation process.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -213,7 +231,8 @@ The encryption used in phase 2 proposal negotiation process.
 [phaseTwoKeylife]: #phasetwokeylife
 #### [phaseTwoKeylife]
 Amount of time (in seconds) allowed to pass before the encryption key expires.  A new key is generated without interrupting service. Valid times are from 120 to 172800 seconds.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -223,7 +242,8 @@ Amount of time (in seconds) allowed to pass before the encryption key expires.  
 [phaseTwoPerfectForwardSecrecy]: #phasetwoperfectforwardsecrecy
 #### [phaseTwoPerfectForwardSecrecy]
 Determines if the generated keys are made from previous keys.  When PFS is specified, a Diffie-Hellman exchange occurs each time a new security association is negotiated.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -233,7 +253,8 @@ Determines if the generated keys are made from previous keys.  When PFS is speci
 [presharedKey]: #presharedkey
 #### [presharedKey]
 A key used so that peers authenticate each other.  This key is hashed by using the phase one encryption and phase one authentication.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -249,17 +270,20 @@ A key used so that peers authenticate each other.  This key is hashed by using t
 [account]: #account
 #### [account]
 The account that a network tunnel belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
-<div class="prop-row">
+<div class="prop-row deprecated">
 
 -----
 [activeTransaction]: #activetransaction
 #### [activeTransaction]
 DEPRECATED  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction </a>**  
+
+<span class="deprecation-label">Deprecated  </span>
 
 
 </div>
@@ -269,7 +293,8 @@ DEPRECATED
 [addressTranslations]: #addresstranslations
 #### [addressTranslations]
 A network tunnel's address translations.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Tunnel_Module_Context_Address_Translation'>SoftLayer_Network_Tunnel_Module_Context_Address_Translation[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Tunnel_Module_Context_Address_Translation'>SoftLayer_Network_Tunnel_Module_Context_Address_Translation[] </a>**  
+
 
 
 </div>
@@ -279,7 +304,8 @@ A network tunnel's address translations.
 [allAvailableServiceSubnets]: #allavailableservicesubnets
 #### [allAvailableServiceSubnets]
 Subnets that provide access to SoftLayer services such as the management portal and the SoftLayer API.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**  
+
 
 
 </div>
@@ -289,7 +315,8 @@ Subnets that provide access to SoftLayer services such as the management portal 
 [billingItem]: #billingitem
 #### [billingItem]
 The current billing item for network tunnel.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**  
+
 
 
 </div>
@@ -299,7 +326,8 @@ The current billing item for network tunnel.
 [customerSubnets]: #customersubnets
 #### [customerSubnets]
 Remote subnets that are allowed access through a network tunnel.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Customer_Subnet'>SoftLayer_Network_Customer_Subnet[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Customer_Subnet'>SoftLayer_Network_Customer_Subnet[] </a>**  
+
 
 
 </div>
@@ -309,7 +337,8 @@ Remote subnets that are allowed access through a network tunnel.
 [datacenter]: #datacenter
 #### [datacenter]
 The datacenter location for one end of the network tunnel that allows access to account's private subnets.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**  
+
 
 
 </div>
@@ -319,7 +348,8 @@ The datacenter location for one end of the network tunnel that allows access to 
 [internalSubnets]: #internalsubnets
 #### [internalSubnets]
 Private subnets that can be accessed through the network tunnel.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**  
+
 
 
 </div>
@@ -329,7 +359,8 @@ Private subnets that can be accessed through the network tunnel.
 [serviceSubnets]: #servicesubnets
 #### [serviceSubnets]
 Service subnets that can be access through the network tunnel.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**  
+
 
 
 </div>
@@ -339,17 +370,20 @@ Service subnets that can be access through the network tunnel.
 [staticRouteSubnets]: #staticroutesubnets
 #### [staticRouteSubnets]
 Subnets used for a network tunnel's address translations.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**  
+
 
 
 </div>
-<div class="prop-row">
+<div class="prop-row deprecated">
 
 -----
 [transactionHistory]: #transactionhistory
 #### [transactionHistory]
 DEPRECATED  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction[] </a>**  
+
+<span class="deprecation-label">Deprecated  </span>
 
 
 </div>
@@ -361,7 +395,8 @@ DEPRECATED
 [addressTranslationCount]: #addresstranslationcount
 #### [addressTranslationCount]
 A count of a network tunnel's address translations.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -371,7 +406,8 @@ A count of a network tunnel's address translations.
 [allAvailableServiceSubnetCount]: #allavailableservicesubnetcount
 #### [allAvailableServiceSubnetCount]
 A count of subnets that provide access to SoftLayer services such as the management portal and the SoftLayer API.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -381,7 +417,8 @@ A count of subnets that provide access to SoftLayer services such as the managem
 [customerSubnetCount]: #customersubnetcount
 #### [customerSubnetCount]
 A count of remote subnets that are allowed access through a network tunnel.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -391,7 +428,8 @@ A count of remote subnets that are allowed access through a network tunnel.
 [internalSubnetCount]: #internalsubnetcount
 #### [internalSubnetCount]
 A count of private subnets that can be accessed through the network tunnel.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -401,7 +439,8 @@ A count of private subnets that can be accessed through the network tunnel.
 [serviceSubnetCount]: #servicesubnetcount
 #### [serviceSubnetCount]
 A count of service subnets that can be access through the network tunnel.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -411,7 +450,8 @@ A count of service subnets that can be access through the network tunnel.
 [staticRouteSubnetCount]: #staticroutesubnetcount
 #### [staticRouteSubnetCount]
 A count of subnets used for a network tunnel's address translations.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -421,7 +461,8 @@ A count of subnets used for a network tunnel's address translations.
 [transactionHistoryCount]: #transactionhistorycount
 #### [transactionHistoryCount]
 A count of dEPRECATED   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

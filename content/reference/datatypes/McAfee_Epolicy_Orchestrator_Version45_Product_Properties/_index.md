@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The McAfee_Epolicy_Orchestrator_Version45_Product_Properties data type contains the virus definition file version.
 
 
@@ -45,7 +47,8 @@ The McAfee_Epolicy_Orchestrator_Version45_Product_Properties data type contains 
 [datVersion]: #datversion
 #### [datVersion]
 The virus definition file version.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getHardDrives
 
+
 Retrieve the hard drives contained within a piece of hardware.
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Schedules can be created for select Storage services, such as iscsi. These schedules are used to perform various tasks such as scheduling snapshots or synchronizing replicants. 
 
 
@@ -45,7 +47,8 @@ Schedules can be created for select Storage services, such as iscsi. These sched
 [active]: #active
 #### [active]
 A flag which determines if a schedule is active.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ A flag which determines if a schedule is active.
 [createDate]: #createdate
 #### [createDate]
 The date a schedule was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The date a schedule was created.
 [id]: #id
 #### [id]
 A schedule's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ A schedule's internal identifier.
 [modifyDate]: #modifydate
 #### [modifyDate]
 The date a schedule was last modified.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The date a schedule was last modified.
 [name]: #name
 #### [name]
 A schedule's name, for example 'Daily'.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ A schedule's name, for example 'Daily'.
 [partnershipId]: #partnershipid
 #### [partnershipId]
 The partnership id which a schedule is associated with.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The partnership id which a schedule is associated with.
 [typeId]: #typeid
 #### [typeId]
 The type id which a schedule is associated with.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ The type id which a schedule is associated with.
 [volumeId]: #volumeid
 #### [volumeId]
 The volume id which a schedule is associated with.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ The volume id which a schedule is associated with.
 [day]: #day
 #### [day]
 The hour parameter of this schedule.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ The hour parameter of this schedule.
 [dayOfMonth]: #dayofmonth
 #### [dayOfMonth]
 The day of the month parameter of this schedule.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ The day of the month parameter of this schedule.
 [dayOfWeek]: #dayofweek
 #### [dayOfWeek]
 The day of the week parameter of this schedule.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ The day of the week parameter of this schedule.
 [events]: #events
 #### [events]
 Events which have been created as the result of a schedule execution.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Event'>SoftLayer_Network_Storage_Event[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Event'>SoftLayer_Network_Storage_Event[] </a>**  
+
 
 
 </div>
@@ -171,7 +185,8 @@ Events which have been created as the result of a schedule execution.
 [hour]: #hour
 #### [hour]
 The hour parameter of this schedule.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -181,7 +196,8 @@ The hour parameter of this schedule.
 [minute]: #minute
 #### [minute]
 The minute parameter of this schedule.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -191,7 +207,8 @@ The minute parameter of this schedule.
 [monthOfYear]: #monthofyear
 #### [monthOfYear]
 The month of the year parameter of this schedule.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -201,7 +218,8 @@ The month of the year parameter of this schedule.
 [partnership]: #partnership
 #### [partnership]
 The associated partnership for a schedule.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Partnership'>SoftLayer_Network_Storage_Partnership </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Partnership'>SoftLayer_Network_Storage_Partnership </a>**  
+
 
 
 </div>
@@ -211,7 +229,8 @@ The associated partnership for a schedule.
 [properties]: #properties
 #### [properties]
 Properties used for configuration of a schedule.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule_Property'>SoftLayer_Network_Storage_Schedule_Property[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule_Property'>SoftLayer_Network_Storage_Schedule_Property[] </a>**  
+
 
 
 </div>
@@ -221,7 +240,8 @@ Properties used for configuration of a schedule.
 [replicaSnapshots]: #replicasnapshots
 #### [replicaSnapshots]
 Replica snapshots which have been created as the result of this schedule's execution.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**  
+
 
 
 </div>
@@ -231,7 +251,8 @@ Replica snapshots which have been created as the result of this schedule's execu
 [retentionCount]: #retentioncount
 #### [retentionCount]
 The number of snapshots this schedule is configured to retain.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -241,7 +262,8 @@ The number of snapshots this schedule is configured to retain.
 [second]: #second
 #### [second]
 The minute parameter of this schedule.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -251,7 +273,8 @@ The minute parameter of this schedule.
 [snapshots]: #snapshots
 #### [snapshots]
 Snapshots which have been created as the result of this schedule's execution.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**  
+
 
 
 </div>
@@ -261,7 +284,8 @@ Snapshots which have been created as the result of this schedule's execution.
 [type]: #type
 #### [type]
 The type provides a standardized definition for a schedule.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule_Type'>SoftLayer_Network_Storage_Schedule_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule_Type'>SoftLayer_Network_Storage_Schedule_Type </a>**  
+
 
 
 </div>
@@ -271,7 +295,8 @@ The type provides a standardized definition for a schedule.
 [volume]: #volume
 #### [volume]
 The associated volume for a schedule.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a>**  
+
 
 
 </div>
@@ -283,7 +308,8 @@ The associated volume for a schedule.
 [eventCount]: #eventcount
 #### [eventCount]
 A count of events which have been created as the result of a schedule execution.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -293,7 +319,8 @@ A count of events which have been created as the result of a schedule execution.
 [propertyCount]: #propertycount
 #### [propertyCount]
 A count of properties used for configuration of a schedule.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -303,7 +330,8 @@ A count of properties used for configuration of a schedule.
 [replicaSnapshotCount]: #replicasnapshotcount
 #### [replicaSnapshotCount]
 A count of replica snapshots which have been created as the result of this schedule's execution.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -313,7 +341,8 @@ A count of replica snapshots which have been created as the result of this sched
 [snapshotCount]: #snapshotcount
 #### [snapshotCount]
 A count of snapshots which have been created as the result of this schedule's execution.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

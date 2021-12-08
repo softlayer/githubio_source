@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_LoadBalancer_VirtualIpAddress](/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress)::getObject
 
+
 Retrieve a SoftLayer_Network_LoadBalancer_VirtualIpAddress record.
 
 

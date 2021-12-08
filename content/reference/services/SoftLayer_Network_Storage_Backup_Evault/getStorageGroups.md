@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getStorageGroups
 
+
 Retrieve the network storage groups this volume is attached to.
 
 

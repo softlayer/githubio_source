@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getHardwareWithEvaultFirst
 
+
 Retrieve all the hardware for the account listing the hardware with EVault Storage service first. The output will be paginated having 25 items on each page. 
 
 

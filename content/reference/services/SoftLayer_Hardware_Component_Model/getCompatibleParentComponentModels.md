@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Component_Model](/reference/services/SoftLayer_Hardware_Component_Model)::getCompatibleParentComponentModels
 
+
 Retrieve all the component models that a hardware component model is compatible with.
 
 

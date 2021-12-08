@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Permission_Group](/reference/services/SoftLayer_User_Permission_Group)::addResourceObject
 
+
 Links a hardware, virtual guest, or dedicated host object on the
 
 

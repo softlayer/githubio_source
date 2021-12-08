@@ -21,6 +21,8 @@ classes:
 
 
 
+
+
 ### associatedMethods
 
 *  [SoftLayer_Account::getFlexibleCreditProgramsInfo](/reference/services/SoftLayer_Account/getFlexibleCreditProgramsInfo )
@@ -50,7 +52,8 @@ classes:
 [accountLevelAppliedCredit]: #accountlevelappliedcredit
 #### [accountLevelAppliedCredit]
 The amount of credit that has been used by all account level enrollments in the billing cycle.   
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ The amount of credit that has been used by all account level enrollments in the 
 [accountLevelLifetimeAppliedCredit]: #accountlevellifetimeappliedcredit
 #### [accountLevelLifetimeAppliedCredit]
 Account level credit allowance applied over the course of entire active program enrollments. For enrollments without a lifetime restriction, this property will not be populated as credit will be tracked on a purely monthly basis.   
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -70,7 +74,8 @@ Account level credit allowance applied over the course of entire active program 
 [accountLevelLifetimeCredit]: #accountlevellifetimecredit
 #### [accountLevelLifetimeCredit]
 The total account level credit over the course of an entire program enrollment. This value may be null, in which case the enrollment credit is applied on a monthly basis and there is no lifetime maximum.   
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -80,7 +85,8 @@ The total account level credit over the course of an entire program enrollment. 
 [accountLevelLifetimeRemainingCredit]: #accountlevellifetimeremainingcredit
 #### [accountLevelLifetimeRemainingCredit]
 Remaining account level credit allowance available over the remaining duration of the program enrollments. If null, enrollment credit is applied on a strictly monthly basis and there is no lifetime maximum. Enrollments with non-null remaining lifetime credit will receive the lesser of the remaining monthly credit or the remaining lifetime credit.   
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -90,7 +96,8 @@ Remaining account level credit allowance available over the remaining duration o
 [accountLevelMonthlyCredit]: #accountlevelmonthlycredit
 #### [accountLevelMonthlyCredit]
 The total account level monthly credit allowance available at the beginning of a billing cycle.   
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -100,7 +107,8 @@ The total account level monthly credit allowance available at the beginning of a
 [accountLevelRemainingCredit]: #accountlevelremainingcredit
 #### [accountLevelRemainingCredit]
 The total account level credit allowance still available during the current billing cycle.   
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -110,7 +118,8 @@ The total account level credit allowance still available during the current bill
 [enrollments]: #enrollments
 #### [enrollments]
 The active enrollments for this account.   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_FlexibleCredit_Enrollment'>SoftLayer_FlexibleCredit_Enrollment[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_FlexibleCredit_Enrollment'>SoftLayer_FlexibleCredit_Enrollment[] </a>**  
+
 
 
 </div>
@@ -120,7 +129,8 @@ The active enrollments for this account.
 [isAccountLevelParticipantFlag]: #isaccountlevelparticipantflag
 #### [isAccountLevelParticipantFlag]
 Indicates whether or not the account is participating in any account level Flexible Credit programs.   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -130,7 +140,8 @@ Indicates whether or not the account is participating in any account level Flexi
 [isParticipantFlag]: #isparticipantflag
 #### [isParticipantFlag]
 Indicates whether or not the account is participating in any Flexible Credit programs.   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -140,7 +151,8 @@ Indicates whether or not the account is participating in any Flexible Credit pro
 [isProductSpecificParticipantFlag]: #isproductspecificparticipantflag
 #### [isProductSpecificParticipantFlag]
 Indicates whether or not the account is participating in any product specific level Flexible Credit programs.   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -150,7 +162,8 @@ Indicates whether or not the account is participating in any product specific le
 [productSpecificAppliedCredit]: #productspecificappliedcredit
 #### [productSpecificAppliedCredit]
 The amount of credit that has been used by all product specific enrollments in the billing cycle.   
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -160,7 +173,8 @@ The amount of credit that has been used by all product specific enrollments in t
 [productSpecificLifetimeAppliedCredit]: #productspecificlifetimeappliedcredit
 #### [productSpecificLifetimeAppliedCredit]
 Product specific credit allowance applied over the course of entire active program enrollments. For enrollments without a lifetime restriction, this property will not be populated as credit will be tracked on a purely monthly basis.   
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -170,7 +184,8 @@ Product specific credit allowance applied over the course of entire active progr
 [productSpecificLifetimeCredit]: #productspecificlifetimecredit
 #### [productSpecificLifetimeCredit]
 The total product specific credit over the course of an entire program enrollment. This value may be null, in which case the enrollment credit is applied on a monthly basis and there is no lifetime maximum.   
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -180,7 +195,8 @@ The total product specific credit over the course of an entire program enrollmen
 [productSpecificLifetimeRemainingCredit]: #productspecificlifetimeremainingcredit
 #### [productSpecificLifetimeRemainingCredit]
 Remaining product specific level credit allowance available over the remaining duration of the program enrollments. If null, enrollment credit is applied on a strictly monthly basis and there is no lifetime maximum. Enrollments with non-null remaining lifetime credit will receive the lesser of the remaining monthly credit or the remaining lifetime credit.   
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -190,7 +206,8 @@ Remaining product specific level credit allowance available over the remaining d
 [productSpecificMonthlyCredit]: #productspecificmonthlycredit
 #### [productSpecificMonthlyCredit]
 The total product specific monthly credit allowance available at the beginning of a billing cycle.   
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -200,7 +217,8 @@ The total product specific monthly credit allowance available at the beginning o
 [productSpecificRemainingCredit]: #productspecificremainingcredit
 #### [productSpecificRemainingCredit]
 The total product specific credit allowance still available during the current billing cycle.   
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -210,7 +228,8 @@ The total product specific credit allowance still available during the current b
 [totalAppliedCredit]: #totalappliedcredit
 #### [totalAppliedCredit]
 The credit allowance that has already been applied during the current billing cycle from all enrollments. If the lifetime limit has been or soon will be reached, this amount may included credit applied in previous billing cycles.   
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -220,7 +239,8 @@ The credit allowance that has already been applied during the current billing cy
 [totalRemainingCredit]: #totalremainingcredit
 #### [totalRemainingCredit]
 The credit allowance that is available during the current billing cycle from all enrollments. If the lifetime limit has been or soon will be reached, this amount may be reduced by credit applied in previous billing cycles.   
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Workload_Citrix_Workspace_Order](/reference/services/SoftLayer_Workload_Citrix_Workspace_Order)::getWorkspaceResources
 
+
 List the orders associated with resources on the provided VLAN
 
 

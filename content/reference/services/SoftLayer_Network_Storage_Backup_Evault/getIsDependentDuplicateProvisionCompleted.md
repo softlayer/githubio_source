@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getIsDependentDuplicateProvisionCompleted
 
+
 Retrieve determines whether dependent volume provision is completed on background.
 
 

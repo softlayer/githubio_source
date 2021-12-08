@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getHourlyVirtualGuests
 
+
 Retrieve an account's associated hourly virtual guest objects.
 
 

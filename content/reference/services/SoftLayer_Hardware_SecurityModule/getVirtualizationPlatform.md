@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getVirtualizationPlatform
 
+
 Retrieve a piece of hardware's virtualization platform software.
 
 

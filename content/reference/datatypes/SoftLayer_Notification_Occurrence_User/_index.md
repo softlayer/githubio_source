@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This type contains general information relating to a user that may be impacted by a [SoftLayer_Notification_Occurrence_Event]({{<ref "reference/datatypes/SoftLayer_Notification_Occurrence_Event">}}). 
 
 
@@ -45,7 +47,8 @@ This type contains general information relating to a user that may be impacted b
 [acknowledgedFlag]: #acknowledgedflag
 #### [acknowledgedFlag]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ This type contains general information relating to a user that may be impacted b
 [active]: #active
 #### [active]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ This type contains general information relating to a user that may be impacted b
 [id]: #id
 #### [id]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ This type contains general information relating to a user that may be impacted b
 [usrRecordId]: #usrrecordid
 #### [usrRecordId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ This type contains general information relating to a user that may be impacted b
 [impactedResources]: #impactedresources
 #### [impactedResources]
 A collection of resources impacted by the associated event.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Resource'>SoftLayer_Notification_Occurrence_Resource[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Resource'>SoftLayer_Notification_Occurrence_Resource[] </a>**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ A collection of resources impacted by the associated event.
 [notificationOccurrenceEvent]: #notificationoccurrenceevent
 #### [notificationOccurrenceEvent]
 The associated event.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Event'>SoftLayer_Notification_Occurrence_Event </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Event'>SoftLayer_Notification_Occurrence_Event </a>**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ The associated event.
 [user]: #user
 #### [user]
 The impacted user.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**  
+
 
 
 </div>
@@ -123,7 +132,8 @@ The impacted user.
 [impactedResourceCount]: #impactedresourcecount
 #### [impactedResourceCount]
 A count of a collection of resources impacted by the associated event.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

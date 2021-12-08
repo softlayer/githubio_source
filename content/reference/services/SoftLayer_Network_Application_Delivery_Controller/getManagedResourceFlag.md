@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Application_Delivery_Controller](/reference/services/SoftLayer_Network_Application_Delivery_Controller)::getManagedResourceFlag
 
+
 Retrieve a flag indicating that this Application Delivery Controller is a managed resource.
 
 

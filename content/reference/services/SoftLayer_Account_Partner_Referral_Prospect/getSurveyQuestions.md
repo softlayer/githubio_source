@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Partner_Referral_Prospect](/reference/services/SoftLayer_Account_Partner_Referral_Prospect)::getSurveyQuestions
 
+
 Retrieves Questions for a Referral Partner Survey
 
 

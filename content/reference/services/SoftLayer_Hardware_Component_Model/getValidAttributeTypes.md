@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Component_Model](/reference/services/SoftLayer_Hardware_Component_Model)::getValidAttributeTypes
 
+
 Retrieve the types of attributes that are allowed for a given hardware component model.
 
 

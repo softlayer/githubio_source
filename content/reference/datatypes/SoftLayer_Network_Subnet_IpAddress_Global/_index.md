@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [description]: #description
 #### [description]
 A Global IP Address' associated description   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ A Global IP Address' associated description
 [destinationIpAddressId]: #destinationipaddressid
 #### [destinationIpAddressId]
 A Global IP Address' associated [SoftLayer_Network_Subnet_IpAddress]({{<ref "reference/datatypes/SoftLayer_Network_Subnet_IpAddress">}}) ID   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A Global IP Address' associated [SoftLayer_Network_Subnet_IpAddress]({{<ref "ref
 [id]: #id
 #### [id]
 A Global IP Address' unique identifier   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ A Global IP Address' unique identifier
 [ipAddressId]: #ipaddressid
 #### [ipAddressId]
 A Global IP Address' associated [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}) ID   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ A Global IP Address' associated [SoftLayer_Account]({{<ref "reference/datatypes/
 [typeId]: #typeid
 #### [typeId]
 A Global IP Address' associated type [SoftLayer_Network_Subnet_IpAddress_Global_Type]({{<ref "reference/datatypes/SoftLayer_Network_Subnet_IpAddress_Global_Type">}}) ID   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -101,17 +108,20 @@ A Global IP Address' associated type [SoftLayer_Network_Subnet_IpAddress_Global_
 [account]: #account
 #### [account]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
-<div class="prop-row">
+<div class="prop-row deprecated">
 
 -----
 [activeTransaction]: #activetransaction
 #### [activeTransaction]
 DEPRECATED  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction </a>**  
+
+<span class="deprecation-label">Deprecated  </span>
 
 
 </div>
@@ -121,7 +131,8 @@ DEPRECATED
 [billingItem]: #billingitem
 #### [billingItem]
 The billing item for this Global IP.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item_Network_Subnet_IpAddress_Global'>SoftLayer_Billing_Item_Network_Subnet_IpAddress_Global </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item_Network_Subnet_IpAddress_Global'>SoftLayer_Billing_Item_Network_Subnet_IpAddress_Global </a>**  
+
 
 
 </div>
@@ -131,7 +142,8 @@ The billing item for this Global IP.
 [destinationIpAddress]: #destinationipaddress
 #### [destinationIpAddress]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress </a>**  
+
 
 
 </div>
@@ -141,7 +153,8 @@ The billing item for this Global IP.
 [ipAddress]: #ipaddress
 #### [ipAddress]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_IpAddress'>SoftLayer_Network_Subnet_IpAddress </a>**  
+
 
 
 </div>

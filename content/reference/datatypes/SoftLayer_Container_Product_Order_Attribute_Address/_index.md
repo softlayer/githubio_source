@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This is the datatype that needs to be populated and sent to SoftLayer_Product_Order::placeOrder. The SoftLayer_Container_Product_Order_Attribute_Address datatype contains the address information. 
 
 
@@ -45,7 +47,8 @@ This is the datatype that needs to be populated and sent to SoftLayer_Product_Or
 [addressLine1]: #addressline1
 #### [addressLine1]
 The physical street address.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The physical street address.
 [addressLine2]: #addressline2
 #### [addressLine2]
 The second line in the address. Information such as suite number goes here.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The second line in the address. Information such as suite number goes here.
 [city]: #city
 #### [city]
 The city name  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The city name
 [countryCode]: #countrycode
 #### [countryCode]
 The 2-character Country code. (i.e. US)  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The 2-character Country code. (i.e. US)
 [nonUsState]: #nonusstate
 #### [nonUsState]
 State, Region or Province not part of the U.S. or Canada.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ State, Region or Province not part of the U.S. or Canada.
 [postalCode]: #postalcode
 #### [postalCode]
 The Zip or Postal Code.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The Zip or Postal Code.
 [state]: #state
 #### [state]
 U.S. State, Region or Canadian Province.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

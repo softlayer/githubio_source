@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_Security_Scanner_Request data type represents a single vulnerability scan request. It provides information on when the scan was created, last updated, and the current status. The status messages are as follows: 
 *Scan Pending
 *Scan Processing
@@ -61,7 +63,8 @@ The SoftLayer_Network_Security_Scanner_Request data type represents a single vul
 [accountId]: #accountid
 #### [accountId]
 A request's associated customer account identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -71,7 +74,8 @@ A request's associated customer account identifier.
 [createDate]: #createdate
 #### [createDate]
 The date and time that the request is created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -81,7 +85,8 @@ The date and time that the request is created.
 [guestId]: #guestid
 #### [guestId]
 Virtual Guest Identification Number for the guest this security scanner request belongs to.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -91,7 +96,8 @@ Virtual Guest Identification Number for the guest this security scanner request 
 [hardwareId]: #hardwareid
 #### [hardwareId]
 The identifier of the hardware item a scan is run on.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -101,7 +107,8 @@ The identifier of the hardware item a scan is run on.
 [hostId]: #hostid
 #### [hostId]
 Identification Number for the host this security scanner request belongs to.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -111,7 +118,8 @@ Identification Number for the host this security scanner request belongs to.
 [id]: #id
 #### [id]
 A security scan request's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -121,7 +129,8 @@ A security scan request's internal identifier.
 [ipAddress]: #ipaddress
 #### [ipAddress]
 The IP address that a scan will be performed on.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -131,7 +140,8 @@ The IP address that a scan will be performed on.
 [modifyDate]: #modifydate
 #### [modifyDate]
 The date and time that the request was last modified.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -141,7 +151,8 @@ The date and time that the request was last modified.
 [statusId]: #statusid
 #### [statusId]
 A request status identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -157,7 +168,8 @@ A request status identifier.
 [account]: #account
 #### [account]
 The account associated with a security scan request.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -167,7 +179,8 @@ The account associated with a security scan request.
 [guest]: #guest
 #### [guest]
 The virtual guest a security scan is run against.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**  
+
 
 
 </div>
@@ -177,7 +190,8 @@ The virtual guest a security scan is run against.
 [hardware]: #hardware
 #### [hardware]
 The hardware a security scan is run against.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**  
+
 
 
 </div>
@@ -187,7 +201,8 @@ The hardware a security scan is run against.
 [requestorOwnedFlag]: #requestorownedflag
 #### [requestorOwnedFlag]
 Flag whether the requestor owns the hardware the scan was run on. This flag will  return for hardware servers only, virtual servers will result in a null return even if you have  a request out for them.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -197,7 +212,8 @@ Flag whether the requestor owns the hardware the scan was run on. This flag will
 [status]: #status
 #### [status]
 A security scan request's status.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Security_Scanner_Request_Status'>SoftLayer_Network_Security_Scanner_Request_Status </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Security_Scanner_Request_Status'>SoftLayer_Network_Security_Scanner_Request_Status </a>**  
+
 
 
 </div>

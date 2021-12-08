@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Lookup domain container for domain registration 
 
 
@@ -45,7 +47,8 @@ Lookup domain container for domain registration
 [items]: #items
 #### [items]
 The list of available and taken domain names.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_Lookup_Items'>SoftLayer_Container_Dns_Domain_Registration_Lookup_Items[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_Lookup_Items'>SoftLayer_Container_Dns_Domain_Registration_Lookup_Items[] </a>**  
+
 
 
 </div>

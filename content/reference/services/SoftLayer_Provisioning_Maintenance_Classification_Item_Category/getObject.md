@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Provisioning_Maintenance_Classification_Item_Category](/reference/services/SoftLayer_Provisioning_Maintenance_Classification_Item_Category)::getObject
 
+
 Retrieve a SoftLayer_Provisioning_Maintenance_Classification_Item_Category record.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getAggregatedUptimeGraph
 
+
 Returns URL uptime data for your account
 
 

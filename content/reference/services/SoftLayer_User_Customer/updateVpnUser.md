@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::updateVpnUser
 
+
 Creates or updates a user's VPN access privileges.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Scale_Policy_Trigger](/reference/services/SoftLayer_Scale_Policy_Trigger)::createObject
 
+
 Create a policy trigger.
 
 

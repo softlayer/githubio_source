@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getNetworkVlans
 
+
 Retrieve the network virtual LANs (VLANs) associated with a piece of hardware's network components.
 
 

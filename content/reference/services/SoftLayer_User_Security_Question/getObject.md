@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Security_Question](/reference/services/SoftLayer_User_Security_Question)::getObject
 
+
 Retrieve a SoftLayer_User_Security_Question record.
 
 

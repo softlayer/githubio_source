@@ -20,6 +20,9 @@ classes:
 </div>
 
 ## Description
+
+<div class="deprecated"><span class="deprecation-label">Deprecated  </span></div>
+
 The global load balancer service has been deprecated and is no longer available. 
 
 A global load balancer account enables you to load balance traffic between servers that are in geographically diverse locations.  SoftLayer's global load balancers act as a highly modified DNS server.  SoftLayer's global load balancers work by accepting DNS requests for a specific hostname, choosing a host from a load balancing pool using the load balance method specified, and returning a destination IP address through a DNS response. 
@@ -42,58 +45,76 @@ A global load balancer account enables you to load balance traffic between serve
 
 <div id="method-div">
 
-<div class="method-row">
+<div class="method-row deprecated">
 
 #### [addNsRecord](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/addNsRecord)
 [Deprecated] Add the required nameserver resource record for a global load balancer account.
+
+<span class="deprecation-label">Deprecated  </span>
+
+
 </div>
 
-<div class="method-row">
+<div class="method-row deprecated">
 
 #### [editObject](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/editObject)
 [Deprecated] Edit a global load balancer account and the hosts that make up the load balancing pool.
+
+<span class="deprecation-label">Deprecated  </span>
+
+
 </div>
 
 <div class="method-row">
 
 #### [getAccount](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/getAccount)
 Retrieve your SoftLayer customer account.
+
 </div>
 
 <div class="method-row">
 
 #### [getBillingItem](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/getBillingItem)
 Retrieve the current billing item for a Global Load Balancer account.
+
 </div>
 
 <div class="method-row">
 
 #### [getHosts](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/getHosts)
 Retrieve the hosts in the load balancing pool for a global load balancer account.
+
 </div>
 
 <div class="method-row">
 
 #### [getLoadBalanceType](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/getLoadBalanceType)
 Retrieve the load balance method of a global load balancer account
+
 </div>
 
 <div class="method-row">
 
 #### [getManagedResourceFlag](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/getManagedResourceFlag)
 Retrieve a flag indicating that the global load balancer is a managed resource.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/getObject)
 Retrieve a SoftLayer_Network_LoadBalancer_Global_Account record.
+
 </div>
 
-<div class="method-row">
+<div class="method-row deprecated">
 
 #### [removeNsRecord](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account/removeNsRecord)
 [Deprecated] Remove the required nameserver resource record for a global load balancer account.
+
+<span class="deprecation-label">Deprecated  </span>
+
+
 </div>
 </div>
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Describes a virtual guest boot parameter. In this the word class is used in the context of arguments sent to cloud computing instances such as single user mode and boot into bash. 
 
 
@@ -50,7 +52,8 @@ Describes a virtual guest boot parameter. In this the word class is used in the 
 [bootOption]: #bootoption
 #### [bootOption]
 Available boot options.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ Available boot options.
 [createDate]: #createdate
 #### [createDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -70,7 +74,8 @@ Available boot options.
 [description]: #description
 #### [description]
 A description of the boot parameter  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -80,7 +85,8 @@ A description of the boot parameter
 [id]: #id
 #### [id]
 Indentifier for record.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -90,7 +96,8 @@ Indentifier for record.
 [keyName]: #keyname
 #### [keyName]
 The key name of the boot parameter.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -100,7 +107,8 @@ The key name of the boot parameter.
 [modifyDate]: #modifydate
 #### [modifyDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -110,7 +118,8 @@ The key name of the boot parameter.
 [name]: #name
 #### [name]
 The common name of the boot parameter.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -120,7 +129,8 @@ The common name of the boot parameter.
 [value]: #value
 #### [value]
 The virtual machine arguments  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

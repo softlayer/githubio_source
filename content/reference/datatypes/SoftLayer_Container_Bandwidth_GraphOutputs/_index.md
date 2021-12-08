@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Container_Bandwidth_GraphOutputs models a single outbound object for a given bandwidth graph.
 
 
@@ -50,7 +52,8 @@ SoftLayer_Container_Bandwidth_GraphOutputs models a single outbound object for a
 [graphImage]: #graphimage
 #### [graphImage]
 The raw PNG binary data to be displayed once the graph is drawn.  
-<span class="type-label">Type: </span>**binary data**
+<span class="type-label">Type: </span>**binary data**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ The raw PNG binary data to be displayed once the graph is drawn.
 [graphTitle]: #graphtitle
 #### [graphTitle]
 The title that ended up being displayed as part of the graph image.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -70,7 +74,8 @@ The title that ended up being displayed as part of the graph image.
 [maxEndDate]: #maxenddate
 #### [maxEndDate]
 The maximum date included in this graph.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -80,7 +85,8 @@ The maximum date included in this graph.
 [minStartDate]: #minstartdate
 #### [minStartDate]
 The minimum date included in this graph.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>

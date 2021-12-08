@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Dns_Domain](/reference/services/SoftLayer_Dns_Domain)::getSoaResourceRecord
 
+
 Retrieve the start of authority (SOA) record contains authoritative and propagation details for a DNS zone. This property is not considered in requests to createObject and editObject.
 
 

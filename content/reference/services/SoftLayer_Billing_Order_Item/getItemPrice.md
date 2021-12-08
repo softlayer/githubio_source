@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Order_Item](/reference/services/SoftLayer_Billing_Order_Item)::getItemPrice
 
+
 Retrieve the SoftLayer_Product_Item_Price tied to an order item. The item price object describes the cost of an item.
 
 

@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,6 +44,7 @@ classes:
 
 #### [getObject](/reference/services/SoftLayer_Business_Partner_Segment/getObject)
 Retrieve a SoftLayer_Business_Partner_Segment record.
+
 </div>
 </div>
 

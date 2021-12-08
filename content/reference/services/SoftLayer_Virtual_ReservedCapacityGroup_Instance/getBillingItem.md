@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_ReservedCapacityGroup_Instance](/reference/services/SoftLayer_Virtual_ReservedCapacityGroup_Instance)::getBillingItem
 
+
 Retrieve the billing item for the reserved capacity group instance.
 
 

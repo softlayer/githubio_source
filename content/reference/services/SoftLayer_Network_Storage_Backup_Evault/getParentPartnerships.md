@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getParentPartnerships
 
+
 Retrieve the volumes or snapshots partnered with a network storage volume in a parental role.
 
 

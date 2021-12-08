@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 The [SoftLayer_Product_Package_Type]({{<ref "reference/datatypes/SoftLayer_Product_Package_Type">}}) object indicates the type for a service offering (package). The type can be used to filter packages. To find all the available types, call `getAllObjects` on this class. 
 
 
@@ -42,18 +44,21 @@ The [SoftLayer_Product_Package_Type]({{<ref "reference/datatypes/SoftLayer_Produ
 
 #### [getAllObjects](/reference/services/SoftLayer_Product_Package_Type/getAllObjects)
 Get all the package types.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Product_Package_Type/getObject)
 Retrieve a SoftLayer_Product_Package_Type record.
+
 </div>
 
 <div class="method-row">
 
 #### [getPackages](/reference/services/SoftLayer_Product_Package_Type/getPackages)
 Retrieve all the packages associated with the given package type.
+
 </div>
 </div>
 

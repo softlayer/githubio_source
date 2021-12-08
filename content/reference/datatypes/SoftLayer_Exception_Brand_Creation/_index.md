@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Throw this exception if there are validation errors. The types are specified in SoftLayer_Brand_Creation_Input including: KEY_NAME, PREFIX, NAME, LONG_NAME, SUPPORT_POLICY, POLICY_ACKNOWLEDGEMENT_FLAG, etc. 
 
 
@@ -45,7 +47,8 @@ Throw this exception if there are validation errors. The types are specified in 
 [message]: #message
 #### [message]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Throw this exception if there are validation errors. The types are specified in 
 [type]: #type
 #### [type]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

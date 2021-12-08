@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getValidBlockDeviceTemplateGroups
 
+
 Return a list of valid block device template groups based on this host
 
 

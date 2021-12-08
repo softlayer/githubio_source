@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_User_Employee_Department models a department within SoftLayer's internal employee hierarchy. Common departments include Support, Sales, Accounting, Development, Systems, and Networking. 
 
 
@@ -50,7 +52,8 @@ SoftLayer_User_Employee_Department models a department within SoftLayer's intern
 [name]: #name
 #### [name]
 The name of one of SoftLayer's employee departments.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

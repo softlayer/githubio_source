@@ -15,6 +15,7 @@ aliases:
 ---
 # [SoftLayer_Account_ProofOfConcept](/reference/services/SoftLayer_Account_ProofOfConcept)::getSubmittedRequests
 
+
 Retrieves a summary of proof of concept requests submitted by an IBMer.
 
 

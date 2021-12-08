@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getVirtualGuestsWithQuantastor
 
+
 Retrieve all virtual guests associated with an account that have the QuantaStor storage system installed.
 
 

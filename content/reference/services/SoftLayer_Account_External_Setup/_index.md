@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 This service class allows the user to set up an account to be billed by an external billing system. 
 
 
@@ -42,18 +44,21 @@ This service class allows the user to set up an account to be billed by an exter
 
 #### [finalizeExternalBillingForAccount](/reference/services/SoftLayer_Account_External_Setup/finalizeExternalBillingForAccount)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Account_External_Setup/getObject)
 Retrieve a SoftLayer_Account_External_Setup record.
+
 </div>
 
 <div class="method-row">
 
 #### [getVerifyCardTransaction](/reference/services/SoftLayer_Account_External_Setup/getVerifyCardTransaction)
 Retrieve the transaction information related to verifying the customer credit card.
+
 </div>
 </div>
 

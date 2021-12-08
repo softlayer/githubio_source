@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getIbmIdAuthenticationRequiredFlag
 
+
 Retrieve indicates whether this account requires IBMid authentication.
 
 

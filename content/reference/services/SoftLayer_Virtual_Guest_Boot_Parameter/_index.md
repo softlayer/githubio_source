@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,23 +44,27 @@ classes:
 
 #### [createObject](/reference/services/SoftLayer_Virtual_Guest_Boot_Parameter/createObject)
 Create a boot parameter record to be used at next boot
+
 </div>
 
 <div class="method-row">
 
 #### [deleteObject](/reference/services/SoftLayer_Virtual_Guest_Boot_Parameter/deleteObject)
 Removes a boot parameter
+
 </div>
 
 <div class="method-row">
 
 #### [editObject](/reference/services/SoftLayer_Virtual_Guest_Boot_Parameter/editObject)
 Edits a single boot parameter
+
 </div>
 
 <div class="method-row">
 
 #### [getGuest](/reference/services/SoftLayer_Virtual_Guest_Boot_Parameter/getGuest)
+
 
 </div>
 
@@ -66,12 +72,14 @@ Edits a single boot parameter
 
 #### [getGuestBootParameterType](/reference/services/SoftLayer_Virtual_Guest_Boot_Parameter/getGuestBootParameterType)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Virtual_Guest_Boot_Parameter/getObject)
 Retrieve a SoftLayer_Virtual_Guest_Boot_Parameter record.
+
 </div>
 </div>
 

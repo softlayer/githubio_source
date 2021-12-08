@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 The SoftLayer_Dns_Domain_ResourceRecord_SrvType service controls the creation, modification, and deletion of SRV records within a domain hosted on SoftLayer's DNS servers. It exists separately from the SoftLayer_Dns_Domain_ResourceRecord to provide control for SRV priority, port, protocol, service, and weight in addition to host, data, and time-to-live. 
 
 ### External Links
@@ -56,48 +58,56 @@ The SoftLayer_Dns_Domain_ResourceRecord_SrvType service controls the creation, m
 
 #### [createObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/createObject)
 Create an SRV record.
+
 </div>
 
 <div class="method-row">
 
 #### [createObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/createObjects)
 Create multiple SRV records.
+
 </div>
 
 <div class="method-row">
 
 #### [deleteObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/deleteObject)
 Delete a domain's SRV record.
+
 </div>
 
 <div class="method-row">
 
 #### [deleteObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/deleteObjects)
 Delete multiple SRV records from a domain.
+
 </div>
 
 <div class="method-row">
 
 #### [editObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/editObject)
 Edit a domain's SRV record.
+
 </div>
 
 <div class="method-row">
 
 #### [editObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/editObjects)
 Edit multiple domain SRV records.
+
 </div>
 
 <div class="method-row">
 
 #### [getDomain](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/getDomain)
 Retrieve the domain that a resource record belongs to.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Dns_Domain_ResourceRecord_SrvType/getObject)
 Retrieve a SoftLayer_Dns_Domain_ResourceRecord_SrvType record.
+
 </div>
 </div>
 

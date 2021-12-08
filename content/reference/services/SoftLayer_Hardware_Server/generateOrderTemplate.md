@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::generateOrderTemplate
 
+
 Obtain an order container for a given template object
 
 

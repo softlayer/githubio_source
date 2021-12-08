@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getHourlyBandwidth
 
+
 Retrieves bandwidth hourly over a 24-hour period for the specified hardware.
 
 

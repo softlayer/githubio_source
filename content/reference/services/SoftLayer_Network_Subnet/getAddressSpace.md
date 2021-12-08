@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::getAddressSpace
 
+
 Retrieve identifier which distinguishes what classification of addresses the subnet represents.
 
 

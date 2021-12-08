@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getBandwidthForDateRange
 
+
 Retrieve bandwidth data from a tracking object.
 
 

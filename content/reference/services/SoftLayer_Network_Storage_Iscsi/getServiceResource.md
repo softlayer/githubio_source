@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getServiceResource
 
+
 Retrieve the network resource a Storage service is connected to.
 
 
