@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [createDate]: #createdate
 #### [createDate]
 A resource group's creation date.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ A resource group's creation date.
 [description]: #description
 #### [description]
 A resource group's description.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A resource group's description.
 [id]: #id
 #### [id]
 A resource group's ID.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ A resource group's ID.
 [keyName]: #keyname
 #### [keyName]
 A resource group's keyname.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ A resource group's keyname.
 [name]: #name
 #### [name]
 A resource group's name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ A resource group's name.
 [rootResourceGroupId]: #rootresourcegroupid
 #### [rootResourceGroupId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ A resource group's name.
 [templateId]: #templateid
 #### [templateId]
 A resource group's template ID.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ A resource group's template ID.
 [ancestorGroups]: #ancestorgroups
 #### [ancestorGroups]
 A resource group's associated group ancestors.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group'>SoftLayer_Resource_Group[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group'>SoftLayer_Resource_Group[] </a>**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ A resource group's associated group ancestors.
 [attributes]: #attributes
 #### [attributes]
 A resource group's associated attributes.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Attribute'>SoftLayer_Resource_Group_Attribute[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Attribute'>SoftLayer_Resource_Group_Attribute[] </a>**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ A resource group's associated attributes.
 [hardwareMembers]: #hardwaremembers
 #### [hardwareMembers]
 A resource group's associated hardware members.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member'>SoftLayer_Resource_Group_Member[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member'>SoftLayer_Resource_Group_Member[] </a>**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ A resource group's associated hardware members.
 [members]: #members
 #### [members]
 A resource group's associated members.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member'>SoftLayer_Resource_Group_Member[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member'>SoftLayer_Resource_Group_Member[] </a>**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ A resource group's associated members.
 [rootResourceGroup]: #rootresourcegroup
 #### [rootResourceGroup]
 A resource group's associated root resource group.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group'>SoftLayer_Resource_Group </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group'>SoftLayer_Resource_Group </a>**  
+
 
 
 </div>
@@ -171,7 +185,8 @@ A resource group's associated root resource group.
 [subnetMembers]: #subnetmembers
 #### [subnetMembers]
 A resource group's associated subnet members.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member'>SoftLayer_Resource_Group_Member[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member'>SoftLayer_Resource_Group_Member[] </a>**  
+
 
 
 </div>
@@ -181,7 +196,8 @@ A resource group's associated subnet members.
 [template]: #template
 #### [template]
 A resource group's associated template.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Template'>SoftLayer_Resource_Group_Template </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Template'>SoftLayer_Resource_Group_Template </a>**  
+
 
 
 </div>
@@ -191,7 +207,8 @@ A resource group's associated template.
 [vlanMembers]: #vlanmembers
 #### [vlanMembers]
 A resource group's associated VLAN members.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member'>SoftLayer_Resource_Group_Member[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member'>SoftLayer_Resource_Group_Member[] </a>**  
+
 
 
 </div>
@@ -203,7 +220,8 @@ A resource group's associated VLAN members.
 [ancestorGroupCount]: #ancestorgroupcount
 #### [ancestorGroupCount]
 A count of a resource group's associated group ancestors.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -213,7 +231,8 @@ A count of a resource group's associated group ancestors.
 [attributeCount]: #attributecount
 #### [attributeCount]
 A count of a resource group's associated attributes.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -223,7 +242,8 @@ A count of a resource group's associated attributes.
 [hardwareMemberCount]: #hardwaremembercount
 #### [hardwareMemberCount]
 A count of a resource group's associated hardware members.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -233,7 +253,8 @@ A count of a resource group's associated hardware members.
 [memberCount]: #membercount
 #### [memberCount]
 A count of a resource group's associated members.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -243,7 +264,8 @@ A count of a resource group's associated members.
 [subnetMemberCount]: #subnetmembercount
 #### [subnetMemberCount]
 A count of a resource group's associated subnet members.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -253,7 +275,8 @@ A count of a resource group's associated subnet members.
 [vlanMemberCount]: #vlanmembercount
 #### [vlanMemberCount]
 A count of a resource group's associated VLAN members.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

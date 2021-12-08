@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getActiveTransaction
 
+
 Retrieve transaction currently running for server.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_CdnMarketplace_Configuration_Behavior_Geoblocking](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_Geoblocking)::getObject
 
+
 Retrieve a SoftLayer_Network_CdnMarketplace_Configuration_Behavior_Geoblocking record.
 
 

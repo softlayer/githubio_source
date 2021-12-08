@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getIbmIdMigrationExpirationTimestamp
 
+
 Retrieve this key is deprecated and should not be used.
 
 

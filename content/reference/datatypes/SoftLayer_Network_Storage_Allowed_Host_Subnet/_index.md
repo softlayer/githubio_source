@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [accountId]: #accountid
 #### [accountId]
 The account to which this allowed host belongs to.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The account to which this allowed host belongs to.
 [credentialId]: #credentialid
 #### [credentialId]
 The credential this allowed host will use  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The credential this allowed host will use
 [id]: #id
 #### [id]
 The internal identifier of the igroup  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The internal identifier of the igroup
 [name]: #name
 #### [name]
 The name of allowed host, usually an IQN or other identifier  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The name of allowed host, usually an IQN or other identifier
 [resourceTableId]: #resourcetableid
 #### [resourceTableId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The name of allowed host, usually an IQN or other identifier
 [resourceTableName]: #resourcetablename
 #### [resourceTableName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ The name of allowed host, usually an IQN or other identifier
 [account]: #account
 #### [account]
 The SoftLayer_Account object which this SoftLayer_Network_Storage_Allowed_Host belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ The SoftLayer_Account object which this SoftLayer_Network_Storage_Allowed_Host b
 [assignedGroups]: #assignedgroups
 #### [assignedGroups]
 The SoftLayer_Network_Storage_Group objects this SoftLayer_Network_Storage_Allowed_Host is present in.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Group'>SoftLayer_Network_Storage_Group[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Group'>SoftLayer_Network_Storage_Group[] </a>**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ The SoftLayer_Network_Storage_Group objects this SoftLayer_Network_Storage_Allow
 [assignedIscsiVolumes]: #assignediscsivolumes
 #### [assignedIscsiVolumes]
 The SoftLayer_Network_Storage volumes to which this SoftLayer_Network_Storage_Allowed_Host is allowed access.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ The SoftLayer_Network_Storage volumes to which this SoftLayer_Network_Storage_Al
 [assignedNfsVolumes]: #assignednfsvolumes
 #### [assignedNfsVolumes]
 The SoftLayer_Network_Storage volumes to which this SoftLayer_Network_Storage_Allowed_Host is allowed access.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ The SoftLayer_Network_Storage volumes to which this SoftLayer_Network_Storage_Al
 [assignedReplicationVolumes]: #assignedreplicationvolumes
 #### [assignedReplicationVolumes]
 The SoftLayer_Network_Storage primary volumes whose replicas are allowed access.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ The SoftLayer_Network_Storage primary volumes whose replicas are allowed access.
 [assignedVolumes]: #assignedvolumes
 #### [assignedVolumes]
 The SoftLayer_Network_Storage volumes to which this SoftLayer_Network_Storage_Allowed_Host is allowed access.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**  
+
 
 
 </div>
@@ -171,7 +185,8 @@ The SoftLayer_Network_Storage volumes to which this SoftLayer_Network_Storage_Al
 [credential]: #credential
 #### [credential]
 The SoftLayer_Network_Storage_Credential this allowed host uses.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Credential'>SoftLayer_Network_Storage_Credential </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Credential'>SoftLayer_Network_Storage_Credential </a>**  
+
 
 
 </div>
@@ -181,7 +196,8 @@ The SoftLayer_Network_Storage_Credential this allowed host uses.
 [resource]: #resource
 #### [resource]
 The SoftLayer_Network_Subnet object which this SoftLayer_Network_Storage_Allowed_Host is referencing.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>**  
+
 
 
 </div>
@@ -191,7 +207,8 @@ The SoftLayer_Network_Subnet object which this SoftLayer_Network_Storage_Allowed
 [sourceSubnet]: #sourcesubnet
 #### [sourceSubnet]
 Connections to a target with a source IP in this subnet prefix are allowed.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -201,7 +218,8 @@ Connections to a target with a source IP in this subnet prefix are allowed.
 [subnetsInAcl]: #subnetsinacl
 #### [subnetsInAcl]
 The SoftLayer_Network_Subnet records assigned to the ACL for this allowed host.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**  
+
 
 
 </div>
@@ -213,7 +231,8 @@ The SoftLayer_Network_Subnet records assigned to the ACL for this allowed host.
 [assignedGroupCount]: #assignedgroupcount
 #### [assignedGroupCount]
 A count of the SoftLayer_Network_Storage_Group objects this SoftLayer_Network_Storage_Allowed_Host is present in.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -223,7 +242,8 @@ A count of the SoftLayer_Network_Storage_Group objects this SoftLayer_Network_St
 [assignedIscsiVolumeCount]: #assignediscsivolumecount
 #### [assignedIscsiVolumeCount]
 A count of the SoftLayer_Network_Storage volumes to which this SoftLayer_Network_Storage_Allowed_Host is allowed access.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -233,7 +253,8 @@ A count of the SoftLayer_Network_Storage volumes to which this SoftLayer_Network
 [assignedNfsVolumeCount]: #assignednfsvolumecount
 #### [assignedNfsVolumeCount]
 A count of the SoftLayer_Network_Storage volumes to which this SoftLayer_Network_Storage_Allowed_Host is allowed access.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -243,7 +264,8 @@ A count of the SoftLayer_Network_Storage volumes to which this SoftLayer_Network
 [assignedReplicationVolumeCount]: #assignedreplicationvolumecount
 #### [assignedReplicationVolumeCount]
 A count of the SoftLayer_Network_Storage primary volumes whose replicas are allowed access.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -253,7 +275,8 @@ A count of the SoftLayer_Network_Storage primary volumes whose replicas are allo
 [assignedVolumeCount]: #assignedvolumecount
 #### [assignedVolumeCount]
 A count of the SoftLayer_Network_Storage volumes to which this SoftLayer_Network_Storage_Allowed_Host is allowed access.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -263,7 +286,8 @@ A count of the SoftLayer_Network_Storage volumes to which this SoftLayer_Network
 [subnetsInAclCount]: #subnetsinaclcount
 #### [subnetsInAclCount]
 A count of the SoftLayer_Network_Subnet records assigned to the ACL for this allowed host.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Scale_LoadBalancer](/reference/services/SoftLayer_Scale_LoadBalancer)::getVirtualServerPort
 
+
 Retrieve the port on the virtual server.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getReplicationPartners
 
+
 Retrieve the network storage volumes configured to be replicants of a volume.
 
 

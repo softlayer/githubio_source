@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Hardware_State type contains general information about the current state of it's associated hardware, including the current power state (i.e. Running or Stopped), and it's current transitioning state (e.g. Provisioning, Reloading). 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Hardware_State type contains general information about the current
 [hardwareId]: #hardwareid
 #### [hardwareId]
 The hardware this state is assigned to.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The hardware this state is assigned to.
 [id]: #id
 #### [id]
 A hardware state's unique identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A hardware state's unique identifier.
 [state]: #state
 #### [state]
 Represents the current state of the assigned hardware.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

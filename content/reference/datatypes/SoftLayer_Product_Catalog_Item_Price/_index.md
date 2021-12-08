@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Product_Catalog_Item_Price type assigns an Item Price to a Catalog. This relation defines the composition of Item Prices in a Catalog. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Product_Catalog_Item_Price type assigns an Item Price to a Catalog
 [catalogId]: #catalogid
 #### [catalogId]
 The id of the Catalog the Item Price is part of.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The id of the Catalog the Item Price is part of.
 [createDate]: #createdate
 #### [createDate]
 The time the Item Price was defined in the Catalog  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The time the Item Price was defined in the Catalog
 [modifyDate]: #modifydate
 #### [modifyDate]
 The time the Item Price was changed for the Catalog  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The time the Item Price was changed for the Catalog
 [priceId]: #priceid
 #### [priceId]
 The id of the Item Price that is part of the Catalog.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ The id of the Item Price that is part of the Catalog.
 [catalog]: #catalog
 #### [catalog]
 Catalog being assigned  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Catalog'>SoftLayer_Product_Catalog </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Catalog'>SoftLayer_Product_Catalog </a>**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ Catalog being assigned
 [price]: #price
 #### [price]
 Price being assigned  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price </a>**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect_TrustedProfile](/reference/services/SoftLayer_User_Customer_OpenIdConnect_TrustedProfile)::addVirtualGuestAccess
 
+
 Add a CloudLayer Computing Instance to a portal user's access list.
 
 

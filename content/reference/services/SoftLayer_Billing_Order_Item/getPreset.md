@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Order_Item](/reference/services/SoftLayer_Billing_Order_Item)::getPreset
 
+
 Retrieve the SoftLayer_Product_Package_Preset related to this order item.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Dns_Domain](/reference/services/SoftLayer_Dns_Domain)::createPtrRecord
 
+
 Edit the PTR record for a single IP address.
 
 

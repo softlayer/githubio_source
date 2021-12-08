@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Invoice_Item](/reference/services/SoftLayer_Billing_Invoice_Item)::getBillingItem
 
+
 Retrieve an Invoice Item's billing item, from which this item was generated.
 
 

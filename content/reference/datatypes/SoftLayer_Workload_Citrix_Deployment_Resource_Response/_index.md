@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Workload_Citrix_Deployment_Resource_Response constructs a response object for [SoftLayer_Workload_Citrix_Deployment_Resource_Response]({{<ref "reference/datatypes/SoftLayer_Workload_Citrix_Deployment_Resource_Response">}}) for the CVAD resource. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Workload_Citrix_Deployment_Resource_Response constructs a response
 [hardware]: #hardware
 #### [hardware]
 Represents the hardware resource of the CVAD deployment.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Represents the hardware resource of the CVAD deployment.
 [isDeploymentOwned]: #isdeploymentowned
 #### [isDeploymentOwned]
 It is a flag for internal usage that represents if the underlying resource is ordered by another system of the same infrastructure provider.   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ It is a flag for internal usage that represents if the underlying resource is or
 [role]: #role
 #### [role]
 It represents the role of a VSI resource in the CVAD deployment, e.g., a proxy server, DHCP server, cloud connector.   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Workload_Citrix_Deployment_Resource_Role'>SoftLayer_Workload_Citrix_Deployment_Resource_Role </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Workload_Citrix_Deployment_Resource_Role'>SoftLayer_Workload_Citrix_Deployment_Resource_Role </a>**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ It represents the role of a VSI resource in the CVAD deployment, e.g., a proxy s
 [storage]: #storage
 #### [storage]
 Storage resource for the CVAD deployment.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a>**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Storage resource for the CVAD deployment.
 [subnet]: #subnet
 #### [subnet]
 Represents the subnet resource of the CVAD deployment.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ Represents the subnet resource of the CVAD deployment.
 [type]: #type
 #### [type]
 It contains the category of the item which is set for the current response.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ It contains the category of the item which is set for the current response.
 [virtualGuest]: #virtualguest
 #### [virtualGuest]
 VSI resource for the CVAD deployment.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ VSI resource for the CVAD deployment.
 [vlan]: #vlan
 #### [vlan]
 Represents the VLAN resource of the CVAD deployment.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a>**  
+
 
 
 </div>

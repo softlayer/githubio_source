@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getDiskUsageMetricDataFromLegacyByDate
 
+
 Retrieve the metric data for disk space usage for a storage repository from the Legacy Data Warehouse. 
 
 

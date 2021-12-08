@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Models a single outbound object for a graph of given data sets.
 
 
@@ -45,7 +47,8 @@ Models a single outbound object for a graph of given data sets.
 [closedTickets]: #closedtickets
 #### [closedTickets]
 The count of closed tickets included in this graph.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The count of closed tickets included in this graph.
 [completedBackupCount]: #completedbackupcount
 #### [completedBackupCount]
 The count of completed backups included in this graph.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The count of completed backups included in this graph.
 [conflictBackupCount]: #conflictbackupcount
 #### [conflictBackupCount]
 The count of conflicted backups included in this graph.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The count of conflicted backups included in this graph.
 [endDate]: #enddate
 #### [endDate]
 The maximum date included in this graph.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The maximum date included in this graph.
 [failedBackupCount]: #failedbackupcount
 #### [failedBackupCount]
 The count of failed backups included in this graph.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The count of failed backups included in this graph.
 [graphError]: #grapherror
 #### [graphError]
 Error message encountered during graphing  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ Error message encountered during graphing
 [graphImage]: #graphimage
 #### [graphImage]
 The raw PNG binary data to be displayed once the graph is drawn.  
-<span class="type-label">Type: </span>**binary data**
+<span class="type-label">Type: </span>**binary data**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ The raw PNG binary data to be displayed once the graph is drawn.
 [hardwareUptime]: #hardwareuptime
 #### [hardwareUptime]
 The average of hardware uptime included in this graph.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ The average of hardware uptime included in this graph.
 [inboundUsage]: #inboundusage
 #### [inboundUsage]
 The inbound bandwidth usage shown in this graph.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ The inbound bandwidth usage shown in this graph.
 [openTickets]: #opentickets
 #### [openTickets]
 The count of open tickets included in this graph.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -145,7 +157,8 @@ The count of open tickets included in this graph.
 [outboundUsage]: #outboundusage
 #### [outboundUsage]
 The outbound bandwidth usage shown in this graph.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -155,7 +168,8 @@ The outbound bandwidth usage shown in this graph.
 [pendingCustomerResponseTicketCount]: #pendingcustomerresponseticketcount
 #### [pendingCustomerResponseTicketCount]
 The count of tickets included in this graph.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -165,7 +179,8 @@ The count of tickets included in this graph.
 [startDate]: #startdate
 #### [startDate]
 The minimum date included in this graph.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -175,7 +190,8 @@ The minimum date included in this graph.
 [urlUptime]: #urluptime
 #### [urlUptime]
 The average of url uptime included in this graph.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -185,7 +201,8 @@ The average of url uptime included in this graph.
 [waitingEmployeeResponseTicketCount]: #waitingemployeeresponseticketcount
 #### [waitingEmployeeResponseTicketCount]
 The count of tickets included in this graph.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

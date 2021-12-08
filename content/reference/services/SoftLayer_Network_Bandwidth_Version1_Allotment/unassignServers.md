@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Bandwidth_Version1_Allotment](/reference/services/SoftLayer_Network_Bandwidth_Version1_Allotment)::unassignServers
 
+
 unassign a collection of servers from an allotment and insert them into the accounts VPR.
 
 

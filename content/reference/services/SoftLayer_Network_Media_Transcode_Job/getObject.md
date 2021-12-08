@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Media_Transcode_Job](/reference/services/SoftLayer_Network_Media_Transcode_Job)::getObject
 
+
 Retrieve a SoftLayer_Network_Media_Transcode_Job record.
 
 

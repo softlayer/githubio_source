@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [description]: #description
 #### [description]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ classes:
 [name]: #name
 #### [name]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ classes:
 [summary]: #summary
 #### [summary]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ classes:
 [volumes]: #volumes
 #### [volumes]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Disk_Image_Capture_Template_Volume'>SoftLayer_Container_Disk_Image_Capture_Template_Volume[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Disk_Image_Capture_Template_Volume'>SoftLayer_Container_Disk_Image_Capture_Template_Volume[] </a>**  
+
 
 
 </div>

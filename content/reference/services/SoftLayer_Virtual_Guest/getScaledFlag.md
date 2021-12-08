@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getScaledFlag
 
+
 Retrieve whether or not this guest is a member of a scale group and was automatically created as part of a scale group action.
 
 

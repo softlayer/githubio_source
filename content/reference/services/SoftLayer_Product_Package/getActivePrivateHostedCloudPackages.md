@@ -13,6 +13,8 @@ aliases:
 ---
 # [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getActivePrivateHostedCloudPackages
 
+<div class="deprecated"><span class="deprecation-label">Deprecated </span></div>
+
 [DEPRECATED] Get the Active SoftLayer_Product_Packages from which one can order private hosted cloud configurations.
 
 

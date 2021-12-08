@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getSupportPolicyAcknowledgementRequiredFlag
 
+
 Retrieve whether or not a user is required to acknowledge the support policy for portal access.
 
 

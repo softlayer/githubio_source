@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getDownstreamNetworkHardwareWithIncidents
 
+
 Retrieve all network hardware with monitoring warnings or errors that are downstream from the selected piece of hardware.
 
 

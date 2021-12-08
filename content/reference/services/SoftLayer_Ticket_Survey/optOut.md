@@ -13,6 +13,8 @@ aliases:
 ---
 # [SoftLayer_Ticket_Survey](/reference/services/SoftLayer_Ticket_Survey)::optOut
 
+<div class="deprecated"><span class="deprecation-label">Deprecated </span></div>
+
 
 
 

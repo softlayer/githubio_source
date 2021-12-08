@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Scale_Group](/reference/services/SoftLayer_Scale_Group)::getAvailableHourlyInstanceLimit
 
+
 This returns the number of hourly instances an account can add from this point. 
 
 

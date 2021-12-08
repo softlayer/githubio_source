@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getObject
 
+
 Retrieve a SoftLayer_Hardware_SecurityModule record.
 
 

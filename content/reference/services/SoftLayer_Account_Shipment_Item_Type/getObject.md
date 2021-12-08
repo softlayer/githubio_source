@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Shipment_Item_Type](/reference/services/SoftLayer_Account_Shipment_Item_Type)::getObject
 
+
 Retrieve a SoftLayer_Account_Shipment_Item_Type record.
 
 

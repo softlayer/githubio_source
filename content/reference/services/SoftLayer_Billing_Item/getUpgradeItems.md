@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getUpgradeItems
 
+
 Retrieve billing items whose product item has an upgrade path defined in our system will return all the product items in the upgrade path.
 
 

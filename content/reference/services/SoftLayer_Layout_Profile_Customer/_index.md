@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,23 +44,27 @@ classes:
 
 #### [createObject](/reference/services/SoftLayer_Layout_Profile_Customer/createObject)
 Create a new layout profile
+
 </div>
 
 <div class="method-row">
 
 #### [deleteObject](/reference/services/SoftLayer_Layout_Profile_Customer/deleteObject)
 Delete a layout profile
+
 </div>
 
 <div class="method-row">
 
 #### [editObject](/reference/services/SoftLayer_Layout_Profile_Customer/editObject)
 Edit the layout profile object
+
 </div>
 
 <div class="method-row">
 
 #### [getLayoutContainers](/reference/services/SoftLayer_Layout_Profile_Customer/getLayoutContainers)
+
 
 </div>
 
@@ -66,17 +72,20 @@ Edit the layout profile object
 
 #### [getLayoutPreferences](/reference/services/SoftLayer_Layout_Profile_Customer/getLayoutPreferences)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Layout_Profile_Customer/getObject)
 Retrieve a SoftLayer_Layout_Profile_Customer record.
+
 </div>
 
 <div class="method-row">
 
 #### [getUserRecord](/reference/services/SoftLayer_Layout_Profile_Customer/getUserRecord)
+
 
 </div>
 
@@ -84,12 +93,14 @@ Retrieve a SoftLayer_Layout_Profile_Customer record.
 
 #### [modifyPreference](/reference/services/SoftLayer_Layout_Profile_Customer/modifyPreference)
 Modifies an associated layout preference
+
 </div>
 
 <div class="method-row">
 
 #### [modifyPreferences](/reference/services/SoftLayer_Layout_Profile_Customer/modifyPreferences)
 Modifies a collection of associated preferences
+
 </div>
 </div>
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Brand_Restriction_Location_CustomerCountry](/reference/services/SoftLayer_Brand_Restriction_Location_CustomerCountry)::getBrand
 
+
 Retrieve this references the brand that has a brand-location-country restriction setup.
 
 

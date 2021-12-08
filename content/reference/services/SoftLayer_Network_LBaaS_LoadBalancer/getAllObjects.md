@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_LBaaS_LoadBalancer](/reference/services/SoftLayer_Network_LBaaS_LoadBalancer)::getAllObjects
 
+
 Get all existing load balancers. 
 
 

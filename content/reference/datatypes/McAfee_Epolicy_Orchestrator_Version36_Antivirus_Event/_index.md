@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The McAfee_Epolicy_Orchestrator_Version36_Antivirus_Event data type represents a single anti-virus event. It contains details about the event such as the date the event occurred, the virus that is detected and the action that is taken. 
 
 
@@ -45,7 +47,8 @@ The McAfee_Epolicy_Orchestrator_Version36_Antivirus_Event data type represents a
 [eventLocalDateTime]: #eventlocaldatetime
 #### [eventLocalDateTime]
 The date when an anti-virus event occurs.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The date when an anti-virus event occurs.
 [filename]: #filename
 #### [filename]
 Name of the file found to be infected.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Name of the file found to be infected.
 [virusName]: #virusname
 #### [virusName]
 The name of a virus that is found.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The name of a virus that is found.
 [virusType]: #virustype
 #### [virusType]
 The type of virus that is found.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ The type of virus that is found.
 [virusActionTaken]: #virusactiontaken
 #### [virusActionTaken]
 The action taken when a virus is detected.  
-<span class="type-label">Type: </span>**McAfee_Epolicy_Orchestrator_Version36_Antivirus_Event_Filter_Description**
+<span class="type-label">Type: </span>**McAfee_Epolicy_Orchestrator_Version36_Antivirus_Event_Filter_Description**  
+
 
 
 </div>

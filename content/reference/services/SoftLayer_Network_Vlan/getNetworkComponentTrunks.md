@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getNetworkComponentTrunks
 
+
 Retrieve the network components that are connected to this VLAN through a trunk.
 
 

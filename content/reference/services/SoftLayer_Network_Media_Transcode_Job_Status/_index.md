@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 A Transcode job's status. It can be Pending, Processing, Complete, Error or Deleted. 
 
 
@@ -42,12 +44,14 @@ A Transcode job's status. It can be Pending, Processing, Complete, Error or Dele
 
 #### [getAllStatuses](/reference/services/SoftLayer_Network_Media_Transcode_Job_Status/getAllStatuses)
 Returns all transcode job statuses
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Media_Transcode_Job_Status/getObject)
 Retrieve a SoftLayer_Network_Media_Transcode_Job_Status record.
+
 </div>
 </div>
 

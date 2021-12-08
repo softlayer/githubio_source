@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Resource_Group](/reference/services/SoftLayer_Resource_Group)::getSubnetMembers
 
+
 Retrieve a resource group's associated subnet members.
 
 

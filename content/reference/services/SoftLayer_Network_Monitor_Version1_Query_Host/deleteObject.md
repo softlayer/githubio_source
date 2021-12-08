@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Monitor_Version1_Query_Host](/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host)::deleteObject
 
+
 Delete a Query_Host object by passing in a version of it
 
 

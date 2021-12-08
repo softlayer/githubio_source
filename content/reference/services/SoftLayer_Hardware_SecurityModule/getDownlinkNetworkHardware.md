@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getDownlinkNetworkHardware
 
+
 Retrieve all hardware that has uplink network connections to a piece of hardware.
 
 

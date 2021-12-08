@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Application_Delivery_Controller](/reference/services/SoftLayer_Network_Application_Delivery_Controller)::createLiveLoadBalancer
 
+
 Add to or create load balancer service from a virtual IP address
 
 

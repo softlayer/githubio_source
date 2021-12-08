@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getIsCloudReadyNodeCertified
 
+
 Retrieve determine if hardware object has the IBM_CLOUD_READY_NODE_CERTIFIED attribute.
 
 

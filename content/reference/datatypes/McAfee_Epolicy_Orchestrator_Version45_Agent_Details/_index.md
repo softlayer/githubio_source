@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The McAfee_Epolicy_Orchestrator_Version45_Agent_Details data type represents a virus scan agent and contains details about its version.
 
 
@@ -45,7 +47,8 @@ The McAfee_Epolicy_Orchestrator_Version45_Agent_Details data type represents a v
 [agentVersion]: #agentversion
 #### [agentVersion]
 Version number of the anti-virus scan agent.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Version number of the anti-virus scan agent.
 [lastUpdate]: #lastupdate
 #### [lastUpdate]
 The date of the last time the anti-virus agent checked in.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getMemoryMetricImage
 
+
 Retrieve a visual representation of the amount of memory used for the specified time frame for a computing instance. 
 
 

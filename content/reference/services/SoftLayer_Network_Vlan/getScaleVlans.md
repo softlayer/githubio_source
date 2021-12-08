@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getScaleVlans
 
+
 Retrieve collection of scale VLANs this VLAN applies to.
 
 

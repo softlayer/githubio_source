@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,17 +44,20 @@ classes:
 
 #### [getAllObjects](/reference/services/SoftLayer_Ticket_Subject_Category/getAllObjects)
 Retrieve all ticket subject categories.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Ticket_Subject_Category/getObject)
 Retrieve a SoftLayer_Ticket_Subject_Category record.
+
 </div>
 
 <div class="method-row">
 
 #### [getSubjects](/reference/services/SoftLayer_Ticket_Subject_Category/getSubjects)
+
 
 </div>
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Group_Nfs](/reference/services/SoftLayer_Network_Storage_Group_Nfs)::getAllowedHosts
 
+
 Retrieve the allowed hosts list for this group.
 
 

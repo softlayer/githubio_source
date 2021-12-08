@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getHardwareCount
 
+
 Retrieve the current number of servers a portal user has access to.
 
 

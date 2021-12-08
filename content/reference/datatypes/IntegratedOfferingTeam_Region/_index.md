@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This class represents an Integrated Offering Team region. 
 
 

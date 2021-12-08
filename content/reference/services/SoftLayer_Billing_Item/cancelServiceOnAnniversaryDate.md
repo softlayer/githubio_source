@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::cancelServiceOnAnniversaryDate
 
+
 Cancel a service or resource on the next bill date
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Component_Firewall](/reference/services/SoftLayer_Network_Component_Firewall)::getGuestNetworkComponent
 
+
 Retrieve the network component of the guest virtual server that this network component firewall belongs to.
 
 

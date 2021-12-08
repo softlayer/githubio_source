@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 SoftLayer_Configuration_Section_Value is used to set the value for a configuration definition 
 
 
@@ -42,17 +44,20 @@ SoftLayer_Configuration_Section_Value is used to set the value for a configurati
 
 #### [getDefinition](/reference/services/SoftLayer_Configuration_Template_Section_Definition_Value/getDefinition)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Configuration_Template_Section_Definition_Value/getObject)
 Retrieve a SoftLayer_Configuration_Template_Section_Definition_Value record.
+
 </div>
 
 <div class="method-row">
 
 #### [getTemplate](/reference/services/SoftLayer_Configuration_Template_Section_Definition_Value/getTemplate)
+
 
 </div>
 </div>

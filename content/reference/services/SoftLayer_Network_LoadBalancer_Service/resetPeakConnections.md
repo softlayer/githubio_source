@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_LoadBalancer_Service](/reference/services/SoftLayer_Network_LoadBalancer_Service)::resetPeakConnections
 
+
 Update the PeakConnections value on the service to zero.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getActiveAssociatedChildren
 
+
 Retrieve a billing item's active associated child billing items. This includes "floating" items that are not necessarily child items of this billing item.
 
 

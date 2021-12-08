@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 This is a specific watch for a resource use policy trigger.
 
 
@@ -42,48 +44,56 @@ This is a specific watch for a resource use policy trigger.
 
 #### [createObject](/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch/createObject)
 Create a watch on an existing resource trigger.
+
 </div>
 
 <div class="method-row">
 
 #### [deleteObject](/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch/deleteObject)
 Delete this watch from the trigger. You cannot delete the last watch on a trigger. 
+
 </div>
 
 <div class="method-row">
 
 #### [editObject](/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch/editObject)
 Edit this watch.
+
 </div>
 
 <div class="method-row">
 
 #### [getAllPossibleAlgorithms](/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch/getAllPossibleAlgorithms)
 Get all possible values for "algorithm".
+
 </div>
 
 <div class="method-row">
 
 #### [getAllPossibleMetrics](/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch/getAllPossibleMetrics)
 Get all possible values for "metric".
+
 </div>
 
 <div class="method-row">
 
 #### [getAllPossibleOperators](/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch/getAllPossibleOperators)
 Get all possible values for "operator".
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch/getObject)
 Retrieve a SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch record.
+
 </div>
 
 <div class="method-row">
 
 #### [getScalePolicyTrigger](/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch/getScalePolicyTrigger)
 Retrieve the trigger this watch is on.
+
 </div>
 </div>
 

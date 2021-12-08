@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Message_Delivery_Email_Sendgrid](/reference/services/SoftLayer_Network_Message_Delivery_Email_Sendgrid)::getBillingItem
 
+
 Retrieve the billing item for a network message delivery account.
 
 

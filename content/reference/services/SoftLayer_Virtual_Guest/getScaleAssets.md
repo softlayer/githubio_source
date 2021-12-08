@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getScaleAssets
 
+
 Retrieve collection of scale assets this guest corresponds to.
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_LBaaS_LoadBalancer type presents a structure containing attributes of a load balancer, and its related objects including listeners, pools and members. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Network_LBaaS_LoadBalancer type presents a structure containing at
 [accountId]: #accountid
 #### [accountId]
 The account this load balancer belongs to.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The account this load balancer belongs to.
 [address]: #address
 #### [address]
 Address (Host name) of a load balancer.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Address (Host name) of a load balancer.
 [createDate]: #createdate
 #### [createDate]
 Specifies when a load balancer was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Specifies when a load balancer was created.
 [description]: #description
 #### [description]
 Description of a load balancer.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Description of a load balancer.
 [id]: #id
 #### [id]
 The unique identifier of a load balancer.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The unique identifier of a load balancer.
 [isDataLogEnabled]: #isdatalogenabled
 #### [isDataLogEnabled]
 Specifies whether the data log is enabled for the load balancer.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ Specifies whether the data log is enabled for the load balancer.
 [isPublic]: #ispublic
 #### [isPublic]
 Specifies whether the load balancer is a public or internal load balancer.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ Specifies whether the load balancer is a public or internal load balancer.
 [locationId]: #locationid
 #### [locationId]
 This references to location with type datacenter  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ This references to location with type datacenter
 [modifyDate]: #modifydate
 #### [modifyDate]
 Specifies when a load balancer was updated last.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ Specifies when a load balancer was updated last.
 [name]: #name
 #### [name]
 The load balancer's name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -145,7 +157,8 @@ The load balancer's name.
 [operatingStatus]: #operatingstatus
 #### [operatingStatus]
 The operation status "ONLINE" or "OFFLINE" of a load balancer.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -155,7 +168,8 @@ The operation status "ONLINE" or "OFFLINE" of a load balancer.
 [previousErrorText]: #previouserrortext
 #### [previousErrorText]
 Error message of previous API call in case of failure  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -165,7 +179,8 @@ Error message of previous API call in case of failure
 [provisioningStatus]: #provisioningstatus
 #### [provisioningStatus]
 The provisioning status of a load balancer.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -175,7 +190,8 @@ The provisioning status of a load balancer.
 [type]: #type
 #### [type]
 Specifies the type of load balancer.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -185,7 +201,8 @@ Specifies the type of load balancer.
 [useSystemPublicIpPool]: #usesystempublicippool
 #### [useSystemPublicIpPool]
 Applicable for public load balancer only. It specifies whether the public IP addresses are allocated from system public IP pool (1, default) or public subnet (null | 0) from the account ordering the load balancer. For internal load balancer, useSystemPublicIpPool will be ignored, and it always defaults to 1.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -195,7 +212,8 @@ Applicable for public load balancer only. It specifies whether the public IP add
 [uuid]: #uuid
 #### [uuid]
 The UUID of a load balancer.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -211,7 +229,8 @@ The UUID of a load balancer.
 [datacenter]: #datacenter
 #### [datacenter]
 Datacenter, where load balancer is located.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**  
+
 
 
 </div>
@@ -221,7 +240,8 @@ Datacenter, where load balancer is located.
 [healthMonitors]: #healthmonitors
 #### [healthMonitors]
 Health monitors for the backend members.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_HealthMonitor'>SoftLayer_Network_LBaaS_HealthMonitor[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_HealthMonitor'>SoftLayer_Network_LBaaS_HealthMonitor[] </a>**  
+
 
 
 </div>
@@ -231,7 +251,8 @@ Health monitors for the backend members.
 [l7Pools]: #l7pools
 #### [l7Pools]
 L7Pools for load balancer.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7Pool'>SoftLayer_Network_LBaaS_L7Pool[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7Pool'>SoftLayer_Network_LBaaS_L7Pool[] </a>**  
+
 
 
 </div>
@@ -241,7 +262,8 @@ L7Pools for load balancer.
 [listeners]: #listeners
 #### [listeners]
 Listeners assigned to load balancer.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_Listener'>SoftLayer_Network_LBaaS_Listener[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_Listener'>SoftLayer_Network_LBaaS_Listener[] </a>**  
+
 
 
 </div>
@@ -251,7 +273,8 @@ Listeners assigned to load balancer.
 [members]: #members
 #### [members]
 Members assigned to load balancer.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_Member'>SoftLayer_Network_LBaaS_Member[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_Member'>SoftLayer_Network_LBaaS_Member[] </a>**  
+
 
 
 </div>
@@ -261,7 +284,8 @@ Members assigned to load balancer.
 [sslCiphers]: #sslciphers
 #### [sslCiphers]
 list of preferred custom ciphers configured for the load balancer.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_SSLCipher'>SoftLayer_Network_LBaaS_SSLCipher[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_SSLCipher'>SoftLayer_Network_LBaaS_SSLCipher[] </a>**  
+
 
 
 </div>
@@ -273,7 +297,8 @@ list of preferred custom ciphers configured for the load balancer.
 [healthMonitorCount]: #healthmonitorcount
 #### [healthMonitorCount]
 A count of health monitors for the backend members.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -283,7 +308,8 @@ A count of health monitors for the backend members.
 [l7PoolCount]: #l7poolcount
 #### [l7PoolCount]
 A count of l7Pools for load balancer.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -293,7 +319,8 @@ A count of l7Pools for load balancer.
 [listenerCount]: #listenercount
 #### [listenerCount]
 A count of listeners assigned to load balancer.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -303,7 +330,8 @@ A count of listeners assigned to load balancer.
 [memberCount]: #membercount
 #### [memberCount]
 A count of members assigned to load balancer.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -313,7 +341,8 @@ A count of members assigned to load balancer.
 [sslCipherCount]: #sslciphercount
 #### [sslCipherCount]
 A count of list of preferred custom ciphers configured for the load balancer.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

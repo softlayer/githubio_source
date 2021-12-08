@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Container_Hardware_Server_Details data type contains information relating to a server's component information, network information, and software information. 
 
 
@@ -50,7 +52,8 @@ The SoftLayer_Container_Hardware_Server_Details data type contains information r
 [components]: #components
 #### [components]
 The components that belong to a piece of hardware.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component[] </a>**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ The components that belong to a piece of hardware.
 [networkComponents]: #networkcomponents
 #### [networkComponents]
 The network components that belong to a piece of hardware.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component[] </a>**  
+
 
 
 </div>
@@ -70,7 +74,8 @@ The network components that belong to a piece of hardware.
 [software]: #software
 #### [software]
 The software that belong to a piece of hardware.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component'>SoftLayer_Software_Component[] </a>**  
+
 
 
 </div>

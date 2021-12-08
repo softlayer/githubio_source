@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Layout_Preference contains definitions for default layout item preferences 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Layout_Preference contains definitions for default layout item pre
 [id]: #id
 #### [id]
 The internal identifier of a layout preference  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The internal identifier of a layout preference
 [layoutPreferenceTypeId]: #layoutpreferencetypeid
 #### [layoutPreferenceTypeId]
 The internal identifier of the related [SoftLayer_Layout_Preference_Type]({{<ref "reference/datatypes/SoftLayer_Layout_Preference_Type">}})  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The internal identifier of the related [SoftLayer_Layout_Preference_Type]({{<ref
 [value]: #value
 #### [value]
 The default value of the preference  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ The default value of the preference
 [layoutPreferenceType]: #layoutpreferencetype
 #### [layoutPreferenceType]
 The type of the preference object  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Preference_Type'>SoftLayer_Layout_Preference_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Preference_Type'>SoftLayer_Layout_Preference_Type </a>**  
+
 
 
 </div>

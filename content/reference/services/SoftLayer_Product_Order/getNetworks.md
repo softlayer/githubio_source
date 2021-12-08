@@ -13,6 +13,8 @@ aliases:
 ---
 # [SoftLayer_Product_Order](/reference/services/SoftLayer_Product_Order)::getNetworks
 
+<div class="deprecated"><span class="deprecation-label">Deprecated </span></div>
+
 (DEPRECATED) Retrieve the networks that are available during ordering.
 
 

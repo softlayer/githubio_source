@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getPrimaryNetworkComponent
 
+
 Retrieve a guest's primary public network component.
 
 

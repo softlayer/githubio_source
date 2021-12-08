@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::editObject
 
+
 Edit the password and/or notes for the Storage service
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Bandwidth_Version1_Allotment](/reference/services/SoftLayer_Network_Bandwidth_Version1_Allotment)::getDetails
 
+
 Retrieve the bandwidth allotment detail records associated with this virtual rack.
 
 

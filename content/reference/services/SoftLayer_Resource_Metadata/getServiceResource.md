@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Resource_Metadata](/reference/services/SoftLayer_Resource_Metadata)::getServiceResource
 
+
 Obtain a specific service resource associated with the resource
 
 

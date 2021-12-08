@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Application_Delivery_Controller](/reference/services/SoftLayer_Network_Application_Delivery_Controller)::updateLiveLoadBalancer
 
+
 Edit a virtual IP address within a load balancer
 
 

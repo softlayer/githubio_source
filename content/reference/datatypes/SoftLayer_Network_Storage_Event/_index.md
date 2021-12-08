@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Storage volumes can create various events to keep track of what has occurred to the volume. Events provide an audit trail that can be used to verify that various tasks have occurred, such as snapshots to be created by a schedule or remote replication synchronization. 
 
 
@@ -45,7 +47,8 @@ Storage volumes can create various events to keep track of what has occurred to 
 [createDate]: #createdate
 #### [createDate]
 The date an event was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The date an event was created.
 [message]: #message
 #### [message]
 The message text for an event.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The message text for an event.
 [scheduleId]: #scheduleid
 #### [scheduleId]
 An identifier for the schedule which is associated with an event.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ An identifier for the schedule which is associated with an event.
 [typeId]: #typeid
 #### [typeId]
 An identifier for the type of an event.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ An identifier for the type of an event.
 [volumeId]: #volumeid
 #### [volumeId]
 The volume id which an event is associated with.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ The volume id which an event is associated with.
 [schedule]: #schedule
 #### [schedule]
 A schedule that is associated with an event. Not all events will have a schedule.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule'>SoftLayer_Network_Storage_Schedule </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule'>SoftLayer_Network_Storage_Schedule </a>**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ A schedule that is associated with an event. Not all events will have a schedule
 [type]: #type
 #### [type]
 A Storage volume's event type. The type provides a standardized definition for an event.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Event_Type'>SoftLayer_Network_Storage_Event_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Event_Type'>SoftLayer_Network_Storage_Event_Type </a>**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ A Storage volume's event type. The type provides a standardized definition for a
 [volume]: #volume
 #### [volume]
 The associated volume for an event.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a>**  
+
 
 
 </div>

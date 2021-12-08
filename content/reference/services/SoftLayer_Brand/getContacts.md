@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Brand](/reference/services/SoftLayer_Brand)::getContacts
 
+
 Retrieve the contacts for the brand.
 
 

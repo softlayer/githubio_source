@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getVolumeStatus
 
+
 Retrieve the current status of a network storage volume.
 
 

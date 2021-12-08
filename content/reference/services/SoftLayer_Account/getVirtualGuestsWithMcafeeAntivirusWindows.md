@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getVirtualGuestsWithMcafeeAntivirusWindows
 
+
 Retrieve all virtual guests associated with an account that has McAfee Secure AntiVirus for Windows software components.
 
 

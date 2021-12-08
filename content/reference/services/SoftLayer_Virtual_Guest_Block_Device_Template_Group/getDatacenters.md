@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest_Block_Device_Template_Group](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group)::getDatacenters
 
+
 Retrieve a collection of locations containing a copy of this image template group. Will only be populated for parent template group objects.
 
 

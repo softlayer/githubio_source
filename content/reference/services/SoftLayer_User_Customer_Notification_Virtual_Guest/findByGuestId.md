@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_Notification_Virtual_Guest](/reference/services/SoftLayer_User_Customer_Notification_Virtual_Guest)::findByGuestId
 
+
 Return all CloudLayer computing instance notifications associated with the passed ID
 
 

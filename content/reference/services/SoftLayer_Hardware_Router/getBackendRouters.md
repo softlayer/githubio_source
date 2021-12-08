@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getBackendRouters
 
+
 Retrieve a hardware's backend or private router.
 
 

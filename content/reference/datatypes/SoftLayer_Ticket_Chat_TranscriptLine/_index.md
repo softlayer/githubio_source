@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -51,7 +53,8 @@ classes:
 [speaker]: #speaker
 #### [speaker]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Interface'>SoftLayer_User_Interface </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Interface'>SoftLayer_User_Interface </a>**  
+
 
 
 </div>

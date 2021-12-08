@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getDownstreamVirtualGuests
 
+
 Retrieve information regarding all virtual guests attached to a piece of network hardware.
 
 

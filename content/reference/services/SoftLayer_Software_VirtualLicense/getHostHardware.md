@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Software_VirtualLicense](/reference/services/SoftLayer_Software_VirtualLicense)::getHostHardware
 
+
 Retrieve the hardware record to which the software virtual license is assigned.
 
 

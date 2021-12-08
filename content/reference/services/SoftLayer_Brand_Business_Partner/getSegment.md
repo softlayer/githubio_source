@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Brand_Business_Partner](/reference/services/SoftLayer_Brand_Business_Partner)::getSegment
 
+
 Retrieve segment indicator used to categorize business partner revenue.
 
 

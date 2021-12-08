@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Application_Delivery_Controller](/reference/services/SoftLayer_Network_Application_Delivery_Controller)::restoreBaseConfiguration
 
+
 Restore an application delivery controller's base configuration state.
 
 

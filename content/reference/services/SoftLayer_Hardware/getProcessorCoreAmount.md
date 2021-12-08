@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getProcessorCoreAmount
 
+
 Retrieve the total number of processor cores, summed from all processors that are attached to a piece of hardware
 
 

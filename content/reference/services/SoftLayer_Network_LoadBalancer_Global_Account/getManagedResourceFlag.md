@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_LoadBalancer_Global_Account](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account)::getManagedResourceFlag
 
+
 Retrieve a flag indicating that the global load balancer is a managed resource.
 
 

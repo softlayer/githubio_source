@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet_IpAddress](/reference/services/SoftLayer_Network_Subnet_IpAddress)::getPrivateNetworkGateway
 
+
 Retrieve the network gateway appliance using this address as the private IP address.
 
 

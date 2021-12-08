@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::deactivateNotificationSubscriber
 
+
 Delete a subscriber for a given resource.
 
 

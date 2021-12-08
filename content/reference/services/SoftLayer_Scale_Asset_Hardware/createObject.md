@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Scale_Asset_Hardware](/reference/services/SoftLayer_Scale_Asset_Hardware)::createObject
 
+
 Pin hardware on a group. This can be done at anytime, whether the group is active or not. 
 
 

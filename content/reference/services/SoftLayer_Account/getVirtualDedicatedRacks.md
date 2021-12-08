@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getVirtualDedicatedRacks
 
+
 Retrieve the bandwidth pooling for this account.
 
 

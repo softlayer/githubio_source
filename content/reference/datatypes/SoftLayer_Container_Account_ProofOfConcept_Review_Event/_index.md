@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Review event within proof of concept request review period. 
 
 
@@ -45,7 +47,8 @@ Review event within proof of concept request review period.
 [description]: #description
 #### [description]
 Explanation of the event.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Explanation of the event.
 [reviewerEmail]: #revieweremail
 #### [reviewerEmail]
 Reviewer's email address.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Reviewer's email address.
 [reviewerUid]: #revieweruid
 #### [reviewerUid]
 Reviewer's BluePages UID.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

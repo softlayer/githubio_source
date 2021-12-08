@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Dns_Domain](/reference/services/SoftLayer_Dns_Domain)::getManagedResourceFlag
 
+
 Retrieve a flag indicating that the dns domain record is a managed resource.
 
 

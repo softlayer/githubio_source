@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Scale_Group](/reference/services/SoftLayer_Scale_Group)::getLoadBalancers
 
+
 Retrieve collection of load balancers for this auto scale group.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Location_Reservation_Rack_Member](/reference/services/SoftLayer_Location_Reservation_Rack_Member)::getLocation
 
+
 Retrieve location relation for the rack member
 
 

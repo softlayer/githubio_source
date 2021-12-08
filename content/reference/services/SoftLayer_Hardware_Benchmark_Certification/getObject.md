@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Benchmark_Certification](/reference/services/SoftLayer_Hardware_Benchmark_Certification)::getObject
 
+
 Retrieve a SoftLayer_Hardware_Benchmark_Certification record.
 
 

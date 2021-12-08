@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This class contains the collections of public and private VLANs that are available during the ordering process. 
 
 
@@ -45,7 +47,8 @@ This class contains the collections of public and private VLANs that are availab
 [privateVlans]: #privatevlans
 #### [privateVlans]
 The collection of private vlans available during ordering.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order[] </a>**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The collection of private vlans available during ordering.
 [publicVlans]: #publicvlans
 #### [publicVlans]
 The collection of public vlans available during ordering.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order[] </a>**  
+
 
 
 </div>

@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,17 +44,20 @@ classes:
 
 #### [getHealthCheck](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Attribute/getHealthCheck)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Attribute/getObject)
 Retrieve a SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Attribute record.
+
 </div>
 
 <div class="method-row">
 
 #### [getType](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Attribute/getType)
+
 
 </div>
 </div>

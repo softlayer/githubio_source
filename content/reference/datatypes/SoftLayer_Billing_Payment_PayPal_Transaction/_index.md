@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Billing_Payment_PayPal_Transaction data type contains general information relating to attempted PayPal transactions. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Billing_Payment_PayPal_Transaction data type contains general info
 [accountId]: #accountid
 #### [accountId]
 The account ID to which the PayPal and billing information is associated with.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The account ID to which the PayPal and billing information is associated with.
 [addressCityName]: #addresscityname
 #### [addressCityName]
 City given in the address of the PayPal user.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ City given in the address of the PayPal user.
 [addressCountry]: #addresscountry
 #### [addressCountry]
 Country given in the named address of the PayPal user.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Country given in the named address of the PayPal user.
 [addressName]: #addressname
 #### [addressName]
 Name given to the address provided for the PayPal user.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Name given to the address provided for the PayPal user.
 [addressPostalCode]: #addresspostalcode
 #### [addressPostalCode]
 Postal Code of the address of the PayPal user.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ Postal Code of the address of the PayPal user.
 [addressStateProvence]: #addressstateprovence
 #### [addressStateProvence]
 State or Province in the address of the PayPal user.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ State or Province in the address of the PayPal user.
 [addressStatus]: #addressstatus
 #### [addressStatus]
 PayPal defined status of the address of the PayPal user.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ PayPal defined status of the address of the PayPal user.
 [addressStreet1]: #addressstreet1
 #### [addressStreet1]
 First line of the street address of the PayPal user.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ First line of the street address of the PayPal user.
 [addressStreet2]: #addressstreet2
 #### [addressStreet2]
 Second line of the street address of the PayPal user.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ Second line of the street address of the PayPal user.
 [contactPhone]: #contactphone
 #### [contactPhone]
 Phone number provided for the PayPal user.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -145,7 +157,8 @@ Phone number provided for the PayPal user.
 [createDate]: #createdate
 #### [createDate]
 The date that the transaction was attempted.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -155,7 +168,8 @@ The date that the transaction was attempted.
 [exchangeRate]: #exchangerate
 #### [exchangeRate]
 Exchange rate imposed on the payment amount.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -165,7 +179,8 @@ Exchange rate imposed on the payment amount.
 [feeAmount]: #feeamount
 #### [feeAmount]
 PayPal fee applied to the payment.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -175,7 +190,8 @@ PayPal fee applied to the payment.
 [grossAmount]: #grossamount
 #### [grossAmount]
 The total amount of the payment executed by PayPal, represented in decimal format as US Dollars ($USD).  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -185,7 +201,8 @@ The total amount of the payment executed by PayPal, represented in decimal forma
 [id]: #id
 #### [id]
 The unique identifier for a single PayPal transaction request.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -195,7 +212,8 @@ The unique identifier for a single PayPal transaction request.
 [invoiceId]: #invoiceid
 #### [invoiceId]
 Unique identifier of the invoice to which funds will be applied.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -205,7 +223,8 @@ Unique identifier of the invoice to which funds will be applied.
 [lastPaypalCommand]: #lastpaypalcommand
 #### [lastPaypalCommand]
 The name of the command issued to PayPal with regards to the attempted transaction.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -215,7 +234,8 @@ The name of the command issued to PayPal with regards to the attempted transacti
 [modifyDate]: #modifydate
 #### [modifyDate]
 The date that the transaction was modified.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -225,7 +245,8 @@ The date that the transaction was modified.
 [orderFromIpAddress]: #orderfromipaddress
 #### [orderFromIpAddress]
 The IP address from where the PayPal payment request originated.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -235,7 +256,8 @@ The IP address from where the PayPal payment request originated.
 [orderTotal]: #ordertotal
 #### [orderTotal]
 The amount of the payment submitted through the SoftLayer interface, represented in decimal format as US Dollars ($USD).  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -245,7 +267,8 @@ The amount of the payment submitted through the SoftLayer interface, represented
 [payer]: #payer
 #### [payer]
 The PayPal user account name (email address) associated with the customer account.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -255,7 +278,8 @@ The PayPal user account name (email address) associated with the customer accoun
 [payerBusiness]: #payerbusiness
 #### [payerBusiness]
 The name of the business associated with the PayPal user.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -265,7 +289,8 @@ The name of the business associated with the PayPal user.
 [payerCountry]: #payercountry
 #### [payerCountry]
 Country given in the address of the PayPal user.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -275,7 +300,8 @@ Country given in the address of the PayPal user.
 [payerFirstName]: #payerfirstname
 #### [payerFirstName]
 First name of the PayPal user.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -285,7 +311,8 @@ First name of the PayPal user.
 [payerId]: #payerid
 #### [payerId]
 Unique PayPal user account identifier.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -295,7 +322,8 @@ Unique PayPal user account identifier.
 [payerLastName]: #payerlastname
 #### [payerLastName]
 Last name of the PayPal user.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -305,7 +333,8 @@ Last name of the PayPal user.
 [payerStatus]: #payerstatus
 #### [payerStatus]
 Current PayPal status associated with the user account.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -315,7 +344,8 @@ Current PayPal status associated with the user account.
 [paymentDate]: #paymentdate
 #### [paymentDate]
 Date that the payment was confirmed in PayPal by the user.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -325,7 +355,8 @@ Date that the payment was confirmed in PayPal by the user.
 [paymentStatus]: #paymentstatus
 #### [paymentStatus]
 PayPal defined status of the attempted payment.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -335,7 +366,8 @@ PayPal defined status of the attempted payment.
 [paymentType]: #paymenttype
 #### [paymentType]
 PayPal defined code used to identify the type of payment.  Provided in a PayPal response.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -345,7 +377,8 @@ PayPal defined code used to identify the type of payment.  Provided in a PayPal 
 [pendingReason]: #pendingreason
 #### [pendingReason]
 Reason provided by PayPal for a payment given a pending status.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -355,7 +388,8 @@ Reason provided by PayPal for a payment given a pending status.
 [serializedReply]: #serializedreply
 #### [serializedReply]
 A serialized, delimited string of the reply received from PayPal.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -365,7 +399,8 @@ A serialized, delimited string of the reply received from PayPal.
 [serializedRequest]: #serializedrequest
 #### [serializedRequest]
 A serialized, delimited string of the request submitted to PayPal.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -375,7 +410,8 @@ A serialized, delimited string of the request submitted to PayPal.
 [settleAmount]: #settleamount
 #### [settleAmount]
 PayPal defined fee.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -385,7 +421,8 @@ PayPal defined fee.
 [taxAmount]: #taxamount
 #### [taxAmount]
 Tax applied by PayPal to the payment amount.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -395,7 +432,8 @@ Tax applied by PayPal to the payment amount.
 [token]: #token
 #### [token]
 Value issued by PayPal for referencing the attempted transaction.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -405,7 +443,8 @@ Value issued by PayPal for referencing the attempted transaction.
 [transactionId]: #transactionid
 #### [transactionId]
 Unique transaction ID provided in a PayPal response.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -415,7 +454,8 @@ Unique transaction ID provided in a PayPal response.
 [transactionType]: #transactiontype
 #### [transactionType]
 PayPal defined code used to identify the type of transaction.  Provided in a PayPal response.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -431,7 +471,8 @@ PayPal defined code used to identify the type of transaction.  Provided in a Pay
 [account]: #account
 #### [account]
 The account to which a transaction belongs.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -441,7 +482,8 @@ The account to which a transaction belongs.
 [order]: #order
 #### [order]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order </a>**  
+
 
 
 </div>

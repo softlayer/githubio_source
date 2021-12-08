@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item_Virtual_DedicatedHost](/reference/services/SoftLayer_Billing_Item_Virtual_DedicatedHost)::getParentVirtualGuestBillingItem
 
+
 Retrieve a billing item's parent item. If a billing item has no parent item then this value is null.
 
 

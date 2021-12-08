@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getActiveUsageRatePrices
 
+
 Return the active usage rate prices for the current package. 
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Account_Media_Type data type contains general information relating to the different types of media devices that SoftLayer currently supports, as part of the Data Transfer Request Service. Such devices as USB hard drives and flash drives, as well as optical media such as CD and DVD are currently supported. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Account_Media_Type data type contains general information relating
 [description]: #description
 #### [description]
 The description of the media type.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The description of the media type.
 [id]: #id
 #### [id]
 The unique id of the media type.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The unique id of the media type.
 [keyName]: #keyname
 #### [keyName]
 The unique keyname of the media type.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The unique keyname of the media type.
 [name]: #name
 #### [name]
 The name of the media type.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

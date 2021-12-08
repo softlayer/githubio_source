@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Container_Network_Directory_Listing represents a single entry in a listing of files within a remote directory. API methods that return remote directory listings typically return arrays of SoftLayer_Container_Network_Directory_Listing objects. 
 
 
@@ -50,7 +52,8 @@ SoftLayer_Container_Network_Directory_Listing represents a single entry in a lis
 [fileCount]: #filecount
 #### [fileCount]
 If the file in a directory listing is a directory itself then fileCount is the number of files within the directory.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ If the file in a directory listing is a directory itself then fileCount is the n
 [name]: #name
 #### [name]
 The name of a directory or a file within a directory listing.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -70,7 +74,8 @@ The name of a directory or a file within a directory listing.
 [type]: #type
 #### [type]
 The type of file in a directory listing. If a directory listing entry is a directory itself then type is set to "directory". Otherwise, type is a blank string.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

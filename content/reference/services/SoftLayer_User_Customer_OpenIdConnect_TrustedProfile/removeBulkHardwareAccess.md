@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect_TrustedProfile](/reference/services/SoftLayer_User_Customer_OpenIdConnect_TrustedProfile)::removeBulkHardwareAccess
 
+
 Remove multiple hardware from a portal user's hardware access list.
 
 

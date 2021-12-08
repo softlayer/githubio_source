@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Security_Ssh_Key](/reference/services/SoftLayer_Security_Ssh_Key)::getSoftwarePasswords
 
+
 Retrieve the OS root users that are linked to an SSH key.
 
 

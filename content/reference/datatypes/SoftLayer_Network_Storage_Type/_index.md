@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_Storage_Type contains a description of the associated SoftLayer_Network_Storage object. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Network_Storage_Type contains a description of the associated Soft
 [description]: #description
 #### [description]
 Human readable description for the associated SoftLayer_Network_Storage object.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Human readable description for the associated SoftLayer_Network_Storage object.
 [id]: #id
 #### [id]
 ID which corresponds with storageTypeId on storage objects.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ ID which corresponds with storageTypeId on storage objects.
 [keyName]: #keyname
 #### [keyName]
 Machine readable description code for the associated SoftLayer_Network_Storage object.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ Machine readable description code for the associated SoftLayer_Network_Storage o
 [volumes]: #volumes
 #### [volumes]
 The SoftLayer_Network_Storage object that uses this type.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage[] </a>**  
+
 
 
 </div>
@@ -93,7 +99,8 @@ The SoftLayer_Network_Storage object that uses this type.
 [volumeCount]: #volumecount
 #### [volumeCount]
 A count of the SoftLayer_Network_Storage object that uses this type.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

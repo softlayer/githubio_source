@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::activatePublicPort
 
+
 Activate a server's public network interface.
 
 

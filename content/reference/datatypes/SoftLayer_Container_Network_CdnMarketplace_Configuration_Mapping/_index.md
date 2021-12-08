@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [akamaiCname]: #akamaicname
 #### [akamaiCname]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ classes:
 [bucketName]: #bucketname
 #### [bucketName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ classes:
 [cacheKeyQueryRule]: #cachekeyqueryrule
 #### [cacheKeyQueryRule]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ classes:
 [certificateType]: #certificatetype
 #### [certificateType]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ classes:
 [cname]: #cname
 #### [cname]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ classes:
 [createDate]: #createdate
 #### [createDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ classes:
 [domain]: #domain
 #### [domain]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ classes:
 [dynamicContentAcceleration]: #dynamiccontentacceleration
 #### [dynamicContentAcceleration]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Network_CdnMarketplace_Configuration_Performance_DynamicContentAcceleration'>SoftLayer_Container_Network_CdnMarketplace_Configuration_Performance_DynamicContentAcceleration </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Network_CdnMarketplace_Configuration_Performance_DynamicContentAcceleration'>SoftLayer_Container_Network_CdnMarketplace_Configuration_Performance_DynamicContentAcceleration </a>**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ classes:
 [fileExtension]: #fileextension
 #### [fileExtension]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ classes:
 [header]: #header
 #### [header]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -145,7 +157,8 @@ classes:
 [httpPort]: #httpport
 #### [httpPort]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -155,7 +168,8 @@ classes:
 [httpsChallengeRedirectUrl]: #httpschallengeredirecturl
 #### [httpsChallengeRedirectUrl]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -165,7 +179,8 @@ classes:
 [httpsChallengeResponse]: #httpschallengeresponse
 #### [httpsChallengeResponse]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -175,7 +190,8 @@ classes:
 [httpsChallengeUrl]: #httpschallengeurl
 #### [httpsChallengeUrl]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -185,7 +201,8 @@ classes:
 [httpsPort]: #httpsport
 #### [httpsPort]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -195,7 +212,8 @@ classes:
 [modifyDate]: #modifydate
 #### [modifyDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -205,7 +223,8 @@ classes:
 [originHost]: #originhost
 #### [originHost]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -215,7 +234,8 @@ classes:
 [originType]: #origintype
 #### [originType]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -225,7 +245,8 @@ classes:
 [path]: #path
 #### [path]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -235,7 +256,8 @@ classes:
 [performanceConfiguration]: #performanceconfiguration
 #### [performanceConfiguration]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -245,7 +267,8 @@ classes:
 [protocol]: #protocol
 #### [protocol]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -255,7 +278,8 @@ classes:
 [respectHeaders]: #respectheaders
 #### [respectHeaders]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -265,7 +289,8 @@ classes:
 [serveStale]: #servestale
 #### [serveStale]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -275,7 +300,8 @@ classes:
 [status]: #status
 #### [status]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -285,7 +311,8 @@ classes:
 [uniqueId]: #uniqueid
 #### [uniqueId]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -295,7 +322,8 @@ classes:
 [vendorName]: #vendorname
 #### [vendorName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

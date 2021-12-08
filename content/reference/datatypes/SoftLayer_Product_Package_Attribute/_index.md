@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [value]: #value
 #### [value]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -61,7 +64,8 @@ classes:
 [attributeType]: #attributetype
 #### [attributeType]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Attribute_Type'>SoftLayer_Product_Package_Attribute_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Attribute_Type'>SoftLayer_Product_Package_Attribute_Type </a>**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ classes:
 [package]: #package
 #### [package]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package </a>**  
+
 
 
 </div>

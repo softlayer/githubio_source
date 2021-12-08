@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 SoftLayer's resource group service allows users to access a broad overview of the resource group and its members 
 
 
@@ -42,60 +44,70 @@ SoftLayer's resource group service allows users to access a broad overview of th
 
 #### [editObject](/reference/services/SoftLayer_Resource_Group/editObject)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getAncestorGroups](/reference/services/SoftLayer_Resource_Group/getAncestorGroups)
 Retrieve a resource group's associated group ancestors.
+
 </div>
 
 <div class="method-row">
 
 #### [getAttributes](/reference/services/SoftLayer_Resource_Group/getAttributes)
 Retrieve a resource group's associated attributes.
+
 </div>
 
 <div class="method-row">
 
 #### [getHardwareMembers](/reference/services/SoftLayer_Resource_Group/getHardwareMembers)
 Retrieve a resource group's associated hardware members.
+
 </div>
 
 <div class="method-row">
 
 #### [getMembers](/reference/services/SoftLayer_Resource_Group/getMembers)
 Retrieve a resource group's associated members.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Resource_Group/getObject)
 Retrieve a SoftLayer_Resource_Group record.
+
 </div>
 
 <div class="method-row">
 
 #### [getRootResourceGroup](/reference/services/SoftLayer_Resource_Group/getRootResourceGroup)
 Retrieve a resource group's associated root resource group.
+
 </div>
 
 <div class="method-row">
 
 #### [getSubnetMembers](/reference/services/SoftLayer_Resource_Group/getSubnetMembers)
 Retrieve a resource group's associated subnet members.
+
 </div>
 
 <div class="method-row">
 
 #### [getTemplate](/reference/services/SoftLayer_Resource_Group/getTemplate)
 Retrieve a resource group's associated template.
+
 </div>
 
 <div class="method-row">
 
 #### [getVlanMembers](/reference/services/SoftLayer_Resource_Group/getVlanMembers)
 Retrieve a resource group's associated VLAN members.
+
 </div>
 </div>
 

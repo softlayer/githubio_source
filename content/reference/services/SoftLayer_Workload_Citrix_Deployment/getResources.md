@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Workload_Citrix_Deployment](/reference/services/SoftLayer_Workload_Citrix_Deployment)::getResources
 
+
 Retrieve it contains a collection of items under the CVAD deployment.
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Represents the assignment of a policy to a product. The existence of a record means that the associated product is subject to the terms defined in the document content of the policy. 
 
 
@@ -45,7 +47,8 @@ Represents the assignment of a policy to a product. The existence of a record me
 [id]: #id
 #### [id]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Represents the assignment of a policy to a product. The existence of a record me
 [productId]: #productid
 #### [productId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ Represents the assignment of a policy to a product. The existence of a record me
 [policyName]: #policyname
 #### [policyName]
 The name of the assigned policy.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ The name of the assigned policy.
 [product]: #product
 #### [product]
 The [SoftLayer_Product_Item]({{<ref "reference/datatypes/SoftLayer_Product_Item">}}) for this policy assignment.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>**  
+
 
 
 </div>

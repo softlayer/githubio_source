@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getVirtualGuests
 
+
 Retrieve a hardware server's virtual servers.
 
 

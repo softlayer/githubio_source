@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Container_Search_Result data type represents a result row from an execution of Search service. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Container_Search_Result data type represents a result row from an 
 [matchedTerms]: #matchedterms
 #### [matchedTerms]
 An array of terms that were matched in the resource object.  
-<span class="type-label">Type: </span>**array of strings**
+<span class="type-label">Type: </span>**array of strings**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ An array of terms that were matched in the resource object.
 [relevanceScore]: #relevancescore
 #### [relevanceScore]
 The score ratio of the result for relevance to the search criteria.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The score ratio of the result for relevance to the search criteria.
 [resource]: #resource
 #### [resource]
 A search results resource object that matched search criteria.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Entity'>SoftLayer_Entity </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Entity'>SoftLayer_Entity </a>**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ A search results resource object that matched search criteria.
 [resourceType]: #resourcetype
 #### [resourceType]
 The type of the resource object that matched search criteria.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

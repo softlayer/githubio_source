@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Authentication_Attribute](/reference/services/SoftLayer_Account_Authentication_Attribute)::getType
 
+
 Retrieve the type of attribute assigned to a SoftLayer account authentication.
 
 

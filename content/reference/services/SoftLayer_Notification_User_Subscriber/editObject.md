@@ -15,6 +15,7 @@ aliases:
 ---
 # [SoftLayer_Notification_User_Subscriber](/reference/services/SoftLayer_Notification_User_Subscriber)::editObject
 
+
 Edit a notification subscriber active status
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getOutboundPublicBandwidthUsage
 
+
 Retrieve the total public outbound bandwidth for this hardware for the current billing cycle.
 
 

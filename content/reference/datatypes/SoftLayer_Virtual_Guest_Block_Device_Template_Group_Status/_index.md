@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The virtual block device template group status data type represents the current status of the image template. Depending upon the status, the image template can be used for provisioning or reloading. 
 
 For an operating system reload, the image template will need to have a status of 'Active' or 'Deprecated'. For a provision, the image template will need to have a status of 'Active' 
@@ -49,7 +51,8 @@ For an operating system reload, the image template will need to have a status of
 [description]: #description
 #### [description]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -59,7 +62,8 @@ For an operating system reload, the image template will need to have a status of
 [keyName]: #keyname
 #### [keyName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -69,7 +73,8 @@ For an operating system reload, the image template will need to have a status of
 [name]: #name
 #### [name]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

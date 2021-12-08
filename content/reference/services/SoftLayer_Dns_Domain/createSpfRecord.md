@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Dns_Domain](/reference/services/SoftLayer_Dns_Domain)::createSpfRecord
 
+
 Create an SPF record on a domain.
 
 

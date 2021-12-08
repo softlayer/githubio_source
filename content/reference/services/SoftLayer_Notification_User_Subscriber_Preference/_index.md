@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,11 +44,13 @@ classes:
 
 #### [createObject](/reference/services/SoftLayer_Notification_User_Subscriber_Preference/createObject)
 Create a new notification preference for a subscriber.
+
 </div>
 
 <div class="method-row">
 
 #### [editObjects](/reference/services/SoftLayer_Notification_User_Subscriber_Preference/editObjects)
+
 
 </div>
 
@@ -54,18 +58,21 @@ Create a new notification preference for a subscriber.
 
 #### [getDefaultPreference](/reference/services/SoftLayer_Notification_User_Subscriber_Preference/getDefaultPreference)
 Retrieve details such name, keyname, minimum and maximum values for the preference.
+
 </div>
 
 <div class="method-row">
 
 #### [getNotificationUserSubscriber](/reference/services/SoftLayer_Notification_User_Subscriber_Preference/getNotificationUserSubscriber)
 Retrieve details of the subscriber tied to the preference.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Notification_User_Subscriber_Preference/getObject)
 Retrieve a SoftLayer_Notification_User_Subscriber_Preference record.
+
 </div>
 </div>
 

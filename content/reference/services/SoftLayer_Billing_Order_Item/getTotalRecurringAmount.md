@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Order_Item](/reference/services/SoftLayer_Billing_Order_Item)::getTotalRecurringAmount
 
+
 Retrieve the recurring fee of an ordered item. This amount represents the fees that will be charged on a recurring (usually monthly) basis.
 
 

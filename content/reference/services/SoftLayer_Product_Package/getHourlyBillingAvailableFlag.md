@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getHourlyBillingAvailableFlag
 
+
 Retrieve determines whether the package contains prices that can be ordered hourly.
 
 

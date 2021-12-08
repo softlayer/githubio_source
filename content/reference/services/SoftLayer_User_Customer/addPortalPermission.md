@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::addPortalPermission
 
+
 Add a permission to a portal user's permission set.
 
 

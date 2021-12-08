@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Scale_Asset](/reference/services/SoftLayer_Scale_Asset)::deleteObject
 
+
 Delete this group asset.
 
 

@@ -13,6 +13,8 @@ aliases:
 ---
 # [SoftLayer_Account_Historical_Report](/reference/services/SoftLayer_Account_Historical_Report)::getUrlUptimeDetail
 
+<div class="deprecated"><span class="deprecation-label">Deprecated </span></div>
+
 
 
 

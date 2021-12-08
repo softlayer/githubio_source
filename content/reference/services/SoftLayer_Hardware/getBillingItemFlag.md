@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getBillingItemFlag
 
+
 Retrieve a flag indicating that a billing item exists.
 
 

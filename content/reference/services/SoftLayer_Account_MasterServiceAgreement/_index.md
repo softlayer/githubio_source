@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,18 +44,21 @@ classes:
 
 #### [getAccount](/reference/services/SoftLayer_Account_MasterServiceAgreement/getAccount)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getFile](/reference/services/SoftLayer_Account_MasterServiceAgreement/getFile)
 Get the user's accounts current MSA
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Account_MasterServiceAgreement/getObject)
 Retrieve a SoftLayer_Account_MasterServiceAgreement record.
+
 </div>
 </div>
 

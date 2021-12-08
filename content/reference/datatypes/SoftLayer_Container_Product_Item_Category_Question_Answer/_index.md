@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Container_Product_Item_Category_Question_Answer data type represents an answer to an item category question.  It contains the category, the question being answered, and the answer. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Container_Product_Item_Category_Question_Answer data type represen
 [answer]: #answer
 #### [answer]
 The answer to the question.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The answer to the question.
 [categoryCode]: #categorycode
 #### [categoryCode]
 The product item category code.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The product item category code.
 [categoryId]: #categoryid
 #### [categoryId]
 The product item category id.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The product item category id.
 [questionId]: #questionid
 #### [questionId]
 The product item category question id.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

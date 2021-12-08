@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Dns_Secondary](/reference/services/SoftLayer_Dns_Secondary)::transferNow
 
+
 Initiate a zone transfer for a secondary DNS record.
 
 

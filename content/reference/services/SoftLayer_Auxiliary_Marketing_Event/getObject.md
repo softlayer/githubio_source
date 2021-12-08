@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Auxiliary_Marketing_Event](/reference/services/SoftLayer_Auxiliary_Marketing_Event)::getObject
 
+
 Retrieve a SoftLayer_Auxiliary_Marketing_Event record.
 
 

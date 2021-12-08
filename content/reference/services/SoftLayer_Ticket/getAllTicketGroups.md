@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getAllTicketGroups
 
+
 Retrieve all available ticket groups. 
 
 

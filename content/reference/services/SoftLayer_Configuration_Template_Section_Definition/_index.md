@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 Configuration definition gives you details of the value that you're setting. 
 
 
@@ -42,11 +44,13 @@ Configuration definition gives you details of the value that you're setting.
 
 #### [getAttributes](/reference/services/SoftLayer_Configuration_Template_Section_Definition/getAttributes)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getDefaultValue](/reference/services/SoftLayer_Configuration_Template_Section_Definition/getDefaultValue)
+
 
 </div>
 
@@ -54,11 +58,13 @@ Configuration definition gives you details of the value that you're setting.
 
 #### [getGroup](/reference/services/SoftLayer_Configuration_Template_Section_Definition/getGroup)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getMonitoringDataFlag](/reference/services/SoftLayer_Configuration_Template_Section_Definition/getMonitoringDataFlag)
+
 
 </div>
 
@@ -66,17 +72,20 @@ Configuration definition gives you details of the value that you're setting.
 
 #### [getObject](/reference/services/SoftLayer_Configuration_Template_Section_Definition/getObject)
 Retrieve a SoftLayer_Configuration_Template_Section_Definition record.
+
 </div>
 
 <div class="method-row">
 
 #### [getSection](/reference/services/SoftLayer_Configuration_Template_Section_Definition/getSection)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getValueType](/reference/services/SoftLayer_Configuration_Template_Section_Definition/getValueType)
+
 
 </div>
 </div>

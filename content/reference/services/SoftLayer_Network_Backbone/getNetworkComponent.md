@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Backbone](/reference/services/SoftLayer_Network_Backbone)::getNetworkComponent
 
+
 Retrieve a backbone's primary network component.
 
 

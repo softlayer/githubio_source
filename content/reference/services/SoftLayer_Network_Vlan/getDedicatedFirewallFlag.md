@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getDedicatedFirewallFlag
 
+
 Retrieve a flag indicating that a network vlan is on a Hardware Firewall (Dedicated).
 
 

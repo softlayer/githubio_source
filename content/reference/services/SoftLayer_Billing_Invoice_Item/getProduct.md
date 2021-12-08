@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Invoice_Item](/reference/services/SoftLayer_Billing_Invoice_Item)::getProduct
 
+
 Retrieve the entry in the product catalog that a invoice item is based upon.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Auxiliary_Notification_Emergency](/reference/services/SoftLayer_Auxiliary_Notification_Emergency)::getObject
 
+
 Retrieve a SoftLayer_Auxiliary_Notification_Emergency record.
 
 

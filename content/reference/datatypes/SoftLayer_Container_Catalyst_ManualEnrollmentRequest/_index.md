@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Contains user information used to request a manual Catalyst enrollment. 
 
 
@@ -45,7 +47,8 @@ Contains user information used to request a manual Catalyst enrollment.
 [customerEmail]: #customeremail
 #### [customerEmail]
 Applicant's email address  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Applicant's email address
 [customerName]: #customername
 #### [customerName]
 Applicant's first and last name  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Applicant's first and last name
 [startupName]: #startupname
 #### [startupName]
 Name of applicant's startup company  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Name of applicant's startup company
 [ventureAffiliationFlag]: #ventureaffiliationflag
 #### [ventureAffiliationFlag]
 Flag indicating whether (true) or not (false) and applicant is  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Flag indicating whether (true) or not (false) and applicant is
 [ventureFundName]: #venturefundname
 #### [ventureFundName]
 Name of the venture capital fund, if any, applicant is affiliated with  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

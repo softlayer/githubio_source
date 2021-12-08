@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Allowed_Host_VirtualGuest](/reference/services/SoftLayer_Network_Storage_Allowed_Host_VirtualGuest)::getCredential
 
+
 Retrieve the SoftLayer_Network_Storage_Credential this allowed host uses.
 
 

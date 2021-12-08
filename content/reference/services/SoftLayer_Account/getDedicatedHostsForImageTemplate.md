@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getDedicatedHostsForImageTemplate
 
+
 Get a collection of dedicated hosts that are valid for a given image template. 
 
 

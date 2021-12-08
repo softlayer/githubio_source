@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Metric_Tracking_Object](/reference/services/SoftLayer_Metric_Tracking_Object)::getSummaryData
 
+
 Returns the metric data for the date range provided
 
 

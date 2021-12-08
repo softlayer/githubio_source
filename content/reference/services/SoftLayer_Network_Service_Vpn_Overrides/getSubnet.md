@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Service_Vpn_Overrides](/reference/services/SoftLayer_Network_Service_Vpn_Overrides)::getSubnet
 
+
 Retrieve subnet components accessible by a SoftLayer VPN portal user.
 
 

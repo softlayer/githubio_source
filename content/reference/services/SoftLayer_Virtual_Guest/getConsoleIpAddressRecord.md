@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getConsoleIpAddressRecord
 
+
 Retrieve a record containing information about a computing instance's console IP and port number.
 
 

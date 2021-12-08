@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Ticket_Update_Employee](/reference/services/SoftLayer_Ticket_Update_Employee)::getObject
 
+
 Retrieve a SoftLayer_Ticket_Update_Employee record.
 
 

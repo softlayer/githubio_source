@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getBluemixAccountLink
 
+
 Retrieve the Bluemix account link associated with this SoftLayer account, if one exists.
 
 

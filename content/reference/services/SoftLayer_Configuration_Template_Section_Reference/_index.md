@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 Configuration section reference allow you to reuse a configuration section from another configuration template. 
 
 
@@ -42,17 +44,20 @@ Configuration section reference allow you to reuse a configuration section from 
 
 #### [getObject](/reference/services/SoftLayer_Configuration_Template_Section_Reference/getObject)
 Retrieve a SoftLayer_Configuration_Template_Section_Reference record.
+
 </div>
 
 <div class="method-row">
 
 #### [getSection](/reference/services/SoftLayer_Configuration_Template_Section_Reference/getSection)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getTemplate](/reference/services/SoftLayer_Configuration_Template_Section_Reference/getTemplate)
+
 
 </div>
 </div>

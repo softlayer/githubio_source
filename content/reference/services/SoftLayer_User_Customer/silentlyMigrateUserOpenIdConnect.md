@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::silentlyMigrateUserOpenIdConnect
 
+
 This api is used to migrate a user to IBMid without sending an invitation.
 
 

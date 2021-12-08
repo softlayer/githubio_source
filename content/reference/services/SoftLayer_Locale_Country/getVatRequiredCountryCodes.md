@@ -16,6 +16,7 @@ aliases:
 
 
 
+
 ## Overview 
 This method will return an array of ISO 3166 Alpha-2 country codes that use a Value-Added Tax (VAT) ID. Note the difference between [SoftLayer_Locale_Country::getVatCountries]({{<ref "reference/services/SoftLayer_Locale_Country/getVatCountries">}}) - this method will provide country codes where a VAT ID is required for onboarding to IBM Cloud. 
 

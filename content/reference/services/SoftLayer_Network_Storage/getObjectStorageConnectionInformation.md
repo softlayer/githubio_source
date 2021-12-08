@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getObjectStorageConnectionInformation
 
+
 Retrieve all object storage details for connection
 
 

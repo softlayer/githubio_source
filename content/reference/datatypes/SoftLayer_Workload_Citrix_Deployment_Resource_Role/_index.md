@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Workload_Citrix_Deployment_Resource_Role contains the role and its description of any resource of Citrix Virtual Apps & Desktops deployment. 
 
 
@@ -45,7 +47,8 @@ SoftLayer_Workload_Citrix_Deployment_Resource_Role contains the role and its des
 [description]: #description
 #### [description]
 Description of the resource role  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Description of the resource role
 [id]: #id
 #### [id]
 ID of the role  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ ID of the role
 [keyName]: #keyname
 #### [keyName]
 Unique keyName of the role  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Unique keyName of the role
 [name]: #name
 #### [name]
 Name of the role  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

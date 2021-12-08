@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This container is used to hold country locale information. 
 
 
@@ -45,7 +47,8 @@ This container is used to hold country locale information.
 [longName]: #longname
 #### [longName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ This container is used to hold country locale information.
 [shortName]: #shortname
 #### [shortName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ This container is used to hold country locale information.
 [stateCodes]: #statecodes
 #### [stateCodes]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Collection_Locale_StateCode'>SoftLayer_Container_Collection_Locale_StateCode[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Collection_Locale_StateCode'>SoftLayer_Container_Collection_Locale_StateCode[] </a>**  
+
 
 
 </div>

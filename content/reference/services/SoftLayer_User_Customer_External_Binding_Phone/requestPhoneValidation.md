@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_External_Binding_Phone](/reference/services/SoftLayer_User_Customer_External_Binding_Phone)::requestPhoneValidation
 
+
 Initiates a phone validation requests and returns a unique token
 
 

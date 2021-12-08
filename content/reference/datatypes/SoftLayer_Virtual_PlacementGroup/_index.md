@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This data type presents the structure for a virtual guest placement group. The data type contains relational properties to the virtual guest placement group rule class. 
 
 
@@ -45,7 +47,8 @@ This data type presents the structure for a virtual guest placement group. The d
 [accountId]: #accountid
 #### [accountId]
 The unique ID of the account that created the placement group.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The unique ID of the account that created the placement group.
 [backendRouterId]: #backendrouterid
 #### [backendRouterId]
 The placement group's backend router's associated unique ID.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The placement group's backend router's associated unique ID.
 [createDate]: #createdate
 #### [createDate]
 The placement group's date of creation.   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The placement group's date of creation.
 [id]: #id
 #### [id]
 The placement group's associated unique ID.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The placement group's associated unique ID.
 [modifyDate]: #modifydate
 #### [modifyDate]
 The placement group's date of most recent modification.   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The placement group's date of most recent modification.
 [name]: #name
 #### [name]
 The placement group's name.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The placement group's name.
 [ruleId]: #ruleid
 #### [ruleId]
 The associated unique ID of the placement group's rule.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ The associated unique ID of the placement group's rule.
 [account]: #account
 #### [account]
 The account that the placement group is implemented on.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ The account that the placement group is implemented on.
 [backendRouter]: #backendrouter
 #### [backendRouter]
 The router the placement group is implemented on.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Router_Backend'>SoftLayer_Hardware_Router_Backend </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Router_Backend'>SoftLayer_Hardware_Router_Backend </a>**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ The router the placement group is implemented on.
 [guests]: #guests
 #### [guests]
 The virtual guests that are members of the placement group.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ The virtual guests that are members of the placement group.
 [rule]: #rule
 #### [rule]
 The placement rule that the placement group is implementing.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_PlacementGroup_Rule'>SoftLayer_Virtual_PlacementGroup_Rule </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_PlacementGroup_Rule'>SoftLayer_Virtual_PlacementGroup_Rule </a>**  
+
 
 
 </div>
@@ -163,7 +176,8 @@ The placement rule that the placement group is implementing.
 [guestCount]: #guestcount
 #### [guestCount]
 A count of the virtual guests that are members of the placement group.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

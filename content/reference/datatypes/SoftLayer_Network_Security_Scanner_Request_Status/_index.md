@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_Security_Scanner_Request_Status data type represents the current status of a vulnerability scan. The status messages are as follows: 
 *Scan Pending
 *Scan Processing
@@ -63,7 +65,8 @@ The status of a vulnerability scan will change over the course of a scan's execu
 [id]: #id
 #### [id]
 The identifier of a vulnerability scan's status.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -73,7 +76,8 @@ The identifier of a vulnerability scan's status.
 [name]: #name
 #### [name]
 The status message of a vulnerability scan.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

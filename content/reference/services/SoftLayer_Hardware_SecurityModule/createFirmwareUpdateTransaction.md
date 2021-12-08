@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::createFirmwareUpdateTransaction
 
+
 Runs firmware updates on the servers components.
 
 

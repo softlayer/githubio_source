@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Business_Partner](/reference/services/SoftLayer_Account_Business_Partner)::getObject
 
+
 Retrieve a SoftLayer_Account_Business_Partner record.
 
 

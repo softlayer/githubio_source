@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The item rule data type represents a rule that must be followed when the item assigned to the rule is ordered. The type and operation applied to the resources of the rule will affect how the rule is checked during ordering. 
 
 
@@ -45,7 +47,8 @@ The item rule data type represents a rule that must be followed when the item as
 [itemId]: #itemid
 #### [itemId]
 The unique identifier of the item that the rule applies to.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The unique identifier of the item that the rule applies to.
 [message]: #message
 #### [message]
 An optional message shown for when the rule is found to be invalid when ordering.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ An optional message shown for when the rule is found to be invalid when ordering
 [operation]: #operation
 #### [operation]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ An optional message shown for when the rule is found to be invalid when ordering
 [packageId]: #packageid
 #### [packageId]
 The unique identifier of the service offering that is associated with the rule.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The unique identifier of the service offering that is associated with the rule.
 [typeId]: #typeid
 #### [typeId]
 The unique identifier of the type of resource rule.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ The unique identifier of the type of resource rule.
 [item]: #item
 #### [item]
 The product item that a rule applies to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ The product item that a rule applies to.
 [itemCategoryResources]: #itemcategoryresources
 #### [itemCategoryResources]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Rule_Resource'>SoftLayer_Product_Item_Rule_Resource[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Rule_Resource'>SoftLayer_Product_Item_Rule_Resource[] </a>**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ The product item that a rule applies to.
 [itemResources]: #itemresources
 #### [itemResources]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Rule_Resource'>SoftLayer_Product_Item_Rule_Resource[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Rule_Resource'>SoftLayer_Product_Item_Rule_Resource[] </a>**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ The product item that a rule applies to.
 [locationResources]: #locationresources
 #### [locationResources]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Rule_Resource'>SoftLayer_Product_Item_Rule_Resource[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Rule_Resource'>SoftLayer_Product_Item_Rule_Resource[] </a>**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ The product item that a rule applies to.
 [package]: #package
 #### [package]
 The package that a rule is applicable to when ordering. If no package exists, the rule applies to any package.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package </a>**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ The package that a rule is applicable to when ordering. If no package exists, th
 [permissionResources]: #permissionresources
 #### [permissionResources]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Rule_Resource'>SoftLayer_Product_Item_Rule_Resource[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Rule_Resource'>SoftLayer_Product_Item_Rule_Resource[] </a>**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ The package that a rule is applicable to when ordering. If no package exists, th
 [resources]: #resources
 #### [resources]
 Resources for this rule that are validated when ordering.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Rule_Resource'>SoftLayer_Product_Item_Rule_Resource[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Rule_Resource'>SoftLayer_Product_Item_Rule_Resource[] </a>**  
+
 
 
 </div>
@@ -171,7 +185,8 @@ Resources for this rule that are validated when ordering.
 [type]: #type
 #### [type]
 The type a rule is. The type affects how the rule is validated when ordering.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Rule_Type'>SoftLayer_Product_Item_Rule_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Rule_Type'>SoftLayer_Product_Item_Rule_Type </a>**  
+
 
 
 </div>
@@ -183,7 +198,8 @@ The type a rule is. The type affects how the rule is validated when ordering.
 [itemCategoryResourceCount]: #itemcategoryresourcecount
 #### [itemCategoryResourceCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -193,7 +209,8 @@ A count of
 [itemResourceCount]: #itemresourcecount
 #### [itemResourceCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -203,7 +220,8 @@ A count of
 [locationResourceCount]: #locationresourcecount
 #### [locationResourceCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -213,7 +231,8 @@ A count of
 [permissionResourceCount]: #permissionresourcecount
 #### [permissionResourceCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -223,7 +242,8 @@ A count of
 [resourceCount]: #resourcecount
 #### [resourceCount]
 A count of resources for this rule that are validated when ordering.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

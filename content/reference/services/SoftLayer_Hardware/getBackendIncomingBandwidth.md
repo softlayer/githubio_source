@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getBackendIncomingBandwidth
 
+
 Retrieve the amount of incoming private network bandwidth used by a server over a period of time. 
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Component_Locator](/reference/services/SoftLayer_Hardware_Component_Locator)::getGenericComponentModelAvailability
 
+
 An API to retrieve Generic Components Model availability at data centers
 
 

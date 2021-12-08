@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest_Network_Component](/reference/services/SoftLayer_Virtual_Guest_Network_Component)::getNetworkVlan
 
+
 Retrieve the VLAN that a computing instance network component's subnet is associated with.
 
 

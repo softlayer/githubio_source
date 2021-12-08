@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [keyName]: #keyname
 #### [keyName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -61,7 +64,8 @@ classes:
 [approverTypes]: #approvertypes
 #### [approverTypes]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_ProofOfConcept_Approver_Type'>SoftLayer_Account_ProofOfConcept_Approver_Type[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_ProofOfConcept_Approver_Type'>SoftLayer_Account_ProofOfConcept_Approver_Type[] </a>**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ classes:
 [approvers]: #approvers
 #### [approvers]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_ProofOfConcept_Approver'>SoftLayer_Account_ProofOfConcept_Approver[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_ProofOfConcept_Approver'>SoftLayer_Account_ProofOfConcept_Approver[] </a>**  
+
 
 
 </div>
@@ -83,7 +88,8 @@ classes:
 [approverCount]: #approvercount
 #### [approverCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -93,7 +99,8 @@ A count of
 [approverTypeCount]: #approvertypecount
 #### [approverTypeCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

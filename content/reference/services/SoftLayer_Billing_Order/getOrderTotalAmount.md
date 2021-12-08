@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Order](/reference/services/SoftLayer_Billing_Order)::getOrderTotalAmount
 
+
 Retrieve this amount represents the order's initial charge including set up fee and taxes.
 
 

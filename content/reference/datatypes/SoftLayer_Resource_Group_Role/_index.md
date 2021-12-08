@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [description]: #description
 #### [description]
 A resource group role's description.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ A resource group role's description.
 [id]: #id
 #### [id]
 A resource group role's ID.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A resource group role's ID.
 [keyName]: #keyname
 #### [keyName]
 A resource group role's keyname.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ A resource group role's keyname.
 [memberLinks]: #memberlinks
 #### [memberLinks]
 A resource group's role.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member_Role_Link'>SoftLayer_Resource_Group_Member_Role_Link[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member_Role_Link'>SoftLayer_Resource_Group_Member_Role_Link[] </a>**  
+
 
 
 </div>
@@ -93,7 +99,8 @@ A resource group's role.
 [memberLinkCount]: #memberlinkcount
 #### [memberLinkCount]
 A count of a resource group's role.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

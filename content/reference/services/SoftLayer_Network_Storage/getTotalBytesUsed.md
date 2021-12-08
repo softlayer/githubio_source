@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getTotalBytesUsed
 
+
 Retrieve the amount of space used by the volume.
 
 

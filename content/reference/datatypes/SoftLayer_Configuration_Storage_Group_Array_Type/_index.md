@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Supported hardware raid modes 
 
 
@@ -45,7 +47,8 @@ Supported hardware raid modes
 [description]: #description
 #### [description]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Supported hardware raid modes
 [driveMultiplier]: #drivemultiplier
 #### [driveMultiplier]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Supported hardware raid modes
 [hotspareAllow]: #hotspareallow
 #### [hotspareAllow]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Supported hardware raid modes
 [id]: #id
 #### [id]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Supported hardware raid modes
 [keyName]: #keyname
 #### [keyName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ Supported hardware raid modes
 [maximumDrives]: #maximumdrives
 #### [maximumDrives]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ Supported hardware raid modes
 [minimumDrives]: #minimumdrives
 #### [minimumDrives]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ Supported hardware raid modes
 [name]: #name
 #### [name]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ Supported hardware raid modes
 [hardwareComponentModels]: #hardwarecomponentmodels
 #### [hardwareComponentModels]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model'>SoftLayer_Hardware_Component_Model[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model'>SoftLayer_Hardware_Component_Model[] </a>**  
+
 
 
 </div>
@@ -143,7 +154,8 @@ Supported hardware raid modes
 [hardwareComponentModelCount]: #hardwarecomponentmodelcount
 #### [hardwareComponentModelCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

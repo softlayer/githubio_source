@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Container_Product_Item_Discount_Program data type represents the information about a discount that is related to a specific product item. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Container_Product_Item_Discount_Program data type represents the i
 [applicableQuantity]: #applicablequantity
 #### [applicableQuantity]
 The number of times the item discount(s) may be applied for that order container.  At a minimum the number will be 1 and at most, it will match the quantity of the order container.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The number of times the item discount(s) may be applied for that order container
 [item]: #item
 #### [item]
 The product item that the discount applies to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The product item that the discount applies to.
 [oneTimeAmount]: #onetimeamount
 #### [oneTimeAmount]
 The sum of the one time fees (one time, setup and labor) of the prices of this container multiplied by the applicable quantity of this container.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The sum of the one time fees (one time, setup and labor) of the prices of this c
 [oneTimeTax]: #onetimetax
 #### [oneTimeTax]
 The tax amount on the one time fees (one time, setup and labor) of the prices of this container mulitiplied by the applicable quantity of this container.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The tax amount on the one time fees (one time, setup and labor) of the prices of
 [prices]: #prices
 #### [prices]
 The item prices that contain the amount of the discount in the recurringFee field.  There may be one or more prices.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a>**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The item prices that contain the amount of the discount in the recurringFee fiel
 [proratedOneTimeAmount]: #proratedonetimeamount
 #### [proratedOneTimeAmount]
 The sum of the one time fees (one time, setup and labor) of the prices of this container multiplied by the applicable quantity of this container with the proration factor applied.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The sum of the one time fees (one time, setup and labor) of the prices of this c
 [proratedOneTimeTax]: #proratedonetimetax
 #### [proratedOneTimeTax]
 The tax amount on the one time fees (one time, setup and labor) of the prices of this container mulitiplied by the applicable quantity of this container with the proration factor applied.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ The tax amount on the one time fees (one time, setup and labor) of the prices of
 [proratedRecurringAmount]: #proratedrecurringamount
 #### [proratedRecurringAmount]
 The sum of the recurring fees of the prices of this container multiplied by the applicable quantity of this container with the proration factor applied.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ The sum of the recurring fees of the prices of this container multiplied by the 
 [proratedRecurringTax]: #proratedrecurringtax
 #### [proratedRecurringTax]
 The tax amount on the recurring fees of the prices of this container mulitiplied by the applicable quantity of this container with the proration factor applied.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ The tax amount on the recurring fees of the prices of this container mulitiplied
 [recurringAmount]: #recurringamount
 #### [recurringAmount]
 The sum of the recurring fees of the prices of this container multiplied by the applicable quantity of this container.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -145,7 +157,8 @@ The sum of the recurring fees of the prices of this container multiplied by the 
 [recurringTax]: #recurringtax
 #### [recurringTax]
 The tax amount on the recurring fees of the prices of this container mulitiplied by the applicable quantity of this container.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>

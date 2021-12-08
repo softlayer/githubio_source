@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Password](/reference/services/SoftLayer_Account_Password)::getType
 
+
 Retrieve the service that an account/password combination is tied to.
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Container_Product_Item_Category_ZeroFee_Count data type represents a count of zero fee billing/invoice items. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Container_Product_Item_Category_ZeroFee_Count data type represents
 [categoryCode]: #categorycode
 #### [categoryCode]
 The product item category code.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The product item category code.
 [categoryId]: #categoryid
 #### [categoryId]
 The product item category id.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The product item category id.
 [categoryName]: #categoryname
 #### [categoryName]
 The product item category name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The product item category name.
 [count]: #count
 #### [count]
 The count of zero fee items for this category.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

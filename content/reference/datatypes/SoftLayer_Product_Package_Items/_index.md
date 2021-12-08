@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This data type is a cross-reference between the SoftLayer_Product_Package and the SoftLayer_Product_Item(s) that belong in the SoftLayer_Product_Package. 
 
 
@@ -45,7 +47,8 @@ This data type is a cross-reference between the SoftLayer_Product_Package and th
 [id]: #id
 #### [id]
 The unique identifier for this object. It is not used anywhere but in this object.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The unique identifier for this object. It is not used anywhere but in this objec
 [itemId]: #itemid
 #### [itemId]
 The SoftLayer_Product_Item id to which this instance of the object belongs.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The SoftLayer_Product_Item id to which this instance of the object belongs.
 [packageId]: #packageid
 #### [packageId]
 The SoftLayer_Product_Package id to which this instance of the object belongs.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ The SoftLayer_Product_Package id to which this instance of the object belongs.
 [item]: #item
 #### [item]
 The item to which this object belongs.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ The item to which this object belongs.
 [package]: #package
 #### [package]
 The package to which this object belongs.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package </a>**  
+
 
 
 </div>

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Contains business partner details associated with an account. Country Enterprise Identifier (CEID), Channel ID, Segment ID and Reseller Level. 
 
 
@@ -45,7 +47,8 @@ Contains business partner details associated with an account. Country Enterprise
 [channelId]: #channelid
 #### [channelId]
 Account business partner channel identifier   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Account business partner channel identifier
 [countryEnterpriseCode]: #countryenterprisecode
 #### [countryEnterpriseCode]
 Account business partner country enterprise code   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Account business partner country enterprise code
 [resellerLevel]: #resellerlevel
 #### [resellerLevel]
 Reseller level of an account business partner   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Reseller level of an account business partner
 [segmentId]: #segmentid
 #### [segmentId]
 Account business partner segment identifier   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ Account business partner segment identifier
 [account]: #account
 #### [account]
 Account associated with the business partner data  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ Account associated with the business partner data
 [channel]: #channel
 #### [channel]
 Channel indicator used to categorize business partner revenue.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Business_Partner_Channel'>SoftLayer_Business_Partner_Channel </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Business_Partner_Channel'>SoftLayer_Business_Partner_Channel </a>**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ Channel indicator used to categorize business partner revenue.
 [segment]: #segment
 #### [segment]
 Segment indicator used to categorize business partner revenue.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Business_Partner_Segment'>SoftLayer_Business_Partner_Segment </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Business_Partner_Segment'>SoftLayer_Business_Partner_Segment </a>**  
+
 
 
 </div>

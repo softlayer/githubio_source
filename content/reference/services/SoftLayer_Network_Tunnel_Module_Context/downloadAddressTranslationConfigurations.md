@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Tunnel_Module_Context](/reference/services/SoftLayer_Network_Tunnel_Module_Context)::downloadAddressTranslationConfigurations
 
+
 Returns IPSec VPN tunnel address translation configurations in a text file.
 
 

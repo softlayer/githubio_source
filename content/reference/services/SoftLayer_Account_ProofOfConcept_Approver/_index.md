@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 This class represents a Proof of Concept account approver. 
 
 
@@ -42,23 +44,27 @@ This class represents a Proof of Concept account approver.
 
 #### [getAllObjects](/reference/services/SoftLayer_Account_ProofOfConcept_Approver/getAllObjects)
 Retrieves a list of reviewers
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Account_ProofOfConcept_Approver/getObject)
 Retrieve a SoftLayer_Account_ProofOfConcept_Approver record.
+
 </div>
 
 <div class="method-row">
 
 #### [getRole](/reference/services/SoftLayer_Account_ProofOfConcept_Approver/getRole)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getType](/reference/services/SoftLayer_Account_ProofOfConcept_Approver/getType)
+
 
 </div>
 </div>

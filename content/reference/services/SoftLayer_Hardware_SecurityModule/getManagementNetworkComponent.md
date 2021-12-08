@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getManagementNetworkComponent
 
+
 Retrieve a server's management network component.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::removeBulkDedicatedHostAccess
 
+
 Revoke access for the user for one or more dedicated hosts devices.
 
 

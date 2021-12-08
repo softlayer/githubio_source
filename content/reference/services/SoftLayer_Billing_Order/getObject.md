@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Order](/reference/services/SoftLayer_Billing_Order)::getObject
 
+
 Retrieve a SoftLayer_Billing_Order record.
 
 

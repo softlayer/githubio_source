@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getStatisticsRemoteManagement
 
+
 Retrieve a server's remote management card used for statistics.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getCpuMetricImageByDate
 
+
 Retrieve a visual representation of the percentage of the amount of time that a cpu was in use for the specified time frame for a computing instance. 
 
 

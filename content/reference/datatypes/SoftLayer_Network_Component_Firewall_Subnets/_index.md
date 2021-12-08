@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 A SoftLayer_Network_Component_Firewall_Subnets object type represents the current linked subnets and contains relative information. Use the [[SoftLayer Network Firewall Update Request]] service to submit a firewall update request. Use the [[SoftLayer Network Firewall Template]] service to pull SoftLayer recommended rule set templates. 
 
 ### External Links
@@ -51,7 +53,8 @@ A SoftLayer_Network_Component_Firewall_Subnets object type represents the curren
 [applyServerRulesFlag]: #applyserverrulesflag
 #### [applyServerRulesFlag]
 A boolean flag that indicates whether the subnet should receive all the rules intended for the host on this context slot.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -61,7 +64,8 @@ A boolean flag that indicates whether the subnet should receive all the rules in
 [subnetId]: #subnetid
 #### [subnetId]
 The unique identifier of the subnet being linked to the network component firewall.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -77,7 +81,8 @@ The unique identifier of the subnet being linked to the network component firewa
 [networkComponentFirewall]: #networkcomponentfirewall
 #### [networkComponentFirewall]
 The network component firewall that write rules for this subnet.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component_Firewall'>SoftLayer_Network_Component_Firewall </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component_Firewall'>SoftLayer_Network_Component_Firewall </a>**  
+
 
 
 </div>
@@ -87,7 +92,8 @@ The network component firewall that write rules for this subnet.
 [subnet]: #subnet
 #### [subnet]
 The subnet that this link binds to the network component firewall.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>**  
+
 
 
 </div>

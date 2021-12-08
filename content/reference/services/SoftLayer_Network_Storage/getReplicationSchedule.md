@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getReplicationSchedule
 
+
 Retrieve the Replication Schedule associated with a network storage volume.
 
 

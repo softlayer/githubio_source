@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This data type presents the structure of a virtual guest placement group rule. 
 
 
@@ -45,7 +47,8 @@ This data type presents the structure of a virtual guest placement group rule.
 [id]: #id
 #### [id]
 The placement group rule's associated unique ID.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The placement group rule's associated unique ID.
 [keyName]: #keyname
 #### [keyName]
 The placement group rule's key name.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The placement group rule's key name.
 [name]: #name
 #### [name]
 The placement group rule's name.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

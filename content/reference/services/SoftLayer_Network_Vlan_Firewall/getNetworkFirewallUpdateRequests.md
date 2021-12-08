@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Vlan_Firewall](/reference/services/SoftLayer_Network_Vlan_Firewall)::getNetworkFirewallUpdateRequests
 
+
 Retrieve the update requests made for this firewall.
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 This service manages purges associated with a CDN mapping Configuration. 
 
 
@@ -42,30 +44,35 @@ This service manages purges associated with a CDN mapping Configuration.
 
 #### [createPurge](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Cache_Purge/createPurge)
 This method creates a purge record in the purge table, and also initiates the create purge call. 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Cache_Purge/getObject)
 Retrieve a SoftLayer_Network_CdnMarketplace_Configuration_Cache_Purge record.
+
 </div>
 
 <div class="method-row">
 
 #### [getPurgeHistoryPerMapping](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Cache_Purge/getPurgeHistoryPerMapping)
 This method returns the purge history for a given domain and CDN account. 
+
 </div>
 
 <div class="method-row">
 
 #### [getPurgeStatus](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Cache_Purge/getPurgeStatus)
 This method gets the status of a given purge path. 
+
 </div>
 
 <div class="method-row">
 
 #### [saveOrUnsavePurgePath](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Cache_Purge/saveOrUnsavePurgePath)
 Creates a new saved purge if a purge path is saved. Deletes a saved purge record if the path is unsaved. 
+
 </div>
 </div>
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 This service specifies a specific type of Software Component:  A Host Intrusion Protection System instance. 
 
 
@@ -42,65 +44,76 @@ This service specifies a specific type of Software Component:  A Host Intrusion 
 
 #### [getAverageInstallationDuration](/reference/services/SoftLayer_Software_Component_HostIps/getAverageInstallationDuration)
 Retrieve the average amount of time that a software component takes to install.
+
 </div>
 
 <div class="method-row">
 
 #### [getBillingItem](/reference/services/SoftLayer_Software_Component_HostIps/getBillingItem)
 Retrieve the billing item for a software component.
+
 </div>
 
 <div class="method-row">
 
 #### [getCurrentHostIpsPolicies](/reference/services/SoftLayer_Software_Component_HostIps/getCurrentHostIpsPolicies)
 Get the current Host IPS policies.
+
 </div>
 
 <div class="method-row">
 
 #### [getHardware](/reference/services/SoftLayer_Software_Component_HostIps/getHardware)
 Retrieve the hardware this Software Component is installed upon.
+
 </div>
 
 <div class="method-row">
 
 #### [getLicenseFile](/reference/services/SoftLayer_Software_Component_HostIps/getLicenseFile)
 Get the license file for a software component if it is supported.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Software_Component_HostIps/getObject)
 Retrieve a SoftLayer_Software_Component_HostIps record.
+
 </div>
 
 <div class="method-row">
 
 #### [getPasswordHistory](/reference/services/SoftLayer_Software_Component_HostIps/getPasswordHistory)
 Retrieve history Records for Software Passwords.
+
 </div>
 
 <div class="method-row">
 
 #### [getPasswords](/reference/services/SoftLayer_Software_Component_HostIps/getPasswords)
 Retrieve username/Password pairs used for access to this Software Installation.
+
 </div>
 
 <div class="method-row">
 
 #### [getSoftwareDescription](/reference/services/SoftLayer_Software_Component_HostIps/getSoftwareDescription)
 Retrieve the Software Description of this Software Component.
+
 </div>
 
 <div class="method-row">
 
 #### [getSoftwareLicense](/reference/services/SoftLayer_Software_Component_HostIps/getSoftwareLicense)
 Retrieve the License this Software Component uses.
+
 </div>
 
 <div class="method-row">
 
 #### [getVendorSetUpConfiguration](/reference/services/SoftLayer_Software_Component_HostIps/getVendorSetUpConfiguration)
+
 
 </div>
 
@@ -108,12 +121,14 @@ Retrieve the License this Software Component uses.
 
 #### [getVirtualGuest](/reference/services/SoftLayer_Software_Component_HostIps/getVirtualGuest)
 Retrieve the virtual guest this software component is installed upon.
+
 </div>
 
 <div class="method-row">
 
 #### [updateHipsPolicies](/reference/services/SoftLayer_Software_Component_HostIps/updateHipsPolicies)
 Update the Host IPS policies.
+
 </div>
 </div>
 

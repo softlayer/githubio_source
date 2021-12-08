@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Order](/reference/services/SoftLayer_Billing_Order)::getOrderType
 
+
 Retrieve the type of an order. This lets you know where this order was generated from.
 
 

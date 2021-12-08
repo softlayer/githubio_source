@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getActiveExternalAuthenticationVendors
 
+
 Get a list of active external authentication vendors for a SoftLayer user.
 
 

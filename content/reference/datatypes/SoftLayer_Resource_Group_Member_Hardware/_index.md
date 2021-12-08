@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [createDate]: #createdate
 #### [createDate]
 A resource group member's creation date.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ A resource group member's creation date.
 [id]: #id
 #### [id]
 A resource group member's ID.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A resource group member's ID.
 [status]: #status
 #### [status]
 A resource group member's status.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ A resource group member's status.
 [attributes]: #attributes
 #### [attributes]
 A resource group member's associated attributes.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member_Attribute'>SoftLayer_Resource_Group_Member_Attribute[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member_Attribute'>SoftLayer_Resource_Group_Member_Attribute[] </a>**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ A resource group member's associated attributes.
 [descendantMembers]: #descendantmembers
 #### [descendantMembers]
 A resource group member's associated member descendants.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member'>SoftLayer_Resource_Group_Member[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member'>SoftLayer_Resource_Group_Member[] </a>**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ A resource group member's associated member descendants.
 [group]: #group
 #### [group]
 A resource group member's resource group.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group'>SoftLayer_Resource_Group </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group'>SoftLayer_Resource_Group </a>**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ A resource group member's resource group.
 [resource]: #resource
 #### [resource]
 A resource group member's associated hardware.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ A resource group member's associated hardware.
 [roles]: #roles
 #### [roles]
 A resource group member's associated roles.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Role'>SoftLayer_Resource_Group_Role[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Role'>SoftLayer_Resource_Group_Role[] </a>**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ A resource group member's associated roles.
 [serverArbiterOnly]: #serverarbiteronly
 #### [serverArbiterOnly]
 A resource group hardware member's associated server arbiter-only state.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member_Attribute'>SoftLayer_Resource_Group_Member_Attribute </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member_Attribute'>SoftLayer_Resource_Group_Member_Attribute </a>**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ A resource group hardware member's associated server arbiter-only state.
 [serverHidden]: #serverhidden
 #### [serverHidden]
 A resource group hardware member's associated server hidden state.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member_Attribute'>SoftLayer_Resource_Group_Member_Attribute </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member_Attribute'>SoftLayer_Resource_Group_Member_Attribute </a>**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ A resource group hardware member's associated server hidden state.
 [serverPriority]: #serverpriority
 #### [serverPriority]
 A resource group hardware member's associated server priority.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member_Attribute'>SoftLayer_Resource_Group_Member_Attribute </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member_Attribute'>SoftLayer_Resource_Group_Member_Attribute </a>**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ A resource group hardware member's associated server priority.
 [serverSlaveDelay]: #serverslavedelay
 #### [serverSlaveDelay]
 A resource group hardware member's associated server slave delay (in seconds).  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member_Attribute'>SoftLayer_Resource_Group_Member_Attribute </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member_Attribute'>SoftLayer_Resource_Group_Member_Attribute </a>**  
+
 
 
 </div>
@@ -171,7 +185,8 @@ A resource group hardware member's associated server slave delay (in seconds).
 [serverTags]: #servertags
 #### [serverTags]
 A resource group hardware member's associated server tags (in JSON format).  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member_Attribute'>SoftLayer_Resource_Group_Member_Attribute </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member_Attribute'>SoftLayer_Resource_Group_Member_Attribute </a>**  
+
 
 
 </div>
@@ -181,7 +196,8 @@ A resource group hardware member's associated server tags (in JSON format).
 [serverVotes]: #servervotes
 #### [serverVotes]
 A resource group hardware member's associated server vote count.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member_Attribute'>SoftLayer_Resource_Group_Member_Attribute </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member_Attribute'>SoftLayer_Resource_Group_Member_Attribute </a>**  
+
 
 
 </div>
@@ -191,7 +207,8 @@ A resource group hardware member's associated server vote count.
 [type]: #type
 #### [type]
 A resource group member's type.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member_Type'>SoftLayer_Resource_Group_Member_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Resource_Group_Member_Type'>SoftLayer_Resource_Group_Member_Type </a>**  
+
 
 
 </div>
@@ -203,7 +220,8 @@ A resource group member's type.
 [attributeCount]: #attributecount
 #### [attributeCount]
 A count of a resource group member's associated attributes.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -213,7 +231,8 @@ A count of a resource group member's associated attributes.
 [descendantMemberCount]: #descendantmembercount
 #### [descendantMemberCount]
 A count of a resource group member's associated member descendants.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -223,7 +242,8 @@ A count of a resource group member's associated member descendants.
 [roleCount]: #rolecount
 #### [roleCount]
 A count of a resource group member's associated roles.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

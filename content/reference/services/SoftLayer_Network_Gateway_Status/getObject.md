@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Gateway_Status](/reference/services/SoftLayer_Network_Gateway_Status)::getObject
 
+
 Retrieve a SoftLayer_Network_Gateway_Status record.
 
 

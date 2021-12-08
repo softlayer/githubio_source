@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,17 +44,20 @@ classes:
 
 #### [getCourier](/reference/services/SoftLayer_Auxiliary_Shipping_Courier_Type/getCourier)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Auxiliary_Shipping_Courier_Type/getObject)
 Retrieve a SoftLayer_Auxiliary_Shipping_Courier_Type record.
+
 </div>
 
 <div class="method-row">
 
 #### [getTypeByKeyName](/reference/services/SoftLayer_Auxiliary_Shipping_Courier_Type/getTypeByKeyName)
+
 
 </div>
 </div>

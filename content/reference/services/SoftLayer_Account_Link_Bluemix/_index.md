@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,23 +44,27 @@ classes:
 
 #### [getAccount](/reference/services/SoftLayer_Account_Link_Bluemix/getAccount)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Account_Link_Bluemix/getObject)
 Retrieve a SoftLayer_Account_Link_Bluemix record.
+
 </div>
 
 <div class="method-row">
 
 #### [getServiceProvider](/reference/services/SoftLayer_Account_Link_Bluemix/getServiceProvider)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getSupportTierType](/reference/services/SoftLayer_Account_Link_Bluemix/getSupportTierType)
+
 
 </div>
 </div>

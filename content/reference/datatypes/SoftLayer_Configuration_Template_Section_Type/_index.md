@@ -20,6 +20,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Configuration_Template_Section_Type data type contains information of a configuration section type. 
 
 Configuration can contain sub-sections. 
@@ -49,7 +51,8 @@ Configuration can contain sub-sections.
 [description]: #description
 #### [description]
 Configuration section type description  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -59,7 +62,8 @@ Configuration section type description
 [id]: #id
 #### [id]
 Internal identifier of a configuration section type  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -69,7 +73,8 @@ Internal identifier of a configuration section type
 [name]: #name
 #### [name]
 Configuration section type name  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

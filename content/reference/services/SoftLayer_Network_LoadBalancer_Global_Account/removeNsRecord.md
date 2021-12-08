@@ -15,6 +15,8 @@ aliases:
 ---
 # [SoftLayer_Network_LoadBalancer_Global_Account](/reference/services/SoftLayer_Network_LoadBalancer_Global_Account)::removeNsRecord
 
+<div class="deprecated"><span class="deprecation-label">Deprecated </span></div>
+
 [Deprecated] Remove the required nameserver resource record for a global load balancer account.
 
 

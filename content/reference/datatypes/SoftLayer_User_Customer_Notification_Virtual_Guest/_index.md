@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_User_Customer_Notification_Virtual_Guest object stores links between customers and the virtual guests they wish to monitor.  This link is not enough, the user must be sure to also create SoftLayer_Network_Monitor_Version1_Query_Host instance with the response action set to "notify users" in order for the users linked to that Virtual Guest object to be notified on failure. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_User_Customer_Notification_Virtual_Guest object stores links betwe
 [guestId]: #guestid
 #### [guestId]
 The ID of the virtual guest object that is to be monitored.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The ID of the virtual guest object that is to be monitored.
 [id]: #id
 #### [id]
 The unique identifier for this object  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The unique identifier for this object
 [userId]: #userid
 #### [userId]
 The ID of the SoftLayer_User_Customer object that represents the user to be notified on monitoring failure.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ The ID of the SoftLayer_User_Customer object that represents the user to be noti
 [guest]: #guest
 #### [guest]
 The virtual guest object that will be monitored.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ The virtual guest object that will be monitored.
 [user]: #user
 #### [user]
 The user that will be notified when the associated virtual guest object fails a monitoring instance.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**  
+
 
 
 </div>

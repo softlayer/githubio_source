@@ -21,6 +21,8 @@ classes:
 
 
 
+
+
 ### associatedMethods
 
 *  [SoftLayer_Auxiliary_Press_Release_Content::getObject](/reference/services/SoftLayer_Auxiliary_Press_Release_Content/getObject )
@@ -50,7 +52,8 @@ classes:
 [id]: #id
 #### [id]
 the id of a single press release  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ the id of a single press release
 [pressReleaseId]: #pressreleaseid
 #### [pressReleaseId]
 the press release id that the content  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -70,7 +74,8 @@ the press release id that the content
 [text]: #text
 #### [text]
 the content of a press release  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

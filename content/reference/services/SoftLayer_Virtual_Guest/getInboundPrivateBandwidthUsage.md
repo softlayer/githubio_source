@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getInboundPrivateBandwidthUsage
 
+
 Retrieve the total private inbound bandwidth for this computing instance for the current billing cycle.
 
 

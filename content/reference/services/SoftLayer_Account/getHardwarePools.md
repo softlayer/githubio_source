@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getHardwarePools
 
+
 Get a collection of managed hardware pools.
 
 

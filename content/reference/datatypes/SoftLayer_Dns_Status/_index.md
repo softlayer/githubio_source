@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Dns_Status data type contains information for a DNS status 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Dns_Status data type contains information for a DNS status
 [id]: #id
 #### [id]
 Internal identifier of a DNS status  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Internal identifier of a DNS status
 [name]: #name
 #### [name]
 Monitoring DNS status name  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

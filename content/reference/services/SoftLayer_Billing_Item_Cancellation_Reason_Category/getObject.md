@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item_Cancellation_Reason_Category](/reference/services/SoftLayer_Billing_Item_Cancellation_Reason_Category)::getObject
 
+
 Retrieve a SoftLayer_Billing_Item_Cancellation_Reason_Category record.
 
 

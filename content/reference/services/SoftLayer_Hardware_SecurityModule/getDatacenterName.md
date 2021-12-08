@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getDatacenterName
 
+
 Retrieve the name of the datacenter in which a piece of hardware resides.
 
 

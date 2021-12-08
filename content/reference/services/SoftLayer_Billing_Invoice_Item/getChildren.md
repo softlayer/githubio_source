@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Invoice_Item](/reference/services/SoftLayer_Billing_Invoice_Item)::getChildren
 
+
 Retrieve an Invoice Item's child invoice items. Only parent invoice items have children. For instance, a server invoice item will have children.
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_Storage_MassDataMigration_Request_KeyContact data type contains name, email, and phone for key contact at customer location who will handle Mass Data Migration. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Network_Storage_MassDataMigration_Request_KeyContact data type con
 [accountId]: #accountid
 #### [accountId]
 An account number that is linked to a KeyContact.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ An account number that is linked to a KeyContact.
 [createDate]: #createdate
 #### [createDate]
 The date a KeyContact was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The date a KeyContact was created.
 [email]: #email
 #### [email]
 KeyContact's Email Id.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ KeyContact's Email Id.
 [id]: #id
 #### [id]
 The unique id of the key contact.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The unique id of the key contact.
 [modifyDate]: #modifydate
 #### [modifyDate]
 The date a KeyContact was last modified.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The date a KeyContact was last modified.
 [name]: #name
 #### [name]
 KeyContact's Name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ KeyContact's Name.
 [phone]: #phone
 #### [phone]
 A phone number assigned to a KeyContact.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ A phone number assigned to a KeyContact.
 [requestId]: #requestid
 #### [requestId]
 A request id that is linked to a KeyContact.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ A request id that is linked to a KeyContact.
 [account]: #account
 #### [account]
 The request this key contact belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ The request this key contact belongs to.
 [request]: #request
 #### [request]
 The request this key contact belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_MassDataMigration_Request'>SoftLayer_Network_Storage_MassDataMigration_Request </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_MassDataMigration_Request'>SoftLayer_Network_Storage_MassDataMigration_Request </a>**  
+
 
 
 </div>

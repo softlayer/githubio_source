@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 Portal account users who are not the master user (account owner) have permissions to allow them access to portal functionalities. 
 
 
@@ -38,16 +40,21 @@ Portal account users who are not the master user (account owner) have permission
 
 <div id="method-div">
 
-<div class="method-row">
+<div class="method-row deprecated">
 
 #### [getAllObjects](/reference/services/SoftLayer_User_Customer_CustomerPermission_Permission/getAllObjects)
 Retrieve all available permissions.
+
+<span class="deprecation-label">Deprecated  </span>
+
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_User_Customer_CustomerPermission_Permission/getObject)
 Retrieve a SoftLayer_User_Customer_CustomerPermission_Permission record.
+
 </div>
 </div>
 

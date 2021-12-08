@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_LBaaS_L7Member represents the backend member for a L7 pool. It can be either a virtual server or a bare metal machine. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Network_LBaaS_L7Member represents the backend member for a L7 pool
 [address]: #address
 #### [address]
 The IP address of a L7 pool member.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The IP address of a L7 pool member.
 [createDate]: #createdate
 #### [createDate]
 <<< EOT Specifies when a L7 pool member  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The IP address of a L7 pool member.
 [id]: #id
 #### [id]
 The ID of a L7 pool member.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The ID of a L7 pool member.
 [modifyDate]: #modifydate
 #### [modifyDate]
 <<< EOT Specifies when a L7 Pool  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The ID of a L7 pool member.
 [port]: #port
 #### [port]
 Backends protocol port  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ Backends protocol port
 [provisioningStatus]: #provisioningstatus
 #### [provisioningStatus]
 <<< EOT The provisioning status of a L7 pool member.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ Backends protocol port
 [uuid]: #uuid
 #### [uuid]
 The UUID of a L7 pool member.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ The UUID of a L7 pool member.
 [weight]: #weight
 #### [weight]
 The weight of a L7 pool member.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

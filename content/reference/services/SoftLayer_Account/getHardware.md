@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getHardware
 
+
 Retrieve an account's associated hardware objects.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getGlobalIdentifier
 
+
 Retrieve a guest's universally unique identifier.
 
 

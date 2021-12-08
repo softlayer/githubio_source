@@ -15,6 +15,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::collectBandwidth
 
+
 Retrieve the bandwidth usage for the current billing cycle.
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 The SoftLayer_Network_CdnMarketplace_Account service allows customers to create, and delete CDN accounts. A SoftLayer_Network_CdnMarketplace_Account record is created when the customer configures a CDN account for the first time. A customer will be able to create multiple CDN accounts, but each account will be bound to a single vendor. 
 
 
@@ -42,24 +44,28 @@ The SoftLayer_Network_CdnMarketplace_Account service allows customers to create,
 
 #### [getAccount](/reference/services/SoftLayer_Network_CdnMarketplace_Account/getAccount)
 Retrieve softLayer account to which the CDN account belongs.
+
 </div>
 
 <div class="method-row">
 
 #### [getBillingItem](/reference/services/SoftLayer_Network_CdnMarketplace_Account/getBillingItem)
 Retrieve an associated parent billing item which is active.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_CdnMarketplace_Account/getObject)
 Retrieve a SoftLayer_Network_CdnMarketplace_Account record.
+
 </div>
 
 <div class="method-row">
 
 #### [verifyCdnAccountExists](/reference/services/SoftLayer_Network_CdnMarketplace_Account/verifyCdnAccountExists)
 Wrapper for UI to verify whether or not an account exists for user under specified vendor. Returns true if account exists, else false. 
+
 </div>
 </div>
 

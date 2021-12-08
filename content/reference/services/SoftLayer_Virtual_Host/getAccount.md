@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Host](/reference/services/SoftLayer_Virtual_Host)::getAccount
 
+
 Retrieve the account which a virtual host belongs to.
 
 

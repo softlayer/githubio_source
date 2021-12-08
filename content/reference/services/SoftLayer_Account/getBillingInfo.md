@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getBillingInfo
 
+
 Retrieve an account's billing information.
 
 

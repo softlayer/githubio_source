@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 A SoftLayer_Virtual_Disk_Image_Software record connects a computing instance's virtual disk images with software records. This can be useful if a disk image is directly associated with software such as operating systems. 
 
 
@@ -53,7 +55,8 @@ A SoftLayer_Virtual_Disk_Image_Software record connects a computing instance's v
 [id]: #id
 #### [id]
 The unique identifier of a virtual disk image to software relationship.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -63,7 +66,8 @@ The unique identifier of a virtual disk image to software relationship.
 [softwareDescriptionId]: #softwaredescriptionid
 #### [softwareDescriptionId]
 The unique identifier of the software that a virtual disk image is associated with.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -79,7 +83,8 @@ The unique identifier of the software that a virtual disk image is associated wi
 [diskImage]: #diskimage
 #### [diskImage]
 The virtual disk image that is associated with software.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image'>SoftLayer_Virtual_Disk_Image </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image'>SoftLayer_Virtual_Disk_Image </a>**  
+
 
 
 </div>
@@ -89,7 +94,8 @@ The virtual disk image that is associated with software.
 [passwords]: #passwords
 #### [passwords]
 Username/Password pairs used for access to a Software Installation.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image_Software_Password'>SoftLayer_Virtual_Disk_Image_Software_Password[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image_Software_Password'>SoftLayer_Virtual_Disk_Image_Software_Password[] </a>**  
+
 
 
 </div>
@@ -99,7 +105,8 @@ Username/Password pairs used for access to a Software Installation.
 [softwareDescription]: #softwaredescription
 #### [softwareDescription]
 The software associated with a virtual disk image.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description </a>**  
+
 
 
 </div>
@@ -111,7 +118,8 @@ The software associated with a virtual disk image.
 [passwordCount]: #passwordcount
 #### [passwordCount]
 A count of username/Password pairs used for access to a Software Installation.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

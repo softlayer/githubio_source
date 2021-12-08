@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getParentHardware
 
+
 Retrieve parent Hardware.
 
 

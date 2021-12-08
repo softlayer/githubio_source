@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getNetworkVlanFirewall
 
+
 Retrieve the Hardware Firewall (Dedicated) for a network vlan.
 
 

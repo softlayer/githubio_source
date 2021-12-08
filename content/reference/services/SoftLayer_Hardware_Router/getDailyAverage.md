@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getDailyAverage
 
+
 calculate the average daily network traffic used by a server in gigabytes.
 
 

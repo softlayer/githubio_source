@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 A network interconnect tenant defines an IP routing path through a network interconnect. Each network interconnect requires a single primary tenant, indicated by the primaryFlag 
 
 
@@ -42,11 +44,13 @@ A network interconnect tenant defines an IP routing path through a network inter
 
 #### [allowDeleteConnection](/reference/services/SoftLayer_Network_Interconnect_Tenant/allowDeleteConnection)
 
+
 </div>
 
 <div class="method-row">
 
 #### [createConnection](/reference/services/SoftLayer_Network_Interconnect_Tenant/createConnection)
+
 
 </div>
 
@@ -54,11 +58,13 @@ A network interconnect tenant defines an IP routing path through a network inter
 
 #### [deleteConnection](/reference/services/SoftLayer_Network_Interconnect_Tenant/deleteConnection)
 
+
 </div>
 
 <div class="method-row">
 
 #### [editConnection](/reference/services/SoftLayer_Network_Interconnect_Tenant/editConnection)
+
 
 </div>
 
@@ -66,11 +72,13 @@ A network interconnect tenant defines an IP routing path through a network inter
 
 #### [getAllConnections](/reference/services/SoftLayer_Network_Interconnect_Tenant/getAllConnections)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getAllObjects](/reference/services/SoftLayer_Network_Interconnect_Tenant/getAllObjects)
+
 
 </div>
 
@@ -78,11 +86,13 @@ A network interconnect tenant defines an IP routing path through a network inter
 
 #### [getAllPortLabelsWithCurrentUsage](/reference/services/SoftLayer_Network_Interconnect_Tenant/getAllPortLabelsWithCurrentUsage)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getBgpIpRange](/reference/services/SoftLayer_Network_Interconnect_Tenant/getBgpIpRange)
+
 
 </div>
 
@@ -90,11 +100,13 @@ A network interconnect tenant defines an IP routing path through a network inter
 
 #### [getBillingItem](/reference/services/SoftLayer_Network_Interconnect_Tenant/getBillingItem)
 Retrieve the active billing item for a network interconnect.
+
 </div>
 
 <div class="method-row">
 
 #### [getConnection](/reference/services/SoftLayer_Network_Interconnect_Tenant/getConnection)
+
 
 </div>
 
@@ -102,11 +114,13 @@ Retrieve the active billing item for a network interconnect.
 
 #### [getDatacenterName](/reference/services/SoftLayer_Network_Interconnect_Tenant/getDatacenterName)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getDirectLinkSpeeds](/reference/services/SoftLayer_Network_Interconnect_Tenant/getDirectLinkSpeeds)
+
 
 </div>
 
@@ -114,17 +128,20 @@ Retrieve the active billing item for a network interconnect.
 
 #### [getNetworkZones](/reference/services/SoftLayer_Network_Interconnect_Tenant/getNetworkZones)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Interconnect_Tenant/getObject)
 Retrieve a SoftLayer_Network_Interconnect_Tenant record.
+
 </div>
 
 <div class="method-row">
 
 #### [getPortLabel](/reference/services/SoftLayer_Network_Interconnect_Tenant/getPortLabel)
+
 
 </div>
 
@@ -132,11 +149,13 @@ Retrieve a SoftLayer_Network_Interconnect_Tenant record.
 
 #### [getPorts](/reference/services/SoftLayer_Network_Interconnect_Tenant/getPorts)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getServiceType](/reference/services/SoftLayer_Network_Interconnect_Tenant/getServiceType)
+
 
 </div>
 
@@ -144,11 +163,13 @@ Retrieve a SoftLayer_Network_Interconnect_Tenant record.
 
 #### [getVendorName](/reference/services/SoftLayer_Network_Interconnect_Tenant/getVendorName)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getZoneName](/reference/services/SoftLayer_Network_Interconnect_Tenant/getZoneName)
+
 
 </div>
 
@@ -156,17 +177,20 @@ Retrieve a SoftLayer_Network_Interconnect_Tenant record.
 
 #### [isAdnAccount](/reference/services/SoftLayer_Network_Interconnect_Tenant/isAdnAccount)
 
+
 </div>
 
 <div class="method-row">
 
 #### [rejectApprovalRequests](/reference/services/SoftLayer_Network_Interconnect_Tenant/rejectApprovalRequests)
 
+
 </div>
 
 <div class="method-row">
 
 #### [updateConnectionStatus](/reference/services/SoftLayer_Network_Interconnect_Tenant/updateConnectionStatus)
+
 
 </div>
 </div>

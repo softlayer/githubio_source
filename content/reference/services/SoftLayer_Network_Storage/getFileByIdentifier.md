@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getFileByIdentifier
 
+
 Retrieve an individual file's details.
 
 

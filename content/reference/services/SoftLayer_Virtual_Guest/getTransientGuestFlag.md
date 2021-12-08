@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getTransientGuestFlag
 
+
 Retrieve whether or not a computing instance is a Transient Instance.
 
 

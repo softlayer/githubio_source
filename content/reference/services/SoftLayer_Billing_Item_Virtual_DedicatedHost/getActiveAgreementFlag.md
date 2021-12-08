@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item_Virtual_DedicatedHost](/reference/services/SoftLayer_Billing_Item_Virtual_DedicatedHost)::getActiveAgreementFlag
 
+
 Retrieve a flag indicating that the billing item is under an active agreement.
 
 

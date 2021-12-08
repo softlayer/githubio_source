@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Full details presented to reviewers when determining whether or not to accept a proof of concept request. Note that reviewers are internal IBM employees and reviews are not exposed to external users. 
 
 
@@ -50,7 +52,8 @@ Full details presented to reviewers when determining whether or not to accept a 
 [accountType]: #accounttype
 #### [accountType]
 Type of brand the account will use  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ Type of brand the account will use
 [costRecoveryCodes]: #costrecoverycodes
 #### [costRecoveryCodes]
 Internal billing codes  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Request_CostRecovery'>SoftLayer_Container_Account_ProofOfConcept_Request_CostRecovery </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Request_CostRecovery'>SoftLayer_Container_Account_ProofOfConcept_Request_CostRecovery </a>**  
+
 
 
 </div>
@@ -70,7 +74,8 @@ Internal billing codes
 [customer]: #customer
 #### [customer]
 Customer intended to take over billing after the proof of concept period  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Contact_Customer'>SoftLayer_Container_Account_ProofOfConcept_Contact_Customer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Contact_Customer'>SoftLayer_Container_Account_ProofOfConcept_Contact_Customer </a>**  
+
 
 
 </div>
@@ -80,7 +85,8 @@ Customer intended to take over billing after the proof of concept period
 [description]: #description
 #### [description]
 Describes the purpose and rationale of the request  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -90,7 +96,8 @@ Describes the purpose and rationale of the request
 [endDate]: #enddate
 #### [endDate]
 Expected end date of the proof of concept period  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -100,7 +107,8 @@ Expected end date of the proof of concept period
 [fundingAmount]: #fundingamount
 #### [fundingAmount]
 Dollar amount of funding requested  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -110,7 +118,8 @@ Dollar amount of funding requested
 [fundingType]: #fundingtype
 #### [fundingType]
 Funding option chosen for the request  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -120,7 +129,8 @@ Funding option chosen for the request
 [id]: #id
 #### [id]
 System id of the request  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -130,7 +140,8 @@ System id of the request
 [iotLeadName]: #iotleadname
 #### [iotLeadName]
 Name of the integrated offering team lead reviewing the request  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -140,7 +151,8 @@ Name of the integrated offering team lead reviewing the request
 [iotRegionName]: #iotregionname
 #### [iotRegionName]
 Name of the integrated offering team region  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -150,7 +162,8 @@ Name of the integrated offering team region
 [managerName]: #managername
 #### [managerName]
 Name of requesting IBMer's manager  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -160,7 +173,8 @@ Name of requesting IBMer's manager
 [opportunity]: #opportunity
 #### [opportunity]
 Internal opportunity tracking information  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Request_Opportunity'>SoftLayer_Container_Account_ProofOfConcept_Request_Opportunity </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Request_Opportunity'>SoftLayer_Container_Account_ProofOfConcept_Request_Opportunity </a>**  
+
 
 
 </div>
@@ -170,7 +184,8 @@ Internal opportunity tracking information
 [projectName]: #projectname
 #### [projectName]
 Project name chosen by the requesting IBMer  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -180,7 +195,8 @@ Project name chosen by the requesting IBMer
 [requester]: #requester
 #### [requester]
 IBMer requesting the account on behalf of a customer  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Contact_Ibmer_Requester'>SoftLayer_Container_Account_ProofOfConcept_Contact_Ibmer_Requester </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Contact_Ibmer_Requester'>SoftLayer_Container_Account_ProofOfConcept_Contact_Ibmer_Requester </a>**  
+
 
 
 </div>
@@ -190,7 +206,8 @@ IBMer requesting the account on behalf of a customer
 [reviewHistory]: #reviewhistory
 #### [reviewHistory]
 Summary of request's review activity  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Review_History'>SoftLayer_Container_Account_ProofOfConcept_Review_History </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Review_History'>SoftLayer_Container_Account_ProofOfConcept_Review_History </a>**  
+
 
 
 </div>
@@ -200,7 +217,8 @@ Summary of request's review activity
 [reviewUrl]: #reviewurl
 #### [reviewUrl]
 URL for the individual review  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -210,7 +228,8 @@ URL for the individual review
 [startDate]: #startdate
 #### [startDate]
 Expected start date of the proof of concept period  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -220,7 +239,8 @@ Expected start date of the proof of concept period
 [technicalContact]: #technicalcontact
 #### [technicalContact]
 Additional IBMer responsible for configuring the cloud capabilities  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Contact_Ibmer_Technical'>SoftLayer_Container_Account_ProofOfConcept_Contact_Ibmer_Technical </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_ProofOfConcept_Contact_Ibmer_Technical'>SoftLayer_Container_Account_ProofOfConcept_Contact_Ibmer_Technical </a>**  
+
 
 
 </div>

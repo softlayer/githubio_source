@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getResourceGroupTemplate
 
+
 Retrieve the resource group template that describes a multi-server solution. (Deprecated)
 
 

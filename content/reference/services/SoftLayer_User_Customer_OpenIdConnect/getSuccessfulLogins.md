@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getSuccessfulLogins
 
+
 Retrieve a user's successful attempts to log into the SoftLayer customer portal.
 
 

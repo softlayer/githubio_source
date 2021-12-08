@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Brand_Business_Partner](/reference/services/SoftLayer_Brand_Business_Partner)::getBrand
 
+
 Retrieve brand associated with the business partner data
 
 

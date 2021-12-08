@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_Application_Delivery_Controller_Configuration_History data type models a single instance of a configuration history entry for an application delivery controller. The configuration history entries are used to support creating backups of an application delivery controller's configuration state in order to restore them later if needed. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Network_Application_Delivery_Controller_Configuration_History data
 [createDate]: #createdate
 #### [createDate]
 The date a configuration history record was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The date a configuration history record was created.
 [id]: #id
 #### [id]
 An configuration history record's unique identifier  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ An configuration history record's unique identifier
 [notes]: #notes
 #### [notes]
 Editable notes used to describe a configuration history record  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ Editable notes used to describe a configuration history record
 [controller]: #controller
 #### [controller]
 The application delivery controller that a configuration history record belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller'>SoftLayer_Network_Application_Delivery_Controller </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller'>SoftLayer_Network_Application_Delivery_Controller </a>**  
+
 
 
 </div>

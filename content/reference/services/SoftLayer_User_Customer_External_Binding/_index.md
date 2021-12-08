@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 <<<
 
 
@@ -42,66 +44,77 @@ classes:
 
 #### [deleteObject](/reference/services/SoftLayer_User_Customer_External_Binding/deleteObject)
 Delete an external authentication binding.
+
 </div>
 
 <div class="method-row">
 
 #### [disable](/reference/services/SoftLayer_User_Customer_External_Binding/disable)
 Disable an external binding.
+
 </div>
 
 <div class="method-row">
 
 #### [enable](/reference/services/SoftLayer_User_Customer_External_Binding/enable)
 Enable an external binding.
+
 </div>
 
 <div class="method-row">
 
 #### [getAttributes](/reference/services/SoftLayer_User_Customer_External_Binding/getAttributes)
 Retrieve attributes of an external authentication binding.
+
 </div>
 
 <div class="method-row">
 
 #### [getBillingItem](/reference/services/SoftLayer_User_Customer_External_Binding/getBillingItem)
 Retrieve information regarding the billing item for external authentication.
+
 </div>
 
 <div class="method-row">
 
 #### [getNote](/reference/services/SoftLayer_User_Customer_External_Binding/getNote)
 Retrieve an optional note for identifying the external binding.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_User_Customer_External_Binding/getObject)
 Retrieve a SoftLayer_User_Customer_External_Binding record.
+
 </div>
 
 <div class="method-row">
 
 #### [getType](/reference/services/SoftLayer_User_Customer_External_Binding/getType)
 Retrieve the type of external authentication binding.
+
 </div>
 
 <div class="method-row">
 
 #### [getUser](/reference/services/SoftLayer_User_Customer_External_Binding/getUser)
 Retrieve the SoftLayer user that the external authentication binding belongs to.
+
 </div>
 
 <div class="method-row">
 
 #### [getVendor](/reference/services/SoftLayer_User_Customer_External_Binding/getVendor)
 Retrieve the vendor of an external authentication binding.
+
 </div>
 
 <div class="method-row">
 
 #### [updateNote](/reference/services/SoftLayer_User_Customer_External_Binding/updateNote)
 Update the note of an external binding.
+
 </div>
 </div>
 

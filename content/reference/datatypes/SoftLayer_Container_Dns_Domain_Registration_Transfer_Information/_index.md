@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Transfer Information container for domain registration 
 
 
@@ -45,7 +47,8 @@ Transfer Information container for domain registration
 [reason]: #reason
 #### [reason]
 The reason why a domain is not transferable.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The reason why a domain is not transferable.
 [registrantEmail]: #registrantemail
 #### [registrantEmail]
 The registrant email.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The registrant email.
 [status]: #status
 #### [status]
 The status of the latest transfer on the domain.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The status of the latest transfer on the domain.
 [timeStamp]: #timestamp
 #### [timeStamp]
 The date and time of the most recent update to the state of the transfer.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The date and time of the most recent update to the state of the transfer.
 [transferrable]: #transferrable
 #### [transferrable]
 Indicates if the domain can be transferred.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

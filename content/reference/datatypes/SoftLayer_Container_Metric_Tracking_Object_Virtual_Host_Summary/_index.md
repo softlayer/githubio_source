@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Container_Metric_Tracking_Object_Virtual_Host_Summary This container summarizes a virtual host's metric data.
 
 
@@ -50,7 +52,8 @@ SoftLayer_Container_Metric_Tracking_Object_Virtual_Host_Summary This container s
 [avgMemoryUsageInBillingCycle]: #avgmemoryusageinbillingcycle
 #### [avgMemoryUsageInBillingCycle]
 The average amount of memory usage thus far in this billing cycle.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ The average amount of memory usage thus far in this billing cycle.
 [currentBillCycleEnd]: #currentbillcycleend
 #### [currentBillCycleEnd]
 Current bill cycle end date.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -70,7 +74,8 @@ Current bill cycle end date.
 [currentBillCycleStart]: #currentbillcyclestart
 #### [currentBillCycleStart]
 Current bill cycle start date.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -80,7 +85,8 @@ Current bill cycle start date.
 [lastInstanceCount]: #lastinstancecount
 #### [lastInstanceCount]
 The last count of instances this platform was hosting.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -90,7 +96,8 @@ The last count of instances this platform was hosting.
 [lastMemoryUsageAmount]: #lastmemoryusageamount
 #### [lastMemoryUsageAmount]
 The last amount of memory this platform was using.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -100,7 +107,8 @@ The last amount of memory this platform was using.
 [lastPollTime]: #lastpolltime
 #### [lastPollTime]
 The last time this virtual host was polled for metrics.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -110,7 +118,8 @@ The last time this virtual host was polled for metrics.
 [maxInstanceInBillingCycle]: #maxinstanceinbillingcycle
 #### [maxInstanceInBillingCycle]
 The max number of instances hosted thus far in this billing cycle.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -120,7 +129,8 @@ The max number of instances hosted thus far in this billing cycle.
 [metricName]: #metricname
 #### [metricName]
 The name that best describes the metric being collected.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -130,7 +140,8 @@ The name that best describes the metric being collected.
 [previousBillCycleEnd]: #previousbillcycleend
 #### [previousBillCycleEnd]
 Previous bill cycle end date.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -140,7 +151,8 @@ Previous bill cycle end date.
 [previousBillCycleStart]: #previousbillcyclestart
 #### [previousBillCycleStart]
 Previous bill cycle start date.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -150,7 +162,8 @@ Previous bill cycle start date.
 [virtualPlatformName]: #virtualplatformname
 #### [virtualPlatformName]
 This virtual hosting platform name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

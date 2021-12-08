@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getUsers
 
+
 Retrieve a list of users that have access to this computing instance.
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Every username and password combination associated with a SoftLayer customer account belongs to a service that SoftLayer provides. The relationship between a username/password and it's service is provided by the SoftLayer_Account_Password_Type data type. Each username/password belongs to a single service type. 
 
 
@@ -50,7 +52,8 @@ Every username and password combination associated with a SoftLayer customer acc
 [description]: #description
 #### [description]
 A description of the use for the account username/password combination.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

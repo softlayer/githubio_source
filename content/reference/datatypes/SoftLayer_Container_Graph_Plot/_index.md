@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [data]: #data
 #### [data]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Graph_Plot_Coordinate'>SoftLayer_Container_Graph_Plot_Coordinate[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Graph_Plot_Coordinate'>SoftLayer_Container_Graph_Plot_Coordinate[] </a>**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ classes:
 [metric]: #metric
 #### [metric]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Metric_Data_Type'>SoftLayer_Container_Metric_Data_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Metric_Data_Type'>SoftLayer_Container_Metric_Data_Type </a>**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ classes:
 [unit]: #unit
 #### [unit]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

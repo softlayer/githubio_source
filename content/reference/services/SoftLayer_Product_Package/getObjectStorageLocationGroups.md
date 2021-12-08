@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getObjectStorageLocationGroups
 
+
 Returns a collection of location groups where object storage is available plus the associated active usage rate prices. 
 
 

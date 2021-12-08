@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Contains data related to an account after editing its information. 
 
 
@@ -50,7 +52,8 @@ Contains data related to an account after editing its information.
 [acceptedFlag]: #acceptedflag
 #### [acceptedFlag]
 Whether or not the update was accepted and applied.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ Whether or not the update was accepted and applied.
 [account]: #account
 #### [account]
 The updated SoftLayer_Account.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -70,7 +74,8 @@ The updated SoftLayer_Account.
 [ticket]: #ticket
 #### [ticket]
 If a manual review is required, this will be populated with the SoftLayer_Ticket for that review.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>**  
+
 
 
 </div>

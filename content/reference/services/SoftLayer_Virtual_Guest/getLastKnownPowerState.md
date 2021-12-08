@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getLastKnownPowerState
 
+
 Retrieve the last known power state of a virtual guest in the event the guest is turned off outside of IMS or has gone offline.
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 The SoftLayer_Network_DirectLink_Location service allows users to create, update, delete, get details of a Direct Link location and retrieve all existing details. 
 
 
@@ -42,30 +44,35 @@ The SoftLayer_Network_DirectLink_Location service allows users to create, update
 
 #### [getAllObjects](/reference/services/SoftLayer_Network_DirectLink_Location/getAllObjects)
 Get all existing Direct Link location. 
+
 </div>
 
 <div class="method-row">
 
 #### [getLocation](/reference/services/SoftLayer_Network_DirectLink_Location/getLocation)
 Retrieve the location of Direct Link facility.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_DirectLink_Location/getObject)
 Retrieve a SoftLayer_Network_DirectLink_Location record.
+
 </div>
 
 <div class="method-row">
 
 #### [getProvider](/reference/services/SoftLayer_Network_DirectLink_Location/getProvider)
 Retrieve the Id of Direct Link provider.
+
 </div>
 
 <div class="method-row">
 
 #### [getServiceType](/reference/services/SoftLayer_Network_DirectLink_Location/getServiceType)
 Retrieve the Id of Direct Link service type.
+
 </div>
 </div>
 

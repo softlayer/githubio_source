@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This is used for storing various items about the order. Currently used for storing additional raid information when ordering servers. This is optional 
 
 
@@ -45,7 +47,8 @@ This is used for storing various items about the order. Currently used for stori
 [name]: #name
 #### [name]
 The property name  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The property name
 [value]: #value
 #### [value]
 The property value  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

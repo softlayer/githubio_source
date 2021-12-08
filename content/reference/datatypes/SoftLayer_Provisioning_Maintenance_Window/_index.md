@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Provisioning_Maintenance_Window represent a time window that SoftLayer performs a hardware or software maintenance and upgrades. 
 
 
@@ -55,7 +57,8 @@ The SoftLayer_Provisioning_Maintenance_Window represent a time window that SoftL
 [beginDate]: #begindate
 #### [beginDate]
 The date and time a maintenance window is scheduled to begin.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -65,7 +68,8 @@ The date and time a maintenance window is scheduled to begin.
 [dayOfWeek]: #dayofweek
 #### [dayOfWeek]
 An ISO-8601 numeric representation of the day of the week that a maintenance window is performed. 1: Monday, 7: Sunday  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +79,8 @@ An ISO-8601 numeric representation of the day of the week that a maintenance win
 [endDate]: #enddate
 #### [endDate]
 The date and time a maintenance window is scheduled to end.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -85,7 +90,8 @@ The date and time a maintenance window is scheduled to end.
 [id]: #id
 #### [id]
 Id of the maintenance window  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +101,8 @@ Id of the maintenance window
 [locationId]: #locationid
 #### [locationId]
 An internal identifier of the location (data center) record that a maintenance window takes place in.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +112,8 @@ An internal identifier of the location (data center) record that a maintenance w
 [portalTzId]: #portaltzid
 #### [portalTzId]
 An internal identifier of the datacenter timezone.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

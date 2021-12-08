@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 These are the attributes which describe a SoftLayer_User_Permission_Group_Type. All SoftLayer_User_Permission_Group objects must be linked to one of these types. 
 
 For further information see: [SoftLayer_User_Permission_Group]({{<ref "reference/datatypes/SoftLayer_User_Permission_Group">}}). 
@@ -47,7 +49,8 @@ For further information see: [SoftLayer_User_Permission_Group]({{<ref "reference
 [id]: #id
 #### [id]
 Unique Record ID.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -57,7 +60,8 @@ Unique Record ID.
 [keyName]: #keyname
 #### [keyName]
 The keyname for the group type.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -67,7 +71,8 @@ The keyname for the group type.
 [name]: #name
 #### [name]
 A descriptive name for the group type.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -83,7 +88,8 @@ A descriptive name for the group type.
 [groups]: #groups
 #### [groups]
 The groups that are of this type.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Permission_Group'>SoftLayer_User_Permission_Group[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Permission_Group'>SoftLayer_User_Permission_Group[] </a>**  
+
 
 
 </div>
@@ -95,7 +101,8 @@ The groups that are of this type.
 [groupCount]: #groupcount
 #### [groupCount]
 A count of the groups that are of this type.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

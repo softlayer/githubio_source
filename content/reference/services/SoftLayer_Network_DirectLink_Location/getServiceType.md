@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_DirectLink_Location](/reference/services/SoftLayer_Network_DirectLink_Location)::getServiceType
 
+
 Retrieve the Id of Direct Link service type.
 
 

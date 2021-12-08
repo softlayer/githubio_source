@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet_IpAddress](/reference/services/SoftLayer_Network_Subnet_IpAddress)::getTopTenSyslogEventsByDestinationPortOneDay
 
+
 Retrieve top Ten network datacenter syslog events, grouped by destination port, for the last 24 hours
 
 

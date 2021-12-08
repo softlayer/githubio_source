@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Order](/reference/services/SoftLayer_Product_Order)::processExternalPaymentAuthorization
 
+
 Process an external (PayPal) payment authorization.
 
 

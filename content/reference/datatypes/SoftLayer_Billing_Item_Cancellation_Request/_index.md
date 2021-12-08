@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Billing_Item_Cancellation_Request data type is used to cancel service billing items. 
 
 
@@ -45,7 +47,8 @@ SoftLayer_Billing_Item_Cancellation_Request data type is used to cancel service 
 [accountId]: #accountid
 #### [accountId]
 The internal identifier of the customer account that a service cancellation record belongs to.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The internal identifier of the customer account that a service cancellation reco
 [billingCancelReasonId]: #billingcancelreasonid
 #### [billingCancelReasonId]
 The last modified date.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The last modified date.
 [createDate]: #createdate
 #### [createDate]
 The date that a cancellation request was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The date that a cancellation request was created.
 [id]: #id
 #### [id]
 A cancellation record's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ A cancellation record's internal identifier.
 [modifyDate]: #modifydate
 #### [modifyDate]
 The last modified date.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The last modified date.
 [notes]: #notes
 #### [notes]
 Brief cancellation note.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -107,7 +115,8 @@ Brief cancellation note.
 An internal identifier of the service cancellation status that this request is associated with. When a service cancellation is submitted, it will be in "Pending" status until SoftLayer Sales team reviews it. The status of a cancellation request will be updated to "Approved" or "Voided" by SoftLayer Sales. 
 
 It will be updated to "Complete" when all services are reclaimed.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -117,7 +126,8 @@ It will be updated to "Complete" when all services are reclaimed.
 [ticketId]: #ticketid
 #### [ticketId]
 An internal identifier of the ticket that is associated with a service cancellation request. When a service cancellation is submitted, a support ticket will be created. This ticket contains details on your service cancellation details and SoftLayer Sales team will use it to further communicate with you.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -133,7 +143,8 @@ An internal identifier of the ticket that is associated with a service cancellat
 [account]: #account
 #### [account]
 The SoftLayer account that a service cancellation request belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -143,7 +154,8 @@ The SoftLayer account that a service cancellation request belongs to.
 [items]: #items
 #### [items]
 A collection of service cancellation items.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Request_Item'>SoftLayer_Billing_Item_Cancellation_Request_Item[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Request_Item'>SoftLayer_Billing_Item_Cancellation_Request_Item[] </a>**  
+
 
 
 </div>
@@ -153,7 +165,8 @@ A collection of service cancellation items.
 [status]: #status
 #### [status]
 The status of a service cancellation request.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Request_Status'>SoftLayer_Billing_Item_Cancellation_Request_Status </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Request_Status'>SoftLayer_Billing_Item_Cancellation_Request_Status </a>**  
+
 
 
 </div>
@@ -163,7 +176,8 @@ The status of a service cancellation request.
 [ticket]: #ticket
 #### [ticket]
 The ticket that is associated with the service cancellation request.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>**  
+
 
 
 </div>
@@ -173,7 +187,8 @@ The ticket that is associated with the service cancellation request.
 [user]: #user
 #### [user]
 The user that initiated a service cancellation request.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**  
+
 
 
 </div>
@@ -185,7 +200,8 @@ The user that initiated a service cancellation request.
 [itemCount]: #itemcount
 #### [itemCount]
 A count of a collection of service cancellation items.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

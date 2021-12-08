@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect_TrustedProfile](/reference/services/SoftLayer_User_Customer_OpenIdConnect_TrustedProfile)::getExternalBindings
 
+
 Retrieve the external authentication bindings that link an external identifier to a SoftLayer user.
 
 

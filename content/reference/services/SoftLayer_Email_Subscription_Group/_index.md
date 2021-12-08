@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 SoftLayer customers can use this service to view the parent groups of the email subscriptions 
 
 
@@ -42,18 +44,21 @@ SoftLayer customers can use this service to view the parent groups of the email 
 
 #### [getAllObjects](/reference/services/SoftLayer_Email_Subscription_Group/getAllObjects)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Email_Subscription_Group/getObject)
 Retrieve a SoftLayer_Email_Subscription_Group record.
+
 </div>
 
 <div class="method-row">
 
 #### [getSubscriptions](/reference/services/SoftLayer_Email_Subscription_Group/getSubscriptions)
 Retrieve all email subscriptions associated with this group.
+
 </div>
 </div>
 

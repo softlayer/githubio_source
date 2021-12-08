@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Configuration definition attribute class contains supplementary information for a configuration definition. 
 
 
@@ -45,7 +47,8 @@ Configuration definition attribute class contains supplementary information for 
 [value]: #value
 #### [value]
 Value of a configuration definition attribute  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -61,7 +64,8 @@ Value of a configuration definition attribute
 [attributeType]: #attributetype
 #### [attributeType]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition_Attribute_Type'>SoftLayer_Configuration_Template_Section_Definition_Attribute_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition_Attribute_Type'>SoftLayer_Configuration_Template_Section_Definition_Attribute_Type </a>**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ Value of a configuration definition attribute
 [configurationDefinition]: #configurationdefinition
 #### [configurationDefinition]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition'>SoftLayer_Configuration_Template_Section_Definition </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition'>SoftLayer_Configuration_Template_Section_Definition </a>**  
+
 
 
 </div>

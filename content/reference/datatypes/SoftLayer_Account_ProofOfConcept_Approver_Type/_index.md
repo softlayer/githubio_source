@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This class represents a Proof of Concept account approver type. 
 
 
@@ -45,7 +47,8 @@ This class represents a Proof of Concept account approver type.
 [description]: #description
 #### [description]
 Description for a Proof of Concept account approver type.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Description for a Proof of Concept account approver type.
 [id]: #id
 #### [id]
 Internal identifier of a Proof of Concept account approver type.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Internal identifier of a Proof of Concept account approver type.
 [keyName]: #keyname
 #### [keyName]
 Key name for a Proof of Concept account approver type.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Key name for a Proof of Concept account approver type.
 [name]: #name
 #### [name]
 Name of a Proof of Concept account approver type.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ Name of a Proof of Concept account approver type.
 [approvers]: #approvers
 #### [approvers]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_ProofOfConcept_Approver'>SoftLayer_Account_ProofOfConcept_Approver[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_ProofOfConcept_Approver'>SoftLayer_Account_ProofOfConcept_Approver[] </a>**  
+
 
 
 </div>
@@ -103,7 +110,8 @@ Name of a Proof of Concept account approver type.
 [approverCount]: #approvercount
 #### [approverCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

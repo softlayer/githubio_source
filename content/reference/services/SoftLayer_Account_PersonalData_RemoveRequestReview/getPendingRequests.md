@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_PersonalData_RemoveRequestReview](/reference/services/SoftLayer_Account_PersonalData_RemoveRequestReview)::getPendingRequests
 
+
 Gets information removal requests to review.
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Describes a supported class of mobile device. In this the word class is used in the context of classes of consumer electronic devices, the two most prominent examples being mobile phones and tablets. 
 
 
@@ -50,7 +52,8 @@ Describes a supported class of mobile device. In this the word class is used in 
 [createDate]: #createdate
 #### [createDate]
 Record create date.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ Record create date.
 [description]: #description
 #### [description]
 A description of the device  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -70,7 +74,8 @@ A description of the device
 [id]: #id
 #### [id]
 Indentifier for record.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -80,7 +85,8 @@ Indentifier for record.
 [modifyDate]: #modifydate
 #### [modifyDate]
 Last modify date for record.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -90,7 +96,8 @@ Last modify date for record.
 [name]: #name
 #### [name]
 The common name of the device.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

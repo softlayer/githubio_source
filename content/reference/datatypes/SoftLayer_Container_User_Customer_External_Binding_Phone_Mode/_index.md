@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This container can be used to configure the phone authentication mode. By default, "VOICE_CALL" in "STANDARD" mode with no Pin number will be used. With the default mode, you will have to answer a phone call from a trusted 2 form factor vendor during authentication process. You have to answer the call and follow the instruction in order to complete the authentication. 
 
 You can also use SMS text message or PhoneFactor mobile app modes (in case you're using PhoneFactor). Additionally, you can set up a Pin number. By requiring you to verify your secret PIN, you can ensure that you have possession of your phone. 
@@ -73,7 +75,8 @@ This mode is applicable for PhoneFactor. Phone App mode results in a notificatio
 **STANDARD: (default) The first authentication is when the user signs on using a username and password.
 The second authentication is when the user receives a notification in the PhoneFactor phone app. In Standard Mode, users will prompted to authenticate, deny, or deny and report fraud. 
 **PIN: This mode enhances the security of the authentication by requiring the user to enter their PIN in the phone app.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -83,7 +86,8 @@ The second authentication is when the user receives a notification in the PhoneF
 [pin]: #pin
 #### [pin]
 Optional authentication pin.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -93,7 +97,8 @@ Optional authentication pin.
 [pinMode]: #pinmode
 #### [pinMode]
 Available Pin modes are: PIN, VOICE_PRINT, STANDARD Default: STANDARD (Pin is not used)   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

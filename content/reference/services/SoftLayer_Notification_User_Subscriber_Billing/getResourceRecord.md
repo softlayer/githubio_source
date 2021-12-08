@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Notification_User_Subscriber_Billing](/reference/services/SoftLayer_Notification_User_Subscriber_Billing)::getResourceRecord
 
+
 Retrieve the subscriber id to resource id mapping.
 
 

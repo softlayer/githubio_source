@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Item_Policy_Assignment](/reference/services/SoftLayer_Product_Item_Policy_Assignment)::acceptFromTicket
 
+
 Register acceptance of this assignment linking this record to a Ticket.
 
 

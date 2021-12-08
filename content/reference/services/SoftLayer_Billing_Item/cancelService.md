@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::cancelService
 
+
 Cancel a service or resource immediately. This does not include bare metal servers. 
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getMetricTrackingObject
 
+
 Retrieve a network storage volume's metric tracking object. This object records all periodic polled data available to this volume.
 
 

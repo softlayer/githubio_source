@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 A regional location group is a collection of datacenters for a region. 
 
 
@@ -42,36 +44,42 @@ A regional location group is a collection of datacenters for a region.
 
 #### [getAllObjects](/reference/services/SoftLayer_Location_Group_Regional/getAllObjects)
 Get all regional groups.
+
 </div>
 
 <div class="method-row">
 
 #### [getDatacenters](/reference/services/SoftLayer_Location_Group_Regional/getDatacenters)
 Retrieve the datacenters in a group.
+
 </div>
 
 <div class="method-row">
 
 #### [getLocationGroupType](/reference/services/SoftLayer_Location_Group_Regional/getLocationGroupType)
 Retrieve the type for this location group.
+
 </div>
 
 <div class="method-row">
 
 #### [getLocations](/reference/services/SoftLayer_Location_Group_Regional/getLocations)
 Retrieve the locations in a group.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Location_Group_Regional/getObject)
 Retrieve a SoftLayer_Location_Group_Regional record.
+
 </div>
 
 <div class="method-row">
 
 #### [getPreferredDatacenter](/reference/services/SoftLayer_Location_Group_Regional/getPreferredDatacenter)
 Retrieve the preferred datacenters of a group.
+
 </div>
 </div>
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Gateway_VersionUpgrade](/reference/services/SoftLayer_Network_Gateway_VersionUpgrade)::getObject
 
+
 Retrieve a SoftLayer_Network_Gateway_VersionUpgrade record.
 
 

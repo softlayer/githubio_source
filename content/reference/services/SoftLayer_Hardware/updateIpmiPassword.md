@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::updateIpmiPassword
 
+
 Update the root IPMI user password 
 
 

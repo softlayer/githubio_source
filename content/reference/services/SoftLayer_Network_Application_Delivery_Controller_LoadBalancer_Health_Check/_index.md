@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,29 +44,34 @@ classes:
 
 #### [getAttributes](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Check/getAttributes)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Check/getObject)
 Retrieve a SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Check record.
+
 </div>
 
 <div class="method-row">
 
 #### [getScaleLoadBalancers](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Check/getScaleLoadBalancers)
 Retrieve collection of scale load balancers that use this health check.
+
 </div>
 
 <div class="method-row">
 
 #### [getServices](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Check/getServices)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getType](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Check/getType)
+
 
 </div>
 </div>

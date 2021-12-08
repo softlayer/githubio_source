@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Media](/reference/services/SoftLayer_Account_Media)::getCreateUser
 
+
 Retrieve the customer user who created the media object.
 
 

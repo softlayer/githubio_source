@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network](/reference/services/SoftLayer_Network)::connectPrivateEndpointService
 
+
 Establishes a connection between the account and Service Endpoint networks.
 
 

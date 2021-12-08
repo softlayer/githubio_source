@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Workload_Citrix_Deployment](/reference/services/SoftLayer_Workload_Citrix_Deployment)::getVlan
 
+
 Retrieve it is the VLAN resource for the CVAD deployment.
 
 

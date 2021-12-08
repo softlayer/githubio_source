@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 SoftLayer billing info contains company billing information such as the last date a payment was made and the last time any billing information was update. Use the data returned by these methods with other API services to get more detailed information about your billing information. 
 
 Due to the sensitivity of your billing information we don't allow changing this data through the API. Please open a sales ticket in our customer portal if you need to change this information. 
@@ -44,11 +46,13 @@ Due to the sensitivity of your billing information we don't allow changing this 
 
 #### [getAccount](/reference/services/SoftLayer_Billing_Info/getAccount)
 Retrieve the SoftLayer customer account associated with this billing information.
+
 </div>
 
 <div class="method-row">
 
 #### [getAchInformation](/reference/services/SoftLayer_Billing_Info/getAchInformation)
+
 
 </div>
 
@@ -56,30 +60,35 @@ Retrieve the SoftLayer customer account associated with this billing information
 
 #### [getCurrency](/reference/services/SoftLayer_Billing_Info/getCurrency)
 Retrieve currency to be used by this customer account.
+
 </div>
 
 <div class="method-row">
 
 #### [getCurrentBillingCycle](/reference/services/SoftLayer_Billing_Info/getCurrentBillingCycle)
 Retrieve information related to an account's current and previous billing cycles.
+
 </div>
 
 <div class="method-row">
 
 #### [getLastBillDate](/reference/services/SoftLayer_Billing_Info/getLastBillDate)
 Retrieve the date on which an account was last billed.
+
 </div>
 
 <div class="method-row">
 
 #### [getNextBillDate](/reference/services/SoftLayer_Billing_Info/getNextBillDate)
 Retrieve the date on which an account will be billed next.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Billing_Info/getObject)
 Retrieve a SoftLayer_Billing_Info record.
+
 </div>
 </div>
 

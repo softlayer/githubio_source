@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Represents the status of an SSL certificate request. 
 
 
@@ -45,7 +47,8 @@ Represents the status of an SSL certificate request.
 [description]: #description
 #### [description]
 The description of a SSL certificate request status  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The description of a SSL certificate request status
 [id]: #id
 #### [id]
 The internal identifier of an SSL certificate request status  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The internal identifier of an SSL certificate request status
 [name]: #name
 #### [name]
 The status name  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

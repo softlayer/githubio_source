@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getReplicationStatus
 
+
 Retrieve the current replication status of a network storage volume. Indicates Failover or Failback status.
 
 

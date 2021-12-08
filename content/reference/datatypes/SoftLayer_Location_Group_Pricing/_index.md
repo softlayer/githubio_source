@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [description]: #description
 #### [description]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ classes:
 [id]: #id
 #### [id]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ classes:
 [locationGroupTypeId]: #locationgrouptypeid
 #### [locationGroupTypeId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ classes:
 [name]: #name
 #### [name]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ classes:
 [securityLevelId]: #securitylevelid
 #### [securityLevelId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ classes:
 [locationGroupType]: #locationgrouptype
 #### [locationGroupType]
 The type for this location group.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Group_Type'>SoftLayer_Location_Group_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location_Group_Type'>SoftLayer_Location_Group_Type </a>**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ The type for this location group.
 [locations]: #locations
 #### [locations]
 The locations that this pricing location group is applicable for. This limits the locations that the prices referenced by this pricing location group can be used with.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ The locations that this pricing location group is applicable for. This limits th
 [prices]: #prices
 #### [prices]
 The prices that this pricing location group limits. All of these prices will only be available in the locations defined by this pricing location group.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a>**  
+
 
 
 </div>
@@ -133,7 +143,8 @@ The prices that this pricing location group limits. All of these prices will onl
 [locationCount]: #locationcount
 #### [locationCount]
 A count of the locations that this pricing location group is applicable for. This limits the locations that the prices referenced by this pricing location group can be used with.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -143,7 +154,8 @@ A count of the locations that this pricing location group is applicable for. Thi
 [priceCount]: #pricecount
 #### [priceCount]
 A count of the prices that this pricing location group limits. All of these prices will only be available in the locations defined by this pricing location group.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

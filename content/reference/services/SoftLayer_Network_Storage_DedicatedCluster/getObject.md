@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_DedicatedCluster](/reference/services/SoftLayer_Network_Storage_DedicatedCluster)::getObject
 
+
 Retrieve a SoftLayer_Network_Storage_DedicatedCluster record.
 
 

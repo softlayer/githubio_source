@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This is the datatype that can be populated by the customer to provide license key information for VMware orders. 
 
 
@@ -51,7 +53,8 @@ This is the datatype that can be populated by the customer to provide license ke
 [key]: #key
 #### [key]
 The license key  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -61,7 +64,8 @@ The license key
 [name]: #name
 #### [name]
 The name of the product (e.g. vcenter, nsx, vsphere, vsan)  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ The name of the product (e.g. vcenter, nsx, vsphere, vsan)
 [type]: #type
 #### [type]
 The license type  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

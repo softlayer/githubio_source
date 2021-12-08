@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 The SoftLayer_Network_LBaaS_Listener API service allows consumers to add, edit and delete load balancers protocols for front- and backends. In order to retrieve list of front- and backends protocols please refer to [SoftLayer_Network_LBaaS_LoadBalancer]({{<ref "reference/datatypes/SoftLayer_Network_LBaaS_LoadBalancer">}}) service. A listener object specifies the protocol and port of allowed incoming network requests and the maximum number of accepted connections. It has references to its associated load balancer and default pool object. 
 
 
@@ -42,11 +44,13 @@ The SoftLayer_Network_LBaaS_Listener API service allows consumers to add, edit a
 
 #### [deleteLoadBalancerProtocols](/reference/services/SoftLayer_Network_LBaaS_Listener/deleteLoadBalancerProtocols)
 Delete load balancers front- and backend protocols
+
 </div>
 
 <div class="method-row">
 
 #### [getDefaultPool](/reference/services/SoftLayer_Network_LBaaS_Listener/getDefaultPool)
+
 
 </div>
 
@@ -54,18 +58,21 @@ Delete load balancers front- and backend protocols
 
 #### [getL7Policies](/reference/services/SoftLayer_Network_LBaaS_Listener/getL7Policies)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_LBaaS_Listener/getObject)
 Retrieve a SoftLayer_Network_LBaaS_Listener record.
+
 </div>
 
 <div class="method-row">
 
 #### [updateLoadBalancerProtocols](/reference/services/SoftLayer_Network_LBaaS_Listener/updateLoadBalancerProtocols)
 Update/create load balancers protocols
+
 </div>
 </div>
 

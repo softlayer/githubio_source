@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Protocol intended for use in secure communications
 
 
@@ -50,7 +52,8 @@ Protocol intended for use in secure communications
 [keyName]: #keyname
 #### [keyName]
 Unique identifier for the protocol  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ Unique identifier for the protocol
 [supportedSecureTransportCiphers]: #supportedsecuretransportciphers
 #### [supportedSecureTransportCiphers]
 List of the supported encryption ciphers  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Security_SecureTransportCipher'>SoftLayer_Security_SecureTransportCipher[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Security_SecureTransportCipher'>SoftLayer_Security_SecureTransportCipher[] </a>**  
+
 
 
 </div>

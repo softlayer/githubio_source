@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest_Block_Device_Template_Group](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group)::getAccountReferences
 
+
 Retrieve the accounts which may have read-only access to an image template group. Will only be populated for parent template group objects.
 
 

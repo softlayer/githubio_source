@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Historical Summary Container for account resource details 
 
 
@@ -45,7 +47,8 @@ Historical Summary Container for account resource details
 [details]: #details
 #### [details]
 Array of server uptime detail containers  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_Historical_Summary_Detail'>SoftLayer_Container_Account_Historical_Summary_Detail[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Account_Historical_Summary_Detail'>SoftLayer_Container_Account_Historical_Summary_Detail[] </a>**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Array of server uptime detail containers
 [endDate]: #enddate
 #### [endDate]
 The maximum date included in the summary.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The maximum date included in the summary.
 [startDate]: #startdate
 #### [startDate]
 The minimum date included in the summary.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>

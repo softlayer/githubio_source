@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Regional_Registry_Detail](/reference/services/SoftLayer_Account_Regional_Registry_Detail)::updateReferencedRegistrations
 
+
 Create a transaction to update the registrations that reference this detail object.
 
 

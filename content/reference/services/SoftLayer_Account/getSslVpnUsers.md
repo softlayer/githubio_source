@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getSslVpnUsers
 
+
 Retrieve an account's associated portal users with SSL VPN access.
 
 

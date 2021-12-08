@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Hardware_Status models the inventory state of any piece of hardware in SoftLayer's inventory. Most of these statuses are used by SoftLayer while a server is not provisioned or undergoing provisioning. SoftLayer uses the following status codes: 
 
 
@@ -65,7 +67,8 @@ Servers in production and in use should stay in the ACTIVE state. If a server's 
 [id]: #id
 #### [id]
 A hardware status' internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +78,8 @@ A hardware status' internal identifier.
 [status]: #status
 #### [status]
 A hardware's status code. See the SoftLayer_Hardware_Status Overview for ''status''' possible values.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

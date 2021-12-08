@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Host](/reference/services/SoftLayer_Virtual_Host)::getLiveGuestList
 
+
 Query a virtualization platform directly to retrieve a list of known guests. 
 
 

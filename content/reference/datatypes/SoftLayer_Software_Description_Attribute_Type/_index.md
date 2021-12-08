@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Software_Description_Attribute_Type data type represents the type of an attribute. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Software_Description_Attribute_Type data type represents the type 
 [keyname]: #keyname
 #### [keyname]
 The keyname for this attribute type.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

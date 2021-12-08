@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getFileCount
 
+
 Retrieve the file number of files in a Virtual Server Storage account's root directory.
 
 

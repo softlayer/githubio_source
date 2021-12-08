@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getFirewallServiceComponent
 
+
 Retrieve a computing instance's hardware firewall services.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getBackendNetworkComponents
 
+
 Retrieve a guests's backend network components.
 
 

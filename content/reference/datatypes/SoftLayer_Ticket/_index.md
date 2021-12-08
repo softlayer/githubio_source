@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Ticket data type models a single SoftLayer customer support or notification ticket. Each ticket object contains references to it's updates, the user it's assigned to, the SoftLayer department and employee that it's assigned to, and any hardware objects or attached files associated with the ticket. Tickets are described in further detail on the [SoftLayer_Ticket]({{<ref "reference/datatypes/SoftLayer_Ticket">}}) service page. 
 
 To create a support ticket execute the [SoftLayer_Ticket::createStandardTicket]({{<ref "reference/services/SoftLayer_Ticket/createStandardTicket">}}). 
@@ -65,7 +67,8 @@ To create a support ticket execute the [SoftLayer_Ticket::createStandardTicket](
 [accountId]: #accountid
 #### [accountId]
 An internal identifier of the SoftLayer customer account that a ticket is associated with.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +78,8 @@ An internal identifier of the SoftLayer customer account that a ticket is associ
 [assignedUserId]: #assigneduserid
 #### [assignedUserId]
 An internal identifier of the portal user that a ticket is assigned to.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +89,8 @@ An internal identifier of the portal user that a ticket is assigned to.
 [billableFlag]: #billableflag
 #### [billableFlag]
 Whether a ticket has a one-time charge associated with it. Standard tickets are free while administrative tickets typically cost $3 USD.   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -95,7 +100,8 @@ Whether a ticket has a one-time charge associated with it. Standard tickets are 
 [bnppSupportedLocationId]: #bnppsupportedlocationid
 #### [bnppSupportedLocationId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +111,8 @@ Whether a ticket has a one-time charge associated with it. Standard tickets are 
 [changeOwnerFlag]: #changeownerflag
 #### [changeOwnerFlag]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -115,7 +122,8 @@ Whether a ticket has a one-time charge associated with it. Standard tickets are 
 [createDate]: #createdate
 #### [createDate]
 The date that a ticket was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -125,7 +133,8 @@ The date that a ticket was created.
 [euSupportedLocationId]: #eusupportedlocationid
 #### [euSupportedLocationId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -135,7 +144,8 @@ The date that a ticket was created.
 [finalComments]: #finalcomments
 #### [finalComments]
 Feedback left by a portal or API user on their experiences in a ticket. Final comments may be created after a ticket is closed.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -145,7 +155,8 @@ Feedback left by a portal or API user on their experiences in a ticket. Final co
 [groupId]: #groupid
 #### [groupId]
 The internal identifier of the SoftLayer department that a ticket is assigned to.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -155,7 +166,8 @@ The internal identifier of the SoftLayer department that a ticket is assigned to
 [id]: #id
 #### [id]
 A ticket's internal identifier. Each ticket is defined by a unique identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -165,7 +177,8 @@ A ticket's internal identifier. Each ticket is defined by a unique identifier.
 [lastEditDate]: #lasteditdate
 #### [lastEditDate]
 The date that a ticket was last modified. A modification does not necessarily mean that an update was added.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -175,7 +188,8 @@ The date that a ticket was last modified. A modification does not necessarily me
 [lastEditType]: #lastedittype
 #### [lastEditType]
 The type of user who last edited or updated a ticket. This is either "EMPLOYEE" or "USER".  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -185,7 +199,8 @@ The type of user who last edited or updated a ticket. This is either "EMPLOYEE" 
 [lastResponseDate]: #lastresponsedate
 #### [lastResponseDate]
 The date that the last ticket update was made  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -195,7 +210,8 @@ The date that the last ticket update was made
 [locationId]: #locationid
 #### [locationId]
 The internal identifier of the location associated with a ticket.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -205,7 +221,8 @@ The internal identifier of the location associated with a ticket.
 [modifyDate]: #modifydate
 #### [modifyDate]
 The date that a ticket was last updated.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -215,7 +232,8 @@ The date that a ticket was last updated.
 [notifyUserOnUpdateFlag]: #notifyuseronupdateflag
 #### [notifyUserOnUpdateFlag]
 Whether or not the user who owns a ticket is notified via email when a ticket is updated.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -225,7 +243,8 @@ Whether or not the user who owns a ticket is notified via email when a ticket is
 [originatingIpAddress]: #originatingipaddress
 #### [originatingIpAddress]
 The IP address of the user who opened a ticket.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -235,7 +254,8 @@ The IP address of the user who opened a ticket.
 [priority]: #priority
 #### [priority]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -245,7 +265,8 @@ The IP address of the user who opened a ticket.
 [responsibleBrandId]: #responsiblebrandid
 #### [responsibleBrandId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -255,7 +276,8 @@ The IP address of the user who opened a ticket.
 [serverAdministrationBillingAmount]: #serveradministrationbillingamount
 #### [serverAdministrationBillingAmount]
 The amount of money in US Dollars ($USD) that a ticket has charged to an account. A ticket's administrative billing amount is a one time charge and only applies to administrative support tickets.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -265,7 +287,8 @@ The amount of money in US Dollars ($USD) that a ticket has charged to an account
 [serverAdministrationBillingInvoiceId]: #serveradministrationbillinginvoiceid
 #### [serverAdministrationBillingInvoiceId]
 The internal identifier of the invoice associated with a ticket's administrative charge. Only tickets with an administrative charge have an associated invoice.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -275,7 +298,8 @@ The internal identifier of the invoice associated with a ticket's administrative
 [serverAdministrationFlag]: #serveradministrationflag
 #### [serverAdministrationFlag]
 Whether a ticket is a standard or an administrative support ticket. Administrative support tickets typically incur a $3 USD charge.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -285,7 +309,8 @@ Whether a ticket is a standard or an administrative support ticket. Administrati
 [serverAdministrationRefundInvoiceId]: #serveradministrationrefundinvoiceid
 #### [serverAdministrationRefundInvoiceId]
 The internal identifier of the refund invoice associated with a ticket. Only tickets with an account refund associated with them have an associated refund invoice.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -295,7 +320,8 @@ The internal identifier of the refund invoice associated with a ticket. Only tic
 [serviceProviderId]: #serviceproviderid
 #### [serviceProviderId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -305,7 +331,8 @@ The internal identifier of the refund invoice associated with a ticket. Only tic
 [serviceProviderResourceId]: #serviceproviderresourceid
 #### [serviceProviderResourceId]
 A ticket's internal identifier at its service provider. Each ticket is defined by a unique identifier.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -315,7 +342,8 @@ A ticket's internal identifier at its service provider. Each ticket is defined b
 [statusId]: #statusid
 #### [statusId]
 A ticket status' internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -325,7 +353,8 @@ A ticket status' internal identifier.
 [subjectId]: #subjectid
 #### [subjectId]
 An internal identifier of the pre-set subject that a ticket is associated with. Standard support tickets have a subject set while administrative tickets have a null subject. A standard support ticket's title is the name of it's associated subject.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -335,7 +364,8 @@ An internal identifier of the pre-set subject that a ticket is associated with. 
 [title]: #title
 #### [title]
 A ticket's title. This is typically a brief summary of the issue described in the ticket.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -345,7 +375,8 @@ A ticket's title. This is typically a brief summary of the issue described in th
 [totalUpdateCount]: #totalupdatecount
 #### [totalUpdateCount]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -355,7 +386,8 @@ A ticket's title. This is typically a brief summary of the issue described in th
 [userEditableFlag]: #usereditableflag
 #### [userEditableFlag]
 Whether a user is able to update a ticket.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -371,7 +403,8 @@ Whether a user is able to update a ticket.
 [account]: #account
 #### [account]
 The SoftLayer customer account associated with a ticket.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -381,7 +414,8 @@ The SoftLayer customer account associated with a ticket.
 [assignedAgents]: #assignedagents
 #### [assignedAgents]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer[] </a>**  
+
 
 
 </div>
@@ -391,7 +425,8 @@ The SoftLayer customer account associated with a ticket.
 [assignedUser]: #assigneduser
 #### [assignedUser]
 The portal user that a ticket is assigned to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**  
+
 
 
 </div>
@@ -401,7 +436,8 @@ The portal user that a ticket is assigned to.
 [attachedAdditionalEmails]: #attachedadditionalemails
 #### [attachedAdditionalEmails]
 The list of additional emails to notify when a ticket update is made.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_AdditionalEmail'>SoftLayer_User_Customer_AdditionalEmail[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer_AdditionalEmail'>SoftLayer_User_Customer_AdditionalEmail[] </a>**  
+
 
 
 </div>
@@ -411,7 +447,8 @@ The list of additional emails to notify when a ticket update is made.
 [attachedDedicatedHosts]: #attacheddedicatedhosts
 #### [attachedDedicatedHosts]
 The Dedicated Hosts associated with a ticket. This is used in cases where a ticket is directly associated with one or more Dedicated Hosts.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_DedicatedHost'>SoftLayer_Virtual_DedicatedHost[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_DedicatedHost'>SoftLayer_Virtual_DedicatedHost[] </a>**  
+
 
 
 </div>
@@ -421,7 +458,8 @@ The Dedicated Hosts associated with a ticket. This is used in cases where a tick
 [attachedFiles]: #attachedfiles
 #### [attachedFiles]
 The files attached to a ticket.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Attachment_File'>SoftLayer_Ticket_Attachment_File[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Attachment_File'>SoftLayer_Ticket_Attachment_File[] </a>**  
+
 
 
 </div>
@@ -431,7 +469,8 @@ The files attached to a ticket.
 [attachedHardware]: #attachedhardware
 #### [attachedHardware]
 The hardware associated with a ticket. This is used in cases where a ticket is directly associated with one or more pieces of hardware.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**  
+
 
 
 </div>
@@ -441,7 +480,8 @@ The hardware associated with a ticket. This is used in cases where a ticket is d
 [attachedHardwareCount]: #attachedhardwarecount
 #### [attachedHardwareCount]
   
-<span class="type-label">Type: </span>**unsigned integer**
+<span class="type-label">Type: </span>**unsigned integer**  
+
 
 
 </div>
@@ -451,7 +491,8 @@ The hardware associated with a ticket. This is used in cases where a ticket is d
 [attachedResources]: #attachedresources
 #### [attachedResources]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Attachment'>SoftLayer_Ticket_Attachment[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Attachment'>SoftLayer_Ticket_Attachment[] </a>**  
+
 
 
 </div>
@@ -461,7 +502,8 @@ The hardware associated with a ticket. This is used in cases where a ticket is d
 [attachedVirtualGuests]: #attachedvirtualguests
 #### [attachedVirtualGuests]
 The virtual guests associated with a ticket. This is used in cases where a ticket is directly associated with one or more virtualized guests installations or Virtual Servers.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**  
+
 
 
 </div>
@@ -471,7 +513,8 @@ The virtual guests associated with a ticket. This is used in cases where a ticke
 [awaitingUserResponseFlag]: #awaitinguserresponseflag
 #### [awaitingUserResponseFlag]
 Ticket is waiting on a response from a customer flag.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -481,7 +524,8 @@ Ticket is waiting on a response from a customer flag.
 [bnppSupportedFlag]: #bnppsupportedflag
 #### [bnppSupportedFlag]
 A ticket's associated BNPP compliant record  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -491,7 +535,8 @@ A ticket's associated BNPP compliant record
 [cancellationRequest]: #cancellationrequest
 #### [cancellationRequest]
 A service cancellation request.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Request'>SoftLayer_Billing_Item_Cancellation_Request </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Request'>SoftLayer_Billing_Item_Cancellation_Request </a>**  
+
 
 
 </div>
@@ -501,7 +546,8 @@ A service cancellation request.
 [employeeAttachments]: #employeeattachments
 #### [employeeAttachments]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee[] </a>**  
+
 
 
 </div>
@@ -511,7 +557,8 @@ A service cancellation request.
 [euSupportedFlag]: #eusupportedflag
 #### [euSupportedFlag]
 A ticket's associated EU compliant record  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -521,7 +568,8 @@ A ticket's associated EU compliant record
 [firstAttachedResource]: #firstattachedresource
 #### [firstAttachedResource]
 The first physical or virtual server attached to a ticket.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Attachment'>SoftLayer_Ticket_Attachment </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Attachment'>SoftLayer_Ticket_Attachment </a>**  
+
 
 
 </div>
@@ -531,7 +579,8 @@ The first physical or virtual server attached to a ticket.
 [firstUpdate]: #firstupdate
 #### [firstUpdate]
 The first update made to a ticket. This is typically the contents of a ticket when it's created.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Update'>SoftLayer_Ticket_Update </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Update'>SoftLayer_Ticket_Update </a>**  
+
 
 
 </div>
@@ -541,7 +590,8 @@ The first update made to a ticket. This is typically the contents of a ticket wh
 [fsboaSupportedFlag]: #fsboasupportedflag
 #### [fsboaSupportedFlag]
 A ticket's associated FSBOA compliant record  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -551,7 +601,8 @@ A ticket's associated FSBOA compliant record
 [group]: #group
 #### [group]
 The SoftLayer department that a ticket is assigned to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Group'>SoftLayer_Ticket_Group </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Group'>SoftLayer_Ticket_Group </a>**  
+
 
 
 </div>
@@ -561,7 +612,8 @@ The SoftLayer department that a ticket is assigned to.
 [invoiceItems]: #invoiceitems
 #### [invoiceItems]
 The invoice items associated with a ticket. Ticket based invoice items only exist when a ticket incurs a fee that has been invoiced.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice_Item'>SoftLayer_Billing_Invoice_Item[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice_Item'>SoftLayer_Billing_Invoice_Item[] </a>**  
+
 
 
 </div>
@@ -571,7 +623,8 @@ The invoice items associated with a ticket. Ticket based invoice items only exis
 [lastActivity]: #lastactivity
 #### [lastActivity]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Activity'>SoftLayer_Ticket_Activity </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Activity'>SoftLayer_Ticket_Activity </a>**  
+
 
 
 </div>
@@ -581,7 +634,8 @@ The invoice items associated with a ticket. Ticket based invoice items only exis
 [lastEditor]: #lasteditor
 #### [lastEditor]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Interface'>SoftLayer_User_Interface </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Interface'>SoftLayer_User_Interface </a>**  
+
 
 
 </div>
@@ -591,7 +645,8 @@ The invoice items associated with a ticket. Ticket based invoice items only exis
 [lastUpdate]: #lastupdate
 #### [lastUpdate]
 The last update made to a ticket.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Update'>SoftLayer_Ticket_Update </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Update'>SoftLayer_Ticket_Update </a>**  
+
 
 
 </div>
@@ -601,7 +656,8 @@ The last update made to a ticket.
 [location]: #location
 #### [location]
 A ticket's associated location within the SoftLayer location hierarchy.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**  
+
 
 
 </div>
@@ -611,7 +667,8 @@ A ticket's associated location within the SoftLayer location hierarchy.
 [newUpdatesFlag]: #newupdatesflag
 #### [newUpdatesFlag]
 True if there are new, unread updates to this ticket for the current user, False otherwise.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -621,7 +678,8 @@ True if there are new, unread updates to this ticket for the current user, False
 [scheduledActions]: #scheduledactions
 #### [scheduledActions]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction'>SoftLayer_Provisioning_Version1_Transaction[] </a>**  
+
 
 
 </div>
@@ -631,7 +689,8 @@ True if there are new, unread updates to this ticket for the current user, False
 [serverAdministrationBillingInvoice]: #serveradministrationbillinginvoice
 #### [serverAdministrationBillingInvoice]
 The invoice associated with a ticket. Only tickets with an associated administrative charge have an invoice.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice'>SoftLayer_Billing_Invoice </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice'>SoftLayer_Billing_Invoice </a>**  
+
 
 
 </div>
@@ -641,7 +700,8 @@ The invoice associated with a ticket. Only tickets with an associated administra
 [serverAdministrationRefundInvoice]: #serveradministrationrefundinvoice
 #### [serverAdministrationRefundInvoice]
 The refund invoice associated with a ticket. Only tickets with a refund applied in them have an associated refund invoice.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice'>SoftLayer_Billing_Invoice </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice'>SoftLayer_Billing_Invoice </a>**  
+
 
 
 </div>
@@ -651,7 +711,8 @@ The refund invoice associated with a ticket. Only tickets with a refund applied 
 [serviceProvider]: #serviceprovider
 #### [serviceProvider]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Service_Provider'>SoftLayer_Service_Provider </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Service_Provider'>SoftLayer_Service_Provider </a>**  
+
 
 
 </div>
@@ -661,7 +722,8 @@ The refund invoice associated with a ticket. Only tickets with a refund applied 
 [state]: #state
 #### [state]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_State'>SoftLayer_Ticket_State[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_State'>SoftLayer_Ticket_State[] </a>**  
+
 
 
 </div>
@@ -671,7 +733,8 @@ The refund invoice associated with a ticket. Only tickets with a refund applied 
 [status]: #status
 #### [status]
 A ticket's status.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Status'>SoftLayer_Ticket_Status </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Status'>SoftLayer_Ticket_Status </a>**  
+
 
 
 </div>
@@ -681,7 +744,8 @@ A ticket's status.
 [subject]: #subject
 #### [subject]
 A ticket's subject. Only standard support tickets have an associated subject. A standard support ticket's title corresponds with it's subject's name.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Subject'>SoftLayer_Ticket_Subject </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Subject'>SoftLayer_Ticket_Subject </a>**  
+
 
 
 </div>
@@ -691,7 +755,8 @@ A ticket's subject. Only standard support tickets have an associated subject. A 
 [tagReferences]: #tagreferences
 #### [tagReferences]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Tag_Reference'>SoftLayer_Tag_Reference[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Tag_Reference'>SoftLayer_Tag_Reference[] </a>**  
+
 
 
 </div>
@@ -701,7 +766,8 @@ A ticket's subject. Only standard support tickets have an associated subject. A 
 [updateRatingFlag]: #updateratingflag
 #### [updateRatingFlag]
 Whether employees' updates of this ticket could be rated by customer  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -711,7 +777,8 @@ Whether employees' updates of this ticket could be rated by customer
 [updates]: #updates
 #### [updates]
 A ticket's updates.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Update'>SoftLayer_Ticket_Update[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Update'>SoftLayer_Ticket_Update[] </a>**  
+
 
 
 </div>
@@ -723,7 +790,8 @@ A ticket's updates.
 [assignedAgentCount]: #assignedagentcount
 #### [assignedAgentCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -733,7 +801,8 @@ A count of
 [attachedAdditionalEmailCount]: #attachedadditionalemailcount
 #### [attachedAdditionalEmailCount]
 A count of the list of additional emails to notify when a ticket update is made.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -743,7 +812,8 @@ A count of the list of additional emails to notify when a ticket update is made.
 [attachedDedicatedHostCount]: #attacheddedicatedhostcount
 #### [attachedDedicatedHostCount]
 A count of the Dedicated Hosts associated with a ticket. This is used in cases where a ticket is directly associated with one or more Dedicated Hosts.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -753,7 +823,8 @@ A count of the Dedicated Hosts associated with a ticket. This is used in cases w
 [attachedFileCount]: #attachedfilecount
 #### [attachedFileCount]
 A count of the files attached to a ticket.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -763,7 +834,8 @@ A count of the files attached to a ticket.
 [attachedResourceCount]: #attachedresourcecount
 #### [attachedResourceCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -773,7 +845,8 @@ A count of
 [attachedVirtualGuestCount]: #attachedvirtualguestcount
 #### [attachedVirtualGuestCount]
 A count of the virtual guests associated with a ticket. This is used in cases where a ticket is directly associated with one or more virtualized guests installations or Virtual Servers.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -783,7 +856,8 @@ A count of the virtual guests associated with a ticket. This is used in cases wh
 [employeeAttachmentCount]: #employeeattachmentcount
 #### [employeeAttachmentCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -793,7 +867,8 @@ A count of
 [invoiceItemCount]: #invoiceitemcount
 #### [invoiceItemCount]
 A count of the invoice items associated with a ticket. Ticket based invoice items only exist when a ticket incurs a fee that has been invoiced.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -803,7 +878,8 @@ A count of the invoice items associated with a ticket. Ticket based invoice item
 [scheduledActionCount]: #scheduledactioncount
 #### [scheduledActionCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -813,7 +889,8 @@ A count of
 [stateCount]: #statecount
 #### [stateCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -823,7 +900,8 @@ A count of
 [tagReferenceCount]: #tagreferencecount
 #### [tagReferenceCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -833,7 +911,8 @@ A count of
 [updateCount]: #updatecount
 #### [updateCount]
 A count of a ticket's updates.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

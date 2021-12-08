@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [address1]: #address1
 #### [address1]
 Line 1 of the address - typically the number and street address the MDMS device will be delivered to  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Line 1 of the address - typically the number and street address the MDMS device 
 [address2]: #address2
 #### [address2]
 Line 2 of the address  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Line 2 of the address
 [addressAttention]: #addressattention
 #### [addressAttention]
 First and last name of the customer on the shipping address  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ First and last name of the customer on the shipping address
 [addressNickname]: #addressnickname
 #### [addressNickname]
 The datacenter name where the MDMS device will be shipped to  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The datacenter name where the MDMS device will be shipped to
 [city]: #city
 #### [city]
 The shipping address city  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The shipping address city
 [companyName]: #companyname
 #### [companyName]
 Name of the company device is being shipped to  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ Name of the company device is being shipped to
 [country]: #country
 #### [country]
 The shipping address country  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ The shipping address country
 [postalCode]: #postalcode
 #### [postalCode]
 The shipping address postal code  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ The shipping address postal code
 [state]: #state
 #### [state]
 The shipping address state  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

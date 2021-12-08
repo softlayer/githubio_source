@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Scale_Group](/reference/services/SoftLayer_Scale_Group)::scale
 
+
 Scale this group up or down by the amount given. 
 
 

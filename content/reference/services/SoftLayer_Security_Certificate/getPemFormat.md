@@ -16,6 +16,7 @@ aliases:
 
 
 
+
 ## Overview 
 Retrieve the certificate in PEM (Privacy Enhanced Mail) format, which is a string containing all base64 encoded (DER) certificates delimited by -----BEGIN/END *----- clauses. 
 

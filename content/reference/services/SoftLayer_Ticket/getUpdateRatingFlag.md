@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getUpdateRatingFlag
 
+
 Retrieve whether employees' updates of this ticket could be rated by customer
 
 

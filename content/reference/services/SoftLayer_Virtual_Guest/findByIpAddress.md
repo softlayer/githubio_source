@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::findByIpAddress
 
+
 Find CCI by its primary public or private IP (ipv4) address.
 
 

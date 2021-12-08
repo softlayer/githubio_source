@@ -16,6 +16,7 @@ aliases:
 
 
 
+
 ## Overview 
 Returns the Gbps capacity of the gateway object 
 

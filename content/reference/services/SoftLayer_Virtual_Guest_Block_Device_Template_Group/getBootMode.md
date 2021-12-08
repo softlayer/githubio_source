@@ -16,6 +16,7 @@ aliases:
 
 
 
+
 ## Overview 
 This method returns the boot mode, if any, set on a given image template. 
 

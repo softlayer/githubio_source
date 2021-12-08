@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 SoftLayer gives customers the ability to manage vulnerability scans for each of their servers.  This service provides the ability to create a new scan request, view the status of a current request, and finally view the report of a finished scan. 
 
 A vulnerability scan attempts to find potential security problems on a server by first searching for open ports and the services that run on them.  If any services are found the scanner will then check for version and patch information of each service found.  Lastly, the scanner will use the information gathered to search its database of known vulnerabilities and generate a report. Reports typically take five to ten minutes to run but allow for up to thirty minutes in rare cases. 
@@ -64,48 +66,56 @@ If you have a firewall, SoftLayer's administrative networks need to be allowed f
 
 #### [createObject](/reference/services/SoftLayer_Network_Security_Scanner_Request/createObject)
 Create a new vulnerability scan request.
+
 </div>
 
 <div class="method-row">
 
 #### [getAccount](/reference/services/SoftLayer_Network_Security_Scanner_Request/getAccount)
 Retrieve the account associated with a security scan request.
+
 </div>
 
 <div class="method-row">
 
 #### [getGuest](/reference/services/SoftLayer_Network_Security_Scanner_Request/getGuest)
 Retrieve the virtual guest a security scan is run against.
+
 </div>
 
 <div class="method-row">
 
 #### [getHardware](/reference/services/SoftLayer_Network_Security_Scanner_Request/getHardware)
 Retrieve the hardware a security scan is run against.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Security_Scanner_Request/getObject)
 Retrieve a SoftLayer_Network_Security_Scanner_Request record.
+
 </div>
 
 <div class="method-row">
 
 #### [getReport](/reference/services/SoftLayer_Network_Security_Scanner_Request/getReport)
 Get the vulnerability report for a scan request.
+
 </div>
 
 <div class="method-row">
 
 #### [getRequestorOwnedFlag](/reference/services/SoftLayer_Network_Security_Scanner_Request/getRequestorOwnedFlag)
 Retrieve flag whether the requestor owns the hardware the scan was run on. This flag will  return for hardware servers only, virtual servers will result in a null return even if you have  a request out for them.
+
 </div>
 
 <div class="method-row">
 
 #### [getStatus](/reference/services/SoftLayer_Network_Security_Scanner_Request/getStatus)
 Retrieve a security scan request's status.
+
 </div>
 </div>
 

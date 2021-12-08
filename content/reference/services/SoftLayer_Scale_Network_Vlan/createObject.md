@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Scale_Network_Vlan](/reference/services/SoftLayer_Scale_Network_Vlan)::createObject
 
+
 Create a network VLAN for a scale group. Once created, the VLAN will be used to scale with. 
 
 

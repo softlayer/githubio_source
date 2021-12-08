@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Billing_Item_Cancellation_Request_Status data type represents the status of a service cancellation request. 
 
 
@@ -45,7 +47,8 @@ SoftLayer_Billing_Item_Cancellation_Request_Status data type represents the stat
 [description]: #description
 #### [description]
 The short description of a cancellation request status  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The short description of a cancellation request status
 [id]: #id
 #### [id]
 The internal identifier of a cancellation request status.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The internal identifier of a cancellation request status.
 [keyName]: #keyname
 #### [keyName]
 status key name  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ status key name
 [name]: #name
 #### [name]
 The status name  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

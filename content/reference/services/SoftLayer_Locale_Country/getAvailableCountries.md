@@ -16,6 +16,7 @@ aliases:
 
 
 
+
 ## Overview 
 Use this method to retrieve a list of countries and locale information available to the current user. 
 

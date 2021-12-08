@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Tunnel_Module_Context](/reference/services/SoftLayer_Network_Tunnel_Module_Context)::getStaticRouteSubnets
 
+
 Retrieve subnets used for a network tunnel's address translations.
 
 

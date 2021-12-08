@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Application_Delivery_Controller](/reference/services/SoftLayer_Network_Application_Delivery_Controller)::getLiveLoadBalancerServiceGraphImage
 
+
 Get the connection or status graph image for an application delivery controller service.
 
 

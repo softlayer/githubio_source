@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Shipment](/reference/services/SoftLayer_Account_Shipment)::getType
 
+
 Retrieve the type of shipment (e.g. for Data Transfer Service or Colocation Service).
 
 

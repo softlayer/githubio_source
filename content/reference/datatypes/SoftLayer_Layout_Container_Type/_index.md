@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Layout_Container_Type contains definitions for container types 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Layout_Container_Type contains definitions for container types
 [id]: #id
 #### [id]
 The internal identifier of the container type  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The internal identifier of the container type
 [keyname]: #keyname
 #### [keyname]
 The unique key name of the container type, used primarily for programmatic purposes  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The unique key name of the container type, used primarily for programmatic purpo
 [name]: #name
 #### [name]
 The friendly name of the container type  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

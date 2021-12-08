@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This class is used to organize categories for a service offering. A service offering (usually) contains multiple categories (e.g., server, os, disk0, ram). This class allows us to organize the prices into related item category groups. 
 
 
@@ -45,7 +47,8 @@ This class is used to organize categories for a service offering. A service offe
 [itemCategoryId]: #itemcategoryid
 #### [itemCategoryId]
 The item category id associated with this group.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The item category id associated with this group.
 [packageId]: #packageid
 #### [packageId]
 The service offering id associated with this group.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The service offering id associated with this group.
 [sort]: #sort
 #### [sort]
 The sort value for this group.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The sort value for this group.
 [title]: #title
 #### [title]
 An optional title associated with this group. E.g., for operating systems, this will be the manufacturer.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ An optional title associated with this group. E.g., for operating systems, this 
 [category]: #category
 #### [category]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category </a>**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ An optional title associated with this group. E.g., for operating systems, this 
 [package]: #package
 #### [package]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package </a>**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ An optional title associated with this group. E.g., for operating systems, this 
 [prices]: #prices
 #### [prices]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a>**  
+
 
 
 </div>
@@ -123,7 +132,8 @@ An optional title associated with this group. E.g., for operating systems, this 
 [priceCount]: #pricecount
 #### [priceCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

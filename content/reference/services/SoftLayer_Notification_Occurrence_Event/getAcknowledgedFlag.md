@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Notification_Occurrence_Event](/reference/services/SoftLayer_Notification_Occurrence_Event)::getAcknowledgedFlag
 
+
 Retrieve indicates whether or not this event has been acknowledged by the user.
 
 

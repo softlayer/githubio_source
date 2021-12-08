@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getUplinkComponent
 
+
 Retrieve the network component linking this object to parent
 
 

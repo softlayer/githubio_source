@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getActiveAccountLicenses
 
+
 Retrieve the active account software licenses owned by an account
 
 

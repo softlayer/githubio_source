@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This class represents a Proof of Concept account approver type. The current roles are Primary and Backup approvers. 
 
 
@@ -45,7 +47,8 @@ This class represents a Proof of Concept account approver type. The current role
 [description]: #description
 #### [description]
 Description of a Proof of Concept account approver role.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Description of a Proof of Concept account approver role.
 [id]: #id
 #### [id]
 Internal identifier of a Proof of Concept account approver role.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Internal identifier of a Proof of Concept account approver role.
 [keyName]: #keyname
 #### [keyName]
 Key name of a Proof of Concept account approver role.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Key name of a Proof of Concept account approver role.
 [name]: #name
 #### [name]
 Name of a Proof of Concept account approver role.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

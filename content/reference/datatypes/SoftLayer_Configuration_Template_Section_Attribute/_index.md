@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Configuration section attribute class contains supplementary information for a configuration section. 
 
 
@@ -45,7 +47,8 @@ Configuration section attribute class contains supplementary information for a c
 [value]: #value
 #### [value]
 Value of a configuration section attribute  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -61,7 +64,8 @@ Value of a configuration section attribute
 [configurationSection]: #configurationsection
 #### [configurationSection]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section'>SoftLayer_Configuration_Template_Section </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section'>SoftLayer_Configuration_Template_Section </a>**  
+
 
 
 </div>

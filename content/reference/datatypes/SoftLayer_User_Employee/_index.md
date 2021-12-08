@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 A SoftLayer_User_Employee models a single SoftLayer employee for the purposes of ticket updates created by SoftLayer employees. SoftLayer portal and API users cannot see individual employee names in ticket responses.  SoftLayer employees can be assigned to customer accounts as a personal support representative.  Employee names and email will be available if an employee is assigned to the account. 
 
 
@@ -55,7 +57,8 @@ A SoftLayer_User_Employee models a single SoftLayer employee for the purposes of
 [displayName]: #displayname
 #### [displayName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +68,8 @@ A SoftLayer_User_Employee models a single SoftLayer employee for the purposes of
 [email]: #email
 #### [email]
 A SoftLayer employee's email address. Email addresses are only visible to [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}) that are assigned to an employee   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +79,8 @@ A SoftLayer employee's email address. Email addresses are only visible to [SoftL
 [employeeDepartmentId]: #employeedepartmentid
 #### [employeeDepartmentId]
 A SoftLayer employee's [SoftLayer_User_Employee_Department]({{<ref "reference/datatypes/SoftLayer_User_Employee_Department">}}) id.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +90,8 @@ A SoftLayer employee's [SoftLayer_User_Employee_Department]({{<ref "reference/da
 [firstName]: #firstname
 #### [firstName]
 A SoftLayer employee's first name. First names are only visible to [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}) that are assigned to an employee   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +101,8 @@ A SoftLayer employee's first name. First names are only visible to [SoftLayer_Ac
 [lastName]: #lastname
 #### [lastName]
 A SoftLayer employee's last name. Last names are only visible to [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}) that are assigned to an employee   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +112,8 @@ A SoftLayer employee's last name. Last names are only visible to [SoftLayer_Acco
 [username]: #username
 #### [username]
 A representation of a SoftLayer employee's username.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -121,7 +129,8 @@ A representation of a SoftLayer employee's username.
 [chatTranscript]: #chattranscript
 #### [chatTranscript]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Chat'>SoftLayer_Ticket_Chat[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Chat'>SoftLayer_Ticket_Chat[] </a>**  
+
 
 
 </div>
@@ -131,7 +140,8 @@ A representation of a SoftLayer employee's username.
 [employeeDepartment]: #employeedepartment
 #### [employeeDepartment]
 The department that a SoftLayer employee belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Employee_Department'>SoftLayer_User_Employee_Department </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Employee_Department'>SoftLayer_User_Employee_Department </a>**  
+
 
 
 </div>
@@ -141,7 +151,8 @@ The department that a SoftLayer employee belongs to.
 [layoutProfiles]: #layoutprofiles
 #### [layoutProfiles]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Profile'>SoftLayer_Layout_Profile[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Profile'>SoftLayer_Layout_Profile[] </a>**  
+
 
 
 </div>
@@ -151,7 +162,8 @@ The department that a SoftLayer employee belongs to.
 [metricTrackingObject]: #metrictrackingobject
 #### [metricTrackingObject]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object'>SoftLayer_Metric_Tracking_Object </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object'>SoftLayer_Metric_Tracking_Object </a>**  
+
 
 
 </div>
@@ -161,7 +173,8 @@ The department that a SoftLayer employee belongs to.
 [securityLevels]: #securitylevels
 #### [securityLevels]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Security_Level'>SoftLayer_Security_Level[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Security_Level'>SoftLayer_Security_Level[] </a>**  
+
 
 
 </div>
@@ -171,7 +184,8 @@ The department that a SoftLayer employee belongs to.
 [ticketActivities]: #ticketactivities
 #### [ticketActivities]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Activity'>SoftLayer_Ticket_Activity[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Activity'>SoftLayer_Ticket_Activity[] </a>**  
+
 
 
 </div>
@@ -181,7 +195,8 @@ The department that a SoftLayer employee belongs to.
 [ticketAttachmentReferences]: #ticketattachmentreferences
 #### [ticketAttachmentReferences]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Attachment'>SoftLayer_Ticket_Attachment[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Attachment'>SoftLayer_Ticket_Attachment[] </a>**  
+
 
 
 </div>
@@ -193,7 +208,8 @@ The department that a SoftLayer employee belongs to.
 [chatTranscriptCount]: #chattranscriptcount
 #### [chatTranscriptCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -203,7 +219,8 @@ A count of
 [layoutProfileCount]: #layoutprofilecount
 #### [layoutProfileCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -213,7 +230,8 @@ A count of
 [securityLevelCount]: #securitylevelcount
 #### [securityLevelCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -223,7 +241,8 @@ A count of
 [ticketActivityCount]: #ticketactivitycount
 #### [ticketActivityCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -233,7 +252,8 @@ A count of
 [ticketAttachmentReferenceCount]: #ticketattachmentreferencecount
 #### [ticketAttachmentReferenceCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

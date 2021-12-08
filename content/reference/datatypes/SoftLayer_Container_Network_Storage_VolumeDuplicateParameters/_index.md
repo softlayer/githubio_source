@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Container for Volume Duplicate Information 
 
 
@@ -45,7 +47,8 @@ Container for Volume Duplicate Information
 [iopsPerGb]: #iopspergb
 #### [iopsPerGb]
 The iopsPerGB of the volume  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The iopsPerGB of the volume
 [isDuplicatable]: #isduplicatable
 #### [isDuplicatable]
 Returns true if volume can be duplicated; false otherwise  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Returns true if volume can be duplicated; false otherwise
 [locationId]: #locationid
 #### [locationId]
 This represents the location id  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ This represents the location id
 [locationName]: #locationname
 #### [locationName]
 This represents the location name  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ This represents the location name
 [maximumIopsPerGb]: #maximumiopspergb
 #### [maximumIopsPerGb]
 The maximumIopsPerGb allowed for a duplicated volume  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The maximumIopsPerGb allowed for a duplicated volume
 [maximumIopsTier]: #maximumiopstier
 #### [maximumIopsTier]
 The maximumIopsTier allowed for a duplicated volume  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The maximumIopsTier allowed for a duplicated volume
 [maximumVolumeSize]: #maximumvolumesize
 #### [maximumVolumeSize]
 The maximumVolumeSize allowed for a duplicated volume  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ The maximumVolumeSize allowed for a duplicated volume
 [minimumIopsPerGb]: #minimumiopspergb
 #### [minimumIopsPerGb]
 The minimumIopsPerGb allowed for a duplicated volume  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ The minimumIopsPerGb allowed for a duplicated volume
 [minimumIopsTier]: #minimumiopstier
 #### [minimumIopsTier]
 The minimumIopsTier allowed for a duplicated volume  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ The minimumIopsTier allowed for a duplicated volume
 [minimumVolumeSize]: #minimumvolumesize
 #### [minimumVolumeSize]
 The minimumVolumeSize allowed for a duplicated volume  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -145,7 +157,8 @@ The minimumVolumeSize allowed for a duplicated volume
 [status]: #status
 #### [status]
 The volume duplicate status description  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -155,7 +168,8 @@ The volume duplicate status description
 [volumeUsername]: #volumeusername
 #### [volumeUsername]
 This represents the volume username  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

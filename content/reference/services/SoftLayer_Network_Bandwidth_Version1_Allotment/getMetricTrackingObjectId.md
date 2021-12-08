@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Bandwidth_Version1_Allotment](/reference/services/SoftLayer_Network_Bandwidth_Version1_Allotment)::getMetricTrackingObjectId
 
+
 Retrieve the metric tracking object id for this allotment.
 
 

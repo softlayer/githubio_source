@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 A single cipher configured for a load balancer virtual IP address instance. Instances of this class are immutable and should reflect a cipher that is configurable on a load balancer device. 
 
 
@@ -45,7 +47,8 @@ A single cipher configured for a load balancer virtual IP address instance. Inst
 [id]: #id
 #### [id]
 Unique identifier for the cipher instance  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Unique identifier for the cipher instance
 [keyName]: #keyname
 #### [keyName]
 Identifier for the associated encryption algorithm  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Identifier for the associated encryption algorithm
 [virtualIpAddressId]: #virtualipaddressid
 #### [virtualIpAddressId]
 Identifier for the associated [SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress]({{<ref "reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress">}}) instance   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ Identifier for the associated [SoftLayer_Network_Application_Delivery_Controller
 [virtualIpAddress]: #virtualipaddress
 #### [virtualIpAddress]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress </a>**  
+
 
 
 </div>

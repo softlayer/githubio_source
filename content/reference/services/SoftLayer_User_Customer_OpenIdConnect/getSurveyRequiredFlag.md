@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getSurveyRequiredFlag
 
+
 Retrieve whether or not a user must take a brief survey the next time they log into the SoftLayer customer portal.
 
 

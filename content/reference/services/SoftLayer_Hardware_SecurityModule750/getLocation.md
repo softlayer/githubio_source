@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getLocation
 
+
 Retrieve where a piece of hardware is located within SoftLayer's location hierarchy.
 
 

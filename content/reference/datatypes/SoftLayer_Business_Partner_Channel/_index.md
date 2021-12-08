@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Contains business partner channel information 
 
 
@@ -45,7 +47,8 @@ Contains business partner channel information
 [description]: #description
 #### [description]
 Business partner channel description   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Business partner channel description
 [keyName]: #keyname
 #### [keyName]
 Business partner channel name   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

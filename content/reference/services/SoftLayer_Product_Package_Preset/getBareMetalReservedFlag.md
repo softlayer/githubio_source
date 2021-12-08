@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Package_Preset](/reference/services/SoftLayer_Product_Package_Preset)::getBareMetalReservedFlag
 
+
 Retrieve when true this preset is for ordering a Bare Metal Reserved server.
 
 

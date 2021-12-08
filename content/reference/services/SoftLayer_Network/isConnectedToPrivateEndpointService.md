@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network](/reference/services/SoftLayer_Network)::isConnectedToPrivateEndpointService
 
+
 Checks the current Service Endpoint network connection status.
 
 

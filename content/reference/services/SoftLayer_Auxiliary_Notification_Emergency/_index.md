@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 The SoftLayer_Auxiliary_Notification_Emergency service is associated with all actions pertaining to the notification system.  It can be used to check for current network or service interruptions that effect SoftLayer services. 
 
 
@@ -42,30 +44,35 @@ The SoftLayer_Auxiliary_Notification_Emergency service is associated with all ac
 
 #### [getAllObjects](/reference/services/SoftLayer_Auxiliary_Notification_Emergency/getAllObjects)
 Retrieve all notification events.
+
 </div>
 
 <div class="method-row">
 
 #### [getCurrentNotifications](/reference/services/SoftLayer_Auxiliary_Notification_Emergency/getCurrentNotifications)
 Retrieve current notification events.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Auxiliary_Notification_Emergency/getObject)
 Retrieve a SoftLayer_Auxiliary_Notification_Emergency record.
+
 </div>
 
 <div class="method-row">
 
 #### [getSignature](/reference/services/SoftLayer_Auxiliary_Notification_Emergency/getSignature)
 Retrieve the signature of the SoftLayer employee department associated with this notification.
+
 </div>
 
 <div class="method-row">
 
 #### [getStatus](/reference/services/SoftLayer_Auxiliary_Notification_Emergency/getStatus)
 Retrieve the status of this notification.
+
 </div>
 </div>
 

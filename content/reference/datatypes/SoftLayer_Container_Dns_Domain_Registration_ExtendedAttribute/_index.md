@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This container data type contains extended attributes information for a domain of country code TLD. 
 
 
@@ -50,7 +52,8 @@ This container data type contains extended attributes information for a domain o
 [childFlag]: #childflag
 #### [childFlag]
 Indicates if this is a child of another extended attribute.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ Indicates if this is a child of another extended attribute.
 [description]: #description
 #### [description]
 The description of an extended attribute.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -70,7 +74,8 @@ The description of an extended attribute.
 [name]: #name
 #### [name]
 The name of an extended attribute.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -80,7 +85,8 @@ The name of an extended attribute.
 [options]: #options
 #### [options]
 The collection of options for an extended attribute.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_ExtendedAttribute_Option'>SoftLayer_Container_Dns_Domain_Registration_ExtendedAttribute_Option[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_ExtendedAttribute_Option'>SoftLayer_Container_Dns_Domain_Registration_ExtendedAttribute_Option[] </a>**  
+
 
 
 </div>
@@ -90,7 +96,8 @@ The collection of options for an extended attribute.
 [requiredFlag]: #requiredflag
 #### [requiredFlag]
 Indicates if extended attribute is required.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -100,7 +107,8 @@ Indicates if extended attribute is required.
 [userDefinedFlag]: #userdefinedflag
 #### [userDefinedFlag]
 User defined indicates that the value is required from outside sources.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>

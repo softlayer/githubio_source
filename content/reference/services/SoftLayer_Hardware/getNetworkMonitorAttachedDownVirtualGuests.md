@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getNetworkMonitorAttachedDownVirtualGuests
 
+
 Retrieve virtual guests that are attached downstream to a hardware that have failed monitoring
 
 

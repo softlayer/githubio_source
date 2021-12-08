@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This datatype describes the item categories that are required for each package to be ordered. For instance, for package 2, there will be many required categories. When submitting an order for a server, there must be at most 1 price for each category whose "isRequired" is set. Examples of required categories: - server - ram - bandwidth - disk0 
 
 There are others, but these are the main ones. For each required category, a SoftLayer_Product_Item_Price must be chosen that is valid for the package. 
@@ -55,7 +57,8 @@ There are others, but these are the main ones. For each required category, a Sof
 [bundledFlag]: #bundledflag
 #### [bundledFlag]
 Signifies that selections associated with the configuration are automatically provided by being bundled to another configurations selection. The actual bundling is on the product.   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -65,7 +68,8 @@ Signifies that selections associated with the configuration are automatically pr
 [errorMessage]: #errormessage
 #### [errorMessage]
 The error message displayed if the submitted order does not contain this item category, if it is required.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +79,8 @@ The error message displayed if the submitted order does not contain this item ca
 [id]: #id
 #### [id]
 The unique identifier for this object.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +90,8 @@ The unique identifier for this object.
 [isRequired]: #isrequired
 #### [isRequired]
 This is a flag which tells SoftLayer_Product_Order::verifyOrder() whether or not this category is required. If this is set, then the order submitted must contain a SoftLayer_Product_Item_Price with this category as part of the order.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +101,8 @@ This is a flag which tells SoftLayer_Product_Order::verifyOrder() whether or not
 [itemCategoryId]: #itemcategoryid
 #### [itemCategoryId]
 The SoftLayer_Product_Item_Category.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +112,8 @@ The SoftLayer_Product_Item_Category.
 [orderStepId]: #orderstepid
 #### [orderStepId]
 The order step ID for this particular option in the package.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -115,7 +123,8 @@ The order step ID for this particular option in the package.
 [packageId]: #packageid
 #### [packageId]
 The PackageId tied to this instance.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -125,7 +134,8 @@ The PackageId tied to this instance.
 [sort]: #sort
 #### [sort]
 This is an integer used to show the order in which each item Category should be displayed. This is merely the suggested order.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -135,7 +145,8 @@ This is an integer used to show the order in which each item Category should be 
 [termFlag]: #termflag
 #### [termFlag]
 Whether or not the item category is term-based.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -151,7 +162,8 @@ Whether or not the item category is term-based.
 [itemCategory]: #itemcategory
 #### [itemCategory]
 The item category for this configuration instance.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category </a>**  
+
 
 
 </div>
@@ -161,7 +173,8 @@ The item category for this configuration instance.
 [package]: #package
 #### [package]
 The package to which this instance belongs.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package </a>**  
+
 
 
 </div>
@@ -171,7 +184,8 @@ The package to which this instance belongs.
 [step]: #step
 #### [step]
 The step to which this instance belongs.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Order_Step'>SoftLayer_Product_Package_Order_Step </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Order_Step'>SoftLayer_Product_Package_Order_Step </a>**  
+
 
 
 </div>

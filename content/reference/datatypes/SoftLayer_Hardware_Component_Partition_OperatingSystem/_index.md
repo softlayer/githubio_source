@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Hardware_Component_Partition_OperatingSystem data type contains general information relating to a single SoftLayer Operating System Partition Template. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Hardware_Component_Partition_OperatingSystem data type contains ge
 [description]: #description
 #### [description]
 A partition template operating system's description.  Typically the title of the Operating System.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ A partition template operating system's description.  Typically the title of the
 [id]: #id
 #### [id]
 A partition template operating system's id.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A partition template operating system's id.
 [notes]: #notes
 #### [notes]
 Information about the kinds of partition templates assigned to this operating system.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ Information about the kinds of partition templates assigned to this operating sy
 [partitionTemplates]: #partitiontemplates
 #### [partitionTemplates]
 Information regarding an operating system's [SoftLayer_Hardware_Component_Partition_Template]({{<ref "reference/datatypes/SoftLayer_Hardware_Component_Partition_Template">}}).  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Partition_Template'>SoftLayer_Hardware_Component_Partition_Template[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Partition_Template'>SoftLayer_Hardware_Component_Partition_Template[] </a>**  
+
 
 
 </div>
@@ -93,7 +99,8 @@ Information regarding an operating system's [SoftLayer_Hardware_Component_Partit
 [partitionTemplateCount]: #partitiontemplatecount
 #### [partitionTemplateCount]
 A count of information regarding an operating system's [SoftLayer_Hardware_Component_Partition_Template]({{<ref "reference/datatypes/SoftLayer_Hardware_Component_Partition_Template">}}).   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

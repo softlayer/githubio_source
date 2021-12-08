@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Container_Authentication_Response_Account data type contains account information for responses from the getPortalLogin API. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Container_Authentication_Response_Account data type contains accou
 [accountCompanyName]: #accountcompanyname
 #### [accountCompanyName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The SoftLayer_Container_Authentication_Response_Account data type contains accou
 [accountCountry]: #accountcountry
 #### [accountCountry]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The SoftLayer_Container_Authentication_Response_Account data type contains accou
 [accountId]: #accountid
 #### [accountId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The SoftLayer_Container_Authentication_Response_Account data type contains accou
 [accountStatusName]: #accountstatusname
 #### [accountStatusName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The SoftLayer_Container_Authentication_Response_Account data type contains accou
 [bluemixAccountId]: #bluemixaccountid
 #### [bluemixAccountId]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The SoftLayer_Container_Authentication_Response_Account data type contains accou
 [createDate]: #createdate
 #### [createDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The SoftLayer_Container_Authentication_Response_Account data type contains accou
 [defaultAccount]: #defaultaccount
 #### [defaultAccount]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ The SoftLayer_Container_Authentication_Response_Account data type contains accou
 [ipAddressCheckRequired]: #ipaddresscheckrequired
 #### [ipAddressCheckRequired]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ The SoftLayer_Container_Authentication_Response_Account data type contains accou
 [isMasterUserFlag]: #ismasteruserflag
 #### [isMasterUserFlag]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ The SoftLayer_Container_Authentication_Response_Account data type contains accou
 [modifyDate]: #modifydate
 #### [modifyDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -145,7 +157,8 @@ The SoftLayer_Container_Authentication_Response_Account data type contains accou
 [phoneFactorExternalAuthenticationRequired]: #phonefactorexternalauthenticationrequired
 #### [phoneFactorExternalAuthenticationRequired]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -155,7 +168,8 @@ The SoftLayer_Container_Authentication_Response_Account data type contains accou
 [securityQuestionRequired]: #securityquestionrequired
 #### [securityQuestionRequired]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -165,7 +179,8 @@ The SoftLayer_Container_Authentication_Response_Account data type contains accou
 [totpExternalAuthenticationRequired]: #totpexternalauthenticationrequired
 #### [totpExternalAuthenticationRequired]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -175,7 +190,8 @@ The SoftLayer_Container_Authentication_Response_Account data type contains accou
 [userId]: #userid
 #### [userId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -185,7 +201,8 @@ The SoftLayer_Container_Authentication_Response_Account data type contains accou
 [verisignExternalAuthenticationRequired]: #verisignexternalauthenticationrequired
 #### [verisignExternalAuthenticationRequired]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 The SoftLayer_Workload_Citrix_Response constructs a response object for [SoftLayer_Workload_Citrix_Order]({{<ref "reference/datatypes/SoftLayer_Workload_Citrix_Order">}}). 
 
 

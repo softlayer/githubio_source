@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getItemConflicts
 
+
 Retrieve the item-item conflicts associated with a package.
 
 

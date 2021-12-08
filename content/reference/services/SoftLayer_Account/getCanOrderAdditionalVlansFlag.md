@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getCanOrderAdditionalVlansFlag
 
+
 Retrieve [DEPRECATED] All accounts may order VLANs.
 
 

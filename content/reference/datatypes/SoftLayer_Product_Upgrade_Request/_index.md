@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Product_Upgrade_Request data type contains general information relating to a hardware, virtual server, or service upgrade. It also relates a [SoftLayer_Billing_Order]({{<ref "reference/datatypes/SoftLayer_Billing_Order">}}) to a [SoftLayer_Ticket]({{<ref "reference/datatypes/SoftLayer_Ticket">}}). 
 
 
@@ -53,7 +55,8 @@ The SoftLayer_Product_Upgrade_Request data type contains general information rel
 [accountId]: #accountid
 #### [accountId]
 The unique internal id of a SoftLayer account  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -63,7 +66,8 @@ The unique internal id of a SoftLayer account
 [createDate]: #createdate
 #### [createDate]
 The date an upgrade request was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -73,7 +77,8 @@ The date an upgrade request was created.
 [employeeId]: #employeeid
 #### [employeeId]
 The unique internal id of the last modified user  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -83,7 +88,8 @@ The unique internal id of the last modified user
 [guestId]: #guestid
 #### [guestId]
 The unique internal id of the virtual server that an upgrade will be done  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -93,7 +99,8 @@ The unique internal id of the virtual server that an upgrade will be done
 [hardwareId]: #hardwareid
 #### [hardwareId]
 The unique internal id of the hardware that an upgrade will be done  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -103,7 +110,8 @@ The unique internal id of the hardware that an upgrade will be done
 [id]: #id
 #### [id]
 An upgrade request's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -113,7 +121,8 @@ An upgrade request's internal identifier.
 [maintenanceStartTimeUtc]: #maintenancestarttimeutc
 #### [maintenanceStartTimeUtc]
 The time that system admin starts working on the order item.  This is used for upgrade orders.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -123,7 +132,8 @@ The time that system admin starts working on the order item.  This is used for u
 [modifyDate]: #modifydate
 #### [modifyDate]
 The date an upgrade request was last modified.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -133,7 +143,8 @@ The date an upgrade request was last modified.
 [orderId]: #orderid
 #### [orderId]
 The unique internal id of the order that an upgrade request is related to  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -143,7 +154,8 @@ The unique internal id of the order that an upgrade request is related to
 [orderTotal]: #ordertotal
 #### [orderTotal]
 The total amount of fees  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -153,7 +165,8 @@ The total amount of fees
 [proratedTotal]: #proratedtotal
 #### [proratedTotal]
 The prorated total amount of recurring fees  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -163,7 +176,8 @@ The prorated total amount of recurring fees
 [statusId]: #statusid
 #### [statusId]
 The unique internal id of an upgrade status  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -173,7 +187,8 @@ The unique internal id of an upgrade status
 [ticketId]: #ticketid
 #### [ticketId]
 The unique internal id of the ticket related to an upgrade request  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -183,7 +198,8 @@ The unique internal id of the ticket related to an upgrade request
 [userId]: #userid
 #### [userId]
 The unique internal id of the customer who place the order  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -199,7 +215,8 @@ The unique internal id of the customer who place the order
 [account]: #account
 #### [account]
 The account that an order belongs to  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -209,7 +226,8 @@ The account that an order belongs to
 [completedFlag]: #completedflag
 #### [completedFlag]
 Indicates that the upgrade request has completed or has been cancelled.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -219,7 +237,8 @@ Indicates that the upgrade request has completed or has been cancelled.
 [invoice]: #invoice
 #### [invoice]
 This is the invoice associated with the upgrade request. For hourly servers or services, an invoice will not be available.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice'>SoftLayer_Billing_Invoice </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Invoice'>SoftLayer_Billing_Invoice </a>**  
+
 
 
 </div>
@@ -229,7 +248,8 @@ This is the invoice associated with the upgrade request. For hourly servers or s
 [order]: #order
 #### [order]
 An order record associated to the upgrade request  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order </a>**  
+
 
 
 </div>
@@ -239,7 +259,8 @@ An order record associated to the upgrade request
 [server]: #server
 #### [server]
 A server object associated with the upgrade request if any.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**  
+
 
 
 </div>
@@ -249,7 +270,8 @@ A server object associated with the upgrade request if any.
 [status]: #status
 #### [status]
 The current status of the upgrade request.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Upgrade_Request_Status'>SoftLayer_Product_Upgrade_Request_Status </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Upgrade_Request_Status'>SoftLayer_Product_Upgrade_Request_Status </a>**  
+
 
 
 </div>
@@ -259,7 +281,8 @@ The current status of the upgrade request.
 [ticket]: #ticket
 #### [ticket]
 The ticket that is used to coordinate the upgrade process.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>**  
+
 
 
 </div>
@@ -269,7 +292,8 @@ The ticket that is used to coordinate the upgrade process.
 [user]: #user
 #### [user]
 The user that placed the order.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**  
+
 
 
 </div>
@@ -279,7 +303,8 @@ The user that placed the order.
 [virtualGuest]: #virtualguest
 #### [virtualGuest]
 A virtual server object associated with the upgrade request if any.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**  
+
 
 
 </div>

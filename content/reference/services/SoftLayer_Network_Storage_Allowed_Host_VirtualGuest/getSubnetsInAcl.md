@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Allowed_Host_VirtualGuest](/reference/services/SoftLayer_Network_Storage_Allowed_Host_VirtualGuest)::getSubnetsInAcl
 
+
 Retrieve the SoftLayer_Network_Subnet records assigned to the ACL for this allowed host.
 
 

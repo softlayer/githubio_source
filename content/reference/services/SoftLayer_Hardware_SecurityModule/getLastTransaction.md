@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getLastTransaction
 
+
 Retrieve information regarding the last transaction a server performed.
 
 

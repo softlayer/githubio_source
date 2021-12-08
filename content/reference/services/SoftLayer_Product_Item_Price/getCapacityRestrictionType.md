@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Item_Price](/reference/services/SoftLayer_Product_Item_Price)::getCapacityRestrictionType
 
+
 Retrieve the type of capacity restriction by which this price must abide.
 
 

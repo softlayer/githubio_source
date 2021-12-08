@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Upgrade_Request](/reference/services/SoftLayer_Product_Upgrade_Request)::getCompletedFlag
 
+
 Retrieve indicates that the upgrade request has completed or has been cancelled.
 
 

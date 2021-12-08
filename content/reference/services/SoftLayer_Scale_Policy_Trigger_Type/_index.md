@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 A trigger type
 
 
@@ -42,12 +44,14 @@ A trigger type
 
 #### [getAllObjects](/reference/services/SoftLayer_Scale_Policy_Trigger_Type/getAllObjects)
 Get all trigger types
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Scale_Policy_Trigger_Type/getObject)
 Retrieve a SoftLayer_Scale_Policy_Trigger_Type record.
+
 </div>
 </div>
 

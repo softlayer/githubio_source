@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Firewall_AccessControlList](/reference/services/SoftLayer_Network_Firewall_AccessControlList)::getNetworkFirewallUpdateRequests
 
+
 Retrieve the update requests made for this firewall.
 
 

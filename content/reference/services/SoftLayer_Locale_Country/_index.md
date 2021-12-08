@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 This service provides methods to retrieve country locale information. 
 
 
@@ -42,11 +44,13 @@ This service provides methods to retrieve country locale information.
 
 #### [getAllVatCountryCodesAndVatIdRegexes](/reference/services/SoftLayer_Locale_Country/getAllVatCountryCodesAndVatIdRegexes)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getAvailableCountries](/reference/services/SoftLayer_Locale_Country/getAvailableCountries)
+
 
 </div>
 
@@ -54,11 +58,13 @@ This service provides methods to retrieve country locale information.
 
 #### [getCountries](/reference/services/SoftLayer_Locale_Country/getCountries)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getCountriesAndStates](/reference/services/SoftLayer_Locale_Country/getCountriesAndStates)
+
 
 </div>
 
@@ -66,11 +72,13 @@ This service provides methods to retrieve country locale information.
 
 #### [getObject](/reference/services/SoftLayer_Locale_Country/getObject)
 Retrieve a SoftLayer_Locale_Country record.
+
 </div>
 
 <div class="method-row">
 
 #### [getPostalCodeRequiredCountryCodes](/reference/services/SoftLayer_Locale_Country/getPostalCodeRequiredCountryCodes)
+
 
 </div>
 
@@ -78,11 +86,13 @@ Retrieve a SoftLayer_Locale_Country record.
 
 #### [getStates](/reference/services/SoftLayer_Locale_Country/getStates)
 Retrieve states that belong to this country.
+
 </div>
 
 <div class="method-row">
 
 #### [getVatCountries](/reference/services/SoftLayer_Locale_Country/getVatCountries)
+
 
 </div>
 
@@ -90,11 +100,13 @@ Retrieve states that belong to this country.
 
 #### [getVatRequiredCountryCodes](/reference/services/SoftLayer_Locale_Country/getVatRequiredCountryCodes)
 
+
 </div>
 
 <div class="method-row">
 
 #### [isEuropeanUnionCountry](/reference/services/SoftLayer_Locale_Country/isEuropeanUnionCountry)
+
 
 </div>
 </div>

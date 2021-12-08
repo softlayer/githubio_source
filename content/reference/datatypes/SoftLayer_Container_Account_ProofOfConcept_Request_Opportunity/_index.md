@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Internal IBM opportunity codes required when applying for a Proof of Concept account. 
 
 
@@ -51,7 +53,8 @@ Internal IBM opportunity codes required when applying for a Proof of Concept acc
 [campaignCode]: #campaigncode
 #### [campaignCode]
 The campaign or promotion code for this request, provided by Sales.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -61,7 +64,8 @@ The campaign or promotion code for this request, provided by Sales.
 [monthlyRecurringRevenue]: #monthlyrecurringrevenue
 #### [monthlyRecurringRevenue]
 Expected monthly revenue.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ Expected monthly revenue.
 [opportunityNumber]: #opportunitynumber
 #### [opportunityNumber]
 Internal system identifier.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ Internal system identifier.
 [totalContractValue]: #totalcontractvalue
 #### [totalContractValue]
 Expected overall contract value.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>

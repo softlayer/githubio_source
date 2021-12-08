@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getAttributes
 
+
 Retrieve information regarding a piece of hardware's specific attributes.
 
 

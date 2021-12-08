@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 A network gateway member attribute is the attributes associated with a network gateway member. 
 
 
@@ -42,17 +44,20 @@ A network gateway member attribute is the attributes associated with a network g
 
 #### [getGatewayMember](/reference/services/SoftLayer_Network_Gateway_Member_Attribute/getGatewayMember)
 Retrieve the gateway member has these attributes.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Gateway_Member_Attribute/getObject)
 Retrieve a SoftLayer_Network_Gateway_Member_Attribute record.
+
 </div>
 
 <div class="method-row">
 
 #### [getSshKey](/reference/services/SoftLayer_Network_Gateway_Member_Attribute/getSshKey)
+
 
 </div>
 </div>

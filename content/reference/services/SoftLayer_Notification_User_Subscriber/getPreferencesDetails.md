@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Notification_User_Subscriber](/reference/services/SoftLayer_Notification_User_Subscriber)::getPreferencesDetails
 
+
 Retrieve preference details such as description, minimum and maximum limits, default value and unit of measure.
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 The SoftLayer_User_External_Binding_Vendor service is used to retrieve a list of available 3rd party vendors that SoftLayer supports for external bindings. 
 
 
@@ -42,12 +44,14 @@ The SoftLayer_User_External_Binding_Vendor service is used to retrieve a list of
 
 #### [getAllObjects](/reference/services/SoftLayer_User_External_Binding_Vendor/getAllObjects)
 Get a list of all available external binding vendors that SoftLayer supports.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_User_External_Binding_Vendor/getObject)
 Retrieve a SoftLayer_User_External_Binding_Vendor record.
+
 </div>
 </div>
 

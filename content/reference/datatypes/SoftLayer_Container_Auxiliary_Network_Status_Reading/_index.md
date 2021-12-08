@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Container_Auxiliary_Network_Status_Reading data type contains information relating to an object being monitored from outside the SoftLayer network.  It is primarily used to check the status of our edge routers from multiple locations around the world. 
 
 
@@ -50,7 +52,8 @@ The SoftLayer_Container_Auxiliary_Network_Status_Reading data type contains info
 [averagePing]: #averageping
 #### [averagePing]
 Average packet round-trip time.  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ Average packet round-trip time.
 [fails]: #fails
 #### [fails]
 Number of failures since the target was last detected to be working properly.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -70,7 +74,8 @@ Number of failures since the target was last detected to be working properly.
 [frequency]: #frequency
 #### [frequency]
 Monitoring frequency in minutes.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -80,7 +85,8 @@ Monitoring frequency in minutes.
 [label]: #label
 #### [label]
 The target babel.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -90,7 +96,8 @@ The target babel.
 [lastCheckDate]: #lastcheckdate
 #### [lastCheckDate]
 Last check date and time.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -100,7 +107,8 @@ Last check date and time.
 [lastDownDate]: #lastdowndate
 #### [lastDownDate]
 Date and time of the last problem detected.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -110,7 +118,8 @@ Date and time of the last problem detected.
 [latency]: #latency
 #### [latency]
 The total response time in seconds calculated during the last check.  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -120,7 +129,8 @@ The total response time in seconds calculated during the last check.
 [location]: #location
 #### [location]
 The monitoring location name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -130,7 +140,8 @@ The monitoring location name.
 [maximumPing]: #maximumping
 #### [maximumPing]
 Maximum packet round-trip time.  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -140,7 +151,8 @@ Maximum packet round-trip time.
 [minimumPing]: #minimumping
 #### [minimumPing]
 Minimum packet round-trip time.  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -150,7 +162,8 @@ Minimum packet round-trip time.
 [pingLoss]: #pingloss
 #### [pingLoss]
 Packet loss percentage.  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -160,7 +173,8 @@ Packet loss percentage.
 [startDate]: #startdate
 #### [startDate]
 The date monitoring first began  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -170,7 +184,8 @@ The date monitoring first began
 [statusCode]: #statuscode
 #### [statusCode]
 Status Code - one of UP, Down, Test pending.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -180,7 +195,8 @@ Status Code - one of UP, Down, Test pending.
 [statusMessage]: #statusmessage
 #### [statusMessage]
 The status message from the last effective check.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -190,7 +206,8 @@ The status message from the last effective check.
 [target]: #target
 #### [target]
 The target object.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -200,7 +217,8 @@ The target object.
 [targetType]: #targettype
 #### [targetType]
 A letter indicating the target type.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

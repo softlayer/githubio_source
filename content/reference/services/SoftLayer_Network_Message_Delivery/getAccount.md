@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Message_Delivery](/reference/services/SoftLayer_Network_Message_Delivery)::getAccount
 
+
 Retrieve the SoftLayer customer account that a network message delivery account belongs to.
 
 

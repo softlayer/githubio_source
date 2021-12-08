@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getOpenCancellationTicket
 
+
 Retrieve an open ticket requesting cancellation of this server, if one exists.
 
 

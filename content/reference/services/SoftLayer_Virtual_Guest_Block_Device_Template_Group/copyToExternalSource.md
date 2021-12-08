@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest_Block_Device_Template_Group](/reference/services/SoftLayer_Virtual_Guest_Block_Device_Template_Group)::copyToExternalSource
 
+
 This method generates a transaction to export/copy a template to an external source. 
 
 

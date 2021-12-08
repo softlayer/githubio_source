@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getRaidDiskRestrictionFlag
 
+
 Retrieve this flag indicates the package does not allow different disks with RAID.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getChildUsers
 
+
 Retrieve a portal user's child users. Some portal users may not have child users.
 
 

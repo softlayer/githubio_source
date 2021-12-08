@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_CdnMarketplace_Configuration_Mapping_Path](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Mapping_Path)::createOriginPath
 
+
 SOAP API will create Origin Path for an existing CDN mapping and for a particular customer. 
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getAccountTraitValue
 
+
 Get the specific trait by its key
 
 

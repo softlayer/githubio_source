@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getLocation
 
+
 Retrieve where guest is located within SoftLayer's location hierarchy.
 
 

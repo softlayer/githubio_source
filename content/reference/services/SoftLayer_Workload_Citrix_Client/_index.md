@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 The SoftLayer_Workload_Citrix_Client data type contains functionality to validate a Citrix account. 
 
 
@@ -42,17 +44,20 @@ The SoftLayer_Workload_Citrix_Client data type contains functionality to validat
 
 #### [createResourceLocation](/reference/services/SoftLayer_Workload_Citrix_Client/createResourceLocation)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getResourceLocations](/reference/services/SoftLayer_Workload_Citrix_Client/getResourceLocations)
 
+
 </div>
 
 <div class="method-row">
 
 #### [validateCitrixCredentials](/reference/services/SoftLayer_Workload_Citrix_Client/validateCitrixCredentials)
+
 
 </div>
 </div>

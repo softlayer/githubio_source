@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Virtual_Guest_Type models the type of a [SoftLayer_Virtual_Guest]({{<ref "reference/datatypes/SoftLayer_Virtual_Guest">}}) (PUBLIC | DEDICATED | PRIVATE) 
 
 
@@ -45,7 +47,8 @@ SoftLayer_Virtual_Guest_Type models the type of a [SoftLayer_Virtual_Guest]({{<r
 [id]: #id
 #### [id]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ SoftLayer_Virtual_Guest_Type models the type of a [SoftLayer_Virtual_Guest]({{<r
 [keyName]: #keyname
 #### [keyName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ SoftLayer_Virtual_Guest_Type models the type of a [SoftLayer_Virtual_Guest]({{<r
 [name]: #name
 #### [name]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getLastOperatingSystemReload
 
+
 Retrieve the last transaction that a cloud server's operating system was loaded.
 
 

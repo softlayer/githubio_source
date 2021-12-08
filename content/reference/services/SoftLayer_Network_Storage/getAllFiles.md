@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getAllFiles
 
+
 Retrieve a listing of all files in a Storage account's root directory.
 
 

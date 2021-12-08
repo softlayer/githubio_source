@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 Retrieve the category group information for a product item.
 
 
@@ -42,6 +44,7 @@ Retrieve the category group information for a product item.
 
 #### [getObject](/reference/services/SoftLayer_Product_Item_Category_Group/getObject)
 Retrieve a SoftLayer_Product_Item_Category_Group record.
+
 </div>
 </div>
 

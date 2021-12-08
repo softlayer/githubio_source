@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Bandwidth_Version1_Allotment](/reference/services/SoftLayer_Network_Bandwidth_Version1_Allotment)::getManagedBareMetalInstances
 
+
 Retrieve the managed bare metal server instances contained within a virtual rack.
 
 

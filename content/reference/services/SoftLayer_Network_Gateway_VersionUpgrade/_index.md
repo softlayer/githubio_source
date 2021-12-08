@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 A gateway software version upgrade reference provides pairing for possible upgrades from a given versin. 
 
 
@@ -42,11 +44,13 @@ A gateway software version upgrade reference provides pairing for possible upgra
 
 #### [getAllByUpgradePkgUrlId](/reference/services/SoftLayer_Network_Gateway_VersionUpgrade/getAllByUpgradePkgUrlId)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getAllUpgradesByGatewayId](/reference/services/SoftLayer_Network_Gateway_VersionUpgrade/getAllUpgradesByGatewayId)
+
 
 </div>
 
@@ -54,17 +58,20 @@ A gateway software version upgrade reference provides pairing for possible upgra
 
 #### [getObject](/reference/services/SoftLayer_Network_Gateway_VersionUpgrade/getObject)
 Retrieve a SoftLayer_Network_Gateway_VersionUpgrade record.
+
 </div>
 
 <div class="method-row">
 
 #### [getVsrxOrdersAllowedOS](/reference/services/SoftLayer_Network_Gateway_VersionUpgrade/getVsrxOrdersAllowedOS)
 
+
 </div>
 
 <div class="method-row">
 
 #### [validateVersionChange](/reference/services/SoftLayer_Network_Gateway_VersionUpgrade/validateVersionChange)
+
 
 </div>
 </div>

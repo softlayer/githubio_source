@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_DedicatedHost](/reference/services/SoftLayer_Virtual_DedicatedHost)::getBackendRouter
 
+
 Retrieve the backend router behind dedicated host's pool of resources.
 
 

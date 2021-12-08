@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getUserLinks
 
+
 Retrieve user customer link with IBMid and IAMid.
 
 

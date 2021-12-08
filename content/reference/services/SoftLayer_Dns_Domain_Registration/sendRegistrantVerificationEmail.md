@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Dns_Domain_Registration](/reference/services/SoftLayer_Dns_Domain_Registration)::sendRegistrantVerificationEmail
 
+
 Sends verification email to the registrant.
 
 

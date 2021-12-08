@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getRecentEvents
 
+
 Retrieve recent events that impact this hardware.
 
 

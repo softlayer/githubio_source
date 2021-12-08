@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Item_Category](/reference/services/SoftLayer_Product_Item_Category)::getPackageConfigurations
 
+
 Retrieve a list of configuration available in this category.'
 
 

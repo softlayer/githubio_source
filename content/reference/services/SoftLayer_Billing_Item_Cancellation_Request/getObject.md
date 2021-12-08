@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item_Cancellation_Request](/reference/services/SoftLayer_Billing_Item_Cancellation_Request)::getObject
 
+
 Retrieve a SoftLayer_Billing_Item_Cancellation_Request record.
 
 

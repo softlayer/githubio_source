@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Component_Firewall](/reference/services/SoftLayer_Network_Component_Firewall)::getSubnets
 
+
 Retrieve the additional subnets linked to this network component firewall.
 
 

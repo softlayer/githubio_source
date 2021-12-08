@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Every individual item that a SoftLayer customer is billed for is recorded in the SoftLayer_Billing_Item data type. Billing items range from server chassis to hard drives to control panels, bandwidth quota upgrades and port upgrade charges. SoftLayer [SoftLayer_Billing_Invoice]({{<ref "reference/datatypes/SoftLayer_Billing_Invoice">}}) are generated from the cost of a customer's billing items. Billing items are copied from the product catalog as they're ordered by customers to create a reference between an account and the billable items they own. 
 
 Billing items exist in a tree relationship. Items are associated with each other by parent/child relationships. Component items such as CPU's, RAM, and software each have a parent billing item for the server chassis they're associated with. Billing Items with a null parent item do not have an associated parent item. 
@@ -61,7 +63,8 @@ Billing items exist in a tree relationship. Items are associated with each other
 [categoryCode]: #categorycode
 #### [categoryCode]
 The category code for the order item.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -71,7 +74,8 @@ The category code for the order item.
 [description]: #description
 #### [description]
 friendly description of purchase item.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -81,7 +85,8 @@ friendly description of purchase item.
 [domainName]: #domainname
 #### [domainName]
 The domain name of the server as designated by the purchaser at the time of order placement.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -91,7 +96,8 @@ The domain name of the server as designated by the purchaser at the time of orde
 [hostName]: #hostname
 #### [hostName]
 The hostname of the server as designated by the purchaser at the time of order placement.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -101,7 +107,8 @@ The hostname of the server as designated by the purchaser at the time of order p
 [hourlyRecurringFee]: #hourlyrecurringfee
 #### [hourlyRecurringFee]
 The amount of money charged per hourly for an order item, if applicable, and only if it was ordered this day. hourlyRecurringFee is measured in US Dollars ($USD).   
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -111,7 +118,8 @@ The amount of money charged per hourly for an order item, if applicable, and onl
 [id]: #id
 #### [id]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -121,7 +129,8 @@ The amount of money charged per hourly for an order item, if applicable, and onl
 [itemId]: #itemid
 #### [itemId]
 The SoftLayer_Product_Item ID for this order item.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -131,7 +140,8 @@ The SoftLayer_Product_Item ID for this order item.
 [itemPriceId]: #itempriceid
 #### [itemPriceId]
 the item price id (SoftLayer_Product_Item_Price->id) of the ordered item.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -141,7 +151,8 @@ the item price id (SoftLayer_Product_Item_Price->id) of the ordered item.
 [laborAfterTaxAmount]: #laboraftertaxamount
 #### [laborAfterTaxAmount]
 An order item's labor fee total after taxes. This does not include any child invoice items.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -151,7 +162,8 @@ An order item's labor fee total after taxes. This does not include any child inv
 [laborFee]: #laborfee
 #### [laborFee]
 The labor fee, if any. This is a one time charge.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -161,7 +173,8 @@ The labor fee, if any. This is a one time charge.
 [laborFeeTaxRate]: #laborfeetaxrate
 #### [laborFeeTaxRate]
 The rate at which labor fees are taxed if you are a taxable customer.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -171,7 +184,8 @@ The rate at which labor fees are taxed if you are a taxable customer.
 [laborTaxAmount]: #labortaxamount
 #### [laborTaxAmount]
 An order item's labor tax amount. This does not include any child invoice items.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -181,7 +195,8 @@ An order item's labor tax amount. This does not include any child invoice items.
 [oneTimeAfterTaxAmount]: #onetimeaftertaxamount
 #### [oneTimeAfterTaxAmount]
 An order item's one-time fee total after taxes. This does not include any child invoice items.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -191,7 +206,8 @@ An order item's one-time fee total after taxes. This does not include any child 
 [oneTimeFee]: #onetimefee
 #### [oneTimeFee]
 The amount of money charged as a one-time charge for an order item, if applicable. oneTimeFee is measured in US Dollars ($USD).   
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -201,7 +217,8 @@ The amount of money charged as a one-time charge for an order item, if applicabl
 [oneTimeFeeTaxRate]: #onetimefeetaxrate
 #### [oneTimeFeeTaxRate]
 The rate at which one time fees are taxed if you are a taxable customer.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -211,7 +228,8 @@ The rate at which one time fees are taxed if you are a taxable customer.
 [oneTimeTaxAmount]: #onetimetaxamount
 #### [oneTimeTaxAmount]
 An order item's one-time tax amount. This does not include any child invoice items.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -221,7 +239,8 @@ An order item's one-time tax amount. This does not include any child invoice ite
 [parentId]: #parentid
 #### [parentId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -231,7 +250,8 @@ An order item's one-time tax amount. This does not include any child invoice ite
 [presetId]: #presetid
 #### [presetId]
 The id for the preset configuration ordered.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -241,7 +261,8 @@ The id for the preset configuration ordered.
 [promoCodeId]: #promocodeid
 #### [promoCodeId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -251,7 +272,8 @@ The id for the preset configuration ordered.
 [quantity]: #quantity
 #### [quantity]
 the quantity of the ordered item in a quote.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -261,7 +283,8 @@ the quantity of the ordered item in a quote.
 [recurringAfterTaxAmount]: #recurringaftertaxamount
 #### [recurringAfterTaxAmount]
 An order item's recurring fee total after taxes. This does not include any child invoice items.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -271,7 +294,8 @@ An order item's recurring fee total after taxes. This does not include any child
 [recurringFee]: #recurringfee
 #### [recurringFee]
 The amount of money charged per month for an order item, if applicable. recurringFee is measured in US Dollars ($USD).   
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -281,7 +305,8 @@ The amount of money charged per month for an order item, if applicable. recurrin
 [recurringTaxAmount]: #recurringtaxamount
 #### [recurringTaxAmount]
 An order item's recurring tax amount. This does not include any child invoice items.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -291,7 +316,8 @@ An order item's recurring tax amount. This does not include any child invoice it
 [setupAfterTaxAmount]: #setupaftertaxamount
 #### [setupAfterTaxAmount]
 An order item's setup fee total after taxes. This does not include any child invoice items.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -301,7 +327,8 @@ An order item's setup fee total after taxes. This does not include any child inv
 [setupFee]: #setupfee
 #### [setupFee]
 The setup fee, if any. This is a one time charge.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -311,7 +338,8 @@ The setup fee, if any. This is a one time charge.
 [setupFeeDeferralMonths]: #setupfeedeferralmonths
 #### [setupFeeDeferralMonths]
 The month set up fee deferral.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -321,7 +349,8 @@ The month set up fee deferral.
 [setupFeeTaxRate]: #setupfeetaxrate
 #### [setupFeeTaxRate]
 The rate at which setup fees are taxed if you are a taxable customer.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -331,7 +360,8 @@ The rate at which setup fees are taxed if you are a taxable customer.
 [setupTaxAmount]: #setuptaxamount
 #### [setupTaxAmount]
 An order item's setup tax amount. This does not include any child invoice items.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -347,7 +377,8 @@ An order item's setup tax amount. This does not include any child invoice items.
 [billingItem]: #billingitem
 #### [billingItem]
 The SoftLayer_Billing_Item tied to the order item.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**  
+
 
 
 </div>
@@ -357,7 +388,8 @@ The SoftLayer_Billing_Item tied to the order item.
 [bundledItems]: #bundleditems
 #### [bundledItems]
 The other items included with an ordered item.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order_Item'>SoftLayer_Billing_Order_Item[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order_Item'>SoftLayer_Billing_Order_Item[] </a>**  
+
 
 
 </div>
@@ -367,7 +399,8 @@ The other items included with an ordered item.
 [category]: #category
 #### [category]
 The item category tied to an order item.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category </a>**  
+
 
 
 </div>
@@ -377,7 +410,8 @@ The item category tied to an order item.
 [children]: #children
 #### [children]
 The child order items for an order item. All server order items should have children. These children are considered a part of the server.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order_Item'>SoftLayer_Billing_Order_Item[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order_Item'>SoftLayer_Billing_Order_Item[] </a>**  
+
 
 
 </div>
@@ -387,7 +421,8 @@ The child order items for an order item. All server order items should have chil
 [globalIdentifier]: #globalidentifier
 #### [globalIdentifier]
 A hardware's universally unique identifier.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -397,7 +432,8 @@ A hardware's universally unique identifier.
 [hardwareGenericComponent]: #hardwaregenericcomponent
 #### [hardwareGenericComponent]
 The component type tied to an order item. All hardware-specific items should have a generic hardware component.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model_Generic'>SoftLayer_Hardware_Component_Model_Generic </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model_Generic'>SoftLayer_Hardware_Component_Model_Generic </a>**  
+
 
 
 </div>
@@ -407,7 +443,8 @@ The component type tied to an order item. All hardware-specific items should hav
 [item]: #item
 #### [item]
 The SoftLayer_Product_Item tied to an order item. The item is the actual definition of the product being sold.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>**  
+
 
 
 </div>
@@ -417,7 +454,8 @@ The SoftLayer_Product_Item tied to an order item. The item is the actual definit
 [itemCategoryAnswers]: #itemcategoryanswers
 #### [itemCategoryAnswers]
 This is an item's category answers.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order_Item_Category_Answer'>SoftLayer_Billing_Order_Item_Category_Answer[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order_Item_Category_Answer'>SoftLayer_Billing_Order_Item_Category_Answer[] </a>**  
+
 
 
 </div>
@@ -427,7 +465,8 @@ This is an item's category answers.
 [itemPrice]: #itemprice
 #### [itemPrice]
 The SoftLayer_Product_Item_Price tied to an order item. The item price object describes the cost of an item.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price </a>**  
+
 
 
 </div>
@@ -437,7 +476,8 @@ The SoftLayer_Product_Item_Price tied to an order item. The item price object de
 [location]: #location
 #### [location]
 The location of an ordered item. This is usually the same as the server it is being ordered with. Otherwise it describes the location of the additional service being ordered.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**  
+
 
 
 </div>
@@ -447,7 +487,8 @@ The location of an ordered item. This is usually the same as the server it is be
 [nextOrderChildren]: #nextorderchildren
 #### [nextOrderChildren]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order_Item'>SoftLayer_Billing_Order_Item[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order_Item'>SoftLayer_Billing_Order_Item[] </a>**  
+
 
 
 </div>
@@ -457,7 +498,8 @@ The location of an ordered item. This is usually the same as the server it is be
 [oldBillingItem]: #oldbillingitem
 #### [oldBillingItem]
 This is only populated when an upgrade order is placed. The old billing item represents what the billing was before the upgrade happened.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**  
+
 
 
 </div>
@@ -467,7 +509,8 @@ This is only populated when an upgrade order is placed. The old billing item rep
 [order]: #order
 #### [order]
 The order to which this item belongs. The order contains all the information related to the items included in an order  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order </a>**  
+
 
 
 </div>
@@ -477,7 +520,8 @@ The order to which this item belongs. The order contains all the information rel
 [orderApprovalDate]: #orderapprovaldate
 #### [orderApprovalDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -487,7 +531,8 @@ The order to which this item belongs. The order contains all the information rel
 [package]: #package
 #### [package]
 The SoftLayer_Product_Package an order item is a part of.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package </a>**  
+
 
 
 </div>
@@ -497,7 +542,8 @@ The SoftLayer_Product_Package an order item is a part of.
 [parent]: #parent
 #### [parent]
 The parent order item ID for an item. Items that are associated with a server will have a parent. The parent will be the server item itself.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order_Item'>SoftLayer_Billing_Order_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order_Item'>SoftLayer_Billing_Order_Item </a>**  
+
 
 
 </div>
@@ -507,7 +553,8 @@ The parent order item ID for an item. Items that are associated with a server wi
 [preset]: #preset
 #### [preset]
 The SoftLayer_Product_Package_Preset related to this order item.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Preset'>SoftLayer_Product_Package_Preset </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Preset'>SoftLayer_Product_Package_Preset </a>**  
+
 
 
 </div>
@@ -517,7 +564,8 @@ The SoftLayer_Product_Package_Preset related to this order item.
 [promoCode]: #promocode
 #### [promoCode]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Promotion'>SoftLayer_Product_Promotion </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Promotion'>SoftLayer_Product_Promotion </a>**  
+
 
 
 </div>
@@ -527,7 +575,8 @@ The SoftLayer_Product_Package_Preset related to this order item.
 [redundantPowerSupplyCount]: #redundantpowersupplycount
 #### [redundantPowerSupplyCount]
 A count of power supplies contained within this SoftLayer_Billing_Order  
-<span class="type-label">Type: </span>**unsigned integer**
+<span class="type-label">Type: </span>**unsigned integer**  
+
 
 
 </div>
@@ -537,7 +586,8 @@ A count of power supplies contained within this SoftLayer_Billing_Order
 [softwareDescription]: #softwaredescription
 #### [softwareDescription]
 For ordered items that are software items, a full description of that software can be found with this property.   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description </a>**  
+
 
 
 </div>
@@ -547,7 +597,8 @@ For ordered items that are software items, a full description of that software c
 [storageGroups]: #storagegroups
 #### [storageGroups]
 The drive storage groups that are attached to this billing order item.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Storage_Group_Order'>SoftLayer_Configuration_Storage_Group_Order[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Storage_Group_Order'>SoftLayer_Configuration_Storage_Group_Order[] </a>**  
+
 
 
 </div>
@@ -557,7 +608,8 @@ The drive storage groups that are attached to this billing order item.
 [totalRecurringAmount]: #totalrecurringamount
 #### [totalRecurringAmount]
 The recurring fee of an ordered item. This amount represents the fees that will be charged on a recurring (usually monthly) basis.  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -567,7 +619,8 @@ The recurring fee of an ordered item. This amount represents the fees that will 
 [upgradeItem]: #upgradeitem
 #### [upgradeItem]
 The next SoftLayer_Product_Item in the upgrade path for this order item.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>**  
+
 
 
 </div>
@@ -579,7 +632,8 @@ The next SoftLayer_Product_Item in the upgrade path for this order item.
 [bundledItemCount]: #bundleditemcount
 #### [bundledItemCount]
 A count of the other items included with an ordered item.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -589,7 +643,8 @@ A count of the other items included with an ordered item.
 [childrenCount]: #childrencount
 #### [childrenCount]
 A count of the child order items for an order item. All server order items should have children. These children are considered a part of the server.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -599,7 +654,8 @@ A count of the child order items for an order item. All server order items shoul
 [itemCategoryAnswerCount]: #itemcategoryanswercount
 #### [itemCategoryAnswerCount]
 A count of this is an item's category answers.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -609,7 +665,8 @@ A count of this is an item's category answers.
 [nextOrderChildrenCount]: #nextorderchildrencount
 #### [nextOrderChildrenCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -619,7 +676,8 @@ A count of
 [storageGroupCount]: #storagegroupcount
 #### [storageGroupCount]
 A count of the drive storage groups that are attached to this billing order item.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::removeAttachedAdditionalEmails
 
+
 Detaches non-user additional email addresses from a ticket.
 
 

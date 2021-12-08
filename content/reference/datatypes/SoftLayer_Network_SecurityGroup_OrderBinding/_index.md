@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_SecurityGroup_OrderBinding data type contains links between security groups and product orders. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Network_SecurityGroup_OrderBinding data type contains links betwee
 [guestId]: #guestid
 #### [guestId]
 The ID of the Virtual Guest associated with the security group.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The ID of the Virtual Guest associated with the security group.
 [id]: #id
 #### [id]
 The unique ID for a security group, order, binding  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The unique ID for a security group, order, binding
 [orderId]: #orderid
 #### [orderId]
 The ID of the order associated with the security group.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The ID of the order associated with the security group.
 [securityGroupId]: #securitygroupid
 #### [securityGroupId]
 The ID of the security group that is associated with the order.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ The ID of the security group that is associated with the order.
 [guest]: #guest
 #### [guest]
 The virtual guest associated with the binding  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ The virtual guest associated with the binding
 [order]: #order
 #### [order]
 The order associated with the binding  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order </a>**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ The order associated with the binding
 [securityGroup]: #securitygroup
 #### [securityGroup]
 The security group associated with the order  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_SecurityGroup'>SoftLayer_Network_SecurityGroup </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_SecurityGroup'>SoftLayer_Network_SecurityGroup </a>**  
+
 
 
 </div>

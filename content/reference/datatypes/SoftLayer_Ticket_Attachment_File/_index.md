@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer tickets can have have files attached to them. Attaching a file to a ticket is a good way to report issues, provide documentation, and give examples of an issue. Both SoftLayer customers and employees have the ability to attach files to a ticket. The SoftLayer_Ticket_Attachment_File data type models a single file attached to a ticket. 
 
 
@@ -59,7 +61,8 @@ SoftLayer tickets can have have files attached to them. Attaching a file to a ti
 [createDate]: #createdate
 #### [createDate]
 The date a file was originally attached to a ticket.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -69,7 +72,8 @@ The date a file was originally attached to a ticket.
 [fileName]: #filename
 #### [fileName]
 The name of a file attached to a ticket.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -79,7 +83,8 @@ The name of a file attached to a ticket.
 [fileSize]: #filesize
 #### [fileSize]
 The size of a file attached to a ticket, measured in bytes.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -89,7 +94,8 @@ The size of a file attached to a ticket, measured in bytes.
 [id]: #id
 #### [id]
 A ticket file attachment's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -99,7 +105,8 @@ A ticket file attachment's internal identifier.
 [modifyDate]: #modifydate
 #### [modifyDate]
 The date that a file attachment record was last modified.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -109,7 +116,8 @@ The date that a file attachment record was last modified.
 [ticketId]: #ticketid
 #### [ticketId]
 The internal identifier of the ticket that a file is attached to.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -119,7 +127,8 @@ The internal identifier of the ticket that a file is attached to.
 [updateId]: #updateid
 #### [updateId]
 The internal identifier of the ticket update the attached file is associated with.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -129,7 +138,8 @@ The internal identifier of the ticket update the attached file is associated wit
 [uploaderId]: #uploaderid
 #### [uploaderId]
 The internal identifier of the user that uploaded a ticket file attachment. This is only used when A file attachment's ''uploaderType'' is set to "USER".   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -139,7 +149,8 @@ The internal identifier of the user that uploaded a ticket file attachment. This
 [uploaderType]: #uploadertype
 #### [uploaderType]
 The type of user that attached a file to a ticket. This is either "USER" if the file was uploaded by a portal or API user or "EMPLOYEE" if the file was uploaded by a SoftLayer employee.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -155,7 +166,8 @@ The type of user that attached a file to a ticket. This is either "USER" if the 
 [ticket]: #ticket
 #### [ticket]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>**  
+
 
 
 </div>
@@ -165,7 +177,8 @@ The type of user that attached a file to a ticket. This is either "USER" if the 
 [update]: #update
 #### [update]
 The ticket that a file is attached to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Update'>SoftLayer_Ticket_Update </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Update'>SoftLayer_Ticket_Update </a>**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getHasSingleRootVirtualizationBillingItemFlag
 
+
 Retrieve determine if hardware has Single Root IO VIrtualization (SR-IOV) billing item.
 
 

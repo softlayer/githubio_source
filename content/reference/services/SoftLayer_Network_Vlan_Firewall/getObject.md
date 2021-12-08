@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Vlan_Firewall](/reference/services/SoftLayer_Network_Vlan_Firewall)::getObject
 
+
 Retrieve a SoftLayer_Network_Vlan_Firewall record.
 
 

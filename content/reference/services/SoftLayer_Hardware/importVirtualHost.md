@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::importVirtualHost
 
+
 attempt to import the host record for the virtualization platform running on a server
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Schedule](/reference/services/SoftLayer_Network_Storage_Schedule)::getVolume
 
+
 Retrieve the associated volume for a schedule.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::removeBulkPortalPermission
 
+
 Remove multiple permissions from a portal user's permission set.
 
 

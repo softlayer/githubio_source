@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Dns_Domain](/reference/services/SoftLayer_Dns_Domain)::getAccount
 
+
 Retrieve the SoftLayer customer account that owns a domain.
 
 

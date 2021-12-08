@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [pendingOrders]: #pendingorders
 #### [pendingOrders]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ classes:
 [pendingTransactions]: #pendingtransactions
 #### [pendingTransactions]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ classes:
 [poolDescription]: #pooldescription
 #### [poolDescription]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ classes:
 [poolKeyName]: #poolkeyname
 #### [poolKeyName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ classes:
 [poolName]: #poolname
 #### [poolName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ classes:
 [routers]: #routers
 #### [routers]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Hardware_Pool_Details_Router'>SoftLayer_Container_Hardware_Pool_Details_Router[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Hardware_Pool_Details_Router'>SoftLayer_Container_Hardware_Pool_Details_Router[] </a>**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ classes:
 [totalHardware]: #totalhardware
 #### [totalHardware]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ classes:
 [totalInventoryHardware]: #totalinventoryhardware
 #### [totalInventoryHardware]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ classes:
 [totalProvisionedHardware]: #totalprovisionedhardware
 #### [totalProvisionedHardware]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ classes:
 [totalTestedHardware]: #totaltestedhardware
 #### [totalTestedHardware]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -145,7 +157,8 @@ classes:
 [totalTestingHardware]: #totaltestinghardware
 #### [totalTestingHardware]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

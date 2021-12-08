@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getPrimarySubnet
 
+
 Retrieve the subnet of the primary IP address assigned to this network component.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_Notification_Virtual_Guest](/reference/services/SoftLayer_User_Customer_Notification_Virtual_Guest)::deleteObjects
 
+
 Delete a group of SoftLayer_Customer_Notification_Virtual_Guest objects by passing in a collection of them
 
 

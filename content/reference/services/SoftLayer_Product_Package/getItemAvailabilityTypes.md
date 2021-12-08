@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getItemAvailabilityTypes
 
+
 Returns a collection of SoftLayer_Product_Item_Attribute_Type objects.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Hub_Cleversafe_Account](/reference/services/SoftLayer_Network_Storage_Hub_Cleversafe_Account)::getUuid
 
+
 Retrieve unique identifier for an IBM Cloud Object Storage account.
 
 

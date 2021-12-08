@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,30 +44,35 @@ classes:
 
 #### [createObject](/reference/services/SoftLayer_Layout_Profile_Containers/createObject)
 Associate a layout container with a profile
+
 </div>
 
 <div class="method-row">
 
 #### [editObject](/reference/services/SoftLayer_Layout_Profile_Containers/editObject)
 Edit the object by passing in a modified instance of the object
+
 </div>
 
 <div class="method-row">
 
 #### [getLayoutContainerType](/reference/services/SoftLayer_Layout_Profile_Containers/getLayoutContainerType)
 Retrieve the container to be contained
+
 </div>
 
 <div class="method-row">
 
 #### [getLayoutProfile](/reference/services/SoftLayer_Layout_Profile_Containers/getLayoutProfile)
 Retrieve the profile containing this container
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Layout_Profile_Containers/getObject)
 Retrieve a SoftLayer_Layout_Profile_Containers record.
+
 </div>
 </div>
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Package_Preset](/reference/services/SoftLayer_Product_Package_Preset)::getCategories
 
+
 Retrieve the item categories that are included in this package preset configuration.
 
 

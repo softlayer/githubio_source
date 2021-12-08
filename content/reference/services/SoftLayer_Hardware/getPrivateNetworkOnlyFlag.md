@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getPrivateNetworkOnlyFlag
 
+
 Retrieve whether the hardware only has access to the private network.
 
 

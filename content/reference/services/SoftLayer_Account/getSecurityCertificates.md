@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getSecurityCertificates
 
+
 Retrieve stored security certificates (ie. SSL)
 
 

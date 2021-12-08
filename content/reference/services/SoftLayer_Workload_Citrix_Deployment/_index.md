@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 The SoftLayer_Workload_Citrix_Deployment service allows viewing the resources ordered for Citrix Virtual Apps and Desktops. 
 
 The deployment resources include Cloud Connectors, Active Directory domain controller, Bare Metal servers, File Storage, VLAN, Primary/Portable subnets, DHCP server, and Proxy server. 
@@ -44,17 +46,20 @@ The deployment resources include Cloud Connectors, Active Directory domain contr
 
 #### [createObject](/reference/services/SoftLayer_Workload_Citrix_Deployment/createObject)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getAccount](/reference/services/SoftLayer_Workload_Citrix_Deployment/getAccount)
 Retrieve the [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">}}) to which the deployment belongs.
+
 </div>
 
 <div class="method-row">
 
 #### [getAllObjects](/reference/services/SoftLayer_Workload_Citrix_Deployment/getAllObjects)
+
 
 </div>
 
@@ -62,36 +67,42 @@ Retrieve the [SoftLayer_Account]({{<ref "reference/datatypes/SoftLayer_Account">
 
 #### [getDeployment](/reference/services/SoftLayer_Workload_Citrix_Deployment/getDeployment)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Workload_Citrix_Deployment/getObject)
 Retrieve a SoftLayer_Workload_Citrix_Deployment record.
+
 </div>
 
 <div class="method-row">
 
 #### [getResources](/reference/services/SoftLayer_Workload_Citrix_Deployment/getResources)
 Retrieve it contains a collection of items under the CVAD deployment.
+
 </div>
 
 <div class="method-row">
 
 #### [getType](/reference/services/SoftLayer_Workload_Citrix_Deployment/getType)
 Retrieve it shows if the deployment is for Citrix Hypervisor or VMware.
+
 </div>
 
 <div class="method-row">
 
 #### [getUser](/reference/services/SoftLayer_Workload_Citrix_Deployment/getUser)
 Retrieve it is the [SoftLayer_User_Customer]({{<ref "reference/datatypes/SoftLayer_User_Customer">}}) who placed the order for CVAD.
+
 </div>
 
 <div class="method-row">
 
 #### [getVlan](/reference/services/SoftLayer_Workload_Citrix_Deployment/getVlan)
 Retrieve it is the VLAN resource for the CVAD deployment.
+
 </div>
 </div>
 

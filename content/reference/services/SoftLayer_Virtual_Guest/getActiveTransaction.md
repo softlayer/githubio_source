@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getActiveTransaction
 
+
 Retrieve a transaction that is still be performed on a cloud server.
 
 

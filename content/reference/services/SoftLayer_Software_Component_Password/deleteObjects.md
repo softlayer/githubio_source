@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Software_Component_Password](/reference/services/SoftLayer_Software_Component_Password)::deleteObjects
 
+
 Delete more than one passwords from a software component.
 
 

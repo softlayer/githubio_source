@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Catalyst_Company_Type](/reference/services/SoftLayer_Catalyst_Company_Type)::getAllObjects
 
+
 Get all catalyst company types
 
 

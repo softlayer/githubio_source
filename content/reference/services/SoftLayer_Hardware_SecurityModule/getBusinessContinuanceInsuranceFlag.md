@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getBusinessContinuanceInsuranceFlag
 
+
 Retrieve status indicating whether or not a piece of hardware has business continuance insurance.
 
 

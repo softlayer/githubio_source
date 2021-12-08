@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Product_Item_Requirement data type contains information relating to what requirements, if any, exist for an item. The requiredItemId local property is the item id that is required. 
 
 
@@ -50,7 +52,8 @@ The SoftLayer_Product_Item_Requirement data type contains information relating t
 [id]: #id
 #### [id]
 Identifier for this record.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ Identifier for this record.
 [itemId]: #itemid
 #### [itemId]
 This is the id of the item affected by the requirement.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -70,7 +74,8 @@ This is the id of the item affected by the requirement.
 [message]: #message
 #### [message]
 This is a custom message to display to the user when this requirement shortfall arises.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -80,7 +85,8 @@ This is a custom message to display to the user when this requirement shortfall 
 [requiredItemId]: #requireditemid
 #### [requiredItemId]
 This is the id of the item required.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -96,7 +102,8 @@ This is the id of the item required.
 [item]: #item
 #### [item]
 Item requirement applies to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>**  
+
 
 
 </div>
@@ -106,7 +113,8 @@ Item requirement applies to.
 [product]: #product
 #### [product]
 The product containing the requirement.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>**  
+
 
 
 </div>

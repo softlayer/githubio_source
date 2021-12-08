@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [description]: #description
 #### [description]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ classes:
 [name]: #name
 #### [name]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ classes:
 [brandAssignments]: #brandassignments
 #### [brandAssignments]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Brand_Payment_Processor'>SoftLayer_Brand_Payment_Processor[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Brand_Payment_Processor'>SoftLayer_Brand_Payment_Processor[] </a>**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ classes:
 [ownerAccount]: #owneraccount
 #### [ownerAccount]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ classes:
 [paymentMethods]: #paymentmethods
 #### [paymentMethods]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Payment_Processor_Method'>SoftLayer_Billing_Payment_Processor_Method[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Payment_Processor_Method'>SoftLayer_Billing_Payment_Processor_Method[] </a>**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ classes:
 [type]: #type
 #### [type]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Payment_Processor_Type'>SoftLayer_Billing_Payment_Processor_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Payment_Processor_Type'>SoftLayer_Billing_Payment_Processor_Type </a>**  
+
 
 
 </div>
@@ -113,7 +121,8 @@ classes:
 [brandAssignmentCount]: #brandassignmentcount
 #### [brandAssignmentCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -123,7 +132,8 @@ A count of
 [paymentMethodCount]: #paymentmethodcount
 #### [paymentMethodCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

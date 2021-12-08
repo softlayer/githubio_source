@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getMetricTrackingObject
 
+
 Retrieve a piece of hardware's metric tracking object.
 
 

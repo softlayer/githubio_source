@@ -18,6 +18,9 @@ classes:
 </div>
 
 ## Description 
+
+<div class="deprecated"><span class="deprecation-label">Deprecated  </span></div>
+
 The global load balancer service has been deprecated and is no longer available. 
 
 
@@ -51,7 +54,8 @@ The global load balancer service has been deprecated and is no longer available.
 [allowedNumberOfHosts]: #allowednumberofhosts
 #### [allowedNumberOfHosts]
 The maximum number of hosts that a global load balancer account is allowed to have.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -61,7 +65,8 @@ The maximum number of hosts that a global load balancer account is allowed to ha
 [averageConnectionsPerSecond]: #averageconnectionspersecond
 #### [averageConnectionsPerSecond]
 The average amount of connections per second used within the current billing cycle.  This number is updated daily.  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -71,7 +76,8 @@ The average amount of connections per second used within the current billing cyc
 [connectionsPerSecond]: #connectionspersecond
 #### [connectionsPerSecond]
 The amount of connections per second a global load balancer account may use within a billing cycle without being billed for an overage.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -81,7 +87,8 @@ The amount of connections per second a global load balancer account may use with
 [fallbackIp]: #fallbackip
 #### [fallbackIp]
 The IP address that will be return to a DNS request when none of the hosts for a global load balancer account could be returned.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -91,7 +98,8 @@ The IP address that will be return to a DNS request when none of the hosts for a
 [hostname]: #hostname
 #### [hostname]
 The hostname of a global load balancer account that is being load balanced.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -101,7 +109,8 @@ The hostname of a global load balancer account that is being load balanced.
 [id]: #id
 #### [id]
 The unique identifier of a global load balancer account.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -111,7 +120,8 @@ The unique identifier of a global load balancer account.
 [loadBalanceTypeId]: #loadbalancetypeid
 #### [loadBalanceTypeId]
 The identifier of the load balance method for a global load balancer account.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -121,7 +131,8 @@ The identifier of the load balance method for a global load balancer account.
 [notes]: #notes
 #### [notes]
 Additional customer defined information for a global load balancer account.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -137,7 +148,8 @@ Additional customer defined information for a global load balancer account.
 [account]: #account
 #### [account]
 Your SoftLayer customer account.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -147,7 +159,8 @@ Your SoftLayer customer account.
 [billingItem]: #billingitem
 #### [billingItem]
 The current billing item for a Global Load Balancer account.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**  
+
 
 
 </div>
@@ -157,7 +170,8 @@ The current billing item for a Global Load Balancer account.
 [hosts]: #hosts
 #### [hosts]
 The hosts in the load balancing pool for a global load balancer account.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_Global_Host'>SoftLayer_Network_LoadBalancer_Global_Host[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_Global_Host'>SoftLayer_Network_LoadBalancer_Global_Host[] </a>**  
+
 
 
 </div>
@@ -167,7 +181,8 @@ The hosts in the load balancing pool for a global load balancer account.
 [loadBalanceType]: #loadbalancetype
 #### [loadBalanceType]
 The load balance method of a global load balancer account  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_Global_Type'>SoftLayer_Network_LoadBalancer_Global_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_Global_Type'>SoftLayer_Network_LoadBalancer_Global_Type </a>**  
+
 
 
 </div>
@@ -177,7 +192,8 @@ The load balance method of a global load balancer account
 [managedResourceFlag]: #managedresourceflag
 #### [managedResourceFlag]
 A flag indicating that the global load balancer is a managed resource.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -189,7 +205,8 @@ A flag indicating that the global load balancer is a managed resource.
 [hostCount]: #hostcount
 #### [hostCount]
 A count of the hosts in the load balancing pool for a global load balancer account.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

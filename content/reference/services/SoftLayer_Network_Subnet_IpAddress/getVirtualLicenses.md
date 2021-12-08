@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet_IpAddress](/reference/services/SoftLayer_Network_Subnet_IpAddress)::getVirtualLicenses
 
+
 Retrieve virtual licenses allocated for an IP Address.
 
 

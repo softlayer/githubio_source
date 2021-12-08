@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Item_Category_Group](/reference/services/SoftLayer_Product_Item_Category_Group)::getObject
 
+
 Retrieve a SoftLayer_Product_Item_Category_Group record.
 
 

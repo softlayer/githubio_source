@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_Vlan_Firewall data type contains general information relating to a single SoftLayer VLAN firewall. This is the object which ties the running rules to a specific downstream server. Use the [[SoftLayer Network Firewall Template]] service to pull SoftLayer recommended rule set templates. Use the [[SoftLayer Network Firewall Update Request]] service to submit a firewall update request. 
 
 ### External Links
@@ -59,7 +61,8 @@ The SoftLayer_Network_Vlan_Firewall data type contains general information relat
 [administrativeBypassFlag]: #administrativebypassflag
 #### [administrativeBypassFlag]
 A flag to indicate if the firewall is in administrative bypass mode. In other words, no rules are being applied to the traffic coming through.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -69,7 +72,8 @@ A flag to indicate if the firewall is in administrative bypass mode. In other wo
 [customerManagedFlag]: #customermanagedflag
 #### [customerManagedFlag]
 Whether or not this firewall can be directly logged in to.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -79,7 +83,8 @@ Whether or not this firewall can be directly logged in to.
 [id]: #id
 #### [id]
 A firewall's unique identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -89,7 +94,8 @@ A firewall's unique identifier.
 [primaryIpAddress]: #primaryipaddress
 #### [primaryIpAddress]
 A firewall's primary IP address. This field will be the IP shown when doing network traces and reverse DNS and is a read-only property.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +111,8 @@ A firewall's primary IP address. This field will be the IP shown when doing netw
 [accountId]: #accountid
 #### [accountId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -115,7 +122,8 @@ A firewall's primary IP address. This field will be the IP shown when doing netw
 [bandwidthAllocation]: #bandwidthallocation
 #### [bandwidthAllocation]
 A firewall's allotted bandwidth (measured in GB).  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -125,7 +133,8 @@ A firewall's allotted bandwidth (measured in GB).
 [billingCycleBandwidthUsage]: #billingcyclebandwidthusage
 #### [billingCycleBandwidthUsage]
 The raw bandwidth usage data for the current billing cycle. One object will be returned for each network this firewall is attached to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Usage'>SoftLayer_Network_Bandwidth_Usage[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Usage'>SoftLayer_Network_Bandwidth_Usage[] </a>**  
+
 
 
 </div>
@@ -135,7 +144,8 @@ The raw bandwidth usage data for the current billing cycle. One object will be r
 [billingCyclePrivateBandwidthUsage]: #billingcycleprivatebandwidthusage
 #### [billingCyclePrivateBandwidthUsage]
 The raw private bandwidth usage data for the current billing cycle.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Usage'>SoftLayer_Network_Bandwidth_Usage </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Usage'>SoftLayer_Network_Bandwidth_Usage </a>**  
+
 
 
 </div>
@@ -145,7 +155,8 @@ The raw private bandwidth usage data for the current billing cycle.
 [billingCyclePublicBandwidthUsage]: #billingcyclepublicbandwidthusage
 #### [billingCyclePublicBandwidthUsage]
 The raw public bandwidth usage data for the current billing cycle.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Usage'>SoftLayer_Network_Bandwidth_Usage </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Usage'>SoftLayer_Network_Bandwidth_Usage </a>**  
+
 
 
 </div>
@@ -155,7 +166,8 @@ The raw public bandwidth usage data for the current billing cycle.
 [billingItem]: #billingitem
 #### [billingItem]
 The billing item for a Hardware Firewall (Dedicated).  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**  
+
 
 
 </div>
@@ -165,7 +177,8 @@ The billing item for a Hardware Firewall (Dedicated).
 [bypassRequestStatus]: #bypassrequeststatus
 #### [bypassRequestStatus]
 Administrative bypass request status.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -175,7 +188,8 @@ Administrative bypass request status.
 [datacenter]: #datacenter
 #### [datacenter]
 The datacenter that the firewall resides in.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**  
+
 
 
 </div>
@@ -185,7 +199,8 @@ The datacenter that the firewall resides in.
 [firewallType]: #firewalltype
 #### [firewallType]
 The firewall device type.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -195,7 +210,8 @@ The firewall device type.
 [fullyQualifiedDomainName]: #fullyqualifieddomainname
 #### [fullyQualifiedDomainName]
 A name reflecting the hostname and domain of the firewall. This is created from the combined values of the firewall's logical name and vlan number automatically, and thus can not be edited directly.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -205,7 +221,8 @@ A name reflecting the hostname and domain of the firewall. This is created from 
 [managementCredentials]: #managementcredentials
 #### [managementCredentials]
 The credentials to log in to a firewall device. This is only present for dedicated appliances.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component_Password'>SoftLayer_Software_Component_Password </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component_Password'>SoftLayer_Software_Component_Password </a>**  
+
 
 
 </div>
@@ -215,7 +232,8 @@ The credentials to log in to a firewall device. This is only present for dedicat
 [metricTrackingObject]: #metrictrackingobject
 #### [metricTrackingObject]
 A firewall's metric tracking object.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object'>SoftLayer_Metric_Tracking_Object </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object'>SoftLayer_Metric_Tracking_Object </a>**  
+
 
 
 </div>
@@ -225,7 +243,8 @@ A firewall's metric tracking object.
 [metricTrackingObjectId]: #metrictrackingobjectid
 #### [metricTrackingObjectId]
 The metric tracking object ID for this firewall.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -235,7 +254,8 @@ The metric tracking object ID for this firewall.
 [networkFirewallUpdateRequests]: #networkfirewallupdaterequests
 #### [networkFirewallUpdateRequests]
 The update requests made for this firewall.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Firewall_Update_Request'>SoftLayer_Network_Firewall_Update_Request[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Firewall_Update_Request'>SoftLayer_Network_Firewall_Update_Request[] </a>**  
+
 
 
 </div>
@@ -245,7 +265,8 @@ The update requests made for this firewall.
 [networkGateway]: #networkgateway
 #### [networkGateway]
 The gateway associated with this firewall, if any.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Gateway'>SoftLayer_Network_Gateway </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Gateway'>SoftLayer_Network_Gateway </a>**  
+
 
 
 </div>
@@ -255,7 +276,8 @@ The gateway associated with this firewall, if any.
 [networkVlan]: #networkvlan
 #### [networkVlan]
 The VLAN object that a firewall is associated with and protecting.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a>**  
+
 
 
 </div>
@@ -265,7 +287,8 @@ The VLAN object that a firewall is associated with and protecting.
 [networkVlans]: #networkvlans
 #### [networkVlans]
 The VLAN objects that a firewall is associated with and protecting.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan[] </a>**  
+
 
 
 </div>
@@ -275,7 +298,8 @@ The VLAN objects that a firewall is associated with and protecting.
 [rules]: #rules
 #### [rules]
 The currently running rule set of this network component firewall.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Vlan_Firewall_Rule'>SoftLayer_Network_Vlan_Firewall_Rule[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Vlan_Firewall_Rule'>SoftLayer_Network_Vlan_Firewall_Rule[] </a>**  
+
 
 
 </div>
@@ -285,7 +309,8 @@ The currently running rule set of this network component firewall.
 [tagReferences]: #tagreferences
 #### [tagReferences]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Tag_Reference'>SoftLayer_Tag_Reference[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Tag_Reference'>SoftLayer_Tag_Reference[] </a>**  
+
 
 
 </div>
@@ -295,7 +320,8 @@ The currently running rule set of this network component firewall.
 [upgradeRequest]: #upgraderequest
 #### [upgradeRequest]
 A firewall's associated upgrade request object, if any.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Upgrade_Request'>SoftLayer_Product_Upgrade_Request </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Upgrade_Request'>SoftLayer_Product_Upgrade_Request </a>**  
+
 
 
 </div>
@@ -307,7 +333,8 @@ A firewall's associated upgrade request object, if any.
 [billingCycleBandwidthUsageCount]: #billingcyclebandwidthusagecount
 #### [billingCycleBandwidthUsageCount]
 A count of the raw bandwidth usage data for the current billing cycle. One object will be returned for each network this firewall is attached to.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -317,7 +344,8 @@ A count of the raw bandwidth usage data for the current billing cycle. One objec
 [networkFirewallUpdateRequestCount]: #networkfirewallupdaterequestcount
 #### [networkFirewallUpdateRequestCount]
 A count of the update requests made for this firewall.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -327,7 +355,8 @@ A count of the update requests made for this firewall.
 [networkVlanCount]: #networkvlancount
 #### [networkVlanCount]
 A count of the VLAN objects that a firewall is associated with and protecting.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -337,7 +366,8 @@ A count of the VLAN objects that a firewall is associated with and protecting.
 [ruleCount]: #rulecount
 #### [ruleCount]
 A count of the currently running rule set of this network component firewall.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -347,7 +377,8 @@ A count of the currently running rule set of this network component firewall.
 [tagReferenceCount]: #tagreferencecount
 #### [tagReferenceCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

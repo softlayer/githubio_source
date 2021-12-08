@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getDisallowCustomDiskPartitions
 
+
 Retrieve this flag indicates the package does not allow custom disk partitions.
 
 

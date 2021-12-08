@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Container class used to hold user authentication token 
 
 
@@ -45,7 +47,8 @@ Container class used to hold user authentication token
 [hash]: #hash
 #### [hash]
 hash that gets populated for user authentication  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ hash that gets populated for user authentication
 [user]: #user
 #### [user]
 the user authenticated object  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ the user authenticated object
 [userId]: #userid
 #### [userId]
 the id of the user to authenticate  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

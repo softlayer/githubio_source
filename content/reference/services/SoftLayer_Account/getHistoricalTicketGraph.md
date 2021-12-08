@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getHistoricalTicketGraph
 
+
 This method returns a pie chart of ticket statistics for the given dates.
 
 

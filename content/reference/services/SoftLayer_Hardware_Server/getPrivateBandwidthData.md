@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getPrivateBandwidthData
 
+
 Retrieve a graph of a server's private network usage.
 
 

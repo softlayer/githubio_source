@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This container is used to hold VAT information. 
 
 
@@ -45,7 +47,8 @@ This container is used to hold VAT information.
 [countryCode]: #countrycode
 #### [countryCode]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ This container is used to hold VAT information.
 [regex]: #regex
 #### [regex]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getLogicalVolumeStorageGroups
 
+
 Retrieve returns a list of logical volumes on the physical machine.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Internal_Ibm](/reference/services/SoftLayer_Account_Internal_Ibm)::hasExistingRequest
 
+
 Checks for an existing request which would block an IBMer application
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Disk_Image](/reference/services/SoftLayer_Virtual_Disk_Image)::getSoftwareReferences
 
+
 Retrieve references to the software that resides on a disk image.
 
 

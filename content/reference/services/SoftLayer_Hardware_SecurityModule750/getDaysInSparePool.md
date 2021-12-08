@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getDaysInSparePool
 
+
 Retrieve number of day(s) a server have been in spare pool.
 
 

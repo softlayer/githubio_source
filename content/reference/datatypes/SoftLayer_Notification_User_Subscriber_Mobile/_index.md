@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 A notification subscriber will have details pertaining to the subscriber's notification subscription.  You can receive details such as preferences, details of the preferences, delivery methods and the delivery methods for the subscriber. 
 
 NOTE: There are preferences and delivery methods that cannot be modified.  Also, there are some subscriptions that are required. 
@@ -52,7 +54,8 @@ NOTE: There are preferences and delivery methods that cannot be modified.  Also,
 [active]: #active
 #### [active]
 The current status of the subscription.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -62,7 +65,8 @@ The current status of the subscription.
 [id]: #id
 #### [id]
 Unique identifier of the subscriber that will receive the alerts.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -72,7 +76,8 @@ Unique identifier of the subscriber that will receive the alerts.
 [notificationId]: #notificationid
 #### [notificationId]
 Unique identifier of the notification subscribed to.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -82,7 +87,8 @@ Unique identifier of the notification subscribed to.
 [userRecordId]: #userrecordid
 #### [userRecordId]
 Unique identifier of the user the subscription is for.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -98,7 +104,8 @@ Unique identifier of the user the subscription is for.
 [deliveryMethods]: #deliverymethods
 #### [deliveryMethods]
 The delivery methods used to send the subscribed notification.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Delivery_Method'>SoftLayer_Notification_Delivery_Method[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Delivery_Method'>SoftLayer_Notification_Delivery_Method[] </a>**  
+
 
 
 </div>
@@ -108,7 +115,8 @@ The delivery methods used to send the subscribed notification.
 [notification]: #notification
 #### [notification]
 Notification subscribed to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification'>SoftLayer_Notification </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification'>SoftLayer_Notification </a>**  
+
 
 
 </div>
@@ -118,7 +126,8 @@ Notification subscribed to.
 [preferences]: #preferences
 #### [preferences]
 Associated subscriber preferences used for the notification subscription. For example, preferences include number of deliveries (limit) and threshold.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_User_Subscriber_Preference'>SoftLayer_Notification_User_Subscriber_Preference[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_User_Subscriber_Preference'>SoftLayer_Notification_User_Subscriber_Preference[] </a>**  
+
 
 
 </div>
@@ -128,7 +137,8 @@ Associated subscriber preferences used for the notification subscription. For ex
 [preferencesDetails]: #preferencesdetails
 #### [preferencesDetails]
 Preference details such as description, minimum and maximum limits, default value and unit of measure.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Preference'>SoftLayer_Notification_Preference[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Preference'>SoftLayer_Notification_Preference[] </a>**  
+
 
 
 </div>
@@ -138,7 +148,8 @@ Preference details such as description, minimum and maximum limits, default valu
 [resourceRecord]: #resourcerecord
 #### [resourceRecord]
 The subscriber id to resource id mapping.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_User_Subscriber_Resource'>SoftLayer_Notification_User_Subscriber_Resource </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_User_Subscriber_Resource'>SoftLayer_Notification_User_Subscriber_Resource </a>**  
+
 
 
 </div>
@@ -148,7 +159,8 @@ The subscriber id to resource id mapping.
 [userRecord]: #userrecord
 #### [userRecord]
 User record for the subscription.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**  
+
 
 
 </div>
@@ -160,7 +172,8 @@ User record for the subscription.
 [deliveryMethodCount]: #deliverymethodcount
 #### [deliveryMethodCount]
 A count of the delivery methods used to send the subscribed notification.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -170,7 +183,8 @@ A count of the delivery methods used to send the subscribed notification.
 [preferenceCount]: #preferencecount
 #### [preferenceCount]
 A count of associated subscriber preferences used for the notification subscription. For example, preferences include number of deliveries (limit) and threshold.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -180,7 +194,8 @@ A count of associated subscriber preferences used for the notification subscript
 [preferencesDetailCount]: #preferencesdetailcount
 #### [preferencesDetailCount]
 A count of preference details such as description, minimum and maximum limits, default value and unit of measure.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

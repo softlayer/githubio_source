@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Funding codes for the department paying for the proof of concept account. 
 
 
@@ -50,7 +52,8 @@ Funding codes for the department paying for the proof of concept account.
 [countryCode]: #countrycode
 #### [countryCode]
 Internal billing system country code  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ Internal billing system country code
 [departmentCode]: #departmentcode
 #### [departmentCode]
 Customer's Internal billing system department code  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -70,7 +74,8 @@ Customer's Internal billing system department code
 [divisionCode]: #divisioncode
 #### [divisionCode]
 Internal billing system division code  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

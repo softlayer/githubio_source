@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 SoftLayer_Network_Application_Delivery_Controller_Configuration_History provides access to view or delete existing configuration history records. Configuration content may not be viewed as it may contain sensitive information. The configuration history entries are used to support creating backups of an application delivery controller's configuration state in order to restore them later if needed. 
 
 
@@ -42,18 +44,21 @@ SoftLayer_Network_Application_Delivery_Controller_Configuration_History provides
 
 #### [deleteObject](/reference/services/SoftLayer_Network_Application_Delivery_Controller_Configuration_History/deleteObject)
 Remove a configuration history record.
+
 </div>
 
 <div class="method-row">
 
 #### [getController](/reference/services/SoftLayer_Network_Application_Delivery_Controller_Configuration_History/getController)
 Retrieve the application delivery controller that a configuration history record belongs to.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Application_Delivery_Controller_Configuration_History/getObject)
 Retrieve a SoftLayer_Network_Application_Delivery_Controller_Configuration_History record.
+
 </div>
 </div>
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 A guest asset is a fixed asset of scale group. It is not automatically scaled up or down in any way. Its purpose is to provide information (e.g. metrics) to policies to affect scaling decisions. 
 
 
@@ -42,36 +44,42 @@ A guest asset is a fixed asset of scale group. It is not automatically scaled up
 
 #### [createObject](/reference/services/SoftLayer_Scale_Asset_Virtual_Guest/createObject)
 Pin a guest on a group. This can be done at anytime, whether the group is active or not. 
+
 </div>
 
 <div class="method-row">
 
 #### [deleteObject](/reference/services/SoftLayer_Scale_Asset_Virtual_Guest/deleteObject)
 Delete this group asset.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Scale_Asset_Virtual_Guest/getObject)
 Retrieve a SoftLayer_Scale_Asset_Virtual_Guest record.
+
 </div>
 
 <div class="method-row">
 
 #### [getScaleGroup](/reference/services/SoftLayer_Scale_Asset_Virtual_Guest/getScaleGroup)
 Retrieve the group this asset belongs to.
+
 </div>
 
 <div class="method-row">
 
 #### [getVirtualGuest](/reference/services/SoftLayer_Scale_Asset_Virtual_Guest/getVirtualGuest)
 Retrieve the guest for this asset.
+
 </div>
 
 <div class="method-row">
 
 #### [getVirtualGuestId](/reference/services/SoftLayer_Scale_Asset_Virtual_Guest/getVirtualGuestId)
 Retrieve the identifier of the guest for this asset.
+
 </div>
 </div>
 

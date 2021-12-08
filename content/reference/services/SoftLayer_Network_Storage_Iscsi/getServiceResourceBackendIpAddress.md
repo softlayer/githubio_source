@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getServiceResourceBackendIpAddress
 
+
 Retrieve the IP address of a Storage resource.
 
 

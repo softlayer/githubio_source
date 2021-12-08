@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getBandwidthDataByDate
 
+
 Retrieve the amount of network traffic that occurred for the specified time frame for a computing instance. 
 
 

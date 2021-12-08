@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [data]: #data
 #### [data]
 The data recorded by a tracking object.   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Data'>SoftLayer_Metric_Tracking_Object_Data[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Data'>SoftLayer_Metric_Tracking_Object_Data[] </a>**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The data recorded by a tracking object.
 [id]: #id
 #### [id]
 A tracking object's internal identifier.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A tracking object's internal identifier.
 [label]: #label
 #### [label]
 Tracking object label   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Tracking object label
 [resourceTableId]: #resourcetableid
 #### [resourceTableId]
 The identifier of the existing resource this object is attempting to track.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The identifier of the existing resource this object is attempting to track.
 [startDate]: #startdate
 #### [startDate]
 The date this tracker began tracking this particular resource.   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ The date this tracker began tracking this particular resource.
 [resource]: #resource
 #### [resource]
 The virtual storage repository that this tracking object tracks.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Storage_Repository'>SoftLayer_Virtual_Storage_Repository </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Storage_Repository'>SoftLayer_Virtual_Storage_Repository </a>**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ The virtual storage repository that this tracking object tracks.
 [type]: #type
 #### [type]
 The type of data that a tracking object polls.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Type'>SoftLayer_Metric_Tracking_Object_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Type'>SoftLayer_Metric_Tracking_Object_Type </a>**  
+
 
 
 </div>

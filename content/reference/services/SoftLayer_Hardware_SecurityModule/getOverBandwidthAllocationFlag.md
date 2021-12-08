@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getOverBandwidthAllocationFlag
 
+
 Retrieve whether the bandwidth usage for this hardware for the current billing cycle exceeds the allocation.
 
 

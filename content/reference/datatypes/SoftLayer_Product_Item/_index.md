@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Product_Item data type contains general information relating to a single SoftLayer product. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Product_Item data type contains general information relating to a 
 [capacity]: #capacity
 #### [capacity]
 Some Product Items have capacity information such as RAM and bandwidth, and others. This provides the numerical representation of the capacity given in the description of this product item.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Some Product Items have capacity information such as RAM and bandwidth, and othe
 [description]: #description
 #### [description]
 A product's description  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A product's description
 [hardwareGenericComponentId]: #hardwaregenericcomponentid
 #### [hardwareGenericComponentId]
 The hardware generic component model ID of the product.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The hardware generic component model ID of the product.
 [id]: #id
 #### [id]
 A product's internal identification number  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ A product's internal identification number
 [itemTaxCategoryId]: #itemtaxcategoryid
 #### [itemTaxCategoryId]
 A products tax category internal identification number  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ A products tax category internal identification number
 [keyName]: #keyname
 #### [keyName]
 A unique key name for the product.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ A unique key name for the product.
 [longDescription]: #longdescription
 #### [longDescription]
 Detailed product description  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ Detailed product description
 [softwareDescriptionId]: #softwaredescriptionid
 #### [softwareDescriptionId]
 The unique identifier of the SoftLayer_Software_Description tied to this item.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ The unique identifier of the SoftLayer_Software_Description tied to this item.
 [units]: #units
 #### [units]
 The unit of measurement that a product item is measured in.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ The unit of measurement that a product item is measured in.
 [upgradeItemId]: #upgradeitemid
 #### [upgradeItemId]
 A products upgrade item's internal identification number  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ A products upgrade item's internal identification number
 [activePresaleEvents]: #activepresaleevents
 #### [activePresaleEvents]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Sales_Presale_Event'>SoftLayer_Sales_Presale_Event[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Sales_Presale_Event'>SoftLayer_Sales_Presale_Event[] </a>**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ A products upgrade item's internal identification number
 [activeUsagePrices]: #activeusageprices
 #### [activeUsagePrices]
 Active usage based prices.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a>**  
+
 
 
 </div>
@@ -171,7 +185,8 @@ Active usage based prices.
 [attributes]: #attributes
 #### [attributes]
 The attribute values for a product item. These are additional properties that give extra information about the product being sold.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Attribute'>SoftLayer_Product_Item_Attribute[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Attribute'>SoftLayer_Product_Item_Attribute[] </a>**  
+
 
 
 </div>
@@ -181,7 +196,8 @@ The attribute values for a product item. These are additional properties that gi
 [availabilityAttributes]: #availabilityattributes
 #### [availabilityAttributes]
 Attributes that govern when an item may no longer be available.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Attribute'>SoftLayer_Product_Item_Attribute[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Attribute'>SoftLayer_Product_Item_Attribute[] </a>**  
+
 
 
 </div>
@@ -191,7 +207,8 @@ Attributes that govern when an item may no longer be available.
 [billingType]: #billingtype
 #### [billingType]
 An item's special billing type, if applicable.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -201,7 +218,8 @@ An item's special billing type, if applicable.
 [bundle]: #bundle
 #### [bundle]
 An item's included product item references. Some items have other items included in them that we specifically detail. They are here called Bundled Items. An example is Plesk unlimited. It as a bundled item labeled 'SiteBuilder'. These are the SoftLayer_Product_Item_Bundles objects. See the SoftLayer_Product_Item::bundleItems property for bundle of SoftLayer_Product_Item of objects.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Bundles'>SoftLayer_Product_Item_Bundles[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Bundles'>SoftLayer_Product_Item_Bundles[] </a>**  
+
 
 
 </div>
@@ -211,7 +229,8 @@ An item's included product item references. Some items have other items included
 [bundleItems]: #bundleitems
 #### [bundleItems]
 An item's included products. Some items have other items included in them that we specifically detail. They are here called Bundled Items. An example is Plesk unlimited. It as a bundled item labeled 'SiteBuilder'. These are the SoftLayer_Product_Item objects.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item[] </a>**  
+
 
 
 </div>
@@ -221,7 +240,8 @@ An item's included products. Some items have other items included in them that w
 [capacityMaximum]: #capacitymaximum
 #### [capacityMaximum]
 When the product capacity is best described as a range, this holds the ceiling of the range.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -231,7 +251,8 @@ When the product capacity is best described as a range, this holds the ceiling o
 [capacityMinimum]: #capacityminimum
 #### [capacityMinimum]
 When the product capacity is best described as a range, this holds the floor of the range.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -241,7 +262,8 @@ When the product capacity is best described as a range, this holds the floor of 
 [capacityRestrictedProductFlag]: #capacityrestrictedproductflag
 #### [capacityRestrictedProductFlag]
 This flag indicates that this product is restricted by a capacity on a related product.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -251,7 +273,8 @@ This flag indicates that this product is restricted by a capacity on a related p
 [categories]: #categories
 #### [categories]
 An item's associated item categories.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category[] </a>**  
+
 
 
 </div>
@@ -261,7 +284,8 @@ An item's associated item categories.
 [configurationTemplates]: #configurationtemplates
 #### [configurationTemplates]
 Some product items have configuration templates which can be used to during provisioning of that product.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template'>SoftLayer_Configuration_Template[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template'>SoftLayer_Configuration_Template[] </a>**  
+
 
 
 </div>
@@ -271,7 +295,8 @@ Some product items have configuration templates which can be used to during prov
 [conflicts]: #conflicts
 #### [conflicts]
 An item's conflicts. For example, McAfee LinuxShield cannot be ordered with Windows. It was not meant for that operating system and as such is a conflict.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Resource_Conflict'>SoftLayer_Product_Item_Resource_Conflict[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Resource_Conflict'>SoftLayer_Product_Item_Resource_Conflict[] </a>**  
+
 
 
 </div>
@@ -281,7 +306,8 @@ An item's conflicts. For example, McAfee LinuxShield cannot be ordered with Wind
 [coreRestrictedItemFlag]: #corerestricteditemflag
 #### [coreRestrictedItemFlag]
 This flag indicates that this product is restricted by the number of cores on the compute instance. This is deprecated. Use [SoftLayer_Product_Item::getCapacityRestrictedProductFlag]({{<ref "reference/services/SoftLayer_Product_Item/getCapacityRestrictedProductFlag">}})  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -291,7 +317,8 @@ This flag indicates that this product is restricted by the number of cores on th
 [downgradeItem]: #downgradeitem
 #### [downgradeItem]
 Some product items have a downgrade path. This is the first product item in the downgrade path.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>**  
+
 
 
 </div>
@@ -301,7 +328,8 @@ Some product items have a downgrade path. This is the first product item in the 
 [downgradeItems]: #downgradeitems
 #### [downgradeItems]
 Some product items have a downgrade path. These are those product items.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item[] </a>**  
+
 
 
 </div>
@@ -311,7 +339,8 @@ Some product items have a downgrade path. These are those product items.
 [globalCategoryConflicts]: #globalcategoryconflicts
 #### [globalCategoryConflicts]
 An item's category conflicts. For example, 10 Gbps redundant network functionality cannot be ordered with a secondary GPU and as such is a conflict.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Resource_Conflict'>SoftLayer_Product_Item_Resource_Conflict[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Resource_Conflict'>SoftLayer_Product_Item_Resource_Conflict[] </a>**  
+
 
 
 </div>
@@ -321,7 +350,8 @@ An item's category conflicts. For example, 10 Gbps redundant network functionali
 [hardwareGenericComponentModel]: #hardwaregenericcomponentmodel
 #### [hardwareGenericComponentModel]
 The generic hardware component that this item represents.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model_Generic'>SoftLayer_Hardware_Component_Model_Generic </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model_Generic'>SoftLayer_Hardware_Component_Model_Generic </a>**  
+
 
 
 </div>
@@ -331,7 +361,8 @@ The generic hardware component that this item represents.
 [hideFromPortalFlag]: #hidefromportalflag
 #### [hideFromPortalFlag]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -341,7 +372,8 @@ The generic hardware component that this item represents.
 [ineligibleForAccountDiscountFlag]: #ineligibleforaccountdiscountflag
 #### [ineligibleForAccountDiscountFlag]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -351,7 +383,8 @@ The generic hardware component that this item represents.
 [inventory]: #inventory
 #### [inventory]
 DEPRECATED. An item's inventory status per datacenter.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Inventory'>SoftLayer_Product_Package_Inventory[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Inventory'>SoftLayer_Product_Package_Inventory[] </a>**  
+
 
 
 </div>
@@ -361,7 +394,8 @@ DEPRECATED. An item's inventory status per datacenter.
 [isEngineeredServerProduct]: #isengineeredserverproduct
 #### [isEngineeredServerProduct]
 Flag to indicate the server product is engineered for a multi-server solution. (Deprecated)  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -371,7 +405,8 @@ Flag to indicate the server product is engineered for a multi-server solution. (
 [itemCategory]: #itemcategory
 #### [itemCategory]
 An item's primary item category.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category </a>**  
+
 
 
 </div>
@@ -381,7 +416,8 @@ An item's primary item category.
 [localDiskFlag]: #localdiskflag
 #### [localDiskFlag]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -391,7 +427,8 @@ An item's primary item category.
 [locationConflicts]: #locationconflicts
 #### [locationConflicts]
 An item's location conflicts. For example, Dual Path network functionality cannot be ordered in WDC and as such is a conflict.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Resource_Conflict'>SoftLayer_Product_Item_Resource_Conflict[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Resource_Conflict'>SoftLayer_Product_Item_Resource_Conflict[] </a>**  
+
 
 
 </div>
@@ -401,7 +438,8 @@ An item's location conflicts. For example, Dual Path network functionality canno
 [minimumNvmeBays]: #minimumnvmebays
 #### [minimumNvmeBays]
 The minimum number of bays that support NVMe SSDs.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -411,7 +449,8 @@ The minimum number of bays that support NVMe SSDs.
 [nvmeDiskFlag]: #nvmediskflag
 #### [nvmeDiskFlag]
 Indicates whether an item is a NVMe SSD.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -421,7 +460,8 @@ Indicates whether an item is a NVMe SSD.
 [objectStorageClusterGeolocationType]: #objectstorageclustergeolocationtype
 #### [objectStorageClusterGeolocationType]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -431,7 +471,8 @@ Indicates whether an item is a NVMe SSD.
 [objectStorageItemFlag]: #objectstorageitemflag
 #### [objectStorageItemFlag]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -441,7 +482,8 @@ Indicates whether an item is a NVMe SSD.
 [objectStorageServiceClass]: #objectstorageserviceclass
 #### [objectStorageServiceClass]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -451,7 +493,8 @@ Indicates whether an item is a NVMe SSD.
 [packages]: #packages
 #### [packages]
 A collection of all the SoftLayer_Product_Package(s) in which this item exists.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package[] </a>**  
+
 
 
 </div>
@@ -461,7 +504,8 @@ A collection of all the SoftLayer_Product_Package(s) in which this item exists.
 [physicalCoreCapacity]: #physicalcorecapacity
 #### [physicalCoreCapacity]
 The number of cores that a processor has.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -471,7 +515,8 @@ The number of cores that a processor has.
 [presaleEvents]: #presaleevents
 #### [presaleEvents]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Sales_Presale_Event'>SoftLayer_Sales_Presale_Event[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Sales_Presale_Event'>SoftLayer_Sales_Presale_Event[] </a>**  
+
 
 
 </div>
@@ -481,7 +526,8 @@ The number of cores that a processor has.
 [prices]: #prices
 #### [prices]
 A product item's prices.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a>**  
+
 
 
 </div>
@@ -491,7 +537,8 @@ A product item's prices.
 [requirements]: #requirements
 #### [requirements]
 If an item must be ordered with another item, it will have a requirement item here.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Requirement'>SoftLayer_Product_Item_Requirement[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Requirement'>SoftLayer_Product_Item_Requirement[] </a>**  
+
 
 
 </div>
@@ -501,7 +548,8 @@ If an item must be ordered with another item, it will have a requirement item he
 [rules]: #rules
 #### [rules]
 An item's rules. This includes the requirements and conflicts to resources that an item has.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Rule'>SoftLayer_Product_Item_Rule[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Rule'>SoftLayer_Product_Item_Rule[] </a>**  
+
 
 
 </div>
@@ -511,7 +559,8 @@ An item's rules. This includes the requirements and conflicts to resources that 
 [softwareDescription]: #softwaredescription
 #### [softwareDescription]
 The SoftLayer_Software_Description tied to this item. This will only be populated for software items.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Description'>SoftLayer_Software_Description </a>**  
+
 
 
 </div>
@@ -521,7 +570,8 @@ The SoftLayer_Software_Description tied to this item. This will only be populate
 [taxCategory]: #taxcategory
 #### [taxCategory]
 An item's tax category, if applicable.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Tax_Category'>SoftLayer_Product_Item_Tax_Category </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Tax_Category'>SoftLayer_Product_Item_Tax_Category </a>**  
+
 
 
 </div>
@@ -531,7 +581,8 @@ An item's tax category, if applicable.
 [thirdPartyPolicyAssignments]: #thirdpartypolicyassignments
 #### [thirdPartyPolicyAssignments]
 Third-party policy assignments for this product.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Policy_Assignment'>SoftLayer_Product_Item_Policy_Assignment[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Policy_Assignment'>SoftLayer_Product_Item_Policy_Assignment[] </a>**  
+
 
 
 </div>
@@ -541,7 +592,8 @@ Third-party policy assignments for this product.
 [thirdPartySupportVendor]: #thirdpartysupportvendor
 #### [thirdPartySupportVendor]
 The 3rd party vendor for a support subscription item. (Deprecated)  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -551,7 +603,8 @@ The 3rd party vendor for a support subscription item. (Deprecated)
 [totalPhysicalCoreCapacity]: #totalphysicalcorecapacity
 #### [totalPhysicalCoreCapacity]
 The total number of physical processing cores (excluding virtual cores / hyperthreads) for this server.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -561,7 +614,8 @@ The total number of physical processing cores (excluding virtual cores / hyperth
 [totalPhysicalCoreCount]: #totalphysicalcorecount
 #### [totalPhysicalCoreCount]
 Shows the total number of cores. This is deprecated. Use [SoftLayer_Product_Item::getCapacity]({{<ref "reference/services/SoftLayer_Product_Item/getCapacity">}}) for server products  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -571,7 +625,8 @@ Shows the total number of cores. This is deprecated. Use [SoftLayer_Product_Item
 [totalProcessorCapacity]: #totalprocessorcapacity
 #### [totalProcessorCapacity]
 The total number of processors for this server.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -581,7 +636,8 @@ The total number of processors for this server.
 [upgradeItem]: #upgradeitem
 #### [upgradeItem]
 Some product items have an upgrade path. This is the next product item in the upgrade path.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item </a>**  
+
 
 
 </div>
@@ -591,7 +647,8 @@ Some product items have an upgrade path. This is the next product item in the up
 [upgradeItems]: #upgradeitems
 #### [upgradeItems]
 Some product items have an upgrade path. These are those upgrade product items.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item[] </a>**  
+
 
 
 </div>
@@ -603,7 +660,8 @@ Some product items have an upgrade path. These are those upgrade product items.
 [activePresaleEventCount]: #activepresaleeventcount
 #### [activePresaleEventCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -613,7 +671,8 @@ A count of
 [activeUsagePriceCount]: #activeusagepricecount
 #### [activeUsagePriceCount]
 A count of active usage based prices.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -623,7 +682,8 @@ A count of active usage based prices.
 [attributeCount]: #attributecount
 #### [attributeCount]
 A count of the attribute values for a product item. These are additional properties that give extra information about the product being sold.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -633,7 +693,8 @@ A count of the attribute values for a product item. These are additional propert
 [availabilityAttributeCount]: #availabilityattributecount
 #### [availabilityAttributeCount]
 A count of attributes that govern when an item may no longer be available.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -643,7 +704,8 @@ A count of attributes that govern when an item may no longer be available.
 [bundleCount]: #bundlecount
 #### [bundleCount]
 A count of an item's included product item references. Some items have other items included in them that we specifically detail. They are here called Bundled Items. An example is Plesk unlimited. It as a bundled item labeled 'SiteBuilder'. These are the SoftLayer_Product_Item_Bundles objects. See the SoftLayer_Product_Item::bundleItems property for bundle of SoftLayer_Product_Item of objects.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -653,7 +715,8 @@ A count of an item's included product item references. Some items have other ite
 [bundleItemCount]: #bundleitemcount
 #### [bundleItemCount]
 A count of an item's included products. Some items have other items included in them that we specifically detail. They are here called Bundled Items. An example is Plesk unlimited. It as a bundled item labeled 'SiteBuilder'. These are the SoftLayer_Product_Item objects.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -663,7 +726,8 @@ A count of an item's included products. Some items have other items included in 
 [categoryCount]: #categorycount
 #### [categoryCount]
 A count of an item's associated item categories.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -673,7 +737,8 @@ A count of an item's associated item categories.
 [configurationTemplateCount]: #configurationtemplatecount
 #### [configurationTemplateCount]
 A count of some product items have configuration templates which can be used to during provisioning of that product.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -683,7 +748,8 @@ A count of some product items have configuration templates which can be used to 
 [downgradeItemCount]: #downgradeitemcount
 #### [downgradeItemCount]
 A count of some product items have a downgrade path. These are those product items.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -693,7 +759,8 @@ A count of some product items have a downgrade path. These are those product ite
 [inventoryCount]: #inventorycount
 #### [inventoryCount]
 A count of dEPRECATED. An item's inventory status per datacenter.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -703,7 +770,8 @@ A count of dEPRECATED. An item's inventory status per datacenter.
 [packageCount]: #packagecount
 #### [packageCount]
 A count of a collection of all the SoftLayer_Product_Package(s) in which this item exists.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -713,7 +781,8 @@ A count of a collection of all the SoftLayer_Product_Package(s) in which this it
 [presaleEventCount]: #presaleeventcount
 #### [presaleEventCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -723,7 +792,8 @@ A count of
 [priceCount]: #pricecount
 #### [priceCount]
 A count of a product item's prices.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -733,7 +803,8 @@ A count of a product item's prices.
 [ruleCount]: #rulecount
 #### [ruleCount]
 A count of an item's rules. This includes the requirements and conflicts to resources that an item has.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -743,7 +814,8 @@ A count of an item's rules. This includes the requirements and conflicts to reso
 [thirdPartyPolicyAssignmentCount]: #thirdpartypolicyassignmentcount
 #### [thirdPartyPolicyAssignmentCount]
 A count of third-party policy assignments for this product.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -753,7 +825,8 @@ A count of third-party policy assignments for this product.
 [upgradeItemCount]: #upgradeitemcount
 #### [upgradeItemCount]
 A count of some product items have an upgrade path. These are those upgrade product items.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

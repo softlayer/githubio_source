@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Upgrade_Request](/reference/services/SoftLayer_Product_Upgrade_Request)::getTicket
 
+
 Retrieve the ticket that is used to coordinate the upgrade process.
 
 

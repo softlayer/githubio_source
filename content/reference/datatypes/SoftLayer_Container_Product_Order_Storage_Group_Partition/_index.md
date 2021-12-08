@@ -20,6 +20,8 @@ classes:
 </div>
 
 ## Description 
+
+
 A storage group partition container used for a hardware server order. 
 
 This object describes the partitions for a single storage group that can be added to an order container. 
@@ -49,7 +51,8 @@ This object describes the partitions for a single storage group that can be adde
 [isGrow]: #isgrow
 #### [isGrow]
 Is this a grow partition  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -59,7 +62,8 @@ Is this a grow partition
 [name]: #name
 #### [name]
 The name of this partition  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -69,7 +73,8 @@ The name of this partition
 [size]: #size
 #### [size]
 The size of this partition  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>

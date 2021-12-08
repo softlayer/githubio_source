@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This is the datatype that can be populated by the customer to provide NFS shared storage information for VMware orders. 
 
 
@@ -51,7 +53,8 @@ This is the datatype that can be populated by the customer to provide NFS shared
 [iops]: #iops
 #### [iops]
 Which storage tier: e.g. READHEAVY_TIER  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -61,7 +64,8 @@ Which storage tier: e.g. READHEAVY_TIER
 [quantity]: #quantity
 #### [quantity]
 The number of shared storages to order  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ The number of shared storages to order
 [size]: #size
 #### [size]
 The size of the storage (e.g. STORAGE_SPACE_FOR_2_IOPS_PER_GB)  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ The size of the storage (e.g. STORAGE_SPACE_FOR_2_IOPS_PER_GB)
 [volume]: #volume
 #### [volume]
 The volume  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

@@ -15,6 +15,7 @@ aliases:
 ---
 # [SoftLayer_Network_Tunnel_Module_Context](/reference/services/SoftLayer_Network_Tunnel_Module_Context)::getEncryptionOptions
 
+
 Returns the encryption options.
 
 

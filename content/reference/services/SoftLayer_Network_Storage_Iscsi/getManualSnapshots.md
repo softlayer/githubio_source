@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getManualSnapshots
 
+
 Retrieve the snapshots associated with this SoftLayer_Network_Storage volume. Does not support pagination by result limit and offset.
 
 

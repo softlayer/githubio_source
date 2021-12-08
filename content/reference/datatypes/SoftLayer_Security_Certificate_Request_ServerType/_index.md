@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Represents a server type that can be specified when ordering an SSL certificate. 
 
 
@@ -45,7 +47,8 @@ Represents a server type that can be specified when ordering an SSL certificate.
 [description]: #description
 #### [description]
 The description of the certificate server type.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The description of the certificate server type.
 [id]: #id
 #### [id]
 The internal identifier of the certificate server type.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The internal identifier of the certificate server type.
 [name]: #name
 #### [name]
 The name of the certificate server type.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The name of the certificate server type.
 [value]: #value
 #### [value]
 The value of the certificate server type.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This container holds user's phone information. 
 
 
@@ -45,7 +47,8 @@ This container holds user's phone information.
 [countryCode]: #countrycode
 #### [countryCode]
 Country code number for the phone number Default: 1 (United States & Canada +1)   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Country code number for the phone number Default: 1 (United States & Canada +1)
 [extension]: #extension
 #### [extension]
 Phone extension code. It can be digits, commas, *, and # are allowed.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Phone extension code. It can be digits, commas, *, and # are allowed.
 [phone]: #phone
 #### [phone]
 Phone number can be a mobile phone number, desk phone number, or some other option. The phone number format must match the format selected in the country code.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Phone number can be a mobile phone number, desk phone number, or some other opti
 [phoneType]: #phonetype
 #### [phoneType]
 Type of phone number such as "primary", "office" or "home"   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

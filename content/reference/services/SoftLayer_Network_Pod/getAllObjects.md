@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Pod](/reference/services/SoftLayer_Network_Pod)::getAllObjects
 
+
 Retrieve a list of Pods; optionally filtered via datacenter and/or capabilities.
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Product_Item_Category_Order_Option_Type data type contains options that can be applied to orders for prices. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Product_Item_Category_Order_Option_Type data type contains options
 [description]: #description
 #### [description]
 An item category order type's description.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ An item category order type's description.
 [id]: #id
 #### [id]
 An item category order type's unique identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ An item category order type's unique identifier.
 [keyname]: #keyname
 #### [keyname]
 A simple description for an item category order type.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ A simple description for an item category order type.
 [name]: #name
 #### [name]
 An item category order type's name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ An item category order type's name.
 [value]: #value
 #### [value]
 The value of the item category type's option.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

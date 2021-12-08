@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Software_Component](/reference/services/SoftLayer_Software_Component)::getHardware
 
+
 Retrieve the hardware this Software Component is installed upon.
 
 

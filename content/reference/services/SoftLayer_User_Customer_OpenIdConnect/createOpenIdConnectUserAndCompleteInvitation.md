@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::createOpenIdConnectUserAndCompleteInvitation
 
+
 Completes invitation processing when a new OpenIdConnect user must be created.
 
 

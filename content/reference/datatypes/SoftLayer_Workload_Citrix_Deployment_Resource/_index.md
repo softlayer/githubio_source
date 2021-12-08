@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Workload_Citrix_Deployment_Resource type contains the information of the resource such as the Deployment ID, resource's Billing Item ID, Order ID and Role of the resource in the CVAD deployment. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Workload_Citrix_Deployment_Resource type contains the information 
 [billingItemId]: #billingitemid
 #### [billingItemId]
 Billing item ID of the resource  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Billing item ID of the resource
 [createDate]: #createdate
 #### [createDate]
 The point in time at which the resource was ordered.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The point in time at which the resource was ordered.
 [deploymentId]: #deploymentid
 #### [deploymentId]
 CVAD Deployment ID of the resource  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ CVAD Deployment ID of the resource
 [id]: #id
 #### [id]
 Unique Identifier of the CVAD Deployment Resource  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Unique Identifier of the CVAD Deployment Resource
 [modifyDate]: #modifydate
 #### [modifyDate]
 The last time when the resource was modified.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The last time when the resource was modified.
 [orderId]: #orderid
 #### [orderId]
 Billing Order ID of the resource  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ Billing Order ID of the resource
 [orderedByCvad]: #orderedbycvad
 #### [orderedByCvad]
 This flag indicates that whether the CVAD APIs have control over this resource. This resource can be cancelled using CVAD cancellation APIs only if this flag is true.   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ This flag indicates that whether the CVAD APIs have control over this resource. 
 [roleId]: #roleid
 #### [roleId]
 Role of the resource within the CVAD deployment. For example, a VSI can have different roles such as Proxy Server or DHCP Server.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ Role of the resource within the CVAD deployment. For example, a VSI can have dif
 [billingItem]: #billingitem
 #### [billingItem]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ Role of the resource within the CVAD deployment. For example, a VSI can have dif
 [deployment]: #deployment
 #### [deployment]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Workload_Citrix_Deployment'>SoftLayer_Workload_Citrix_Deployment </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Workload_Citrix_Deployment'>SoftLayer_Workload_Citrix_Deployment </a>**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ Role of the resource within the CVAD deployment. For example, a VSI can have dif
 [order]: #order
 #### [order]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order </a>**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ Role of the resource within the CVAD deployment. For example, a VSI can have dif
 [role]: #role
 #### [role]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Workload_Citrix_Deployment_Resource_Role'>SoftLayer_Workload_Citrix_Deployment_Resource_Role </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Workload_Citrix_Deployment_Resource_Role'>SoftLayer_Workload_Citrix_Deployment_Resource_Role </a>**  
+
 
 
 </div>

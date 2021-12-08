@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getNetworkHardware
 
+
 Retrieve all network devices in SoftLayer's network hierarchy that this device is connected to.
 
 

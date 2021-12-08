@@ -1,6 +1,6 @@
 ---
 title: "getBundleItems"
-description: "Retrieve a Billing Item's bundled billing items"
+description: "Retrieve (DEPRECATED) Do not use."
 layout: "method"
 tags:
     - "method"
@@ -13,11 +13,12 @@ aliases:
 ---
 # [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getBundleItems
 
-Retrieve a Billing Item's bundled billing items
+
+Retrieve (DEPRECATED) Do not use.
 
 
 ## Overview 
-Retrieve a Billing Item's bundled billing items
+Retrieve (DEPRECATED) Do not use.
 
 -----
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getOriginalSnapshotName
 
+
 Retrieve the name of the snapshot that this volume was duplicated from.
 
 

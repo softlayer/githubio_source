@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getBoundSubnets
 
+
 Retrieve associated subnets for a router object.
 
 

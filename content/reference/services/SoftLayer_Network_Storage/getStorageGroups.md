@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getStorageGroups
 
+
 Retrieve the network storage groups this volume is attached to.
 
 

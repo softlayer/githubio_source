@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getSoftwareComponents
 
+
 Retrieve information regarding a piece of hardware's installed software.
 
 

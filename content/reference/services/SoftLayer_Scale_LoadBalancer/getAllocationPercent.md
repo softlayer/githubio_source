@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Scale_LoadBalancer](/reference/services/SoftLayer_Scale_LoadBalancer)::getAllocationPercent
 
+
 Retrieve the percentage of connections allocated to this virtual server.
 
 

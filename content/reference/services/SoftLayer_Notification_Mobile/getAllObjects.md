@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Notification_Mobile](/reference/services/SoftLayer_Notification_Mobile)::getAllObjects
 
+
 Retrieve all Notifications that can be subscribed to.
 
 

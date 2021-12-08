@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getBootModeOptions
 
+
 Retrieve the valid boot modes for this server.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_SecurityGroup](/reference/services/SoftLayer_Network_SecurityGroup)::detachNetworkComponents
 
+
 Detach network components from a security group by deleting its network component binding. 
 
 

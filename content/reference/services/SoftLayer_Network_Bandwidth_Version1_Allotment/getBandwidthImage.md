@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Bandwidth_Version1_Allotment](/reference/services/SoftLayer_Network_Bandwidth_Version1_Allotment)::getBandwidthImage
 
+
 generate a graph image of all the bandwidth usage for an entire allotment of servers.
 
 

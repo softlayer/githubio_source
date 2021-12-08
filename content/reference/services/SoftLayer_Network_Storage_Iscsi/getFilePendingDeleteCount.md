@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getFilePendingDeleteCount
 
+
 Retrieve the number of files pending deletion in a Storage account's recycle bin.
 
 

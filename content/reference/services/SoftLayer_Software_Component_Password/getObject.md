@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Software_Component_Password](/reference/services/SoftLayer_Software_Component_Password)::getObject
 
+
 Retrieve a SoftLayer_Software_Component_Password record.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Software_AccountLicense](/reference/services/SoftLayer_Software_AccountLicense)::getAccount
 
+
 Retrieve the customer account this Account License belongs to.
 
 

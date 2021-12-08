@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getServerFanSpeedGraphs
 
+
 Retrieve a server's fan speed graphs.
 
 

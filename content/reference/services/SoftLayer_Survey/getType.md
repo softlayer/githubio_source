@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Survey](/reference/services/SoftLayer_Survey)::getType
 
+
 Retrieve the type of survey
 
 

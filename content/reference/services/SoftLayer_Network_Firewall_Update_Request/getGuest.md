@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Firewall_Update_Request](/reference/services/SoftLayer_Network_Firewall_Update_Request)::getGuest
 
+
 Retrieve the downstream virtual server that the rule set will be applied to.
 
 

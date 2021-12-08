@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Container_Utility_Network_Firewall_Rule_Attribute data type contains information relating to a single firewall rule. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Container_Utility_Network_Firewall_Rule_Attribute data type contai
 [actions]: #actions
 #### [actions]
 The valid actions for use with rules.  
-<span class="type-label">Type: </span>**array of strings**
+<span class="type-label">Type: </span>**array of strings**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The valid actions for use with rules.
 [maximumRuleCount]: #maximumrulecount
 #### [maximumRuleCount]
 Maximum allowed number of rules.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Maximum allowed number of rules.
 [protocols]: #protocols
 #### [protocols]
 The valid protocols for use with rules.  
-<span class="type-label">Type: </span>**array of strings**
+<span class="type-label">Type: </span>**array of strings**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The valid protocols for use with rules.
 [sourceIpSubnetMasks]: #sourceipsubnetmasks
 #### [sourceIpSubnetMasks]
 The valid source ip subnet masks for use with rules.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Utility_Network_Subnet_Mask_Generic_Detail'>SoftLayer_Container_Utility_Network_Subnet_Mask_Generic_Detail[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Utility_Network_Subnet_Mask_Generic_Detail'>SoftLayer_Container_Utility_Network_Subnet_Mask_Generic_Detail[] </a>**  
+
 
 
 </div>

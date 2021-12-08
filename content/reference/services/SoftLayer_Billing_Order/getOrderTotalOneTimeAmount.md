@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Order](/reference/services/SoftLayer_Billing_Order)::getOrderTotalOneTimeAmount
 
+
 Retrieve an order's total one time amount. This amount represents the initial fees before tax.
 
 

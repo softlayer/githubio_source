@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,12 +44,14 @@ classes:
 
 #### [getAllObjects](/reference/services/SoftLayer_Dns_Domain_Registration_Status/getAllObjects)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Dns_Domain_Registration_Status/getObject)
 Retrieve a SoftLayer_Dns_Domain_Registration_Status record.
+
 </div>
 </div>
 

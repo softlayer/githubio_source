@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_CdnMarketplace_Configuration_Behavior_TokenAuth](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_TokenAuth)::deleteTokenAuthPath
 
+
 SOAP API will delete token authentication Path for an existing mapping and for a particular customer. 
 
 

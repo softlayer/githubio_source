@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getActiveAgreements
 
+
 Retrieve all active agreements for an account
 
 

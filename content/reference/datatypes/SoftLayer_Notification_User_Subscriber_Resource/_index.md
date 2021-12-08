@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Retrieve identifier cross-reference information.  SoftLayer_Notification_User_Subscriber_Resource provides the resource table id and subscriber id relation. The resource table id is the id of the service the subscriber receives alerts for.  This resource table id could be the unique identifier for a Storage Evault service or CDN service. 
 
 
@@ -45,7 +47,8 @@ Retrieve identifier cross-reference information.  SoftLayer_Notification_User_Su
 [notificationUserSubscriberId]: #notificationusersubscriberid
 #### [notificationUserSubscriberId]
 Unique identifier of the subscriber that will receive the alerts for the resource subscribed to a notification.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -59,7 +62,8 @@ Unique identifier for a SoftLayer service that is subscribed to a notification. 
 Storage EVault CDN 
 
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +79,8 @@ Storage EVault CDN
 [notificationUserSubscriber]: #notificationusersubscriber
 #### [notificationUserSubscriber]
 The Subscriber information tied to the resource service.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_User_Subscriber'>SoftLayer_Notification_User_Subscriber </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_User_Subscriber'>SoftLayer_Notification_User_Subscriber </a>**  
+
 
 
 </div>

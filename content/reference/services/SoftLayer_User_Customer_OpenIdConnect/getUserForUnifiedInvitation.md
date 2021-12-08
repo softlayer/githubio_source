@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getUserForUnifiedInvitation
 
+
 Get the IMS User Object for the provided OpenIdConnect User ID, or (Optional) IBMid Unique Identifier. 
 
 

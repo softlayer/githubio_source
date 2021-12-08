@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Allowed_Host_Subnet](/reference/services/SoftLayer_Network_Storage_Allowed_Host_Subnet)::getAssignedReplicationVolumes
 
+
 Retrieve the SoftLayer_Network_Storage primary volumes whose replicas are allowed access.
 
 

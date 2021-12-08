@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getUpgradeItemPrices
 
+
 Retrieve a computing instance's upgradeable items.
 
 

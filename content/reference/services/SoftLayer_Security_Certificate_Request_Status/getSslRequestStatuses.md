@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Security_Certificate_Request_Status](/reference/services/SoftLayer_Security_Certificate_Request_Status)::getSslRequestStatuses
 
+
 Returns all SSL certificate request status objects
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_ApiAuthentication](/reference/services/SoftLayer_User_Customer_ApiAuthentication)::getUser
 
+
 Retrieve the user who owns the api authentication key.
 
 

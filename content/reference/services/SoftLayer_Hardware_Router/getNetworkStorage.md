@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getNetworkStorage
 
+
 Retrieve information regarding a piece of hardware's associated network storage service account.
 
 

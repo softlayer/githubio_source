@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getDomains
 
+
 Retrieve the DNS domains associated with an account.
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Each package has at least 1 step to the ordering process. For server orders, there are many. Each step has certain item categories which are displayed. This type describes the steps for each package. 
 
 
@@ -45,7 +47,8 @@ Each package has at least 1 step to the ordering process. For server orders, the
 [id]: #id
 #### [id]
 The unique identifier for this object. It is not used anywhere but in this object.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The unique identifier for this object. It is not used anywhere but in this objec
 [step]: #step
 #### [step]
 The number of the step in the order process for this package. These are sequential and only needed for step-based ordering.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ The number of the step in the order process for this package. These are sequenti
 [inclusivePreviousSteps]: #inclusiveprevioussteps
 #### [inclusivePreviousSteps]
 The next steps in the ordering process for the package tied to this object, including this step.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Order_Step_Next'>SoftLayer_Product_Package_Order_Step_Next[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Order_Step_Next'>SoftLayer_Product_Package_Order_Step_Next[] </a>**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ The next steps in the ordering process for the package tied to this object, incl
 [nextSteps]: #nextsteps
 #### [nextSteps]
 The next steps in the ordering process for the package tied to this object.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Order_Step_Next'>SoftLayer_Product_Package_Order_Step_Next[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Order_Step_Next'>SoftLayer_Product_Package_Order_Step_Next[] </a>**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ The next steps in the ordering process for the package tied to this object.
 [previousSteps]: #previoussteps
 #### [previousSteps]
 The item to which this object belongs.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Order_Step_Next'>SoftLayer_Product_Package_Order_Step_Next[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Order_Step_Next'>SoftLayer_Product_Package_Order_Step_Next[] </a>**  
+
 
 
 </div>
@@ -103,7 +110,8 @@ The item to which this object belongs.
 [inclusivePreviousStepCount]: #inclusivepreviousstepcount
 #### [inclusivePreviousStepCount]
 A count of the next steps in the ordering process for the package tied to this object, including this step.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -113,7 +121,8 @@ A count of the next steps in the ordering process for the package tied to this o
 [nextStepCount]: #nextstepcount
 #### [nextStepCount]
 A count of the next steps in the ordering process for the package tied to this object.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -123,7 +132,8 @@ A count of the next steps in the ordering process for the package tied to this o
 [previousStepCount]: #previousstepcount
 #### [previousStepCount]
 A count of the item to which this object belongs.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

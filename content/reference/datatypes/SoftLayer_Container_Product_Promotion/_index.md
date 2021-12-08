@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Container_Product_Promotion data type contains information about a promotion and its requirements. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Container_Product_Promotion data type contains information about a
 [code]: #code
 #### [code]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The SoftLayer_Container_Product_Promotion data type contains information about a
 [expirationDate]: #expirationdate
 #### [expirationDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The SoftLayer_Container_Product_Promotion data type contains information about a
 [locations]: #locations
 #### [locations]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The SoftLayer_Container_Product_Promotion data type contains information about a
 [requirementGroups]: #requirementgroups
 #### [requirementGroups]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Product_Promotion_RequirementGroup'>SoftLayer_Container_Product_Promotion_RequirementGroup[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Product_Promotion_RequirementGroup'>SoftLayer_Container_Product_Promotion_RequirementGroup[] </a>**  
+
 
 
 </div>

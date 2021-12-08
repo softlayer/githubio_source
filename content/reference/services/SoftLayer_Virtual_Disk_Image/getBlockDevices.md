@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Disk_Image](/reference/services/SoftLayer_Virtual_Disk_Image)::getBlockDevices
 
+
 Retrieve the block devices that a disk image is attached to. Block devices connect computing instances to disk images.
 
 

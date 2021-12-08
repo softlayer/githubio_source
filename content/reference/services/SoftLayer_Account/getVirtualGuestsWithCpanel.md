@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getVirtualGuestsWithCpanel
 
+
 Retrieve all virtual guests associated with an account that has the cPanel web hosting control panel installed.
 
 

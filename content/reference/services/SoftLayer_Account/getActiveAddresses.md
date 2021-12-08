@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getActiveAddresses
 
+
 Retrieve the active address(es) that belong to an account.
 
 

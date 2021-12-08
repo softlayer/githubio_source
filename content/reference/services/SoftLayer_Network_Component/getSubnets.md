@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getSubnets
 
+
 Retrieve a network component's subnets. A subnet is a group of IP addresses
 
 

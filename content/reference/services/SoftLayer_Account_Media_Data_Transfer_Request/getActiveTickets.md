@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Media_Data_Transfer_Request](/reference/services/SoftLayer_Account_Media_Data_Transfer_Request)::getActiveTickets
 
+
 Retrieve the active tickets that are attached to the data transfer request.
 
 

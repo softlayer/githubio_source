@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getOrderItem
 
+
 Retrieve a billing item's original order item. Simply a reference to the original order from which this billing item was created.
 
 

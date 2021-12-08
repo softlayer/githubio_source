@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getHostIpsSoftwareComponent
 
+
 Retrieve information regarding a host IPS software component object.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getOrders
 
+
 Retrieve an account's associated billing orders excluding upgrades.
 
 

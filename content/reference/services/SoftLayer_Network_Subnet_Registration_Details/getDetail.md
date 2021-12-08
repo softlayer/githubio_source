@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet_Registration_Details](/reference/services/SoftLayer_Network_Subnet_Registration_Details)::getDetail
 
+
 Retrieve the related [SoftLayer_Account_Regional_Registry_Detail]({{<ref "reference/datatypes/SoftLayer_Account_Regional_Registry_Detail">}}).
 
 

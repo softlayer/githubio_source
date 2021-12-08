@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Virtual_Network_SecurityGroup_NetworkComponentBinding data type contains general information for a single binding. A binding associates a [SoftLayer_Virtual_Guest_Network_Component]({{<ref "reference/datatypes/SoftLayer_Virtual_Guest_Network_Component">}}) with a [SoftLayer_Network_SecurityGroup]({{<ref "reference/datatypes/SoftLayer_Network_SecurityGroup">}}). 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Virtual_Network_SecurityGroup_NetworkComponentBinding data type co
 [id]: #id
 #### [id]
 The unique ID for a binding.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The unique ID for a binding.
 [networkComponentId]: #networkcomponentid
 #### [networkComponentId]
 The ID of the network component.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The ID of the network component.
 [securityGroupId]: #securitygroupid
 #### [securityGroupId]
 The ID of the security group.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ The ID of the security group.
 [networkComponent]: #networkcomponent
 #### [networkComponent]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Network_Component'>SoftLayer_Virtual_Guest_Network_Component </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest_Network_Component'>SoftLayer_Virtual_Guest_Network_Component </a>**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ The ID of the security group.
 [securityGroup]: #securitygroup
 #### [securityGroup]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_SecurityGroup'>SoftLayer_Network_SecurityGroup </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_SecurityGroup'>SoftLayer_Network_SecurityGroup </a>**  
+
 
 
 </div>

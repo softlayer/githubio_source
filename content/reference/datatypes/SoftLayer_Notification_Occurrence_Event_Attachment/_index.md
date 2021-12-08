@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer events can have have files attached to them by a SoftLayer employee. Attaching a file to a event is a way to provide supplementary information such as a RFO (reason for outage) document or root cause analysis. The SoftLayer_Notification_Occurrence_Event_Attachment data type models a single file attached to a event. 
 
 
@@ -55,7 +57,8 @@ SoftLayer events can have have files attached to them by a SoftLayer employee. A
 [createDate]: #createdate
 #### [createDate]
 The date the file was attached to the event.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -65,7 +68,8 @@ The date the file was attached to the event.
 [fileName]: #filename
 #### [fileName]
 The name of the file attached to the event.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +79,8 @@ The name of the file attached to the event.
 [fileSize]: #filesize
 #### [fileSize]
 The size of the file, measured in bytes.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +90,8 @@ The size of the file, measured in bytes.
 [id]: #id
 #### [id]
 A event attachments' unique identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +101,8 @@ A event attachments' unique identifier.
 [notificationOccurrenceEventId]: #notificationoccurrenceeventid
 #### [notificationOccurrenceEventId]
 The unique event identifier that the file is attached to.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -111,7 +118,8 @@ The unique event identifier that the file is attached to.
 [notificationOccurrenceEvent]: #notificationoccurrenceevent
 #### [notificationOccurrenceEvent]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Event'>SoftLayer_Notification_Occurrence_Event </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Occurrence_Event'>SoftLayer_Notification_Occurrence_Event </a>**  
+
 
 
 </div>

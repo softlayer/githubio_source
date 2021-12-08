@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Container_Utility_Network_Subnet_Mask_Generic_Detail data type contains information relating to a subnet mask and details associated with that object. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Container_Utility_Network_Subnet_Mask_Generic_Detail data type con
 [cidr]: #cidr
 #### [cidr]
 The subnet cidr prefix.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The subnet cidr prefix.
 [description]: #description
 #### [description]
 The subnet mask description.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The subnet mask description.
 [mask]: #mask
 #### [mask]
 The subnet mask.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

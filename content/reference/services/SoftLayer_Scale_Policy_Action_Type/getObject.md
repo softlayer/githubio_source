@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Scale_Policy_Action_Type](/reference/services/SoftLayer_Scale_Policy_Action_Type)::getObject
 
+
 Retrieve a SoftLayer_Scale_Policy_Action_Type record.
 
 

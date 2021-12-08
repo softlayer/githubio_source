@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getDownstreamHardwareBindings
 
+
 Retrieve all hardware downstream from a network device.
 
 

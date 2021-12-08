@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Product_Item_Tax_Category data type contains the tax categories that are associated with products. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Product_Item_Tax_Category data type contains the tax categories th
 [id]: #id
 #### [id]
 An internal identifier for each tax category.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ An internal identifier for each tax category.
 [keyName]: #keyname
 #### [keyName]
 The key name of the tax category.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The key name of the tax category.
 [name]: #name
 #### [name]
 The name of the tax category.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The name of the tax category.
 [statusFlag]: #statusflag
 #### [statusFlag]
 The status of the tax category.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ The status of the tax category.
 [items]: #items
 #### [items]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item'>SoftLayer_Product_Item[] </a>**  
+
 
 
 </div>
@@ -103,7 +110,8 @@ The status of the tax category.
 [itemCount]: #itemcount
 #### [itemCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

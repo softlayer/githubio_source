@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Item_Price](/reference/services/SoftLayer_Product_Item_Price)::getReservedCapacityInstanceFlag
 
+
 Retrieve signifies pricing that is only available on a reserved capacity virtual server order.
 
 

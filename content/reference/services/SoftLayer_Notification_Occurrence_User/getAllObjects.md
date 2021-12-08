@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Notification_Occurrence_User](/reference/services/SoftLayer_Notification_Occurrence_User)::getAllObjects
 
+
 Returns a collection of impacted users, an account master user has the ability to see all impacted users under the account. 
 
 

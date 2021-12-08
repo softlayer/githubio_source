@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Hardware_Benchmark_Certification data type contains general information relating to a single SoftLayer hardware benchmark certification document. 
 
 
@@ -50,7 +52,8 @@ The SoftLayer_Hardware_Benchmark_Certification data type contains general inform
 [accountId]: #accountid
 #### [accountId]
 The internal identifier of the SoftLayer customer account associated with a benchmark certification result.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ The internal identifier of the SoftLayer customer account associated with a benc
 [createDate]: #createdate
 #### [createDate]
 The date that a benchmark certification result was generated.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -70,7 +74,8 @@ The date that a benchmark certification result was generated.
 [hardwareId]: #hardwareid
 #### [hardwareId]
 A benchmark certification results's associated hardware's internal identification number.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -86,7 +91,8 @@ A benchmark certification results's associated hardware's internal identificatio
 [account]: #account
 #### [account]
 Information regarding a benchmark certification result's associated SoftLayer customer account.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -96,7 +102,8 @@ Information regarding a benchmark certification result's associated SoftLayer cu
 [hardware]: #hardware
 #### [hardware]
 Information regarding the piece of hardware on which a benchmark certification test was performed.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**  
+
 
 
 </div>

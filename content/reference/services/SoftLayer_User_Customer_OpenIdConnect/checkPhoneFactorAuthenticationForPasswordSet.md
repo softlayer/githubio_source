@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::checkPhoneFactorAuthenticationForPasswordSet
 
+
 Check the status of an outstanding Phone Factor Authentication for Password Set
 
 

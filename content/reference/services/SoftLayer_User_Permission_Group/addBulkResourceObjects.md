@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Permission_Group](/reference/services/SoftLayer_User_Permission_Group)::addBulkResourceObjects
 
+
 Links multiple account device objects of the same resource type to the group.
 
 

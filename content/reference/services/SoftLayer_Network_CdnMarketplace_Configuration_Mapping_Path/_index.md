@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 This service manages the paths for domain mapping configurations. 
 
 
@@ -42,24 +44,28 @@ This service manages the paths for domain mapping configurations.
 
 #### [createOriginPath](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Mapping_Path/createOriginPath)
 SOAP API will create Origin Path for an existing CDN mapping and for a particular customer. 
+
 </div>
 
 <div class="method-row">
 
 #### [deleteOriginPath](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Mapping_Path/deleteOriginPath)
 SOAP API will delete Origin Path for an existing mapping and for a particular customer. 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Mapping_Path/getObject)
 Retrieve a SoftLayer_Network_CdnMarketplace_Configuration_Mapping_Path record.
+
 </div>
 
 <div class="method-row">
 
 #### [listOriginPath](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Mapping_Path/listOriginPath)
 SOAP API will list origin path for an existing mapping and for a particular customer. 
+
 </div>
 
 <div class="method-row">
@@ -70,6 +76,7 @@ SOAP API will update Origin Path for an existing mapping and for a particular cu
 When passing the $input object as a parameter, it will expect the following properties to be set: $oldPath $uniqueId $originType, $path, $origin, $httpPort, $httpsPort, and if the path's origin type is object storage, the $bucketName and the $fileExtension. 
 
 Out of the properties listed above only the following path properties are allowed to be changed: $path, $origin, $httpPort, $httpsPort These properties may not be changed: $originType 
+
 </div>
 </div>
 

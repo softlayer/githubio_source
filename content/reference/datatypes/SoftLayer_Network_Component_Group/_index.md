@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [groupTypeId]: #grouptypeid
 #### [groupTypeId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -61,7 +64,8 @@ classes:
 [membersDescription]: #membersdescription
 #### [membersDescription]
 A succinct label describing the members of this grouping.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ A succinct label describing the members of this grouping.
 [networkComponents]: #networkcomponents
 #### [networkComponents]
 A network component group's associated network components.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component[] </a>**  
+
 
 
 </div>
@@ -83,7 +88,8 @@ A network component group's associated network components.
 [networkComponentCount]: #networkcomponentcount
 #### [networkComponentCount]
 A count of a network component group's associated network components.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

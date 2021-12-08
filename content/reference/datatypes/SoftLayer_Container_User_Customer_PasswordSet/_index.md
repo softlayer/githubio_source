@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Container for holding information necessary for the setting and resetting of customer passwords 
 
 
@@ -45,7 +47,8 @@ Container for holding information necessary for the setting and resetting of cus
 [answeredSecurityQuestionId]: #answeredsecurityquestionid
 #### [answeredSecurityQuestionId]
 Id of SoftLayer_User_Security_Question.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Id of SoftLayer_User_Security_Question.
 [authenticationMethods]: #authenticationmethods
 #### [authenticationMethods]
 The authentication methods required.  
-<span class="type-label">Type: </span>**array of integers**
+<span class="type-label">Type: </span>**array of integers**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The authentication methods required.
 [digitCountRequirement]: #digitcountrequirement
 #### [digitCountRequirement]
 The number of digits required.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The number of digits required.
 [key]: #key
 #### [key]
 The password key provided to user in the password set url link sent via email.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The password key provided to user in the password set url link sent via email.
 [lowercaseCountRequirement]: #lowercasecountrequirement
 #### [lowercaseCountRequirement]
 The number of lowercase letters required.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The number of lowercase letters required.
 [maximumPasswordLengthRequirement]: #maximumpasswordlengthrequirement
 #### [maximumPasswordLengthRequirement]
 The maximum password length requirement.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The maximum password length requirement.
 [minimumPasswordLengthRequirement]: #minimumpasswordlengthrequirement
 #### [minimumPasswordLengthRequirement]
 The minimum password length requirement.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ The minimum password length requirement.
 [password]: #password
 #### [password]
 The user's new password.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ The user's new password.
 [securityAnswer]: #securityanswer
 #### [securityAnswer]
 Answer to security question provided by the user.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ Answer to security question provided by the user.
 [securityQuestions]: #securityquestions
 #### [securityQuestions]
 Array of SoftLayer_User_Security_Question.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Security_Question'>SoftLayer_User_Security_Question[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Security_Question'>SoftLayer_User_Security_Question[] </a>**  
+
 
 
 </div>
@@ -145,7 +157,8 @@ Array of SoftLayer_User_Security_Question.
 [specialCharacterCountRequirement]: #specialcharactercountrequirement
 #### [specialCharacterCountRequirement]
 The number of special characters required.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -155,7 +168,8 @@ The number of special characters required.
 [specialCharactersAllowed]: #specialcharactersallowed
 #### [specialCharactersAllowed]
 List of the allowed special characters.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -165,7 +179,8 @@ List of the allowed special characters.
 [uppercaseCountRequirement]: #uppercasecountrequirement
 #### [uppercaseCountRequirement]
 The number of uppercase letters required.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -175,7 +190,8 @@ The number of uppercase letters required.
 [userId]: #userid
 #### [userId]
 The id of the user to authenticate.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

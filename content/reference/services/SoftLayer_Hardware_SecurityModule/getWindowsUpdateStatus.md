@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getWindowsUpdateStatus
 
+
 Retrieve a server's Windows update synchronization status
 
 

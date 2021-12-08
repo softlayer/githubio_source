@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Component_Firewall](/reference/services/SoftLayer_Network_Component_Firewall)::getApplyServerRuleSubnets
 
+
 Retrieve the additional subnets linked to this network component firewall, that inherit rules from the host that the context slot is attached to.
 
 

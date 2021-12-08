@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Scale_Group](/reference/services/SoftLayer_Scale_Group)::forceDeleteObject
 
+
 Delete this group and destroy all members of it.
 
 

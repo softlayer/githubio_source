@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_Application_Delivery_Controller data type models a single instance of an application delivery controller. Local properties are read only, except for a ''notes'' property, which can be used to describe your application delivery controller service. The type's relational properties provide more information to the service's function and login information to the controller's backend management if advanced view is enabled. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Network_Application_Delivery_Controller data type models a single 
 [accountId]: #accountid
 #### [accountId]
 The unique identifier of the SoftLayer customer account that owns an application delivery controller record  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The unique identifier of the SoftLayer customer account that owns an application
 [createDate]: #createdate
 #### [createDate]
 The date that an application delivery controller record was created  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The date that an application delivery controller record was created
 [id]: #id
 #### [id]
 An application delivery controller's unique identifier  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ An application delivery controller's unique identifier
 [modifyDate]: #modifydate
 #### [modifyDate]
 The date that an application delivery controller record was last modified  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The date that an application delivery controller record was last modified
 [name]: #name
 #### [name]
 An application delivery controller's name  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ An application delivery controller's name
 [notes]: #notes
 #### [notes]
 Editable notes used to describe an application delivery controller's function  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ Editable notes used to describe an application delivery controller's function
 [typeId]: #typeid
 #### [typeId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ Editable notes used to describe an application delivery controller's function
 [account]: #account
 #### [account]
 The SoftLayer customer account that owns an application delivery controller record.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ The SoftLayer customer account that owns an application delivery controller reco
 [averageDailyPublicBandwidthUsage]: #averagedailypublicbandwidthusage
 #### [averageDailyPublicBandwidthUsage]
 The average daily public bandwidth usage for the current billing cycle.  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ The average daily public bandwidth usage for the current billing cycle.
 [billingItem]: #billingitem
 #### [billingItem]
 The billing item for a Application Delivery Controller.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item_Network_Application_Delivery_Controller'>SoftLayer_Billing_Item_Network_Application_Delivery_Controller </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item_Network_Application_Delivery_Controller'>SoftLayer_Billing_Item_Network_Application_Delivery_Controller </a>**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ The billing item for a Application Delivery Controller.
 [configurationHistory]: #configurationhistory
 #### [configurationHistory]
 Previous configurations for an Application Delivery Controller.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_Configuration_History'>SoftLayer_Network_Application_Delivery_Controller_Configuration_History[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_Configuration_History'>SoftLayer_Network_Application_Delivery_Controller_Configuration_History[] </a>**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ Previous configurations for an Application Delivery Controller.
 [datacenter]: #datacenter
 #### [datacenter]
 The datacenter that the application delivery controller resides in.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**  
+
 
 
 </div>
@@ -171,7 +185,8 @@ The datacenter that the application delivery controller resides in.
 [description]: #description
 #### [description]
 A brief description of an application delivery controller record.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -181,7 +196,8 @@ A brief description of an application delivery controller record.
 [licenseExpirationDate]: #licenseexpirationdate
 #### [licenseExpirationDate]
 The date in which the license for this application delivery controller will expire.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -191,7 +207,8 @@ The date in which the license for this application delivery controller will expi
 [loadBalancers]: #loadbalancers
 #### [loadBalancers]
 The virtual IP address records that belong to an application delivery controller based load balancer.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_VirtualIpAddress'>SoftLayer_Network_LoadBalancer_VirtualIpAddress[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LoadBalancer_VirtualIpAddress'>SoftLayer_Network_LoadBalancer_VirtualIpAddress[] </a>**  
+
 
 
 </div>
@@ -201,7 +218,8 @@ The virtual IP address records that belong to an application delivery controller
 [managedResourceFlag]: #managedresourceflag
 #### [managedResourceFlag]
 A flag indicating that this Application Delivery Controller is a managed resource.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -211,7 +229,8 @@ A flag indicating that this Application Delivery Controller is a managed resourc
 [managementIpAddress]: #managementipaddress
 #### [managementIpAddress]
 An application delivery controller's management ip address.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -221,7 +240,8 @@ An application delivery controller's management ip address.
 [networkVlan]: #networkvlan
 #### [networkVlan]
 The network VLAN that an application delivery controller resides on.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a>**  
+
 
 
 </div>
@@ -231,7 +251,8 @@ The network VLAN that an application delivery controller resides on.
 [networkVlans]: #networkvlans
 #### [networkVlans]
 The network VLANs that an application delivery controller resides on.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan[] </a>**  
+
 
 
 </div>
@@ -241,7 +262,8 @@ The network VLANs that an application delivery controller resides on.
 [outboundPublicBandwidthUsage]: #outboundpublicbandwidthusage
 #### [outboundPublicBandwidthUsage]
 The total public outbound bandwidth for the current billing cycle.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -251,7 +273,8 @@ The total public outbound bandwidth for the current billing cycle.
 [password]: #password
 #### [password]
 The password used to connect to an application delivery controller's management interface when it is operating in advanced view mode.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component_Password'>SoftLayer_Software_Component_Password </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Software_Component_Password'>SoftLayer_Software_Component_Password </a>**  
+
 
 
 </div>
@@ -261,7 +284,8 @@ The password used to connect to an application delivery controller's management 
 [primaryIpAddress]: #primaryipaddress
 #### [primaryIpAddress]
 An application delivery controller's primary public IP address.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -271,7 +295,8 @@ An application delivery controller's primary public IP address.
 [projectedPublicBandwidthUsage]: #projectedpublicbandwidthusage
 #### [projectedPublicBandwidthUsage]
 The projected public outbound bandwidth for the current billing cycle.  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -281,7 +306,8 @@ The projected public outbound bandwidth for the current billing cycle.
 [subnets]: #subnets
 #### [subnets]
 A network application controller's subnets. A subnet is a group of IP addresses  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet[] </a>**  
+
 
 
 </div>
@@ -291,7 +317,8 @@ A network application controller's subnets. A subnet is a group of IP addresses
 [tagReferences]: #tagreferences
 #### [tagReferences]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Tag_Reference'>SoftLayer_Tag_Reference[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Tag_Reference'>SoftLayer_Tag_Reference[] </a>**  
+
 
 
 </div>
@@ -301,7 +328,8 @@ A network application controller's subnets. A subnet is a group of IP addresses
 [type]: #type
 #### [type]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_Type'>SoftLayer_Network_Application_Delivery_Controller_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_Type'>SoftLayer_Network_Application_Delivery_Controller_Type </a>**  
+
 
 
 </div>
@@ -311,7 +339,8 @@ A network application controller's subnets. A subnet is a group of IP addresses
 [virtualIpAddresses]: #virtualipaddresses
 #### [virtualIpAddresses]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress'>SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress[] </a>**  
+
 
 
 </div>
@@ -323,7 +352,8 @@ A network application controller's subnets. A subnet is a group of IP addresses
 [configurationHistoryCount]: #configurationhistorycount
 #### [configurationHistoryCount]
 A count of previous configurations for an Application Delivery Controller.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -333,7 +363,8 @@ A count of previous configurations for an Application Delivery Controller.
 [loadBalancerCount]: #loadbalancercount
 #### [loadBalancerCount]
 A count of the virtual IP address records that belong to an application delivery controller based load balancer.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -343,7 +374,8 @@ A count of the virtual IP address records that belong to an application delivery
 [networkVlanCount]: #networkvlancount
 #### [networkVlanCount]
 A count of the network VLANs that an application delivery controller resides on.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -353,7 +385,8 @@ A count of the network VLANs that an application delivery controller resides on.
 [subnetCount]: #subnetcount
 #### [subnetCount]
 A count of a network application controller's subnets. A subnet is a group of IP addresses   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -363,7 +396,8 @@ A count of a network application controller's subnets. A subnet is a group of IP
 [tagReferenceCount]: #tagreferencecount
 #### [tagReferenceCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -373,7 +407,8 @@ A count of
 [virtualIpAddressCount]: #virtualipaddresscount
 #### [virtualIpAddressCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

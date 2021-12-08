@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getUserData
 
+
 Retrieve an array containing a single string of custom user data for a hardware order. Max size is 16 kb.
 
 

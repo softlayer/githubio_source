@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [methodKey]: #methodkey
 #### [methodKey]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ classes:
 [multipleCurrencyFlag]: #multiplecurrencyflag
 #### [multipleCurrencyFlag]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ classes:
 [paymentProcessor]: #paymentprocessor
 #### [paymentProcessor]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Payment_Processor'>SoftLayer_Billing_Payment_Processor </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Payment_Processor'>SoftLayer_Billing_Payment_Processor </a>**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ classes:
 [paymentType]: #paymenttype
 #### [paymentType]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Payment_Type'>SoftLayer_Billing_Payment_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Payment_Type'>SoftLayer_Billing_Payment_Type </a>**  
+
 
 
 </div>

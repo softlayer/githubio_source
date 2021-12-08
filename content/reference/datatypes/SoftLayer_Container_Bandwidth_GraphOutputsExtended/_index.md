@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Container_Bandwidth_GraphOutputs models an individual bandwidth graph image and certain details about that graph image.
 
 
@@ -55,7 +57,8 @@ SoftLayer_Container_Bandwidth_GraphOutputs models an individual bandwidth graph 
 [graphImage]: #graphimage
 #### [graphImage]
 The raw PNG binary data of a bandwidth graph image.  
-<span class="type-label">Type: </span>**binary data**
+<span class="type-label">Type: </span>**binary data**  
+
 
 
 </div>
@@ -65,7 +68,8 @@ The raw PNG binary data of a bandwidth graph image.
 [graphTitle]: #graphtitle
 #### [graphTitle]
 A bandwidth graph's title.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +79,8 @@ A bandwidth graph's title.
 [inBoundTotalBytes]: #inboundtotalbytes
 #### [inBoundTotalBytes]
 The amount of inbound traffic reported on a bandwidth graph image.  
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -85,7 +90,8 @@ The amount of inbound traffic reported on a bandwidth graph image.
 [maxEndDate]: #maxenddate
 #### [maxEndDate]
 The ending date of the data represented in a bandwidth graph.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -95,7 +101,8 @@ The ending date of the data represented in a bandwidth graph.
 [minStartDate]: #minstartdate
 #### [minStartDate]
 The beginning date of the data represented in a bandwidth graph.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -105,7 +112,8 @@ The beginning date of the data represented in a bandwidth graph.
 [outBoundTotalBytes]: #outboundtotalbytes
 #### [outBoundTotalBytes]
 The amount of outbound traffic reported on a bandwidth graph image.  
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

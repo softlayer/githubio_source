@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 The SoftLayer_Network_Firewall_Template service can be used to retrieve recommended SoftLayer network firewall templates and template rules. 
 
 The provided firewall templates are recommend rule sets for use with SoftLayer Hardware Firewall (Dedicated).  These optimized templates are designed to balance security restriction with application availability.  The templates given may be altered to provide custom network security, or may be used as-is for basic security. At least one rule set MUST be applied for the firewall to block traffic. Use the [[SoftLayer Network Component Firewall]] service to view current rules. Use the [[SoftLayer Network Firewall Update Request]] service to submit a firewall update request. 
@@ -67,18 +69,21 @@ The provided firewall templates are recommend rule sets for use with SoftLayer H
 
 #### [getAllObjects](/reference/services/SoftLayer_Network_Firewall_Template/getAllObjects)
 Get all available firewall template objects.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Firewall_Template/getObject)
 Retrieve a SoftLayer_Network_Firewall_Template record.
+
 </div>
 
 <div class="method-row">
 
 #### [getRules](/reference/services/SoftLayer_Network_Firewall_Template/getRules)
 Retrieve the rule set that belongs to this firewall rules template.
+
 </div>
 </div>
 

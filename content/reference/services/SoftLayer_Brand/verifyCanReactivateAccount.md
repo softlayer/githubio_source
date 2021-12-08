@@ -16,6 +16,7 @@ aliases:
 
 
 
+
 ## Overview 
 Verify that an account may be reactivated by a Brand Agent.  Anything that would disqualify the account from being reactivated will cause an exception to be raised. 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_DedicatedHost](/reference/services/SoftLayer_Virtual_DedicatedHost)::getObject
 
+
 Retrieve a SoftLayer_Virtual_DedicatedHost record.
 
 

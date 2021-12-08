@@ -13,6 +13,8 @@ aliases:
 ---
 # [SoftLayer_User_Customer_CustomerPermission_Permission](/reference/services/SoftLayer_User_Customer_CustomerPermission_Permission)::getAllObjects
 
+<div class="deprecated"><span class="deprecation-label">Deprecated </span></div>
+
 Retrieve all available permissions.
 
 

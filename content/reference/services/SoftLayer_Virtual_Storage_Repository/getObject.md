@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Storage_Repository](/reference/services/SoftLayer_Virtual_Storage_Repository)::getObject
 
+
 Retrieve a SoftLayer_Virtual_Storage_Repository record.
 
 

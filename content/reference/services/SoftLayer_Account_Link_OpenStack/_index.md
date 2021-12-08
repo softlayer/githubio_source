@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 Service for linking account to OpenStack project 
 
 
@@ -42,11 +44,13 @@ Service for linking account to OpenStack project
 
 #### [createOSDomain](/reference/services/SoftLayer_Account_Link_OpenStack/createOSDomain)
 
+
 </div>
 
 <div class="method-row">
 
 #### [createOSProject](/reference/services/SoftLayer_Account_Link_OpenStack/createOSProject)
+
 
 </div>
 
@@ -54,11 +58,13 @@ Service for linking account to OpenStack project
 
 #### [deleteOSDomain](/reference/services/SoftLayer_Account_Link_OpenStack/deleteOSDomain)
 
+
 </div>
 
 <div class="method-row">
 
 #### [deleteOSProject](/reference/services/SoftLayer_Account_Link_OpenStack/deleteOSProject)
+
 
 </div>
 
@@ -66,11 +72,13 @@ Service for linking account to OpenStack project
 
 #### [deleteObject](/reference/services/SoftLayer_Account_Link_OpenStack/deleteObject)
 Remove an account link.
+
 </div>
 
 <div class="method-row">
 
 #### [getAccount](/reference/services/SoftLayer_Account_Link_OpenStack/getAccount)
+
 
 </div>
 
@@ -78,23 +86,27 @@ Remove an account link.
 
 #### [getOSProject](/reference/services/SoftLayer_Account_Link_OpenStack/getOSProject)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Account_Link_OpenStack/getObject)
 Retrieve a SoftLayer_Account_Link_OpenStack record.
+
 </div>
 
 <div class="method-row">
 
 #### [getServiceProvider](/reference/services/SoftLayer_Account_Link_OpenStack/getServiceProvider)
 
+
 </div>
 
 <div class="method-row">
 
 #### [listOSProjects](/reference/services/SoftLayer_Account_Link_OpenStack/listOSProjects)
+
 
 </div>
 </div>

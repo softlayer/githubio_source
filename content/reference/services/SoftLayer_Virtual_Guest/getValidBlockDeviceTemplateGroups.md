@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getValidBlockDeviceTemplateGroups
 
+
 Return a list of valid block device template groups based on this host
 
 

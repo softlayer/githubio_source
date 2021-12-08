@@ -16,6 +16,7 @@ aliases:
 
 
 
+
 ## Overview 
 Returns a response object [SoftLayer_Workload_Citrix_Deployment_Response]({{<ref "reference/datatypes/SoftLayer_Workload_Citrix_Deployment_Response">}}) which represents the CVAD deployment [SoftLayer_Workload_Citrix_Deployment]({{<ref "reference/datatypes/SoftLayer_Workload_Citrix_Deployment">}}) together with all the resources ordered under the CVAD order. 
 

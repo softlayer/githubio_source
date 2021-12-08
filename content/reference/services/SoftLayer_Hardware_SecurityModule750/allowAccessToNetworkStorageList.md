@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::allowAccessToNetworkStorageList
 
+
 Allow access to multiple SoftLayer_Network_Storage volumes from this device. 
 
 

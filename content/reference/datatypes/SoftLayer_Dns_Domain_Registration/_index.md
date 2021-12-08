@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Dns_Domain_Registration data type represents a domain registration record. 
 
 ### External Links
@@ -56,7 +58,8 @@ The SoftLayer_Dns_Domain_Registration data type represents a domain registration
 [createDate]: #createdate
 #### [createDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -66,7 +69,8 @@ The SoftLayer_Dns_Domain_Registration data type represents a domain registration
 [domainRegistrationStatusId]: #domainregistrationstatusid
 #### [domainRegistrationStatusId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -76,7 +80,8 @@ The SoftLayer_Dns_Domain_Registration data type represents a domain registration
 [expireDate]: #expiredate
 #### [expireDate]
 The date that the domain registration will expire.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -86,7 +91,8 @@ The date that the domain registration will expire.
 [id]: #id
 #### [id]
 A domain record's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -96,7 +102,8 @@ A domain record's internal identifier.
 [lockedFlag]: #lockedflag
 #### [lockedFlag]
 Indicates whether a domain is locked or unlocked.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -106,7 +113,8 @@ Indicates whether a domain is locked or unlocked.
 [modifyDate]: #modifydate
 #### [modifyDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -116,7 +124,8 @@ Indicates whether a domain is locked or unlocked.
 [name]: #name
 #### [name]
 A domain's name, for example "example.com".  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -126,7 +135,8 @@ A domain's name, for example "example.com".
 [registrantVerificationStatusId]: #registrantverificationstatusid
 #### [registrantVerificationStatusId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -136,7 +146,8 @@ A domain's name, for example "example.com".
 [serviceProviderId]: #serviceproviderid
 #### [serviceProviderId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -152,7 +163,8 @@ A domain's name, for example "example.com".
 [account]: #account
 #### [account]
 The SoftLayer customer account that the domain is registered to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -162,7 +174,8 @@ The SoftLayer customer account that the domain is registered to.
 [domainRegistrationStatus]: #domainregistrationstatus
 #### [domainRegistrationStatus]
 The domain registration status.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Dns_Domain_Registration_Status'>SoftLayer_Dns_Domain_Registration_Status </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Dns_Domain_Registration_Status'>SoftLayer_Dns_Domain_Registration_Status </a>**  
+
 
 
 </div>
@@ -172,7 +185,8 @@ The domain registration status.
 [registrantVerificationStatus]: #registrantverificationstatus
 #### [registrantVerificationStatus]
 The registrant verification status.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status'>SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status'>SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status </a>**  
+
 
 
 </div>
@@ -182,7 +196,8 @@ The registrant verification status.
 [serviceProvider]: #serviceprovider
 #### [serviceProvider]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Service_Provider'>SoftLayer_Service_Provider </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Service_Provider'>SoftLayer_Service_Provider </a>**  
+
 
 
 </div>

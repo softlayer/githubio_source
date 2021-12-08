@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Security_Certificate_Request data type is used to view details about your SSL certificate order. This contains data that is required by a Certificate Authority to place an SSL certificate order. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Security_Certificate_Request data type is used to view details abo
 [accountId]: #accountid
 #### [accountId]
 This is a reference to your SoftLayer account.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ This is a reference to your SoftLayer account.
 [approverEmailAddress]: #approveremailaddress
 #### [approverEmailAddress]
 The email address of a person who will approve your SSL certificate order. This is usually an email address of your domain administrator.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The email address of a person who will approve your SSL certificate order. This 
 [certificateSigningRequest]: #certificatesigningrequest
 #### [certificateSigningRequest]
 A Certificate Signing Request (CSR) string  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ A Certificate Signing Request (CSR) string
 [commonName]: #commonname
 #### [commonName]
 A domain name of a SSL certificate request  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ A domain name of a SSL certificate request
 [createDate]: #createdate
 #### [createDate]
 The date a SSL certificate request was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The date a SSL certificate request was created.
 [effectiveDate]: #effectivedate
 #### [effectiveDate]
 The date of your SSL certificate went into effect  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The date of your SSL certificate went into effect
 [expirationDate]: #expirationdate
 #### [expirationDate]
 The expiration date of your SSL certificate  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ The expiration date of your SSL certificate
 [id]: #id
 #### [id]
 The internal identifier of an SSL certificate request  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ The internal identifier of an SSL certificate request
 [modifyDate]: #modifydate
 #### [modifyDate]
 The date a SSL certificate request was last modified.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ The date a SSL certificate request was last modified.
 [statusId]: #statusid
 #### [statusId]
 A status id reflecting the state of a SSL certificate request  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -145,7 +157,8 @@ A status id reflecting the state of a SSL certificate request
 [technicalContactEmailAddress]: #technicalcontactemailaddress
 #### [technicalContactEmailAddress]
 The technical contact email address.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ The technical contact email address.
 [account]: #account
 #### [account]
 The account to which a SSL certificate request belongs.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -171,7 +185,8 @@ The account to which a SSL certificate request belongs.
 [order]: #order
 #### [order]
 The order contains the information related to a SSL certificate request.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order'>SoftLayer_Billing_Order </a>**  
+
 
 
 </div>
@@ -181,7 +196,8 @@ The order contains the information related to a SSL certificate request.
 [orderItem]: #orderitem
 #### [orderItem]
 The associated order item for this SSL certificate request.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order_Item'>SoftLayer_Billing_Order_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Order_Item'>SoftLayer_Billing_Order_Item </a>**  
+
 
 
 </div>
@@ -191,7 +207,8 @@ The associated order item for this SSL certificate request.
 [status]: #status
 #### [status]
 The status of a SSL certificate request.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Security_Certificate_Request_Status'>SoftLayer_Security_Certificate_Request_Status </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Security_Certificate_Request_Status'>SoftLayer_Security_Certificate_Request_Status </a>**  
+
 
 
 </div>

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 SoftLayer_Virtual_PlacementGroup_Rule is the placement rule that a virtual guest placement group follows. 
 
 
@@ -42,12 +44,14 @@ SoftLayer_Virtual_PlacementGroup_Rule is the placement rule that a virtual guest
 
 #### [getAllObjects](/reference/services/SoftLayer_Virtual_PlacementGroup_Rule/getAllObjects)
 Get all placement group rules.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Virtual_PlacementGroup_Rule/getObject)
 Retrieve a SoftLayer_Virtual_PlacementGroup_Rule record.
+
 </div>
 </div>
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The monitoring stratum type stores the maximum level of the various components of the monitoring system that a particular hardware object has access to.  This object cannot be accessed by ID, and cannot be modified. The user can access this object through Hardware_Server->availableMonitoring. 
 
 There are two values on this object that are important: 
@@ -52,7 +54,8 @@ Also note that the query type and response types are available through getAllQue
 [monitorLevel]: #monitorlevel
 #### [monitorLevel]
 The highest level of a monitoring query type allowed on this server  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -62,7 +65,8 @@ The highest level of a monitoring query type allowed on this server
 [responseLevel]: #responselevel
 #### [responseLevel]
 The highest level of a monitoring response type allowed on this server  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -78,7 +82,8 @@ The highest level of a monitoring response type allowed on this server
 [hardware]: #hardware
 #### [hardware]
 The hardware object that these monitoring permissions applies to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**  
+
 
 
 </div>

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 The SoftLayer_Provisioning_Maintenance_Classification service returns available maintenance classifications. 
 
 
@@ -42,24 +44,28 @@ The SoftLayer_Provisioning_Maintenance_Classification service returns available 
 
 #### [getItemCategories](/reference/services/SoftLayer_Provisioning_Maintenance_Classification/getItemCategories)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getMaintenanceClassification](/reference/services/SoftLayer_Provisioning_Maintenance_Classification/getMaintenanceClassification)
 Retrieve a maintenance classification.
+
 </div>
 
 <div class="method-row">
 
 #### [getMaintenanceClassificationsByItemCategory](/reference/services/SoftLayer_Provisioning_Maintenance_Classification/getMaintenanceClassificationsByItemCategory)
 Retrieve all maintenance classifications.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Provisioning_Maintenance_Classification/getObject)
 Retrieve a SoftLayer_Provisioning_Maintenance_Classification record.
+
 </div>
 </div>
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Software_Description](/reference/services/SoftLayer_Software_Description)::getAverageInstallationDuration
 
+
 Retrieve the average amount of time that a software description takes to install.
 
 

@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,6 +44,7 @@ classes:
 
 #### [getObject](/reference/services/SoftLayer_Network_Storage_MassDataMigration_Request_Status/getObject)
 Retrieve a SoftLayer_Network_Storage_MassDataMigration_Request_Status record.
+
 </div>
 </div>
 

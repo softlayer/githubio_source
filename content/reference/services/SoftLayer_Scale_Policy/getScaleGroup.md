@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Scale_Policy](/reference/services/SoftLayer_Scale_Policy)::getScaleGroup
 
+
 Retrieve the group this policy is on.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getVirtualHost
 
+
 Retrieve a piece of hardware's virtual host record.
 
 

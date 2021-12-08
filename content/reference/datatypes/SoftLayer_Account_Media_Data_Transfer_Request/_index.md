@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Account_Media_Data_Transfer_Request data type contains information on a single Data Transfer Service request. Creation of these requests is limited to SoftLayer customers through the SoftLayer Customer Portal. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Account_Media_Data_Transfer_Request data type contains information
 [accountId]: #accountid
 #### [accountId]
 The account id of the request.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The account id of the request.
 [createUserId]: #createuserid
 #### [createUserId]
 The create user id of the request.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The create user id of the request.
 [endDate]: #enddate
 #### [endDate]
 The end date of the request.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The end date of the request.
 [id]: #id
 #### [id]
 The unique id of the request.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The unique id of the request.
 [modifyUserId]: #modifyuserid
 #### [modifyUserId]
 The modify user id of the request.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The modify user id of the request.
 [startDate]: #startdate
 #### [startDate]
 The start date of the request.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The start date of the request.
 [statusId]: #statusid
 #### [statusId]
 The status id of the request.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ The status id of the request.
 [account]: #account
 #### [account]
 The account to which the request belongs.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ The account to which the request belongs.
 [activeTickets]: #activetickets
 #### [activeTickets]
 The active tickets that are attached to the data transfer request.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ The active tickets that are attached to the data transfer request.
 [billingItem]: #billingitem
 #### [billingItem]
 The billing item for the original request.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item </a>**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ The billing item for the original request.
 [createUser]: #createuser
 #### [createUser]
 The customer user who created the request.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ The customer user who created the request.
 [media]: #media
 #### [media]
 The media of the request.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Media'>SoftLayer_Account_Media </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Media'>SoftLayer_Account_Media </a>**  
+
 
 
 </div>
@@ -171,7 +185,8 @@ The media of the request.
 [modifyEmployee]: #modifyemployee
 #### [modifyEmployee]
 The employee who last modified the request.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee </a>**  
+
 
 
 </div>
@@ -181,7 +196,8 @@ The employee who last modified the request.
 [modifyUser]: #modifyuser
 #### [modifyUser]
 The customer user who last modified the request.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**  
+
 
 
 </div>
@@ -191,7 +207,8 @@ The customer user who last modified the request.
 [shipments]: #shipments
 #### [shipments]
 The shipments of the request.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Shipment'>SoftLayer_Account_Shipment[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Shipment'>SoftLayer_Account_Shipment[] </a>**  
+
 
 
 </div>
@@ -201,7 +218,8 @@ The shipments of the request.
 [status]: #status
 #### [status]
 The status of the request.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Media_Data_Transfer_Request_Status'>SoftLayer_Account_Media_Data_Transfer_Request_Status </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Media_Data_Transfer_Request_Status'>SoftLayer_Account_Media_Data_Transfer_Request_Status </a>**  
+
 
 
 </div>
@@ -211,7 +229,8 @@ The status of the request.
 [tickets]: #tickets
 #### [tickets]
 All tickets that are attached to the data transfer request.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>**  
+
 
 
 </div>
@@ -223,7 +242,8 @@ All tickets that are attached to the data transfer request.
 [activeTicketCount]: #activeticketcount
 #### [activeTicketCount]
 A count of the active tickets that are attached to the data transfer request.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -233,7 +253,8 @@ A count of the active tickets that are attached to the data transfer request.
 [shipmentCount]: #shipmentcount
 #### [shipmentCount]
 A count of the shipments of the request.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -243,7 +264,8 @@ A count of the shipments of the request.
 [ticketCount]: #ticketcount
 #### [ticketCount]
 A count of all tickets that are attached to the data transfer request.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

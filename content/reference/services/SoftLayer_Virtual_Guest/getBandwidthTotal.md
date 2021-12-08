@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getBandwidthTotal
 
+
 Retrieve total amount of network traffic that was in use during the time specified by the input parameters for a computing instance. 
 
 

@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -51,7 +53,8 @@ classes:
 [account]: #account
 #### [account]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -61,7 +64,8 @@ classes:
 [approvedFlag]: #approvedflag
 #### [approvedFlag]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_PersonalData_RemoveRequestReview'>SoftLayer_Account_PersonalData_RemoveRequestReview </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_PersonalData_RemoveRequestReview'>SoftLayer_Account_PersonalData_RemoveRequestReview </a>**  
+
 
 
 </div>

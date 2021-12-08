@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 A schedule type is used to define what a schedule was created to do. When creating a schedule to take snapshots of a volume, the 'Snapshot' schedule type would be used. 
 
 
@@ -45,7 +47,8 @@ A schedule type is used to define what a schedule was created to do. When creati
 [id]: #id
 #### [id]
 A schedule type's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ A schedule type's internal identifier.
 [keyname]: #keyname
 #### [keyname]
 A schedule type's key name, for example 'SNAPSHOT'.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A schedule type's key name, for example 'SNAPSHOT'.
 [name]: #name
 #### [name]
 A schedule type's name, for example 'Snapshot'.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,17 +44,20 @@ classes:
 
 #### [deleteObject](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service/deleteObject)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getGraphImage](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service/getGraphImage)
 Get the connection or status graph image for a load balancer service.
+
 </div>
 
 <div class="method-row">
 
 #### [getGroupReferences](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service/getGroupReferences)
+
 
 </div>
 
@@ -60,11 +65,13 @@ Get the connection or status graph image for a load balancer service.
 
 #### [getGroups](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service/getGroups)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getHealthCheck](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service/getHealthCheck)
+
 
 </div>
 
@@ -72,11 +79,13 @@ Get the connection or status graph image for a load balancer service.
 
 #### [getHealthChecks](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service/getHealthChecks)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getIpAddress](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service/getIpAddress)
+
 
 </div>
 
@@ -84,17 +93,20 @@ Get the connection or status graph image for a load balancer service.
 
 #### [getObject](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service/getObject)
 Retrieve a SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service record.
+
 </div>
 
 <div class="method-row">
 
 #### [getServiceGroup](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service/getServiceGroup)
 
+
 </div>
 
 <div class="method-row">
 
 #### [toggleStatus](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service/toggleStatus)
+
 
 </div>
 </div>

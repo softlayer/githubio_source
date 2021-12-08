@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_Notification_Virtual_Guest](/reference/services/SoftLayer_User_Customer_Notification_Virtual_Guest)::getObject
 
+
 Retrieve a SoftLayer_User_Customer_Notification_Virtual_Guest record.
 
 

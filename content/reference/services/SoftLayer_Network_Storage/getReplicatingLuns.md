@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getReplicatingLuns
 
+
 Retrieve the iSCSI LUN volumes being replicated by this network storage volume.
 
 

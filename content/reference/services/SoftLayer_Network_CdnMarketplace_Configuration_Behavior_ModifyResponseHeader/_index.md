@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 This service manages the modify response headers for domain mapping configurations. 
 
 
@@ -42,30 +44,35 @@ This service manages the modify response headers for domain mapping configuratio
 
 #### [createModifyResponseHeader](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_ModifyResponseHeader/createModifyResponseHeader)
 SOAP API will create modify response header for an existing CDN mapping and for a particular customer. 
+
 </div>
 
 <div class="method-row">
 
 #### [deleteModifyResponseHeader](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_ModifyResponseHeader/deleteModifyResponseHeader)
 SOAP API will delete modify response header for an existing mapping and for a particular customer. 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_ModifyResponseHeader/getObject)
 Retrieve a SoftLayer_Network_CdnMarketplace_Configuration_Behavior_ModifyResponseHeader record.
+
 </div>
 
 <div class="method-row">
 
 #### [listModifyResponseHeader](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_ModifyResponseHeader/listModifyResponseHeader)
 SOAP API will list modify response headers for an existing mapping and for a particular customer. 
+
 </div>
 
 <div class="method-row">
 
 #### [updateModifyResponseHeader](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_ModifyResponseHeader/updateModifyResponseHeader)
 SOAP API will update modify response header for an existing mapping and for a particular customer. 
+
 </div>
 </div>
 

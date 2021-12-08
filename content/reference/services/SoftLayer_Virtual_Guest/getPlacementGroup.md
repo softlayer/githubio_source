@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getPlacementGroup
 
+
 Retrieve the placement group that a virtual guest belongs to.
 
 

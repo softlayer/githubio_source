@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::voidCancelService
 
+
 Void a service cancellation that was previously made.
 
 

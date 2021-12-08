@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Order](/reference/services/SoftLayer_Billing_Order)::getOrderServerMonthlyAmount
 
+
 Retrieve an order's server items total monthly fee.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getIsVirtualPrivateCloudNode
 
+
 Retrieve determine if hardware object is a Virtual Private Cloud node.
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Container classed used to hold portal token 
 
 
@@ -45,7 +47,8 @@ Container classed used to hold portal token
 [authenticationToken]: #authenticationtoken
 #### [authenticationToken]
 The unique token that is created by an external authentication request.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The unique token that is created by an external authentication request.
 [openIdConnectAccessToken]: #openidconnectaccesstoken
 #### [openIdConnectAccessToken]
 The OpenID Connect access token which provides access to a resource by the OpenID Connect provider.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The OpenID Connect access token which provides access to a resource by the OpenI
 [openIdConnectAccountId]: #openidconnectaccountid
 #### [openIdConnectAccountId]
 The account to login to, if not provided a default will be used.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The account to login to, if not provided a default will be used.
 [openIdConnectProvider]: #openidconnectprovider
 #### [openIdConnectProvider]
 The OpenID Connect provider type, as a string.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The OpenID Connect provider type, as a string.
 [password]: #password
 #### [password]
 Your SoftLayer customer portal user's portal password.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ Your SoftLayer customer portal user's portal password.
 [securityQuestionAnswer]: #securityquestionanswer
 #### [securityQuestionAnswer]
 The answer to your security question.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The answer to your security question.
 [securityQuestionId]: #securityquestionid
 #### [securityQuestionId]
 A security question you wish to answer when authenticating to the SoftLayer customer portal. This parameter isn't required if no security questions are set on your portal account or if your account is configured to not require answering a security account upon login.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ A security question you wish to answer when authenticating to the SoftLayer cust
 [username]: #username
 #### [username]
 The username you wish to authenticate to the SoftLayer customer portal with.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ The username you wish to authenticate to the SoftLayer customer portal with.
 [vendor]: #vendor
 #### [vendor]
 The name of the vendor that will be used for external authentication  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

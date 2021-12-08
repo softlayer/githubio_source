@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Software_Component_AntivirusSpyware](/reference/services/SoftLayer_Software_Component_AntivirusSpyware)::getSoftwareDescription
 
+
 Retrieve the Software Description of this Software Component.
 
 

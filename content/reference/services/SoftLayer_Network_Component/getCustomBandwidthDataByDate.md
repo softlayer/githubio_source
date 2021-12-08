@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getCustomBandwidthDataByDate
 
+
 Retrieve bandwidth graph by date.
 
 

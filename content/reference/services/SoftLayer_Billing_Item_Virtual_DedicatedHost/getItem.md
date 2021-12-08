@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item_Virtual_DedicatedHost](/reference/services/SoftLayer_Billing_Item_Virtual_DedicatedHost)::getItem
 
+
 Retrieve the entry in the SoftLayer product catalog that a billing item is based upon.
 
 

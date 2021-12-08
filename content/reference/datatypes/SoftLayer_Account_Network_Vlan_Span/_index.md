@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Account_Network_Vlan_Span data type exposes the setting which controls the automatic spanning of private VLANs attached to a given customers account. 
 
 
@@ -50,7 +52,8 @@ The SoftLayer_Account_Network_Vlan_Span data type exposes the setting which cont
 [enabledFlag]: #enabledflag
 #### [enabledFlag]
 Flag indicating whether the customer wishes to have all private network VLANs associated with account automatically joined [0 or 1]  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ Flag indicating whether the customer wishes to have all private network VLANs as
 [id]: #id
 #### [id]
 The unique internal identifier of the SoftLayer_Account_Network_Vlan_Span object.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -70,7 +74,8 @@ The unique internal identifier of the SoftLayer_Account_Network_Vlan_Span object
 [lastAppliedDate]: #lastapplieddate
 #### [lastAppliedDate]
 Timestamp of the last time the ACL for this account was applied.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -80,7 +85,8 @@ Timestamp of the last time the ACL for this account was applied.
 [lastVerifiedDate]: #lastverifieddate
 #### [lastVerifiedDate]
 Timestamp of the last time the subnet hash was verified for this VLAN span record.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -90,7 +96,8 @@ Timestamp of the last time the subnet hash was verified for this VLAN span recor
 [modifyDate]: #modifydate
 #### [modifyDate]
 Timestamp of the last edit of the record.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -106,7 +113,8 @@ Timestamp of the last edit of the record.
 [account]: #account
 #### [account]
 The SoftLayer customer account associated with a VLAN.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>

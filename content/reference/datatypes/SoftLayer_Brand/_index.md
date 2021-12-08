@@ -20,6 +20,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Brand data type contains brand information relating to the single SoftLayer customer account. 
 
 IBM Cloud Infrastructure customers are unable to change their brand information in the portal or the API. 
@@ -49,7 +51,8 @@ IBM Cloud Infrastructure customers are unable to change their brand information 
 [catalogId]: #catalogid
 #### [catalogId]
 ID of the Catalog used by this Brand  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -59,7 +62,8 @@ ID of the Catalog used by this Brand
 [id]: #id
 #### [id]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -69,7 +73,8 @@ ID of the Catalog used by this Brand
 [keyName]: #keyname
 #### [keyName]
 The brand key name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -79,7 +84,8 @@ The brand key name.
 [longName]: #longname
 #### [longName]
 The brand long name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -89,7 +95,8 @@ The brand long name.
 [name]: #name
 #### [name]
 The brand name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +112,8 @@ The brand name.
 [account]: #account
 #### [account]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -115,7 +123,8 @@ The brand name.
 [allOwnedAccounts]: #allownedaccounts
 #### [allOwnedAccounts]
 All accounts owned by the brand.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account[] </a>**  
+
 
 
 </div>
@@ -125,7 +134,8 @@ All accounts owned by the brand.
 [allowAccountCreationFlag]: #allowaccountcreationflag
 #### [allowAccountCreationFlag]
 This flag indicates if creation of accounts is allowed.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -135,7 +145,8 @@ This flag indicates if creation of accounts is allowed.
 [businessPartner]: #businesspartner
 #### [businessPartner]
 Business Partner details for the brand. Country Enterprise Code, Channel, Segment, Reseller Level.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Brand_Business_Partner'>SoftLayer_Brand_Business_Partner </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Brand_Business_Partner'>SoftLayer_Brand_Business_Partner </a>**  
+
 
 
 </div>
@@ -145,7 +156,8 @@ Business Partner details for the brand. Country Enterprise Code, Channel, Segmen
 [businessPartnerFlag]: #businesspartnerflag
 #### [businessPartnerFlag]
 Flag indicating if the brand is a business partner.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -155,7 +167,8 @@ Flag indicating if the brand is a business partner.
 [catalog]: #catalog
 #### [catalog]
 The Product Catalog for the Brand  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Catalog'>SoftLayer_Product_Catalog </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Catalog'>SoftLayer_Product_Catalog </a>**  
+
 
 
 </div>
@@ -165,7 +178,8 @@ The Product Catalog for the Brand
 [contacts]: #contacts
 #### [contacts]
 The contacts for the brand.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Brand_Contact'>SoftLayer_Brand_Contact[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Brand_Contact'>SoftLayer_Brand_Contact[] </a>**  
+
 
 
 </div>
@@ -175,7 +189,8 @@ The contacts for the brand.
 [customerCountryLocationRestrictions]: #customercountrylocationrestrictions
 #### [customerCountryLocationRestrictions]
 This references relationship between brands, locations and countries associated with a user's account that are ineligible when ordering products. For example, the India datacenter may not be available on this brand for customers that live in Great Britain.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Brand_Restriction_Location_CustomerCountry'>SoftLayer_Brand_Restriction_Location_CustomerCountry[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Brand_Restriction_Location_CustomerCountry'>SoftLayer_Brand_Restriction_Location_CustomerCountry[] </a>**  
+
 
 
 </div>
@@ -185,7 +200,8 @@ This references relationship between brands, locations and countries associated 
 [distributor]: #distributor
 #### [distributor]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Brand'>SoftLayer_Brand </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Brand'>SoftLayer_Brand </a>**  
+
 
 
 </div>
@@ -195,7 +211,8 @@ This references relationship between brands, locations and countries associated 
 [distributorChildFlag]: #distributorchildflag
 #### [distributorChildFlag]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -205,7 +222,8 @@ This references relationship between brands, locations and countries associated 
 [distributorFlag]: #distributorflag
 #### [distributorFlag]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -215,7 +233,8 @@ This references relationship between brands, locations and countries associated 
 [hardware]: #hardware
 #### [hardware]
 An account's associated hardware objects.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>**  
+
 
 
 </div>
@@ -225,7 +244,8 @@ An account's associated hardware objects.
 [hasAgentAdvancedSupportFlag]: #hasagentadvancedsupportflag
 #### [hasAgentAdvancedSupportFlag]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -235,7 +255,8 @@ An account's associated hardware objects.
 [hasAgentSupportFlag]: #hasagentsupportflag
 #### [hasAgentSupportFlag]
   
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -245,7 +266,8 @@ An account's associated hardware objects.
 [openTickets]: #opentickets
 #### [openTickets]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>**  
+
 
 
 </div>
@@ -255,7 +277,8 @@ An account's associated hardware objects.
 [ownedAccounts]: #ownedaccounts
 #### [ownedAccounts]
 Active accounts owned by the brand.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account[] </a>**  
+
 
 
 </div>
@@ -265,7 +288,8 @@ Active accounts owned by the brand.
 [securityLevel]: #securitylevel
 #### [securityLevel]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Security_Level'>SoftLayer_Security_Level </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Security_Level'>SoftLayer_Security_Level </a>**  
+
 
 
 </div>
@@ -275,7 +299,8 @@ Active accounts owned by the brand.
 [ticketGroups]: #ticketgroups
 #### [ticketGroups]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Group'>SoftLayer_Ticket_Group[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Group'>SoftLayer_Ticket_Group[] </a>**  
+
 
 
 </div>
@@ -285,7 +310,8 @@ Active accounts owned by the brand.
 [tickets]: #tickets
 #### [tickets]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket[] </a>**  
+
 
 
 </div>
@@ -295,7 +321,8 @@ Active accounts owned by the brand.
 [users]: #users
 #### [users]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer[] </a>**  
+
 
 
 </div>
@@ -305,7 +332,8 @@ Active accounts owned by the brand.
 [virtualGuests]: #virtualguests
 #### [virtualGuests]
 An account's associated virtual guest objects.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest[] </a>**  
+
 
 
 </div>
@@ -317,7 +345,8 @@ An account's associated virtual guest objects.
 [allOwnedAccountCount]: #allownedaccountcount
 #### [allOwnedAccountCount]
 A count of all accounts owned by the brand.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -327,7 +356,8 @@ A count of all accounts owned by the brand.
 [contactCount]: #contactcount
 #### [contactCount]
 A count of the contacts for the brand.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -337,7 +367,8 @@ A count of the contacts for the brand.
 [customerCountryLocationRestrictionCount]: #customercountrylocationrestrictioncount
 #### [customerCountryLocationRestrictionCount]
 A count of this references relationship between brands, locations and countries associated with a user's account that are ineligible when ordering products. For example, the India datacenter may not be available on this brand for customers that live in Great Britain.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -347,7 +378,8 @@ A count of this references relationship between brands, locations and countries 
 [hardwareCount]: #hardwarecount
 #### [hardwareCount]
 A count of an account's associated hardware objects.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -357,7 +389,8 @@ A count of an account's associated hardware objects.
 [openTicketCount]: #openticketcount
 #### [openTicketCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -367,7 +400,8 @@ A count of
 [ownedAccountCount]: #ownedaccountcount
 #### [ownedAccountCount]
 A count of active accounts owned by the brand.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -377,7 +411,8 @@ A count of active accounts owned by the brand.
 [ticketCount]: #ticketcount
 #### [ticketCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -387,7 +422,8 @@ A count of
 [ticketGroupCount]: #ticketgroupcount
 #### [ticketGroupCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -397,7 +433,8 @@ A count of
 [userCount]: #usercount
 #### [userCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -407,7 +444,8 @@ A count of
 [virtualGuestCount]: #virtualguestcount
 #### [virtualGuestCount]
 A count of an account's associated virtual guest objects.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

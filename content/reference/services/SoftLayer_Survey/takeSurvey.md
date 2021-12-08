@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Survey](/reference/services/SoftLayer_Survey)::takeSurvey
 
+
 Respond to the questions that a survey has.
 
 

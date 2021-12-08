@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getLockboxNetworkStorage
 
+
 Retrieve an account's associated Lockbox storage volumes.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_CdnMarketplace_Configuration_Cache_PurgeHistory](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Cache_PurgeHistory)::getObject
 
+
 Retrieve a SoftLayer_Network_CdnMarketplace_Configuration_Cache_PurgeHistory record.
 
 

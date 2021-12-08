@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Bucket provides description of a bucket 
 
 
@@ -45,7 +47,8 @@ SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Bucket provides descriptio
 [bytesUsed]: #bytesused
 #### [bytesUsed]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Bucket provides descriptio
 [name]: #name
 #### [name]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Bucket provides descriptio
 [objectCount]: #objectcount
 #### [objectCount]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Bucket provides descriptio
 [storageLocation]: #storagelocation
 #### [storageLocation]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

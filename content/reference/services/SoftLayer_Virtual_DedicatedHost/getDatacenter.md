@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_DedicatedHost](/reference/services/SoftLayer_Virtual_DedicatedHost)::getDatacenter
 
+
 Retrieve the datacenter that the dedicated host resides in.
 
 

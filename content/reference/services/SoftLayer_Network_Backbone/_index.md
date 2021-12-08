@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 A SoftLayer_Network_Backbone represents a single backbone connection from SoftLayer to the public Internet, from the Internet to the SoftLayer private network, or a link that connects the private networks between SoftLayer's datacenters. The SoftLayer_Network_Backbone service is unique in that it is not referenced by any of the other SoftLayer API services. 
 
 
@@ -42,42 +44,52 @@ A SoftLayer_Network_Backbone represents a single backbone connection from SoftLa
 
 #### [getAllBackbones](/reference/services/SoftLayer_Network_Backbone/getAllBackbones)
 Retrieve a list of all SoftLayer Backbones
+
 </div>
 
 <div class="method-row">
 
 #### [getBackbonesForLocationName](/reference/services/SoftLayer_Network_Backbone/getBackbonesForLocationName)
 Retrieve a list of all SoftLayer Backbones for a location name
+
 </div>
 
-<div class="method-row">
+<div class="method-row deprecated">
 
 #### [getGraphImage](/reference/services/SoftLayer_Network_Backbone/getGraphImage)
 [DEPRECATED] Retrieve a graph of a SoftLayer backbone's last 24 hours of activity.
+
+<span class="deprecation-label">Deprecated  </span>
+
+
 </div>
 
 <div class="method-row">
 
 #### [getHealth](/reference/services/SoftLayer_Network_Backbone/getHealth)
 Retrieve a backbone's status.
+
 </div>
 
 <div class="method-row">
 
 #### [getLocation](/reference/services/SoftLayer_Network_Backbone/getLocation)
 Retrieve which of the SoftLayer datacenters a backbone is connected to.
+
 </div>
 
 <div class="method-row">
 
 #### [getNetworkComponent](/reference/services/SoftLayer_Network_Backbone/getNetworkComponent)
 Retrieve a backbone's primary network component.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Backbone/getObject)
 Retrieve a SoftLayer_Network_Backbone record.
+
 </div>
 </div>
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_LBaaS_L7Rule represents the Rules that can be attached to a a L7 policy. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Network_LBaaS_L7Rule represents the Rules that can be attached to 
 [comparisonType]: #comparisontype
 #### [comparisonType]
 Comparision type for the Rule, It should any of the following values : REGEX, STARTS_WITH, ENDS_WITH, CONTAINS, EQUAL_TO.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Comparision type for the Rule, It should any of the following values : REGEX, ST
 [createDate]: #createdate
 #### [createDate]
 Specifies when a Rule was created  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Specifies when a Rule was created
 [id]: #id
 #### [id]
 The ID of a Rule.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The ID of a Rule.
 [invert]: #invert
 #### [invert]
 Inverts the result of the value if set, i.e. True will be inverted to False and vice-versa   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Inverts the result of the value if set, i.e. True will be inverted to False and 
 [key]: #key
 #### [key]
 Key for Rule type HEADER and COOKIE.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ Key for Rule type HEADER and COOKIE.
 [modifyDate]: #modifydate
 #### [modifyDate]
 Specifies when a Rule was updated previously.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ Specifies when a Rule was updated previously.
 [type]: #type
 #### [type]
 Type of the Rule. It  should have any of the following values: HOST_NAME, FILE_TYPE, HEADER, COOKIE, PATH.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ Type of the Rule. It  should have any of the following values: HOST_NAME, FILE_T
 [uuid]: #uuid
 #### [uuid]
 The UUID of a Rule.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ The UUID of a Rule.
 [value]: #value
 #### [value]
 Value for Rule . For type HEADER and COOKIE, this value is compared against the value of the key from HEADER or COOKIE.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 OpenStack project details
 
 
@@ -45,7 +47,8 @@ OpenStack project details
 [projectId]: #projectid
 #### [projectId]
 Id for this project.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Id for this project.
 [projectName]: #projectname
 #### [projectName]
 Name for this project.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

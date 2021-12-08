@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Notification_Occurrence_User](/reference/services/SoftLayer_Notification_Occurrence_User)::getImpactedDeviceCount
 
+
 A count representing the number of the user's devices currently impacted by the associated event will be returned. 
 
 

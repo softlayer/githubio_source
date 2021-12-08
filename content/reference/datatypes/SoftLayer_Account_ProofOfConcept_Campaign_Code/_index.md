@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 A [SoftLayer_Account_ProofOfConcept_Campaign_Code] provides a `code` and an optional `description`. 
 
 
@@ -51,7 +53,8 @@ A [SoftLayer_Account_ProofOfConcept_Campaign_Code] provides a `code` and an opti
 [code]: #code
 #### [code]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -61,7 +64,8 @@ A [SoftLayer_Account_ProofOfConcept_Campaign_Code] provides a `code` and an opti
 [description]: #description
 #### [description]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

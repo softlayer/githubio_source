@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getFirewallNetworkComponents
 
+
 Retrieve a firewalled Vlan's network components.
 
 

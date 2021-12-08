@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Represents the association between a Network_Component and Network_Vlan in the manner of a 'trunk'. Trunking a VLAN to a port allows that ports to receive and send packets tagged with the corresponding VLAN number. 
 
 ### External Links
@@ -51,7 +53,8 @@ Represents the association between a Network_Component and Network_Vlan in the m
 [networkComponentId]: #networkcomponentid
 #### [networkComponentId]
 The network component's identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -61,7 +64,8 @@ The network component's identifier.
 [networkVlanId]: #networkvlanid
 #### [networkVlanId]
 The identifier of the network VLAN that is a trunk on the network component.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -77,7 +81,8 @@ The identifier of the network VLAN that is a trunk on the network component.
 [networkComponent]: #networkcomponent
 #### [networkComponent]
 The network component that the VLAN is being trunked to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>**  
+
 
 
 </div>
@@ -87,7 +92,8 @@ The network component that the VLAN is being trunked to.
 [networkVlan]: #networkvlan
 #### [networkVlan]
 The VLAN that is being trunked to the network component.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Vlan'>SoftLayer_Network_Vlan </a>**  
+
 
 
 </div>

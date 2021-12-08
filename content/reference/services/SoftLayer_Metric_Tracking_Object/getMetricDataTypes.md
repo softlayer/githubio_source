@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Metric_Tracking_Object](/reference/services/SoftLayer_Metric_Tracking_Object)::getMetricDataTypes
 
+
 Returns valid metric data types for a tracking object
 
 

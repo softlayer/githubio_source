@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getInboundPublicBandwidthUsage
 
+
 Retrieve the total public inbound bandwidth for this hardware for the current billing cycle.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getHistoricalUptimeGraph
 
+
 This method returns a SoftLayer_Container_Account_Graph_Outputs object for the specified date range. 
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 This service allows approved brands the ability to disconnect, reconnect, and disable customer accounts under that brand. Brand customers are able to make requests on their customers through an API call to this service. 
 
 Disconnecting a customer will disable all hardware resources (servers and virtual machines) via a lockdown event. The customer will continue to have control portal access as well as access to their private ports. 
@@ -48,36 +50,42 @@ Disabling an account is a PERMANENT action. All billable items under the account
 
 #### [cancelRequest](/reference/services/SoftLayer_Account_Lockdown_Request/cancelRequest)
 Allows approved brands to cancel a previously scheduled lockdown request.
+
 </div>
 
 <div class="method-row">
 
 #### [disableLockedAccount](/reference/services/SoftLayer_Account_Lockdown_Request/disableLockedAccount)
 Disabling an account is a PERMANENT action. All billable items associated
+
 </div>
 
 <div class="method-row">
 
 #### [disconnectCompute](/reference/services/SoftLayer_Account_Lockdown_Request/disconnectCompute)
 Disconnecting a customer will disable all hardware resources (servers and
+
 </div>
 
 <div class="method-row">
 
 #### [getAccountHistory](/reference/services/SoftLayer_Account_Lockdown_Request/getAccountHistory)
 Provides a history of an account's lockdown requests and their status.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Account_Lockdown_Request/getObject)
 Retrieve a SoftLayer_Account_Lockdown_Request record.
+
 </div>
 
 <div class="method-row">
 
 #### [reconnectCompute](/reference/services/SoftLayer_Account_Lockdown_Request/reconnectCompute)
 Reconnecting a customer will reconnect all previously disconnected
+
 </div>
 </div>
 

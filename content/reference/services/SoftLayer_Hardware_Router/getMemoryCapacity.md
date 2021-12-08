@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getMemoryCapacity
 
+
 Retrieve the amount of memory a piece of hardware has, measured in gigabytes.
 
 

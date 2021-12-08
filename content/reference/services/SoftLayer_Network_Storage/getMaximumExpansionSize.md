@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getMaximumExpansionSize
 
+
 Returns the maximum volume expansion size in GB.
 
 

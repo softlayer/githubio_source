@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getNetworkMonitorDownHardware
 
+
 Retrieve hardware which is currently experiencing a service failure.
 
 

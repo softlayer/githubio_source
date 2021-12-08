@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Account_Shipment_Item data type contains information relating to a shipment's item. Basic information such as addresses, the shipment courier, and any tracking information for as shipment is accessible with this data type. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Account_Shipment_Item data type contains information relating to a
 [createDate]: #createdate
 #### [createDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The SoftLayer_Account_Shipment_Item data type contains information relating to a
 [description]: #description
 #### [description]
 The description of the shipping item.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The description of the shipping item.
 [id]: #id
 #### [id]
 The unique id of the shipping item.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The unique id of the shipping item.
 [packageId]: #packageid
 #### [packageId]
 The package id of the shipping item.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The package id of the shipping item.
 [shipmentId]: #shipmentid
 #### [shipmentId]
 The shipment id of the shipping item.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The shipment id of the shipping item.
 [shipmentItemId]: #shipmentitemid
 #### [shipmentItemId]
 The item id of the shipping item.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The item id of the shipping item.
 [shipmentItemTypeId]: #shipmentitemtypeid
 #### [shipmentItemTypeId]
 The item type id of the shipping item.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ The item type id of the shipping item.
 [shipment]: #shipment
 #### [shipment]
 The shipment to which this item belongs.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Shipment'>SoftLayer_Account_Shipment </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Shipment'>SoftLayer_Account_Shipment </a>**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ The shipment to which this item belongs.
 [shipmentItemType]: #shipmentitemtype
 #### [shipmentItemType]
 The type of this shipment item.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Shipment_Item_Type'>SoftLayer_Account_Shipment_Item_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Shipment_Item_Type'>SoftLayer_Account_Shipment_Item_Type </a>**  
+
 
 
 </div>

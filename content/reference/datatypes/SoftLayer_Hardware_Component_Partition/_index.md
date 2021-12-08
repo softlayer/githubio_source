@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Hardware_Component_Partition data type contains general information relating to a single hard drive partition. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Hardware_Component_Partition data type contains general informatio
 [diskNumber]: #disknumber
 #### [diskNumber]
 A hardware component partition's order in the [SoftLayer_Hardware_Server]({{<ref "reference/datatypes/SoftLayer_Hardware_Server">}}).  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ A hardware component partition's order in the [SoftLayer_Hardware_Server]({{<ref
 [grow]: #grow
 #### [grow]
 A flag indicating if a partition is the grow partition. The grow partition will grow to fill all remaining space on a disk.  There can only be one.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A flag indicating if a partition is the grow partition. The grow partition will 
 [hardwareComponentId]: #hardwarecomponentid
 #### [hardwareComponentId]
 A hardware component partition's associated [SoftLayer_Hardware_Component]({{<ref "reference/datatypes/SoftLayer_Hardware_Component">}}) Id.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ A hardware component partition's associated [SoftLayer_Hardware_Component]({{<re
 [minimumSize]: #minimumsize
 #### [minimumSize]
 A hardware component partition's minimum size(GB).  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ A hardware component partition's minimum size(GB).
 [name]: #name
 #### [name]
 A hardware component partition's name. On a server with windows this may be 'C' and on Linux this may be '/var'   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ A hardware component partition's name. On a server with windows this may be 'C' 
 [hardwareComponent]: #hardwarecomponent
 #### [hardwareComponent]
 A hardware component partitions's associated [SoftLayer_Hardware_Component]({{<ref "reference/datatypes/SoftLayer_Hardware_Component">}})  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component </a>**  
+
 
 
 </div>

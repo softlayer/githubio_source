@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_CdnMarketplace_Configuration_Mapping](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Mapping)::deleteDomainMapping
 
+
 SOAP API will delete CDN domain mapping for a particular customer. 
 
 

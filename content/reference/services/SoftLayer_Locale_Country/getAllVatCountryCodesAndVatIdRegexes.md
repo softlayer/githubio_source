@@ -16,6 +16,7 @@ aliases:
 
 
 
+
 ## Overview 
 This method is to get the collection of VAT country codes and VAT ID Regexes. 
 

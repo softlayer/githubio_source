@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getTotalBytesUsed
 
+
 Retrieve the amount of space used by the volume.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Ticket_Update_Employee](/reference/services/SoftLayer_Ticket_Update_Employee)::getType
 
+
 Retrieve the Type of update to this ticket
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Container_Network_Subnet_Registration_SubnetReference is provided to reference [SoftLayer_Network_Subnet_Registration]({{<ref "reference/datatypes/SoftLayer_Network_Subnet_Registration">}}) object and the [SoftLayer_Network_Subnet]({{<ref "reference/datatypes/SoftLayer_Network_Subnet">}}) it references, in CIDR form. 
 
 
@@ -45,7 +47,8 @@ SoftLayer_Container_Network_Subnet_Registration_SubnetReference is provided to r
 [registrationId]: #registrationid
 #### [registrationId]
 The ID of the [SoftLayer_Network_Subnet_Registration]({{<ref "reference/datatypes/SoftLayer_Network_Subnet_Registration">}}) object.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The ID of the [SoftLayer_Network_Subnet_Registration]({{<ref "reference/datatype
 [subnetCidr]: #subnetcidr
 #### [subnetCidr]
 The subnet address in CIDR form.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

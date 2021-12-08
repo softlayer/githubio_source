@@ -16,6 +16,7 @@ aliases:
 
 
 
+
 ## Overview 
 Calling this method signals that the account with the provided account id is ready to be billed by the external billing system. 
 

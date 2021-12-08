@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Message_Delivery_Email_Sendgrid](/reference/services/SoftLayer_Network_Message_Delivery_Email_Sendgrid)::getSmtpAccess
 
+
 Retrieve a flag that determines if a SendGrid e-mail delivery account has access to send mail through the SendGrid SMTP server.
 
 

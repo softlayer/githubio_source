@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Contains data required to both request a new IaaS account for active IBM employees and review pending requests. Fields used exclusively in the review process are scrubbed of user input. 
 
 
@@ -51,7 +53,8 @@ Contains data required to both request a new IaaS account for active IBM employe
 [accountType]: #accounttype
 #### [accountType]
 Purpose of the internal IBM account chosen from the list of available  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -61,7 +64,8 @@ Purpose of the internal IBM account chosen from the list of available
 [address1]: #address1
 #### [address1]
 If not provided, will attempt to retrieve from BluePages  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ If not provided, will attempt to retrieve from BluePages
 [address2]: #address2
 #### [address2]
 If no address provided, will attempt to retrieve from BluePages  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ If no address provided, will attempt to retrieve from BluePages
 [city]: #city
 #### [city]
 If not provided, will attempt to retrieve from BluePages  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ If not provided, will attempt to retrieve from BluePages
 [companyName]: #companyname
 #### [companyName]
 Name of the company displayed on the IaaS account  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ Name of the company displayed on the IaaS account
 [country]: #country
 #### [country]
 If not provided, will attempt to retrieve from BluePages  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ If not provided, will attempt to retrieve from BluePages
 [deniedFlag]: #deniedflag
 #### [deniedFlag]
 True if the request has been denied by either the IaaS team or the  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ True if the request has been denied by either the IaaS team or the
 [departmentCode]: #departmentcode
 #### [departmentCode]
 Department within the division which will be changed during cost recovery.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ Department within the division which will be changed during cost recovery.
 [departmentCountry]: #departmentcountry
 #### [departmentCountry]
 Country assigned to the department for cost recovery.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ Country assigned to the department for cost recovery.
 [divisionCode]: #divisioncode
 #### [divisionCode]
 Division code used for cost recovery.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ Division code used for cost recovery.
 [emailAddress]: #emailaddress
 #### [emailAddress]
 Account owner's IBM email address. Must be a discoverable email  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ Account owner's IBM email address. Must be a discoverable email
 [firstName]: #firstname
 #### [firstName]
 Applicant's first name, as provided by IBM BluePages API.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -171,7 +185,8 @@ Applicant's first name, as provided by IBM BluePages API.
 [lastName]: #lastname
 #### [lastName]
 Applicant's last name, as provided by IBM BluePages API.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -181,7 +196,8 @@ Applicant's last name, as provided by IBM BluePages API.
 [managerApprovalStatus]: #managerapprovalstatus
 #### [managerApprovalStatus]
 APPROVED if the request has been approved by the first-line manager,  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -191,7 +207,8 @@ APPROVED if the request has been approved by the first-line manager,
 [multiTenantFlag]: #multitenantflag
 #### [multiTenantFlag]
 True for accounts intended to be multi-tenant and false otherwise  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -201,7 +218,8 @@ True for accounts intended to be multi-tenant and false otherwise
 [officePhone]: #officephone
 #### [officePhone]
 Account owner's primary phone number. If no phone number is available  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -211,7 +229,8 @@ Account owner's primary phone number. If no phone number is available
 [paasAccountId]: #paasaccountid
 #### [paasAccountId]
 Bluemix PaaS 32 digit hexadecimal account id being automatically linked  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -221,7 +240,8 @@ Bluemix PaaS 32 digit hexadecimal account id being automatically linked
 [postalCode]: #postalcode
 #### [postalCode]
 If not provided, will attempt to retrieve from BluePages  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -231,7 +251,8 @@ If not provided, will attempt to retrieve from BluePages
 [purpose]: #purpose
 #### [purpose]
 Stated purpose of the new account this request would create  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -241,7 +262,8 @@ Stated purpose of the new account this request would create
 [securitySubjectMatterExpertEmail]: #securitysubjectmatterexpertemail
 #### [securitySubjectMatterExpertEmail]
 Division's security SME's email address, if available  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -251,7 +273,8 @@ Division's security SME's email address, if available
 [securitySubjectMatterExpertName]: #securitysubjectmatterexpertname
 #### [securitySubjectMatterExpertName]
 Division's security SME's name, if available  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -261,7 +284,8 @@ Division's security SME's name, if available
 [securitySubjectMatterExpertPhone]: #securitysubjectmatterexpertphone
 #### [securitySubjectMatterExpertPhone]
 Division's security SME's phone, if available  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -271,7 +295,8 @@ Division's security SME's phone, if available
 [state]: #state
 #### [state]
 If required for chosen country and not provided, will attempt  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

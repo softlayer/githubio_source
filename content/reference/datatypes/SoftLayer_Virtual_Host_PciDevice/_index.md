@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This type represents a PCI device on a host. 
 
 
@@ -45,7 +47,8 @@ This type represents a PCI device on a host.
 [id]: #id
 #### [id]
 ID of the PCI device.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ ID of the PCI device.
 [uuid]: #uuid
 #### [uuid]
 The unique id of the PCI device's record on a virtualization platform.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The unique id of the PCI device's record on a virtualization platform.
 [xenPciId]: #xenpciid
 #### [xenPciId]
 The BDF (Domain:Bus:Device.Function) id of the PCI device in XenServer.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ The BDF (Domain:Bus:Device.Function) id of the PCI device in XenServer.
 [hardwareComponentModel]: #hardwarecomponentmodel
 #### [hardwareComponentModel]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model'>SoftLayer_Hardware_Component_Model </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model'>SoftLayer_Hardware_Component_Model </a>**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ The BDF (Domain:Bus:Device.Function) id of the PCI device in XenServer.
 [host]: #host
 #### [host]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Host'>SoftLayer_Virtual_Host </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Virtual_Host'>SoftLayer_Virtual_Host </a>**  
+
 
 
 </div>

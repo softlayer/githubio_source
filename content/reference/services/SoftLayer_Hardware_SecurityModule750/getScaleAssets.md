@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getScaleAssets
 
+
 Retrieve collection of scale assets this hardware corresponds to.
 
 

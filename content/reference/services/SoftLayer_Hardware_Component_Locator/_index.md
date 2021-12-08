@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 SoftLayer public API to determine the availability of generic hardware component models at data centers 
 
 
@@ -42,18 +44,21 @@ SoftLayer public API to determine the availability of generic hardware component
 
 #### [getGenericComponentModelAvailability](/reference/services/SoftLayer_Hardware_Component_Locator/getGenericComponentModelAvailability)
 An API to retrieve Generic Components Model availability at data centers
+
 </div>
 
 <div class="method-row">
 
 #### [getPackageItemsAvailability](/reference/services/SoftLayer_Hardware_Component_Locator/getPackageItemsAvailability)
 Retrieve availability of specified product package's GPUs and drives
+
 </div>
 
 <div class="method-row">
 
 #### [getServerPackageAvailability](/reference/services/SoftLayer_Hardware_Component_Locator/getServerPackageAvailability)
 An API to retrieve server package availability at data centers
+
 </div>
 </div>
 

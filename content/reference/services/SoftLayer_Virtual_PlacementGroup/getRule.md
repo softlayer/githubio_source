@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_PlacementGroup](/reference/services/SoftLayer_Virtual_PlacementGroup)::getRule
 
+
 Retrieve the placement rule that the placement group is implementing.
 
 

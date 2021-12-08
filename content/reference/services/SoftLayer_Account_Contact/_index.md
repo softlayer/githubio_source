@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,29 +44,34 @@ classes:
 
 #### [createComplianceReportRequestorContact](/reference/services/SoftLayer_Account_Contact/createComplianceReportRequestorContact)
 
+
 </div>
 
 <div class="method-row">
 
 #### [createObject](/reference/services/SoftLayer_Account_Contact/createObject)
 This method creates an account contact.
+
 </div>
 
 <div class="method-row">
 
 #### [deleteObject](/reference/services/SoftLayer_Account_Contact/deleteObject)
 Delete an account contact
+
 </div>
 
 <div class="method-row">
 
 #### [editObject](/reference/services/SoftLayer_Account_Contact/editObject)
 Edit an existing account contact.
+
 </div>
 
 <div class="method-row">
 
 #### [getAccount](/reference/services/SoftLayer_Account_Contact/getAccount)
+
 
 </div>
 
@@ -72,17 +79,20 @@ Edit an existing account contact.
 
 #### [getAllContactTypes](/reference/services/SoftLayer_Account_Contact/getAllContactTypes)
 This method retrieves available contact types.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Account_Contact/getObject)
 Retrieve a SoftLayer_Account_Contact record.
+
 </div>
 
 <div class="method-row">
 
 #### [getType](/reference/services/SoftLayer_Account_Contact/getType)
+
 
 </div>
 </div>

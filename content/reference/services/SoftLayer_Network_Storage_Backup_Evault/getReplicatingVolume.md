@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getReplicatingVolume
 
+
 Retrieve the network storage volume being replicated by a volume.
 
 

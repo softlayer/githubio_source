@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_User_External_Binding_Vendor data type contains information for a single external binding vendor.  This information includes a user friendly vendor name, a unique version of the vendor name, and a unique internal identifier that can be used when creating a new external binding. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_User_External_Binding_Vendor data type contains information for a 
 [id]: #id
 #### [id]
 The unique identifier for an external binding vendor.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The unique identifier for an external binding vendor.
 [keyName]: #keyname
 #### [keyName]
 A unique version of the name property.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A unique version of the name property.
 [name]: #name
 #### [name]
 The user friendly name of an external binding vendor.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

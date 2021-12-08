@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getAccountStatus
 
+
 Retrieve an account's status presented in a more detailed data type.
 
 

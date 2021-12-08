@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::captureImage
 
+
 Captures an Image of the hard disk on the physical machine.
 
 

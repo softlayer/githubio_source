@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getLatestBillDate
 
+
 Retrieve an account's most recent billing date.
 
 

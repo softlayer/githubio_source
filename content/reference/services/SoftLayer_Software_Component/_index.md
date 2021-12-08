@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 Every installed piece of software is represented in the API as a "Software Component."  This is the base class for software components, exposing basic functionality for software components.  From any Software Component, through this service, you can get the hardware a component is installed upon, the license that this component is governed by, the current access passwords for a component, and the history of previous passwords for a component. 
 
 
@@ -42,59 +44,69 @@ Every installed piece of software is represented in the API as a "Software Compo
 
 #### [getAverageInstallationDuration](/reference/services/SoftLayer_Software_Component/getAverageInstallationDuration)
 Retrieve the average amount of time that a software component takes to install.
+
 </div>
 
 <div class="method-row">
 
 #### [getBillingItem](/reference/services/SoftLayer_Software_Component/getBillingItem)
 Retrieve the billing item for a software component.
+
 </div>
 
 <div class="method-row">
 
 #### [getHardware](/reference/services/SoftLayer_Software_Component/getHardware)
 Retrieve the hardware this Software Component is installed upon.
+
 </div>
 
 <div class="method-row">
 
 #### [getLicenseFile](/reference/services/SoftLayer_Software_Component/getLicenseFile)
 Get the license file for a software component if it is supported.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Software_Component/getObject)
 Retrieve a SoftLayer_Software_Component record.
+
 </div>
 
 <div class="method-row">
 
 #### [getPasswordHistory](/reference/services/SoftLayer_Software_Component/getPasswordHistory)
 Retrieve history Records for Software Passwords.
+
 </div>
 
 <div class="method-row">
 
 #### [getPasswords](/reference/services/SoftLayer_Software_Component/getPasswords)
 Retrieve username/Password pairs used for access to this Software Installation.
+
 </div>
 
 <div class="method-row">
 
 #### [getSoftwareDescription](/reference/services/SoftLayer_Software_Component/getSoftwareDescription)
 Retrieve the Software Description of this Software Component.
+
 </div>
 
 <div class="method-row">
 
 #### [getSoftwareLicense](/reference/services/SoftLayer_Software_Component/getSoftwareLicense)
 Retrieve the License this Software Component uses.
+
 </div>
 
 <div class="method-row">
 
 #### [getVendorSetUpConfiguration](/reference/services/SoftLayer_Software_Component/getVendorSetUpConfiguration)
+
 
 </div>
 
@@ -102,6 +114,7 @@ Retrieve the License this Software Component uses.
 
 #### [getVirtualGuest](/reference/services/SoftLayer_Software_Component/getVirtualGuest)
 Retrieve the virtual guest this software component is installed upon.
+
 </div>
 </div>
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Survey_Response data type contains general information relating to a single SoftLayer survey response. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Survey_Response data type contains general information relating to
 [otherAnswer]: #otheranswer
 #### [otherAnswer]
 The user typed response for the [SoftLayer_Survey_Answer]({{<ref "reference/datatypes/SoftLayer_Survey_Answer">}}) that a response is associated with.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The user typed response for the [SoftLayer_Survey_Answer]({{<ref "reference/data
 [surveyAnswerId]: #surveyanswerid
 #### [surveyAnswerId]
 The Id of the [SoftLayer_Survey_Answer]({{<ref "reference/datatypes/SoftLayer_Survey_Answer">}}) that a response was made for.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ The Id of the [SoftLayer_Survey_Answer]({{<ref "reference/datatypes/SoftLayer_Su
 [surveyAnswer]: #surveyanswer
 #### [surveyAnswer]
 The survey answer that this response was to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Survey_Answer'>SoftLayer_Survey_Answer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Survey_Answer'>SoftLayer_Survey_Answer </a>**  
+
 
 
 </div>

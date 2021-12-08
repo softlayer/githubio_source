@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Location_Reservation_Rack](/reference/services/SoftLayer_Location_Reservation_Rack)::getAllotment
 
+
 Retrieve the bandwidth allotment that the reservation belongs to.
 
 

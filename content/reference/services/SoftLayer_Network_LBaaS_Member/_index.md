@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 The SoftLayer_Network_LBaaS_Member service allows consumers to manage (backend) members for a given load balancer. A load balancer may have one or more backend pools. Adding a backend member to the load balancer will add that member to all the backend pools. Similarly, deleting a backend member from the load balancer will remove that member from all associated backend pools. Weight of the backend member is a value between 1 and 256 but only applicable when the load balancing method configured is "Weighted Round Robin". 
 
 
@@ -42,24 +44,28 @@ The SoftLayer_Network_LBaaS_Member service allows consumers to manage (backend) 
 
 #### [addLoadBalancerMembers](/reference/services/SoftLayer_Network_LBaaS_Member/addLoadBalancerMembers)
 Add load balancer members
+
 </div>
 
 <div class="method-row">
 
 #### [deleteLoadBalancerMembers](/reference/services/SoftLayer_Network_LBaaS_Member/deleteLoadBalancerMembers)
 Delete load balancer members
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_LBaaS_Member/getObject)
 Retrieve a SoftLayer_Network_LBaaS_Member record.
+
 </div>
 
 <div class="method-row">
 
 #### [updateLoadBalancerMembers](/reference/services/SoftLayer_Network_LBaaS_Member/updateLoadBalancerMembers)
 Update members weight
+
 </div>
 </div>
 

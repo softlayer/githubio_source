@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getPptpVpnAllowedFlag
 
+
 Retrieve (Deprecated) Boolean flag dictating whether or not this account supports PPTP VPN Access.
 
 

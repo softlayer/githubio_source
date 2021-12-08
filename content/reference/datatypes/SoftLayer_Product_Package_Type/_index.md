@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The [SoftLayer_Product_Package_Type]({{<ref "reference/datatypes/SoftLayer_Product_Package_Type">}}) object indicates the type for a service offering (package). The type can be used to filter packages. For example, if you are looking for the package representing virtual servers, you can filter on the type's key name of '''VIRTUAL_SERVER_INSTANCE'''. For bare metal servers by core or CPU, filter on '''BARE_METAL_CORE''' or '''BARE_METAL_CPU''', respectively. 
 
 
@@ -45,7 +47,8 @@ The [SoftLayer_Product_Package_Type]({{<ref "reference/datatypes/SoftLayer_Produ
 [id]: #id
 #### [id]
 The package type's unique identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The package type's unique identifier.
 [keyName]: #keyname
 #### [keyName]
 The unique key name of the package type. Use this value when filtering.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The unique key name of the package type. Use this value when filtering.
 [name]: #name
 #### [name]
 The name of the package type.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ The name of the package type.
 [packages]: #packages
 #### [packages]
 All the packages associated with the given package type.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package'>SoftLayer_Product_Package[] </a>**  
+
 
 
 </div>
@@ -93,7 +99,8 @@ All the packages associated with the given package type.
 [packageCount]: #packagecount
 #### [packageCount]
 A count of all the packages associated with the given package type.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

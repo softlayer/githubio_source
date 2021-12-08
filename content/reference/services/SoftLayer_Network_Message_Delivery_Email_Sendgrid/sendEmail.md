@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Message_Delivery_Email_Sendgrid](/reference/services/SoftLayer_Network_Message_Delivery_Email_Sendgrid)::sendEmail
 
+
 This method is deprecated and will be removed in API version 3.2.
 
 

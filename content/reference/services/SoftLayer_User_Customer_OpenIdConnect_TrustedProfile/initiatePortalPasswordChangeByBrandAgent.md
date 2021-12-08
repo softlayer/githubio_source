@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect_TrustedProfile](/reference/services/SoftLayer_User_Customer_OpenIdConnect_TrustedProfile)::initiatePortalPasswordChangeByBrandAgent
 
+
 Allows a Brand Agent to request password reset email to be sent to
 
 

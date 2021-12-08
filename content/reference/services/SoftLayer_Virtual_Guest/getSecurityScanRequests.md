@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getSecurityScanRequests
 
+
 Retrieve a guest's vulnerability scan requests.
 
 

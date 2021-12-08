@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 The base asset of a scale group. Assets are fixed, non-volatile units of a scale group. They are pinned to the group and will not be automatically added or removed. Their primary purpose is to provide information for the policies to use to determine when to scale members. 
 
 
@@ -42,18 +44,21 @@ The base asset of a scale group. Assets are fixed, non-volatile units of a scale
 
 #### [deleteObject](/reference/services/SoftLayer_Scale_Asset/deleteObject)
 Delete this group asset.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Scale_Asset/getObject)
 Retrieve a SoftLayer_Scale_Asset record.
+
 </div>
 
 <div class="method-row">
 
 #### [getScaleGroup](/reference/services/SoftLayer_Scale_Asset/getScaleGroup)
 Retrieve the group this asset belongs to.
+
 </div>
 </div>
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet_IpAddress](/reference/services/SoftLayer_Network_Subnet_IpAddress)::getRemoteManagementNetworkComponent
 
+
 Retrieve an IPMI-based management network component of the IP address.
 
 

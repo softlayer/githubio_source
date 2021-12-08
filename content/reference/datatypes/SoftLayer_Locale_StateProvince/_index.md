@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This object represents a state or province for a country. 
 
 
@@ -45,7 +47,8 @@ This object represents a state or province for a country.
 [longName]: #longname
 #### [longName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ This object represents a state or province for a country.
 [shortName]: #shortname
 #### [shortName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

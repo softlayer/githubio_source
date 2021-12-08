@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Container_Network_Bandwidth_Version1_Usage models an hourly bandwidth record.
 
 
@@ -55,7 +57,8 @@ SoftLayer_Container_Network_Bandwidth_Version1_Usage models an hourly bandwidth 
 [incomingAmount]: #incomingamount
 #### [incomingAmount]
 The amount of incoming bandwidth that a server has used within the hour of the recordedDate.  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -65,7 +68,8 @@ The amount of incoming bandwidth that a server has used within the hour of the r
 [outgoingAmount]: #outgoingamount
 #### [outgoingAmount]
 The amount of outgoing bandwidth that a server has used within the hour of the recordedDate.  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -75,7 +79,8 @@ The amount of outgoing bandwidth that a server has used within the hour of the r
 [recordedDate]: #recordeddate
 #### [recordedDate]
 The date and time that the bandwidth was used by a piece of hardware  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>

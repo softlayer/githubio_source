@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getDatacenter
 
+
 Retrieve the datacenter that a virtual guest resides in.
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 A property provides additional information about a volume which it is assigned to. This information can range from "Mountable" flags to utilized snapshot space. 
 
 
@@ -45,7 +47,8 @@ A property provides additional information about a volume which it is assigned t
 [createDate]: #createdate
 #### [createDate]
 The date a property was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The date a property was created.
 [modifyDate]: #modifydate
 #### [modifyDate]
 The date a property was last modified;  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The date a property was last modified;
 [value]: #value
 #### [value]
 The value of a property.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The value of a property.
 [volumeId]: #volumeid
 #### [volumeId]
 The volume id which a property is associated with.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ The volume id which a property is associated with.
 [type]: #type
 #### [type]
 The type provides a standardized definition for a property.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Property_Type'>SoftLayer_Network_Storage_Property_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Property_Type'>SoftLayer_Network_Storage_Property_Type </a>**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ The type provides a standardized definition for a property.
 [volume]: #volume
 #### [volume]
 The associated volume for a property.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a>**  
+
 
 
 </div>

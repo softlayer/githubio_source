@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [activeFlag]: #activeflag
 #### [activeFlag]
 Active status of the layout profile  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Active status of the layout profile
 [createDate]: #createdate
 #### [createDate]
 Timestamp of when the layout profile was created  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Timestamp of when the layout profile was created
 [id]: #id
 #### [id]
 The internal identifier of a layout profile  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The internal identifier of a layout profile
 [modifyDate]: #modifydate
 #### [modifyDate]
 Timestamp of when the layout profile was last updated  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Timestamp of when the layout profile was last updated
 [name]: #name
 #### [name]
 The friendly name of the layout profile  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The friendly name of the layout profile
 [userRecordId]: #userrecordid
 #### [userRecordId]
 The [SoftLayer_User_Customer]({{<ref "reference/datatypes/SoftLayer_User_Customer">}}) owning this layout profile  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ The [SoftLayer_User_Customer]({{<ref "reference/datatypes/SoftLayer_User_Custome
 [layoutContainers]: #layoutcontainers
 #### [layoutContainers]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Container'>SoftLayer_Layout_Container[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Container'>SoftLayer_Layout_Container[] </a>**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ The [SoftLayer_User_Customer]({{<ref "reference/datatypes/SoftLayer_User_Custome
 [layoutPreferences]: #layoutpreferences
 #### [layoutPreferences]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Profile_Preference'>SoftLayer_Layout_Profile_Preference[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Layout_Profile_Preference'>SoftLayer_Layout_Profile_Preference[] </a>**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ The [SoftLayer_User_Customer]({{<ref "reference/datatypes/SoftLayer_User_Custome
 [userRecord]: #userrecord
 #### [userRecord]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**  
+
 
 
 </div>
@@ -143,7 +154,8 @@ The [SoftLayer_User_Customer]({{<ref "reference/datatypes/SoftLayer_User_Custome
 [layoutContainerCount]: #layoutcontainercount
 #### [layoutContainerCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -153,7 +165,8 @@ A count of
 [layoutPreferenceCount]: #layoutpreferencecount
 #### [layoutPreferenceCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Product_Item_Category_Question data type represents a single question to be answered by an end user.  The question may or may not be required which can be located by looking at the 'required' property on the item category references.  The answerValueExpression property is a regular expression that is used to validate the answer to the question.  The description and valueExample properties can be used to get an idea of the type of answer that should be provided. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Product_Item_Category_Question data type represents a single quest
 [answerValueExpression]: #answervalueexpression
 #### [answerValueExpression]
 The type of answer expected.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The type of answer expected.
 [description]: #description
 #### [description]
 The description for the question.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The description for the question.
 [fieldTypeId]: #fieldtypeid
 #### [fieldTypeId]
 The type of field to use.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The type of field to use.
 [id]: #id
 #### [id]
 identifier for category.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ identifier for category.
 [keyName]: #keyname
 #### [keyName]
 The keyname for the question.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The keyname for the question.
 [question]: #question
 #### [question]
 The question for the category.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The question for the category.
 [valueExample]: #valueexample
 #### [valueExample]
 An example and/or explanation of what the answer for the question is expected to look like.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ An example and/or explanation of what the answer for the question is expected to
 [fieldType]: #fieldtype
 #### [fieldType]
 The type of field that should be used in an HTML form to accept an answer from an end user.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category_Question_Field_Type'>SoftLayer_Product_Item_Category_Question_Field_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category_Question_Field_Type'>SoftLayer_Product_Item_Category_Question_Field_Type </a>**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ The type of field that should be used in an HTML form to accept an answer from a
 [itemCategoryReferences]: #itemcategoryreferences
 #### [itemCategoryReferences]
 The link between an item category and an item category question.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category_Question_Xref'>SoftLayer_Product_Item_Category_Question_Xref[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category_Question_Xref'>SoftLayer_Product_Item_Category_Question_Xref[] </a>**  
+
 
 
 </div>
@@ -143,7 +154,8 @@ The link between an item category and an item category question.
 [itemCategoryReferenceCount]: #itemcategoryreferencecount
 #### [itemCategoryReferenceCount]
 A count of the link between an item category and an item category question.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

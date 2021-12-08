@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 When a customer uses SoftLayer_Account::getBandwidthUsage, this container is used to return their usage information in bytes 
 
 
@@ -45,7 +47,8 @@ When a customer uses SoftLayer_Account::getBandwidthUsage, this container is use
 [endDate]: #enddate
 #### [endDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ When a customer uses SoftLayer_Account::getBandwidthUsage, this container is use
 [hardwareId]: #hardwareid
 #### [hardwareId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ When a customer uses SoftLayer_Account::getBandwidthUsage, this container is use
 [privateInUsage]: #privateinusage
 #### [privateInUsage]
   
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ When a customer uses SoftLayer_Account::getBandwidthUsage, this container is use
 [privateOutUsage]: #privateoutusage
 #### [privateOutUsage]
   
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ When a customer uses SoftLayer_Account::getBandwidthUsage, this container is use
 [publicInUsage]: #publicinusage
 #### [publicInUsage]
   
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ When a customer uses SoftLayer_Account::getBandwidthUsage, this container is use
 [publicOutUsage]: #publicoutusage
 #### [publicOutUsage]
   
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ When a customer uses SoftLayer_Account::getBandwidthUsage, this container is use
 [startDate]: #startdate
 #### [startDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>

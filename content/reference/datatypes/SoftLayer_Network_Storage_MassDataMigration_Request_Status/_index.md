@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_Storage_MassDataMigration_Request_Status data type contains general information relating to the statuses to which a Mass Data Migration Request may be set. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Network_Storage_MassDataMigration_Request_Status data type contain
 [description]: #description
 #### [description]
 The description of the request status.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The description of the request status.
 [id]: #id
 #### [id]
 The unique id of the request status.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The unique id of the request status.
 [keyName]: #keyname
 #### [keyName]
 The unique keyname of the request status.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The unique keyname of the request status.
 [name]: #name
 #### [name]
 The name of the request status.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

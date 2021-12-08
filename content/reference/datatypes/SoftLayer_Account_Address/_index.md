@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Account_Address data type contains information on an address associated with a SoftLayer account. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Account_Address data type contains information on an address assoc
 [accountId]: #accountid
 #### [accountId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The SoftLayer_Account_Address data type contains information on an address assoc
 [address1]: #address1
 #### [address1]
 Line 1 of the address (normally the street address).  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Line 1 of the address (normally the street address).
 [address2]: #address2
 #### [address2]
 Line 2 of the address.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Line 2 of the address.
 [city]: #city
 #### [city]
 The city of the address.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The city of the address.
 [contactName]: #contactname
 #### [contactName]
 The contact name (person, office) of the address.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The contact name (person, office) of the address.
 [country]: #country
 #### [country]
 The country of the address.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The country of the address.
 [description]: #description
 #### [description]
 The description of the address.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ The description of the address.
 [id]: #id
 #### [id]
 The unique id of the address.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ The unique id of the address.
 [isActive]: #isactive
 #### [isActive]
 Flag to show whether the address is active.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ Flag to show whether the address is active.
 [locationId]: #locationid
 #### [locationId]
 The location id of the address.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -145,7 +157,8 @@ The location id of the address.
 [postalCode]: #postalcode
 #### [postalCode]
 The postal (zip) code of the address.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -155,7 +168,8 @@ The postal (zip) code of the address.
 [state]: #state
 #### [state]
 The state of the address.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -171,7 +185,8 @@ The state of the address.
 [account]: #account
 #### [account]
 The account to which this address belongs.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -181,7 +196,8 @@ The account to which this address belongs.
 [createUser]: #createuser
 #### [createUser]
 The customer user who created this address.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**  
+
 
 
 </div>
@@ -191,7 +207,8 @@ The customer user who created this address.
 [location]: #location
 #### [location]
 The location of this address.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>**  
+
 
 
 </div>
@@ -201,7 +218,8 @@ The location of this address.
 [modifyEmployee]: #modifyemployee
 #### [modifyEmployee]
 The employee who last modified this address.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Employee'>SoftLayer_User_Employee </a>**  
+
 
 
 </div>
@@ -211,7 +229,8 @@ The employee who last modified this address.
 [modifyUser]: #modifyuser
 #### [modifyUser]
 The customer user who last modified this address.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**  
+
 
 
 </div>
@@ -221,7 +240,8 @@ The customer user who last modified this address.
 [type]: #type
 #### [type]
 An account address' type.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Address_Type'>SoftLayer_Account_Address_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Address_Type'>SoftLayer_Account_Address_Type </a>**  
+
 
 
 </div>

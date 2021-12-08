@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getNetworkStatus
 
+
 Retrieve the value of a hardware's network status attribute.
 
 

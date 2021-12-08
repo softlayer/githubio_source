@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::rebootDefault
 
+
 Reboot the server via the default method.
 
 

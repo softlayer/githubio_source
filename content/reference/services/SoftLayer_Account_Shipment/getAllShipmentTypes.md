@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Shipment](/reference/services/SoftLayer_Account_Shipment)::getAllShipmentTypes
 
+
 Retrieve a list of shipment types.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getPendingInvoiceTotalRecurringTaxAmount
 
+
 Retrieve the total amount of the recurring taxes on an account's pending invoice, if one exists.
 
 

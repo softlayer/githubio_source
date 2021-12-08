@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 The SoftLayer_Utility_Network service allows users to send network diagnostic requests from SoftLayer's application servers to a given host on the Internet. 
 
 
@@ -42,12 +44,14 @@ The SoftLayer_Utility_Network service allows users to send network diagnostic re
 
 #### [nsLookup](/reference/services/SoftLayer_Utility_Network/nsLookup)
 Perform a nameserver lookup on given address.
+
 </div>
 
 <div class="method-row">
 
 #### [whois](/reference/services/SoftLayer_Utility_Network/whois)
 Perform a WHOIS lookup on a given address.
+
 </div>
 </div>
 

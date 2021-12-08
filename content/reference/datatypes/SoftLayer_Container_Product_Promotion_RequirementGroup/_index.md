@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Container_Product_Promotion_RequirementGroup data type contains the required options that must be present on an order for the promotion to be applied. At least one of the categories, presets, or prices must be on the order. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Container_Product_Promotion_RequirementGroup data type contains th
 [categories]: #categories
 #### [categories]
 The category options to choose from for this requirement group   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category[] </a>**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The category options to choose from for this requirement group
 [presets]: #presets
 #### [presets]
 The preset options to choose from for this requirement group   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Preset'>SoftLayer_Product_Package_Preset[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Package_Preset'>SoftLayer_Product_Package_Preset[] </a>**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The preset options to choose from for this requirement group
 [prices]: #prices
 #### [prices]
 The price options to choose from for this requirement group   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a>**  
+
 
 
 </div>

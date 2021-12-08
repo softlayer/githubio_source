@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 A schedule property type is used to allow for a standardized method of defining network storage schedules. 
 
 
@@ -45,7 +47,8 @@ A schedule property type is used to allow for a standardized method of defining 
 [description]: #description
 #### [description]
 A type's description, for example 'Date for the schedule to start.'.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ A type's description, for example 'Date for the schedule to start.'.
 [id]: #id
 #### [id]
 A schedule property type's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A schedule property type's internal identifier.
 [keyname]: #keyname
 #### [keyname]
 A schedule property type's key name, for example 'START_DATE'.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ A schedule property type's key name, for example 'START_DATE'.
 [name]: #name
 #### [name]
 A schedule property type's name, for example 'Start Date'.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ A schedule property type's name, for example 'Start Date'.
 [nasType]: #nastype
 #### [nasType]
 The type of Storage volume type which a property type may be associated with.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

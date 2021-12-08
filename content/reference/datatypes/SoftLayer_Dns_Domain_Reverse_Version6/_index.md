@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Dns_Domain_Reverse_Version6 data type represents a reverse IPv6 address record. 
 
 ### External Links
@@ -69,7 +71,8 @@ The SoftLayer_Dns_Domain_Reverse_Version6 data type represents a reverse IPv6 ad
 [id]: #id
 #### [id]
 A domain record's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -79,7 +82,8 @@ A domain record's internal identifier.
 [name]: #name
 #### [name]
 A domain's name including top-level domain, for example "example.com".  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -89,7 +93,8 @@ A domain's name including top-level domain, for example "example.com".
 [networkAddress]: #networkaddress
 #### [networkAddress]
 Network address the domain is associated with.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -99,7 +104,8 @@ Network address the domain is associated with.
 [serial]: #serial
 #### [serial]
 A unique number denoting the latest revision of a domain. Whenever a domain is changed its corresponding serial number is also changed. Serial numbers typically follow the format yyyymmdd## where yyyy is the current year, mm is the current month, dd is the current day of the month, and ## is the number of the revision for that day. A domain's serial number is automatically updated when edited via the API.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -109,7 +115,8 @@ A unique number denoting the latest revision of a domain. Whenever a domain is c
 [updateDate]: #updatedate
 #### [updateDate]
 The date that this domain record was last updated.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -125,7 +132,8 @@ The date that this domain record was last updated.
 [account]: #account
 #### [account]
 The SoftLayer customer account that owns a domain.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -135,7 +143,8 @@ The SoftLayer customer account that owns a domain.
 [managedResourceFlag]: #managedresourceflag
 #### [managedResourceFlag]
 A flag indicating that the dns domain record is a managed resource.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -145,7 +154,8 @@ A flag indicating that the dns domain record is a managed resource.
 [secondary]: #secondary
 #### [secondary]
 The secondary DNS record that defines this domain as being managed through zone transfers.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Dns_Secondary'>SoftLayer_Dns_Secondary </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Dns_Secondary'>SoftLayer_Dns_Secondary </a>**  
+
 
 
 </div>
@@ -155,7 +165,8 @@ The secondary DNS record that defines this domain as being managed through zone 
 [soaResourceRecord]: #soaresourcerecord
 #### [soaResourceRecord]
 The start of authority (SOA) record contains authoritative and propagation details for a DNS zone. This property is not considered in requests to createObject and editObject.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_SoaType'>SoftLayer_Dns_Domain_ResourceRecord_SoaType </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Dns_Domain_ResourceRecord_SoaType'>SoftLayer_Dns_Domain_ResourceRecord_SoaType </a>**  
+
 
 
 </div>

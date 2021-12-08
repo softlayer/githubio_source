@@ -14,6 +14,8 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet_Swip_Transaction](/reference/services/SoftLayer_Network_Subnet_Swip_Transaction)::updateAllSubnetSwips
 
+<div class="deprecated"><span class="deprecation-label">Deprecated </span></div>
+
 Update all subnets on the account with an "OK" status.
 
 

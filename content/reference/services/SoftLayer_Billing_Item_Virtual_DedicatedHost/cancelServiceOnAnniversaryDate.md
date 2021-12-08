@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item_Virtual_DedicatedHost](/reference/services/SoftLayer_Billing_Item_Virtual_DedicatedHost)::cancelServiceOnAnniversaryDate
 
+
 Cancel a service or resource on the next bill date
 
 

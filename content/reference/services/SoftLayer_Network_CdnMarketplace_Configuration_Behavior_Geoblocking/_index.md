@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,11 +44,13 @@ classes:
 
 #### [createGeoblocking](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_Geoblocking/createGeoblocking)
 
+
 </div>
 
 <div class="method-row">
 
 #### [deleteGeoblocking](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_Geoblocking/deleteGeoblocking)
+
 
 </div>
 
@@ -54,11 +58,13 @@ classes:
 
 #### [getGeoblocking](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_Geoblocking/getGeoblocking)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getGeoblockingAllowedTypesAndRegions](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_Geoblocking/getGeoblockingAllowedTypesAndRegions)
+
 
 </div>
 
@@ -66,11 +72,13 @@ classes:
 
 #### [getObject](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_Geoblocking/getObject)
 Retrieve a SoftLayer_Network_CdnMarketplace_Configuration_Behavior_Geoblocking record.
+
 </div>
 
 <div class="method-row">
 
 #### [updateGeoblocking](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_Geoblocking/updateGeoblocking)
+
 
 </div>
 </div>

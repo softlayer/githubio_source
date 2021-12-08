@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_CdnMarketplace_Metrics](/reference/services/SoftLayer_Network_CdnMarketplace_Metrics)::getCustomerRealTimeMetrics
 
+
 Get the realtime metrics data for the current account. Takes the startTime and endTime and returns the total metrics data and line graph metrics data divided by the timeInterval. 
 
 

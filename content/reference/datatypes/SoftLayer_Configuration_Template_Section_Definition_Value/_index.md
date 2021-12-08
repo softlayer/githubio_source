@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Configuration_Section_Value is used to set the value for a configuration definition 
 
 
@@ -45,7 +47,8 @@ SoftLayer_Configuration_Section_Value is used to set the value for a configurati
 [createDate]: #createdate
 #### [createDate]
 Created date  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Created date
 [definitionId]: #definitionid
 #### [definitionId]
 Internal identifier of a configuration definition that this configuration value if defined by  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Internal identifier of a configuration definition that this configuration value 
 [modifyDate]: #modifydate
 #### [modifyDate]
 Internal Last modified date  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Internal Last modified date
 [templateId]: #templateid
 #### [templateId]
 Internal identifier of a configuration template that this configuration value belongs to  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Internal identifier of a configuration template that this configuration value be
 [value]: #value
 #### [value]
 Internal Configuration value  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ Internal Configuration value
 [definition]: #definition
 #### [definition]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition'>SoftLayer_Configuration_Template_Section_Definition </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition'>SoftLayer_Configuration_Template_Section_Definition </a>**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ Internal Configuration value
 [template]: #template
 #### [template]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template'>SoftLayer_Configuration_Template </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Configuration_Template'>SoftLayer_Configuration_Template </a>**  
+
 
 
 </div>

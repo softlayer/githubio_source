@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Summary presented to reviewers when determining whether or not to accept a proof of concept request. Note that reviewers are internal IBM employees and reviews are not exposed to external users. 
 
 
@@ -50,7 +52,8 @@ Summary presented to reviewers when determining whether or not to accept a proof
 [accountName]: #accountname
 #### [accountName]
 Account's companyName  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ Account's companyName
 [accountOwnerName]: #accountownername
 #### [accountOwnerName]
 Current account owner  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -70,7 +74,8 @@ Current account owner
 [amount]: #amount
 #### [amount]
 Dollar amount requested  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -80,7 +85,8 @@ Dollar amount requested
 [createDate]: #createdate
 #### [createDate]
 Date the request was submitted  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -90,7 +96,8 @@ Date the request was submitted
 [customerEmail]: #customeremail
 #### [customerEmail]
 Email of the customer receiving the proof of concept account  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -100,7 +107,8 @@ Email of the customer receiving the proof of concept account
 [customerName]: #customername
 #### [customerName]
 Name of the customer receiving the proof of concept account  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -110,7 +118,8 @@ Name of the customer receiving the proof of concept account
 [id]: #id
 #### [id]
 Request record's id  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -120,7 +129,8 @@ Request record's id
 [lastUpdate]: #lastupdate
 #### [lastUpdate]
 Date of the last state change on the request  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -130,7 +140,8 @@ Date of the last state change on the request
 [nextApproverEmail]: #nextapproveremail
 #### [nextApproverEmail]
 Email address of the reviewer, if any, currently reviewing the request  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -140,7 +151,8 @@ Email address of the reviewer, if any, currently reviewing the request
 [requesterEmail]: #requesteremail
 #### [requesterEmail]
 Email address of the requester  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -150,7 +162,8 @@ Email address of the requester
 [requesterName]: #requestername
 #### [requesterName]
 Requesting IBMer's full name  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -160,7 +173,8 @@ Requesting IBMer's full name
 [reviewUrl]: #reviewurl
 #### [reviewUrl]
 URL for the individual review  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -170,7 +184,8 @@ URL for the individual review
 [status]: #status
 #### [status]
 Request's current status (Pending, Denied, or Approved)  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

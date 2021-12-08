@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_LBaaS_Member represents the backend member for a load balancer. It can be either a virtual server or a bare metal machine. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Network_LBaaS_Member represents the backend member for a load bala
 [address]: #address
 #### [address]
 The IP address of a load balancer member.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The IP address of a load balancer member.
 [createDate]: #createdate
 #### [createDate]
 Specifies when a load balancers  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Specifies when a load balancers
 [id]: #id
 #### [id]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Specifies when a load balancers
 [modifyDate]: #modifydate
 #### [modifyDate]
 Specifies when a load balancers  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Specifies when a load balancers
 [provisioningStatus]: #provisioningstatus
 #### [provisioningStatus]
 The provisioning status of a load balancer member.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The provisioning status of a load balancer member.
 [uuid]: #uuid
 #### [uuid]
 The UUID of a load balancer member.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The UUID of a load balancer member.
 [weight]: #weight
 #### [weight]
 The weight of a load balancer member.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

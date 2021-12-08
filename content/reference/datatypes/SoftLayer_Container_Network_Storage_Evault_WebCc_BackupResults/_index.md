@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Container_Network_Storage_Evault_WebCc_BackupResults will contain the timeframe of backups and the results will also be returned. 
 
 
@@ -50,7 +52,8 @@ The SoftLayer_Container_Network_Storage_Evault_WebCc_BackupResults will contain 
 [beginTime]: #begintime
 #### [beginTime]
 Timestamp of begin time  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ Timestamp of begin time
 [conflict]: #conflict
 #### [conflict]
 Count of backups with conflicts.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -70,7 +74,8 @@ Count of backups with conflicts.
 [endTime]: #endtime
 #### [endTime]
 Timestamp of end time  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -80,7 +85,8 @@ Timestamp of end time
 [failed]: #failed
 #### [failed]
 Count of failed backups.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -90,7 +96,8 @@ Count of failed backups.
 [success]: #success
 #### [success]
 Count of successfull backups.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

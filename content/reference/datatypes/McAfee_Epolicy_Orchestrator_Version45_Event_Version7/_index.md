@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The McAfee_Epolicy_Orchestrator_Version45_Event_Version7 data type represents a single event. It contains details about the event such as the date the event occurred, the virus or intrusion that is detected and the action that is taken. 
 
 
@@ -45,7 +47,8 @@ The McAfee_Epolicy_Orchestrator_Version45_Event_Version7 data type represents a 
 [detectedUtc]: #detectedutc
 #### [detectedUtc]
 The time that an event was detected.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The time that an event was detected.
 [sourceIpv4]: #sourceipv4
 #### [sourceIpv4]
 The IP address of the source that generated an event.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The IP address of the source that generated an event.
 [sourceProcessName]: #sourceprocessname
 #### [sourceProcessName]
 The name of the process that generated an event.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The name of the process that generated an event.
 [targetFilename]: #targetfilename
 #### [targetFilename]
 The name of the file that was the target of the event.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The name of the file that was the target of the event.
 [threatActionTaken]: #threatactiontaken
 #### [threatActionTaken]
 The action taken regarding a threat.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The action taken regarding a threat.
 [threatName]: #threatname
 #### [threatName]
 The name of the threat.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The name of the threat.
 [threatSeverityLabel]: #threatseveritylabel
 #### [threatSeverityLabel]
 The textual representation of the severity level.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ The textual representation of the severity level.
 [threatType]: #threattype
 #### [threatType]
 The type of threat.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ The type of threat.
 [agentDetails]: #agentdetails
 #### [agentDetails]
 Additional information about an agent.  
-<span class="type-label">Type: </span>**McAfee_Epolicy_Orchestrator_Version45_Agent_Details**
+<span class="type-label">Type: </span>**McAfee_Epolicy_Orchestrator_Version45_Agent_Details**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ Additional information about an agent.
 [signature]: #signature
 #### [signature]
 The signature information for an event.  
-<span class="type-label">Type: </span>**McAfee_Epolicy_Orchestrator_Version45_Hips_Event_Signature_Version7**
+<span class="type-label">Type: </span>**McAfee_Epolicy_Orchestrator_Version45_Hips_Event_Signature_Version7**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ The signature information for an event.
 [virusActionTaken]: #virusactiontaken
 #### [virusActionTaken]
 The action taken when a virus is detected.  
-<span class="type-label">Type: </span>**McAfee_Epolicy_Orchestrator_Version45_Event_Filter_Description**
+<span class="type-label">Type: </span>**McAfee_Epolicy_Orchestrator_Version45_Event_Filter_Description**  
+
 
 
 </div>

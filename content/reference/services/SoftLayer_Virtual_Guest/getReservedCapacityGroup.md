@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getReservedCapacityGroup
 
+
 Retrieve the reserved capacity group the guest is associated with.
 
 

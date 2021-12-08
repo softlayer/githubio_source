@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_Component_Uplink_Hardware data type abstracts information related to network connections between SoftLayer hardware and SoftLayer network components. 
 
 It is populated via triggers on the network_connection table (SoftLayer_Network_Connection), so you shouldn't have to delete or insert records into this table, ever. 
@@ -63,7 +65,8 @@ It is populated via triggers on the network_connection table (SoftLayer_Network_
 [hardware]: #hardware
 #### [hardware]
 A network component uplink's connected [SoftLayer_Hardware]({{<ref "reference/datatypes/SoftLayer_Hardware">}}).  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>**  
+
 
 
 </div>
@@ -73,7 +76,8 @@ A network component uplink's connected [SoftLayer_Hardware]({{<ref "reference/da
 [networkComponent]: #networkcomponent
 #### [networkComponent]
 The [SoftLayer_Network_Component]({{<ref "reference/datatypes/SoftLayer_Network_Component">}}) that a uplink connection belongs to..  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>**  
+
 
 
 </div>

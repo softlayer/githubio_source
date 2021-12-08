@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_PlacementGroup_Rule](/reference/services/SoftLayer_Virtual_PlacementGroup_Rule)::getObject
 
+
 Retrieve a SoftLayer_Virtual_PlacementGroup_Rule record.
 
 

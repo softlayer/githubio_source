@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [baseUnit]: #baseunit
 #### [baseUnit]
 base units associated with the graph.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ base units associated with the graph.
 [endDatetime]: #enddatetime
 #### [endDatetime]
 Graph range end datetime.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Graph range end datetime.
 [height]: #height
 #### [height]
 The height of the graph image.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The height of the graph image.
 [image]: #image
 #### [image]
 The graph image.  
-<span class="type-label">Type: </span>**binary data**
+<span class="type-label">Type: </span>**binary data**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The graph image.
 [interval]: #interval
 #### [interval]
 The graph interval in seconds.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The graph interval in seconds.
 [metrics]: #metrics
 #### [metrics]
 Metric types associated with the graph.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Metric_Data_Type'>SoftLayer_Container_Metric_Data_Type[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Metric_Data_Type'>SoftLayer_Container_Metric_Data_Type[] </a>**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ Metric types associated with the graph.
 [normalizeFlag]: #normalizeflag
 #### [normalizeFlag]
 Indicator to control whether the graph data is normalized.  
-<span class="type-label">Type: </span>**binary data**
+<span class="type-label">Type: </span>**binary data**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ Indicator to control whether the graph data is normalized.
 [options]: #options
 #### [options]
 The options used to control the graph appearance.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Graph_Option'>SoftLayer_Container_Graph_Option[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Graph_Option'>SoftLayer_Container_Graph_Option[] </a>**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ The options used to control the graph appearance.
 [plots]: #plots
 #### [plots]
 A collection of graph plots.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Graph_Plot'>SoftLayer_Container_Graph_Plot[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Graph_Plot'>SoftLayer_Container_Graph_Plot[] </a>**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ A collection of graph plots.
 [returnImage]: #returnimage
 #### [returnImage]
 option to not return the image.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -145,7 +157,8 @@ option to not return the image.
 [startDatetime]: #startdatetime
 #### [startDatetime]
 Graph range start datetime.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -155,7 +168,8 @@ Graph range start datetime.
 [template]: #template
 #### [template]
 The name of the template to use; may be null.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -165,7 +179,8 @@ The name of the template to use; may be null.
 [title]: #title
 #### [title]
 The title of the graph image.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -175,7 +190,8 @@ The title of the graph image.
 [width]: #width
 #### [width]
 The width of the graph image.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

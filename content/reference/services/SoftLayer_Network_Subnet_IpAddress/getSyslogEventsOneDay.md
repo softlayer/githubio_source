@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet_IpAddress](/reference/services/SoftLayer_Network_Subnet_IpAddress)::getSyslogEventsOneDay
 
+
 Retrieve all events for this IP address stored in the datacenter syslogs from the last 24 hours
 
 

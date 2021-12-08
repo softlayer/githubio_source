@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Contact](/reference/services/SoftLayer_Account_Contact)::getAllContactTypes
 
+
 This method retrieves available contact types.
 
 

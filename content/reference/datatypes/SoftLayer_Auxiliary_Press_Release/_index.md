@@ -21,6 +21,8 @@ classes:
 
 
 
+
+
 ### associatedMethods
 
 *  [SoftLayer_Auxiliary_Press_Prelease::getObject](/reference/services/SoftLayer_Auxiliary_Press_Prelease/getObject )
@@ -64,7 +66,8 @@ classes:
 [id]: #id
 #### [id]
 A press release's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -74,7 +77,8 @@ A press release's internal identifier.
 [publishDate]: #publishdate
 #### [publishDate]
 The data a press release was published.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -84,7 +88,8 @@ The data a press release was published.
 [releaseLocation]: #releaselocation
 #### [releaseLocation]
 A press release's location.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -94,7 +99,8 @@ A press release's location.
 [subTitle]: #subtitle
 #### [subTitle]
 A press release's sub-title.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -104,7 +110,8 @@ A press release's sub-title.
 [title]: #title
 #### [title]
 A press release's title.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -114,7 +121,8 @@ A press release's title.
 [websiteHighlightFlag]: #websitehighlightflag
 #### [websiteHighlightFlag]
 Whether or not a press release is highlighted on the SoftLayer Website.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -130,7 +138,8 @@ Whether or not a press release is highlighted on the SoftLayer Website.
 [about]: #about
 #### [about]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Auxiliary_Press_Release_About_Press_Release'>SoftLayer_Auxiliary_Press_Release_About_Press_Release[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Auxiliary_Press_Release_About_Press_Release'>SoftLayer_Auxiliary_Press_Release_About_Press_Release[] </a>**  
+
 
 
 </div>
@@ -140,7 +149,8 @@ Whether or not a press release is highlighted on the SoftLayer Website.
 [contacts]: #contacts
 #### [contacts]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Auxiliary_Press_Release_Contact_Press_Release'>SoftLayer_Auxiliary_Press_Release_Contact_Press_Release[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Auxiliary_Press_Release_Contact_Press_Release'>SoftLayer_Auxiliary_Press_Release_Contact_Press_Release[] </a>**  
+
 
 
 </div>
@@ -150,7 +160,8 @@ Whether or not a press release is highlighted on the SoftLayer Website.
 [mediaPartners]: #mediapartners
 #### [mediaPartners]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Auxiliary_Press_Release_Media_Partner_Press_Release'>SoftLayer_Auxiliary_Press_Release_Media_Partner_Press_Release[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Auxiliary_Press_Release_Media_Partner_Press_Release'>SoftLayer_Auxiliary_Press_Release_Media_Partner_Press_Release[] </a>**  
+
 
 
 </div>
@@ -160,7 +171,8 @@ Whether or not a press release is highlighted on the SoftLayer Website.
 [pressReleaseContent]: #pressreleasecontent
 #### [pressReleaseContent]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Auxiliary_Press_Release_Content'>SoftLayer_Auxiliary_Press_Release_Content </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Auxiliary_Press_Release_Content'>SoftLayer_Auxiliary_Press_Release_Content </a>**  
+
 
 
 </div>
@@ -172,7 +184,8 @@ Whether or not a press release is highlighted on the SoftLayer Website.
 [aboutCount]: #aboutcount
 #### [aboutCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -182,7 +195,8 @@ A count of
 [contactCount]: #contactcount
 #### [contactCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -192,7 +206,8 @@ A count of
 [mediaPartnerCount]: #mediapartnercount
 #### [mediaPartnerCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

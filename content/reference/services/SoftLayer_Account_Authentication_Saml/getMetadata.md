@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Authentication_Saml](/reference/services/SoftLayer_Account_Authentication_Saml)::getMetadata
 
+
 Get the service provider meta data.
 
 

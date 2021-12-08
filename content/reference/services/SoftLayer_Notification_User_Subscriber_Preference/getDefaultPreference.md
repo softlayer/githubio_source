@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Notification_User_Subscriber_Preference](/reference/services/SoftLayer_Notification_User_Subscriber_Preference)::getDefaultPreference
 
+
 Retrieve details such name, keyname, minimum and maximum values for the preference.
 
 

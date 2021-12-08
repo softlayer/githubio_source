@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Network_LBaaS_LoadBalancerServerInstanceInfo specifies the application server, usually an IBM SoftLayer virtual server or bare metal system, to be assigned to a load balancer. 
 
 
@@ -45,7 +47,8 @@ SoftLayer_Network_LBaaS_LoadBalancerServerInstanceInfo specifies the application
 [privateIpAddress]: #privateipaddress
 #### [privateIpAddress]
 Servers private IP address  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Servers private IP address
 [publicIpAddress]: #publicipaddress
 #### [publicIpAddress]
 Servers public IP address  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Servers public IP address
 [weight]: #weight
 #### [weight]
 Load balancing weight for a server  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::getEndPointIpAddress
 
+
 Retrieve a static routed ip address
 
 

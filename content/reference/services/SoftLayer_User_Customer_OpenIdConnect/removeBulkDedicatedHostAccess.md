@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::removeBulkDedicatedHostAccess
 
+
 Revoke access for the user for one or more dedicated hosts devices.
 
 

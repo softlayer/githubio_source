@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [buildDate]: #builddate
 #### [buildDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ classes:
 [createDate]: #createdate
 #### [createDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ classes:
 [hardwareComponentModelId]: #hardwarecomponentmodelid
 #### [hardwareComponentModelId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ classes:
 [id]: #id
 #### [id]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ classes:
 [isQualified]: #isqualified
 #### [isQualified]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ classes:
 [releaseNotes]: #releasenotes
 #### [releaseNotes]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ classes:
 [severity]: #severity
 #### [severity]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ classes:
 [version]: #version
 #### [version]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ classes:
 [attributes]: #attributes
 #### [attributes]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Firmware_Attribute'>SoftLayer_Hardware_Component_Firmware_Attribute[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Firmware_Attribute'>SoftLayer_Hardware_Component_Firmware_Attribute[] </a>**  
+
 
 
 </div>
@@ -141,7 +152,8 @@ classes:
 [hardwareComponentModel]: #hardwarecomponentmodel
 #### [hardwareComponentModel]
 The Hardware Component Model this Firmware applies to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model'>SoftLayer_Hardware_Component_Model </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Model'>SoftLayer_Hardware_Component_Model </a>**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ The Hardware Component Model this Firmware applies to.
 [qualificationType]: #qualificationtype
 #### [qualificationType]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Firmware_QualificationTypes'>SoftLayer_Hardware_Component_Firmware_QualificationTypes </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Firmware_QualificationTypes'>SoftLayer_Hardware_Component_Firmware_QualificationTypes </a>**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ The Hardware Component Model this Firmware applies to.
 [revisions]: #revisions
 #### [revisions]
 All revisions of this firmware.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Revision'>SoftLayer_Hardware_Component_Revision[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Revision'>SoftLayer_Hardware_Component_Revision[] </a>**  
+
 
 
 </div>
@@ -173,7 +187,8 @@ All revisions of this firmware.
 [attributeCount]: #attributecount
 #### [attributeCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -183,7 +198,8 @@ A count of
 [revisionCount]: #revisioncount
 #### [revisionCount]
 A count of all revisions of this firmware.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

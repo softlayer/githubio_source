@@ -13,6 +13,8 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::isMasterUser
 
+<div class="deprecated"><span class="deprecation-label">Deprecated </span></div>
+
 Determine if a portal user is a master user.
 
 

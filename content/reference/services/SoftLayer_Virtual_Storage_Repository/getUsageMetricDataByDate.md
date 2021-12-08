@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Storage_Repository](/reference/services/SoftLayer_Virtual_Storage_Repository)::getUsageMetricDataByDate
 
+
 Retrieve the metric data for disk space usage for a storage repository. 
 
 

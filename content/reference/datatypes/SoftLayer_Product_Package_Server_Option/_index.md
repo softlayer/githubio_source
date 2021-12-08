@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The [SoftLayer_Product_Package_Server_Option]({{<ref "reference/datatypes/SoftLayer_Product_Package_Server_Option">}}) data type contains various data points associated with package servers that can be used in selection criteria. 
 
 
@@ -45,7 +47,8 @@ The [SoftLayer_Product_Package_Server_Option]({{<ref "reference/datatypes/SoftLa
 [catalogId]: #catalogid
 #### [catalogId]
 The unique identifier of a Catalog.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The unique identifier of a Catalog.
 [description]: #description
 #### [description]
 A description of the option.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A description of the option.
 [id]: #id
 #### [id]
 The unique identifier of a Package Server Option.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The unique identifier of a Package Server Option.
 [type]: #type
 #### [type]
 The type of option.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The type of option.
 [value]: #value
 #### [value]
 The value of the the option.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

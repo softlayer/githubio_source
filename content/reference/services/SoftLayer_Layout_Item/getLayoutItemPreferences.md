@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Layout_Item](/reference/services/SoftLayer_Layout_Item)::getLayoutItemPreferences
 
+
 Retrieve the layout preferences assigned to this layout item
 
 

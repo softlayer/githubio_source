@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::getNotificationSubscribers
 
+
 Retrieve notification subscription records for the user.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::activateOpenIdConnectUser
 
+
 Completes invitation process for an OIDC user initiated by the
 
 

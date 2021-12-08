@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getBandwidthAllocation
 
+
 Retrieve a computing instance's allotted bandwidth (measured in GB).
 
 

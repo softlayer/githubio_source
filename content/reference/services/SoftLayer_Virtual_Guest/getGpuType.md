@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getGpuType
 
+
 Retrieve the name of the GPU type attached to the guest.
 
 

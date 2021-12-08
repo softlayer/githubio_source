@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::createArchiveTemplate
 
+
 [SoftLayer_Virtual_Guest_Block_Devices]({{<ref "reference/datatypes/SoftLayer_Virtual_Guest_Block_Devices">}}) can be grouped together in and backed up in an archive for later use. This method generates a transaction to perform an archive of the provided block devices. 
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Brand](/reference/services/SoftLayer_Brand)::getAllOwnedAccounts
 
+
 Retrieve all accounts owned by the brand.
 
 

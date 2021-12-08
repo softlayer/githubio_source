@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Security_Certificate_Request](/reference/services/SoftLayer_Security_Certificate_Request)::getOrderItem
 
+
 Retrieve the associated order item for this SSL certificate request.
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Hardware_Function data type contains a generic object type for a piece of hardware, like switch, firewall, server, etc.. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Hardware_Function data type contains a generic object type for a p
 [code]: #code
 #### [code]
 The code associated with this hardware function.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The code associated with this hardware function.
 [description]: #description
 #### [description]
 The description for a hardware function.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The description for a hardware function.
 [id]: #id
 #### [id]
 The id associated with a hardware function.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

@@ -16,6 +16,7 @@ aliases:
 
 
 
+
 ## Overview 
 Returns all routers available for use with placement groups. If a datacenter location ID is provided, this method will further restrict the list of routers to ones contained within that datacenter. 
 

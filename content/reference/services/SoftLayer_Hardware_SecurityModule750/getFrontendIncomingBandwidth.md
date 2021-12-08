@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getFrontendIncomingBandwidth
 
+
 Retrieve the amount of incoming public network bandwidth used by a server over a period of time. 
 
 

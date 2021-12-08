@@ -18,6 +18,9 @@ classes:
 </div>
 
 ## Description 
+
+<div class="deprecated"><span class="deprecation-label">Deprecated  </span></div>
+
 [DEPRECATED] The SoftLayer_Network_Bandwidth_Version1_Host type contains general information used to the route a server to its pod. 
 
 
@@ -45,7 +48,8 @@ classes:
 [podId]: #podid
 #### [podId]
 Pod ID for this host device.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

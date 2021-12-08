@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Authentication_Attribute](/reference/services/SoftLayer_Account_Authentication_Attribute)::getObject
 
+
 Retrieve a SoftLayer_Account_Authentication_Attribute record.
 
 

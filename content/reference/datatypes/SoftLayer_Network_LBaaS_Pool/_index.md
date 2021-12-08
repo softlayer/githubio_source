@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_LBaaS_Pool type presents a structure containing attributes of a load balancer pool such as the protocol, protocol port and the load balancing algorithm used. 
 
 
@@ -50,7 +52,8 @@ The SoftLayer_Network_LBaaS_Pool type presents a structure containing attributes
 [createDate]: #createdate
 #### [createDate]
 Create date of the pool instance  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ Create date of the pool instance
 [loadBalancingAlgorithm]: #loadbalancingalgorithm
 #### [loadBalancingAlgorithm]
 Load balancing algorithm: "ROUNDROBIN", "WEIGHTED_RR", "LEASTCONNECTION"  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -70,7 +74,8 @@ Load balancing algorithm: "ROUNDROBIN", "WEIGHTED_RR", "LEASTCONNECTION"
 [modifyDate]: #modifydate
 #### [modifyDate]
 Last updated date of the pool  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -80,7 +85,8 @@ Last updated date of the pool
 [protocol]: #protocol
 #### [protocol]
 Backends protocol, supported protocols are "TCP", "HTTP" and "HTTPS"  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -90,7 +96,8 @@ Backends protocol, supported protocols are "TCP", "HTTP" and "HTTPS"
 [protocolPort]: #protocolport
 #### [protocolPort]
 Backends protocol port  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -100,7 +107,8 @@ Backends protocol port
 [provisioningStatus]: #provisioningstatus
 #### [provisioningStatus]
 Provisioning status of a load balancer pool.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -110,7 +118,8 @@ Provisioning status of a load balancer pool.
 [uuid]: #uuid
 #### [uuid]
 Instance uuid of the pool  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -126,7 +135,8 @@ Instance uuid of the pool
 [healthMonitor]: #healthmonitor
 #### [healthMonitor]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_HealthMonitor'>SoftLayer_Network_LBaaS_HealthMonitor </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_HealthMonitor'>SoftLayer_Network_LBaaS_HealthMonitor </a>**  
+
 
 
 </div>
@@ -136,7 +146,8 @@ Instance uuid of the pool
 [members]: #members
 #### [members]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_Member'>SoftLayer_Network_LBaaS_Member[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_Member'>SoftLayer_Network_LBaaS_Member[] </a>**  
+
 
 
 </div>
@@ -146,7 +157,8 @@ Instance uuid of the pool
 [sessionAffinity]: #sessionaffinity
 #### [sessionAffinity]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_SessionAffinity'>SoftLayer_Network_LBaaS_SessionAffinity </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_LBaaS_SessionAffinity'>SoftLayer_Network_LBaaS_SessionAffinity </a>**  
+
 
 
 </div>
@@ -158,7 +170,8 @@ Instance uuid of the pool
 [memberCount]: #membercount
 #### [memberCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer_OpenIdConnect_TrustedProfile](/reference/services/SoftLayer_User_Customer_OpenIdConnect_TrustedProfile)::getApiAuthenticationKeys
 
+
 Retrieve a portal user's API Authentication keys. There is a max limit of one API key per user.
 
 

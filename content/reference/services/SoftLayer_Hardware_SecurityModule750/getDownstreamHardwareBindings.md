@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getDownstreamHardwareBindings
 
+
 Retrieve all hardware downstream from a network device.
 
 

@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The McAfee_Epolicy_Orchestrator_Version45_Agent_Parent_Details data type contains the name of an anti-virus policy.
 
 
@@ -45,7 +47,8 @@ The McAfee_Epolicy_Orchestrator_Version45_Agent_Parent_Details data type contain
 [name]: #name
 #### [name]
 The name of a policy.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -61,7 +64,8 @@ The name of a policy.
 [agentDetails]: #agentdetails
 #### [agentDetails]
 Additional information about an agent.  
-<span class="type-label">Type: </span>**McAfee_Epolicy_Orchestrator_Version45_Agent_Details**
+<span class="type-label">Type: </span>**McAfee_Epolicy_Orchestrator_Version45_Agent_Details**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ Additional information about an agent.
 [policies]: #policies
 #### [policies]
 The current anti-virus policy of an agent.  
-<span class="type-label">Type: </span>**McAfee_Epolicy_Orchestrator_Version45_Agent_Parent_Details[]**
+<span class="type-label">Type: </span>**McAfee_Epolicy_Orchestrator_Version45_Agent_Parent_Details[]**  
+
 
 
 </div>
@@ -83,7 +88,8 @@ The current anti-virus policy of an agent.
 [policyCount]: #policycount
 #### [policyCount]
 A count of the current anti-virus policy of an agent.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::getAwaitingUserResponseFlag
 
+
 Retrieve ticket is waiting on a response from a customer flag.
 
 

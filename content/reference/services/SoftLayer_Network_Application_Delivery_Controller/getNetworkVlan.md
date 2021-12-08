@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Application_Delivery_Controller](/reference/services/SoftLayer_Network_Application_Delivery_Controller)::getNetworkVlan
 
+
 Retrieve the network VLAN that an application delivery controller resides on.
 
 

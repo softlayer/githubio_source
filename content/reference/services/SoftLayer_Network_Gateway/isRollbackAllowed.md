@@ -16,6 +16,7 @@ aliases:
 
 
 
+
 ## Overview 
 Returns true if rollback is allowed. 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Security_Certificate](/reference/services/SoftLayer_Security_Certificate)::getLbaasListeners
 
+
 Retrieve cloud Load Balancer [LBaaS] listeners currently associated with the certificate.
 
 

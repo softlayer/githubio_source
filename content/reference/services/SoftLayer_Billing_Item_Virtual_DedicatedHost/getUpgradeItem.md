@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item_Virtual_DedicatedHost](/reference/services/SoftLayer_Billing_Item_Virtual_DedicatedHost)::getUpgradeItem
 
+
 Retrieve billing items whose product item has an upgrade path defined in our system will return the next product item in the upgrade path.
 
 

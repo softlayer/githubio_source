@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,11 +44,13 @@ classes:
 
 #### [getItemPrice](/reference/services/SoftLayer_Product_Item_Price_Premium/getItemPrice)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getLocation](/reference/services/SoftLayer_Product_Item_Price_Premium/getLocation)
+
 
 </div>
 
@@ -54,11 +58,13 @@ classes:
 
 #### [getObject](/reference/services/SoftLayer_Product_Item_Price_Premium/getObject)
 Retrieve a SoftLayer_Product_Item_Price_Premium record.
+
 </div>
 
 <div class="method-row">
 
 #### [getPackage](/reference/services/SoftLayer_Product_Item_Price_Premium/getPackage)
+
 
 </div>
 </div>

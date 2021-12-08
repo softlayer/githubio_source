@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getQuotes
 
+
 Retrieve an account's quotes.
 
 

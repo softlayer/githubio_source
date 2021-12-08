@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Group_Nfs](/reference/services/SoftLayer_Network_Storage_Group_Nfs)::removeAllowedHost
 
+
 Remove a SoftLayer_Network_Storage_Allowed_Host object from this group
 
 

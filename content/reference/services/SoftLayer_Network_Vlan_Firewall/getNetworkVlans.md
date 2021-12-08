@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Vlan_Firewall](/reference/services/SoftLayer_Network_Vlan_Firewall)::getNetworkVlans
 
+
 Retrieve the VLAN objects that a firewall is associated with and protecting.
 
 

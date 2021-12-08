@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::createOrUpdateLunId
 
+
 Creates or updates the LUN ID property on a volume.
 
 

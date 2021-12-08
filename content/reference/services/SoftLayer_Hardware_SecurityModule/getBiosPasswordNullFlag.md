@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getBiosPasswordNullFlag
 
+
 Retrieve determine if BIOS password should be left as null.
 
 

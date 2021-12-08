@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Internal_Ibm](/reference/services/SoftLayer_Account_Internal_Ibm)::getAuthorizationUrl
 
+
 Gets the redirect URL for manager validation
 
 

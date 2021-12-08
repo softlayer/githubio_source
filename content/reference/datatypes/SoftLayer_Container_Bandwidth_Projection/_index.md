@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Container_Bandwidth_Projection models projected bandwidth use over a time range.
 
 
@@ -50,7 +52,8 @@ SoftLayer_Container_Bandwidth_Projection models projected bandwidth use over a t
 [allowedUsage]: #allowedusage
 #### [allowedUsage]
 Bandwidth limit for this hardware.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ Bandwidth limit for this hardware.
 [estimatedUsage]: #estimatedusage
 #### [estimatedUsage]
 Estimated bandwidth usage so far this billing cycle.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -70,7 +74,8 @@ Estimated bandwidth usage so far this billing cycle.
 [hardwareId]: #hardwareid
 #### [hardwareId]
 Hardware ID of server to monitor.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -80,7 +85,8 @@ Hardware ID of server to monitor.
 [projectedUsage]: #projectedusage
 #### [projectedUsage]
 Projected usage for this hardware based on previous usage this billing cycle.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -90,7 +96,8 @@ Projected usage for this hardware based on previous usage this billing cycle.
 [serverName]: #servername
 #### [serverName]
 the text name of the server being monitored.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -100,7 +107,8 @@ the text name of the server being monitored.
 [startDate]: #startdate
 #### [startDate]
 The minimum date included in this list.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>

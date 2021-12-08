@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 The SoftLayer_Network_Firewall_Update_Request_Rule service accesses information relating to a SoftLayer network firewall update request rule. This rule is a member of a [[SoftLayer Network Firewall Update Request]]. Use the [[SoftLayer Network Component Firewall]] service to view current rules. Use the [[SoftLayer Network Firewall Template]] service to pull SoftLayer recommended rule set templates. 
 
 ### External Links
@@ -74,24 +76,28 @@ The SoftLayer_Network_Firewall_Update_Request_Rule service accesses information 
 
 #### [createObject](/reference/services/SoftLayer_Network_Firewall_Update_Request_Rule/createObject)
 Create a new firewall update request rule.
+
 </div>
 
 <div class="method-row">
 
 #### [getFirewallUpdateRequest](/reference/services/SoftLayer_Network_Firewall_Update_Request_Rule/getFirewallUpdateRequest)
 Retrieve the update request that this rule belongs to.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Firewall_Update_Request_Rule/getObject)
 Retrieve a SoftLayer_Network_Firewall_Update_Request_Rule record.
+
 </div>
 
 <div class="method-row">
 
 #### [validateRule](/reference/services/SoftLayer_Network_Firewall_Update_Request_Rule/validateRule)
 Validate a firewall update request rule.
+
 </div>
 </div>
 

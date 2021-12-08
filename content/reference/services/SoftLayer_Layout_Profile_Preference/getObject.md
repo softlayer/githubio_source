@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Layout_Profile_Preference](/reference/services/SoftLayer_Layout_Profile_Preference)::getObject
 
+
 Retrieve a SoftLayer_Layout_Profile_Preference record.
 
 

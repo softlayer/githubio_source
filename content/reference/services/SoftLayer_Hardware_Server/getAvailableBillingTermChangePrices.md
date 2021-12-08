@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getAvailableBillingTermChangePrices
 
+
 Retrieves a list of available term prices available to this of hardware. 
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getLocalDiskFlag
 
+
 Retrieve a flag indicating that the virtual guest has at least one disk which is local to the host it runs on. This does not include a SWAP device.
 
 

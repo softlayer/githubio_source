@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 SoftLayer's account historical report service allows users to access a broad overview of devices for that account and historical details concerning the overall function and performance of the devices on that account 
 
 
@@ -42,11 +44,16 @@ SoftLayer's account historical report service allows users to access a broad ove
 
 #### [getAccountHostUptimeGraphData](/reference/services/SoftLayer_Account_Historical_Report/getAccountHostUptimeGraphData)
 
+
 </div>
 
-<div class="method-row">
+<div class="method-row deprecated">
 
 #### [getAccountHostUptimeSummary](/reference/services/SoftLayer_Account_Historical_Report/getAccountHostUptimeSummary)
+
+
+<span class="deprecation-label">Deprecated  </span>
+
 
 </div>
 
@@ -54,17 +61,26 @@ SoftLayer's account historical report service allows users to access a broad ove
 
 #### [getAccountUrlUptimeGraphData](/reference/services/SoftLayer_Account_Historical_Report/getAccountUrlUptimeGraphData)
 
+
 </div>
 
-<div class="method-row">
+<div class="method-row deprecated">
 
 #### [getAccountUrlUptimeSummary](/reference/services/SoftLayer_Account_Historical_Report/getAccountUrlUptimeSummary)
 
+
+<span class="deprecation-label">Deprecated  </span>
+
+
 </div>
 
-<div class="method-row">
+<div class="method-row deprecated">
 
 #### [getHostUptimeDetail](/reference/services/SoftLayer_Account_Historical_Report/getHostUptimeDetail)
+
+
+<span class="deprecation-label">Deprecated  </span>
+
 
 </div>
 
@@ -72,17 +88,23 @@ SoftLayer's account historical report service allows users to access a broad ove
 
 #### [getHostUptimeGraphData](/reference/services/SoftLayer_Account_Historical_Report/getHostUptimeGraphData)
 
+
 </div>
 
-<div class="method-row">
+<div class="method-row deprecated">
 
 #### [getUrlUptimeDetail](/reference/services/SoftLayer_Account_Historical_Report/getUrlUptimeDetail)
+
+
+<span class="deprecation-label">Deprecated  </span>
+
 
 </div>
 
 <div class="method-row">
 
 #### [getUrlUptimeGraphData](/reference/services/SoftLayer_Account_Historical_Report/getUrlUptimeGraphData)
+
 
 </div>
 </div>

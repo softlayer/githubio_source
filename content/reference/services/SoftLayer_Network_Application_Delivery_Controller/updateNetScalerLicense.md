@@ -15,6 +15,7 @@ aliases:
 ---
 # [SoftLayer_Network_Application_Delivery_Controller](/reference/services/SoftLayer_Network_Application_Delivery_Controller)::updateNetScalerLicense
 
+
 Update the NetScaler VPX License.
 
 

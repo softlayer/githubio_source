@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getPrivateHostedCloudPackageFlag
 
+
 Retrieve this flag indicates the package is for a private hosted cloud deployment. (Deprecated)
 
 

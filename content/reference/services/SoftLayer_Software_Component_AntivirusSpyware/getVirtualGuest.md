@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Software_Component_AntivirusSpyware](/reference/services/SoftLayer_Software_Component_AntivirusSpyware)::getVirtualGuest
 
+
 Retrieve the virtual guest this software component is installed upon.
 
 

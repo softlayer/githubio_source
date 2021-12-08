@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 This service manages the paths for domain mapping configurations. 
 
 
@@ -42,30 +44,35 @@ This service manages the paths for domain mapping configurations.
 
 #### [createTokenAuthPath](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_TokenAuth/createTokenAuthPath)
 SOAP API will create Token authentication Path for an existing CDN mapping and for a particular customer. 
+
 </div>
 
 <div class="method-row">
 
 #### [deleteTokenAuthPath](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_TokenAuth/deleteTokenAuthPath)
 SOAP API will delete token authentication Path for an existing mapping and for a particular customer. 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_TokenAuth/getObject)
 Retrieve a SoftLayer_Network_CdnMarketplace_Configuration_Behavior_TokenAuth record.
+
 </div>
 
 <div class="method-row">
 
 #### [listTokenAuthPath](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_TokenAuth/listTokenAuthPath)
 SOAP API will list token authentication paths for an existing mapping and for a particular customer. 
+
 </div>
 
 <div class="method-row">
 
 #### [updateTokenAuthPath](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_TokenAuth/updateTokenAuthPath)
 SOAP API will update Token authentication Path for an existing mapping and for a particular customer. 
+
 </div>
 </div>
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Permission_Group](/reference/services/SoftLayer_User_Permission_Group)::unlinkRole
 
+
 Unlinks a permission role from the group.
 
 

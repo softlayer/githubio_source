@@ -15,6 +15,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getFrontendBandwidthUsage
 
+
 Retrieves public bandwidth usage records.
 
 

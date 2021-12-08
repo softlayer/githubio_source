@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [attachmentTypeId]: #attachmenttypeid
 #### [attachmentTypeId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ classes:
 [baseName]: #basename
 #### [baseName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ classes:
 [displayName]: #displayname
 #### [displayName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ classes:
 [fileName]: #filename
 #### [fileName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ classes:
 [id]: #id
 #### [id]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ classes:
 [marketplacePartnerId]: #marketplacepartnerid
 #### [marketplacePartnerId]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ classes:
 [saveAsName]: #saveasname
 #### [saveAsName]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ classes:
 [attachmentType]: #attachmenttype
 #### [attachmentType]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Marketplace_Partner_Attachment_Type'>SoftLayer_Marketplace_Partner_Attachment_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Marketplace_Partner_Attachment_Type'>SoftLayer_Marketplace_Partner_Attachment_Type </a>**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getType
 
+
 Retrieve the type of service offering. This property can be used to help filter packages.
 
 

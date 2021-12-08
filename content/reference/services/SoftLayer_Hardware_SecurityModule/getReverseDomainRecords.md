@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getReverseDomainRecords
 
+
 Retrieve the reverse domain records associated with a server.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::linkExternalAccount
 
+
 This method will link this SoftLayer account with the provided external account. 
 
 

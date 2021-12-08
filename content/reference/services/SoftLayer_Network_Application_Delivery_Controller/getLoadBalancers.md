@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Application_Delivery_Controller](/reference/services/SoftLayer_Network_Application_Delivery_Controller)::getLoadBalancers
 
+
 Retrieve the virtual IP address records that belong to an application delivery controller based load balancer.
 
 

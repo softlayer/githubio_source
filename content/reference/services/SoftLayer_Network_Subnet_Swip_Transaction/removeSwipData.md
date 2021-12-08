@@ -14,6 +14,8 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet_Swip_Transaction](/reference/services/SoftLayer_Network_Subnet_Swip_Transaction)::removeSwipData
 
+<div class="deprecated"><span class="deprecation-label">Deprecated </span></div>
+
 Deletes registration information from ARIN for a single subnet
 
 

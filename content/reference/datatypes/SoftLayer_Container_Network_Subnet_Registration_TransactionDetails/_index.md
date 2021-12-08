@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Container_Subnet_Registration_TransactionDetails is provided to return details of a newly created Subnet Registration Transaction. 
 
 
@@ -45,7 +47,8 @@ SoftLayer_Container_Subnet_Registration_TransactionDetails is provided to return
 [subnetReferences]: #subnetreferences
 #### [subnetReferences]
 The IDs and Subnets of the [SoftLayer_Network_Subnet_Registration]({{<ref "reference/datatypes/SoftLayer_Network_Subnet_Registration">}}) object.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Network_Subnet_Registration_SubnetReference'>SoftLayer_Container_Network_Subnet_Registration_SubnetReference[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Network_Subnet_Registration_SubnetReference'>SoftLayer_Container_Network_Subnet_Registration_SubnetReference[] </a>**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The IDs and Subnets of the [SoftLayer_Network_Subnet_Registration]({{<ref "refer
 [transactionId]: #transactionid
 #### [transactionId]
 The ID of the Transaction object.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

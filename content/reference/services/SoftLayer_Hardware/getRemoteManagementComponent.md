@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getRemoteManagementComponent
 
+
 Retrieve a hardware's associated remote management component. This is normally IPMI.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Notification_Occurrence_Event](/reference/services/SoftLayer_Notification_Occurrence_Event)::getNotificationOccurrenceEventType
 
+
 Retrieve the type of event such as planned or unplanned maintenance.
 
 

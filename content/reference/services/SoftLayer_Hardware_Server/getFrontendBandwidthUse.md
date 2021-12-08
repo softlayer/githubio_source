@@ -13,6 +13,8 @@ aliases:
 ---
 # [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getFrontendBandwidthUse
 
+<div class="deprecated"><span class="deprecation-label">Deprecated </span></div>
+
 Retrieves public bandwidth usage records.
 
 

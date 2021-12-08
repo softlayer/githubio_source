@@ -24,6 +24,8 @@ classes:
 
 
 
+
+
 <!-- Filer BEGIN -->
 <div class="view-filters">
         <div class="clearfix">
@@ -45,7 +47,8 @@ classes:
 [agreementTypeId]: #agreementtypeid
 #### [agreementTypeId]
 The type of agreement identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The type of agreement identifier.
 [autoRenew]: #autorenew
 #### [autoRenew]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The type of agreement identifier.
 [cancellationFee]: #cancellationfee
 #### [cancellationFee]
   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The type of agreement identifier.
 [createDate]: #createdate
 #### [createDate]
 The date an agreement was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The date an agreement was created.
 [durationMonths]: #durationmonths
 #### [durationMonths]
 The duration in months of an agreement.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The duration in months of an agreement.
 [endDate]: #enddate
 #### [endDate]
 The end date of an agreement.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The end date of an agreement.
 [id]: #id
 #### [id]
 An agreement's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ An agreement's internal identifier.
 [startDate]: #startdate
 #### [startDate]
 The effective start date of an agreement.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ The effective start date of an agreement.
 [statusId]: #statusid
 #### [statusId]
 The status identifier for an agreement.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ The status identifier for an agreement.
 [title]: #title
 #### [title]
 The title of an agreement.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -151,7 +163,8 @@ The title of an agreement.
 [account]: #account
 #### [account]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -161,7 +174,8 @@ The title of an agreement.
 [agreementType]: #agreementtype
 #### [agreementType]
 The type of agreement.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Agreement_Type'>SoftLayer_Account_Agreement_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Agreement_Type'>SoftLayer_Account_Agreement_Type </a>**  
+
 
 
 </div>
@@ -171,7 +185,8 @@ The type of agreement.
 [attachedBillingAgreementFiles]: #attachedbillingagreementfiles
 #### [attachedBillingAgreementFiles]
 The files attached to an agreement.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_MasterServiceAgreement'>SoftLayer_Account_MasterServiceAgreement[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_MasterServiceAgreement'>SoftLayer_Account_MasterServiceAgreement[] </a>**  
+
 
 
 </div>
@@ -181,7 +196,8 @@ The files attached to an agreement.
 [billingItems]: #billingitems
 #### [billingItems]
 The billing items associated with an agreement.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>**  
+
 
 
 </div>
@@ -191,7 +207,8 @@ The billing items associated with an agreement.
 [status]: #status
 #### [status]
 The status of the agreement.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Agreement_Status'>SoftLayer_Account_Agreement_Status </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account_Agreement_Status'>SoftLayer_Account_Agreement_Status </a>**  
+
 
 
 </div>
@@ -201,7 +218,8 @@ The status of the agreement.
 [topLevelBillingItems]: #toplevelbillingitems
 #### [topLevelBillingItems]
 The top level billing item associated with an agreement.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>**  
+
 
 
 </div>
@@ -213,7 +231,8 @@ The top level billing item associated with an agreement.
 [attachedBillingAgreementFileCount]: #attachedbillingagreementfilecount
 #### [attachedBillingAgreementFileCount]
 A count of the files attached to an agreement.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -223,7 +242,8 @@ A count of the files attached to an agreement.
 [billingItemCount]: #billingitemcount
 #### [billingItemCount]
 A count of the billing items associated with an agreement.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -233,7 +253,8 @@ A count of the billing items associated with an agreement.
 [topLevelBillingItemCount]: #toplevelbillingitemcount
 #### [topLevelBillingItemCount]
 A count of the top level billing item associated with an agreement.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

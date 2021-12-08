@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 IBMer who will assist the requester with technical aspects of configuring the proof of concept account. 
 
 
@@ -50,7 +52,8 @@ IBMer who will assist the requester with technical aspects of configuring the pr
 [address1]: #address1
 #### [address1]
 Customer's address  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ Customer's address
 [address2]: #address2
 #### [address2]
 Customer's address  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -70,7 +74,8 @@ Customer's address
 [city]: #city
 #### [city]
 Customer's city  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -80,7 +85,8 @@ Customer's city
 [country]: #country
 #### [country]
 Customer's ISO country code  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -90,7 +96,8 @@ Customer's ISO country code
 [email]: #email
 #### [email]
 Customer's email address  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -100,7 +107,8 @@ Customer's email address
 [firstName]: #firstname
 #### [firstName]
 Customer's first name  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -110,7 +118,8 @@ Customer's first name
 [lastName]: #lastname
 #### [lastName]
 Customer's last name  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -120,7 +129,8 @@ Customer's last name
 [phone]: #phone
 #### [phone]
 Customer's primary phone number  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -130,7 +140,8 @@ Customer's primary phone number
 [postalCode]: #postalcode
 #### [postalCode]
 Customer's postal code  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -140,7 +151,8 @@ Customer's postal code
 [state]: #state
 #### [state]
 Customer's state  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -150,7 +162,8 @@ Customer's state
 [uid]: #uid
 #### [uid]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -160,7 +173,8 @@ Customer's state
 [vatId]: #vatid
 #### [vatId]
 Customer's VAT ID  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

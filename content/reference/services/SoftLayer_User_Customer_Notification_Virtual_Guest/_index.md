@@ -20,6 +20,8 @@ classes:
 </div>
 
 ## Description
+
+
 This service represents the link between a monitored guest instance, and a user account. 
 
 When a monitoring service on that guest instance fails and the monitor is set to "notify users," any users linked to that guest instance using this service will be notified of the failure. 
@@ -46,42 +48,49 @@ When a monitoring service on that guest instance fails and the monitor is set to
 
 #### [createObject](/reference/services/SoftLayer_User_Customer_Notification_Virtual_Guest/createObject)
 Create a user virtual guest notification entry
+
 </div>
 
 <div class="method-row">
 
 #### [createObjects](/reference/services/SoftLayer_User_Customer_Notification_Virtual_Guest/createObjects)
 Create multiple user Virtual Guest notification entries at once
+
 </div>
 
 <div class="method-row">
 
 #### [deleteObjects](/reference/services/SoftLayer_User_Customer_Notification_Virtual_Guest/deleteObjects)
 Delete a group of SoftLayer_Customer_Notification_Virtual_Guest objects by passing in a collection of them
+
 </div>
 
 <div class="method-row">
 
 #### [findByGuestId](/reference/services/SoftLayer_User_Customer_Notification_Virtual_Guest/findByGuestId)
 Return all CloudLayer computing instance notifications associated with the passed ID
+
 </div>
 
 <div class="method-row">
 
 #### [getGuest](/reference/services/SoftLayer_User_Customer_Notification_Virtual_Guest/getGuest)
 Retrieve the virtual guest object that will be monitored.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_User_Customer_Notification_Virtual_Guest/getObject)
 Retrieve a SoftLayer_User_Customer_Notification_Virtual_Guest record.
+
 </div>
 
 <div class="method-row">
 
 #### [getUser](/reference/services/SoftLayer_User_Customer_Notification_Virtual_Guest/getUser)
 Retrieve the user that will be notified when the associated virtual guest object fails a monitoring instance.
+
 </div>
 </div>
 

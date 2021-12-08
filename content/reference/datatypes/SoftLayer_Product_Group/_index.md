@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Product_Group data type contains product group relationship. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Product_Group data type contains product group relationship.
 [name]: #name
 #### [name]
 The name of the product group.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

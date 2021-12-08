@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 Allows for retrieving the available SSL certificate server types. 
 
 
@@ -42,12 +44,14 @@ Allows for retrieving the available SSL certificate server types.
 
 #### [getAllObjects](/reference/services/SoftLayer_Security_Certificate_Request_ServerType/getAllObjects)
 Returns all SSL certificate server types
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Security_Certificate_Request_ServerType/getObject)
 Retrieve a SoftLayer_Security_Certificate_Request_ServerType record.
+
 </div>
 </div>
 

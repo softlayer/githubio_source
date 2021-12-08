@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Hardware_Component_Model_Attribute_Type data type contains general information for the type of an attribute for a hardware component model. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Hardware_Component_Model_Attribute_Type data type contains general
 [description]: #description
 #### [description]
 The description for the data that a hardware component model type's [SoftLayer_Hardware_Component_Model_Attribute]({{<ref "reference/datatypes/SoftLayer_Hardware_Component_Model_Attribute">}}) contains.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The description for the data that a hardware component model type's [SoftLayer_H
 [id]: #id
 #### [id]
 A hardware component model attribute type's Id.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ A hardware component model attribute type's Id.
 [keyName]: #keyname
 #### [keyName]
 A hardware component model attribute type's unique name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ A hardware component model attribute type's unique name.
 [name]: #name
 #### [name]
 A hardware component model attribute type's name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ A hardware component model attribute type's name.
 [validComponentTypes]: #validcomponenttypes
 #### [validComponentTypes]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Type'>SoftLayer_Hardware_Component_Type[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Hardware_Component_Type'>SoftLayer_Hardware_Component_Type[] </a>**  
+
 
 
 </div>
@@ -103,7 +110,8 @@ A hardware component model attribute type's name.
 [validComponentTypeCount]: #validcomponenttypecount
 #### [validComponentTypeCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

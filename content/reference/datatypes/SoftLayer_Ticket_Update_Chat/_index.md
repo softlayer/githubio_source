@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 A SoftLayer_Ticket_Update_Chat is a chat between a customer and a customer service representative relating to a ticket. 
 
 
@@ -50,7 +52,8 @@ A SoftLayer_Ticket_Update_Chat is a chat between a customer and a customer servi
 [createDate]: #createdate
 #### [createDate]
 The data a ticket update was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ The data a ticket update was created.
 [editorId]: #editorid
 #### [editorId]
 The internal identifier of the SoftLayer portal or API user who created a ticket update. This is only used if a ticket update's ''editorType'' property is "USER".   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -70,7 +74,8 @@ The internal identifier of the SoftLayer portal or API user who created a ticket
 [editorType]: #editortype
 #### [editorType]
 The type user who created a ticket update. This is either "USER" for an update created by a SoftLayer portal or API user, "EMPLOYEE" for an update created by a SoftLayer employee, or "AUTO" if a ticket update was generated automatically by SoftLayer's backend systems.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -80,7 +85,8 @@ The type user who created a ticket update. This is either "USER" for an update c
 [entry]: #entry
 #### [entry]
 The contents of a ticket update.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -90,7 +96,8 @@ The contents of a ticket update.
 [id]: #id
 #### [id]
 A ticket update's internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -100,7 +107,8 @@ A ticket update's internal identifier.
 [ticketId]: #ticketid
 #### [ticketId]
 The internal identifier of the ticket that a ticket update belongs to.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -116,7 +124,8 @@ The internal identifier of the ticket that a ticket update belongs to.
 [changeOwnerActivity]: #changeowneractivity
 #### [changeOwnerActivity]
   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -126,7 +135,8 @@ The internal identifier of the ticket that a ticket update belongs to.
 [chat]: #chat
 #### [chat]
 The chat between the Customer and Agent  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Chat_Liveperson'>SoftLayer_Ticket_Chat_Liveperson </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Chat_Liveperson'>SoftLayer_Ticket_Chat_Liveperson </a>**  
+
 
 
 </div>
@@ -136,7 +146,8 @@ The chat between the Customer and Agent
 [editor]: #editor
 #### [editor]
 The portal or API user who created a ticket update.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_User_Customer'>SoftLayer_User_Customer </a>**  
+
 
 
 </div>
@@ -146,7 +157,8 @@ The portal or API user who created a ticket update.
 [fileAttachment]: #fileattachment
 #### [fileAttachment]
 The files attached to a ticket update.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Attachment_File'>SoftLayer_Ticket_Attachment_File[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Attachment_File'>SoftLayer_Ticket_Attachment_File[] </a>**  
+
 
 
 </div>
@@ -156,7 +168,8 @@ The files attached to a ticket update.
 [ticket]: #ticket
 #### [ticket]
 The ticket that a ticket update belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>**  
+
 
 
 </div>
@@ -166,7 +179,8 @@ The ticket that a ticket update belongs to.
 [type]: #type
 #### [type]
 The Type of update to this ticket  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Update_Type'>SoftLayer_Ticket_Update_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Ticket_Update_Type'>SoftLayer_Ticket_Update_Type </a>**  
+
 
 
 </div>
@@ -178,7 +192,8 @@ The Type of update to this ticket
 [fileAttachmentCount]: #fileattachmentcount
 #### [fileAttachmentCount]
 A count of the files attached to a ticket update.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

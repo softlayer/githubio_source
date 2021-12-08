@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getHubNetworkStorage
 
+
 Retrieve an account's associated Virtual Storage volumes.
 
 

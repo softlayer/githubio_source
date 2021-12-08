@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_LoadBalancer_VirtualIpAddress](/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress)::upgradeConnectionLimit
 
+
 Upgrades the connection limit on the Virtual IP Address and changes the billing item on your account to reflect the change.
 
 

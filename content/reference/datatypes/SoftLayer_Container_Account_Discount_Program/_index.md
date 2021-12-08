@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Container_Account_Discount_Program models a single outbound object for a graph of given data sets.
 
 
@@ -50,7 +52,8 @@ SoftLayer_Container_Account_Discount_Program models a single outbound object for
 [appliedCredit]: #appliedcredit
 #### [appliedCredit]
 The credit allowance that has already been applied during the current billing cycle. If the lifetime limit has been or soon will be reached, this amount may included credit applied in previous billing cycles.   
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -60,7 +63,8 @@ The credit allowance that has already been applied during the current billing cy
 [isParticipant]: #isparticipant
 #### [isParticipant]
 Flag to signify whether the account is a participant in the discount program.  
-<span class="type-label">Type: </span>**boolean**
+<span class="type-label">Type: </span>**boolean**  
+
 
 
 </div>
@@ -70,7 +74,8 @@ Flag to signify whether the account is a participant in the discount program.
 [lifetimeAppliedCredit]: #lifetimeappliedcredit
 #### [lifetimeAppliedCredit]
 Credit allowance applied over the course of the entire program enrollment. For enrollments without a lifetime restriction, this property will not be populated as credit will be tracked on a purely monthly basis.   
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -80,7 +85,8 @@ Credit allowance applied over the course of the entire program enrollment. For e
 [lifetimeCredit]: #lifetimecredit
 #### [lifetimeCredit]
 Credit allowance available over the course of the entire program enrollment. If null, enrollment credit is applied on a strictly monthly basis and there is no lifetime maximum. Enrollments with non-null lifetime credit will receive the lesser of the remaining monthly credit or the remaining lifetime credit.   
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -90,7 +96,8 @@ Credit allowance available over the course of the entire program enrollment. If 
 [lifetimeRemainingCredit]: #lifetimeremainingcredit
 #### [lifetimeRemainingCredit]
 Remaining credit allowance available over the remaining duration of the program enrollment. If null, enrollment credit is applied on a strictly monthly basis and there is no lifetime maximum. Enrollments with non-null remaining lifetime credit will receive the lesser of the remaining monthly credit or the remaining lifetime credit.   
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -100,7 +107,8 @@ Remaining credit allowance available over the remaining duration of the program 
 [maximumActiveOrders]: #maximumactiveorders
 #### [maximumActiveOrders]
 Maximum number of orders the enrolled account is allowed to have open at one time. If null, then the Flexible Credit Program does not impose an order limit.   
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -110,7 +118,8 @@ Maximum number of orders the enrolled account is allowed to have open at one tim
 [monthlyCredit]: #monthlycredit
 #### [monthlyCredit]
 The monthly credit allowance that is available at the beginning of the billing cycle.  
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -120,7 +129,8 @@ The monthly credit allowance that is available at the beginning of the billing c
 [postTaxRemainingCredit]: #posttaxremainingcredit
 #### [postTaxRemainingCredit]
 DEPRECATED: Taxes are calculated in real time and discount amounts are shown pre-tax in all cases. Tax values in the SoftLayer_Container_Account_Discount_Program container are now populated with the related pre-tax values.   
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -130,7 +140,8 @@ DEPRECATED: Taxes are calculated in real time and discount amounts are shown pre
 [programEndDate]: #programenddate
 #### [programEndDate]
 The date at which the program expires in MM/DD/YYYY format.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -140,7 +151,8 @@ The date at which the program expires in MM/DD/YYYY format.
 [programName]: #programname
 #### [programName]
 Name of the Flexible Credit Program the account is enrolled in.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -150,7 +162,8 @@ Name of the Flexible Credit Program the account is enrolled in.
 [remainingCredit]: #remainingcredit
 #### [remainingCredit]
 The credit allowance that is available during the current billing cycle. If the lifetime limit has been or soon will be reached, this amount may be reduced by credit applied in previous billing cycles.   
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>
@@ -160,7 +173,8 @@ The credit allowance that is available during the current billing cycle. If the 
 [remainingCreditTax]: #remainingcredittax
 #### [remainingCreditTax]
 DEPRECATED: Taxes are calculated in real time and discount amounts are shown pre-tax in all cases. Tax values in the SoftLayer_Container_Account_Discount_Program container are now populated with the related pre-tax values.   
-<span class="type-label">Type: </span>**decimal**
+<span class="type-label">Type: </span>**decimal**  
+
 
 
 </div>

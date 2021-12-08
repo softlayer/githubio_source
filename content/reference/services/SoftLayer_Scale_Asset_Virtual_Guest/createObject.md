@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Scale_Asset_Virtual_Guest](/reference/services/SoftLayer_Scale_Asset_Virtual_Guest)::createObject
 
+
 Pin a guest on a group. This can be done at anytime, whether the group is active or not. 
 
 

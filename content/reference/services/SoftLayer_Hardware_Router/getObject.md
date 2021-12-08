@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getObject
 
+
 Retrieve a SoftLayer_Hardware_Router record.
 
 

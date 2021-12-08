@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 This is the data type that may need to be populated to complete registraton for domains that are country code TLD's. 
 
 
@@ -55,7 +57,8 @@ This is the data type that may need to be populated to complete registraton for 
 [name]: #name
 #### [name]
 The extended attribute name.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +68,8 @@ The extended attribute name.
 [value]: #value
 #### [value]
 The extended attribute option value.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

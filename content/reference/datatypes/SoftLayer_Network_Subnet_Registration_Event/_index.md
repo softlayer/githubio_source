@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Each time a [SoftLayer_Network_Subnet_Registration]({{<ref "reference/datatypes/SoftLayer_Network_Subnet_Registration">}}) object is created or modified, the system will generate an event for it. Additional actions that would create an event include RIR responses and error cases. * 
 
 
@@ -45,7 +47,8 @@ Each time a [SoftLayer_Network_Subnet_Registration]({{<ref "reference/datatypes/
 [createDate]: #createdate
 #### [createDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Each time a [SoftLayer_Network_Subnet_Registration]({{<ref "reference/datatypes/
 [id]: #id
 #### [id]
 Unique numeric ID of the event object   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Unique numeric ID of the event object
 [message]: #message
 #### [message]
 A string message indicating what took place during this event   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ A string message indicating what took place during this event
 [modifyDate]: #modifydate
 #### [modifyDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ A string message indicating what took place during this event
 [registrationId]: #registrationid
 #### [registrationId]
 The numeric ID of the related [SoftLayer_Network_Subnet_Registration]({{<ref "reference/datatypes/SoftLayer_Network_Subnet_Registration">}}) object   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The numeric ID of the related [SoftLayer_Network_Subnet_Registration]({{<ref "re
 [typeId]: #typeid
 #### [typeId]
 The numeric ID of the associated [SoftLayer_Network_Subnet_Registration_Event_Type]({{<ref "reference/datatypes/SoftLayer_Network_Subnet_Registration_Event_Type">}}) object   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ The numeric ID of the associated [SoftLayer_Network_Subnet_Registration_Event_Ty
 [registration]: #registration
 #### [registration]
 The registration this event pertains to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration'>SoftLayer_Network_Subnet_Registration </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration'>SoftLayer_Network_Subnet_Registration </a>**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ The registration this event pertains to.
 [type]: #type
 #### [type]
 The type of this event.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration_Event_Type'>SoftLayer_Network_Subnet_Registration_Event_Type </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration_Event_Type'>SoftLayer_Network_Subnet_Registration_Event_Type </a>**  
+
 
 
 </div>

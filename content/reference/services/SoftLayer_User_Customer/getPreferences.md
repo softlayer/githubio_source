@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getPreferences
 
+
 Retrieve data type contains a single user preference to a specific preference type.
 
 

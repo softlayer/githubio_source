@@ -21,6 +21,8 @@ classes:
 
 
 
+
+
 ### associatedMethods
 
 *  [SoftLayer_Auxiliary_Press_Release_About_Press_Release::getObject](/reference/services/SoftLayer_Auxiliary_Press_Release_About_Press_Release/getObject )
@@ -55,7 +57,8 @@ classes:
 [id]: #id
 #### [id]
 A press release about cross  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +68,8 @@ A press release about cross
 [pressReleaseAboutId]: #pressreleaseaboutid
 #### [pressReleaseAboutId]
 A press release about's internal  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +79,8 @@ A press release about's internal
 [pressReleaseId]: #pressreleaseid
 #### [pressReleaseId]
 A press release internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +90,8 @@ A press release internal identifier.
 [sortOrder]: #sortorder
 #### [sortOrder]
 The number that associated an about  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -101,7 +107,8 @@ The number that associated an about
 [aboutParagraphs]: #aboutparagraphs
 #### [aboutParagraphs]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Auxiliary_Press_Release_About'>SoftLayer_Auxiliary_Press_Release_About[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Auxiliary_Press_Release_About'>SoftLayer_Auxiliary_Press_Release_About[] </a>**  
+
 
 
 </div>
@@ -111,7 +118,8 @@ The number that associated an about
 [pressReleases]: #pressreleases
 #### [pressReleases]
   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Auxiliary_Press_Release'>SoftLayer_Auxiliary_Press_Release[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Auxiliary_Press_Release'>SoftLayer_Auxiliary_Press_Release[] </a>**  
+
 
 
 </div>
@@ -123,7 +131,8 @@ The number that associated an about
 [aboutParagraphCount]: #aboutparagraphcount
 #### [aboutParagraphCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -133,7 +142,8 @@ A count of
 [pressReleaseCount]: #pressreleasecount
 #### [pressReleaseCount]
 A count of    
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getActiveNetworkFirewallBillingItem
 
+
 Retrieve the billing item for a server's attached network firewall.
 
 

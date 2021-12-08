@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Monitor_Version1_Query_Host](/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host)::getHardware
 
+
 Retrieve the hardware that is being monitored by this monitoring instance
 
 

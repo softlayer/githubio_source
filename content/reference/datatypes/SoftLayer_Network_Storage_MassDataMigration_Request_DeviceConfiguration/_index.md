@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Network_Storage_MassDataMigration_Request_DeviceConfiguration data type contains settings such networking, COS account, which needs to be configured on device for a Mass Data Migration Request. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Network_Storage_MassDataMigration_Request_DeviceConfiguration data
 [cosAccountId]: #cosaccountid
 #### [cosAccountId]
 The account id.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The account id.
 [cosBucket]: #cosbucket
 #### [cosBucket]
 The Cloud Object Storage bucket.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The Cloud Object Storage bucket.
 [eth1Gateway]: #eth1gateway
 #### [eth1Gateway]
 The eth1 gateway for connecting to private network in datacenter.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The eth1 gateway for connecting to private network in datacenter.
 [eth1IpAddress]: #eth1ipaddress
 #### [eth1IpAddress]
 The eth1 IP address for connecting to private network in datacenter.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The eth1 IP address for connecting to private network in datacenter.
 [eth1Netmask]: #eth1netmask
 #### [eth1Netmask]
 The eth1 netmask for connecting to private network in datacenter.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The eth1 netmask for connecting to private network in datacenter.
 [eth3Gateway]: #eth3gateway
 #### [eth3Gateway]
 The eth3 gateway for connecting to private network at customer's location.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ The eth3 gateway for connecting to private network at customer's location.
 [eth3IpAddress]: #eth3ipaddress
 #### [eth3IpAddress]
 The eth3 IP address for connecting to private network at customer location.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ The eth3 IP address for connecting to private network at customer location.
 [eth3Netmask]: #eth3netmask
 #### [eth3Netmask]
 The eth3 netmask for connecting to private network in at customer's location.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ The eth3 netmask for connecting to private network in at customer's location.
 [id]: #id
 #### [id]
 The unique id of the request status.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ The unique id of the request status.
 [password]: #password
 #### [password]
 The password for configuring network share.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -145,7 +157,8 @@ The password for configuring network share.
 [poolLockPassword]: #poollockpassword
 #### [poolLockPassword]
 The pool lock password for configuring network share.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -155,7 +168,8 @@ The pool lock password for configuring network share.
 [requestId]: #requestid
 #### [requestId]
 The request id.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -165,7 +179,8 @@ The request id.
 [s3Url]: #s3url
 #### [s3Url]
 The Cloud Object Storage bucket URL.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -175,7 +190,8 @@ The Cloud Object Storage bucket URL.
 [shareName]: #sharename
 #### [shareName]
 The name of network share.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -185,7 +201,8 @@ The name of network share.
 [username]: #username
 #### [username]
 The username for configuring network share.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -201,7 +218,8 @@ The username for configuring network share.
 [request]: #request
 #### [request]
 The request this device configurations belongs to.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_MassDataMigration_Request'>SoftLayer_Network_Storage_MassDataMigration_Request </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_MassDataMigration_Request'>SoftLayer_Network_Storage_MassDataMigration_Request </a>**  
+
 
 
 </div>
@@ -211,7 +229,8 @@ The request this device configurations belongs to.
 [storageAccount]: #storageaccount
 #### [storageAccount]
 The storage account to use for this request.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Hub_Cleversafe_Account'>SoftLayer_Network_Storage_Hub_Cleversafe_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Network_Storage_Hub_Cleversafe_Account'>SoftLayer_Network_Storage_Hub_Cleversafe_Account </a>**  
+
 
 
 </div>

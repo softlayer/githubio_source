@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Security_Scanner_Request](/reference/services/SoftLayer_Network_Security_Scanner_Request)::getAccount
 
+
 Retrieve the account associated with a security scan request.
 
 

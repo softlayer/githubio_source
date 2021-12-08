@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Container_Network_Storage_Evault_WebCc_JobDetails will contain basic details for all backup and restore jobs performed by the StorageLayer EVault service offering. 
 
 
@@ -51,7 +53,8 @@ The SoftLayer_Container_Network_Storage_Evault_WebCc_JobDetails will contain bas
 [bytesUsed]: #bytesused
 #### [bytesUsed]
 The number of bytes currently used by the backup job. (provided only for backup jobs)  
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -61,7 +64,8 @@ The number of bytes currently used by the backup job. (provided only for backup 
 [description]: #description
 #### [description]
 Description of the backup/restore job  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ Description of the backup/restore job
 [hardwareId]: #hardwareid
 #### [hardwareId]
 hardware id  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ hardware id
 [lastRunDate]: #lastrundate
 #### [lastRunDate]
 Date of the last jobrun.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ Date of the last jobrun.
 [name]: #name
 #### [name]
 Name of the backup/restore job  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -101,7 +108,8 @@ Name of the backup/restore job
 [originalSize]: #originalsize
 #### [originalSize]
 Size of backup job when it was first run. (provided only for backup jobs)  
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -111,7 +119,8 @@ Size of backup job when it was first run. (provided only for backup jobs)
 [percentageOfTotalUsage]: #percentageoftotalusage
 #### [percentageOfTotalUsage]
 Percentage of overall used space allocated by the job. (provided only for backup jobs)  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -121,7 +130,8 @@ Percentage of overall used space allocated by the job. (provided only for backup
 [result]: #result
 #### [result]
 Result of the latest jobrun.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -131,7 +141,8 @@ Result of the latest jobrun.
 [virtualGuestId]: #virtualguestid
 #### [virtualGuestId]
 virtual guest id  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

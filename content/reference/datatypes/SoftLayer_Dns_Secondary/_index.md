@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Dns_Secondary data type contains information on a single secondary DNS zone which is managed through SoftLayer's zone transfer service. Domains created via zone transfer may not be modified by the SoftLayer portal or API. 
 
 ### External Links
@@ -66,7 +68,8 @@ The SoftLayer_Dns_Secondary data type contains information on a single secondary
 [createDate]: #createdate
 #### [createDate]
 The date a secondary DNS record was created.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -76,7 +79,8 @@ The date a secondary DNS record was created.
 [id]: #id
 #### [id]
 The internal identifier for a secondary DNS record.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -86,7 +90,8 @@ The internal identifier for a secondary DNS record.
 [lastUpdate]: #lastupdate
 #### [lastUpdate]
 The date when the most recent secondary DNS zone transfer took place.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -96,7 +101,8 @@ The date when the most recent secondary DNS zone transfer took place.
 [masterIpAddress]: #masteripaddress
 #### [masterIpAddress]
 The IP address of the master name server where a secondary DNS zone is transferred from.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -110,7 +116,8 @@ The current status of a secondary DNS record.  The status may be one of the foll
 :*'''1''': Active
 :*'''2''': Transfer Now
 :*'''3''': An error occurred that prevented the zone transfer from being completed.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -120,7 +127,8 @@ The current status of a secondary DNS record.  The status may be one of the foll
 [statusText]: #statustext
 #### [statusText]
 The textual representation of a secondary DNS zone's status.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -130,7 +138,8 @@ The textual representation of a secondary DNS zone's status.
 [transferFrequency]: #transferfrequency
 #### [transferFrequency]
 How often a secondary DNS zone should be transferred in minutes.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -140,7 +149,8 @@ How often a secondary DNS zone should be transferred in minutes.
 [zoneName]: #zonename
 #### [zoneName]
 The name of the zone that is transferred.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -156,7 +166,8 @@ The name of the zone that is transferred.
 [account]: #account
 #### [account]
 The SoftLayer account that owns a secondary DNS record.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>**  
+
 
 
 </div>
@@ -166,7 +177,8 @@ The SoftLayer account that owns a secondary DNS record.
 [domain]: #domain
 #### [domain]
 The domain record created by zone transfer from a secondary DNS record.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain </a>**  
+
 
 
 </div>
@@ -176,7 +188,8 @@ The domain record created by zone transfer from a secondary DNS record.
 [errorMessages]: #errormessages
 #### [errorMessages]
 The error messages created during secondary DNS record transfer.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Dns_Message'>SoftLayer_Dns_Message[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Dns_Message'>SoftLayer_Dns_Message[] </a>**  
+
 
 
 </div>
@@ -186,7 +199,8 @@ The error messages created during secondary DNS record transfer.
 [status]: #status
 #### [status]
 The current status of the secondary DNS zone.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Dns_Status'>SoftLayer_Dns_Status </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Dns_Status'>SoftLayer_Dns_Status </a>**  
+
 
 
 </div>
@@ -198,7 +212,8 @@ The current status of the secondary DNS zone.
 [errorMessageCount]: #errormessagecount
 #### [errorMessageCount]
 A count of the error messages created during secondary DNS record transfer.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

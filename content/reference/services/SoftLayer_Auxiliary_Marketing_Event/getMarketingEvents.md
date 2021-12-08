@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Auxiliary_Marketing_Event](/reference/services/SoftLayer_Auxiliary_Marketing_Event)::getMarketingEvents
 
+
 This method retrieves marketing events.
 
 

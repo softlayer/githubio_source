@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::getPodName
 
+
 Retrieve the pod in which this subnet resides.
 
 

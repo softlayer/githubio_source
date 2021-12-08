@@ -20,6 +20,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer's StorageLayer Evault services provides details regarding the the purchased vault. 
 
 When a job is created using the Webcc Console, the job created is identified as a task on the vault. Using this service, information regarding the task can be retrieved. 
@@ -63,7 +65,8 @@ When a job is created using the Webcc Console, the job created is identified as 
 [id]: #id
 #### [id]
 Unique identifier for the task.  
-<span class="type-label">Type: </span>**unsigned integer**
+<span class="type-label">Type: </span>**unsigned integer**  
+
 
 
 </div>
@@ -73,7 +76,8 @@ Unique identifier for the task.
 [name]: #name
 #### [name]
 The hostname provided at time of agent registration.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -83,7 +87,8 @@ The hostname provided at time of agent registration.
 [usedPoolsize]: #usedpoolsize
 #### [usedPoolsize]
 Total compressed bytes used for the task.  
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

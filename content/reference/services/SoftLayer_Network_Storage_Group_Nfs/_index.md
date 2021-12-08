@@ -22,6 +22,8 @@ classes:
 
 
 
+
+
         
 <div id="properties" class="content service-content">
 
@@ -42,17 +44,20 @@ classes:
 
 #### [addAllowedHost](/reference/services/SoftLayer_Network_Storage_Group_Nfs/addAllowedHost)
 Attach a SoftLayer_Network_Storage_Allowed_Host object to this group
+
 </div>
 
 <div class="method-row">
 
 #### [attachToVolume](/reference/services/SoftLayer_Network_Storage_Group_Nfs/attachToVolume)
 Attach a SoftLayer_Network_Storage volume to this group
+
 </div>
 
 <div class="method-row">
 
 #### [createObject](/reference/services/SoftLayer_Network_Storage_Group_Nfs/createObject)
+
 
 </div>
 
@@ -60,11 +65,13 @@ Attach a SoftLayer_Network_Storage volume to this group
 
 #### [deleteObject](/reference/services/SoftLayer_Network_Storage_Group_Nfs/deleteObject)
 
+
 </div>
 
 <div class="method-row">
 
 #### [editObject](/reference/services/SoftLayer_Network_Storage_Group_Nfs/editObject)
+
 
 </div>
 
@@ -72,66 +79,77 @@ Attach a SoftLayer_Network_Storage volume to this group
 
 #### [getAccount](/reference/services/SoftLayer_Network_Storage_Group_Nfs/getAccount)
 Retrieve the SoftLayer_Account which owns this group.
+
 </div>
 
 <div class="method-row">
 
 #### [getAllObjects](/reference/services/SoftLayer_Network_Storage_Group_Nfs/getAllObjects)
 Returns all network storage groups
+
 </div>
 
 <div class="method-row">
 
 #### [getAllowedHosts](/reference/services/SoftLayer_Network_Storage_Group_Nfs/getAllowedHosts)
 Retrieve the allowed hosts list for this group.
+
 </div>
 
 <div class="method-row">
 
 #### [getAttachedVolumes](/reference/services/SoftLayer_Network_Storage_Group_Nfs/getAttachedVolumes)
 Retrieve the network storage volumes this group is attached to.
+
 </div>
 
 <div class="method-row">
 
 #### [getGroupType](/reference/services/SoftLayer_Network_Storage_Group_Nfs/getGroupType)
 Retrieve the type which defines this group.
+
 </div>
 
 <div class="method-row">
 
 #### [getNetworkConnectionDetails](/reference/services/SoftLayer_Network_Storage_Group_Nfs/getNetworkConnectionDetails)
 Retrieve network connection information for SoftLayer_Network_Storage_Allowed_Host objects to connect to the Network Storage Volumes within this group 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Storage_Group_Nfs/getObject)
 Retrieve a SoftLayer_Network_Storage_Group_Nfs record.
+
 </div>
 
 <div class="method-row">
 
 #### [getOsType](/reference/services/SoftLayer_Network_Storage_Group_Nfs/getOsType)
 Retrieve the OS Type this group is configured for.
+
 </div>
 
 <div class="method-row">
 
 #### [getServiceResource](/reference/services/SoftLayer_Network_Storage_Group_Nfs/getServiceResource)
 Retrieve the network resource this group is created on.
+
 </div>
 
 <div class="method-row">
 
 #### [removeAllowedHost](/reference/services/SoftLayer_Network_Storage_Group_Nfs/removeAllowedHost)
 Remove a SoftLayer_Network_Storage_Allowed_Host object from this group
+
 </div>
 
 <div class="method-row">
 
 #### [removeFromVolume](/reference/services/SoftLayer_Network_Storage_Group_Nfs/removeFromVolume)
 Remove a SoftLayer_Network_Storage volume from this group
+
 </div>
 </div>
 

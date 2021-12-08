@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getExtensionRouter
 
+
 Retrieve the extension router that a VLAN is associated with.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getResourceGroups
 
+
 Retrieve the resource groups in which this hardware is a member.
 
 

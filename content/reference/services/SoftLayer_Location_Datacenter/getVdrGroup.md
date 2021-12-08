@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Location_Datacenter](/reference/services/SoftLayer_Location_Datacenter)::getVdrGroup
 
+
 Retrieve a location can be a member of 1 Bandwidth Pooling Group. This will show which group to which a location belongs.
 
 

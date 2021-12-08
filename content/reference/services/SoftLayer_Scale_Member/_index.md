@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 The base member of a scale group. Members are the volatile scaling units of a scale group. This cannot be used by itself, one of the more specific member types and services must be used. 
 
 
@@ -42,18 +44,21 @@ The base member of a scale group. Members are the volatile scaling units of a sc
 
 #### [deleteObject](/reference/services/SoftLayer_Scale_Member/deleteObject)
 Delete this group member. This is not the recommended way to delete members. Instead, users should use invocations on the group itself to do scaling. 
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Scale_Member/getObject)
 Retrieve a SoftLayer_Scale_Member record.
+
 </div>
 
 <div class="method-row">
 
 #### [getScaleGroup](/reference/services/SoftLayer_Scale_Member/getScaleGroup)
 Retrieve the group this member belongs to.
+
 </div>
 </div>
 

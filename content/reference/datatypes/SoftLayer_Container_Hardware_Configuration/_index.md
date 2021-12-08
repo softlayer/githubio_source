@@ -20,6 +20,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The hardware configuration container is used to provide configuration options for servers. 
 
 Each configuration option will include both an <code>itemPrice</code> and a <code>template</code>. 
@@ -68,7 +70,8 @@ Available datacenter options.
 
 The <code>datacenter.name</code> value in the template represents which datacenter the server will be provisioned in. 
 </div>   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Hardware_Configuration_Option'>SoftLayer_Container_Hardware_Configuration_Option[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Hardware_Configuration_Option'>SoftLayer_Container_Hardware_Configuration_Option[] </a>**  
+
 
 
 </div>
@@ -87,7 +90,8 @@ The <code>fixedConfigurationPreset.keyName</code> value in the template is an id
 
 When providing a <code>fixedConfigurationPreset.keyName</code> while ordering a server the <code>processors</code> and <code>hardDrives</code> configuration options cannot be used. 
 </div>   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Hardware_Configuration_Option'>SoftLayer_Container_Hardware_Configuration_Option[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Hardware_Configuration_Option'>SoftLayer_Container_Hardware_Configuration_Option[] </a>**  
+
 
 
 </div>
@@ -106,7 +110,8 @@ A server will have at least one hard drive.
 
 The <code>hardDrives.capacity</code> value in the template represents the size, in gigabytes, of the disk. 
 </div>   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Hardware_Configuration_Option'>SoftLayer_Container_Hardware_Configuration_Option[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Hardware_Configuration_Option'>SoftLayer_Container_Hardware_Configuration_Option[] </a>**  
+
 
 
 </div>
@@ -122,7 +127,8 @@ Available network component options.
 
 The <code>networkComponent.maxSpeed</code> value in the template represents the link speed, in megabits per second, of the network connections for a server. 
 </div>   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Hardware_Configuration_Option'>SoftLayer_Container_Hardware_Configuration_Option[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Hardware_Configuration_Option'>SoftLayer_Container_Hardware_Configuration_Option[] </a>**  
+
 
 
 </div>
@@ -150,7 +156,8 @@ Providing the value of 'LATEST' for a version will select the latest release of 
 
 For Windows based operating systems the version will represent both the release version (2008, 2012, etc) and the edition (Standard, Enterprise, etc). For all other operating systems the version will represent the major version (Centos 6, Ubuntu 12, etc) of that operating system, minor versions are represented in few reference codes where they are significant. 
 </div>   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Hardware_Configuration_Option'>SoftLayer_Container_Hardware_Configuration_Option[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Hardware_Configuration_Option'>SoftLayer_Container_Hardware_Configuration_Option[] </a>**  
+
 
 
 </div>
@@ -167,7 +174,8 @@ Available processor options.
 The <code>processorCoreAmount</code> value in the template represents the number of cores allocated to the server. 
 The <code>memoryCapacity</code> value in the template represents the amount of memory, in gigabytes, allocated to the server. 
 </div>   
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Hardware_Configuration_Option'>SoftLayer_Container_Hardware_Configuration_Option[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Hardware_Configuration_Option'>SoftLayer_Container_Hardware_Configuration_Option[] </a>**  
+
 
 
 </div>

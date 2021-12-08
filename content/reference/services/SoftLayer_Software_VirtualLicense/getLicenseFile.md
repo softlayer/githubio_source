@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Software_VirtualLicense](/reference/services/SoftLayer_Software_VirtualLicense)::getLicenseFile
 
+
 Get the file for a virtual license, if it exists
 
 

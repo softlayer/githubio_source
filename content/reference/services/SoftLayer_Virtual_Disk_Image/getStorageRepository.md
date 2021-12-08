@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Disk_Image](/reference/services/SoftLayer_Virtual_Disk_Image)::getStorageRepository
 
+
 Retrieve the storage repository that a disk image resides in.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_CdnMarketplace_Configuration_Behavior_HotlinkProtection](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_HotlinkProtection)::getObject
 
+
 Retrieve a SoftLayer_Network_CdnMarketplace_Configuration_Behavior_HotlinkProtection record.
 
 

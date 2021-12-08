@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Schedule](/reference/services/SoftLayer_Network_Storage_Schedule)::getReplicaSnapshots
 
+
 Retrieve replica snapshots which have been created as the result of this schedule's execution.
 
 

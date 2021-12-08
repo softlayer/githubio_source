@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Subnet_Registration_Details](/reference/services/SoftLayer_Network_Subnet_Registration_Details)::getObject
 
+
 Retrieve a SoftLayer_Network_Subnet_Registration_Details record.
 
 

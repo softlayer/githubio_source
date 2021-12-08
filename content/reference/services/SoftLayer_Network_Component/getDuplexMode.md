@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getDuplexMode
 
+
 Retrieve the duplex mode of a network component.
 
 

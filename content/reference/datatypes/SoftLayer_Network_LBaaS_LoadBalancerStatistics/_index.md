@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 SoftLayer_Network_LBaaS_LoadBalancerStatistics is a collection of metrics retrieved from a load balancer instance. The available metrics are: <ul> <li>NUmber of members up</li> <li>Number of members down</li> <li>Total number of active connections</li> <li>Throughput</li> <li>Data processed by month</li> <li>Connection rate</li> </ul> 
 
 
@@ -45,7 +47,8 @@ SoftLayer_Network_LBaaS_LoadBalancerStatistics is a collection of metrics retrie
 [connectionRate]: #connectionrate
 #### [connectionRate]
 Number of connections seen at the  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Number of connections seen at the
 [dataProcessedByMonth]: #dataprocessedbymonth
 #### [dataProcessedByMonth]
 Data processed by month is the total of bin and bout  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Data processed by month is the total of bin and bout
 [numberOfMembersDown]: #numberofmembersdown
 #### [numberOfMembersDown]
 Number of members in DOWN health state  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Number of members in DOWN health state
 [numberOfMembersUp]: #numberofmembersup
 #### [numberOfMembersUp]
 Number of members in UP health state  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Number of members in UP health state
 [throughput]: #throughput
 #### [throughput]
 Throughput measures the total number of bits  
-<span class="type-label">Type: </span>**float**
+<span class="type-label">Type: </span>**float**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ Throughput measures the total number of bits
 [totalConnections]: #totalconnections
 #### [totalConnections]
 Number of total active established connections  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>

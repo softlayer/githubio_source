@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getHardwareFunction
 
+
 Retrieve a hardware's function.
 
 

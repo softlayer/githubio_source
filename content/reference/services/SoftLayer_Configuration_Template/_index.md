@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 Configuration template class encapsulated an arbitrary configuration values for various resources. 
 
 
@@ -42,23 +44,27 @@ Configuration template class encapsulated an arbitrary configuration values for 
 
 #### [copyTemplate](/reference/services/SoftLayer_Configuration_Template/copyTemplate)
 Copy a configuration template and returns a newly created template copy
+
 </div>
 
 <div class="method-row">
 
 #### [deleteObject](/reference/services/SoftLayer_Configuration_Template/deleteObject)
 Deletes a customer configuration template.
+
 </div>
 
 <div class="method-row">
 
 #### [editObject](/reference/services/SoftLayer_Configuration_Template/editObject)
 Edit the object by passing in a modified instance of the object
+
 </div>
 
 <div class="method-row">
 
 #### [getAccount](/reference/services/SoftLayer_Configuration_Template/getAccount)
+
 
 </div>
 
@@ -66,11 +72,13 @@ Edit the object by passing in a modified instance of the object
 
 #### [getAllObjects](/reference/services/SoftLayer_Configuration_Template/getAllObjects)
 Retrieves all available configuration templates.
+
 </div>
 
 <div class="method-row">
 
 #### [getConfigurationSections](/reference/services/SoftLayer_Configuration_Template/getConfigurationSections)
+
 
 </div>
 
@@ -78,11 +86,13 @@ Retrieves all available configuration templates.
 
 #### [getDefaultValues](/reference/services/SoftLayer_Configuration_Template/getDefaultValues)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getDefinitions](/reference/services/SoftLayer_Configuration_Template/getDefinitions)
+
 
 </div>
 
@@ -90,11 +100,13 @@ Retrieves all available configuration templates.
 
 #### [getItem](/reference/services/SoftLayer_Configuration_Template/getItem)
 
+
 </div>
 
 <div class="method-row">
 
 #### [getLinkedSectionReferences](/reference/services/SoftLayer_Configuration_Template/getLinkedSectionReferences)
+
 
 </div>
 
@@ -102,11 +114,13 @@ Retrieves all available configuration templates.
 
 #### [getObject](/reference/services/SoftLayer_Configuration_Template/getObject)
 Retrieve a SoftLayer_Configuration_Template record.
+
 </div>
 
 <div class="method-row">
 
 #### [getParent](/reference/services/SoftLayer_Configuration_Template/getParent)
+
 
 </div>
 
@@ -114,12 +128,14 @@ Retrieve a SoftLayer_Configuration_Template record.
 
 #### [getUser](/reference/services/SoftLayer_Configuration_Template/getUser)
 
+
 </div>
 
 <div class="method-row">
 
 #### [updateDefaultValues](/reference/services/SoftLayer_Configuration_Template/updateDefaultValues)
 Updates default configuration values.
+
 </div>
 </div>
 

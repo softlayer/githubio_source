@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Order_Item](/reference/services/SoftLayer_Billing_Order_Item)::getOrder
 
+
 Retrieve the order to which this item belongs. The order contains all the information related to the items included in an order
 
 

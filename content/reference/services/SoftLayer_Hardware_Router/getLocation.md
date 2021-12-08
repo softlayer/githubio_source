@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getLocation
 
+
 Retrieve where a piece of hardware is located within SoftLayer's location hierarchy.
 
 

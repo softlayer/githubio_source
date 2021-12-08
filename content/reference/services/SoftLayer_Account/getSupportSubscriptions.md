@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getSupportSubscriptions
 
+
 Retrieve the active support subscriptions for this account.
 
 

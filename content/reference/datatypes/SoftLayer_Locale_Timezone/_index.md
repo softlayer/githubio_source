@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Each User is assigned a timezone allowing for a precise local timestamp.
 
 
@@ -55,7 +57,8 @@ Each User is assigned a timezone allowing for a precise local timestamp.
 [id]: #id
 #### [id]
 A timezone's identifying number.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +68,8 @@ A timezone's identifying number.
 [longName]: #longname
 #### [longName]
 A timezone's long name. For example, "(GMT-06:00) America/Dallas - CST".  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +79,8 @@ A timezone's long name. For example, "(GMT-06:00) America/Dallas - CST".
 [name]: #name
 #### [name]
 A timezone's name. For example, "America/Dallas".  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +90,8 @@ A timezone's name. For example, "America/Dallas".
 [offset]: #offset
 #### [offset]
 A timezone's offset based on the GMT standard. For example, Central Standard Time's offset is "-0600" from GMT=0000.  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +101,8 @@ A timezone's offset based on the GMT standard. For example, Central Standard Tim
 [shortName]: #shortname
 #### [shortName]
 A timezone's common abbreviation. For example, Central Standard Time's abbreviation is "CST".  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

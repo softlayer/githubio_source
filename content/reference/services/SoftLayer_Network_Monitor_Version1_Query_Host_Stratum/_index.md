@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description
+
+
 This service is for reference only.  It can be changed by purchasing higher monitoring levels through the portal. 
 
 
@@ -42,24 +44,28 @@ This service is for reference only.  It can be changed by purchasing higher moni
 
 #### [getAllQueryTypes](/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host_Stratum/getAllQueryTypes)
 Return all Query_Type objects.
+
 </div>
 
 <div class="method-row">
 
 #### [getAllResponseTypes](/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host_Stratum/getAllResponseTypes)
 Return all ResponseType objects.
+
 </div>
 
 <div class="method-row">
 
 #### [getHardware](/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host_Stratum/getHardware)
 Retrieve the hardware object that these monitoring permissions applies to.
+
 </div>
 
 <div class="method-row">
 
 #### [getObject](/reference/services/SoftLayer_Network_Monitor_Version1_Query_Host_Stratum/getObject)
 Retrieve a SoftLayer_Network_Monitor_Version1_Query_Host_Stratum record.
+
 </div>
 </div>
 

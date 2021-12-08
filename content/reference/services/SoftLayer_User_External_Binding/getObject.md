@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_User_External_Binding](/reference/services/SoftLayer_User_External_Binding)::getObject
 
+
 Retrieve a SoftLayer_User_External_Binding record.
 
 

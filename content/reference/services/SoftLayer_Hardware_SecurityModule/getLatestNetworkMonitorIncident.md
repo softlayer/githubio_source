@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getLatestNetworkMonitorIncident
 
+
 Retrieve a piece of hardware's latest network monitoring incident.
 
 

@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account_Shipment](/reference/services/SoftLayer_Account_Shipment)::getAllCouriersByType
 
+
 Retrieve a list of couriers for a given courier type
 
 

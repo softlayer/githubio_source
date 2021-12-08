@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Survey](/reference/services/SoftLayer_Survey)::getStatus
 
+
 Retrieve the status of the survey
 
 

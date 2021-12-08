@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getAccountPassword
 
+
 Retrieve other usernames and passwords associated with a Storage volume.
 
 

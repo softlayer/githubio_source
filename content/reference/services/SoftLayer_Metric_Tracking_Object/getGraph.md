@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Metric_Tracking_Object](/reference/services/SoftLayer_Metric_Tracking_Object)::getGraph
 
+
 Retrieve a graph of a virtual hosting platform's per instance use.
 
 

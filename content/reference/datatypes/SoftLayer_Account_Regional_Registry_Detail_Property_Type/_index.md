@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Subnet Registration Detail Property Type objects describe the nature of a [SoftLayer_Account_Regional_Registry_Detail_Property]({{<ref "reference/datatypes/SoftLayer_Account_Regional_Registry_Detail_Property">}}) object. These types use [http://php.net/pcre.pattern.php Perl-Compatible Regular Expressions] to validate the value of a property object. 
 
 
@@ -45,7 +47,8 @@ Subnet Registration Detail Property Type objects describe the nature of a [SoftL
 [createDate]: #createdate
 #### [createDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Subnet Registration Detail Property Type objects describe the nature of a [SoftL
 [id]: #id
 #### [id]
 Unique numeric ID of the property type object   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Unique numeric ID of the property type object
 [keyName]: #keyname
 #### [keyName]
 Code-friendly string name of the property type   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Code-friendly string name of the property type
 [modifyDate]: #modifydate
 #### [modifyDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Code-friendly string name of the property type
 [name]: #name
 #### [name]
 Human-readable name of the property type   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ Human-readable name of the property type
 [valueExpression]: #valueexpression
 #### [valueExpression]
 A Perl-compatible regular expression used to describe the valid format of the property   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

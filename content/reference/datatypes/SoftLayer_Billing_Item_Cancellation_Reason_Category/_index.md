@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Billing_Item_Cancellation_Reason_Category data type contains cancellation reason categories. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Billing_Item_Cancellation_Reason_Category data type contains cance
 [id]: #id
 #### [id]
 A category internal identifier.  
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ A category internal identifier.
 [name]: #name
 #### [name]
 The description of the category  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -71,7 +75,8 @@ The description of the category
 [billingCancellationReasons]: #billingcancellationreasons
 #### [billingCancellationReasons]
 The corresponding billing cancellation reasons having the specific billing cancellation reason category.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Reason'>SoftLayer_Billing_Item_Cancellation_Reason[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Billing_Item_Cancellation_Reason'>SoftLayer_Billing_Item_Cancellation_Reason[] </a>**  
+
 
 
 </div>
@@ -83,7 +88,8 @@ The corresponding billing cancellation reasons having the specific billing cance
 [billingCancellationReasonCount]: #billingcancellationreasoncount
 #### [billingCancellationReasonCount]
 A count of the corresponding billing cancellation reasons having the specific billing cancellation reason category.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>

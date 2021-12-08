@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Billing_Item_Virtual_DedicatedHost](/reference/services/SoftLayer_Billing_Item_Virtual_DedicatedHost)::getPackage
 
+
 Retrieve the package under which this billing item was sold. A Package is the general grouping of products as seen on our order forms.
 
 

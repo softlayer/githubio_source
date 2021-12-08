@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Information container for domain registration 
 
 
@@ -45,7 +47,8 @@ Information container for domain registration
 [contacts]: #contacts
 #### [contacts]
 The information of the registered domain.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_Contact'>SoftLayer_Container_Dns_Domain_Registration_Contact[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_Contact'>SoftLayer_Container_Dns_Domain_Registration_Contact[] </a>**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ The information of the registered domain.
 [expireDate]: #expiredate
 #### [expireDate]
 The date that a domain is set to expire.  
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ The date that a domain is set to expire.
 [nameservers]: #nameservers
 #### [nameservers]
 The list of nameservers for the domain.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_Nameserver'>SoftLayer_Container_Dns_Domain_Registration_Nameserver[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Container_Dns_Domain_Registration_Nameserver'>SoftLayer_Container_Dns_Domain_Registration_Nameserver[] </a>**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ The list of nameservers for the domain.
 [registryCreateDate]: #registrycreatedate
 #### [registryCreateDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ The list of nameservers for the domain.
 [registryExpireDate]: #registryexpiredate
 #### [registryExpireDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ The list of nameservers for the domain.
 [registryUpdateDate]: #registryupdatedate
 #### [registryUpdateDate]
   
-<span class="type-label">Type: </span>**dateTime**
+<span class="type-label">Type: </span>**dateTime**  
+
 
 
 </div>

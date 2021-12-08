@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getPublicBandwidthDataSummary
 
+
 Retrieve a server's public bandwidth usage summary
 
 

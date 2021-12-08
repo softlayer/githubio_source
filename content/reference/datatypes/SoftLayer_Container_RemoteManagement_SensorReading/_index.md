@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 The SoftLayer_Container_RemoteManagement_SensorReadings contains sensor information retrieved from a server's remote management card. 
 
 
@@ -45,7 +47,8 @@ The SoftLayer_Container_RemoteManagement_SensorReadings contains sensor informat
 [lowerCritical]: #lowercritical
 #### [lowerCritical]
 Lower Non-Recoverable threshold  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Lower Non-Recoverable threshold
 [lowerNonCritical]: #lowernoncritical
 #### [lowerNonCritical]
 Lower Non-Critical threshold  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Lower Non-Critical threshold
 [lowerNonRecoverable]: #lowernonrecoverable
 #### [lowerNonRecoverable]
 Lower Non-Recoverable threshold  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -75,7 +80,8 @@ Lower Non-Recoverable threshold
 [sensorId]: #sensorid
 #### [sensorId]
 Sensor ID  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -85,7 +91,8 @@ Sensor ID
 [sensorReading]: #sensorreading
 #### [sensorReading]
 Sensor Reading  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -95,7 +102,8 @@ Sensor Reading
 [sensorUnits]: #sensorunits
 #### [sensorUnits]
 Sensor Units  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -105,7 +113,8 @@ Sensor Units
 [status]: #status
 #### [status]
 Sensor Status  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -115,7 +124,8 @@ Sensor Status
 [upperCritical]: #uppercritical
 #### [upperCritical]
 Upper Critical threshold  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -125,7 +135,8 @@ Upper Critical threshold
 [upperNonCritical]: #uppernoncritical
 #### [upperNonCritical]
 Upper Non-Critical threshold  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -135,7 +146,8 @@ Upper Non-Critical threshold
 [upperNonRecoverable]: #uppernonrecoverable
 #### [upperNonRecoverable]
 Upper Non-Recoverable threshold  
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>

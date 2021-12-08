@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Account](/reference/services/SoftLayer_Account)::getReservedCapacityGroups
 
+
 Retrieve the reserved capacity groups owned by this account.
 
 

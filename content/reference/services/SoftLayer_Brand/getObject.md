@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Brand](/reference/services/SoftLayer_Brand)::getObject
 
+
 Retrieve a SoftLayer_Brand record.
 
 

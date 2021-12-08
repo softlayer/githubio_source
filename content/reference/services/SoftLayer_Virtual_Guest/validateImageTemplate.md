@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::validateImageTemplate
 
+
 Validates an image template for OS Reload
 
 

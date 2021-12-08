@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::setSnapshotNotification
 
+
 Function to enable/disable snapshot warning notification.
 
 
@@ -24,7 +25,7 @@ Function to enable/disable snapshot warning notification.
 ### Parameters 
 |Name | Type | Description |
 | --- | --- | --- |
-|notificationFlag| string| <<< EOT|
+|notificationFlag| boolean| |
 
 
 ### Required Headers

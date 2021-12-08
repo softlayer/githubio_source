@@ -13,6 +13,7 @@ aliases:
 ---
 # [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::allowAccessToReplicantFromHardwareList
 
+
 allow access to this volume's replica from multiple SoftLayer_Hardware objects.
 
 

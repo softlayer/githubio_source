@@ -18,6 +18,8 @@ classes:
 </div>
 
 ## Description 
+
+
 Details provided for the notification are basic.  Details such as the related preferences, name and keyname for the notification can be retrieved.  The keyname property for the notification can be used to refer to a notification when integrating into the SoftLayer Notification system.  The name property can used more for display purposes. 
 
 
@@ -45,7 +47,8 @@ Details provided for the notification are basic.  Details such as the related pr
 [id]: #id
 #### [id]
 Unique identifier for the notification.   
-<span class="type-label">Type: </span>**integer**
+<span class="type-label">Type: </span>**integer**  
+
 
 
 </div>
@@ -55,7 +58,8 @@ Unique identifier for the notification.
 [keyName]: #keyname
 #### [keyName]
 Name that can be used by external systems to refer to a notification.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -65,7 +69,8 @@ Name that can be used by external systems to refer to a notification.
 [name]: #name
 #### [name]
 Friendly name for the notification.   
-<span class="type-label">Type: </span>**string**
+<span class="type-label">Type: </span>**string**  
+
 
 
 </div>
@@ -81,7 +86,8 @@ Friendly name for the notification.
 [preferences]: #preferences
 #### [preferences]
 The preferences related to the notification. These are preferences are configurable and optional for subscribers to use.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Preference'>SoftLayer_Notification_Preference[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Preference'>SoftLayer_Notification_Preference[] </a>**  
+
 
 
 </div>
@@ -91,7 +97,8 @@ The preferences related to the notification. These are preferences are configura
 [requiredPreferences]: #requiredpreferences
 #### [requiredPreferences]
 The required preferences related to the notification. While configurable, the subscriber does not have the option whether to use the preference.  
-<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Preference'>SoftLayer_Notification_Preference[] </a>**
+<span class="type-label">Type: </span>**<a href='/reference/datatypes/SoftLayer_Notification_Preference'>SoftLayer_Notification_Preference[] </a>**  
+
 
 
 </div>
@@ -103,7 +110,8 @@ The required preferences related to the notification. While configurable, the su
 [preferenceCount]: #preferencecount
 #### [preferenceCount]
 A count of the preferences related to the notification. These are preferences are configurable and optional for subscribers to use.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
@@ -113,7 +121,8 @@ A count of the preferences related to the notification. These are preferences ar
 [requiredPreferenceCount]: #requiredpreferencecount
 #### [requiredPreferenceCount]
 A count of the required preferences related to the notification. While configurable, the subscriber does not have the option whether to use the preference.   
-<span class="type-label">Type: </span>**unsigned long**
+<span class="type-label">Type: </span>**unsigned long**  
+
 
 
 </div>
