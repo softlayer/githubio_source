@@ -834,6 +834,8 @@
             "activatePartner": {
                 "name": "activatePartner",
                 "type": "SoftLayer_Account",
+                "doc": "A test SoftLayer_Account::activePartner THing",
+                "overview": "A test of the overview view",
                 "static": true,
                 "maskable": true,
                 "parameters": [
