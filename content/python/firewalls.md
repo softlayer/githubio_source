@@ -199,7 +199,7 @@ The script lists the IP address of VLAN, it makes a single call to the `SoftLaye
 ```
 
 ## Edit Standard Rules
-Edit Standard Rule`.
+Edit Standard Rule.
 
 A rule set of a firewall is modified by passing a SoftLayer_Network_Firewall_Update_Request template object to SoftLayer_Network_Firewall_Update_Request::createObject. The entire rule set is rewritten with each update request.
 
