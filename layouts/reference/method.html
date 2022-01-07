@@ -4,7 +4,6 @@
 
 {{ partial "header.html" . }}
 <body>
-
 {{ partial "navbar.html" . }}
 <div class="container">
     {{ partial "title.html" . }}
@@ -24,7 +23,7 @@
             </p>
             <h2>Overview</h2>
             <p>
-                {{ $thisPage.doc | markdownify }}
+                {{ .Description | markdownify }}
             </p>
             <hr>
 
@@ -43,7 +42,12 @@
                         {{ range $param := $parameters}}
                         <tr>
                             <td>{{$param.name}}</td>
+                            {{ if hasPrefix $param.type "SoftLayer_" }}
+
+                            <td><a href="/reference/datatypes/"{{ $param.type }}>{{ $param.type }}</a></td>
+                            {{ else }}
                             <td>{{$param.type}}</td>
+                            {{ end }}
                             <td>{{$param.doc}}</td>
                         </tr>
                         {{end }}
@@ -58,9 +62,11 @@
 {{ $filterable := index $thisPage "filterable" }}
 {{ $maskable := index $thisPage "maskable" }}
 {{ $returnType := index $thisPage "type" }}
+{{ $errorHandle := index $thisPage "docExceptions" }}
+{{ $associated := index $thisPage "docAssociatedMethods" }}
             <h3> Required Headers </h3>
             <ul>
-                {{ if $authenticate }}
+                {{ if not $authenticate }}
                     <li><a href="/article/authenticating-softlayer-api/">Authenticate</a></li>
                 {{ end }}
                 {{ if not $static}}
@@ -71,17 +77,36 @@
             <h3>Optional Headers</h3>
             <ul>
                 {{ if $maskable }}
-                    <li><a href="/article/object-masks/">{{ $.Params.MainService }}Mask</a></li>
+                    <li><a href="/article/object-masks/">{{ $.Params.MainService }}ObjectMask</a></li>
                 {{ end }}
                 {{ if $filterable }}
-                    <li><a href="/article/object-filters/">{{ $.Params.MainService }}Filter</a></li>
+                    <li><a href="/article/object-filters/">{{ $.Params.MainService }}ObjectFilter</a></li>
+                {{ end }}
+                {{ if and  (not $maskable) (not $filterable) }}
+                    <li><p><font style="font-weight: bold; color: grey">None</font></p></li>
                 {{ end }}
             </ul>
 
             <h3>Return Values</h3>
                 <ul><li>{{ $returnType }}</li></ul>
             <!-- <h3>Associated Methods</h3> -->
-            <!-- <h3>Error Handling</h3> -->
+            {{ if $errorHandle }}
+                <h3>Error Handling</h3>
+                    <ul>
+                    {{ range $error := $errorHandle }}                    
+                        <li>{{ $error.exception }}: {{ $error.description }} </li>
+                    {{ end }}
+                    </ul>
+            {{ end }}
+
+            {{ if $associated }}
+                <h3>Associated Methods</h3>
+                <ul>
+                {{ range $assc := $associated }}
+                    <li>{{ $assc }}</li>
+                {{ end }}
+                </ul>
+            {{ end }}
         </div>
 
     </div>

@@ -12,12 +12,14 @@
 
 {{ $service := .name }}
 {{ range $method := .methods}}
-<div class="method-row">
-<h4>
-        <a href="/reference/services/{{ $service }}/{{ $method.name }}">{{ $method.name }}</a>
-</h4>
-<p>{{ $method.doc | markdownify }}</p>
-</div>
+    <div class="method-row">
+    <h4><a href="/reference/services/{{ $service }}/{{ $method.name }}">{{ $method.name }}</a></h4>
+    {{ if $method.docOverview }}
+        <p>{{ $method.docOverview | markdownify }}</p>
+    {{ else }}
+        <p>{{ $method.doc | markdownify }}</p>
+    {{ end }}
+    </div>
 {{ end }}
 
 </div>

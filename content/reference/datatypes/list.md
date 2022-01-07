@@ -1,6 +1,6 @@
 ---
-title: "Datatypes"
-description: "List of Datatypes"
+title: "datatypes"
+description: "List of datatypes"
 date: "2018-02-12"
 type: reference
 layout: datatypelist
