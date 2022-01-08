@@ -1,0 +1,24 @@
+<div class="prop-row">
+    <hr>
+    <h4 id="{{.name}}"><a href="#{{.name}}">{{.name}}</a></h4>
+    <p>
+    {{ if not .doc }}
+        <font style="font-weight: bold; color: grey">None</font>
+    {{ else }}
+        {{.doc | markdownify}}
+    {{ end }}
+    <br/>
+    {{ $isArray := "" }}
+    {{ if .typeArray }}
+        {{ $isArray = "[]"}}
+    {{end}}
+    <span class="type-label">Type: </span>
+    <strong>
+        {{ if hasPrefix .type "SoftLayer_" }}
+            <a href="/reference/datatypes/{{ .type }}">{{.type}}{{$isArray}}</a>
+        {{ else }}
+             {{.type}}{{$isArray}}
+        {{ end }}
+    </strong>
+    </p>
+</div>

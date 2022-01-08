@@ -16,12 +16,7 @@
             <h2 id="local">Local</h2> 
             {{ range $property := .properties}}
                 {{ if eq $property.form "local"}}
-                <div class="prop-row">
-                    <hr>
-                    <h4 id="{{$property.name}}"><a href="#{{$property.name}}">{{$property.name}}</a></h4>
-                    <p>{{$property.doc | markdownify}}<br>
-                    <span class="type-label">Type: </span><strong>{{$property.type}}</strong></p>
-                </div>
+                    {{ partial "datatype_property_bit.html" $property}}
                 {{ end }}
             {{ end }}
         </div>
@@ -29,12 +24,7 @@
             <h2 id="relational">Relational</h2> 
             {{ range $property := .properties}}
                 {{ if eq $property.form "relational"}}
-                <div class="prop-row">
-                    <hr>
-                    <h4 id="{{$property.name}}"><a href="#{{$property.name}}">{{$property.name}}</a></h4>
-                    <p>{{$property.doc | markdownify}}<br>
-                    <span class="type-label">Type: </span><strong>{{$property.type}}</strong></p>
-                </div>
+                    {{ partial "datatype_property_bit.html" $property}}
                 {{ end }}
             {{ end }}
 
@@ -42,12 +32,7 @@
             <h2 id="count">Count</h2> 
             {{ range $property := .properties}}
                 {{ if eq $property.form "count"}}
-                <div class="prop-row">
-                    <hr>
-                    <h4 id="{{$property.name}}"><a href="#{{$property.name}}">{{$property.name}}</a></h4>
-                    <p>{{$property.doc | markdownify}}<br>
-                    <span class="type-label">Type: </span><strong>{{$property.type}}</strong></p>
-                </div>
+                    {{ partial "datatype_property_bit.html" $property}}
                 {{ end }}
             {{ end }}
         </div>

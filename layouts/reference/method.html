@@ -19,12 +19,12 @@
                 <a href="/reference/services/{{$.Params.MainService}}">{{$.Params.MainService}}</a>::{{.Title}} 
             </h1>
             <p>
-                {{ $thisPage.overview | markdownify }}
+                {{ $thisPage.docOverview | markdownify }}
             </p>
             <h2>Overview</h2>
-            <p>
-                {{ .Description | markdownify }}
-            </p>
+
+                {{ $thisPage.doc | markdownify }}
+
             <hr>
 
             <h3> Parameters </h3>
@@ -40,13 +40,17 @@
                     </thead>
                     <tbody>
                         {{ range $param := $parameters}}
+                        {{ $isArray := "" }}
+                        {{ if $param.typeArray }}
+                            {{ $isArray = "[]" }}
+                        {{ end }}
                         <tr>
                             <td>{{$param.name}}</td>
                             {{ if hasPrefix $param.type "SoftLayer_" }}
 
-                            <td><a href="/reference/datatypes/"{{ $param.type }}>{{ $param.type }}</a></td>
+                            <td><a href="/reference/datatypes/"{{ $param.type }}>{{ $param.type }}{{$isArray}}</a></td>
                             {{ else }}
-                            <td>{{$param.type}}</td>
+                            <td>{{$param.type}}{{$isArray}}</td>
                             {{ end }}
                             <td>{{$param.doc}}</td>
                         </tr>
@@ -61,7 +65,9 @@
 {{ $static := index $thisPage "static" }}
 {{ $filterable := index $thisPage "filterable" }}
 {{ $maskable := index $thisPage "maskable" }}
+{{ $resultLimit := index $thisPage "limitable" }}
 {{ $returnType := index $thisPage "type" }}
+{{ $returnArray := index $thisPage "typeArray"}}
 {{ $errorHandle := index $thisPage "docExceptions" }}
 {{ $associated := index $thisPage "docAssociatedMethods" }}
             <h3> Required Headers </h3>
@@ -82,13 +88,26 @@
                 {{ if $filterable }}
                     <li><a href="/article/object-filters/">{{ $.Params.MainService }}ObjectFilter</a></li>
                 {{ end }}
+                {{ if $resultLimit }}
+                    <li><a href="/article/using-result-limits-softlayer-api/">Result Limit</a></li>
+                {{ end }}
                 {{ if and  (not $maskable) (not $filterable) }}
                     <li><p><font style="font-weight: bold; color: grey">None</font></p></li>
                 {{ end }}
             </ul>
 
             <h3>Return Values</h3>
-                <ul><li>{{ $returnType }}</li></ul>
+                <ul><li>
+                    {{ $isArray := "" }}
+                    {{ if $returnArray }}
+                        {{ $isArray = "[]"}}
+                    {{ end }}
+                    {{ if hasPrefix $returnType "SoftLayer_" }}
+                        <a href="/reference/datatypes/{{ $returnType }}">{{$returnType}}{{$isArray}}</a>
+                    {{ else }}
+                         {{$returnType}}{{$isArray}}
+                    {{ end }}
+                </li></ul>
             <!-- <h3>Associated Methods</h3> -->
             {{ if $errorHandle }}
                 <h3>Error Handling</h3>

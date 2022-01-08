@@ -38,16 +38,26 @@ url: /reference/$type/list.html
 """
 
 def wikiToMarkdownFilter(text):
+
+    # the r'(\|[0-9A-Za-z_\'\(\) ]*)?' Regex is required (over r'(\|.*)?' ) because for some reason the smaller regex
+    # was causing the whole JSON string to be truncated.
+
+    # [[SoftLayer_Account]] -> reference/datatypes/SoftLayer_Account
+    text = re.sub(r'\[\[(?P<one>\w+)( \(type\))?(\|[0-9A-Za-z_\'\(\) ]*)?\]\]', '[\g<one>](reference/datatypes/\g<one>)', text)
+    #text1 = re.sub(r'\[\[(?P<one>\w+)\]\]', '[\g<one>](reference/datatypes/\g<one>)', text)
+    # [[SoftLayer_Account/getObject]] -> reference/services/SoftLayer_Account/getObject
+    text = re.sub(r'\[\[(?P<one>\w+)\/(?P<two>\w+)(\|[0-9A-Za-z_\'\(\) ]*)?\]\]', "[\g<one>::\g<two>](reference/services/\g<one>/\g<two>)", text)
+    # [[SoftLayer_Account::id]] -> reference/datatypes/SoftLayer_ACccount/#id
+    text = re.sub(r'\[\[(?P<one>\w+)::(?P<two>\w+)(\|[0-9A-Za-z_\'\(\) ]*)?\]\]', "[\g<one>::\g<two>](reference/datatypes/$1/#$2)", text)
+    return text
+
+def cleanupYaml(text):
     # Remove double quotes, because hugo will complain about that.
     text = text.replace('"', "'")
     # Even if they are escaped.
     text = text.replace('\\"', "'")
-    # [[SoftLayer_Account]] -> reference/datatypes/SoftLayer_Account
-    text = re.sub(r'\[\[(?P<one>\w+)( \(type\))?(\|.*)?\]\]', "[\g<one>](reference/datatypes/\g<one>)", text)
-    # [[SoftLayer_Account/getObject]] -> reference/services/SoftLayer_Account/getObject
-    text = re.sub(r'\[\[(?P<one>\w+)\/(?P<two>\w+)(\|.*)?\]\]', "[\g<one>::\g<two>](reference/services/\g<one>/\g<two>')", text)
-    # [[SoftLayer_Account::id]] -> reference/datatypes/SoftLayer_ACccount/#id
-    text = re.sub(r'\[\[(?P<one>\w+)::(?P<two>\w+)(\|.*)?\]\]', "[\g<one>::\g<two>](reference/datatypes/$1/#$2)", text)
+    # Newlines need to end with 2 spaces and have another newline for the markdown to respect them.
+    # text = text.replace('\n\n', '  \n\n')
     return text
 
 
@@ -106,6 +116,31 @@ class SLDNgenerator():
                     self.writeMethodMarkdown(method, serviceName=serviceName)
             self.writeDatatypeMarkdown(service)
 
+    def addInORMMethods(self, metajson):
+        for serviceName, service in metajson.items():
+            # noservice means datatype only.
+            if service.get('noservice', False) == False:
+                for propName, prop in service.get('properties', {}).items():
+                    if prop.get('form', '') == 'relational':
+                        # capitlize() sadly lowercases the other letters in the string
+                        ormName = f"get{propName[0].upper()}{propName[1:]}"
+                        ormMethod = {
+                            'doc': prop.get('doc', ''),
+                            'docOverview': "",
+                            'name': ormName,
+                            'type': prop.get('type'),
+                            'typeArray': prop.get('typeArray', None),
+                            'ormMethod': True,
+                            'maskable': True,
+                            'filterable': True
+                        }
+                        if ormMethod['typeArray']:
+                            ormMethod['limitable'] = True
+                        metajson[serviceName]['methods'][ormName] = ormMethod
+        return metajson
+                    
+   
+
     def writeServiceMarkdown(self, serviceJson):
         service_dir = f"./content/reference/services/{serviceJson.get('name')}/"
         if not (os.path.isdir(service_dir)):
@@ -117,7 +152,7 @@ class SLDNgenerator():
 
         substitions = {
             'service': serviceJson.get('name'),
-            'documentation': wikiToMarkdownFilter(documentation),
+            'documentation': cleanupYaml(documentation),
             'serviceType': service_parts[1],
             'layoutType' : 'service',
             'mainService': serviceJson.get('name')
@@ -140,7 +175,7 @@ class SLDNgenerator():
 
         substitions = {
             'service': serviceJson.get('name'),
-            'documentation': wikiToMarkdownFilter(documentation),
+            'documentation': cleanupYaml(documentation),
             'serviceType': service_parts[1],
             'layoutType' : 'datatype',
             'mainService': serviceJson.get('name')
@@ -161,7 +196,7 @@ class SLDNgenerator():
 
         substitions = {
             'service': serviceJson.get('name'),
-            'documentation': wikiToMarkdownFilter(documentation),
+            'documentation': cleanupYaml(documentation),
             'serviceType': service_parts[1],
             'layoutType' : 'method',
             'mainService': serviceName
@@ -188,6 +223,13 @@ def main(download):
     else:
         metajson = generator.getLocalMetadata()
 
+    # fix mediaWiki links. So far its easiest just to regex the whole JSON string
+    jsonString = json.dumps(metajson)
+    jsonString = wikiToMarkdownFilter(jsonString)
+    # print(jsonString)
+    metajson = json.loads(jsonString)
+    metajson = generator.addInORMMethods(metajson)
+    generator.saveMetadata(metajson)
     print("Generating Markdown....")
     # print(metajson)
     generator.generateMarkdown(metajson)
