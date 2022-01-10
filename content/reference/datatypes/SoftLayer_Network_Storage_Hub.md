@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_Storage_Hub"
-description: ""
+description: "The SoftLayer_Network_Storage_Hub data type models Virtual Server type Storage storage offerings. "
 date: "2018-02-12"
 tags:
     - "datatype"

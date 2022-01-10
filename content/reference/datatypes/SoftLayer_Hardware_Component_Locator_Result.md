@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Hardware_Component_Locator_Result"
-description: ""
+description: "This object holds a generic component model id and the list of datacenter names where it is available. "
 date: "2018-02-12"
 tags:
     - "datatype"

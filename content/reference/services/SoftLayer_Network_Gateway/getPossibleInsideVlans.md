@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "getPossibleInsideVlans"
+    - "SoftLayer_Network_Gateway"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Gateway"

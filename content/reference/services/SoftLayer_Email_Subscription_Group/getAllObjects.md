@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Email"
 classes:
-    - "getAllObjects"
+    - "SoftLayer_Email_Subscription_Group"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Email_Subscription_Group"

@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Account"
 classes:
-    - "createProspect"
+    - "SoftLayer_Account_Partner_Referral_Prospect"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Account_Partner_Referral_Prospect"

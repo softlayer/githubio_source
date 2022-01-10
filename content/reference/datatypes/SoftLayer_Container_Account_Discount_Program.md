@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Account_Discount_Program"
-description: ""
+description: "SoftLayer_Container_Account_Discount_Program models a single outbound object for a graph of given data sets."
 date: "2018-02-12"
 tags:
     - "datatype"

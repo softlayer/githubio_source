@@ -1,13 +1,13 @@
 ---
 title: "getObject"
-description: ""
+description: "Retrieve a SoftLayer_Provisioning_Maintenance_Classification_Item_Category record."
 date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Provisioning"
 classes:
-    - "getObject"
+    - "SoftLayer_Provisioning_Maintenance_Classification_Item_Category"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Provisioning_Maintenance_Classification_Item_Category"

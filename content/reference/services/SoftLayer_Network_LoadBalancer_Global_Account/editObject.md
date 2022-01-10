@@ -9,7 +9,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "editObject"
+    - "SoftLayer_Network_LoadBalancer_Global_Account"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_LoadBalancer_Global_Account"

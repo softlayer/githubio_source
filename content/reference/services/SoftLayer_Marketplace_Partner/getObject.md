@@ -1,13 +1,13 @@
 ---
 title: "getObject"
-description: ""
+description: "Retrieve a SoftLayer_Marketplace_Partner record."
 date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Marketplace"
 classes:
-    - "getObject"
+    - "SoftLayer_Marketplace_Partner"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Marketplace_Partner"

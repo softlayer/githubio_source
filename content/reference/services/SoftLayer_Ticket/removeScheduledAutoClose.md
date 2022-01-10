@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Ticket"
 classes:
-    - "removeScheduledAutoClose"
+    - "SoftLayer_Ticket"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Ticket"

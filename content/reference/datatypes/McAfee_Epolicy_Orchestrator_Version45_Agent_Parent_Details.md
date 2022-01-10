@@ -1,6 +1,6 @@
 ---
 title: "McAfee_Epolicy_Orchestrator_Version45_Agent_Parent_Details"
-description: ""
+description: "The McAfee_Epolicy_Orchestrator_Version45_Agent_Parent_Details data type contains the name of an anti-virus policy."
 date: "2018-02-12"
 tags:
     - "datatype"

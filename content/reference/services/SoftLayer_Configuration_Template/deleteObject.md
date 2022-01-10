@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Configuration"
 classes:
-    - "deleteObject"
+    - "SoftLayer_Configuration_Template"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Configuration_Template"

@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "User"
 classes:
-    - "updateNote"
+    - "SoftLayer_User_External_Binding"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_User_External_Binding"

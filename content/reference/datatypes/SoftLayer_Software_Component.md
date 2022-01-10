@@ -1,6 +1,10 @@
 ---
 title: "SoftLayer_Software_Component"
-description: "Every installed piece of software is represented in the API as a 'Software Component.'  This is the base class for software components, exposing basic functionality for software components.  From any Software Component, through this service, you can get the hardware a component is installed upon, the license that this component is governed by, the current access passwords for a component, and the history of previous passwords for a component. "
+description: "A SoftLayer_Software_Component ties the installation of a specific piece of software onto a specific piece of hardware. 
+
+SoftLayer_Software_Component works with SoftLayer_Software_License and SoftLayer_Software_Description to tie this all together. 
+
+<ul> <li>SoftLayer_Software_Component is the installation of a specific piece of software onto a specific piece of hardware in accordance to a software license. <ul> <li>SoftLayer_Software_License dictates when and how a specific piece of software may be installed onto a piece of hardware. <ul> <li>SoftLayer_Software_Description describes a specific piece of software which can be installed onto hardware in accordance with it's license agreement. </li></ul></li></ul></li></ul> "
 date: "2018-02-12"
 tags:
     - "datatype"

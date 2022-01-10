@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "updateLoadBalancerHealthMonitors"
+    - "SoftLayer_Network_LBaaS_HealthMonitor"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_LBaaS_HealthMonitor"

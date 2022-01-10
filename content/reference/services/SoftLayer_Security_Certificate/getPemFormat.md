@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Security"
 classes:
-    - "getPemFormat"
+    - "SoftLayer_Security_Certificate"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Security_Certificate"

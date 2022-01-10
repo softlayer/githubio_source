@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Policy_Document_Acceptance_Quote"
-description: ""
+description: "The SoftLayer_Billing_Oder_Quote data type records acceptance of policy documents for a quote. "
 date: "2018-02-12"
 tags:
     - "datatype"

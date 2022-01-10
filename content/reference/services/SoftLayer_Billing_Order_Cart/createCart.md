@@ -9,7 +9,7 @@ tags:
     - "sldn"
     - "Billing"
 classes:
-    - "createCart"
+    - "SoftLayer_Billing_Order_Cart"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Billing_Order_Cart"

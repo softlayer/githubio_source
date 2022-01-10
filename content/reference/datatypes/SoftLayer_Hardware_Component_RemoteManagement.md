@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Hardware_Component_RemoteManagement"
-description: ""
+description: "This class adds functionality to the base SoftLayer_Hardware class for web servers (all server hardware) "
 date: "2018-02-12"
 tags:
     - "datatype"

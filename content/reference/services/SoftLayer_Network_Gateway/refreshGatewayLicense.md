@@ -9,7 +9,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "refreshGatewayLicense"
+    - "SoftLayer_Network_Gateway"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Gateway"

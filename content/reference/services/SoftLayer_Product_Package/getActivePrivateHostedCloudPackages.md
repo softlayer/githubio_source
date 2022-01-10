@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Product"
 classes:
-    - "getActivePrivateHostedCloudPackages"
+    - "SoftLayer_Product_Package"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Product_Package"

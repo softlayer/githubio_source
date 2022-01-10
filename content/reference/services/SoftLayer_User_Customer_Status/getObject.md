@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "User"
 classes:
-    - "getObject"
+    - "SoftLayer_User_Customer_Status"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_User_Customer_Status"

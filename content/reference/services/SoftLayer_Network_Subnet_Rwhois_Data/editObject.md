@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "editObject"
+    - "SoftLayer_Network_Subnet_Rwhois_Data"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Subnet_Rwhois_Data"

@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "editObject"
+    - "SoftLayer_Network_LBaaS_L7Policy"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_LBaaS_L7Policy"

@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Hardware_Switch"
-description: ""
+description: "The SoftLayer_Hardware_Switch object extends the base functionality of the SoftLayer_Hardware service. "
 date: "2018-02-12"
 tags:
     - "datatype"

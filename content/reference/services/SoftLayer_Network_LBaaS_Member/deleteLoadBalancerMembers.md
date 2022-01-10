@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "deleteLoadBalancerMembers"
+    - "SoftLayer_Network_LBaaS_Member"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_LBaaS_Member"

@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Authentication_Request_OpenIdConnect_External_Verisign"
-description: ""
+description: "The SoftLayer_Container_Authentication_Request_OpenIdConnect_External_Verisign data type contains information for requests to the getPortalLogin API. This class provides information to allow the user to submit a request to the SoftLayer OpenIdConnect (token) login service for a portal login token, as well as submitting a request to the Verisign 2 factor authentication service. "
 date: "2018-02-12"
 tags:
     - "datatype"

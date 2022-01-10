@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Product_Order_NewCustomerSetup"
-description: ""
+description: "This is the datatype that needs to be populated and sent to SoftLayer_Product_Order::placeOrder when linking a Bluemix account to a newly created SoftLayer account. "
 date: "2018-02-12"
 tags:
     - "datatype"

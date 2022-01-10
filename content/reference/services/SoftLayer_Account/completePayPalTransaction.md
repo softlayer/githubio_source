@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Account"
 classes:
-    - "completePayPalTransaction"
+    - "SoftLayer_Account"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Account"

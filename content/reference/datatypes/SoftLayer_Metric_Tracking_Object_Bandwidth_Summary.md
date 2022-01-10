@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Metric_Tracking_Object_Bandwidth_Summary"
-description: ""
+description: "This data type provides commonly used bandwidth summary components for the current billing cycle. "
 date: "2018-02-12"
 tags:
     - "datatype"

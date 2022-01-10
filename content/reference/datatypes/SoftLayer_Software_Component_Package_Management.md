@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Software_Component_Package_Management"
-description: ""
+description: "This object specifies a specific type of Software Component:  A package management instance. "
 date: "2018-02-12"
 tags:
     - "datatype"

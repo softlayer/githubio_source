@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Metric"
 classes:
-    - "getBandwidthTotal"
+    - "SoftLayer_Metric_Tracking_Object"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Metric_Tracking_Object"

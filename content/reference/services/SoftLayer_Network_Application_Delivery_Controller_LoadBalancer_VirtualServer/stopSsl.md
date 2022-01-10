@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "stopSsl"
+    - "SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualServer"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualServer"

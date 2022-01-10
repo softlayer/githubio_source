@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Region"
 classes:
-    - "getAllObjects"
+    - "IntegratedOfferingTeam_Region"
 type: "reference"
 layout: "method"
 mainService : "IntegratedOfferingTeam_Region"

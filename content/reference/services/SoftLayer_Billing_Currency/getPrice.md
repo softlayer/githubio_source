@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Billing"
 classes:
-    - "getPrice"
+    - "SoftLayer_Billing_Currency"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Billing_Currency"

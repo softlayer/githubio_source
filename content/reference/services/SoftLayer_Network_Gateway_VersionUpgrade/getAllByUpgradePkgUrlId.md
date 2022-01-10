@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "getAllByUpgradePkgUrlId"
+    - "SoftLayer_Network_Gateway_VersionUpgrade"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Gateway_VersionUpgrade"

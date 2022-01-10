@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Software_Component_HostIps_Mcafee"
-description: ""
+description: "The SoftLayer_Software_Component_HostIps_Mcafee represents a single host IPS software component. "
 date: "2018-02-12"
 tags:
     - "datatype"

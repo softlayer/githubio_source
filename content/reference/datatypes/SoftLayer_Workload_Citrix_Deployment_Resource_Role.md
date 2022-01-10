@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Workload_Citrix_Deployment_Resource_Role"
-description: ""
+description: "SoftLayer_Workload_Citrix_Deployment_Resource_Role contains the role and its description of any resource of Citrix Virtual Apps & Desktops deployment. "
 date: "2018-02-12"
 tags:
     - "datatype"

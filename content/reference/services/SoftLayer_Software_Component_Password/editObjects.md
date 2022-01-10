@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Software"
 classes:
-    - "editObjects"
+    - "SoftLayer_Software_Component_Password"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Software_Component_Password"

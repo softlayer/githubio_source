@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Bandwidth_Projection"
-description: ""
+description: "SoftLayer_Container_Bandwidth_Projection models projected bandwidth use over a time range."
 date: "2018-02-12"
 tags:
     - "datatype"

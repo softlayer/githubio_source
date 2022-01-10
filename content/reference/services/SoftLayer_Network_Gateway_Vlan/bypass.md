@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "bypass"
+    - "SoftLayer_Network_Gateway_Vlan"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Gateway_Vlan"

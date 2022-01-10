@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "verifyDomainMapping"
+    - "SoftLayer_Network_CdnMarketplace_Configuration_Mapping"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_CdnMarketplace_Configuration_Mapping"

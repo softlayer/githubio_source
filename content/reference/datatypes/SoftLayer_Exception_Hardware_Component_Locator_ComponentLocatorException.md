@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Exception_Hardware_Component_Locator_ComponentLocatorException"
-description: ""
+description: "This exception is thrown if the component locator client cannot find or communicate with the component locator service. "
 date: "2018-02-12"
 tags:
     - "datatype"

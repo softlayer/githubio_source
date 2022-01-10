@@ -1,6 +1,8 @@
 ---
 title: "SoftLayer_Container_Product_Order_Storage_Group"
-description: ""
+description: "A single storage group container used for a hardware server order. 
+
+This object describes a single storage group that can be added to an order container. "
 date: "2018-02-12"
 tags:
     - "datatype"

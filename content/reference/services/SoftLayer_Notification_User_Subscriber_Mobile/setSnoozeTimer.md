@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Notification"
 classes:
-    - "setSnoozeTimer"
+    - "SoftLayer_Notification_User_Subscriber_Mobile"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Notification_User_Subscriber_Mobile"

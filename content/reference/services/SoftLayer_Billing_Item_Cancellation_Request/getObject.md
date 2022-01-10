@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Billing"
 classes:
-    - "getObject"
+    - "SoftLayer_Billing_Item_Cancellation_Request"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Billing_Item_Cancellation_Request"

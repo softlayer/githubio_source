@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "updateL7Rules"
+    - "SoftLayer_Network_LBaaS_L7Rule"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_LBaaS_L7Rule"

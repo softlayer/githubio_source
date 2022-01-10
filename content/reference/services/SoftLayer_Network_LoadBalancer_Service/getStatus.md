@@ -22,7 +22,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "getStatus"
+    - "SoftLayer_Network_LoadBalancer_Service"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_LoadBalancer_Service"

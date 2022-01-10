@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Security"
 classes:
-    - "getAdministratorEmailDomains"
+    - "SoftLayer_Security_Certificate_Request"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Security_Certificate_Request"

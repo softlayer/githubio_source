@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Virtual_ReservedCapacityGroup_Instance"
-description: "SoftLayer_Virtual_ReservedCapacityGroup_Instance reserves capacity for a single instance of a reserved capacity group. "
+description: "This data type presents the structure for a virtual reserved capacity group instance. "
 date: "2018-02-12"
 tags:
     - "datatype"

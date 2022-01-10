@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "getAllObjects"
+    - "SoftLayer_Network_DirectLink_Location"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_DirectLink_Location"

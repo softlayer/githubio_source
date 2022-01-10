@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Marketplace"
 classes:
-    - "getPartnerByUrlIdentifier"
+    - "SoftLayer_Marketplace_Partner"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Marketplace_Partner"

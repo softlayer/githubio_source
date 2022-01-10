@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Virtual"
 classes:
-    - "editObject"
+    - "SoftLayer_Virtual_ReservedCapacityGroup"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Virtual_ReservedCapacityGroup"

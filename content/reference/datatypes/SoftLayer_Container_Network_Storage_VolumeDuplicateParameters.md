@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Network_Storage_VolumeDuplicateParameters"
-description: ""
+description: "Container for Volume Duplicate Information "
 date: "2018-02-12"
 tags:
     - "datatype"

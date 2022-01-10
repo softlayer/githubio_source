@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "User"
 classes:
-    - "addResourceObject"
+    - "SoftLayer_User_Permission_Group"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_User_Permission_Group"

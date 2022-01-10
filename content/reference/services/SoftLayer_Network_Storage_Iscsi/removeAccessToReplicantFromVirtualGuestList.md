@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "removeAccessToReplicantFromVirtualGuestList"
+    - "SoftLayer_Network_Storage_Iscsi"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Storage_Iscsi"

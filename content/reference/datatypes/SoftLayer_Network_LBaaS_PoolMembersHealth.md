@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_LBaaS_PoolMembersHealth"
-description: ""
+description: "SoftLayer_Network_LBaaS_PoolMembersHealth provides statistics of members belonging to a particular pool. "
 date: "2018-02-12"
 tags:
     - "datatype"

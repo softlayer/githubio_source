@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_User_Customer_CustomerPermission_Permission"
-description: "Portal account users who are not the master user (account owner) have permissions to allow them access to portal functionalities. "
+description: "Each SoftLayer portal account is assigned a series of permissions that determine what access the user has to functions within the SoftLayer customer portal. This status is reflected in the SoftLayer_User_Customer_Status data type. Permissions differ from user status in that user status applies globally to the portal while user permissions are applied to specific portal functions. "
 date: "2018-02-12"
 tags:
     - "datatype"

@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Account_Update_Response"
-description: ""
+description: "Contains data related to an account after editing its information. "
 date: "2018-02-12"
 tags:
     - "datatype"

@@ -1,6 +1,8 @@
 ---
 title: "SoftLayer_Configuration_Template_Section_Type"
-description: "Configuration section type "
+description: "The SoftLayer_Configuration_Template_Section_Type data type contains information of a configuration section type. 
+
+Configuration can contain sub-sections. "
 date: "2018-02-12"
 tags:
     - "datatype"

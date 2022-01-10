@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Software"
 classes:
-    - "updateHipsPolicies"
+    - "SoftLayer_Software_Component_HostIps"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Software_Component_HostIps"

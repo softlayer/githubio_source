@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Hardware_Server_Configuration"
-description: ""
+description: "The SoftLayer_Container_Hardware_Server_Configuration data type contains information relating to a server's item price information, and hard drive partition information. "
 date: "2018-02-12"
 tags:
     - "datatype"

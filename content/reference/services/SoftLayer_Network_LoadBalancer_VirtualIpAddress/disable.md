@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "disable"
+    - "SoftLayer_Network_LoadBalancer_VirtualIpAddress"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_LoadBalancer_VirtualIpAddress"

@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Virtual"
 classes:
-    - "pauseLiveGuest"
+    - "SoftLayer_Virtual_Host"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Virtual_Host"

@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Ticket_Update_Employee"
-description: "Retrieve an update to a ticket made by a SoftLayer employee. Ticket updates created by employees have the option of being rated on a one to five scale. Because customer updates don't have this ability the SoftLayer_Ticket_Update_Employee class has it's own service. "
+description: "The SoftLayer_Ticket_Update_Employee data type models an update to a ticket made by a SoftLayer employee. "
 date: "2018-02-12"
 tags:
     - "datatype"

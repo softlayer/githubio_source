@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Product_Package_Preset_Attribute"
-description: ""
+description: "Package preset attributes contain supplementary information for a package preset. "
 date: "2018-02-12"
 tags:
     - "datatype"

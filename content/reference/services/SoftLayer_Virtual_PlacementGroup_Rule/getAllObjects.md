@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Virtual"
 classes:
-    - "getAllObjects"
+    - "SoftLayer_Virtual_PlacementGroup_Rule"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Virtual_PlacementGroup_Rule"

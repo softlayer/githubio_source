@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Account_Link_OpenStack_ProjectDetails"
-description: ""
+description: "OpenStack project details"
 date: "2018-02-12"
 tags:
     - "datatype"

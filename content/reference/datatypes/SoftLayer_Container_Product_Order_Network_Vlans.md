@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Product_Order_Network_Vlans"
-description: ""
+description: "This class contains the collections of public and private VLANs that are available during the ordering process. "
 date: "2018-02-12"
 tags:
     - "datatype"

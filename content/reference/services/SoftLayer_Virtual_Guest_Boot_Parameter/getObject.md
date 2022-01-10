@@ -1,13 +1,13 @@
 ---
 title: "getObject"
-description: ""
+description: "Retrieve a SoftLayer_Virtual_Guest_Boot_Parameter record."
 date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Virtual"
 classes:
-    - "getObject"
+    - "SoftLayer_Virtual_Guest_Boot_Parameter"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Virtual_Guest_Boot_Parameter"

@@ -1,6 +1,6 @@
 ---
 title: "McAfee_Epolicy_Orchestrator_Version36_Hips_Version6_Event_Signature"
-description: ""
+description: "The McAfee_Epolicy_Orchestrator_Version36_Hips_Version6_Event_Signature data type contains the signature name of a rule that generated an IPS event."
 date: "2018-02-12"
 tags:
     - "datatype"

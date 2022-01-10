@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Virtual"
 classes:
-    - "editObject"
+    - "SoftLayer_Virtual_Disk_Image"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Virtual_Disk_Image"

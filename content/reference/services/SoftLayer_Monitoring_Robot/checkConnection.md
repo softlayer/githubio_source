@@ -9,7 +9,7 @@ tags:
     - "sldn"
     - "Monitoring"
 classes:
-    - "checkConnection"
+    - "SoftLayer_Monitoring_Robot"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Monitoring_Robot"

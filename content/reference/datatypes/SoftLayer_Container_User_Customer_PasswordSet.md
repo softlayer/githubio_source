@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_User_Customer_PasswordSet"
-description: ""
+description: "Container for holding information necessary for the setting and resetting of customer passwords "
 date: "2018-02-12"
 tags:
     - "datatype"

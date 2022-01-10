@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Account"
 classes:
-    - "deleteOSProject"
+    - "SoftLayer_Account_Link_OpenStack"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Account_Link_OpenStack"

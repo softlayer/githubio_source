@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "User"
 classes:
-    - "isValidPortalPassword"
+    - "SoftLayer_User_Customer_OpenIdConnect"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_User_Customer_OpenIdConnect"

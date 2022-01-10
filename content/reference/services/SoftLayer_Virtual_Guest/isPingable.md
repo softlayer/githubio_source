@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Virtual"
 classes:
-    - "isPingable"
+    - "SoftLayer_Virtual_Guest"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Virtual_Guest"

@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "deleteObjects"
+    - "SoftLayer_Network_Service_Vpn_Overrides"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Service_Vpn_Overrides"

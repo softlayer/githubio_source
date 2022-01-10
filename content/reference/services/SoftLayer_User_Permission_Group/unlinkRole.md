@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "User"
 classes:
-    - "unlinkRole"
+    - "SoftLayer_User_Permission_Group"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_User_Permission_Group"

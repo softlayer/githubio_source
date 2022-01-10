@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "FlexibleCredit"
 classes:
-    - "getAffiliatesAvailableForSelfEnrollmentByVerificationType"
+    - "SoftLayer_FlexibleCredit_Program"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_FlexibleCredit_Program"

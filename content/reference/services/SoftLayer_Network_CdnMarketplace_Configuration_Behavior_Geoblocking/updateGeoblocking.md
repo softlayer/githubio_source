@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "updateGeoblocking"
+    - "SoftLayer_Network_CdnMarketplace_Configuration_Behavior_Geoblocking"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_CdnMarketplace_Configuration_Behavior_Geoblocking"

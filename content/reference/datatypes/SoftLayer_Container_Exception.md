@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Exception"
-description: ""
+description: "The SoftLayer_Container_Exception data type represents a SoftLayer_Exception. "
 date: "2018-02-12"
 tags:
     - "datatype"

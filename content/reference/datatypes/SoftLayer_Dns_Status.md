@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Dns_Status"
-description: ""
+description: "The SoftLayer_Dns_Status data type contains information for a DNS status "
 date: "2018-02-12"
 tags:
     - "datatype"

@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Utility_File_Entity"
-description: ""
+description: "SoftLayer_Container_Utility_File_Entity data type models a single entity on a storage resource. Entities can include anything within a storage volume including files, folders, directories, and CloudLayer storage projects. "
 date: "2018-02-12"
 tags:
     - "datatype"

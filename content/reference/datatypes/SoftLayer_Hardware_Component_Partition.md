@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Hardware_Component_Partition"
-description: ""
+description: "The SoftLayer_Hardware_Component_Partition data type contains general information relating to a single hard drive partition. "
 date: "2018-02-12"
 tags:
     - "datatype"

@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Product"
 classes:
-    - "getExternalPaymentAuthorizationReceipt"
+    - "SoftLayer_Product_Order"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Product_Order"

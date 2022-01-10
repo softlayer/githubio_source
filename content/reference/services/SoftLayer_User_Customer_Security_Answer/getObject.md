@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "User"
 classes:
-    - "getObject"
+    - "SoftLayer_User_Customer_Security_Answer"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_User_Customer_Security_Answer"

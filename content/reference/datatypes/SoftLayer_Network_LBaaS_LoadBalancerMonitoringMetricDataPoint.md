@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_LBaaS_LoadBalancerMonitoringMetricDataPoint"
-description: ""
+description: "SoftLayer_Network_LBaaS_LoadBalancerMonitoringMetricDataPoint is a collection of datapoints retrieved from a load balancer instance. The available metrics are: <ul> <li>The metric value </li> <li>The timestamp when the metric value was obtained </li> </ul> "
 date: "2018-02-12"
 tags:
     - "datatype"

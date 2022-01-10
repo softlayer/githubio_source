@@ -1,6 +1,8 @@
 ---
 title: "SoftLayer_Virtual_Disk_Image"
-description: ""
+description: "The virtual disk image data type presents the structure in which a virtual disk image will be presented. 
+
+Virtual block devices are assigned to disk images. "
 date: "2018-02-12"
 tags:
     - "datatype"

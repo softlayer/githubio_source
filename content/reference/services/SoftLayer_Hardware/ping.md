@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Hardware"
 classes:
-    - "ping"
+    - "SoftLayer_Hardware"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Hardware"

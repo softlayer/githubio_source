@@ -11,7 +11,7 @@ tags:
     - "sldn"
     - "Hardware"
 classes:
-    - "rebootDefault"
+    - "SoftLayer_Hardware"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Hardware"

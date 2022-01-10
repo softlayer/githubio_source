@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Hardware_Component_RemoteManagement_User"
-description: ""
+description: "The credentials used for remote management such as username, password, etc... "
 date: "2018-02-12"
 tags:
     - "datatype"

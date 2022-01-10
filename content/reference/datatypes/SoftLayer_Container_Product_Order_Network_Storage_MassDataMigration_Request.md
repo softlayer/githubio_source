@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Product_Order_Network_Storage_MassDataMigration_Request"
-description: ""
+description: "This datatype is to be used for mass data migration requests. "
 date: "2018-02-12"
 tags:
     - "datatype"

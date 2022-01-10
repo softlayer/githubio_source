@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "getKeylifeLimits"
+    - "SoftLayer_Network_Tunnel_Module_Context"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Tunnel_Module_Context"

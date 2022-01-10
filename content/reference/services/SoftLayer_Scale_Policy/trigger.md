@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Scale"
 classes:
-    - "trigger"
+    - "SoftLayer_Scale_Policy"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Scale_Policy"

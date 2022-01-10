@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "getObject"
+    - "SoftLayer_Network_Monitor_Version1_Query_Host"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Monitor_Version1_Query_Host"

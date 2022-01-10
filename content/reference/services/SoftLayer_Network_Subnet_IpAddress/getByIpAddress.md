@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "getByIpAddress"
+    - "SoftLayer_Network_Subnet_IpAddress"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Subnet_IpAddress"

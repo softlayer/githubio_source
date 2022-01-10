@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Notification_Delivery_Method"
-description: ""
+description: "Provides details for the delivery methods available. "
 date: "2018-02-12"
 tags:
     - "datatype"

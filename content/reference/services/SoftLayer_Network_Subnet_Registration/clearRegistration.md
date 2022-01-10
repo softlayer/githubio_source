@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "clearRegistration"
+    - "SoftLayer_Network_Subnet_Registration"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Subnet_Registration"

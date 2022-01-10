@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Software"
 classes:
-    - "getCustomerOwnedLicenseDescriptions"
+    - "SoftLayer_Software_Description"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Software_Description"

@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Virtual"
 classes:
-    - "getAverageDiskUsageMetricDataFromInfluxByDate"
+    - "SoftLayer_Virtual_Storage_Repository"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Virtual_Storage_Repository"

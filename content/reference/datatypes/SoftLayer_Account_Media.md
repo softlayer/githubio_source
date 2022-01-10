@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Account_Media"
-description: "SoftLayer's data transfer request media service allows users to access and manage their media devices that they have submitted through SoftLayer's Data Transfer Service. "
+description: "The SoftLayer_Account_Media data type contains information on a single piece of media associated with a Data Transfer Service request. "
 date: "2018-02-12"
 tags:
     - "datatype"

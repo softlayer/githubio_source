@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "createObjects"
+    - "SoftLayer_Network_Gateway_Member"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Gateway_Member"

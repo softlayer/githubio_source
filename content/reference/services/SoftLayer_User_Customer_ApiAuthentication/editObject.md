@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "User"
 classes:
-    - "editObject"
+    - "SoftLayer_User_Customer_ApiAuthentication"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_User_Customer_ApiAuthentication"

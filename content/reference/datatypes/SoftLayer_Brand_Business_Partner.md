@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Brand_Business_Partner"
-description: ""
+description: "Contains business partner details associated with a brand. Country Enterprise Identifier (CEID), Channel ID, Segment ID and Reseller Level. "
 date: "2018-02-12"
 tags:
     - "datatype"

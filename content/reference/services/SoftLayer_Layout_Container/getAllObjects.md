@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Layout"
 classes:
-    - "getAllObjects"
+    - "SoftLayer_Layout_Container"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Layout_Container"

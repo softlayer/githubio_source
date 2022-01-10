@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Virtual"
 classes:
-    - "getIsoBootImage"
+    - "SoftLayer_Virtual_Guest"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Virtual_Guest"

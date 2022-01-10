@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Billing_Currency_Country"
-description: "The SoftLayer_Billing_Currency_Country service provides information about what currencies a customer in a specific country is eligible to use. "
+description: "The SoftLayer_Billing_Currency_Country data type maps what currencies are valid for specific countries. US Dollars are valid from any country, but other currencies are only available to customers in certain countries. "
 date: "2018-02-12"
 tags:
     - "datatype"

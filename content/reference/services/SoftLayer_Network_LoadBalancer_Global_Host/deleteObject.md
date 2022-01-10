@@ -9,7 +9,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "deleteObject"
+    - "SoftLayer_Network_LoadBalancer_Global_Host"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_LoadBalancer_Global_Host"

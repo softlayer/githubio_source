@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Virtual_Host_PciDevice"
-description: ""
+description: "This type represents a PCI device on a host. "
 date: "2018-02-12"
 tags:
     - "datatype"

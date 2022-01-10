@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Account"
 classes:
-    - "isOverThresholdReviewer"
+    - "SoftLayer_Account_ProofOfConcept"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Account_ProofOfConcept"

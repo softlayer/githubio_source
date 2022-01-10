@@ -1,13 +1,13 @@
 ---
 title: "getObject"
-description: ""
+description: "Retrieve a SoftLayer_Tag record."
 date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Tag"
 classes:
-    - "getObject"
+    - "SoftLayer_Tag"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Tag"

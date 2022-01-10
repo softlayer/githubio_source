@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Hardware_Component_SecurityDevice"
-description: ""
+description: "The SoftLayer_Hardware_Component_SecurityDevice is used to determine the security devices attached to the hardware component. "
 date: "2018-02-12"
 tags:
     - "datatype"

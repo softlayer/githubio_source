@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Collection_Locale_StateCode"
-description: ""
+description: "This container is used to hold information regarding a state or province. "
 date: "2018-02-12"
 tags:
     - "datatype"

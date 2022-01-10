@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Bandwidth_GraphInputs"
-description: ""
+description: "SoftLayer_Container_Bandwidth_GraphInputs models a single inbound object for a given bandwidth graph."
 date: "2018-02-12"
 tags:
     - "datatype"

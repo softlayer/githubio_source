@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Sales"
 classes:
-    - "getAllObjects"
+    - "SoftLayer_Sales_Presale_Event"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Sales_Presale_Event"

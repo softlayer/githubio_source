@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_SecurityGroup_OrderBinding"
-description: ""
+description: "The SoftLayer_Network_SecurityGroup_OrderBinding data type contains links between security groups and product orders. "
 date: "2018-02-12"
 tags:
     - "datatype"

@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Account_Shipment"
-description: "SoftLayer's shipment service allows the user to access information pertaining to a shipment from the user to SoftLayer or from SoftLayer to the user. "
+description: "The SoftLayer_Account_Shipment data type contains information relating to a shipment. Basic information such as addresses, the shipment courier, and any tracking information for as shipment is accessible with this data type. "
 date: "2018-02-12"
 tags:
     - "datatype"

@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Search"
 classes:
-    - "findBluePagesProfile"
+    - "BluePages_Search"
 type: "reference"
 layout: "method"
 mainService : "BluePages_Search"

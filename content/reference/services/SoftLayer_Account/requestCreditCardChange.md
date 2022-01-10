@@ -9,7 +9,7 @@ tags:
     - "sldn"
     - "Account"
 classes:
-    - "requestCreditCardChange"
+    - "SoftLayer_Account"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Account"

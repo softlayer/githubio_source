@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Dns_Domain_Reverse_Version6"
-description: ""
+description: "The SoftLayer_Dns_Domain_Reverse_Version6 data type represents a reverse IPv6 address record. "
 date: "2018-02-12"
 tags:
     - "datatype"

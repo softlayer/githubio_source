@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Hardware_Component_DriveController"
-description: ""
+description: "The SoftLayer_Hardware_Component_DriveController data type abstracts information related to a drive controller. "
 date: "2018-02-12"
 tags:
     - "datatype"

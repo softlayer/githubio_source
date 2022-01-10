@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "deleteObject"
+    - "SoftLayer_Network_Subnet_Registration_Details"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Subnet_Registration_Details"

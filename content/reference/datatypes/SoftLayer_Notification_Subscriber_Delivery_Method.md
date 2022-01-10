@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Notification_Subscriber_Delivery_Method"
-description: ""
+description: "Provides details for the subscriber's delivery methods. "
 date: "2018-02-12"
 tags:
     - "datatype"

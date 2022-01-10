@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Account"
 classes:
-    - "hasExistingRequest"
+    - "SoftLayer_Account_Internal_Ibm"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Account_Internal_Ibm"

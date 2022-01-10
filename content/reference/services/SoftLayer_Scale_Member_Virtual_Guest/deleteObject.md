@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Scale"
 classes:
-    - "deleteObject"
+    - "SoftLayer_Scale_Member_Virtual_Guest"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Scale_Member_Virtual_Guest"

@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Software_Description_Attribute_Type"
-description: ""
+description: "The SoftLayer_Software_Description_Attribute_Type data type represents the type of an attribute. "
 date: "2018-02-12"
 tags:
     - "datatype"

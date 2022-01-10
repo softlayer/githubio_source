@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_LBaaS_L7PoolMembersHealth"
-description: ""
+description: "SoftLayer_Network_LBaaS_L7PoolMembersHealth provides statistics of members belonging to a particular L7 pool. "
 date: "2018-02-12"
 tags:
     - "datatype"

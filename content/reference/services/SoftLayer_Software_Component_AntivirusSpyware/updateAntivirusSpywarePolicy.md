@@ -12,7 +12,7 @@ tags:
     - "sldn"
     - "Software"
 classes:
-    - "updateAntivirusSpywarePolicy"
+    - "SoftLayer_Software_Component_AntivirusSpyware"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Software_Component_AntivirusSpyware"

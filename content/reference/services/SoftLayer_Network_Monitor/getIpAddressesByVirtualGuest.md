@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "getIpAddressesByVirtualGuest"
+    - "SoftLayer_Network_Monitor"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Monitor"

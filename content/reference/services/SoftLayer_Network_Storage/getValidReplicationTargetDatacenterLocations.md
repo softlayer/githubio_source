@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "getValidReplicationTargetDatacenterLocations"
+    - "SoftLayer_Network_Storage"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Storage"

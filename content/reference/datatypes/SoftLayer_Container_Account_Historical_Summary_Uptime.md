@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Account_Historical_Summary_Uptime"
-description: ""
+description: "Historical Summary Container for account host's resource uptime details "
 date: "2018-02-12"
 tags:
     - "datatype"

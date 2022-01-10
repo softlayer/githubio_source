@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Product"
 classes:
-    - "getComputingCategories"
+    - "SoftLayer_Product_Item_Category"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Product_Item_Category"

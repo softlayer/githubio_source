@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Ticket_Update_Chat"
-description: ""
+description: "A SoftLayer_Ticket_Update_Chat is a chat between a customer and a customer service representative relating to a ticket. "
 date: "2018-02-12"
 tags:
     - "datatype"

@@ -9,7 +9,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "osReloadPrecheck"
+    - "SoftLayer_Network_Gateway_Precheck"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Gateway_Precheck"

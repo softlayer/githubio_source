@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Product_Item_Requirement"
-description: ""
+description: "The SoftLayer_Product_Item_Requirement data type contains information relating to what requirements, if any, exist for an item. The requiredItemId local property is the item id that is required. "
 date: "2018-02-12"
 tags:
     - "datatype"

@@ -1,8 +1,8 @@
 ---
 title: "SoftLayer_Network_LoadBalancer_VirtualIpAddress"
-description: "Each SoftLayer customer that has purchased a load balancer will have one defined in the SoftLayer_Network_LoadBalancer_VirtualIpAddress service.  Load balancers have a virtual IP address and a number of SoftLayer_Network_LoadBalancer_Service objects associated with them.  The SoftLayer_Network_LoadBalancer_VirtualIpAddress object is the only way for a customer to make changes to their load balancer service. 
+description: "The SoftLayer_Network_LoadBalancer_VirtualIpAddress data type contains all the information relating to a specific load balancer assigned to a customer account. 
 
-Load balancers can be upgraded by using the upgradeConnectionLimit function, but this will upgrade your billing accordingly.  Downgrades are currently not supported, please open a ticket to accomplish a downgrade. "
+Information retained on the object itself is the virtual IP address, load balancing method, and any notes that are related to the load balancer.  There is also an array of SoftLayer_Network_LoadBalancer_Service objects, which represent the load balancer services, explained more fully in the SoftLayer_Network_LoadBalancer_Service documentation. "
 date: "2018-02-12"
 tags:
     - "datatype"

@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "User"
 classes:
-    - "deleteObject"
+    - "SoftLayer_User_Customer_MobileDevice"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_User_Customer_MobileDevice"

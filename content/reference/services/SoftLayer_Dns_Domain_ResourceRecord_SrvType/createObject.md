@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Dns"
 classes:
-    - "createObject"
+    - "SoftLayer_Dns_Domain_ResourceRecord_SrvType"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Dns_Domain_ResourceRecord_SrvType"

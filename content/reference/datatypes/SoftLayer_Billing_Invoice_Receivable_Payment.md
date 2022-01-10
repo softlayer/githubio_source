@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Billing_Invoice_Receivable_Payment"
-description: ""
+description: "The SoftLayer_Billing_Invoice_Receivable_Payment data type contains general information relating to payments made against invoices. "
 date: "2018-02-12"
 tags:
     - "datatype"

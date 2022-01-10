@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Billing"
 classes:
-    - "deleteCart"
+    - "SoftLayer_Billing_Order_Cart"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Billing_Order_Cart"

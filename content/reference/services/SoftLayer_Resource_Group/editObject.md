@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Resource"
 classes:
-    - "editObject"
+    - "SoftLayer_Resource_Group"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Resource_Group"

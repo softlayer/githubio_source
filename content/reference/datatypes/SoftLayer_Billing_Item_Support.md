@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Billing_Item_Support"
-description: ""
+description: "The SoftLayer_Billing_Item_Support data type contains general information relating to a premium support offering "
 date: "2018-02-12"
 tags:
     - "datatype"

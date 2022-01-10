@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Account"
 classes:
-    - "editObject"
+    - "SoftLayer_Account_Password"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Account_Password"

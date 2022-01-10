@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Survey"
 classes:
-    - "getObject"
+    - "SoftLayer_Survey"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Survey"

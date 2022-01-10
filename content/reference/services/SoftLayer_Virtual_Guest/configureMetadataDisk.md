@@ -9,7 +9,7 @@ tags:
     - "sldn"
     - "Virtual"
 classes:
-    - "configureMetadataDisk"
+    - "SoftLayer_Virtual_Guest"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Virtual_Guest"

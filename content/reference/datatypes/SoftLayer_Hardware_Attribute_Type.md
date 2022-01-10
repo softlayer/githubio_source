@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Hardware_Attribute_Type"
-description: ""
+description: "Retrieve attributes associated with a hardware object. "
 date: "2018-02-12"
 tags:
     - "datatype"

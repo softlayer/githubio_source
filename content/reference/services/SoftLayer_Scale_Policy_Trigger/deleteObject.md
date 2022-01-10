@@ -1,13 +1,13 @@
 ---
 title: "deleteObject"
-description: ""
+description: "Delete this trigger."
 date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Scale"
 classes:
-    - "deleteObject"
+    - "SoftLayer_Scale_Policy_Trigger"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Scale_Policy_Trigger"

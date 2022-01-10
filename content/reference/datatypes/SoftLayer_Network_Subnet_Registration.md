@@ -1,8 +1,6 @@
 ---
 title: "SoftLayer_Network_Subnet_Registration"
-description: "Subnet registration objects are used to request and track registration of the subnet with the appropriate Regional Internet Registry (RIR). Registration for public subnets can be requested any time after assignment of the subnet. 
-
-Subnet Registration objects can be updated any time after they are created. This will result in the information being submitted to the RIR and the records on their end being refreshed. "
+description: "The subnet registration data type contains general information relating to a single subnet registration instance. These registration instances can be updated to reflect changes, and will record the changes in the [SoftLayer_Network_Subnet_Registration_Event](reference/datatypes/SoftLayer_Network_Subnet_Registration_Event). "
 date: "2018-02-12"
 tags:
     - "datatype"

@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Provisioning"
 classes:
-    - "getAllHookTypes"
+    - "SoftLayer_Provisioning_Hook_Type"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Provisioning_Hook_Type"

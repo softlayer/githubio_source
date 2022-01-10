@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Software_Component_Password_History"
-description: ""
+description: "This object allows you to find the history of password changes for a specific SoftLayer_Software Component "
 date: "2018-02-12"
 tags:
     - "datatype"

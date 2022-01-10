@@ -15,7 +15,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "getAllObjects"
+    - "SoftLayer_Network_Pod"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Pod"

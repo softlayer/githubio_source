@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Dns"
 classes:
-    - "getObject"
+    - "SoftLayer_Dns_Secondary"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Dns_Secondary"

@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Collection_Locale_VatCountryCodeAndFormat"
-description: ""
+description: "This container is used to hold VAT information. "
 date: "2018-02-12"
 tags:
     - "datatype"

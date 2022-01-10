@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Product"
 classes:
-    - "updateMaintenanceWindow"
+    - "SoftLayer_Product_Upgrade_Request"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Product_Upgrade_Request"

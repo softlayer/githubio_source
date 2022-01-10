@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Hardware"
 classes:
-    - "getObject"
+    - "SoftLayer_Hardware_Component_Partition_Template"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Hardware_Component_Partition_Template"

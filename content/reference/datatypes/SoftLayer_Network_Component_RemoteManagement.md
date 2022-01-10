@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_Component_RemoteManagement"
-description: ""
+description: "The SoftLayer_Network_Component_RemoteManagement data type contains general information relating to a single SoftLayer remote management network component. "
 date: "2018-02-12"
 tags:
     - "datatype"

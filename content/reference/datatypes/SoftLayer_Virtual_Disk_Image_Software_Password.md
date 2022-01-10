@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Virtual_Disk_Image_Software_Password"
-description: ""
+description: "This SoftLayer_Virtual_Disk_Image_Software_Password data type contains a password for a specific virtual disk image software instance. "
 date: "2018-02-12"
 tags:
     - "datatype"

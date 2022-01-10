@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Collection_Locale_CountryCode"
-description: ""
+description: "This container is used to hold country locale information. "
 date: "2018-02-12"
 tags:
     - "datatype"

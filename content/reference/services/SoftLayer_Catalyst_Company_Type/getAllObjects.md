@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Catalyst"
 classes:
-    - "getAllObjects"
+    - "SoftLayer_Catalyst_Company_Type"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Catalyst_Company_Type"

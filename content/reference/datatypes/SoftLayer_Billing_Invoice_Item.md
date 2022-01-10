@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Billing_Invoice_Item"
-description: "Every invoice item is defined in the SoftLayer_Billing_Invoice_Item service. Softlayer billing invoice items have details about the items that reside within an invoice. These items detail, for instance, the recurring and one time charges for each item billed. "
+description: "Each billing invoice item makes up a record within an invoice. This provides you with a detailed record of everything related to an invoice item. When you are billed, our system takes active billing items and creates an invoice. These invoice items are a copy of your active billing items, and make up the contents of your invoice. "
 date: "2018-02-12"
 tags:
     - "datatype"

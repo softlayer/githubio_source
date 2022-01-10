@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Ticket"
 classes:
-    - "getExtensionWhitelist"
+    - "SoftLayer_Ticket_Attachment_File"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Ticket_Attachment_File"

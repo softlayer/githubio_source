@@ -1,6 +1,8 @@
 ---
 title: "SoftLayer_Network_LBaaS_SSLCipher"
-description: ""
+description: "The SoftLayer_Network_LBaaS_SSLCipher type presents a structure that contains attributes of load balancer cipher suites. 
+
+"
 date: "2018-02-12"
 tags:
     - "datatype"

@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Ticket"
 classes:
-    - "createUpgradeTicket"
+    - "SoftLayer_Ticket"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Ticket"

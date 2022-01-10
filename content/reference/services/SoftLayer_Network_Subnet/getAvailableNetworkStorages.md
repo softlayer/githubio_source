@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "getAvailableNetworkStorages"
+    - "SoftLayer_Network_Subnet"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Subnet"

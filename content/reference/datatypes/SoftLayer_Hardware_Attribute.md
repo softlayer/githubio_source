@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Hardware_Attribute"
-description: ""
+description: "The SoftLayer_Hardware_Attribute type contains general information for a hardware attribute. Hardware attributes can be assigned to specific hardware objects to describe relatively arbitrary information. "
 date: "2018-02-12"
 tags:
     - "datatype"

@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Product_Item"
-description: ""
+description: "The SoftLayer_Product_Item data type contains general information relating to a single SoftLayer product. "
 date: "2018-02-12"
 tags:
     - "datatype"

@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Billing_Item_Network_Bandwidth"
-description: ""
+description: "The SoftLayer_Billing_Item_Hardware data type contains general information relating to a single SoftLayer billing item for hardware. "
 date: "2018-02-12"
 tags:
     - "datatype"

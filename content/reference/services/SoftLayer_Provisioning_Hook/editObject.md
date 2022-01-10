@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Provisioning"
 classes:
-    - "editObject"
+    - "SoftLayer_Provisioning_Hook"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Provisioning_Hook"

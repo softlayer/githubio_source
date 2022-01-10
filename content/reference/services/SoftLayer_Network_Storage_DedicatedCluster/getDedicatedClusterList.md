@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "getDedicatedClusterList"
+    - "SoftLayer_Network_Storage_DedicatedCluster"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Storage_DedicatedCluster"

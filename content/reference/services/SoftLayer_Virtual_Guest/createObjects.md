@@ -12,7 +12,7 @@ values.
 <b>Warning:</b> Computing instances created via this method will incur charges on your account. 
 
 
-See [[SoftLayer_Virtual_Guest/createObject|createObject]] for specifics on the requirements of each template object. 
+See [SoftLayer_Virtual_Guest::createObject](reference/services/SoftLayer_Virtual_Guest/createObject) for specifics on the requirements of each template object. 
 
 
 <h1>Example</h1> 
@@ -91,7 +91,7 @@ tags:
     - "sldn"
     - "Virtual"
 classes:
-    - "createObjects"
+    - "SoftLayer_Virtual_Guest"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Virtual_Guest"

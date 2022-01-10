@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "removeFromVolume"
+    - "SoftLayer_Network_Storage_Group_Iscsi"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Storage_Group_Iscsi"

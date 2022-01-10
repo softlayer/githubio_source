@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "getPorts"
+    - "SoftLayer_Network_Interconnect_Tenant"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Interconnect_Tenant"

@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Product_Order_Network"
-description: ""
+description: "(DEPRECATED) This type contains the structure of network-related objects that may be specified when ordering services. "
 date: "2018-02-12"
 tags:
     - "datatype"

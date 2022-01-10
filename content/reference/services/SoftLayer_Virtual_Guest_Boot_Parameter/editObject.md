@@ -1,13 +1,13 @@
 ---
 title: "editObject"
-description: ""
+description: "Edits a single boot parameter"
 date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Virtual"
 classes:
-    - "editObject"
+    - "SoftLayer_Virtual_Guest_Boot_Parameter"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Virtual_Guest_Boot_Parameter"

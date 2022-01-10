@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Layout_Preference"
-description: ""
+description: "The SoftLayer_Layout_Preference contains definitions for default layout item preferences "
 date: "2018-02-12"
 tags:
     - "datatype"

@@ -9,7 +9,7 @@ tags:
     - "sldn"
     - "Ticket"
 classes:
-    - "getAllTicketGroups"
+    - "SoftLayer_Ticket"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Ticket"

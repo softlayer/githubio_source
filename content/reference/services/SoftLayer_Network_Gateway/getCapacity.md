@@ -9,7 +9,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "getCapacity"
+    - "SoftLayer_Network_Gateway"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Gateway"

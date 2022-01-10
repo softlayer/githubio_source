@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Hardware_Component_Firmware_Attribute_Type"
-description: ""
+description: "The SoftLayer_Hardware_Component_Firmware_Attribute_Type data type defines attribute types for a hardware component model's firmware. "
 date: "2018-02-12"
 tags:
     - "datatype"

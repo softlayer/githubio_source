@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Virtual_ConsoleData"
-description: ""
+description: "The SoftLayer_Container_Virtual_ConsoleData data type contains information used to access a VSIs console "
 date: "2018-02-12"
 tags:
     - "datatype"

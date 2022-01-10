@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Virtual"
 classes:
-    - "disable"
+    - "SoftLayer_Virtual_Guest_Network_Component"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Virtual_Guest_Network_Component"

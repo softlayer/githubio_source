@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Billing"
 classes:
-    - "getExcel"
+    - "SoftLayer_Billing_Invoice_Next"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Billing_Invoice_Next"

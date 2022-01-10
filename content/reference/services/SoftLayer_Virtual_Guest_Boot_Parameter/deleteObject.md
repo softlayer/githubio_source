@@ -1,13 +1,13 @@
 ---
 title: "deleteObject"
-description: ""
+description: "Removes a boot parameter"
 date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Virtual"
 classes:
-    - "deleteObject"
+    - "SoftLayer_Virtual_Guest_Boot_Parameter"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Virtual_Guest_Boot_Parameter"

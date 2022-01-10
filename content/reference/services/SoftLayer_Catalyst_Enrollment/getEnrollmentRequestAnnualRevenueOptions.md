@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Catalyst"
 classes:
-    - "getEnrollmentRequestAnnualRevenueOptions"
+    - "SoftLayer_Catalyst_Enrollment"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Catalyst_Enrollment"

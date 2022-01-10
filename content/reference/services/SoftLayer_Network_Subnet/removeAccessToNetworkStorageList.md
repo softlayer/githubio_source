@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "removeAccessToNetworkStorageList"
+    - "SoftLayer_Network_Subnet"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Subnet"

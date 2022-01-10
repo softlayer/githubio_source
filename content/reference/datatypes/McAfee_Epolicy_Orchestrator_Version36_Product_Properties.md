@@ -1,6 +1,6 @@
 ---
 title: "McAfee_Epolicy_Orchestrator_Version36_Product_Properties"
-description: ""
+description: "The McAfee_Epolicy_Orchestrator_Version36_Product_Properties data type contains the virus definition file version."
 date: "2018-02-12"
 tags:
     - "datatype"

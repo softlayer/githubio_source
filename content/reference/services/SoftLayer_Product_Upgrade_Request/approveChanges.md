@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Product"
 classes:
-    - "approveChanges"
+    - "SoftLayer_Product_Upgrade_Request"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Product_Upgrade_Request"

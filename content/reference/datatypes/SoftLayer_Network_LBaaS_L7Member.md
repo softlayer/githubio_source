@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_LBaaS_L7Member"
-description: "The SoftLayer_Network_LBaaS_L7Member service allows consumers to manage (backend) members for L7 pools. A load balancer may have one or more L7 backend pools. A member can be added to one or more L7 backend pools. Deleting a backend member from one L7 pool will not remove it from other L7 pools to which it is associated. Weight of the backend member is a value between 1 and 256 but only applicable when the load balancing method configured is 'Weighted Round Robin'. "
+description: "The SoftLayer_Network_LBaaS_L7Member represents the backend member for a L7 pool. It can be either a virtual server or a bare metal machine. "
 date: "2018-02-12"
 tags:
     - "datatype"

@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Account_ProofOfConcept_Contact_Customer"
-description: ""
+description: "The customer and prospective owner of a proof of concept account established by an IBMer. "
 date: "2018-02-12"
 tags:
     - "datatype"

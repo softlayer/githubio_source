@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Virtual"
 classes:
-    - "createObject"
+    - "SoftLayer_Virtual_PlacementGroup"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Virtual_PlacementGroup"

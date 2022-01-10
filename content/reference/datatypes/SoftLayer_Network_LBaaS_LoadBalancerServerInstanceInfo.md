@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_LBaaS_LoadBalancerServerInstanceInfo"
-description: ""
+description: "SoftLayer_Network_LBaaS_LoadBalancerServerInstanceInfo specifies the application server, usually an IBM SoftLayer virtual server or bare metal system, to be assigned to a load balancer. "
 date: "2018-02-12"
 tags:
     - "datatype"

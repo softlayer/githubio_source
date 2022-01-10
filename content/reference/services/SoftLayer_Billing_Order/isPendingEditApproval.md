@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Billing"
 classes:
-    - "isPendingEditApproval"
+    - "SoftLayer_Billing_Order"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Billing_Order"

@@ -9,7 +9,7 @@ tags:
     - "sldn"
     - "Configuration"
 classes:
-    - "getAllGroups"
+    - "SoftLayer_Configuration_Template_Section_Definition_Group"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Configuration_Template_Section_Definition_Group"

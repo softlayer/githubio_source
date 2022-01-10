@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Notification"
 classes:
-    - "acknowledgeNotification"
+    - "SoftLayer_Notification_Occurrence_Event"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Notification_Occurrence_Event"

@@ -22,7 +22,7 @@ tags:
     - "sldn"
     - "Ticket"
 classes:
-    - "createCancelServerTicket"
+    - "SoftLayer_Ticket"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Ticket"

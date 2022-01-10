@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Dns_Domain_Reverse_Version4"
-description: ""
+description: "The SoftLayer_Dns_Domain_Reverse_Version4 data type represents a reverse IPv4 address record. "
 date: "2018-02-12"
 tags:
     - "datatype"

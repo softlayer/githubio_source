@@ -1,6 +1,6 @@
 ---
 title: "activatePublicPort"
-description: "Activate a server's public network interface to the maximum available speed. This operation is an alias for [[SoftLayer_Hardware_Server/setPublicNetworkInterfaceSpeed]] with a $newSpeed of -1 and a $redundancy of 'redundant' or unspecified (which results in the best available redundancy state). 
+description: "Activate a server's public network interface to the maximum available speed. This operation is an alias for [SoftLayer_Hardware_Server::setPublicNetworkInterfaceSpeed](reference/services/SoftLayer_Hardware_Server/setPublicNetworkInterfaceSpeed) with a $newSpeed of -1 and a $redundancy of 'redundant' or unspecified (which results in the best available redundancy state). 
 
 Receipt of a response does not indicate completion of the configuration change. Any subsequent attempts to request the interface change speed or state, while changes are pending, will result in a busy error. 
 
@@ -11,7 +11,7 @@ tags:
     - "sldn"
     - "Hardware"
 classes:
-    - "activatePublicPort"
+    - "SoftLayer_Hardware_Server"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Hardware_Server"

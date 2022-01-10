@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Billing"
 classes:
-    - "placeOrder"
+    - "SoftLayer_Billing_Order_Quote"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Billing_Order_Quote"

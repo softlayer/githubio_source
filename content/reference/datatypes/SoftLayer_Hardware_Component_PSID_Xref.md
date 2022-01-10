@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Hardware_Component_PSID_Xref"
-description: ""
+description: "The SoftLayer_Hardware_Component_PSID_Xref data type holds physical security ID information for hard drives "
 date: "2018-02-12"
 tags:
     - "datatype"

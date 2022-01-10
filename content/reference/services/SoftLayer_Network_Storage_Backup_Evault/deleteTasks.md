@@ -11,7 +11,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "deleteTasks"
+    - "SoftLayer_Network_Storage_Backup_Evault"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Storage_Backup_Evault"

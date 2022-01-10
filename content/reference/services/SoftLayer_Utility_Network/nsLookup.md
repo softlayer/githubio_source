@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Utility"
 classes:
-    - "nsLookup"
+    - "SoftLayer_Utility_Network"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Utility_Network"

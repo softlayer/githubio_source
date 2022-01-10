@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Software_Component_HostIps_Policy"
-description: ""
+description: "The SoftLayer_Container_Software_Component_HostIps_Policy container holds the title and value of a current host ips policy."
 date: "2018-02-12"
 tags:
     - "datatype"

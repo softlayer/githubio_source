@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_User_External_Binding_Vendor"
-description: "The SoftLayer_User_External_Binding_Vendor service is used to retrieve a list of available 3rd party vendors that SoftLayer supports for external bindings. "
+description: "The SoftLayer_User_External_Binding_Vendor data type contains information for a single external binding vendor.  This information includes a user friendly vendor name, a unique version of the vendor name, and a unique internal identifier that can be used when creating a new external binding. "
 date: "2018-02-12"
 tags:
     - "datatype"

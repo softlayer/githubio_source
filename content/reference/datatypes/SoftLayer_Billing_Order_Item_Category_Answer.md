@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Billing_Order_Item_Category_Answer"
-description: ""
+description: "The SoftLayer_Billing_Order_Item_Category_Answer data type represents a single answer to an item category question. "
 date: "2018-02-12"
 tags:
     - "datatype"

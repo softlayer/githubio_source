@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Product_Item_Bundles"
-description: ""
+description: "The SoftLayer_Product_Item_Bundles contains item to price cross references. Relates a category, price and item to a bundle.  Match bundle ids to see all items and prices in a particular bundle. "
 date: "2018-02-12"
 tags:
     - "datatype"

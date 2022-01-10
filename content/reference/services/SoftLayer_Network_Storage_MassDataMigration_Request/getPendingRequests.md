@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "getPendingRequests"
+    - "SoftLayer_Network_Storage_MassDataMigration_Request"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Storage_MassDataMigration_Request"

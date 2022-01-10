@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_LBaaS_Pool"
-description: ""
+description: "The SoftLayer_Network_LBaaS_Pool type presents a structure containing attributes of a load balancer pool such as the protocol, protocol port and the load balancing algorithm used. "
 date: "2018-02-12"
 tags:
     - "datatype"

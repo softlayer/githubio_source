@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Catalyst_ManualEnrollmentRequest"
-description: ""
+description: "Contains user information used to request a manual Catalyst enrollment. "
 date: "2018-02-12"
 tags:
     - "datatype"

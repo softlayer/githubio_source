@@ -25,7 +25,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "getPrecheckStatus"
+    - "SoftLayer_Network_Gateway_Precheck"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Gateway_Precheck"

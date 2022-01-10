@@ -11,7 +11,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "deleteFiles"
+    - "SoftLayer_Network_Storage"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Storage"

@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Auxiliary"
 classes:
-    - "getMarketingEvents"
+    - "SoftLayer_Auxiliary_Marketing_Event"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Auxiliary_Marketing_Event"

@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "editObject"
+    - "SoftLayer_Network_Storage_Schedule"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Storage_Schedule"

@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Product_Package_Order_Step_Next"
-description: ""
+description: "This datatype simply describes which steps are next in line for ordering. "
 date: "2018-02-12"
 tags:
     - "datatype"

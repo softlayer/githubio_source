@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Billing_Invoice_Tax_Status"
-description: "Invoice tax status allows the SoftLayer system to track the status of an invoice if the related tax is being calculated by a third-party service. This allows us to know when tax has been calculated and applied successfully and when it has not. "
+description: "The invoice tax status data type models a single status or state that an invoice can reflect in regard to an integration with a third-party tax calculation service. "
 date: "2018-02-12"
 tags:
     - "datatype"

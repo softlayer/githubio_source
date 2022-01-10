@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Product_Item_Category"
-description: ""
+description: "The SoftLayer_Container_Product_Item_Category data type represents a single product item category. "
 date: "2018-02-12"
 tags:
     - "datatype"

@@ -1,13 +1,13 @@
 ---
 title: "getObject"
-description: ""
+description: "Retrieve a SoftLayer_Brand record."
 date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Brand"
 classes:
-    - "getObject"
+    - "SoftLayer_Brand"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Brand"

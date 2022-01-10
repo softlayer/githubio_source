@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_Regional_Internet_Registry"
-description: ""
+description: "Regional Internet Registries are the organizations who delegate IP address blocks to other groups or organizations around the Internet. The information contained in this data type is used throughout the networking-related services in our systems. "
 date: "2018-02-12"
 tags:
     - "datatype"

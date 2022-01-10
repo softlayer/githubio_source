@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Hardware"
 classes:
-    - "getObject"
+    - "SoftLayer_Hardware_Component_Model"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Hardware_Component_Model"

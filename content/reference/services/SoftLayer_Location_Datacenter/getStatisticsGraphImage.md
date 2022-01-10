@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Location"
 classes:
-    - "getStatisticsGraphImage"
+    - "SoftLayer_Location_Datacenter"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Location_Datacenter"

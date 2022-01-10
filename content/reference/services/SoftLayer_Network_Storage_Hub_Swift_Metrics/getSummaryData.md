@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "getSummaryData"
+    - "SoftLayer_Network_Storage_Hub_Swift_Metrics"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Storage_Hub_Swift_Metrics"

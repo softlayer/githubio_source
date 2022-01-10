@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Account"
 classes:
-    - "getAllObjects"
+    - "SoftLayer_Account_Regional_Registry_Detail_Property_Type"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Account_Regional_Registry_Detail_Property_Type"

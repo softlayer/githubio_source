@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Tax_Cache_Item"
-description: ""
+description: "This represents one order item in a tax calculation. "
 date: "2018-02-12"
 tags:
     - "datatype"

@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "updateSslCiphers"
+    - "SoftLayer_Network_LBaaS_LoadBalancer"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_LBaaS_LoadBalancer"

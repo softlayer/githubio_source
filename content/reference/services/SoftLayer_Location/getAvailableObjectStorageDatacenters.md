@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Location"
 classes:
-    - "getAvailableObjectStorageDatacenters"
+    - "SoftLayer_Location"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Location"

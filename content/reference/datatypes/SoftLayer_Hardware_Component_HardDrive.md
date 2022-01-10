@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Hardware_Component_HardDrive"
-description: ""
+description: "The SoftLayer_Hardware_Component_HardDrive data type abstracts information related to a hard drive. "
 date: "2018-02-12"
 tags:
     - "datatype"

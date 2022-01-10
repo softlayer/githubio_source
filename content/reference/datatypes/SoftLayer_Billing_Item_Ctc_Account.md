@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Billing_Item_Ctc_Account"
-description: ""
+description: "The SoftLayer_Billing_Item_Ctc_Account data type contains general information relating to a single SoftLayer billing item for a CTC client account creation "
 date: "2018-02-12"
 tags:
     - "datatype"

@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_Storage_Backup_Evault"
-description: "SoftLayer provides the EVault backup system as a part of it's Storage service offerings. EVault is an incremental and automated backup solution with Windows and web-based management clients. The SoftLayer_Network_Storage_Backup_Evault service allows portal and API users to work with their EVault accounts. The large majority of EVault functionality is implemented in the SoftLayer_Network_Storage_Backup_Evault_Version6 service. "
+description: "The SoftLayer_Network_Storage_Backup_Evault contains general information regarding an EVault Storage service such as account id, username, maximum capacity, password, Storage's product type and the server id. "
 date: "2018-02-12"
 tags:
     - "datatype"

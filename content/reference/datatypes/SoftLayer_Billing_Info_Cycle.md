@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Billing_Info_Cycle"
-description: ""
+description: "The SoftLayer_Billing_Info_Cycle data type models basic information concerning a SoftLayer account's previous and current billing cycles. The information in this class is only populated for SoftLayer customers who are billed monthly. "
 date: "2018-02-12"
 tags:
     - "datatype"

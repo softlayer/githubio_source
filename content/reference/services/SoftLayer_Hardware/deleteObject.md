@@ -8,7 +8,7 @@ tags:
     - "sldn"
     - "Hardware"
 classes:
-    - "deleteObject"
+    - "SoftLayer_Hardware"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Hardware"

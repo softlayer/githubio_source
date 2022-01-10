@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Virtual"
 classes:
-    - "getAllObjects"
+    - "SoftLayer_Virtual_Guest_Boot_Parameter_Type"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Virtual_Guest_Boot_Parameter_Type"

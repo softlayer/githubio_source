@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Search_Result"
-description: ""
+description: "The SoftLayer_Container_Search_Result data type represents a result row from an execution of Search service. "
 date: "2018-02-12"
 tags:
     - "datatype"

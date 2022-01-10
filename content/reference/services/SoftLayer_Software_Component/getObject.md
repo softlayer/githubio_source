@@ -9,7 +9,7 @@ tags:
     - "sldn"
     - "Software"
 classes:
-    - "getObject"
+    - "SoftLayer_Software_Component"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Software_Component"

@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Dns"
 classes:
-    - "getAllObjects"
+    - "SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status"

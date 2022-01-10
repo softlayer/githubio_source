@@ -9,7 +9,7 @@ tags:
     - "sldn"
     - "Billing"
 classes:
-    - "claim"
+    - "SoftLayer_Billing_Order_Quote"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Billing_Order_Quote"

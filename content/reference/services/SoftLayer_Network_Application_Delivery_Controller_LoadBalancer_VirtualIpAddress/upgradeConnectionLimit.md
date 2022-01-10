@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "upgradeConnectionLimit"
+    - "SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_VirtualIpAddress"

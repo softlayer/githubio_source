@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Hardware_Component_Partition_Template"
-description: "Every SoftLayer Partition Template is defined in the SoftLayer_Hardware_Component_Partition_Template service. The '''SoftLayer_Hardware_Component_Partition_Template''' service defines all SoftLayer Partition Templates that exist. SoftLayer Partition Templates group together several partitions that define a configuration of templates for a particular hard drive. "
+description: "The SoftLayer_Hardware_Component_Partition_Template data type contains general information relating to a single SoftLayer partition template.  Partition templates group 1 or more partition configurations that can be used to predefine how a hard drive's partitions will be configured. "
 date: "2018-02-12"
 tags:
     - "datatype"

@@ -1,13 +1,13 @@
 ---
 title: "createTokenAuthPath"
-description: ""
+description: "SOAP API will create Token authentication Path for an existing CDN mapping and for a particular customer. "
 date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
-    - "createTokenAuthPath"
+    - "SoftLayer_Network_CdnMarketplace_Configuration_Behavior_TokenAuth"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_CdnMarketplace_Configuration_Behavior_TokenAuth"

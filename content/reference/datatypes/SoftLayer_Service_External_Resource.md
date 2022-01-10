@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Service_External_Resource"
-description: ""
+description: "The SoftLayer_Service_External_Resource is a placeholder that references a service being provided outside of the standard SoftLayer system. "
 date: "2018-02-12"
 tags:
     - "datatype"

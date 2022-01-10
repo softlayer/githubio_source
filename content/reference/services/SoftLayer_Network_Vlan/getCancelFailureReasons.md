@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "getCancelFailureReasons"
+    - "SoftLayer_Network_Vlan"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Vlan"

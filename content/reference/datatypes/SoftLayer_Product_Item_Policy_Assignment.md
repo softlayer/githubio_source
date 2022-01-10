@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Product_Item_Policy_Assignment"
-description: "Serves as a data source for additional information about the policy to product assignment."
+description: "Represents the assignment of a policy to a product. The existence of a record means that the associated product is subject to the terms defined in the document content of the policy. "
 date: "2018-02-12"
 tags:
     - "datatype"

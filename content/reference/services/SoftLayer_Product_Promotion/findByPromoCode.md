@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Product"
 classes:
-    - "findByPromoCode"
+    - "SoftLayer_Product_Promotion"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Product_Promotion"

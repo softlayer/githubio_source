@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Product_Package_Inventory"
-description: ""
+description: "This is deprecated. "
 date: "2018-02-12"
 tags:
     - "datatype"

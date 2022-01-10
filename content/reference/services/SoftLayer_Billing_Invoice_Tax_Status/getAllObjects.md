@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Billing"
 classes:
-    - "getAllObjects"
+    - "SoftLayer_Billing_Invoice_Tax_Status"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Billing_Invoice_Tax_Status"

@@ -9,7 +9,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "createObject"
+    - "SoftLayer_Network_Firewall_Update_Request"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Firewall_Update_Request"

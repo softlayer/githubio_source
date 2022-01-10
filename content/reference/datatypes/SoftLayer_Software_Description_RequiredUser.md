@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Software_Description_RequiredUser"
-description: ""
+description: "This class represents a software description's required user "
 date: "2018-02-12"
 tags:
     - "datatype"

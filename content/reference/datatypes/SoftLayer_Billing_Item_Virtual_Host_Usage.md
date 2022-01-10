@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Billing_Item_Virtual_Host_Usage"
-description: ""
+description: "The SoftLayer_Billing_Item_Virtual_Host_Usage data type contains general information relating to a single SoftLayer billing item for virtual machine peak usage "
 date: "2018-02-12"
 tags:
     - "datatype"

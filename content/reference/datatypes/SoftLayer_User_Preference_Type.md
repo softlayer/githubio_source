@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_User_Preference_Type"
-description: ""
+description: "The SoftLayer_User_Preference_Type data type contains a single preference type including the accepted values. "
 date: "2018-02-12"
 tags:
     - "datatype"

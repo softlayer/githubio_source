@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_User_Customer_MobileDevice_OperatingSystem"
-description: ""
+description: "This class represents the mobile operating system installed on a user's registered mobile device. It assists us when determining the how to get a push notification to the user. "
 date: "2018-02-12"
 tags:
     - "datatype"

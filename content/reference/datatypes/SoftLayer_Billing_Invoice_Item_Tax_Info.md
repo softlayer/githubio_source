@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Billing_Invoice_Item_Tax_Info"
-description: ""
+description: "Information about the tax rates that apply to a particular invoice item. "
 date: "2018-02-12"
 tags:
     - "datatype"

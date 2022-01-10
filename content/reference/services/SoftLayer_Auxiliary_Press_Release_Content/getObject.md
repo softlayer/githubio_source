@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Auxiliary"
 classes:
-    - "getObject"
+    - "SoftLayer_Auxiliary_Press_Release_Content"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Auxiliary_Press_Release_Content"

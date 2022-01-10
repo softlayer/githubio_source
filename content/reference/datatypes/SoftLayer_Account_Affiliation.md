@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Account_Affiliation"
-description: ""
+description: "This service allows for a unique identifier to be associated to an existing customer account. "
 date: "2018-02-12"
 tags:
     - "datatype"

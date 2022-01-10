@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "restoreDefaults"
+    - "SoftLayer_Network_Vlan_Firewall"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Vlan_Firewall"

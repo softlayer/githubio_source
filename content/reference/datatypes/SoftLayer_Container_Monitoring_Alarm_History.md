@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Monitoring_Alarm_History"
-description: ""
+description: "The SoftLayer_Container_Monitoring_Alarm_History data type contains information relating to SoftLayer monitoring alarm history. "
 date: "2018-02-12"
 tags:
     - "datatype"

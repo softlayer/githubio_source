@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Configuration_Template_Attribute"
-description: ""
+description: "Configuration template attribute class contains supplementary information for a configuration template. "
 date: "2018-02-12"
 tags:
     - "datatype"

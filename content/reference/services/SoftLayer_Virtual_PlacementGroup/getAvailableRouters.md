@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Virtual"
 classes:
-    - "getAvailableRouters"
+    - "SoftLayer_Virtual_PlacementGroup"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Virtual_PlacementGroup"

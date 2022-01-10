@@ -1,13 +1,13 @@
 ---
 title: "getObject"
-description: ""
+description: "Retrieve a SoftLayer_Hardware_SecurityModule record."
 date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Hardware"
 classes:
-    - "getObject"
+    - "SoftLayer_Hardware_SecurityModule"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Hardware_SecurityModule"

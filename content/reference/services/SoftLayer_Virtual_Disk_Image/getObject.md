@@ -1,13 +1,13 @@
 ---
 title: "getObject"
-description: ""
+description: "Retrieve a SoftLayer_Virtual_Disk_Image record."
 date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Virtual"
 classes:
-    - "getObject"
+    - "SoftLayer_Virtual_Disk_Image"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Virtual_Disk_Image"

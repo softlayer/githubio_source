@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Hardware_Component_SecurityDevice_Infineon"
-description: ""
+description: "The SoftLayer_Hardware_Component_SecurityDevice_Infineon is used to determine the Infineon security device attached to the hardware component. "
 date: "2018-02-12"
 tags:
     - "datatype"

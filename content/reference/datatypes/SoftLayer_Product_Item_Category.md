@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Product_Item_Category"
-description: "Retrieve the category information for a product item."
+description: "The SoftLayer_Product_Item_Category data type contains general category information for prices. "
 date: "2018-02-12"
 tags:
     - "datatype"

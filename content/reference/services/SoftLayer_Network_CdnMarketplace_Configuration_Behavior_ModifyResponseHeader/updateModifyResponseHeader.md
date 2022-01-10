@@ -1,13 +1,13 @@
 ---
 title: "updateModifyResponseHeader"
-description: ""
+description: "SOAP API will update modify response header for an existing mapping and for a particular customer. "
 date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
-    - "updateModifyResponseHeader"
+    - "SoftLayer_Network_CdnMarketplace_Configuration_Behavior_ModifyResponseHeader"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_CdnMarketplace_Configuration_Behavior_ModifyResponseHeader"

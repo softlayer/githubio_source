@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Workload"
 classes:
-    - "createResourceLocation"
+    - "SoftLayer_Workload_Citrix_Client"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Workload_Citrix_Client"

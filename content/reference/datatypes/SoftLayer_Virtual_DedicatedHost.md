@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Virtual_DedicatedHost"
-description: "SoftLayer_Virtual_DedicatedHost models a single tenant virtual host dedicated to a specific account. "
+description: "This data type presents the structure for a dedicated host. The data type contains relational properties to distinguish a dedicated host and associate an account to it. "
 date: "2018-02-12"
 tags:
     - "datatype"

@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "getReport"
+    - "SoftLayer_Network_Security_Scanner_Request"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Security_Scanner_Request"

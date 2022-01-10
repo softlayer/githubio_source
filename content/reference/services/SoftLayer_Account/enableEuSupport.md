@@ -11,7 +11,7 @@ tags:
     - "sldn"
     - "Account"
 classes:
-    - "enableEuSupport"
+    - "SoftLayer_Account"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Account"

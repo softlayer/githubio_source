@@ -1,13 +1,13 @@
 ---
 title: "getObject"
-description: ""
+description: "Retrieve a SoftLayer_Notification_User_Subscriber_Billing record."
 date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Notification"
 classes:
-    - "getObject"
+    - "SoftLayer_Notification_User_Subscriber_Billing"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Notification_User_Subscriber_Billing"

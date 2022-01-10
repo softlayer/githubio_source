@@ -1,13 +1,13 @@
 ---
 title: "getPdfDetailedFilename"
-description: ""
+description: "Get the name of the detailed version of the PDF."
 date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Billing"
 classes:
-    - "getPdfDetailedFilename"
+    - "SoftLayer_Billing_Invoice"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Billing_Invoice"

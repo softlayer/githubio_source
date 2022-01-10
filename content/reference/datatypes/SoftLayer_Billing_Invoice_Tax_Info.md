@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Billing_Invoice_Tax_Info"
-description: ""
+description: "Invoice tax information contains top-level information about the taxes recorded for a particular invoice. "
 date: "2018-02-12"
 tags:
     - "datatype"

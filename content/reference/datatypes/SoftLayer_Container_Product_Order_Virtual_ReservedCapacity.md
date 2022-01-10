@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Product_Order_Virtual_ReservedCapacity"
-description: ""
+description: "This is the default container type for Reserved Capacity orders. "
 date: "2018-02-12"
 tags:
     - "datatype"

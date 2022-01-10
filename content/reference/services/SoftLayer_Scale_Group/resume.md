@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Scale"
 classes:
-    - "resume"
+    - "SoftLayer_Scale_Group"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Scale_Group"

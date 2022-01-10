@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Software_Component_ControlPanel_Microsoft"
-description: ""
+description: "This object is a parent class for Microsoft Products, like Web Matrix "
 date: "2018-02-12"
 tags:
     - "datatype"

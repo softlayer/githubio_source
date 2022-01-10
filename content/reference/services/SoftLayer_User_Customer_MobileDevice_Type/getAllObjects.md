@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "User"
 classes:
-    - "getAllObjects"
+    - "SoftLayer_User_Customer_MobileDevice_Type"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_User_Customer_MobileDevice_Type"

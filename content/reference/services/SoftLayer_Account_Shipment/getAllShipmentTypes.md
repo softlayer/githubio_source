@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Account"
 classes:
-    - "getAllShipmentTypes"
+    - "SoftLayer_Account_Shipment"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Account_Shipment"

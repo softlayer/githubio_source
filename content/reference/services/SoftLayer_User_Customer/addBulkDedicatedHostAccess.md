@@ -9,7 +9,7 @@ tags:
     - "sldn"
     - "User"
 classes:
-    - "addBulkDedicatedHostAccess"
+    - "SoftLayer_User_Customer"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_User_Customer"

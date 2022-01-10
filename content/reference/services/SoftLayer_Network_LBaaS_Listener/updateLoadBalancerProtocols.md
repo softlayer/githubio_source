@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "updateLoadBalancerProtocols"
+    - "SoftLayer_Network_LBaaS_Listener"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_LBaaS_Listener"

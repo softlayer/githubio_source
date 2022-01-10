@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Provisioning_Hook"
-description: ""
+description: "The SoftLayer_Provisioning_Hook contains all the information needed to add a hook into a server/Virtual provision and os reload. "
 date: "2018-02-12"
 tags:
     - "datatype"

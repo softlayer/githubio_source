@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Survey_Type"
-description: ""
+description: "The SoftLayer_Survey_Type data type contains survey type information. "
 date: "2018-02-12"
 tags:
     - "datatype"

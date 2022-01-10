@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Hardware"
 classes:
-    - "getByDescription"
+    - "SoftLayer_Hardware_Component_Partition_OperatingSystem"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Hardware_Component_Partition_OperatingSystem"

@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Account"
 classes:
-    - "getAllObjects"
+    - "SoftLayer_Account_ProofOfConcept_Funding_Type"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Account_ProofOfConcept_Funding_Type"

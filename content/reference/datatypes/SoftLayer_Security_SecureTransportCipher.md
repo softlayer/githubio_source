@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Security_SecureTransportCipher"
-description: ""
+description: "Encryption algorithm intended for use in SSL/TLS communications"
 date: "2018-02-12"
 tags:
     - "datatype"

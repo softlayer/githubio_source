@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "User"
 classes:
-    - "getAllObjects"
+    - "SoftLayer_User_External_Binding_Vendor"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_User_External_Binding_Vendor"

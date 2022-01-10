@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Catalyst_Enrollment_Request_MarketingConsent"
-description: ""
+description: "Contains user marketing consent information for Catalyst self-enrollment. "
 date: "2018-02-12"
 tags:
     - "datatype"

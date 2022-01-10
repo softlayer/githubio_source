@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Product_Item_Category_Group"
-description: "Retrieve the category group information for a product item."
+description: "The SoftLayer_Product_Item_Category_Group data type contains general category group information. "
 date: "2018-02-12"
 tags:
     - "datatype"

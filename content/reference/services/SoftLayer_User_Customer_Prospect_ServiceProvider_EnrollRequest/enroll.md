@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "User"
 classes:
-    - "enroll"
+    - "SoftLayer_User_Customer_Prospect_ServiceProvider_EnrollRequest"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_User_Customer_Prospect_ServiceProvider_EnrollRequest"

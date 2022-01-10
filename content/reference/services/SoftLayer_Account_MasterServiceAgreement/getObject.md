@@ -1,13 +1,13 @@
 ---
 title: "getObject"
-description: ""
+description: "Retrieve a SoftLayer_Account_MasterServiceAgreement record."
 date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Account"
 classes:
-    - "getObject"
+    - "SoftLayer_Account_MasterServiceAgreement"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Account_MasterServiceAgreement"

@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "getAllObjects"
+    - "SoftLayer_Network_Storage_Hub_Cleversafe_Account"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Storage_Hub_Cleversafe_Account"

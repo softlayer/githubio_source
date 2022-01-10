@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Software_Component_ControlPanel_R1soft_Cdp"
-description: ""
+description: "This object specifies a specific type of Software Component:  A R1soft continuous data protection instance. "
 date: "2018-02-12"
 tags:
     - "datatype"

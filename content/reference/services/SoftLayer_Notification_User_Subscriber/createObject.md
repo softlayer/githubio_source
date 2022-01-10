@@ -27,7 +27,7 @@ tags:
     - "sldn"
     - "Notification"
 classes:
-    - "createObject"
+    - "SoftLayer_Notification_User_Subscriber"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Notification_User_Subscriber"

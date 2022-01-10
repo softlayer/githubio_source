@@ -1,12 +1,8 @@
 ---
 title: "SoftLayer_Network_Subnet_Rwhois_Data"
-description: "
-**DEPRECATED**
-Use SoftLayer_Account_Regional_Registry_Detail and SoftLayer_Network_Subnet_Registration instead. 
+description: "Every SoftLayer customer account has contact information associated with it for reverse WHOIS purposes. An account's RWHOIS data, modeled by the SoftLayer_Network_Subnet_Rwhois_Data data type, is used by SoftLayer's reverse WHOIS server as well as for SWIP transactions. SoftLayer's reverse WHOIS servers respond to WHOIS queries for IP addresses belonging to a customer's servers, returning this RWHOIS data. 
 
-Every SoftLayer customer account has a RWHOIS record tied to it.  This RWHOIS record is used by SoftLayer's Reverse Whois system as well as SoftLayer's Automated SWIP system. 
-
-This service allows you to update your stored RWHOIS record.  Changing this record automatically updates the RWHOIS record in 24 hours, but does NOT update SWIP data.  You will need to use the SWIP service to do that. "
+A SoftLayer customer's RWHOIS data may not necessarily match their account or portal users' contact information. "
 date: "2018-02-12"
 tags:
     - "datatype"

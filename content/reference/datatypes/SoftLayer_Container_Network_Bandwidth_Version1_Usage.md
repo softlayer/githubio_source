@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Network_Bandwidth_Version1_Usage"
-description: ""
+description: "SoftLayer_Container_Network_Bandwidth_Version1_Usage models an hourly bandwidth record."
 date: "2018-02-12"
 tags:
     - "datatype"

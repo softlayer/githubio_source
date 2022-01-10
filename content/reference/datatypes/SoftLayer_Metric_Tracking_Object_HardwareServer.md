@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Metric_Tracking_Object_HardwareServer"
-description: ""
+description: "SoftLayer_Metric_Tracking_Object_HardwareServer models tracking objects specific to physical hardware and the data that are recorded by those servers. "
 date: "2018-02-12"
 tags:
     - "datatype"

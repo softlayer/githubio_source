@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Configuration_Template"
-description: "Configuration template class encapsulated an arbitrary configuration values for various resources. "
+description: "The SoftLayer_Configuration_Template data type contains general information of an arbitrary resource. "
 date: "2018-02-12"
 tags:
     - "datatype"

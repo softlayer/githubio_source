@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Dns_Domain_Registration"
-description: "Registration and management of domain names and domain related services. "
+description: "The SoftLayer_Dns_Domain_Registration data type represents a domain registration record. "
 date: "2018-02-12"
 tags:
     - "datatype"

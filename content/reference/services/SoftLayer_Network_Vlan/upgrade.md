@@ -9,7 +9,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "upgrade"
+    - "SoftLayer_Network_Vlan"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Vlan"

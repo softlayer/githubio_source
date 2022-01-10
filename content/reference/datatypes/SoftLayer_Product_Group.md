@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Product_Group"
-description: ""
+description: "The SoftLayer_Product_Group data type contains product group relationship. "
 date: "2018-02-12"
 tags:
     - "datatype"

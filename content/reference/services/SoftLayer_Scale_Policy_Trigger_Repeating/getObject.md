@@ -1,13 +1,13 @@
 ---
 title: "getObject"
-description: ""
+description: "Retrieve a SoftLayer_Scale_Policy_Trigger_Repeating record."
 date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Scale"
 classes:
-    - "getObject"
+    - "SoftLayer_Scale_Policy_Trigger_Repeating"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Scale_Policy_Trigger_Repeating"

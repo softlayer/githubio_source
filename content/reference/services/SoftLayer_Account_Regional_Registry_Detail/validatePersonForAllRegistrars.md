@@ -13,7 +13,7 @@ tags:
     - "sldn"
     - "Account"
 classes:
-    - "validatePersonForAllRegistrars"
+    - "SoftLayer_Account_Regional_Registry_Detail"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Account_Regional_Registry_Detail"

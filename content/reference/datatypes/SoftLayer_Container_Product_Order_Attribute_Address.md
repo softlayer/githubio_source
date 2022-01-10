@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Product_Order_Attribute_Address"
-description: ""
+description: "This is the datatype that needs to be populated and sent to SoftLayer_Product_Order::placeOrder. The SoftLayer_Container_Product_Order_Attribute_Address datatype contains the address information. "
 date: "2018-02-12"
 tags:
     - "datatype"

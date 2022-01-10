@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Auxiliary_Notification_Emergency"
-description: "The SoftLayer_Auxiliary_Notification_Emergency service is associated with all actions pertaining to the notification system.  It can be used to check for current network or service interruptions that effect SoftLayer services. "
+description: "A SoftLayer_Auxiliary_Notification_Emergency data object represents a notification event being broadcast to the SoftLayer customer base. It is used to provide information regarding outages or current known issues. "
 date: "2018-02-12"
 tags:
     - "datatype"

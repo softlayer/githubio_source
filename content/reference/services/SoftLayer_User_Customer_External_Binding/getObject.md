@@ -1,13 +1,13 @@
 ---
 title: "getObject"
-description: ""
+description: "Retrieve a SoftLayer_User_Customer_External_Binding record."
 date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "User"
 classes:
-    - "getObject"
+    - "SoftLayer_User_Customer_External_Binding"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_User_Customer_External_Binding"

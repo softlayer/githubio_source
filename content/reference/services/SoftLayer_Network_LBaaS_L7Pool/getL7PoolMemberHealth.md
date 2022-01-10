@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "getL7PoolMemberHealth"
+    - "SoftLayer_Network_LBaaS_L7Pool"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_LBaaS_L7Pool"

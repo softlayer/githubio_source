@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Billing"
 classes:
-    - "getAllCancellationReasons"
+    - "SoftLayer_Billing_Item_Cancellation_Reason"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Billing_Item_Cancellation_Reason"

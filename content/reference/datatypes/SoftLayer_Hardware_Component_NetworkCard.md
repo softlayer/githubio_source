@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Hardware_Component_NetworkCard"
-description: ""
+description: "The SoftLayer_Hardware_Component_NetworkCard data type abstracts information related to a network card. "
 date: "2018-02-12"
 tags:
     - "datatype"

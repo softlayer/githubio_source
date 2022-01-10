@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Software_Component_Security"
-description: ""
+description: "This object specifies a specific type of Software Component:  A security instance. Security installations have custom configurations for password requirements. "
 date: "2018-02-12"
 tags:
     - "datatype"

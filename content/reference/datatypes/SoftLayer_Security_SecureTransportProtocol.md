@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Security_SecureTransportProtocol"
-description: ""
+description: "Protocol intended for use in secure communications"
 date: "2018-02-12"
 tags:
     - "datatype"

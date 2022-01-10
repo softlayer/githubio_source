@@ -1,8 +1,6 @@
 ---
 title: "SoftLayer_Billing_Info"
-description: "SoftLayer billing info contains company billing information such as the last date a payment was made and the last time any billing information was update. Use the data returned by these methods with other API services to get more detailed information about your billing information. 
-
-Due to the sensitivity of your billing information we don't allow changing this data through the API. Please open a sales ticket in our customer portal if you need to change this information. "
+description: "Every SoftLayer customer account has billing specific information which is kept in the SoftLayer_Billing_Info data type. This information is used by the SoftLayer accounting group when sending invoices and making billing inquiries. "
 date: "2018-02-12"
 tags:
     - "datatype"

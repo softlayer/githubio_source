@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Ticket"
 classes:
-    - "getObject"
+    - "SoftLayer_Ticket_Update_Employee"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Ticket_Update_Employee"

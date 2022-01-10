@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Configuration"
 classes:
-    - "hasSubSections"
+    - "SoftLayer_Configuration_Template_Section"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Configuration_Template_Section"

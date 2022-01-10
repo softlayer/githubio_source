@@ -1,8 +1,6 @@
 ---
 title: "SoftLayer_Security_Certificate_Request"
-description: "SoftLayer_Security_Certificate_Request holds your SSL certificate request data. This data is used to manage your SSL certificate order with a Certificate Authority. 
-
-To create an SSL certificate order, pass a completed SoftLayer_Container_Product_Order_Security_Certificate to SoftLayer_Product_Order::placeOrder. "
+description: "The SoftLayer_Security_Certificate_Request data type is used to view details about your SSL certificate order. This contains data that is required by a Certificate Authority to place an SSL certificate order. "
 date: "2018-02-12"
 tags:
     - "datatype"

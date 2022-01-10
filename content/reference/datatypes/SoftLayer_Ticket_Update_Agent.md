@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Ticket_Update_Agent"
-description: ""
+description: "A SoftLayer_Ticket_Update_Agent type models an update to a ticket made by an agent. "
 date: "2018-02-12"
 tags:
     - "datatype"

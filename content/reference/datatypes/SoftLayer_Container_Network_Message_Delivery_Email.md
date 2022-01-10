@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Network_Message_Delivery_Email"
-description: ""
+description: "This datatype is deprecated and will be removed in API version 3.2."
 date: "2018-02-12"
 tags:
     - "datatype"

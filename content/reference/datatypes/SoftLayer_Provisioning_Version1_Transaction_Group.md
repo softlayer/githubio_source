@@ -1,6 +1,8 @@
 ---
 title: "SoftLayer_Provisioning_Version1_Transaction_Group"
-description: "The service lists the different types of transactions. This includes operating system reloads and new operating system provisions. "
+description: "The SoftLayer_Provisioning_Version1_Transaction_Group data type contains general information relating to a single SoftLayer hardware transaction group. 
+
+SoftLayer customers are unable to change their hardware transactions or the hardware transaction group. "
 date: "2018-02-12"
 tags:
     - "datatype"

@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Hardware"
 classes:
-    - "getSensorData"
+    - "SoftLayer_Hardware_Server"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Hardware_Server"

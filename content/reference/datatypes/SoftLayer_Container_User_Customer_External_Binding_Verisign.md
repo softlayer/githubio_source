@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_User_Customer_External_Binding_Verisign"
-description: ""
+description: "Container classed used to hold portal token "
 date: "2018-02-12"
 tags:
     - "datatype"

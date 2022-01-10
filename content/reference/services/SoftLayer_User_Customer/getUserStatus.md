@@ -1,0 +1,14 @@
+---
+title: "getUserStatus"
+description: "A portal user's status, which controls overall access to the SoftLayer customer portal and VPN access to the private network."
+date: "2018-02-12"
+tags:
+    - "method"
+    - "sldn"
+    - "User"
+classes:
+    - "SoftLayer_User_Customer"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_User_Customer"
+---

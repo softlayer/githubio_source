@@ -1,0 +1,14 @@
+---
+title: "getAllowedReplicationVirtualGuests"
+description: "The SoftLayer_Hardware objects which are allowed access to this storage volume's Replicant."
+date: "2018-02-12"
+tags:
+    - "method"
+    - "sldn"
+    - "Network"
+classes:
+    - "SoftLayer_Network_Storage"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Storage"
+---

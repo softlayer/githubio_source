@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_User_Customer_ApiAuthentication"
-description: "An account's user may obtain access to SoftLayer's API through this authentication service. "
+description: "The SoftLayer_User_Customer_ApiAuthentication type contains user's authentication key(s). "
 date: "2018-02-12"
 tags:
     - "datatype"

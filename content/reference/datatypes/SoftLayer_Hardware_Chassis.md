@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Hardware_Chassis"
-description: ""
+description: "Every piece of hardware in SoftLayer's datacenters, including customer servers, are housed in one of many hardware chassis. The SoftLayer_Hardware_Chassis data type defines these chassis. "
 date: "2018-02-12"
 tags:
     - "datatype"

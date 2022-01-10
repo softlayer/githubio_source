@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Location"
-description: "The SoftLayer_Location API service queries SoftLayer's location tree to find locations for all softlayer resources including bare metal servers, virtual servers, storage repositories, datacenters, points of presence, network backbones, and many more. "
+description: "Every piece of hardware and network connection owned by SoftLayer is tracked physically by location and stored in the SoftLayer_Location data type. SoftLayer locations exist in parent/child relationships, a convenient way to track equipment from it's city, datacenter, server room, rack, then slot. Network backbones are tied to datacenters only, not to a room, rack, or slot. "
 date: "2018-02-12"
 tags:
     - "datatype"

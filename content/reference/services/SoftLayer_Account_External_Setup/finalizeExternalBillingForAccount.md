@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Account"
 classes:
-    - "finalizeExternalBillingForAccount"
+    - "SoftLayer_Account_External_Setup"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Account_External_Setup"

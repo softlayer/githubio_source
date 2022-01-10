@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Account_Link_OpenStack_LinkRequest"
-description: ""
+description: "Details required for OpenStack link request"
 date: "2018-02-12"
 tags:
     - "datatype"

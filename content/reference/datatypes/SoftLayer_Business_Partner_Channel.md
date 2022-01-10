@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Business_Partner_Channel"
-description: ""
+description: "Contains business partner channel information "
 date: "2018-02-12"
 tags:
     - "datatype"

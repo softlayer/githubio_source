@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Product_Package_Locations"
-description: ""
+description: "Most packages are available in many locations. This object describes that availability for each package. "
 date: "2018-02-12"
 tags:
     - "datatype"

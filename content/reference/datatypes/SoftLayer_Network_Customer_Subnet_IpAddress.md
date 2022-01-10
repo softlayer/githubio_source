@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_Customer_Subnet_IpAddress"
-description: ""
+description: "The SoftLayer_Network_Customer_Subnet_IpAddress data type contains general information relating to a single Customer Subnet (Remote) IPv4 address. "
 date: "2018-02-12"
 tags:
     - "datatype"

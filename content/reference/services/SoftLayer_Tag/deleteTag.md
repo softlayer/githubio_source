@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Tag"
 classes:
-    - "deleteTag"
+    - "SoftLayer_Tag"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Tag"

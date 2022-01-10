@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Hardware"
 classes:
-    - "getPublicBandwidthGraphImage"
+    - "SoftLayer_Hardware_Server"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Hardware_Server"

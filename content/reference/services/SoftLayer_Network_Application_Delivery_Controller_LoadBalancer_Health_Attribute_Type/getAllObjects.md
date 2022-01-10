@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "getAllObjects"
+    - "SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Attribute_Type"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Attribute_Type"

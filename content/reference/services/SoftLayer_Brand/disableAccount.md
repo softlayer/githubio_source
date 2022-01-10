@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Brand"
 classes:
-    - "disableAccount"
+    - "SoftLayer_Brand"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Brand"

@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Layout"
 classes:
-    - "editObject"
+    - "SoftLayer_Layout_Profile"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Layout_Profile"

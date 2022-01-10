@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Product_Item_Discount_Program"
-description: ""
+description: "The SoftLayer_Container_Product_Item_Discount_Program data type represents the information about a discount that is related to a specific product item. "
 date: "2018-02-12"
 tags:
     - "datatype"

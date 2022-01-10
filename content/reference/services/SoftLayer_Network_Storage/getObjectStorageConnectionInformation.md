@@ -1,13 +1,13 @@
 ---
 title: "getObjectStorageConnectionInformation"
-description: ""
+description: "Retrieve all object storage details for connection"
 date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
-    - "getObjectStorageConnectionInformation"
+    - "SoftLayer_Network_Storage"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Storage"

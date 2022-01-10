@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Ticket"
 classes:
-    - "optOut"
+    - "SoftLayer_Ticket_Survey"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Ticket_Survey"

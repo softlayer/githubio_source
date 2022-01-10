@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Product_Package_Items"
-description: ""
+description: "This data type is a cross-reference between the SoftLayer_Product_Package and the SoftLayer_Product_Item(s) that belong in the SoftLayer_Product_Package. "
 date: "2018-02-12"
 tags:
     - "datatype"

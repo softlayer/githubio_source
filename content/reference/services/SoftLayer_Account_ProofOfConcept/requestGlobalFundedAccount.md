@@ -9,7 +9,7 @@ tags:
     - "sldn"
     - "Account"
 classes:
-    - "requestGlobalFundedAccount"
+    - "SoftLayer_Account_ProofOfConcept"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Account_ProofOfConcept"

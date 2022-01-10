@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Tax_Rates"
-description: ""
+description: "This contains the four tax rates, one for each fee type. "
 date: "2018-02-12"
 tags:
     - "datatype"

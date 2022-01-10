@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Account"
 classes:
-    - "createObject"
+    - "SoftLayer_Account_Note"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Account_Note"

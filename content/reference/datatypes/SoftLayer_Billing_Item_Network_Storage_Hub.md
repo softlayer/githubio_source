@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Billing_Item_Network_Storage_Hub"
-description: ""
+description: "The SoftLayer_Billing_Item_Network_Storage_Hub models all billing items related to hub-based StorageLayer offerings, such as CloudLayer storage. "
 date: "2018-02-12"
 tags:
     - "datatype"

@@ -1,13 +1,13 @@
 ---
 title: "deleteObject"
-description: ""
+description: "Delete this watch from the trigger. You cannot delete the last watch on a trigger. "
 date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Scale"
 classes:
-    - "deleteObject"
+    - "SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch"

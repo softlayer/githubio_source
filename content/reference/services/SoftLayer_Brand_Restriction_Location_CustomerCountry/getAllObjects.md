@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Brand"
 classes:
-    - "getAllObjects"
+    - "SoftLayer_Brand_Restriction_Location_CustomerCountry"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Brand_Restriction_Location_CustomerCountry"

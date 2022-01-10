@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_CdnMarketplace_Account"
-description: "The SoftLayer_Network_CdnMarketplace_Account service allows customers to create, and delete CDN accounts. A SoftLayer_Network_CdnMarketplace_Account record is created when the customer configures a CDN account for the first time. A customer will be able to create multiple CDN accounts, but each account will be bound to a single vendor. "
+description: "The SoftLayer_Network_CdnMarketplace_Account data type models an individual CDN account. CDN accounts contain the SoftLayer account ID of the customer, the vendor ID the account belongs to, the customer ID provided by the vendor, and a CDN account's status. "
 date: "2018-02-12"
 tags:
     - "datatype"

@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Provisioning_Maintenance_Window"
-description: "The SoftLayer_Provisioning_Maintenance_Window service returns available maintenance windows at SoftLayer data centers. "
+description: "The SoftLayer_Provisioning_Maintenance_Window represent a time window that SoftLayer performs a hardware or software maintenance and upgrades. "
 date: "2018-02-12"
 tags:
     - "datatype"

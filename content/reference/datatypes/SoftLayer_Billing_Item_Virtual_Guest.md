@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Billing_Item_Virtual_Guest"
-description: ""
+description: "The SoftLayer_Billing_Item_Virtual_Guest data type contains general information relating to a single SoftLayer billing item for guests. "
 date: "2018-02-12"
 tags:
     - "datatype"

@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Billing_Item_Network_Message_Delivery"
-description: ""
+description: "The SoftLayer_Billing_Item_Network_Message_Delivery data describes the related billing item. "
 date: "2018-02-12"
 tags:
     - "datatype"

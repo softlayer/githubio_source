@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Hardware_Component_Partition_OperatingSystem"
-description: "Every SoftLayer Operating System Partition Template is defined in the '''SoftLayer_Hardware_Component_Partition_OperatingSystem''' service. SoftLayer Operating System Partition Templates indicate which operating system a partition template may be used with to configure a hard drive. "
+description: "The SoftLayer_Hardware_Component_Partition_OperatingSystem data type contains general information relating to a single SoftLayer Operating System Partition Template. "
 date: "2018-02-12"
 tags:
     - "datatype"

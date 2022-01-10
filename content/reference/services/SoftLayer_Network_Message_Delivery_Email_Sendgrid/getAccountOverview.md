@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "getAccountOverview"
+    - "SoftLayer_Network_Message_Delivery_Email_Sendgrid"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Message_Delivery_Email_Sendgrid"

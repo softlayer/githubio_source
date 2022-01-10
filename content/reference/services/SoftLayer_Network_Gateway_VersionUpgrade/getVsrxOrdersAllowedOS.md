@@ -9,7 +9,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "getVsrxOrdersAllowedOS"
+    - "SoftLayer_Network_Gateway_VersionUpgrade"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Gateway_VersionUpgrade"

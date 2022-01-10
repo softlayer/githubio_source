@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Dns"
 classes:
-    - "getZoneFileContents"
+    - "SoftLayer_Dns_Domain"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Dns_Domain"

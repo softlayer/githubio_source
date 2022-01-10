@@ -9,7 +9,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "getObject"
+    - "SoftLayer_Network_Firewall_Template"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Firewall_Template"

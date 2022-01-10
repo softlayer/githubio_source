@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "getObject"
+    - "SoftLayer_Network_Component_Firewall"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Component_Firewall"

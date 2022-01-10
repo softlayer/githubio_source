@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Provisioning"
 classes:
-    - "getAllObjects"
+    - "SoftLayer_Provisioning_Version1_Transaction_Group"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Provisioning_Version1_Transaction_Group"

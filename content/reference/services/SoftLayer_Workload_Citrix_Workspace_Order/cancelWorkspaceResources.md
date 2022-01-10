@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Workload"
 classes:
-    - "cancelWorkspaceResources"
+    - "SoftLayer_Workload_Citrix_Workspace_Order"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Workload_Citrix_Workspace_Order"

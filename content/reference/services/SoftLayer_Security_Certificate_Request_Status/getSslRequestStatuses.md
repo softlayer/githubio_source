@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Security"
 classes:
-    - "getSslRequestStatuses"
+    - "SoftLayer_Security_Certificate_Request_Status"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Security_Certificate_Request_Status"

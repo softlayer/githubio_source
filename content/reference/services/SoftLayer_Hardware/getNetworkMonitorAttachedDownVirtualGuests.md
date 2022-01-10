@@ -1,0 +1,14 @@
+---
+title: "getNetworkMonitorAttachedDownVirtualGuests"
+description: "Virtual guests that are attached downstream to a hardware that have failed monitoring"
+date: "2018-02-12"
+tags:
+    - "method"
+    - "sldn"
+    - "Hardware"
+classes:
+    - "SoftLayer_Hardware"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Hardware"
+---

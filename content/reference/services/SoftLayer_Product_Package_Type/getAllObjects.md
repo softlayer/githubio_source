@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Product"
 classes:
-    - "getAllObjects"
+    - "SoftLayer_Product_Package_Type"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Product_Package_Type"

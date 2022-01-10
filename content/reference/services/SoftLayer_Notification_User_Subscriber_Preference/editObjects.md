@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Notification"
 classes:
-    - "editObjects"
+    - "SoftLayer_Notification_User_Subscriber_Preference"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Notification_User_Subscriber_Preference"

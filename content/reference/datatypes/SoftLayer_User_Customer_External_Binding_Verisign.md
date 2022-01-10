@@ -1,10 +1,18 @@
 ---
 title: "SoftLayer_User_Customer_External_Binding_Verisign"
-description: "SoftLayer provides its customers the ability to add an additional layer of security to the SoftLayer customer portal by requiring that a user login and authenticate with a trusted 3rd party before they are given access to their SoftLayer account.  This is accomplished by creating an external binding for a specific vendor, in this case VeriSign.  When the SoftLayer user attempts to log in to the SoftLayer customer portal they will first be prompted for their normal SoftLayer username and password.  Once that information is verified they will be asked to generate and provide a security code from their VeriSign credential. Once the security code has been authenticated with VeriSign the user will be allowed access to the SoftLayer customer portal. 
+description: "The SoftLayer_User_Customer_External_Binding_Verisign data type contains information about a single VeriSign external binding.  The external binding information is used when a SoftLayer customer logs into the SoftLayer customer portal to authenticate them against a 3rd party, in this case VeriSign. 
 
-The VeriSign external binding service allows a user to create an external binding, enable, disable, or unlock an external binding, and delete an external binding. Currently SoftLayer provides the master account user of a SoftLayer account with one free VeriSign external binding. All subsequent VeriSign external bindings will need to be created by placing an order. 
+The information provided by the VeriSign external binding data type includes: 
+* The type of credential
+* The current state of the credential
+** Enabled
+** Disabled
+** Locked
+* The credential's expiration date
+* The last time the credential was updated
 
-Once a SoftLayer user has a valid and active VeriSign external binding, they will be required to always use their credential to login to the SoftLayer customer portal.  In addition any user with an active external binding will be prohibited from using the API. "
+
+SoftLayer users with an active external binding will be prohibited from using the API for security reasons. "
 date: "2018-02-12"
 tags:
     - "datatype"

@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "getAllResponseTypes"
+    - "SoftLayer_Network_Monitor_Version1_Query_Host_Stratum"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Monitor_Version1_Query_Host_Stratum"

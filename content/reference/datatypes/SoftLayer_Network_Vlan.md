@@ -1,8 +1,6 @@
 ---
 title: "SoftLayer_Network_Vlan"
-description: "Virtual LANs are an integral part of SoftLayer' s public and private networks. A VLAN is a networking concept in which network interfaces on different routers, switches, and servers act as if they're on the same local network broadcast domain. This kind of network segmentation helps keep SoftLayer customers' networks separate from each other and provides a convenient mechanism for routing new IP subnets to servers. They also enable easy IP address sharing and swapping between servers on the same VLAN. SoftLayer servers are provisioned on private VLANs per router on the public and private networks. 
-
-The SoftLayer_Network_Vlan service controls these VLANs and provides relationships between VLANs, subnets, IP addresses, and network components. "
+description: "The SoftLayer_Network_Vlan data type models a single VLAN within SoftLayer's public and private networks. a Virtual LAN is a structure that associates network interfaces on routers, switches, and servers in different locations to act as if they were on the same local network broadcast domain. VLANs are a central part of the SoftLayer network. They can determine how new IP subnets are routed and how individual servers communicate to each other. "
 date: "2018-02-12"
 tags:
     - "datatype"

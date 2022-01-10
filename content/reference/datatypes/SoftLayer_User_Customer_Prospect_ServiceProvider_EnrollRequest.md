@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_User_Customer_Prospect_ServiceProvider_EnrollRequest"
-description: ""
+description: "Contains user information for Service Provider Enrollment. "
 date: "2018-02-12"
 tags:
     - "datatype"

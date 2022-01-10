@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Resource"
 classes:
-    - "getFullyQualifiedDomainName"
+    - "SoftLayer_Resource_Metadata"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Resource_Metadata"

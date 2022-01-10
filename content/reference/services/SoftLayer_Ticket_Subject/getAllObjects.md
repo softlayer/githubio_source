@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Ticket"
 classes:
-    - "getAllObjects"
+    - "SoftLayer_Ticket_Subject"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Ticket_Subject"

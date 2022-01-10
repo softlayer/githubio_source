@@ -9,7 +9,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "addServiceSubnetToNetworkTunnel"
+    - "SoftLayer_Network_Tunnel_Module_Context"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Tunnel_Module_Context"

@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Account"
 classes:
-    - "getAccountHostUptimeSummary"
+    - "SoftLayer_Account_Historical_Report"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Account_Historical_Report"

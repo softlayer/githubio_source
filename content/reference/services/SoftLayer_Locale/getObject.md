@@ -1,13 +1,13 @@
 ---
 title: "getObject"
-description: ""
+description: "Retrieve a SoftLayer_Locale record."
 date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Locale"
 classes:
-    - "getObject"
+    - "SoftLayer_Locale"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Locale"

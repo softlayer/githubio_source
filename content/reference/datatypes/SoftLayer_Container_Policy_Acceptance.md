@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Policy_Acceptance"
-description: ""
+description: "Represents the acceptance status of a Policy."
 date: "2018-02-12"
 tags:
     - "datatype"

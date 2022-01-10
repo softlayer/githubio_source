@@ -1,13 +1,13 @@
 ---
 title: "getFolderList"
-description: ""
+description: "Retrieve a list of level 1 folders for this account."
 date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
-    - "getFolderList"
+    - "SoftLayer_Network_Storage"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Storage"

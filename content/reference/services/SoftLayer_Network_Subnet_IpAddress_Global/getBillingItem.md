@@ -1,0 +1,14 @@
+---
+title: "getBillingItem"
+description: "The billing item for this Global IP."
+date: "2018-02-12"
+tags:
+    - "method"
+    - "sldn"
+    - "Network"
+classes:
+    - "SoftLayer_Network_Subnet_IpAddress_Global"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Subnet_IpAddress_Global"
+---

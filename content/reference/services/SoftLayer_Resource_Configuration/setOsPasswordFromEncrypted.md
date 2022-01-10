@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Resource"
 classes:
-    - "setOsPasswordFromEncrypted"
+    - "SoftLayer_Resource_Configuration"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Resource_Configuration"

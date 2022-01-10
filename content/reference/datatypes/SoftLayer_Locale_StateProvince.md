@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Locale_StateProvince"
-description: ""
+description: "This object represents a state or province for a country. "
 date: "2018-02-12"
 tags:
     - "datatype"

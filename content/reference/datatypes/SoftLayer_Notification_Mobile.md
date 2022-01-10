@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Notification_Mobile"
-description: "SoftLayer Customers can use this service to view all of the available mobile notifications that can be subscribed to.  No mobile notifications are required. "
+description: "This is an extension of the SoftLayer_Notification class.  These are implementation details specific to those notifications which can be subscribed to and received on a mobile device. "
 date: "2018-02-12"
 tags:
     - "datatype"

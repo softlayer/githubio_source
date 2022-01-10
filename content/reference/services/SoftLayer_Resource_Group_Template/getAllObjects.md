@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Resource"
 classes:
-    - "getAllObjects"
+    - "SoftLayer_Resource_Group_Template"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Resource_Group_Template"

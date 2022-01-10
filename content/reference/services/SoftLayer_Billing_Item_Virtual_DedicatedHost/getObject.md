@@ -1,13 +1,13 @@
 ---
 title: "getObject"
-description: ""
+description: "Retrieve a SoftLayer_Billing_Item_Virtual_DedicatedHost record."
 date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Billing"
 classes:
-    - "getObject"
+    - "SoftLayer_Billing_Item_Virtual_DedicatedHost"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Billing_Item_Virtual_DedicatedHost"

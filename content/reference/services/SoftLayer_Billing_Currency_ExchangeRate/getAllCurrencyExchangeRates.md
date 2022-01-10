@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Billing"
 classes:
-    - "getAllCurrencyExchangeRates"
+    - "SoftLayer_Billing_Currency_ExchangeRate"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Billing_Currency_ExchangeRate"

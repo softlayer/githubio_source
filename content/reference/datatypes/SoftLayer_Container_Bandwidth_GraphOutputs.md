@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Bandwidth_GraphOutputs"
-description: ""
+description: "SoftLayer_Container_Bandwidth_GraphOutputs models a single outbound object for a given bandwidth graph."
 date: "2018-02-12"
 tags:
     - "datatype"

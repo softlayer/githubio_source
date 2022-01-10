@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "updateL7Pool"
+    - "SoftLayer_Network_LBaaS_L7Pool"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_LBaaS_L7Pool"

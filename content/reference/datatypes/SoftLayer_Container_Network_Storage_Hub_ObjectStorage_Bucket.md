@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Bucket"
-description: ""
+description: "SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Bucket provides description of a bucket "
 date: "2018-02-12"
 tags:
     - "datatype"

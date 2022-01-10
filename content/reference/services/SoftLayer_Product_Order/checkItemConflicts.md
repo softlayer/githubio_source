@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Product"
 classes:
-    - "checkItemConflicts"
+    - "SoftLayer_Product_Order"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Product_Order"

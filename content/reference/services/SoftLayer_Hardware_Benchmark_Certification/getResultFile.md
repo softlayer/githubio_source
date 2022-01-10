@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Hardware"
 classes:
-    - "getResultFile"
+    - "SoftLayer_Hardware_Benchmark_Certification"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Hardware_Benchmark_Certification"

@@ -1,6 +1,6 @@
 ---
 title: "shutdownPrivatePort"
-description: "Disconnect a server's private network interface. This operation is an alias for calling [[SoftLayer_Hardware_Server/setPrivateNetworkInterfaceSpeed]] with a $newSpeed of 0 and unspecified $redundancy. 
+description: "Disconnect a server's private network interface. This operation is an alias for calling [SoftLayer_Hardware_Server::setPrivateNetworkInterfaceSpeed](reference/services/SoftLayer_Hardware_Server/setPrivateNetworkInterfaceSpeed) with a $newSpeed of 0 and unspecified $redundancy. 
 
 Receipt of a response does not indicate completion of the configuration change. Any subsequent attempts to request the interface change speed or state, while changes are pending, will result in a busy error. 
 
@@ -11,7 +11,7 @@ tags:
     - "sldn"
     - "Hardware"
 classes:
-    - "shutdownPrivatePort"
+    - "SoftLayer_Hardware_Server"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Hardware_Server"

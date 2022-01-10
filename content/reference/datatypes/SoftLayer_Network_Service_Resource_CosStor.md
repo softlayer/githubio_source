@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_Service_Resource_CosStor"
-description: ""
+description: "The SoftLayer_Network_Service_Resource_CosStor is used to store information related to COS service. "
 date: "2018-02-12"
 tags:
     - "datatype"

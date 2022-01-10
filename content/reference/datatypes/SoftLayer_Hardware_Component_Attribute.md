@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Hardware_Component_Attribute"
-description: ""
+description: "The SoftLayer_Hardware_Component_Attribute data type contains general information relating to a single hardware setting or attribute for a component model. For Example: A RAID controller may be setup for many different RAID configurations.  A RAID controller with a configuration of RAID-1 will have a single attribute for this RAID setting. "
 date: "2018-02-12"
 tags:
     - "datatype"

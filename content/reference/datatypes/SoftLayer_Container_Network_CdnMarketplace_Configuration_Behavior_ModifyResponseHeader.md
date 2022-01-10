@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Network_CdnMarketplace_Configuration_Behavior_ModifyResponseHeader"
-description: ""
+description: "The SoftLayer_Container_Network_CdnMarketplace_Configuration_Behavior_ModifyResponseHeader data type contains information for specific responses from the modify response header API. "
 date: "2018-02-12"
 tags:
     - "datatype"

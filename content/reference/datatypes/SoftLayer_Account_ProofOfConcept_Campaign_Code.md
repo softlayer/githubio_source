@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Account_ProofOfConcept_Campaign_Code"
-description: "This service provides Internal IBM Proof of Concept account campaign or promotion codes. "
+description: "A [SoftLayer_Account_ProofOfConcept_Campaign_Code] provides a `code` and an optional `description`. "
 date: "2018-02-12"
 tags:
     - "datatype"

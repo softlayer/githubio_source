@@ -1,13 +1,13 @@
 ---
 title: "getObject"
-description: ""
+description: "Retrieve a SoftLayer_Auxiliary_Marketing_Event record."
 date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Auxiliary"
 classes:
-    - "getObject"
+    - "SoftLayer_Auxiliary_Marketing_Event"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Auxiliary_Marketing_Event"

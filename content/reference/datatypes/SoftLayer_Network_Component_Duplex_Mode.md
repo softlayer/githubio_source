@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_Component_Duplex_Mode"
-description: ""
+description: "Duplex Mode allows finer grained control over networking options and settings. "
 date: "2018-02-12"
 tags:
     - "datatype"

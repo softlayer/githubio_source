@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_User_Data_Phone"
-description: ""
+description: "This container holds user's phone information. "
 date: "2018-02-12"
 tags:
     - "datatype"

@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Account_Attribute_Type"
-description: ""
+description: "SoftLayer_Account_Attribute_Type models the type of attribute that can be assigned to a SoftLayer customer account. "
 date: "2018-02-12"
 tags:
     - "datatype"

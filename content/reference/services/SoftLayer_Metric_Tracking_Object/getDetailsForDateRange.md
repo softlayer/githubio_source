@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Metric"
 classes:
-    - "getDetailsForDateRange"
+    - "SoftLayer_Metric_Tracking_Object"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Metric_Tracking_Object"

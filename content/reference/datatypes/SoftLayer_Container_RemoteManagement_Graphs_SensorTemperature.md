@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_RemoteManagement_Graphs_SensorTemperature"
-description: ""
+description: "The SoftLayer_Container_RemoteManagement_Graphs_SensorTemperature contains graphs to display the cpu(s) and system temperatures retrieved from the management card using thermometer graphs. "
 date: "2018-02-12"
 tags:
     - "datatype"

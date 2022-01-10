@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Auxiliary"
 classes:
-    - "getTypeByKeyName"
+    - "SoftLayer_Auxiliary_Shipping_Courier_Type"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Auxiliary_Shipping_Courier_Type"

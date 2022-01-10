@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "User"
 classes:
-    - "deactivate"
+    - "SoftLayer_User_Customer_External_Binding_Totp"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_User_Customer_External_Binding_Totp"

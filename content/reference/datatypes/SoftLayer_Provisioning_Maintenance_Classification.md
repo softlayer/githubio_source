@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Provisioning_Maintenance_Classification"
-description: "The SoftLayer_Provisioning_Maintenance_Classification service returns available maintenance classifications. "
+description: "The SoftLayer_Provisioning_Maintenance_Classification represent a maintenance type for the specific hardware maintenance desired. "
 date: "2018-02-12"
 tags:
     - "datatype"

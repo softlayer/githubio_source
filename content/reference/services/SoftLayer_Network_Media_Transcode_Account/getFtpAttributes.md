@@ -9,7 +9,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "getFtpAttributes"
+    - "SoftLayer_Network_Media_Transcode_Account"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Media_Transcode_Account"

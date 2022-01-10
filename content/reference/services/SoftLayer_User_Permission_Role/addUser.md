@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "User"
 classes:
-    - "addUser"
+    - "SoftLayer_User_Permission_Role"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_User_Permission_Role"

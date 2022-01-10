@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "deleteObject"
+    - "SoftLayer_Network_Application_Delivery_Controller_Configuration_History"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Application_Delivery_Controller_Configuration_History"

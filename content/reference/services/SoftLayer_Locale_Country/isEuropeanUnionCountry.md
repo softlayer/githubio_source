@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Locale"
 classes:
-    - "isEuropeanUnionCountry"
+    - "SoftLayer_Locale_Country"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Locale_Country"

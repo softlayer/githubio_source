@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "User"
 classes:
-    - "getActivationCodeForMobileClient"
+    - "SoftLayer_User_Customer_External_Binding_Verisign"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_User_Customer_External_Binding_Verisign"

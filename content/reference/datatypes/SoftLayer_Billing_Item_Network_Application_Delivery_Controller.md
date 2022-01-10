@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Billing_Item_Network_Application_Delivery_Controller"
-description: ""
+description: "The SoftLayer_Billing_Item_Network_Application_Delivery_Controller data type describes the billing item related to a NetScaler VPX "
 date: "2018-02-12"
 tags:
     - "datatype"

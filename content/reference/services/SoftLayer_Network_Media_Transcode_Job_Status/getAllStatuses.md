@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "getAllStatuses"
+    - "SoftLayer_Network_Media_Transcode_Job_Status"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Media_Transcode_Job_Status"

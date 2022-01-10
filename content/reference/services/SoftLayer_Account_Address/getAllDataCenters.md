@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Account"
 classes:
-    - "getAllDataCenters"
+    - "SoftLayer_Account_Address"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Account_Address"

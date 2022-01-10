@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Account"
 classes:
-    - "getFile"
+    - "SoftLayer_Account_MasterServiceAgreement"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Account_MasterServiceAgreement"

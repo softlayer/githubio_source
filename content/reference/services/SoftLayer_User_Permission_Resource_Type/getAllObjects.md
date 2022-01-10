@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "User"
 classes:
-    - "getAllObjects"
+    - "SoftLayer_User_Permission_Resource_Type"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_User_Permission_Resource_Type"

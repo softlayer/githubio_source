@@ -9,7 +9,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "getPrivateVlanByIpAddress"
+    - "SoftLayer_Network_Vlan"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Vlan"

@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "deleteObject"
+    - "SoftLayer_Network_LBaaS_L7Policy"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_LBaaS_L7Policy"

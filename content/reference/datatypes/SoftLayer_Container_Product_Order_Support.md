@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Product_Order_Support"
-description: ""
+description: "When ordering paid support this datatype needs to be populated and sent to SoftLayer_Product_Order::placeOrder. "
 date: "2018-02-12"
 tags:
     - "datatype"

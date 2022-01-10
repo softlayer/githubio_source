@@ -9,7 +9,7 @@ tags:
     - "sldn"
     - "Billing"
 classes:
-    - "getCancellationCutoffDate"
+    - "SoftLayer_Billing_Item_Cancellation_Request"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Billing_Item_Cancellation_Request"

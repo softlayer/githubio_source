@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Survey_Question"
-description: ""
+description: "The SoftLayer_Survey_Question data type contains general information relating to a single SoftLayer survey question. "
 date: "2018-02-12"
 tags:
     - "datatype"

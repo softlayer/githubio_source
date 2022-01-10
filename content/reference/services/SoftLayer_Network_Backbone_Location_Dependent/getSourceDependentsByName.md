@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "getSourceDependentsByName"
+    - "SoftLayer_Network_Backbone_Location_Dependent"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Backbone_Location_Dependent"

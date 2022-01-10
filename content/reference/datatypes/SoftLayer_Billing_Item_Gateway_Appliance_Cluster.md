@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Billing_Item_Gateway_Appliance_Cluster"
-description: ""
+description: "The SoftLayer_Billing_Item_Big_Data_Cluster data type contains general information relating to a single SoftLayer billing item for a big data cluster. "
 date: "2018-02-12"
 tags:
     - "datatype"

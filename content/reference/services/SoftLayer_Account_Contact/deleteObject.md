@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Account"
 classes:
-    - "deleteObject"
+    - "SoftLayer_Account_Contact"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Account_Contact"

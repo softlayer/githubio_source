@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Workload"
 classes:
-    - "getAllObjects"
+    - "SoftLayer_Workload_Citrix_Deployment_Resource"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Workload_Citrix_Deployment_Resource"

@@ -9,7 +9,7 @@ tags:
     - "sldn"
     - "Scale"
 classes:
-    - "editObject"
+    - "SoftLayer_Scale_Group"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Scale_Group"

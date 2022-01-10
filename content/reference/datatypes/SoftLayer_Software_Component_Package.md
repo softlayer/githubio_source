@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Software_Component_Package"
-description: ""
+description: "This object specifies a specific type of Software Component:  A package instance. "
 date: "2018-02-12"
 tags:
     - "datatype"

@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_User_Employee_Department"
-description: ""
+description: "SoftLayer_User_Employee_Department models a department within SoftLayer's internal employee hierarchy. Common departments include Support, Sales, Accounting, Development, Systems, and Networking. "
 date: "2018-02-12"
 tags:
     - "datatype"

@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Brand_Contact_Type"
-description: ""
+description: "SoftLayer_Brand_Contact_Type contains the contact type information for the brand contacts such as Corporate or Support contact type "
 date: "2018-02-12"
 tags:
     - "datatype"

@@ -13,7 +13,7 @@ tags:
     - "sldn"
     - "User"
 classes:
-    - "disable"
+    - "SoftLayer_User_Customer_External_Binding_Phone"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_User_Customer_External_Binding_Phone"

@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Location"
 classes:
-    - "getAllObjects"
+    - "SoftLayer_Location_Group"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Location_Group"

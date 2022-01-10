@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_User_Customer_Portal_MobileToken"
-description: ""
+description: "Container classed used to hold mobile portal token "
 date: "2018-02-12"
 tags:
     - "datatype"

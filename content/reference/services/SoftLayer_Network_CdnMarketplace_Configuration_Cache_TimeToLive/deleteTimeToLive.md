@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "deleteTimeToLive"
+    - "SoftLayer_Network_CdnMarketplace_Configuration_Cache_TimeToLive"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_CdnMarketplace_Configuration_Cache_TimeToLive"

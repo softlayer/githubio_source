@@ -1,13 +1,13 @@
 ---
 title: "getObject"
-description: ""
+description: "Retrieve a SoftLayer_Network_LBaaS_Listener record."
 date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
-    - "getObject"
+    - "SoftLayer_Network_LBaaS_Listener"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_LBaaS_Listener"

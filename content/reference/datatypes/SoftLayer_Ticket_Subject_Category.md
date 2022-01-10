@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Ticket_Subject_Category"
-description: ""
+description: "SoftLayer_Ticket_Subject_Category groups ticket subjects into logical group. "
 date: "2018-02-12"
 tags:
     - "datatype"

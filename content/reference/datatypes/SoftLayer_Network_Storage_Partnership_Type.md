@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_Storage_Partnership_Type"
-description: ""
+description: "A network storage partnership type is used to define the link between two volumes. "
 date: "2018-02-12"
 tags:
     - "datatype"

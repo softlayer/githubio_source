@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Billing_Item_Network_LoadBalancer_VirtualIpAddress"
-description: ""
+description: "A SoftLayer_Billing_Item_Network_LoadBalancer_VirtualIpAddress represents the [SoftLayer_Billing_Item](reference/datatypes/SoftLayer_Billing_Item) related to a single [SoftLayer_Network_LoadBalancer_VirtualIpAddress](reference/datatypes/SoftLayer_Network_LoadBalancer_VirtualIpAddress) instance. "
 date: "2018-02-12"
 tags:
     - "datatype"

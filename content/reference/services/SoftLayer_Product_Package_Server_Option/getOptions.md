@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Product"
 classes:
-    - "getOptions"
+    - "SoftLayer_Product_Package_Server_Option"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Product_Package_Server_Option"

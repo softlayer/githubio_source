@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Notification_Occurrence_Event_Type"
-description: ""
+description: "This represents the type of SoftLayer_Notification_Occurrence_Event. "
 date: "2018-02-12"
 tags:
     - "datatype"

@@ -1,6 +1,6 @@
 ---
 title: "McAfee_Epolicy_Orchestrator_Version51_Product_Properties"
-description: ""
+description: "The McAfee_Epolicy_Orchestrator_Version51_Product_Properties data type represents the version of the virus data file"
 date: "2018-02-12"
 tags:
     - "datatype"

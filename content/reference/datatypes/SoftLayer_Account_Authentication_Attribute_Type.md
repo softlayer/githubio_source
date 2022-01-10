@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Account_Authentication_Attribute_Type"
-description: ""
+description: "SoftLayer_Account_Authentication_Attribute_Type models the type of attribute that can be assigned to a SoftLayer customer account authentication. "
 date: "2018-02-12"
 tags:
     - "datatype"

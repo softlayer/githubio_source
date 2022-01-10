@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_Storage_Schedule_Property_Type"
-description: ""
+description: "A schedule property type is used to allow for a standardized method of defining network storage schedules. "
 date: "2018-02-12"
 tags:
     - "datatype"

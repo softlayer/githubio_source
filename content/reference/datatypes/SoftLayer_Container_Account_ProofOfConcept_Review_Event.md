@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Account_ProofOfConcept_Review_Event"
-description: ""
+description: "Review event within proof of concept request review period. "
 date: "2018-02-12"
 tags:
     - "datatype"

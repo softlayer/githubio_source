@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_Subnet_IpAddress_Version6"
-description: ""
+description: "The SoftLayer_Network_Subnet_IpAddress data type contains general information relating to a single SoftLayer IPv6 address. "
 date: "2018-02-12"
 tags:
     - "datatype"

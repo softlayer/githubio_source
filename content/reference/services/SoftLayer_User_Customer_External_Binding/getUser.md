@@ -1,0 +1,14 @@
+---
+title: "getUser"
+description: "The SoftLayer user that the external authentication binding belongs to."
+date: "2018-02-12"
+tags:
+    - "method"
+    - "sldn"
+    - "User"
+classes:
+    - "SoftLayer_User_Customer_External_Binding"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_User_Customer_External_Binding"
+---

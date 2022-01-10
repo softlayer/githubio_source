@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Software"
 classes:
-    - "getLicenseFile"
+    - "SoftLayer_Software_Component"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Software_Component"

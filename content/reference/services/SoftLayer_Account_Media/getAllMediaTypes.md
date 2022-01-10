@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Account"
 classes:
-    - "getAllMediaTypes"
+    - "SoftLayer_Account_Media"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Account_Media"

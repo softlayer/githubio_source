@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_User_Customer_AdditionalEmail"
-description: ""
+description: "The SoftLayer_User_Customer_AdditionalEmail data type contains the additional email for use in ticket update notifications. "
 date: "2018-02-12"
 tags:
     - "datatype"

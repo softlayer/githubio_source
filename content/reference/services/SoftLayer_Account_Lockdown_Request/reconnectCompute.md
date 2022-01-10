@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Account"
 classes:
-    - "reconnectCompute"
+    - "SoftLayer_Account_Lockdown_Request"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Account_Lockdown_Request"

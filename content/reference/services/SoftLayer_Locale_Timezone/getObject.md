@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Locale"
 classes:
-    - "getObject"
+    - "SoftLayer_Locale_Timezone"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Locale_Timezone"

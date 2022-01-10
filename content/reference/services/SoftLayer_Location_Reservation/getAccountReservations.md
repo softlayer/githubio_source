@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Location"
 classes:
-    - "getAccountReservations"
+    - "SoftLayer_Location_Reservation"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Location_Reservation"

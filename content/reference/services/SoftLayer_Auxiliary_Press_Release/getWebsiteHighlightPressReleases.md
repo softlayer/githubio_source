@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Auxiliary"
 classes:
-    - "getWebsiteHighlightPressReleases"
+    - "SoftLayer_Auxiliary_Press_Release"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Auxiliary_Press_Release"

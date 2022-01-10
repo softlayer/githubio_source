@@ -18,7 +18,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "getPortStatistics"
+    - "SoftLayer_Network_Component"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Component"

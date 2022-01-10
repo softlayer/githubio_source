@@ -1,6 +1,8 @@
 ---
 title: "SoftLayer_Virtual_Guest"
-description: "The virtual guest service provides a common interface to any virtualization platform supported by SoftLayer. The interaction with various third party APIs is not needed when implementing this service to administer your guests. The SoftLayer_Virtual_Guest service also controls individual CloudLayer Computing Instances purchased from SoftLayer in a way that is analogous to the [[SoftLayer_Hardware_Server]] service's control over physical hardware purchased form SoftLayer. "
+description: "The virtual guest data type presents the structure in which all virtual guests will be presented. Internally, the structure supports various virtualization platforms with no change to external interaction. 
+
+A guest, also known as a virtual server, represents an allocation of resources on a virtual host. "
 date: "2018-02-12"
 tags:
     - "datatype"

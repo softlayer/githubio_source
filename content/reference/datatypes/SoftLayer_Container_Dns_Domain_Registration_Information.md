@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Dns_Domain_Registration_Information"
-description: ""
+description: "Information container for domain registration "
 date: "2018-02-12"
 tags:
     - "datatype"

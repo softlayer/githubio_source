@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Notification"
 classes:
-    - "getAllObjects"
+    - "SoftLayer_Notification"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Notification"

@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Network_Authentication_Data"
-description: ""
+description: "This object holds authentication data to a server. "
 date: "2018-02-12"
 tags:
     - "datatype"

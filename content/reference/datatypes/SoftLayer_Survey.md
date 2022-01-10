@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Survey"
-description: "Every SoftLayer survey is defined in the SoftLayer_Survey service. Softlayer survey's have questions and answers from SoftLayer users. "
+description: "The SoftLayer_Survey data type contains general information relating to a single SoftLayer survey. "
 date: "2018-02-12"
 tags:
     - "datatype"

@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Dns"
 classes:
-    - "getAuthenticationCode"
+    - "SoftLayer_Dns_Domain_Registration"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Dns_Domain_Registration"

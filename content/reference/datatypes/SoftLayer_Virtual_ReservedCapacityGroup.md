@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Virtual_ReservedCapacityGroup"
-description: "SoftLayer_Virtual_ReservedCapacityGroup reserves capacity for a group of guests that have not yet been provisioned. "
+description: "This data type presents the structure for a virtual reserved capacity group. "
 date: "2018-02-12"
 tags:
     - "datatype"

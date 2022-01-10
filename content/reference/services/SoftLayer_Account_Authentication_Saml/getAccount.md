@@ -1,0 +1,14 @@
+---
+title: "getAccount"
+description: "The account associated with this saml configuration."
+date: "2018-02-12"
+tags:
+    - "method"
+    - "sldn"
+    - "Account"
+classes:
+    - "SoftLayer_Account_Authentication_Saml"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Account_Authentication_Saml"
+---

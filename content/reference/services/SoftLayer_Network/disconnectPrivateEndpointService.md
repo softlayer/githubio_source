@@ -25,7 +25,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "disconnectPrivateEndpointService"
+    - "SoftLayer_Network"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network"

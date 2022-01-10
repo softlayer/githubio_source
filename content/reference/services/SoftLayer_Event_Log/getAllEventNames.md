@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Event"
 classes:
-    - "getAllEventNames"
+    - "SoftLayer_Event_Log"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Event_Log"

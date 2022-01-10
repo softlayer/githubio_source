@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Virtual_PlacementGroup_Rule"
-description: "SoftLayer_Virtual_PlacementGroup_Rule is the placement rule that a virtual guest placement group follows. "
+description: "This data type presents the structure of a virtual guest placement group rule. "
 date: "2018-02-12"
 tags:
     - "datatype"

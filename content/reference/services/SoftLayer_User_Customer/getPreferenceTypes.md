@@ -1,13 +1,13 @@
 ---
 title: "getPreferenceTypes"
-description: "Use any of the preference types to fetch or modify user preferences using [[SoftLayer_User_Customer::getPreference|getPreference]] or [[SoftLayer_User_Customer::changePreference|changePreference]], respectively. "
+description: "Use any of the preference types to fetch or modify user preferences using [SoftLayer_User_Customer::getPreference](reference/datatypes/$1/#$2) or [SoftLayer_User_Customer::changePreference](reference/datatypes/$1/#$2), respectively. "
 date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "User"
 classes:
-    - "getPreferenceTypes"
+    - "SoftLayer_User_Customer"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_User_Customer"

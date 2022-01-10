@@ -1,6 +1,8 @@
 ---
 title: "SoftLayer_Configuration_Template_Section"
-description: "Configuration section allow you to divide a large configuration values into a smaller pieces. "
+description: "The SoftLayer_Configuration_Template_Section data type contains information of a configuration section. 
+
+Configuration can contain sub-sections. "
 date: "2018-02-12"
 tags:
     - "datatype"

@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Account"
 classes:
-    - "getAccountAffiliationsByAffiliateId"
+    - "SoftLayer_Account_Affiliation"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Account_Affiliation"

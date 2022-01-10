@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Security_Certificate_Request_ServerType"
-description: "Allows for retrieving the available SSL certificate server types. "
+description: "Represents a server type that can be specified when ordering an SSL certificate. "
 date: "2018-02-12"
 tags:
     - "datatype"

@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_LBaaS_SessionAffinity"
-description: ""
+description: "SoftLayer_Network_LBaaS_SessionAffinity represents the session affinity, aka session persistence, configuration for a load balancer backend pool. "
 date: "2018-02-12"
 tags:
     - "datatype"

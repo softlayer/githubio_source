@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Virtual_PlacementGroup"
-description: "SoftLayer_Virtual_PlacementGroup is a collection of virtual guests to be placed relative to each other according to a rule. "
+description: "This data type presents the structure for a virtual guest placement group. The data type contains relational properties to the virtual guest placement group rule class. "
 date: "2018-02-12"
 tags:
     - "datatype"

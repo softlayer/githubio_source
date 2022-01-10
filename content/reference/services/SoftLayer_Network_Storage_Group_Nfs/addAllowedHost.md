@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "addAllowedHost"
+    - "SoftLayer_Network_Storage_Group_Nfs"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Storage_Group_Nfs"

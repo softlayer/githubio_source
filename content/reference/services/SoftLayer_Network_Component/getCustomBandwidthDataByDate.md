@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "getCustomBandwidthDataByDate"
+    - "SoftLayer_Network_Component"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Component"

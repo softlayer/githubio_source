@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Hardware_Component"
-description: ""
+description: "The SoftLayer_Hardware_Component data type abstracts information related to a hardware component. "
 date: "2018-02-12"
 tags:
     - "datatype"

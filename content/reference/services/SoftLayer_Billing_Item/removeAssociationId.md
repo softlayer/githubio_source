@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Billing"
 classes:
-    - "removeAssociationId"
+    - "SoftLayer_Billing_Item"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Billing_Item"

@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Billing_Payment_PayPal_Transaction"
-description: ""
+description: "The SoftLayer_Billing_Payment_PayPal_Transaction data type contains general information relating to attempted PayPal transactions. "
 date: "2018-02-12"
 tags:
     - "datatype"

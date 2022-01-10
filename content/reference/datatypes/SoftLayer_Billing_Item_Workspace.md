@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Billing_Item_Workspace"
-description: ""
+description: "The SoftLayer_Billing_Item_Workspace data type contains general information relating to a single SoftLayer billing item whose item category code is 'workspace' "
 date: "2018-02-12"
 tags:
     - "datatype"

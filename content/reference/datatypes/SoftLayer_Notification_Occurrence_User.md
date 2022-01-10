@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Notification_Occurrence_User"
-description: ""
+description: "This type contains general information relating to a user that may be impacted by a [SoftLayer_Notification_Occurrence_Event](reference/datatypes/SoftLayer_Notification_Occurrence_Event). "
 date: "2018-02-12"
 tags:
     - "datatype"

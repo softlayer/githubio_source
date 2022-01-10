@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_Media_Transcode_Job_Status"
-description: "A Transcode job's status. It can be Pending, Processing, Complete, Error or Deleted. "
+description: "The SoftLayer_Network_Media_Transcode_Job_Status contains information on a transcode job status. "
 date: "2018-02-12"
 tags:
     - "datatype"

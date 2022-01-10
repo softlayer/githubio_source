@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Brand"
 classes:
-    - "getMerchantName"
+    - "SoftLayer_Brand"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Brand"

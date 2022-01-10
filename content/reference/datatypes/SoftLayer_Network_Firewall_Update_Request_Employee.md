@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_Firewall_Update_Request_Employee"
-description: ""
+description: "The SoftLayer_Network_Firewall_Update_Request_Employee data type returns a user object for the SoftLayer employee that created the request. "
 date: "2018-02-12"
 tags:
     - "datatype"

@@ -1,13 +1,13 @@
 ---
 title: "enable"
-description: ""
+description: "Enable email subscription."
 date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Email"
 classes:
-    - "enable"
+    - "SoftLayer_Email_Subscription"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Email_Subscription"

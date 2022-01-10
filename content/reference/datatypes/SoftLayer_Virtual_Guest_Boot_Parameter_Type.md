@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Virtual_Guest_Boot_Parameter_Type"
-description: ""
+description: "Describes a virtual guest boot parameter. In this the word class is used in the context of arguments sent to cloud computing instances such as single user mode and boot into bash. "
 date: "2018-02-12"
 tags:
     - "datatype"

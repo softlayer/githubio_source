@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Monitoring_Robot"
-description: "DEPRECATED. "
+description: "DEPRECATED. The SoftLayer_Monitoring_Robot data type contains general information relating to a monitoring robot. "
 date: "2018-02-12"
 tags:
     - "datatype"

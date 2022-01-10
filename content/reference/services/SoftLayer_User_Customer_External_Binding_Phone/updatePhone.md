@@ -1,6 +1,6 @@
 ---
 title: "updatePhone"
-description: "Phone external binding supports a primary and a backup phone number. You can use this method to update your phone number used for the phone authentication. You can provide an array of [[SoftLayer_Container_User_Data_Phone|User Phone]] objects. You have to mark one as the primary phone number by setting 'phoneType' to 'PRIMARY'. 
+description: "Phone external binding supports a primary and a backup phone number. You can use this method to update your phone number used for the phone authentication. You can provide an array of [SoftLayer_Container_User_Data_Phone](reference/datatypes/SoftLayer_Container_User_Data_Phone) objects. You have to mark one as the primary phone number by setting 'phoneType' to 'PRIMARY'. 
 
 
 *countryCode: Country code number for the phone number. Default: 1 (United States & Canada +1)
@@ -18,7 +18,7 @@ tags:
     - "sldn"
     - "User"
 classes:
-    - "updatePhone"
+    - "SoftLayer_User_Customer_External_Binding_Phone"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_User_Customer_External_Binding_Phone"

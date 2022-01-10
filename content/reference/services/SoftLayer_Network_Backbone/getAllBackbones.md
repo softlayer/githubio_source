@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "getAllBackbones"
+    - "SoftLayer_Network_Backbone"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Backbone"

@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Billing_Item_Network_Storage_Hub_Bandwidth"
-description: ""
+description: "The SoftLayer_Billing_Item_Network_Storage_Hub_Bandwidth data type models the billing items created when a CloudLayer storage account generates a bandwidth overage charge. "
 date: "2018-02-12"
 tags:
     - "datatype"

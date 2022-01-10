@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Account_ProofOfConcept_Request_CostRecovery"
-description: ""
+description: "Funding codes for the department paying for the proof of concept account. "
 date: "2018-02-12"
 tags:
     - "datatype"

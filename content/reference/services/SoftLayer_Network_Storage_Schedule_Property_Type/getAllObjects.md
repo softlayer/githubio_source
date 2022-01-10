@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "getAllObjects"
+    - "SoftLayer_Network_Storage_Schedule_Property_Type"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Storage_Schedule_Property_Type"

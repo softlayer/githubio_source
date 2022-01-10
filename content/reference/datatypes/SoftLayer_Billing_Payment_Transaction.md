@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Billing_Payment_Transaction"
-description: ""
+description: "Implementation for payment transactions. "
 date: "2018-02-12"
 tags:
     - "datatype"

@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_User_Access_Facility_Log"
-description: ""
+description: "This class represents a login/logout sheet for facility visitors."
 date: "2018-02-12"
 tags:
     - "datatype"

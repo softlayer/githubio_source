@@ -1,13 +1,13 @@
 ---
 title: "getSupportedLocales"
-description: ""
+description: "Returns all supported locales for the current user"
 date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "User"
 classes:
-    - "getSupportedLocales"
+    - "SoftLayer_User_Customer"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_User_Customer"

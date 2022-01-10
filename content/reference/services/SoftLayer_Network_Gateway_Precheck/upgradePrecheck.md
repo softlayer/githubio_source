@@ -9,7 +9,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "upgradePrecheck"
+    - "SoftLayer_Network_Gateway_Precheck"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Gateway_Precheck"

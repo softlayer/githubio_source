@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "removeRules"
+    - "SoftLayer_Network_SecurityGroup"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_SecurityGroup"

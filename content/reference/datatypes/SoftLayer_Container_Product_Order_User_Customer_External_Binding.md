@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Product_Order_User_Customer_External_Binding"
-description: ""
+description: "This container type is used for placing orders for external authentication, such as phone-based authentication. "
 date: "2018-02-12"
 tags:
     - "datatype"

@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Location"
 classes:
-    - "getDatacentersWithVirtualImageStoreServiceResourceRecord"
+    - "SoftLayer_Location"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Location"

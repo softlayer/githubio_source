@@ -1,13 +1,13 @@
 ---
 title: "getObject"
-description: ""
+description: "Retrieve a SoftLayer_Ticket_Attachment_File record."
 date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Ticket"
 classes:
-    - "getObject"
+    - "SoftLayer_Ticket_Attachment_File"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Ticket_Attachment_File"

@@ -9,7 +9,7 @@ tags:
     - "sldn"
     - "User"
 classes:
-    - "findByGuestId"
+    - "SoftLayer_User_Customer_Notification_Virtual_Guest"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_User_Customer_Notification_Virtual_Guest"

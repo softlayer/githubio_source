@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Billing"
 classes:
-    - "getPdf"
+    - "SoftLayer_Billing_Invoice"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Billing_Invoice"

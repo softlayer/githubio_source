@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_CdnMarketplace_Vendor"
-description: "This service allows internal users to create, read, update, and delete  vendor instances. "
+description: "The SoftLayer_Network_CdnMarketplace_Vendor contains information regarding  a CDN Vendor. This class is associated with  SoftLayer_Network_CdnMarketplace_Vendor_Attribute class.  "
 date: "2018-02-12"
 tags:
     - "datatype"

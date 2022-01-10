@@ -27,7 +27,7 @@ tags:
     - "sldn"
     - "Product"
 classes:
-    - "getVlans"
+    - "SoftLayer_Product_Order"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Product_Order"

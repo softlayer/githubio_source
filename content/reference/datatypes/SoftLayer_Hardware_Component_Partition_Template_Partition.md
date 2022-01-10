@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Hardware_Component_Partition_Template_Partition"
-description: ""
+description: "The SoftLayer_Hardware_Component_Partition_Template_Partition data type contains general information relating to a single SoftLayer Template Partition. "
 date: "2018-02-12"
 tags:
     - "datatype"

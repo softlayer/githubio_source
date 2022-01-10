@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_Firewall_Update_Request_Customer"
-description: ""
+description: "A SoftLayer_Ticket_Update_Customer is a single update made by a customer to a ticket. "
 date: "2018-02-12"
 tags:
     - "datatype"

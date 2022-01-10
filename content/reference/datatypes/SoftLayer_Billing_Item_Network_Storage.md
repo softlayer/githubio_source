@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Billing_Item_Network_Storage"
-description: ""
+description: "The SoftLayer_Billing_Item_Network_Storage data type describes the billing items related to StorageLayer accounts. "
 date: "2018-02-12"
 tags:
     - "datatype"

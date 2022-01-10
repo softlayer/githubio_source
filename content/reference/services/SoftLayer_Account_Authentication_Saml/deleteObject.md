@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Account"
 classes:
-    - "deleteObject"
+    - "SoftLayer_Account_Authentication_Saml"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Account_Authentication_Saml"

@@ -9,7 +9,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "getRollbackSupport"
+    - "SoftLayer_Network_Gateway"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Gateway"

@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Configuration_Template_Section_Attribute"
-description: ""
+description: "Configuration section attribute class contains supplementary information for a configuration section. "
 date: "2018-02-12"
 tags:
     - "datatype"

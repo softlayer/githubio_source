@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Ticket"
 classes:
-    - "getPreference"
+    - "SoftLayer_Ticket_Survey"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Ticket_Survey"

@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "User"
 classes:
-    - "createObjects"
+    - "SoftLayer_User_Customer_Notification_Hardware"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_User_Customer_Notification_Hardware"

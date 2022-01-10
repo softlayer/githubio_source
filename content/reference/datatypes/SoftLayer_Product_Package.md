@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Product_Package"
-description: "Every SoftLayer_Product_Package contains information related products and services that SoftLayer sells. The configuration of this package reveals which categories are required to place an order for this package. Every package has items, item prices, locations, regions, and a configuration. This service is the starting point for ordering servers, and other services we provide. "
+description: "The SoftLayer_Product_Package data type contains information about packages from which orders can be generated. Packages contain general information regarding what is in them, where they are currently sold, availability, and pricing. "
 date: "2018-02-12"
 tags:
     - "datatype"

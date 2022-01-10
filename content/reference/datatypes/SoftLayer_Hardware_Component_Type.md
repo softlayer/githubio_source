@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Hardware_Component_Type"
-description: ""
+description: "The SoftLayer_Hardware_Component_Type data type provides details on the type of component requested "
 date: "2018-02-12"
 tags:
     - "datatype"

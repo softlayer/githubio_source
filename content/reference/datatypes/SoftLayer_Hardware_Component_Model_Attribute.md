@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Hardware_Component_Model_Attribute"
-description: ""
+description: "The SoftLayer_Hardware_Component__Model_Attribute data type contains general information relating to a single hardware setting or attribute for a component model. "
 date: "2018-02-12"
 tags:
     - "datatype"

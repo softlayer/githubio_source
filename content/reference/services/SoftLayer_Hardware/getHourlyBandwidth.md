@@ -13,7 +13,7 @@ tags:
     - "sldn"
     - "Hardware"
 classes:
-    - "getHourlyBandwidth"
+    - "SoftLayer_Hardware"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Hardware"

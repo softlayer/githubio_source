@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Catalyst_Enrollment_Request"
-description: ""
+description: "Contains user information for Catalyst self-enrollment. "
 date: "2018-02-12"
 tags:
     - "datatype"

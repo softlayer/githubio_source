@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Event_Log"
-description: "Event Log service lets you find interesting events related to various SoftLayer products and services such as hardware, virtual server or DNS. "
+description: "The SoftLayer_Event_Log data type contains an event detail occurred upon various SoftLayer resources. "
 date: "2018-02-12"
 tags:
     - "datatype"

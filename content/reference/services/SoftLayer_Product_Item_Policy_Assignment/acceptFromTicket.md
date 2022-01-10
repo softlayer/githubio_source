@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Product"
 classes:
-    - "acceptFromTicket"
+    - "SoftLayer_Product_Item_Policy_Assignment"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Product_Item_Policy_Assignment"

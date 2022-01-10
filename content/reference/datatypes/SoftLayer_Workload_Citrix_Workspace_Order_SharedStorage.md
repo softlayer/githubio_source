@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Workload_Citrix_Workspace_Order_SharedStorage"
-description: ""
+description: "This is the datatype that can be populated by the customer to provide NFS shared storage information for VMware orders. "
 date: "2018-02-12"
 tags:
     - "datatype"

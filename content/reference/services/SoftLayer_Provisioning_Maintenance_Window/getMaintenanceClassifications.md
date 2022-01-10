@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Provisioning"
 classes:
-    - "getMaintenanceClassifications"
+    - "SoftLayer_Provisioning_Maintenance_Window"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Provisioning_Maintenance_Window"

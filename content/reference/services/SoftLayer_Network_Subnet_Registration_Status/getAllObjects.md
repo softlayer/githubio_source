@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "getAllObjects"
+    - "SoftLayer_Network_Subnet_Registration_Status"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Subnet_Registration_Status"

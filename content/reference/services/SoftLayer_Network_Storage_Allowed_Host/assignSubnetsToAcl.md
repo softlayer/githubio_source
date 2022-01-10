@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "assignSubnetsToAcl"
+    - "SoftLayer_Network_Storage_Allowed_Host"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Storage_Allowed_Host"

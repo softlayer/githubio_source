@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Virtual"
 classes:
-    - "powerOnLiveGuest"
+    - "SoftLayer_Virtual_Host"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Virtual_Host"

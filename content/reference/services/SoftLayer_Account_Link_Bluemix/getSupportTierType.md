@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Account"
 classes:
-    - "getSupportTierType"
+    - "SoftLayer_Account_Link_Bluemix"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Account_Link_Bluemix"

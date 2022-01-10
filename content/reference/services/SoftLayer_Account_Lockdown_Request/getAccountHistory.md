@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Account"
 classes:
-    - "getAccountHistory"
+    - "SoftLayer_Account_Lockdown_Request"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Account_Lockdown_Request"

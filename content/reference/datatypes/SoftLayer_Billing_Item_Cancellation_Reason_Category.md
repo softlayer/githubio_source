@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Billing_Item_Cancellation_Reason_Category"
-description: ""
+description: "The SoftLayer_Billing_Item_Cancellation_Reason_Category data type contains cancellation reason categories. "
 date: "2018-02-12"
 tags:
     - "datatype"

@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Hardware_Router_Frontend"
-description: ""
+description: "The SoftLayer_Hardware_Router_Frontend data type contains general information relating to a single SoftLayer router item for hardware. "
 date: "2018-02-12"
 tags:
     - "datatype"

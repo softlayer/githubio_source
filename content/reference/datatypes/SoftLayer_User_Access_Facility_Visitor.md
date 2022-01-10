@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_User_Access_Facility_Visitor"
-description: ""
+description: "This class represents a facility visitor that is not an active employee or customer."
 date: "2018-02-12"
 tags:
     - "datatype"

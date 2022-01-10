@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Layout_Preference_Type"
-description: ""
+description: "The SoftLayer_Layout_Preference_Type contains definitions for preference types "
 date: "2018-02-12"
 tags:
     - "datatype"

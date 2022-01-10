@@ -1,0 +1,14 @@
+---
+title: "getQueryType"
+description: "The type of monitoring query that is executed when this hardware is monitored."
+date: "2018-02-12"
+tags:
+    - "method"
+    - "sldn"
+    - "Network"
+classes:
+    - "SoftLayer_Network_Monitor_Version1_Query_Host"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Monitor_Version1_Query_Host"
+---

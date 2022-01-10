@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Account_ProofOfConcept_Request_Opportunity"
-description: ""
+description: "Internal IBM opportunity codes required when applying for a Proof of Concept account. "
 date: "2018-02-12"
 tags:
     - "datatype"

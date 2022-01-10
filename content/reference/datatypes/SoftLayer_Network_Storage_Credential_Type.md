@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_Storage_Credential_Type"
-description: ""
+description: "<<<"
 date: "2018-02-12"
 tags:
     - "datatype"

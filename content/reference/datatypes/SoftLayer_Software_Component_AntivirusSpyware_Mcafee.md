@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Software_Component_AntivirusSpyware_Mcafee"
-description: ""
+description: "The SoftLayer_Software_Component_AntivirusSpyware_Mcafee represents a single anti-virus/spyware software component. "
 date: "2018-02-12"
 tags:
     - "datatype"

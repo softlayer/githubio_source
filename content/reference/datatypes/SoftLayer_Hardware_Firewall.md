@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Hardware_Firewall"
-description: ""
+description: "The SoftLayer_Hardware_Firewall data type contains general information relating to a single SoftLayer firewall. "
 date: "2018-02-12"
 tags:
     - "datatype"

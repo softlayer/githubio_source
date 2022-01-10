@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Compliance"
 classes:
-    - "getAllObjects"
+    - "SoftLayer_Compliance_Report_Type"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Compliance_Report_Type"

@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Account_ProofOfConcept_Review_History"
-description: ""
+description: "Summary of review activity for a proof of concept request. "
 date: "2018-02-12"
 tags:
     - "datatype"

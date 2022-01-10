@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Notification"
 classes:
-    - "createSubscriberForMobileDevice"
+    - "SoftLayer_Notification_Mobile"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Notification_Mobile"

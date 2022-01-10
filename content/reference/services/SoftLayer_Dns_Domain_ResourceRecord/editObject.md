@@ -9,7 +9,7 @@ tags:
     - "sldn"
     - "Dns"
 classes:
-    - "editObject"
+    - "SoftLayer_Dns_Domain_ResourceRecord"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Dns_Domain_ResourceRecord"

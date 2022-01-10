@@ -11,7 +11,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "route"
+    - "SoftLayer_Network_Subnet_IpAddress_Global"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Subnet_IpAddress_Global"

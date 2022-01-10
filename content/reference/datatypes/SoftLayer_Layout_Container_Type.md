@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Layout_Container_Type"
-description: ""
+description: "The SoftLayer_Layout_Container_Type contains definitions for container types "
 date: "2018-02-12"
 tags:
     - "datatype"

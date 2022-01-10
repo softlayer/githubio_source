@@ -18,7 +18,7 @@ tags:
     - "sldn"
     - "Auxiliary"
 classes:
-    - "getNetworkStatus"
+    - "SoftLayer_Auxiliary_Network_Status"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Auxiliary_Network_Status"

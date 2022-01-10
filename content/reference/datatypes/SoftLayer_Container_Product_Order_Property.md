@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Product_Order_Property"
-description: ""
+description: "This is used for storing various items about the order. Currently used for storing additional raid information when ordering servers. This is optional "
 date: "2018-02-12"
 tags:
     - "datatype"

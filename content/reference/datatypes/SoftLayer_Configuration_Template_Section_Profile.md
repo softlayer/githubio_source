@@ -1,6 +1,8 @@
 ---
 title: "SoftLayer_Configuration_Template_Section_Profile"
-description: "SoftLayer_Configuration_Template_Section_Profile help you keep track of custom configuration profiles. "
+description: "Some configuration templates let you create a unique configuration profiles. 
+
+For example, you can create multiple configuration profiles to monitor multiple hard drives with 'CPU/Memory/Disk Monitoring Agent'. SoftLayer_Configuration_Template_Section_Profile help you keep track of custom configuration profiles. "
 date: "2018-02-12"
 tags:
     - "datatype"

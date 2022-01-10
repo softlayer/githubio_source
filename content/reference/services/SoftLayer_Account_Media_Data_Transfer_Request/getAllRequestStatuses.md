@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Account"
 classes:
-    - "getAllRequestStatuses"
+    - "SoftLayer_Account_Media_Data_Transfer_Request"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Account_Media_Data_Transfer_Request"

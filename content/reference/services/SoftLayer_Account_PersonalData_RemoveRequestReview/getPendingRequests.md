@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Account"
 classes:
-    - "getPendingRequests"
+    - "SoftLayer_Account_PersonalData_RemoveRequestReview"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Account_PersonalData_RemoveRequestReview"

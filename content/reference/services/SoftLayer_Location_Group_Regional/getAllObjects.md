@@ -1,13 +1,13 @@
 ---
 title: "getAllObjects"
-description: ""
+description: "Get all regional groups."
 date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Location"
 classes:
-    - "getAllObjects"
+    - "SoftLayer_Location_Group_Regional"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Location_Group_Regional"

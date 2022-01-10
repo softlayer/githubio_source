@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Business_Partner_Segment"
-description: ""
+description: "Contains business partner segment information "
 date: "2018-02-12"
 tags:
     - "datatype"

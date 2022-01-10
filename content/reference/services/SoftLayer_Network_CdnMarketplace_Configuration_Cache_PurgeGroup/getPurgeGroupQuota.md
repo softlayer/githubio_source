@@ -1,13 +1,13 @@
 ---
 title: "getPurgeGroupQuota"
-description: ""
+description: "This method gets a purge group quota. "
 date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
-    - "getPurgeGroupQuota"
+    - "SoftLayer_Network_CdnMarketplace_Configuration_Cache_PurgeGroup"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_CdnMarketplace_Configuration_Cache_PurgeGroup"

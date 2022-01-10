@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Auxiliary"
 classes:
-    - "getAllObjects"
+    - "SoftLayer_Auxiliary_Notification_Emergency"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Auxiliary_Notification_Emergency"

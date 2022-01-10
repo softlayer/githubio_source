@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Provisioning"
 classes:
-    - "updateCustomerUpgradeWindow"
+    - "SoftLayer_Provisioning_Maintenance_Window"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Provisioning_Maintenance_Window"

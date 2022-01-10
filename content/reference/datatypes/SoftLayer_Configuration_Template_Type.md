@@ -1,8 +1,6 @@
 ---
 title: "SoftLayer_Configuration_Template_Type"
-description: "SoftLayer_Configuration_Template_Type defines the types of configuration template. 
-
-Template types can be custom, default and so on. "
+description: "The SoftLayer_Configuration_Template_Type data type contains configuration template type information. "
 date: "2018-02-12"
 tags:
     - "datatype"

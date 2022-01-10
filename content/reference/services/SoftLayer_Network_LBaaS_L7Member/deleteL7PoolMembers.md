@@ -7,7 +7,7 @@ tags:
     - "sldn"
     - "Network"
 classes:
-    - "deleteL7PoolMembers"
+    - "SoftLayer_Network_LBaaS_L7Member"
 type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_LBaaS_L7Member"
