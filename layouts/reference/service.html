@@ -15,9 +15,13 @@
         <div class="col-md-9 zeroPad">
  
                 <h1 id="{{.Title}}"> {{.Title}} </h1>
+
                 {{ partial "service_datatype_links.html" $thisPage}}
-                
+            
                 <h2 id="description">Description</h2>
+                {{ if $thisPage.deprecated }}
+                    <div class="deprecated"><span class="deprecation-label">Deprecated  </span></div>
+                {{ end }}    
                 {{ $thisPage.serviceDoc | markdownify }}
 
                 {{ partial "service_methods.html" $thisPage}}

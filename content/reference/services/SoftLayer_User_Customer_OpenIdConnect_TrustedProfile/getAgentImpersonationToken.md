@@ -1,40 +1,14 @@
 ---
 title: "getAgentImpersonationToken"
 description: ""
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "User"
 classes:
     - "SoftLayer_User_Customer_OpenIdConnect_TrustedProfile"
-aliases:
-    - "/reference/services/softlayer_user_customer_openidconnect_trustedprofile/getAgentImpersonationToken"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_User_Customer_OpenIdConnect_TrustedProfile"
 ---
-# [SoftLayer_User_Customer_OpenIdConnect_TrustedProfile](/reference/services/SoftLayer_User_Customer_OpenIdConnect_TrustedProfile)::getAgentImpersonationToken
-
-
-
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_User_Customer_OpenIdConnect_TrustedProfileInitParameters
-
-
-### Return Values
-* string
-
-
-
-

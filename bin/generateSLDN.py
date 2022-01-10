@@ -86,28 +86,30 @@ class SLDNgenerator():
             template = Template(LISTMARKDOWN)
             with open(f"{cwd}/content/reference/services/list.md", "w", encoding="utf-8") as f:
                 f.write(template.substitute(substitions))
-        pass
+        self.metajson = None
 
     def getMetadata(self, url):
         response = requests.get(url)
         if response.status_code != 200:
             raise Exception(f"{url} returned \n{response.text}\nHTTP CODE: {response.status_code}")
 
-        return response.json()
+        self.metajson = response.json()
+        return self.metajson
 
     def getLocalMetadata(self, filename='data/sldn_metadata.json'):
         with open(filename, "r", encoding="utf-8") as f:
             metadata = f.read()
-        return json.loads(metadata)
+        self.metajson = json.loads(metadata)
+        return self.metajson
 
-    def saveMetadata(self, metajson, filename='data/sldn_metadata.json'):
+    def saveMetadata(self, filename='data/sldn_metadata.json'):
         print(f"Writing SLDN Metadata to {filename}")
         with open(filename, 'w') as f:
-            json.dump(metajson, f, indent=4)
+            json.dump(self.metajson, f, indent=4)
 
 
-    def generateMarkdown(self, metajson):
-        for serviceName, service in metajson.items():
+    def generateMarkdown(self):
+        for serviceName, service in self.metajson.items():
             print(f"Working on: {serviceName}")
             # noservice means datatype only.
             if service.get('noservice', False) == False:
@@ -116,8 +118,8 @@ class SLDNgenerator():
                     self.writeMethodMarkdown(method, serviceName=serviceName)
             self.writeDatatypeMarkdown(service)
 
-    def addInORMMethods(self, metajson):
-        for serviceName, service in metajson.items():
+    def addInORMMethods(self):
+        for serviceName, service in self.metajson.items():
             # noservice means datatype only.
             if service.get('noservice', False) == False:
                 for propName, prop in service.get('properties', {}).items():
@@ -132,14 +134,31 @@ class SLDNgenerator():
                             'typeArray': prop.get('typeArray', None),
                             'ormMethod': True,
                             'maskable': True,
-                            'filterable': True
+                            'filterable': True,
+                            'deprecated': prop.get('deprecated', False)
                         }
                         if ormMethod['typeArray']:
                             ormMethod['limitable'] = True
-                        metajson[serviceName]['methods'][ormName] = ormMethod
-        return metajson
-                    
-   
+                        self.metajson[serviceName]['methods'][ormName] = ormMethod
+        return self.metajson
+
+    def addInChildMethods(self):
+        for serviceName, service in self.metajson.items():
+            self.metajson[serviceName]['methods'] = self.getBaseMethods(serviceName, 'methods')
+            self.metajson[serviceName]['properties'] = self.getBaseMethods(serviceName, 'properties')
+
+
+    def getBaseMethods(self, serviceName, objectType):
+        """Responsible for pulling in properties or methods from the base class of the service requested"""
+        service = self.metajson[serviceName]
+        methods = service.get(objectType, {})
+        if service.get('base', "SoftLayer_Entity") != "SoftLayer_Entity":
+            
+            baseMethods = self.getBaseMethods(service.get('base'), objectType)
+            for bName, bMethod in baseMethods.items():
+                if not methods.get(bName, False):
+                    methods[bName] = bMethod
+        return methods                  
 
     def writeServiceMarkdown(self, serviceJson):
         service_dir = f"./content/reference/services/{serviceJson.get('name')}/"
@@ -215,7 +234,7 @@ def main(download):
     if download:
         try:
             metajson = generator.getMetadata(url = METAURL)
-            generator.saveMetadata(metajson)
+            generator.saveMetadata()
         except Exception as e:
             print("========== ERROR ==========")
             print(f"{e}")
@@ -227,12 +246,13 @@ def main(download):
     jsonString = json.dumps(metajson)
     jsonString = wikiToMarkdownFilter(jsonString)
     # print(jsonString)
-    metajson = json.loads(jsonString)
-    metajson = generator.addInORMMethods(metajson)
-    generator.saveMetadata(metajson)
+    generator.metajson = json.loads(jsonString)
+    generator.addInORMMethods()
+    generator.addInChildMethods()
+    generator.saveMetadata()
     print("Generating Markdown....")
     # print(metajson)
-    generator.generateMarkdown(metajson)
+    generator.generateMarkdown()
 
 
 if __name__ == "__main__":

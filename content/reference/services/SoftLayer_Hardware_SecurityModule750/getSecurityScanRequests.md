@@ -1,46 +1,14 @@
 ---
 title: "getSecurityScanRequests"
-description: "Retrieve information regarding a piece of hardware's vulnerability scan requests."
-layout: "method"
+description: "Information regarding a piece of hardware's vulnerability scan requests."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Hardware"
 classes:
     - "SoftLayer_Hardware_SecurityModule750"
-aliases:
-    - "/reference/services/softlayer_hardware_securitymodule750/getSecurityScanRequests"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Hardware_SecurityModule750"
 ---
-# [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getSecurityScanRequests
-
-
-Retrieve information regarding a piece of hardware's vulnerability scan requests.
-
-
-## Overview 
-Retrieve information regarding a piece of hardware's vulnerability scan requests.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Hardware_SecurityModule750InitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Hardware_SecurityModule750ObjectMask
-* SoftLayer_Hardware_SecurityModule750ObjectFilter
-* resultLimit
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Network_Security_Scanner_Request'>SoftLayer_Network_Security_Scanner_Request[] </a>
-
-
-
-

@@ -1,45 +1,14 @@
 ---
 title: "getTimezone"
-description: "Retrieve a portal user's time zone."
-layout: "method"
+description: "A portal user's time zone."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "User"
 classes:
     - "SoftLayer_User_Customer_OpenIdConnect_TrustedProfile"
-aliases:
-    - "/reference/services/softlayer_user_customer_openidconnect_trustedprofile/getTimezone"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_User_Customer_OpenIdConnect_TrustedProfile"
 ---
-# [SoftLayer_User_Customer_OpenIdConnect_TrustedProfile](/reference/services/SoftLayer_User_Customer_OpenIdConnect_TrustedProfile)::getTimezone
-
-
-Retrieve a portal user's time zone.
-
-
-## Overview 
-Retrieve a portal user's time zone.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_User_Customer_OpenIdConnect_TrustedProfileInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_User_Customer_OpenIdConnect_TrustedProfileObjectMask
-* SoftLayer_User_Customer_OpenIdConnect_TrustedProfileObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Locale_Timezone'>SoftLayer_Locale_Timezone </a>
-
-
-
-

@@ -1,40 +1,14 @@
 ---
 title: "isDuplicateReadyForSnapshot"
-description: "This method returns a boolean indicating whether the clone volume is ready for snapshot."
-layout: "method"
+description: "This method returns a boolean indicating whether the clone volume is ready for snapshot. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
-aliases:
-    - "/reference/services/softlayer_network_storage_iscsi/isDuplicateReadyForSnapshot"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Storage_Iscsi"
 ---
-# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::isDuplicateReadyForSnapshot
-
-
-Displays the if clone snapshots can be ordered.
-
-
-## Overview 
-This method returns a boolean indicating whether the clone volume is ready for snapshot. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Network_Storage_IscsiInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

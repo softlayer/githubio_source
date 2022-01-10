@@ -1,45 +1,14 @@
 ---
 title: "getOriginalVolumeSize"
-description: "Retrieve the size (in GB) of the volume or LUN before any size expansion, or of the volume (before any possible size exp... "
-layout: "method"
+description: "The size (in GB) of the volume or LUN before any size expansion, or of the volume (before any possible size expansion) from which the duplicate volume or LUN was created."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
-aliases:
-    - "/reference/services/softlayer_network_storage_iscsi/getOriginalVolumeSize"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Storage_Iscsi"
 ---
-# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getOriginalVolumeSize
-
-
-Retrieve the size (in GB) of the volume or LUN before any size expansion, or of the volume (before any possible size expansion) from which the duplicate volume or LUN was created.
-
-
-## Overview 
-Retrieve the size (in GB) of the volume or LUN before any size expansion, or of the volume (before any possible size expansion) from which the duplicate volume or LUN was created.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Network_Storage_IscsiInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Network_Storage_IscsiObjectMask
-* SoftLayer_Network_Storage_IscsiObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* string
-
-
-
-

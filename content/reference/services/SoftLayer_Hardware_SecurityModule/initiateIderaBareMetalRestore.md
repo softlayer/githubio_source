@@ -1,51 +1,14 @@
 ---
 title: "initiateIderaBareMetalRestore"
-description: "Idera Bare Metal Server Restore is a backup agent designed specifically for making full system restores made with Idera... "
-layout: "method"
+description: "Idera Bare Metal Server Restore is a backup agent designed specifically for making full system restores made with Idera Server Backup. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Hardware"
 classes:
     - "SoftLayer_Hardware_SecurityModule"
-aliases:
-    - "/reference/services/softlayer_hardware_securitymodule/initiateIderaBareMetalRestore"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Hardware_SecurityModule"
 ---
-# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::initiateIderaBareMetalRestore
-
-
-Initiate an Idera bare metal restore for the server tied to an Idera Server Backup
-
-
-## Overview 
-Idera Bare Metal Server Restore is a backup agent designed specifically for making full system restores made with Idera Server Backup. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Hardware_SecurityModuleInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-### Error Handling
-
-* SoftLayer_Exception_Public 
-
-> Throws the exception 'You do not have permission to this service.' when a user does not have permission to Issue OS Reloads. 
-
-* SoftLayer_Exception_Public 
-
-> Throws the exception 'There is currently an outstanding transaction for this server.' when there is a current hardware update. 
-
-
-

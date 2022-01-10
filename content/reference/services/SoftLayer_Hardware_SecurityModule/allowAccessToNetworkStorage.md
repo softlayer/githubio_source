@@ -1,41 +1,14 @@
 ---
 title: "allowAccessToNetworkStorage"
-description: "This method is used to allow access to a SoftLayer_Network_Storage volume that supports host- or network-level access co... "
-layout: "method"
+description: "This method is used to allow access to a SoftLayer_Network_Storage volume that supports host- or network-level access control. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Hardware"
 classes:
     - "SoftLayer_Hardware_SecurityModule"
-aliases:
-    - "/reference/services/softlayer_hardware_securitymodule/allowAccessToNetworkStorage"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Hardware_SecurityModule"
 ---
-# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::allowAccessToNetworkStorage
-
-
-Allow access to a SoftLayer_Network_Storage volume from this device. 
-
-
-## Overview 
-This method is used to allow access to a SoftLayer_Network_Storage volume that supports host- or network-level access control. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|networkStorageTemplateObject| <a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a>| |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Hardware_SecurityModuleInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

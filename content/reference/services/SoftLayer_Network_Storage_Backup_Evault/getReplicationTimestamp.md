@@ -1,40 +1,14 @@
 ---
 title: "getReplicationTimestamp"
-description: ""
-layout: "method"
+description: "An API call to fetch the last timestamp of the replication process"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
-aliases:
-    - "/reference/services/softlayer_network_storage_backup_evault/getReplicationTimestamp"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getReplicationTimestamp
-
-
-An API call to fetch the last timestamp of the replication process
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Network_Storage_Backup_EvaultInitParameters
-
-
-### Return Values
-* string
-
-
-
-

@@ -1,45 +1,14 @@
 ---
 title: "getDependentDuplicate"
-description: "Retrieve whether or not a network storage volume is a dependent duplicate."
-layout: "method"
+description: "Whether or not a network storage volume is a dependent duplicate."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
-aliases:
-    - "/reference/services/softlayer_network_storage_iscsi/getDependentDuplicate"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Storage_Iscsi"
 ---
-# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getDependentDuplicate
-
-
-Retrieve whether or not a network storage volume is a dependent duplicate.
-
-
-## Overview 
-Retrieve whether or not a network storage volume is a dependent duplicate.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Network_Storage_IscsiInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Network_Storage_IscsiObjectMask
-* SoftLayer_Network_Storage_IscsiObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* string
-
-
-
-

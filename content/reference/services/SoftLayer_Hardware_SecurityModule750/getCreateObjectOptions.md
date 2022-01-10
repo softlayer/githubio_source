@@ -1,43 +1,18 @@
 ---
 title: "getCreateObjectOptions"
-description: "There are many options that may be provided while ordering a server, this method can be used to determine what these opt... "
-layout: "method"
+description: "
+There are many options that may be provided while ordering a server, this method can be used to determine what these options are. 
+
+
+Detailed information on the return value can be found on the data type page for [SoftLayer_Container_Hardware_Configuration](reference/datatypes/SoftLayer_Container_Hardware_Configuration). "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Hardware"
 classes:
     - "SoftLayer_Hardware_SecurityModule750"
-aliases:
-    - "/reference/services/softlayer_hardware_securitymodule750/getCreateObjectOptions"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Hardware_SecurityModule750"
 ---
-# [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getCreateObjectOptions
-
-
-Determine options available when creating a server
-
-
-## Overview 
-
-There are many options that may be provided while ordering a server, this method can be used to determine what these options are. 
-
-
-Detailed information on the return value can be found on the data type page for [SoftLayer_Container_Hardware_Configuration]({{<ref "reference/datatypes/SoftLayer_Container_Hardware_Configuration">}}). 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Container_Hardware_Configuration'>SoftLayer_Container_Hardware_Configuration </a>
-
-
-
-

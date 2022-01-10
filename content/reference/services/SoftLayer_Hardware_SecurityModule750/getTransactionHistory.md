@@ -1,46 +1,15 @@
 ---
 title: "getTransactionHistory"
-description: "This method will query transaction history for a piece of hardware."
-layout: "method"
+description: "
+This method will query transaction history for a piece of hardware. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Hardware"
 classes:
     - "SoftLayer_Hardware_SecurityModule750"
-aliases:
-    - "/reference/services/softlayer_hardware_securitymodule750/getTransactionHistory"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Hardware_SecurityModule750"
 ---
-# [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getTransactionHistory
-
-
-Get transaction history for a piece of hardware.
-
-
-## Overview 
-
-This method will query transaction history for a piece of hardware. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Hardware_SecurityModule750InitParameters
-
-
-### Optional Headers
-* SoftLayer_Hardware_SecurityModule750ObjectMask
-* SoftLayer_ObjectMask
-* resultLimit
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Provisioning_Version1_Transaction_History'>SoftLayer_Provisioning_Version1_Transaction_History[] </a>
-
-
-
-

@@ -1,45 +1,14 @@
 ---
 title: "getStaasVersion"
 description: ""
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
-aliases:
-    - "/reference/services/softlayer_network_storage_backup_evault/getStaasVersion"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getStaasVersion
-
-
-
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Network_Storage_Backup_EvaultInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Network_Storage_Backup_EvaultObjectMask
-* SoftLayer_Network_Storage_Backup_EvaultObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* string
-
-
-
-

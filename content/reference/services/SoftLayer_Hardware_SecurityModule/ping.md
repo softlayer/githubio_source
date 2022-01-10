@@ -1,40 +1,14 @@
 ---
 title: "ping"
-description: "Issues a ping command to the server and returns the ping response."
-layout: "method"
+description: "Issues a ping command to the server and returns the ping response. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Hardware"
 classes:
     - "SoftLayer_Hardware_SecurityModule"
-aliases:
-    - "/reference/services/softlayer_hardware_securitymodule/ping"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Hardware_SecurityModule"
 ---
-# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::ping
-
-
-Issues ping command.
-
-
-## Overview 
-Issues a ping command to the server and returns the ping response. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Hardware_SecurityModuleInitParameters
-
-
-### Return Values
-* string
-
-
-
-

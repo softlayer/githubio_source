@@ -1,45 +1,14 @@
 ---
 title: "getFailbackNotAllowed"
-description: "Retrieve determines whether the volume is allowed to failback"
-layout: "method"
+description: "Determines whether the volume is allowed to failback"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
-aliases:
-    - "/reference/services/softlayer_network_storage_backup_evault/getFailbackNotAllowed"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getFailbackNotAllowed
-
-
-Retrieve determines whether the volume is allowed to failback
-
-
-## Overview 
-Retrieve determines whether the volume is allowed to failback
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Network_Storage_Backup_EvaultInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Network_Storage_Backup_EvaultObjectMask
-* SoftLayer_Network_Storage_Backup_EvaultObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* string
-
-
-
-

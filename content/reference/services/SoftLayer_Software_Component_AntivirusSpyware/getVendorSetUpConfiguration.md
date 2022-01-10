@@ -1,40 +1,14 @@
 ---
 title: "getVendorSetUpConfiguration"
 description: ""
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Software"
 classes:
     - "SoftLayer_Software_Component_AntivirusSpyware"
-aliases:
-    - "/reference/services/softlayer_software_component_antivirusspyware/getVendorSetUpConfiguration"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Software_Component_AntivirusSpyware"
 ---
-# [SoftLayer_Software_Component_AntivirusSpyware](/reference/services/SoftLayer_Software_Component_AntivirusSpyware)::getVendorSetUpConfiguration
-
-
-
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Software_Component_AntivirusSpywareInitParameters
-
-
-### Return Values
-* string
-
-
-
-

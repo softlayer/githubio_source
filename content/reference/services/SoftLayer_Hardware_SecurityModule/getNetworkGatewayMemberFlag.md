@@ -1,45 +1,14 @@
 ---
 title: "getNetworkGatewayMemberFlag"
-description: "Retrieve whether or not this device is part of a network gateway."
-layout: "method"
+description: "Whether or not this device is part of a network gateway."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Hardware"
 classes:
     - "SoftLayer_Hardware_SecurityModule"
-aliases:
-    - "/reference/services/softlayer_hardware_securitymodule/getNetworkGatewayMemberFlag"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Hardware_SecurityModule"
 ---
-# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getNetworkGatewayMemberFlag
-
-
-Retrieve whether or not this device is part of a network gateway.
-
-
-## Overview 
-Retrieve whether or not this device is part of a network gateway.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Hardware_SecurityModuleInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Hardware_SecurityModuleObjectMask
-* SoftLayer_Hardware_SecurityModuleObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* boolean
-
-
-
-

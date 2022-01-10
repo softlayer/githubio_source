@@ -1,4 +1,8 @@
-<div class="prop-row">
+{{ $deprecated := "" }}
+{{ if .deprecated }}
+{{ $deprecated = "deprecated" }}
+{{ end }}
+<div class="prop-row {{$deprecated}}">
     <hr>
     <h4 id="{{.name}}"><a href="#{{.name}}">{{.name}}</a></h4>
     <p>
@@ -21,4 +25,7 @@
         {{ end }}
     </strong>
     </p>
+    {{ if .deprecated }}
+        <p><span class="deprecation-label">Deprecated  </span></p>
+    {{ end }}
 </div>

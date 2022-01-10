@@ -1,45 +1,14 @@
 ---
 title: "getCreationScheduleId"
-description: "Retrieve the schedule id which was executed to create a snapshot."
-layout: "method"
+description: "The schedule id which was executed to create a snapshot."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
-aliases:
-    - "/reference/services/softlayer_network_storage_iscsi/getCreationScheduleId"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Storage_Iscsi"
 ---
-# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getCreationScheduleId
-
-
-Retrieve the schedule id which was executed to create a snapshot.
-
-
-## Overview 
-Retrieve the schedule id which was executed to create a snapshot.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Network_Storage_IscsiInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Network_Storage_IscsiObjectMask
-* SoftLayer_Network_Storage_IscsiObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* string
-
-
-
-

@@ -1,53 +1,14 @@
 ---
 title: "getBackendOutgoingBandwidth"
-description: "The '''getBackendOutgoingBandwidth''' method retrieves the amount of outgoing private network traffic used between the g... "
-layout: "method"
+description: "The '''getBackendOutgoingBandwidth''' method retrieves the amount of outgoing private network traffic used between the given start date and end date parameters. When entering start and end dates, only the month, day and year are used to calculate bandwidth totals - the time (HH:MM:SS) is ignored and defaults to midnight. The amount of bandwidth retrieved is measured in gigabytes. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Hardware"
 classes:
     - "SoftLayer_Hardware_Server"
-aliases:
-    - "/reference/services/softlayer_hardware_server/getBackendOutgoingBandwidth"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Hardware_Server"
 ---
-# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getBackendOutgoingBandwidth
-
-
-Retrieve the amount of outgoing private network bandwidth used by a server over a period of time. 
-
-
-## Overview 
-The '''getBackendOutgoingBandwidth''' method retrieves the amount of outgoing private network traffic used between the given start date and end date parameters. When entering start and end dates, only the month, day and year are used to calculate bandwidth totals - the time (HH:MM:SS) is ignored and defaults to midnight. The amount of bandwidth retrieved is measured in gigabytes. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|startDate| dateTime| The start date for the range of bandwidth to retrieve.|
-|endDate| dateTime| The end date for the range of bandwidth to retrieve.|
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Hardware_ServerInitParameters
-
-
-### Return Values
-* float
-
-
-
-### Error Handling
-
-* SoftLayer_Exception_Public 
-
-> "Please provide a start date." 
-
-* SoftLayer_Exception_Public 
-
-> "Please provide an end date." 
-
-
-

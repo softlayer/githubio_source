@@ -1,45 +1,14 @@
 ---
 title: "getPrimaryBackendIpAddress"
-description: "Retrieve the hardware's primary private IP address."
-layout: "method"
+description: "The hardware's primary private IP address."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Hardware"
 classes:
     - "SoftLayer_Hardware_SecurityModule750"
-aliases:
-    - "/reference/services/softlayer_hardware_securitymodule750/getPrimaryBackendIpAddress"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Hardware_SecurityModule750"
 ---
-# [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getPrimaryBackendIpAddress
-
-
-Retrieve the hardware's primary private IP address.
-
-
-## Overview 
-Retrieve the hardware's primary private IP address.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Hardware_SecurityModule750InitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Hardware_SecurityModule750ObjectMask
-* SoftLayer_Hardware_SecurityModule750ObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* string
-
-
-
-

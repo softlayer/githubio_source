@@ -1,45 +1,14 @@
 ---
 title: "getParentVolume"
-description: "Retrieve the volume on which this iSCSI LUN is provisioned."
-layout: "method"
+description: "The parent volume of a volume in a complex storage relationship."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
-aliases:
-    - "/reference/services/softlayer_network_storage_iscsi/getParentVolume"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Storage_Iscsi"
 ---
-# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getParentVolume
-
-
-Retrieve the volume on which this iSCSI LUN is provisioned.
-
-
-## Overview 
-Retrieve the volume on which this iSCSI LUN is provisioned.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Network_Storage_IscsiInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Network_Storage_IscsiObjectMask
-* SoftLayer_Network_Storage_IscsiObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a>
-
-
-
-

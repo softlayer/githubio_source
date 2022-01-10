@@ -1,44 +1,14 @@
 ---
 title: "getValidReplicationTargetDatacenterLocations"
 description: ""
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
-aliases:
-    - "/reference/services/softlayer_network_storage_iscsi/getValidReplicationTargetDatacenterLocations"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Storage_Iscsi"
 ---
-# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getValidReplicationTargetDatacenterLocations
-
-
-
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Network_Storage_IscsiInitParameters
-
-
-### Optional Headers
-* SoftLayer_Network_Storage_IscsiObjectMask
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>
-
-
-
-

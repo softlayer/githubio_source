@@ -18,6 +18,10 @@
             <h1 id="{{.Title}}"> 
                 <a href="/reference/services/{{$.Params.MainService}}">{{$.Params.MainService}}</a>::{{.Title}} 
             </h1>
+
+            {{ if  $thisPage.deprecated}}
+                <div class="deprecated"><span class="deprecation-label">Deprecated </span></div>
+            {{ end }}
             <p>
                 {{ $thisPage.docOverview | markdownify }}
             </p>
