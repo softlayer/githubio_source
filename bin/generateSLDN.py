@@ -43,12 +43,12 @@ def wikiToMarkdownFilter(text):
     # was causing the whole JSON string to be truncated.
 
     # [[SoftLayer_Account]] -> reference/datatypes/SoftLayer_Account
-    text = re.sub(r'\[\[(?P<one>\w+)( \(type\))?(\|[0-9A-Za-z_\'\(\) ]*)?\]\]', '[\g<one>](reference/datatypes/\g<one>)', text)
+    text = re.sub(r'\[\[(?P<one>\w+)( \(type\))?(\|[0-9A-Za-z_\'\(\) ]*)?\]\]', '[\g<one>](/reference/datatypes/\g<one>)', text)
     #text1 = re.sub(r'\[\[(?P<one>\w+)\]\]', '[\g<one>](reference/datatypes/\g<one>)', text)
     # [[SoftLayer_Account/getObject]] -> reference/services/SoftLayer_Account/getObject
-    text = re.sub(r'\[\[(?P<one>\w+)\/(?P<two>\w+)(\|[0-9A-Za-z_\'\(\) ]*)?\]\]', "[\g<one>::\g<two>](reference/services/\g<one>/\g<two>)", text)
+    text = re.sub(r'\[\[(?P<one>\w+)\/(?P<two>\w+)(\|[0-9A-Za-z_\'\(\) ]*)?\]\]', "[\g<one>::\g<two>](/reference/services/\g<one>/\g<two>)", text)
     # [[SoftLayer_Account::id]] -> reference/datatypes/SoftLayer_ACccount/#id
-    text = re.sub(r'\[\[(?P<one>\w+)::(?P<two>\w+)(\|[0-9A-Za-z_\'\(\) ]*)?\]\]', "[\g<one>::\g<two>](reference/datatypes/$1/#$2)", text)
+    text = re.sub(r'\[\[(?P<one>\w+)::(?P<two>\w+)(\|[0-9A-Za-z_\'\(\) ]*)?\]\]', "[\g<one>::\g<two>](/reference/datatypes/$1/#$2)", text)
     return text
 
 def cleanupYaml(text):

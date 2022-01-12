@@ -21,7 +21,7 @@
     {{ if $method.docOverview }}
         <p>{{ $method.docOverview | markdownify }}</p>
     {{ else }}
-        <p>{{ $method.doc | markdownify }}</p>
+        <p>{{ $method.doc | markdownify | truncate 300 }}</p>
     {{ end }}
     </div>
 {{ end }}

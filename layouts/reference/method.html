@@ -56,7 +56,7 @@
                             {{ else }}
                             <td>{{$param.type}}{{$isArray}}</td>
                             {{ end }}
-                            <td>{{$param.doc}}</td>
+                            <td>{{$param.doc | markdownify }}</td>
                         </tr>
                         {{end }}
                     </tbody>
@@ -116,8 +116,14 @@
             {{ if $errorHandle }}
                 <h3>Error Handling</h3>
                     <ul>
-                    {{ range $error := $errorHandle }}                    
-                        <li>{{ $error.exception }}: {{ $error.description }} </li>
+                    {{ range $error := $errorHandle }}
+                        {{ if not $error.exceptionn  }}
+                            <li>{{ $error.description | markdownify}} </li>
+                        {{ else }}
+                            <li><p>{{ $error.exception }}: {{ $error.description | markdownify }} </li>
+                        {{ end }}
+                        
+
                     {{ end }}
                     </ul>
             {{ end }}
@@ -126,7 +132,8 @@
                 <h3>Associated Methods</h3>
                 <ul>
                 {{ range $assc := $associated }}
-                    <li>{{ $assc }}</li>
+                {{ $parts := split $assc "::" }}
+                    <li><a href='/reference/services/{{ index $parts 0 }}/{{ index $parts 1 }}'>{{ $assc }}</a></li>
                 {{ end }}
                 </ul>
             {{ end }}
