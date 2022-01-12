@@ -8,7 +8,7 @@ to serve as the owner of the brand.
 In order to create a brand, a template object must be sent in with several required values. 
 
 
-### Input [SoftLayer_Brand](reference/datatypes/SoftLayer_Brand)
+### Input [SoftLayer_Brand](/reference/datatypes/SoftLayer_Brand)
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "getAccount"
-description: "The [SoftLayer_Account](reference/datatypes/SoftLayer_Account) that a storage repository belongs to."
+description: "The [SoftLayer_Account](/reference/datatypes/SoftLayer_Account) that a storage repository belongs to."
 date: "2018-02-12"
 tags:
     - "method"

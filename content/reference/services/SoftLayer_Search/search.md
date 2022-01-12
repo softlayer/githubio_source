@@ -1,6 +1,6 @@
 ---
 title: "search"
-description: "This method allows for searching for SoftLayer resources by simple phrase. It returns a collection or array of [SoftLayer_Container_Search_Result](reference/datatypes/SoftLayer_Container_Search_Result) objects that have search metadata for each result and the resulting resource found. 
+description: "This method allows for searching for SoftLayer resources by simple phrase. It returns a collection or array of [SoftLayer_Container_Search_Result](/reference/datatypes/SoftLayer_Container_Search_Result) objects that have search metadata for each result and the resulting resource found. 
 
 This method recognizes the special <b><code>_objectType:</code></b> quantifier in search strings.  This quantifier can be used to restrict a search to specific object types.  Example usage: 
 
@@ -14,7 +14,7 @@ If the list of object types is prefixed with a hyphen or minus sign (-), then th
 
 <code>_objectType:-Type_4,Type_5 </code><i><code>(other search terms...)</code></i> 
 
-A collection of available object types can be retrieved by calling the [SoftLayer_Search::getObjectTypes](reference/services/SoftLayer_Search/getObjectTypes) method. 
+A collection of available object types can be retrieved by calling the [SoftLayer_Search::getObjectTypes](/reference/services/SoftLayer_Search/getObjectTypes) method. 
 
 
 #### Exact Match on Text Fields

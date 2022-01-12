@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Location_Rack"
-description: "SoftLayer_Location_Rack extends the [SoftLayer_Location](reference/datatypes/SoftLayer_Location) data type to include rack-specific properties. "
+description: "SoftLayer_Location_Rack extends the [SoftLayer_Location](/reference/datatypes/SoftLayer_Location) data type to include rack-specific properties. "
 date: "2018-02-12"
 tags:
     - "datatype"

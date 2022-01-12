@@ -1,6 +1,6 @@
 ---
 title: "getImpactedAccounts"
-description: "A collection of accounts impacted by this event. Each impacted account record relates directly to a [SoftLayer_Account](reference/datatypes/SoftLayer_Account)."
+description: "A collection of accounts impacted by this event. Each impacted account record relates directly to a [SoftLayer_Account](/reference/datatypes/SoftLayer_Account)."
 date: "2018-02-12"
 tags:
     - "method"

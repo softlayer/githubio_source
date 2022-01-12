@@ -1,6 +1,6 @@
 ---
 title: "assignNewParentId"
-description: "This method can be used in place of [SoftLayer_User_Customer::editObject](reference/datatypes/$1/#$2) to change the parent user of this user. 
+description: "This method can be used in place of [SoftLayer_User_Customer::editObject](/reference/datatypes/$1/#$2) to change the parent user of this user. 
 
 The new parent must be a user on the same account, and must not be a child of this user.  A user is not allowed to change their own parent. 
 

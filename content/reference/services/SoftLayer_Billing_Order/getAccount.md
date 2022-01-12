@@ -1,6 +1,6 @@
 ---
 title: "getAccount"
-description: "The [SoftLayer_Account](reference/datatypes/SoftLayer_Account) to which an order belongs."
+description: "The [SoftLayer_Account](/reference/datatypes/SoftLayer_Account) to which an order belongs."
 date: "2018-02-12"
 tags:
     - "method"

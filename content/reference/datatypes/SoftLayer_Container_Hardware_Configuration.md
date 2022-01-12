@@ -8,7 +8,7 @@ The <code>itemPrice</code> value will provide hourly and monthly costs (if eithe
 
 The <code>template</code> will provide a fragment of the request with the properties and values that must be sent when creating a server with the option. 
 
-The [SoftLayer_Hardware::getCreateObjectOptions](reference/services/SoftLayer_Hardware/getCreateObjectOptions) method returns this data structure. 
+The [SoftLayer_Hardware::getCreateObjectOptions](/reference/services/SoftLayer_Hardware/getCreateObjectOptions) method returns this data structure. 
 
 <style type='text/css'>#properties .views-field-body p { margin-top: 1.5em; };</style> "
 date: "2018-02-12"

@@ -1,6 +1,6 @@
 ---
 title: "getCoreRestrictedItems"
-description: "The [SoftLayer_Billing_Order_Item](reference/datatypes/SoftLayer_Billing_Order_Item) that are core restricted"
+description: "The [SoftLayer_Billing_Order_Item](/reference/datatypes/SoftLayer_Billing_Order_Item) that are core restricted"
 date: "2018-02-12"
 tags:
     - "method"

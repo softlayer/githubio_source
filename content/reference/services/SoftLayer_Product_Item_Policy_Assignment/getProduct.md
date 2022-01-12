@@ -1,6 +1,6 @@
 ---
 title: "getProduct"
-description: "The [SoftLayer_Product_Item](reference/datatypes/SoftLayer_Product_Item) for this policy assignment."
+description: "The [SoftLayer_Product_Item](/reference/datatypes/SoftLayer_Product_Item) for this policy assignment."
 date: "2018-02-12"
 tags:
     - "method"

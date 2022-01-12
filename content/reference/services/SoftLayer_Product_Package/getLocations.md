@@ -1,6 +1,6 @@
 ---
 title: "getLocations"
-description: "A collection of valid locations for this package. (Deprecated - Use [SoftLayer_Product_Package::getRegions](reference/services/SoftLayer_Product_Package/getRegions))"
+description: "A collection of valid locations for this package. (Deprecated - Use [SoftLayer_Product_Package::getRegions](/reference/services/SoftLayer_Product_Package/getRegions))"
 date: "2018-02-12"
 tags:
     - "method"

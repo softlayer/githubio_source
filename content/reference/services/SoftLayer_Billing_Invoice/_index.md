@@ -6,7 +6,7 @@ description: "The SoftLayer_Billing_Invoice service controls the invoices that a
 *'''CLOSED_FAILED''': Invoices which were closed but were not paid for. Customers who are terminated for non-payment typically have invoices in this state.
 
 
-Once an invoice is paid it moves from OPEN to CLOSED state. Invoices are created under varying types, which are defined in the type property of the [SoftLayer_Invoice](reference/datatypes/SoftLayer_Invoice). Invoices are created under one of the following type categories: 
+Once an invoice is paid it moves from OPEN to CLOSED state. Invoices are created under varying types, which are defined in the type property of the [SoftLayer_Invoice](/reference/datatypes/SoftLayer_Invoice). Invoices are created under one of the following type categories: 
 *'''NEW''': An invoice for new service. A SoftLayer customer's first invoice is of the NEW type.
 *'''RECURRING''': Invoices that are generated on a SoftLayer customer's anniversary billing date for monthly services.
 *'''ONE-TIME-CHARGE''': Invoices that are generated when one-time charges are applied to an account for fees incurred from products or services procured outside of the standard purchasing processes.
@@ -15,9 +15,9 @@ Once an invoice is paid it moves from OPEN to CLOSED state. Invoices are created
 *'''MANUAL_PAYMENT_CREDIT''': Invoice credits that are generated whenever a customer makes a manual payment.
 
 
-Invoices are created with contact information duplicated from the [SoftLayer_Account](reference/datatypes/SoftLayer_Account). We do this in order to maintain a history of an account's contact information as invoices are generated. Likewise each invoice record keeps track of an account's balance as the invoice is opened and closed. 
+Invoices are created with contact information duplicated from the [SoftLayer_Account](/reference/datatypes/SoftLayer_Account). We do this in order to maintain a history of an account's contact information as invoices are generated. Likewise each invoice record keeps track of an account's balance as the invoice is opened and closed. 
 
-Query the [SoftLayer_Account](reference/datatypes/SoftLayer_Account) service to get a list of invoices for your account. "
+Query the [SoftLayer_Account](/reference/datatypes/SoftLayer_Account) service to get a list of invoices for your account. "
 date: "2018-02-12"
 tags:
     - "service"

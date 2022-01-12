@@ -1,6 +1,6 @@
 ---
 title: "getAccount"
-description: "A block device template group's [SoftLayer_Account](reference/datatypes/SoftLayer_Account)."
+description: "A block device template group's [SoftLayer_Account](/reference/datatypes/SoftLayer_Account)."
 date: "2018-02-12"
 tags:
     - "method"

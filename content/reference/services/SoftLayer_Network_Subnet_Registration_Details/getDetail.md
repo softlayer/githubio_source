@@ -1,6 +1,6 @@
 ---
 title: "getDetail"
-description: "The related [SoftLayer_Account_Regional_Registry_Detail](reference/datatypes/SoftLayer_Account_Regional_Registry_Detail)."
+description: "The related [SoftLayer_Account_Regional_Registry_Detail](/reference/datatypes/SoftLayer_Account_Regional_Registry_Detail)."
 date: "2018-02-12"
 tags:
     - "method"

@@ -1,6 +1,6 @@
 ---
 title: "getAccount"
-description: "The [SoftLayer_Account](reference/datatypes/SoftLayer_Account) to which the deployment belongs."
+description: "The [SoftLayer_Account](/reference/datatypes/SoftLayer_Account) to which the deployment belongs."
 date: "2018-02-12"
 tags:
     - "method"

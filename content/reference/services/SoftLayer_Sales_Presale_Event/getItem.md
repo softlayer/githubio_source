@@ -1,6 +1,6 @@
 ---
 title: "getItem"
-description: "The [SoftLayer_Product_Item](reference/datatypes/SoftLayer_Product_Item) associated with the presale event."
+description: "The [SoftLayer_Product_Item](/reference/datatypes/SoftLayer_Product_Item) associated with the presale event."
 date: "2018-02-12"
 tags:
     - "method"

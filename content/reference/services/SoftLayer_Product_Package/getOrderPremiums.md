@@ -1,6 +1,6 @@
 ---
 title: "getOrderPremiums"
-description: "The premium price modifiers associated with the [SoftLayer_Product_Item_Price](reference/datatypes/SoftLayer_Product_Item_Price) and [SoftLayer_Location](reference/datatypes/SoftLayer_Location) objects in a package."
+description: "The premium price modifiers associated with the [SoftLayer_Product_Item_Price](/reference/datatypes/SoftLayer_Product_Item_Price) and [SoftLayer_Location](/reference/datatypes/SoftLayer_Location) objects in a package."
 date: "2018-02-12"
 tags:
     - "method"

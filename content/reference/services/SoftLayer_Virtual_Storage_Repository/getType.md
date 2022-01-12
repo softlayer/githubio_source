@@ -1,6 +1,6 @@
 ---
 title: "getType"
-description: "A storage repository's [SoftLayer_Virtual_Storage_Repository_Type](reference/datatypes/SoftLayer_Virtual_Storage_Repository_Type)."
+description: "A storage repository's [SoftLayer_Virtual_Storage_Repository_Type](/reference/datatypes/SoftLayer_Virtual_Storage_Repository_Type)."
 date: "2018-02-12"
 tags:
     - "method"

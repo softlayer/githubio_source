@@ -1,6 +1,6 @@
 ---
 title: "getBlockDevices"
-description: "A computing instance's block devices. Block devices link [SoftLayer_Virtual_Disk_Image](reference/datatypes/SoftLayer_Virtual_Disk_Image) to computing instances."
+description: "A computing instance's block devices. Block devices link [SoftLayer_Virtual_Disk_Image](/reference/datatypes/SoftLayer_Virtual_Disk_Image) to computing instances."
 date: "2018-02-12"
 tags:
     - "method"

@@ -1,6 +1,6 @@
 ---
 title: "getUser"
-description: "It is the [SoftLayer_User_Customer](reference/datatypes/SoftLayer_User_Customer) who placed the order for CVAD."
+description: "It is the [SoftLayer_User_Customer](/reference/datatypes/SoftLayer_User_Customer) who placed the order for CVAD."
 date: "2018-02-12"
 tags:
     - "method"

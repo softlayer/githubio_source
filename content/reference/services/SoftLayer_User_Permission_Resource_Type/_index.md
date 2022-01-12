@@ -4,7 +4,7 @@ description: "The SoftLayer_User_Permission_Resource_Type class is one of severa
 
 The SoftLayer_User_Permission_Resource_Type class is used to define the valid types of resources to which users can be granted access. Hardware server is an example of a resource type. 
 
-See [SoftLayer_User_Permission_Group](reference/datatypes/SoftLayer_User_Permission_Group) for more information on tracking device access. "
+See [SoftLayer_User_Permission_Group](/reference/datatypes/SoftLayer_User_Permission_Group) for more information on tracking device access. "
 date: "2018-02-12"
 tags:
     - "service"

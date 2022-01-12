@@ -1,6 +1,6 @@
 ---
 title: "acknowledge"
-description: "Acknowledge the associated [SoftLayer_Notification_Occurrence_Event](reference/datatypes/SoftLayer_Notification_Occurrence_Event) for this impacted user. "
+description: "Acknowledge the associated [SoftLayer_Notification_Occurrence_Event](/reference/datatypes/SoftLayer_Notification_Occurrence_Event) for this impacted user. "
 date: "2018-02-12"
 tags:
     - "method"

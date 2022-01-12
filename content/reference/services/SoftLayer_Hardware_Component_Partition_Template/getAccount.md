@@ -1,6 +1,6 @@
 ---
 title: "getAccount"
-description: "A partition template's associated [SoftLayer_Account](reference/datatypes/SoftLayer_Account)."
+description: "A partition template's associated [SoftLayer_Account](/reference/datatypes/SoftLayer_Account)."
 date: "2018-02-12"
 tags:
     - "method"
