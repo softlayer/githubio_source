@@ -1,11 +1,11 @@
 ---
 title: "Managing Notification Occurrence Events services"
-description: "How to interact with the Notification Ocurrence Events services. The SoftLayer_Notification_Occurrence_Event service represents all events with potential to cause a disruption in service.."
+description: "How to interact with the Notification Ocurrence Events services. The SoftLayer_Notification_Occurrence_Event service represents all events with potential to cause a disruption in service."
 date: "2021-01-18"
 classes: 
     - "SoftLayer_Notification_Occurrence_Event"
 tags:
-    - "Notification Ocurrence Event "    
+    - "notification"
 ---
 
 # Setup
