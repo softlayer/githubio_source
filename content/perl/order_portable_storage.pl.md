@@ -12,7 +12,7 @@ tags:
 ---
 
 
-```
+```perl
 # Order a portal storage
 # 
 # The script orders a portal storage device, it makes a single call to

@@ -9,7 +9,7 @@ tags:
 ---
 
 
-```
+```perl
 # Get Resource Records.
 # This script retrieves the individual records contained within a domain record.
 #
@@ -39,9 +39,9 @@ my $domain_client = SoftLayer::API::SOAP->new($domain_service, $dns_id, $api_use
 my $result = $domain_client->getResourceRecords();
 				   
 if ($result->fault) {
-			die 'There is an error when trying to get the resource records...' . $result->faultstring;
+	die 'There is an error when trying to get the resource records...' . $result->faultstring;
 } else {
-			print Dumper($result);
+	print Dumper($result);
 }
 
 ```

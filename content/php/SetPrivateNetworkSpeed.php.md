@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * Set Private Network Interface Speed.

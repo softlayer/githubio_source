@@ -12,7 +12,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Order a block storage (endurance)
 

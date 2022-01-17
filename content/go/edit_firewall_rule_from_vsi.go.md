@@ -13,7 +13,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Edit a firewall rule from a  VSI.
 
@@ -112,7 +112,7 @@ func main() {
 		if reflect.DeepEqual(rule, oldRule) {
 			newRule.OrderValue = sl.Int(ruleOrder)
 			firewallRules = append(firewallRules, newRule)
-    		} else {
+		} else {
 			currentRule := convertToFirewallRule(rule)
 			currentRule.OrderValue = sl.Int(ruleOrder)
 			firewallRules = append(firewallRules, currentRule)

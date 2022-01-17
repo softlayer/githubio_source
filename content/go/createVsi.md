@@ -14,7 +14,6 @@ package main
 
 import (
     "fmt"
-
     "github.com/softlayer/softlayer-go/datatypes"
     "github.com/softlayer/softlayer-go/services"
     "github.com/softlayer/softlayer-go/session"
@@ -22,9 +21,8 @@ import (
 )
 
 func main() {
-
-          sess := session.New()
-          doCreateVMTest(sess)
+    sess := session.New()
+    doCreateVMTest(sess)
 }
 
 

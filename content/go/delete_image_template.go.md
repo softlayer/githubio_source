@@ -9,7 +9,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Delete an image template
 

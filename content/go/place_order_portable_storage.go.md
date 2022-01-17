@@ -12,7 +12,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Order a portable storage
 
@@ -36,13 +36,13 @@ import (
 	"github.com/softlayer/softlayer-go/services"
 	"github.com/softlayer/softlayer-go/session"
 	"github.com/softlayer/softlayer-go/sl"
-  	"encoding/json"
+	"encoding/json"
 )
 
 func main() {
 	// SoftLayer API username and key
-  	username := "set me"
-  	apikey   := "set me"
+	username := "set me"
+	apikey   := "set me"
 
 	// Declare the location, packageId and a description for the portable storage
 	// you wish to order
@@ -84,8 +84,8 @@ func main() {
 	// Following helps to print the result in json format.
   	jsonFormat, jsonErr := json.MarshalIndent(receipt, "","     ")
   	if jsonErr != nil {
-    		fmt.Println(jsonErr)
-    		return
+		fmt.Println(jsonErr)
+		return
   	}
 	fmt.Println(string(jsonFormat))
 }

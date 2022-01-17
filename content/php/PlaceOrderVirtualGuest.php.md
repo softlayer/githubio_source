@@ -15,7 +15,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * Order Virtual Guest
@@ -74,20 +74,20 @@ $hardwareHD[] = $hardware;
  * SoftLayer_Product_Package::getItemPrices method
  */
 $prices = array(1640, // 1 x 2.0 GHz Core
-1644, // 1 GB RAM
-13940, // CentOS 6.x - LAMP Install (32 bit)
-2202, // 25 GB (SAN)
-50241, // 5000 GB Bandwidth
-273, // 100 Mbps Public & Private Network Uplinks
-2302, // Monitoring Package - Basic
-55, // Host Ping
-58, // Automated Notification
-420, // Unlimited SSL VPN Users & 1 PPTP VPN User per account
-418, // Nessus Vulnerability Assessment & Reporting
-21, // 1 IP Address
-57, // Email and Ticket
-905, // Reboot / Remote Console
-14022 // International Services
+    1644, // 1 GB RAM
+    13940, // CentOS 6.x - LAMP Install (32 bit)
+    2202, // 25 GB (SAN)
+    50241, // 5000 GB Bandwidth
+    273, // 100 Mbps Public & Private Network Uplinks
+    2302, // Monitoring Package - Basic
+    55, // Host Ping
+    58, // Automated Notification
+    420, // Unlimited SSL VPN Users & 1 PPTP VPN User per account
+    418, // Nessus Vulnerability Assessment & Reporting
+    21, // 1 IP Address
+    57, // Email and Ticket
+    905, // Reboot / Remote Console
+    14022 // International Services
 );
 // SoftLayer_Product_Item_Price objects. These objects contain much more than
 // ids, but SoftLayer's ordering system only needs the price's id to know what

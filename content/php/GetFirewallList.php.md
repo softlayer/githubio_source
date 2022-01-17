@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * Get Firewall list the same as "Device List " in portal

@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Copy to external source
 
@@ -39,7 +39,7 @@ func main() {
 	username  := "set me"
 	apikey    := "set me"
 
-  	// The image id you wish to copy to external source. Take account that Flex Images are not
+	// The image id you wish to copy to external source. Take account that Flex Images are not
 	// supported.
 	imageId := 879951
 
@@ -59,20 +59,20 @@ func main() {
 	}
 
 	// Create session
-  	sess := session.New(username, apikey)
+	sess := session.New(username, apikey)
 
 	// Get SoftLayer_Virtual_Guest_Block_Device_Template_Group service.
-  	service := services.GetVirtualGuestBlockDeviceTemplateGroupService(sess)
+	service := services.GetVirtualGuestBlockDeviceTemplateGroupService(sess)
 
 	// Copy the standard image to an external source.
-  	result, err := service.Id(imageId).CopyToExternalSource(&configuration)
+	result, err := service.Id(imageId).CopyToExternalSource(&configuration)
 	if err != nil {
 		fmt.Printf("\n Unable to copy image to external source:\n - %s\n", err)
 		return
 	} 
 
 	// Print result
-  	fmt.Println(result)
+	fmt.Println(result)
 }
 
 ```

@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```perl
 # Retrieve the billing items  for the VSI in the account.
 # 
 # This script makes a single call to the getVirtualGuests() method in the

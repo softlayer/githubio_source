@@ -11,7 +11,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Retrieve billing items for Bare Metal servers in the account.
 

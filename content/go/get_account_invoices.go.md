@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Retrieve information of invoices in the account.
 

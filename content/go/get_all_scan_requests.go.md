@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Get all Vulnerabilities Scan Requests from SoftLayer_Account.
 

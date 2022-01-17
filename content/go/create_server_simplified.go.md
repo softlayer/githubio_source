@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Create a Virtual Guest server using the simplified way.
 

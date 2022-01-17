@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Get all Scale Groups from account.
 

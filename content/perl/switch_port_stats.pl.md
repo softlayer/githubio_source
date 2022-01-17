@@ -13,7 +13,7 @@ tags:
 ---
 
 
-```
+```perl
 # Retrieve a list of switch port statistics for a server's network interfaces.
 # 
 # This script makes a single call to the getPortStatistics() method in the

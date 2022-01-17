@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Cancel a Subnet. Cancel network subnet using its billing Item.
 

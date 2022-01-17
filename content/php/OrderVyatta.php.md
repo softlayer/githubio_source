@@ -16,7 +16,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * Order a Network Gateway Appliance (Vyatta)

@@ -12,7 +12,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * Remove Bulk Portal Permission for users

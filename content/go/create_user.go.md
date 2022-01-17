@@ -9,7 +9,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Create user
 
@@ -28,7 +28,7 @@ package main
 
 import (
 	"fmt"
-  	"encoding/json"
+	"encoding/json"
 	"github.com/softlayer/softlayer-go/datatypes"
 	"github.com/softlayer/softlayer-go/sl"
 	"github.com/softlayer/softlayer-go/session"

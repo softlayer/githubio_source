@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * This script retrieves service groups from a load balancer.
@@ -74,7 +74,7 @@ try {
 		" Port: " . $virtualServer -> port . " Alloc: " . $virtualServer -> allocation . " Notes: " . $notes . "\n");
 	}
 } catch(Exception $e) {
-    echo "Unable to retrieve service groups: " . $e -> getMessage();
+	echo "Unable to retrieve service groups: " . $e -> getMessage();
 }
 
 ```

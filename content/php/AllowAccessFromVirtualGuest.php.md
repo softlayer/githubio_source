@@ -12,7 +12,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * Allow Access From Virtual Guest
@@ -93,11 +93,11 @@ try {
 	 * Replace the line below with:
 	 * $result = $storageService -> removeAccessFromVirtualGuestList($virtualGuest);
 	 */
-    $result = $storageService -> allowAccessFromVirtualGuestList($virtualGuest);
-    print_r("Is Virtual Guest access allowed? " . $result);
+	$result = $storageService -> allowAccessFromVirtualGuestList($virtualGuest);
+	print_r("Is Virtual Guest access allowed? " . $result);
 
 } catch(Exception $e) {
-    echo "Unable to allow access from virtual guest: " . $e -> getMessage();
+	echo "Unable to allow access from virtual guest: " . $e -> getMessage();
 }
 
 ```

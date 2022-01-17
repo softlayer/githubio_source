@@ -11,7 +11,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * Upgrade a Virtual Server.

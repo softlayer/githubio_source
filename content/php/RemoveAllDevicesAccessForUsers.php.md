@@ -11,7 +11,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * Remove Devices Access for users
@@ -74,12 +74,12 @@ for ($i = 0; $i < sizeof($receiptUsers); $i++) {
     // Set init parameters to the Client
     $client -> setInitParameter($receiptUsers[$i] -> id);
     try {
-    	// Remove Hardware objects access
-    	$resultHardware = $client -> removeAllHardwareAccessForThisUser();
-		// Remove Virtual Guests access
-		$resultVsi = $client -> removeAllVirtualAccessForThisUser();
-		print_r("User: " . $receiptUsers[$i] -> username . "\n   All Hardware access removed?: " . $resultHardware . 
-		"\n   All Virtual Guests access removed?: " . $resultVsi . "\n");
+        // Remove Hardware objects access
+        $resultHardware = $client -> removeAllHardwareAccessForThisUser();
+        // Remove Virtual Guests access
+        $resultVsi = $client -> removeAllVirtualAccessForThisUser();
+        print_r("User: " . $receiptUsers[$i] -> username . "\n   All Hardware access removed?: " . $resultHardware . 
+        "\n   All Virtual Guests access removed?: " . $resultVsi . "\n");
     } catch(Exception $e) {
         echo "Unable to remove access for ". $receiptUsers[$i] -> username . ": ". $e -> getMessage();
     }

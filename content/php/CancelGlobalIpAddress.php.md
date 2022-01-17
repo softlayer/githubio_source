@@ -12,7 +12,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * Cancel a Global IP Address.

@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * This script retrieves an account's associated load balancers.
@@ -46,7 +46,7 @@ $objectMask = "mask[ipAddress, loadBalancerHardware[datacenter]]";
 $accountService -> setObjectMask($objectMask);
 
 try {
-    $loadBalancers = $accountService -> getAdcLoadBalancers();
+	$loadBalancers = $accountService -> getAdcLoadBalancers();
 	foreach($loadBalancers as $loadBalancer)
 	{
 		$notes = "";
@@ -59,7 +59,7 @@ try {
 	}
     
 } catch(Exception $e) {
-    echo "Unable to get Load Balancers: " . $e -> getMessage();
+	echo "Unable to get Load Balancers: " . $e -> getMessage();
 }
 
 ```

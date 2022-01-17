@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 List standard firewalls
 
@@ -31,7 +31,7 @@ package main
 
 import (
 	"fmt"
-  	"encoding/json"
+	"encoding/json"
 	"github.com/softlayer/softlayer-go/filter"
 	"github.com/softlayer/softlayer-go/session"
 	"github.com/softlayer/softlayer-go/services"

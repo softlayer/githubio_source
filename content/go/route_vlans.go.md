@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Route the vlans in a gateway device.
 

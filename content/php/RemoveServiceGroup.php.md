@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * This script removes a service group from a Load Balancer
@@ -88,7 +88,7 @@ try {
 	$result = $serverService -> deleteObject();
 	echo "Has been removed the service group from load balancer? " . $result;
 } catch(Exception $e) {
-    echo "Unable to remove service group: " . $e -> getMessage();
+	echo "Unable to remove service group: " . $e -> getMessage();
 }
 
 ```

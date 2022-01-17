@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * Get Gateways using SoftLayer_Search service with multiple filters

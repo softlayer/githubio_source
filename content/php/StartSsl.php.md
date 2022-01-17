@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * This script starts SSL. This action should be taken only after configuring an SSL certificate for the virtual IP.
@@ -70,7 +70,7 @@ try {
 	 $result = $balancerService -> startSsl();
 	 echo $result;
 } catch(Exception $e) {
-    echo "Unable to Start SSL: " . $e -> getMessage();
+	echo "Unable to Start SSL: " . $e -> getMessage();
 }
 
 ```

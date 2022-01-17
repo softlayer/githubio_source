@@ -13,7 +13,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Orders a new portable Public subnet IPv6
 
@@ -33,7 +33,7 @@ import (
 	"github.com/softlayer/softlayer-go/services"
 	"github.com/softlayer/softlayer-go/session"
 	"github.com/softlayer/softlayer-go/sl"
-  "encoding/json"
+	"encoding/json"
 )
 
 func main() {

@@ -9,7 +9,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Get report of an specific scan request.
 

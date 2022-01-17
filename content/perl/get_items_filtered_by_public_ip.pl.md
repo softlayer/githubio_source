@@ -13,7 +13,7 @@ tags:
 ---
 
 
-```
+```perl
 # Get items from "Portal>Device List" filtered by Public IP
 #
 # Important manual pages:

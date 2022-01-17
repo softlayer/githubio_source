@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Bypass the vlans in a gateway device.
 
@@ -37,16 +37,16 @@ func main() {
 	apikey   := "set me"
 
 	// The id of gateway
-  	gatewayId := 61522
+	gatewayId := 61522
 
 	// The ids of Vlans you wish to bypass
 	vlanIds := []int {865555,1084325}
 
 	// Create SoftLayer API session
-  	sess := session.New(username, apikey)
+	sess := session.New(username, apikey)
 
 	// Get SoftLayer_Network_Gateway service
-  	service := services.GetNetworkGatewayService(sess)
+	service := services.GetNetworkGatewayService(sess)
 
 	// To get the Vlan objects we might use the SoftLayer_Network_Vlan::getObject for each one
 	// and build an array in order to pass it to bypassVlans() method. But take account that

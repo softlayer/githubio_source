@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```perl
 # Search VSI by tag
 # 
 # The script retrieve all the VSIs which contain an
@@ -57,7 +57,7 @@ my $result = $account_service->getVirtualGuests();
 
 if ($result->fault) {
     die 'Unable to retrieve the virtual guests. ' . $result->faultstring;
-    }
+}
 print Dumper($result->result);
 
 ```

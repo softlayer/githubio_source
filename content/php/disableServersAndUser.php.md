@@ -12,7 +12,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 require_once ('Softlayer/SoapClient.class.php');
  

@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Get active presets prices
 

@@ -12,7 +12,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * Add Api Authentication Keys for users

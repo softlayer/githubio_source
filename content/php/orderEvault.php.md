@@ -14,7 +14,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 # Example to order a Evault
 # reference pages

@@ -9,7 +9,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Un-share an image template
 

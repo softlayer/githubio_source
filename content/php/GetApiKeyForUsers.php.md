@@ -12,7 +12,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * Add Api Authentication Keys for users
@@ -72,7 +72,7 @@ $account -> setObjectFilter($filter);
 $receiptUsers = $account -> getUsers();
 
 for ($i = 0; $i <= sizeof($receiptUsers) - 1; $i++) {
-	// Set init parameters for the user which the api authentication key will be added.
+    // Set init parameters for the user which the api authentication key will be added.
     $userCustomer -> setInitParameter($receiptUsers[$i] -> id);
     try {
         $result = $userCustomer -> getApiAuthenticationKeys();

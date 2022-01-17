@@ -12,7 +12,7 @@ tags:
 
 ## Usage
 
-```
+```php
 <?php
 /**
  * Get Bandwidth usage.

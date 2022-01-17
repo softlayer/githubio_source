@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Get Virtual Guest details.
 

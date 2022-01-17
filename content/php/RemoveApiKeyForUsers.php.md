@@ -12,7 +12,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * Remove Api Authentication Key For Users
@@ -76,7 +76,7 @@ $account -> setObjectMask($objectMask);
 $receiptUsers = $account -> getUsers();
 
 for ($i = 0; $i <= sizeof($receiptUsers) - 1; $i++) {
-	// Set init parameters for the user which the api authentication key will be removed.
+    // Set init parameters for the user which the api authentication key will be removed.
     $userCustomer -> setInitParameter($receiptUsers[$i] -> id);
     try {
         $result = $userCustomer -> removeApiAuthenticationKey($receiptUsers[$i] -> apiAuthenticationKeys[0] -> id );

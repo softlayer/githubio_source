@@ -9,7 +9,7 @@ tags:
 ---
 
 
-```
+```perl
 # Get image template details.
 # 
 # The script gets more details of an arbitrary image template,

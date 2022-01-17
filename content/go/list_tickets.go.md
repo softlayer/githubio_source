@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 List tickets.
 

@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```perl
 # Get private image template
 # 
 # The script calls the SoftLayer_Account::getPrivateBlockDeviceTemplateGroups method

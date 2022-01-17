@@ -11,7 +11,7 @@ tags:
 ---
 
 
-```
+```perl
 # 
 # Get the graph data from a monitoring agent
 # 

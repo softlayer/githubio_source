@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```perl
 # Get the recurring cost of all servers on your account.
 # 
 # Get a list of servers on a SoftLayer account along with their recurring

@@ -9,7 +9,7 @@ tags:
 ---
 
 
-```
+```perl
 # Sets the networks speed for a hardware devices
 #
 # This script makes a single call to the setPublicNetworkInterfaceSpeed() method

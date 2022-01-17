@@ -12,7 +12,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * This script retrieves the record data associated with the submission of a Credit Card Change Request. 

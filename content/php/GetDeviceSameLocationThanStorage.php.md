@@ -11,7 +11,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * Get Devices Same Location Than Storage
@@ -82,7 +82,7 @@ $filterVirtualGuests -> virtualGuests -> datacenter = new stdClass();
 $filterVirtualGuests -> virtualGuests -> datacenter -> name = new stdClass();
 
 try {
-	// Adding datacenter from Network Storage for Hardware filter
+    // Adding datacenter from Network Storage for Hardware filter
     $filterHardware -> hardware -> datacenter -> name -> operation = "_=" . $result[0] -> serviceResource -> datacenter -> name;
 	
 	// Adding datacenter from Network Storage for Virtual Guest filter

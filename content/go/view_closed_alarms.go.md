@@ -9,7 +9,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 View closed alarms of an advanced monitoring.
 

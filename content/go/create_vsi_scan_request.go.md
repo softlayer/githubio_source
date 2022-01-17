@@ -11,7 +11,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Create a Vulnerability Scan Request for a SoftLayer_Virtual_Guest.
 

@@ -12,7 +12,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * This script retrieves Subnet Registrations that are displayed in: https://control.softlayer.com/network/rir,

@@ -32,8 +32,8 @@ try {
 
   print_r($response);
 
- } catch(Exception $e) {
-     echo 'Cannot compute. Error is: ' . $e->getMessage();
+} catch(Exception $e) {
+  echo 'Cannot compute. Error is: ' . $e->getMessage();
 }
 
 ?>

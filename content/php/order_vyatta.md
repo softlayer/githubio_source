@@ -42,12 +42,12 @@ $template_extra->price_id = array(13739, // Single Quad Xeon 1270 3.4G 8M
 
 $my_template = new stdClass();
 
- for ($cnt = 0; $cnt < $template->quantity; $cnt++) {
+for ($cnt = 0; $cnt < $template->quantity; $cnt++) {
     $domain = new stdClass();
     $domain->hostname = "$template_extra->hostname-$cnt";
     $domain->domain = $template_extra->domain;
     $template->hardware[] = $domain;
-  }
+}
 if (empty($template->imageTemplateGlobalIdentifier))
 {
     $template_extra->price_id[] = $template_extra->os;

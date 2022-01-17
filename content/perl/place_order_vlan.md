@@ -13,7 +13,7 @@ tags:
 ---
 
 
-```pl
+```perl
 use lib '/softlayer-api-perl-client-master/';
 use SoftLayer::API::SOAP;
 use Data::Dumper;

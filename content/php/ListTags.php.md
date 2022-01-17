@@ -9,7 +9,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * List the tags for a VSI

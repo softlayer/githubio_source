@@ -9,7 +9,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Get the IP address from a VLan
 

@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```perl
 # Retrieve the invoice information.
 #
 # This script makes a single call to the getInvoices() method in the

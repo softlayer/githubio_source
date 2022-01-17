@@ -13,7 +13,7 @@ tags:
 ---
 
 
-```
+```perl
 # Get all items from Device according to an specific tag as filter.
 #
 # Important manual pages:
@@ -52,4 +52,5 @@ if ($result ->fault) {
     die 'Unable to get the items according to filter set. ' . $result ->faultstring;
 }
 print Dumper($result ->result);
+
 ```

@@ -9,7 +9,7 @@ tags:
 ---
 
 
-```
+```perl
 # Un-share an image template
 #
 # The script un-shares an image template it makes a call to  SoftLayer_Virtual_Guest_Block_Device_Template_Group::denySharingAccess
