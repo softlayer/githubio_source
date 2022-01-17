@@ -5,7 +5,7 @@ date: "2015-02-15"
 classes: ["SoftLayer_Virtual_Guest"]
 tags:
   - "vsi"
-  - "objectMask"
+  - "objectmask"
 ---
 
 Operation: `GET`

@@ -3,9 +3,9 @@ title: "Get Operating System Reference Codes"
 description: "Retrieve Virtual Guest creation options, and print a list of available OS reference codes"
 date: "2016-09-19"
 tags:
-    - "VirtualGuest"
-    - "getCreateObjectOptions"
-    - "operatingSystemReferenceCode"
+    - "virtualguest"
+    - "getcreateobjectoptions"
+    - "operatingsystemreferencecode"
 ---
 
 ```go

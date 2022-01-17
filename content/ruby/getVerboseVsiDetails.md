@@ -4,8 +4,8 @@ description: "Retrieve the packages, categories and items associated with a Virt
 date: "2016-12-29"
 classes: ["SoftLayer_Virtual_Guest"]
 tags:
-    - "objectMask"
-    - "getObject"
+    - "objectmask"
+    - "getobject"
 ---
 
 This script will get the Packages, Categories, and items associated with a Virtual Guest. 

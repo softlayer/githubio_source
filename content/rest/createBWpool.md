@@ -4,8 +4,8 @@ description: "Creating a new Bandwidth pool. This allows you to optimize your ba
 date: "2016-05-02"
 classes: ["SoftLayer_Network_Bandwidth_Version1_Allotment"]
 tags:
-    - "createObject"
-    - "bandwidthPool"
+    - "createobject"
+    - "bandwidthpool"
 ---
 
 Operation: `POST`

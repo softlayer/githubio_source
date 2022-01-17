@@ -4,8 +4,8 @@ description: "Shows how to edit the current configuration of a Bare Metal Server
 date: "2016-01-11"
 classes: ["SoftLayer_Product_Order"]
 tags:
-    - "Upgrade"
-    - "Bare Metal"
+    - "upgrade"
+    - "bare metal"
 ---
 
 ```python

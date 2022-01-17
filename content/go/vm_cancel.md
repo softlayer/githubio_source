@@ -3,7 +3,7 @@ title: "Cancel a virtual guest"
 description: "Example of how to cancel a virtual guest."
 date: "2016-09-19"
 tags:
-    - "VirtualGuest"
+    - "virtualguest"
 ---
 
 ```go

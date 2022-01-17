@@ -7,7 +7,7 @@ date: "2020-07-08"
 classes: 
     - "SoftLayer_Network_LBaaS_LoadBalancer"    
 tags:
-    - "LBaaS_LoadBalancer"
+    - "lbaas_loadbalancer"
 ---
 
 [Lbaas_LoadBalancer](https://sldn.softlayer.com/reference/services/SoftLayer_Network_LBaaS_LoadBalancer/)

@@ -15,7 +15,7 @@
                 <br>
                 <strong>Tags <span class="fa fa-tags"/></strong>
                 {{ range .Params.tags }}
-                    <a class="label label-danger" href="/tags/{{. | urlize}}">{{ . }}</a>
+                    <a class="label label-danger" href="/tags/{{. | urlize | lower }}">{{ . | lower }}</a>
                 {{ end }}          
         </div>
     </div>

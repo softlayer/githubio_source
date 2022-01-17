@@ -5,7 +5,7 @@ date: "2021-18-01"
 classes: 
     - "SoftLayer_Notification_Occurrence_Event"
 tags:
-    - "Notification Ocurrence Event "    
+    - "notification ocurrence event "    
 ---
 
 # Setup

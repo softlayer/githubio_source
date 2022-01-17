@@ -6,7 +6,7 @@ date: "2020-01-22"
 classes: 
     - "SoftLayer_Network_Pod"    
 tags:
-    - "Network"
+    - "network"
 ---
 
 [Network_Pod](https://https://sldn.softlayer.com/reference/services/SoftLayer_Network_Pod/)

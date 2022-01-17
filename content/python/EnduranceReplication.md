@@ -9,9 +9,9 @@ tags:
     - "replication"
     - "snapshot"
     - "storage"
-    - "objectFilter"
-    - "objectMask"
-    - "enableSnapshots"
+    - "objectfilter"
+    - "objectmask"
+    - "enablesnapshots"
 ---
 
 Some good starting reading.

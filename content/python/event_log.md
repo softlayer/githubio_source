@@ -5,7 +5,7 @@ date: "2018-05-18"
 classes: 
     - "SoftLayer_Event_Log"
 tags:
-    - "objectFilter"
+    - "objectfilter"
     - "resultlimit"
 ---
 

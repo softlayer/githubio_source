@@ -4,8 +4,8 @@ description: "Show all block devices connected to your Virtual Guests as well as
 date: "2017-04-03"
 classes: ["SoftLayer_Account"]
 tags:
-    - "objectMask"
-    - "blockDevices"
+    - "objectmask"
+    - "blockdevices"
 ---
 
 

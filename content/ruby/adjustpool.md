@@ -4,7 +4,7 @@ description: "Adding and removing Virtual Guests and Bare Metal Servers in an ex
 date: "2016-08-22"
 classes: ["SoftLayer_Network_Bandwidth_Version1_Allotment"]
 tags:
-    - "BandwidthPool"
+    - "bandwidthpool"
 ---
 
 The following script allows you to add and remove servers in an existing bandwidth pool. The script requires empty arrays when not specifying a Bare Metal or Virtual Guest Id.

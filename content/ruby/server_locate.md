@@ -6,8 +6,8 @@ classes: ["SoftLayer_Account"]
 tags:
     - "virtual"
     - "datacenter"
-    - "objectMask"
-    - "objectFilter"
+    - "objectmask"
+    - "objectfilter"
 ---
 
 

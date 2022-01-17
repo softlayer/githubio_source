@@ -4,8 +4,8 @@ date: "2017-08-09"
 classes: 
     - "SoftLayer_Account"
 tags:
-    - "objectFilter"
-    - "objectMask"
+    - "objectfilter"
+    - "objectmask"
 ---
 
 

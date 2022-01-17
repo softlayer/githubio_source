@@ -6,7 +6,7 @@ classes: ["SoftLayer_Product_Order"]
 tags:
     - "ordering"
     - "vyatta"
-    - "placeOrder"
+    - "placeorder"
     - "deprecated"
 ---
 

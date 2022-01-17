@@ -4,8 +4,8 @@ description: "Use an object filter and object mask to return the Location Based 
 date: "2016-04-12"
 classes: ["SoftLayer_Product_Package"]
 tags:
-    - "objectFilter"
-    - "objectMask"
+    - "objectfilter"
+    - "objectmask"
     - "pricing"
 ---
 

@@ -4,8 +4,8 @@ description: "Order a local load balancer using SoftLayer_Product_Item_Price obj
 date: "2016-04-29"
 classes: ["SoftLayer_Product_Order"]
 tags:
-    - "placeOrder"
-    - "verifyOrder"
+    - "placeorder"
+    - "verifyorder"
 ---
 
 

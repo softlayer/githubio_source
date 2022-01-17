@@ -4,8 +4,8 @@ description: "This example shows how to handle specific errors (e.g., 404)
 by type-asserting the returned error and inspecting its fields."
 date: "2016-09-19"
 tags:
-    - "VirtualGuest"
-    - "Errors"
+    - "virtualguest"
+    - "errors"
 ---
 
 ```go

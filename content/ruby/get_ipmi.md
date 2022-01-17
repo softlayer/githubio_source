@@ -5,7 +5,7 @@ date: "2016-08-22"
 classes:
   - "SoftLayer_Account"
 tags:
-  - "IPMI"
+  - "ipmi"
   - "dedicated"
   - "auth"
 ---

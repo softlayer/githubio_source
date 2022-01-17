@@ -6,7 +6,7 @@ date: "2020-02-19"
 classes: 
     - "SoftLayer_Tags"    
 tags:
-    - "Tags"
+    - "tags"
 ---
 
 [Tags](https://https://sldn.softlayer.com/reference/services/SoftLayer_Tags/)
