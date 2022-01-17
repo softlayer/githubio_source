@@ -1,17 +1,17 @@
 ---
 title: "Managing Notification Occurrence Events services"
-description: "How to interact with the Notification Ocurrence Events services. The SoftLayer_Notification_Occurrence_Event service represents all events with potential to cause a disruption in service.."
-date: "2021-18-01"
+description: "How to interact with the Notification Ocurrence Events services. The SoftLayer_Notification_Occurrence_Event service represents all events with potential to cause a disruption in service."
+date: "2021-01-18"
 classes: 
     - "SoftLayer_Notification_Occurrence_Event"
 tags:
-    - "notification ocurrence event "    
+    - "notification"
 ---
 
 # Setup
 Each of these snippets below will share basically the same initialization code, so to save some space we will include the initialization code here, and assume you can setup the SoftLayer client before running each example.
 
-```Go
+```go
 package main
 
 import (
@@ -30,9 +30,9 @@ func main() {
 	sess := session.New(username, apikey)
 
 	notificationService := services.GetNotificationOccurrenceEventService(sess)
-    fmt.Println(getAllObjects(notificationService))
+	fmt.Println(getAllObjects(notificationService))
 	// Notificacion ocurrent event id = 123456
-    fmt.Println(getObject(notificationService,123456))
+	fmt.Println(getObject(notificationService,123456))
 }
 
 func getAcknowledgeNotification(service services.Notification_Occurrence_Event, notificationId int) bool {
@@ -84,7 +84,7 @@ func getFirstUpdate(service services.Notification_Occurrence_Event, notification
 }
 
 func getObject(service services.Notification_Occurrence_Event, notificationId int) string {
-    service.Options.Mask="impactedAccounts"
+	service.Options.Mask="impactedAccounts"
 	receipt, err := service.Id(notificationId).GetObject()
 	if err != nil {
 		fmt.Printf("SoftLayer API Error: %s", err)
@@ -96,6 +96,7 @@ func getObject(service services.Notification_Occurrence_Event, notificationId in
 	}
 	return (string(jsonFormat1))
 }
+
 func getImpactedAccounts(service services.Notification_Occurrence_Event,  notificationId int) string {
 	receipt, err := service.Id(notificationId).GetImpactedAccounts()
 	if err != nil {
@@ -121,6 +122,7 @@ func getImpactedDevices(service services.Notification_Occurrence_Event,  notific
 	}
 	return (string(jsonFormat1))
 }
+
 func getImpactedResources(service services.Notification_Occurrence_Event,  notificationId int) string {
 	receipt, err := service.Id(notificationId).GetImpactedResources()
 	if err != nil {
@@ -133,6 +135,7 @@ func getImpactedResources(service services.Notification_Occurrence_Event,  notif
 	}
 	return (string(jsonFormat1))
 }
+
 func getImpactedUsers(service services.Notification_Occurrence_Event,  notificationId int) string {
 	receipt, err := service.Id(notificationId).GetImpactedUsers()
 	if err != nil {
@@ -145,6 +148,7 @@ func getImpactedUsers(service services.Notification_Occurrence_Event,  notificat
 	}
 	return (string(jsonFormat1))
 }
+
 func getLastUpdate(service services.Notification_Occurrence_Event,  notificationId int) string {
 	receipt, err := service.Id(notificationId).GetLastUpdate()
 	if err != nil {
@@ -157,6 +161,7 @@ func getLastUpdate(service services.Notification_Occurrence_Event,  notification
 	}
 	return (string(jsonFormat1))
 }
+
 func getNotificationOcurrentEventType(service services.Notification_Occurrence_Event,  notificationId int) string {
 	receipt, err := service.Id(notificationId).GetNotificationOccurrenceEventType()
 	if err != nil {
@@ -169,6 +174,7 @@ func getNotificationOcurrentEventType(service services.Notification_Occurrence_E
 	}
 	return (string(jsonFormat1))
 }
+
 func getStatusCode(service services.Notification_Occurrence_Event,  notificationId int) string {
 	receipt, err := service.Id(notificationId).GetStatusCode()
 	if err != nil {
@@ -181,6 +187,7 @@ func getStatusCode(service services.Notification_Occurrence_Event,  notification
 	}
 	return (string(jsonFormat1))
 }
+
 func getUpdates(service services.Notification_Occurrence_Event,  notificationId int) string {
 	receipt, err := service.Id(notificationId).GetUpdates()
 	if err != nil {

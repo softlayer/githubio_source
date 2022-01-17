@@ -1,11 +1,15 @@
+---
 title: "Show user accounts with and without two-factor enabled"
 description: "Get a list of users with two-factor authentication enabled/disabled. "
+
 date: "2017-08-09"
+
 classes: 
     - "SoftLayer_Account"
 tags:
-    - "objectfilter"
-    - "objectmask"
+    - "objectFilter"
+    - "objectMask"
+    - "users"
 ---
 
 
