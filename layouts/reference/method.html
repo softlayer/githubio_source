@@ -32,6 +32,7 @@
             <hr>
 
             <h3> Parameters </h3>
+
             {{ $parameters := index $thisPage "parameters" }}
             {{ if $parameters }}
                 <table class="table table-hover table-striped">
@@ -72,7 +73,7 @@
 {{ $resultLimit := index $thisPage "limitable" }}
 {{ $returnType := index $thisPage "type" }}
 {{ $returnArray := index $thisPage "typeArray"}}
-{{ $errorHandle := index $thisPage "docExceptions" }}
+{{ $errorHandle := index $thisPage "docErrorHandling" }}
 {{ $associated := index $thisPage "docAssociatedMethods" }}
             <h3> Required Headers </h3>
             <ul>
@@ -112,7 +113,6 @@
                          {{$returnType}}{{$isArray}}
                     {{ end }}
                 </li></ul>
-            <!-- <h3>Associated Methods</h3> -->
             {{ if $errorHandle }}
                 <h3>Error Handling</h3>
                     <ul>
@@ -132,8 +132,8 @@
                 <h3>Associated Methods</h3>
                 <ul>
                 {{ range $assc := $associated }}
-                {{ $parts := split $assc "::" }}
-                    <li><a href='/reference/services/{{ index $parts 0 }}/{{ index $parts 1 }}'>{{ $assc }}</a></li>
+
+                    <li><a href='/reference/services/{{$assc.service}}/{{$assc.method}}'>{{ $assc.service }}::{{$assc.method}}</a></li>
                 {{ end }}
                 </ul>
             {{ end }}
