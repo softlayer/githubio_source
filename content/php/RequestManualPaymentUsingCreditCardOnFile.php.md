@@ -11,7 +11,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * This script makes a Manual Payment Request for a manual payment using a credit card which is on 

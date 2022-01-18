@@ -14,7 +14,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * Retrieve a list of switch port statistics for a server's network interfaces.

@@ -16,7 +16,7 @@ tags:
 ---
 
 
-```
+```perl
 # Order a new server.
 #
 # Building a SoftLayer_Container_Product_Order object for a new

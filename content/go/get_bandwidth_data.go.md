@@ -9,7 +9,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Get bandwidth data in a CDN.
 

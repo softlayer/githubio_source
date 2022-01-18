@@ -9,7 +9,7 @@ tags:
 ---
 
 
-```
+```perl
 # Get available VLANs for a new order
 # 
 # The script makes a single call to SoftLayer_Product_Order::getVlans

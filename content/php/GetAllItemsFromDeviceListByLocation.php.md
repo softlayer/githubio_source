@@ -13,7 +13,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * Get all items from Device list filtered by location.

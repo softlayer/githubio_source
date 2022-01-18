@@ -11,7 +11,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * This script edits a ssh key to the account. It is only necessary to specify the label from ssh key that 
@@ -73,13 +73,13 @@ $objectFilter -> sshKeys -> label -> operation = "_=".$label;
 $accountService -> setObjectFilter($objectFilter);
 
 try {
-	// Get the ssh key
+    // Get the ssh key
     $resultSshKey = $accountService -> getSshKeys();
-	// Set init parameter with the id from the Ssh Key that you wish to delete
-	$client -> setInitParameter($resultSshKey[0] -> id);
-	// Delete Ssh Key
-	$result = $client -> editObject($templateObject);
-	print_r("Was the ssh key " . $label. " edited?: " . $result);
+    // Set init parameter with the id from the Ssh Key that you wish to delete
+    $client -> setInitParameter($resultSshKey[0] -> id);
+    // Delete Ssh Key
+    $result = $client -> editObject($templateObject);
+    print_r("Was the ssh key " . $label. " edited?: " . $result);
     
 } catch(Exception $e) {
     echo "Unable to edit the Ssh Key: " . $e -> getMessage();

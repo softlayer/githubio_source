@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```perl
 # Delete a notification subscription
 # 
 # The script deletes a notification for a determinate user in a determinate Virtual Guest

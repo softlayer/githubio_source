@@ -11,7 +11,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
 * This method removes a service into service group. It is only necessary to specify the "Vip Address" 

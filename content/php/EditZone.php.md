@@ -11,7 +11,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * Edit a Zone.
@@ -56,9 +56,9 @@ $filter->resourceRecords->type->operation = "soa";
 $client->setObjectFilter($filter);
 
 try {
-	/**
-	 * Retrieving our dns record.
-	 */
+    /**
+     * Retrieving our dns record.
+     */
     $result = new stdClass();
     $result = $client->getResourceRecords();
 

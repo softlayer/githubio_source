@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Get private image templates
 
@@ -40,18 +40,18 @@ func main() {
 	username  := "set me"
 	apikey    := "set me"
 
-  	// Create session
-  	sess := session.New(username, apikey)
+	// Create session
+	sess := session.New(username, apikey)
 
 	// Get SoftLayer_Account service.
-  	service := services.GetAccountService(sess)
+	service := services.GetAccountService(sess)
 
 	// Declare mask that will be used to get specific data
 	mask:="id,name,parentId,userRecordId,summary,note,status[name]," +
 		"storageRepository[datacenter];imageTypeKeyName"
 
 	// Retrieve image templates from account.
-  	images, err := service.Mask(mask).GetPrivateBlockDeviceTemplateGroups()
+	images, err := service.Mask(mask).GetPrivateBlockDeviceTemplateGroups()
 	if err != nil {
 		fmt.Printf("\n Unable to retrieve image templates:\n - %s\n", err)
 		return

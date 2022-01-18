@@ -9,7 +9,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Delete Scale Group
 

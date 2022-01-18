@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```perl
 # Get items from "Portal>Device List" filtered by multiple filters
 #
 # Important manual pages:
@@ -52,4 +52,5 @@ if ($result ->fault) {
     die 'Unable to get the items according to the filters. ' . $result ->faultstring;
 }
 print Dumper($result ->result);
+
 ```

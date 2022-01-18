@@ -11,7 +11,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Retrieve billing items of Virtual Guest servers in the account.
 

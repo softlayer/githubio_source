@@ -9,7 +9,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Reset portal user password.
 

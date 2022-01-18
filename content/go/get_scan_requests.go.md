@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Get Vulnerabilities Scan Requests from a Virtual Guest.
 

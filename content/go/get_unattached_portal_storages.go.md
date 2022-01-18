@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Get unattached portal storages.
 
@@ -29,10 +29,10 @@ package main
 
 import (
 	"fmt"
-  	"github.com/softlayer/softlayer-go/datatypes"
+	"github.com/softlayer/softlayer-go/datatypes"
 	"github.com/softlayer/softlayer-go/services"
 	"github.com/softlayer/softlayer-go/session"
-  	"encoding/json"
+	"encoding/json"
 )
 
 func main() {
@@ -40,19 +40,19 @@ func main() {
 	username := "set me"
 	apikey   := "set me"
 
-  	// Create a session
-  	sess := session.New(username, apikey)
+	// Create a session
+	sess := session.New(username, apikey)
 
-  	// Get SoftLayer_Account service
-  	service := services.GetAccountService(sess)
+	// Get SoftLayer_Account service
+	service := services.GetAccountService(sess)
 
 	// Use masks in order to get Guests of StorageRepositories
-  	mask := "storageRepository[guests]"
+	mask := "storageRepository[guests]"
 
 	// All unattached storage objects will be saved here.
 	unattachedStorages := []datatypes.Virtual_Disk_Image {}
 
-  	// Get all portable storage volumes
+	// Get all portable storage volumes
 	portableStorages, err := service.Mask(mask).GetPortableStorageVolumes()
 	if err != nil {
 		fmt.Printf("\n Unable to retrieve Portable Storages:\n - %s\n", err)
@@ -60,13 +60,13 @@ func main() {
 	}
 
 	// Search and save all unattached storages
-  	for _,storage := range portableStorages {
+	for _,storage := range portableStorages {
 		if storage.StorageRepository != nil {
-      			if len(storage.StorageRepository.Guests) == 0 {
+			if len(storage.StorageRepository.Guests) == 0 {
 				unattachedStorages = append(unattachedStorages, storage)
-      			}
-    		}
-  	}
+			}
+		}
+	}
 
 	// Following helps to print the result in json format.
 	for _,storage := range unattachedStorages {

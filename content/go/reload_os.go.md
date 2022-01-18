@@ -11,7 +11,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Reload the Operating System of a Virtual Guest
 

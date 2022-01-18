@@ -12,7 +12,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * This script adds a service group to Load Balancer. It is only necessary to specify the "Vip Address" from load balancer.

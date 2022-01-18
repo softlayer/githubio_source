@@ -13,7 +13,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Order a new server with preset configuration.
 

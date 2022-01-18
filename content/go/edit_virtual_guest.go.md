@@ -9,7 +9,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Edit a virtual guest server's basic information
 

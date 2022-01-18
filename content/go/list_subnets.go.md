@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 List subnets. It retrieves all network subnets associated with an account.
 
@@ -27,7 +27,7 @@ import (
 	"fmt"
 	"github.com/softlayer/softlayer-go/services"
 	"github.com/softlayer/softlayer-go/session"
-  "encoding/json"
+	"encoding/json"
 	"github.com/softlayer/softlayer-go/filter"
 )
 

@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Get the regional groups available for use by scaling groups. This also includes datacenter
 children that are available.

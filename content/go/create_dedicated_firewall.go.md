@@ -12,7 +12,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Create a dedicated firewall
 
@@ -64,7 +64,7 @@ func main() {
 			PackageId : sl.Int(packageId),
 			Quantity  : sl.Int(quantity),
 		},
-    		VlanId : sl.Int(vlanId),
+		VlanId : sl.Int(vlanId),
 	}
 
 	// Create SoftLayer API session

@@ -13,7 +13,7 @@ tags:
 ---
 
 
-```
+```perl
 # Get all items from Device list.
 #
 # Important manual pages:

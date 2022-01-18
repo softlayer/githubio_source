@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Create Image Template from external source
 
@@ -72,13 +72,13 @@ func main() {
 	}
 
 	// Create session
-  	sess := session.New(username, apikey)
+	sess := session.New(username, apikey)
 
 	// Get SoftLayer_Virtual_Guest_Block_Device_Template_Group service.
-  	service := services.GetVirtualGuestBlockDeviceTemplateGroupService(sess)
+	service := services.GetVirtualGuestBlockDeviceTemplateGroupService(sess)
 
 	// Create standard image from external source.
-  	image, err := service.CreateFromExternalSource(&configuration)
+	image, err := service.CreateFromExternalSource(&configuration)
 	if err != nil {
 		fmt.Printf("\n Unable to create standard image:\n - %s\n", err)
 		return

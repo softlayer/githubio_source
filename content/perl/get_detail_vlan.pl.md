@@ -11,7 +11,7 @@ tags:
 ---
 
 
-```
+```perl
 # Retrieve VLAN details such as primary router and subnet.
 #
 # Retrieving the primary router and subnet for a determinate VLAN
@@ -55,7 +55,7 @@ my $result = $network_vlan_service->getObject();
 
 if ($result->fault) {
     die 'Unable to retrieve the VLAN details ' . $result->faultstring;
-    }
+}
 print Dumper($result->result);
 
 ```

@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```perl
 # Delete Resource Record.
 # This script deletes a domain's resource record.
 #
@@ -42,9 +42,9 @@ my $resource_record_client = SoftLayer::API::SOAP->new($resource_record_service,
 my $result = $resource_record_client->deleteObject();
 				   
 if ($result->fault) {
-			die 'There is an error when trying to delete the resource record...' . $result->faultstring;
+	die 'There is an error when trying to delete the resource record...' . $result->faultstring;
 } else {
-			print Dumper($result);
+	print Dumper($result);
 }
 
 ```

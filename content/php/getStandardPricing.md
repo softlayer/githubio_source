@@ -31,7 +31,7 @@ try {
   $standardPricing = $client->getItems();
   print_r($standardPricing);
 }  catch (\Exception $e) {
-    die('Cannot compute. Error is: ' . $e->getMessage());
+  die('Cannot compute. Error is: ' . $e->getMessage());
 }
 ?>
 

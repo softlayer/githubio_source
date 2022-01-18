@@ -11,7 +11,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * This script retrieves customer specified SSH Keys that can be implemented onto a 
@@ -44,7 +44,7 @@ $apiKey = "set me";
 $client = SoftLayer_SoapClient::getClient("SoftLayer_Account", null, $username, $apiKey, $endpoint);
 
 try {
-	// Get Ssh Keys
+    // Get Ssh Keys
     $result = $client -> getSshKeys();
 	print_r($result);
     

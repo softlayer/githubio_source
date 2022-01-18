@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Cancel Global Ip Address
 

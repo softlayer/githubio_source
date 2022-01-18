@@ -9,7 +9,7 @@ tags:
 ---
 
 
-```
+```perl
 # Reload servers from a list of IPs
 #
 # This script looks for a server with a determinate IP address and reloads

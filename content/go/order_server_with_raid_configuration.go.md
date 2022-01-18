@@ -15,7 +15,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Order server with RAID configuration.
 

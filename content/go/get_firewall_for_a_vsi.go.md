@@ -9,7 +9,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Get the firewall associated to a VSI.
 

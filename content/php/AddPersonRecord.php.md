@@ -11,7 +11,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * Add Person Record
@@ -83,7 +83,6 @@ try {
     $receipt = $client -> createObject($templateObject);
     print_r($receipt);
 } catch(Exception $e) {
-
     echo "Unable to add person record: " . $e -> getMessage();
 }
 

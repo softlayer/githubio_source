@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Remove association between Vlan and Gateway device.
 

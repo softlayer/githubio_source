@@ -14,7 +14,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 # Order a NAS
 #

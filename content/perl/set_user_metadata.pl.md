@@ -9,7 +9,7 @@ tags:
 ---
 
 
-```
+```perl
 # Set the user data for a VSI.
 # 
 # The script sets the user metadata for a VSI we make a simple

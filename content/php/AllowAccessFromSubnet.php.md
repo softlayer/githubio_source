@@ -11,7 +11,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * Allow Access From Subnet. It is only allowed for File Network Storages.

@@ -13,7 +13,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 List global IP address
 

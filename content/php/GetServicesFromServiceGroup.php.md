@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * This script retrieves service groups from a load balancer.
@@ -86,7 +86,7 @@ try {
 		}
 	}
 } catch(Exception $e) {
-    echo "Unable to retrieve services: " . $e -> getMessage();
+	echo "Unable to retrieve services: " . $e -> getMessage();
 }
 
 ```

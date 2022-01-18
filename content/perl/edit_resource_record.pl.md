@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```perl
 # Edit Resource Records.
 # This script edits an existing domain resource record.
 #
@@ -44,10 +44,10 @@ my $new_ttl = 900;
 
 # Creating a template to configure our resource record edition.
 my $object_template = {
-						'data'=> '127.4.0.1',
-						'host'=> '@',
-						'ttl'=>  $new_ttl
-					};
+	'data'=> '127.4.0.1',
+	'host'=> '@',
+	'ttl'=>  $new_ttl
+};
 						
 # Create a Resource record client to the API service.
 my $resource_record_client = SoftLayer::API::SOAP->new($resource_record_service, $resource_id, $api_username, $api_key);
@@ -55,9 +55,9 @@ my $resource_record_client = SoftLayer::API::SOAP->new($resource_record_service,
 my $result = $resource_record_client->editObject($object_template);
 				   
 if ($result->fault) {
-			die 'There is an error when trying to edit the resource record...' . $result->faultstring;
+	die 'There is an error when trying to edit the resource record...' . $result->faultstring;
 } else {
-			print Dumper($result);
+	print Dumper($result);
 
 }
 

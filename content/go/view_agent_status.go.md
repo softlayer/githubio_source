@@ -9,7 +9,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Get the status of the monitoring agents in a Virtual Guest.
 

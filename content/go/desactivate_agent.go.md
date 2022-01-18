@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Deactivate an agent.
 

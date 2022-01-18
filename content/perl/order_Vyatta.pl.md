@@ -15,7 +15,7 @@ tags:
 ---
 
 
-```
+```perl
 # Order a Network Gateway Appliance (Vyatta)
 #
 # The script orders a (Vyatta) high availability pair

@@ -13,7 +13,8 @@ Create Standard Ticket
 
 Create a standard support ticket. Use a standard support ticket if you need to work out a problem related to 
 SoftLayer's hardware, network, or services
-```
+
+```php
 <?php
 
 require_once './vendor/autoload.php';
@@ -57,7 +58,8 @@ Create Administrative Ticket
 
 Create an administrative support ticket. Use an administrative ticket if you require SoftLayer's assistance managing 
 your server or content.
-```
+
+```php
 <?php
 
 require_once './vendor/autoload.php';
@@ -98,7 +100,8 @@ try {
 Get tickets using an objectFilter
 
 Pulls down all the tickets created after a set date, and lasted update was by an employee of SoftLayer. 
-```
+
+```php
 <?php
 
 require_once './vendor/autoload.php';
@@ -129,12 +132,11 @@ $ticketClient->setObjectMask($mask);
 $ticketClient->setObjectFilter($filter);
 
 try {
+    $updates = $ticketClient->getTickets();
+    print_r($updates);
 
-  $updates = $ticketClient->getTickets();
-  print_r($updates);
-
- } catch(Exception $e) {
-     echo 'Cannot get the tickets: ' . $e->getMessage();
+} catch(Exception $e) {
+    echo 'Cannot get the tickets: ' . $e->getMessage();
 }
 
 //prints out some SOAP debugging
@@ -146,7 +148,8 @@ print_r($ticketClient->__getLastRequest());
 Get Tickets Closed Since Date
 
 Retrieve tickets closed since a given date. 
-```
+
+```php
 <?php
 
 require_once './vendor/autoload.php';
@@ -167,7 +170,7 @@ $client -> setObjectMask("mask[assignedUser[username],status[name]]");
 
 try {
     $tickets = $client -> getTicketsClosedSinceDate(strtotime($date));
-	print_r($tickets);
+    print_r($tickets);
 } catch(Exception $e) {
     echo 'Unable to get tickets closed: ' . $e -> getMessage();
 }

@@ -9,7 +9,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Delete a notification subscription
 

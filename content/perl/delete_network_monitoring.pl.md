@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```perl
 # Delete network monitoring
 #
 # The script makes a single call to SoftLayer_Network_Monitor_Version1_Query_Host::deleteObject

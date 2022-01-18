@@ -11,7 +11,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * This script submits a request for manual payment. This kind of request are permitted at minimum amount of $2.00. 

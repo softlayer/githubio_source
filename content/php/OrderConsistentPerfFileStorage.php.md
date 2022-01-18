@@ -15,7 +15,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * Order Consistent Performance File Storage

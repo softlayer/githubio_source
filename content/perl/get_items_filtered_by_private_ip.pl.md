@@ -13,7 +13,7 @@ tags:
 ---
 
 
-```
+```perl
 # Get items from "Portal>Device List" filtered by Private IP
 #
 # Important manual pages:
@@ -52,4 +52,5 @@ if ($result ->fault) {
     die 'Unable to get the items according to "private IP" filter. ' . $result ->faultstring;
 }
 print Dumper($result ->result);
+
 ```

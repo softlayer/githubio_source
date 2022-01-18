@@ -11,7 +11,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 require_once(dirname(__FILE__) . '/SoftLayer/SoapClient.class.php');
 

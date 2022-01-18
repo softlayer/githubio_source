@@ -13,7 +13,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Delete a firewall rule from a  VSI.
 
@@ -29,7 +29,7 @@ package main
 
 import (
 	"fmt"
-  	"encoding/json"
+	"encoding/json"
 	"github.com/softlayer/softlayer-go/session"
 	"github.com/softlayer/softlayer-go/services"
 	"github.com/softlayer/softlayer-go/datatypes"
@@ -70,7 +70,7 @@ func main() {
 	firewallUpdateService := services.GetNetworkFirewallUpdateRequestService(sess)
 
 	// 1. Get the Firewall Service Component
-  	firewall, err := guestService.Id(vsiId).GetFirewallServiceComponent()
+	firewall, err := guestService.Id(vsiId).GetFirewallServiceComponent()
 	if err != nil {
 		fmt.Printf("\n Unable to get firewall component:\n - %s\n", err)
 		return
@@ -82,7 +82,7 @@ func main() {
 		"destinationIpAddress;destinationPortRangeStart;destinationPortRangeEnd"
 
 	// 2. Retrieve all current firewall rules
-  	currentRules, err := firewallService.Id(*firewall.Id).Mask(mask).GetRules()
+	currentRules, err := firewallService.Id(*firewall.Id).Mask(mask).GetRules()
 	if err != nil {
 		fmt.Printf("\n Unable to get firewall rules:\n - %s\n", err)
 		return
@@ -90,7 +90,7 @@ func main() {
 
 	// This variable will be used to save current rules except the rule you wan to delete,
 	// this into an array object SoftLayer_Network_Firewall_Update_Request_Rule
-  	firewallRules := []datatypes.Network_Firewall_Update_Request_Rule {}
+	firewallRules := []datatypes.Network_Firewall_Update_Request_Rule {}
 
 	// 4. Save all current rules except that one which have same values of 'oldRule'.
 	for _, rule := range currentRules {
@@ -101,16 +101,16 @@ func main() {
 			currentRule.OrderValue = sl.Int(ruleOrder)
 			firewallRules = append(firewallRules, currentRule)
 		}
-  	}
+	}
 
 	// 5. Build the Network_Firewall_Update_Request_Rule object with the firewall rules.
-  	template := datatypes.Network_Firewall_Update_Request {
+	template := datatypes.Network_Firewall_Update_Request {
 		NetworkComponentFirewallId : sl.Int(*firewall.Id),
 		Rules                      : firewallRules,
 	}
 
 	// 6. Call to createObject() method in order to set firewall rules with all changes.
-  	updateRequest, err := firewallUpdateService.CreateObject(&template)
+	updateRequest, err := firewallUpdateService.CreateObject(&template)
 	if err != nil {
 		fmt.Printf("\n Unable to replace/update all firewall rules:\n - %s\n", err)
 		return
@@ -146,4 +146,5 @@ func convertToSingleFirewallRule(object interface{}) interface{} {
 
 	return result
 }
+
 ```

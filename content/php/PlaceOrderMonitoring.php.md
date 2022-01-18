@@ -15,7 +15,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * Example to order a portal monitoring

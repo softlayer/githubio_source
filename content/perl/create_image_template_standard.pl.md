@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```perl
 # Create standard image template.
 #
 # The example creates a standard image template from a CCI

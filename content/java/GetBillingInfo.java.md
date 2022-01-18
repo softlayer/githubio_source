@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```java
 package api.examples;
 
 import com.google.gson.Gson;
@@ -43,8 +43,7 @@ public class GetBillingInfo {
 		Account.Service accountService = Account.service(client);
 
 		// Declaring the object mask to get information about the billing item.
-		accountService
-				.setMask("mask[id, hostname, domain, datacenter[longName], billingItem[recurringFee]]");
+		accountService.setMask("mask[id, hostname, domain, datacenter[longName], billingItem[recurringFee]]");
 
 		// Retrieve the bare metal servers for the account.
 		try {

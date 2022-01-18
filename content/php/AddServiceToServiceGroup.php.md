@@ -12,7 +12,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * This method adds a service into service group. It is only necessary to specify the "Vip Address" 

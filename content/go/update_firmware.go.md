@@ -9,7 +9,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Update the firmware in a Bare Metal server
 

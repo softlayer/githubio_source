@@ -18,7 +18,8 @@ first we'll get de ID of all SoftLayer_Billing_Invoice objects between two dates
 use the method SoftLayer_Account::getInvoices. After that, through loops we will retrieve all invoice
 items, here we'll use the method SoftLayer_Billing_Invoice::getItems and "result limits" to avoid errors.
 See below for more information.
-```
+
+```go
 package main
 
 import (

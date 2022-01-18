@@ -10,7 +10,7 @@ tags:
 
 In order to cancel an item or service you must know the billing item ID. In the following example we are retrieving the billing item ID for our Virtual Guest with ID '15690533':
 
-```
+```php
 <?php
 
 require_once './vendor/autoload.php';

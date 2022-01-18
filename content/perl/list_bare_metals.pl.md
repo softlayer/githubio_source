@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```perl
 # List Bare Metal servers.
 #
 # The script retrieves a list of all bare metal servers in your

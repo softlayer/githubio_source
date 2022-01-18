@@ -9,7 +9,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * Example to delete network monitoring

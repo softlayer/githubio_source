@@ -13,7 +13,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Add firewall rules to the Firewall in a VSI.
 
@@ -28,7 +28,7 @@ package main
 
 import (
 	"fmt"
-  	"encoding/json"
+	"encoding/json"
 	"github.com/softlayer/softlayer-go/session"
 	"github.com/softlayer/softlayer-go/services"
 	"github.com/softlayer/softlayer-go/datatypes"
@@ -78,14 +78,14 @@ func main() {
 	firewallUpdateService := services.GetNetworkFirewallUpdateRequestService(sess)
 
 	// 1. Get Firewall Component from VSI
-  	firewall, err := guestService.Id(vsiId).GetFirewallServiceComponent()
+	firewall, err := guestService.Id(vsiId).GetFirewallServiceComponent()
 	if err != nil {
 		fmt.Printf("\n Unable to get firewall component:\n - %s\n", err)
 		return
 	}
 
 	// 2. Retrieve all current rules
-  	oldRules, err := firewallService.Id(*firewall.Id).GetRules()
+	oldRules, err := firewallService.Id(*firewall.Id).GetRules()
 	if err != nil {
 		fmt.Printf("\n Unable to get firewall rules:\n - %s\n", err)
 		return
@@ -104,14 +104,14 @@ func main() {
 
 	// 4. Build the skeleton of SoftLayer_Network_Firewall_Update_Request that will be used to
 	//    update the firewall rules
-  	template := datatypes.Network_Firewall_Update_Request {
+	template := datatypes.Network_Firewall_Update_Request {
 		NetworkComponentFirewallId : sl.Int(*firewall.Id),
 		Rules: rulesToAdd,
 	}
 
 	// 5. Call to SoftLayer_Network_Firewall_Update_Request::createObject() method in order to
 	//    replace all firewall rules (update)
-  	updateRequest, err := firewallUpdateService.CreateObject(&template)
+	updateRequest, err := firewallUpdateService.CreateObject(&template)
 	if err != nil {
 		fmt.Printf("\n Unable to replace/update all firewall rules:\n - %s\n", err)
 		return
@@ -147,4 +147,5 @@ func convertToFirewallRules(object interface{}) interface{} {
 
 	return result
 }
+
 ```

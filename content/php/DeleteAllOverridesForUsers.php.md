@@ -13,7 +13,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * Delete all overrides for users 
@@ -79,7 +79,7 @@ try {
 	print_r("All VPN overrides were deleted?: " . $result);
 } catch (Exception $e) {
 	echo "Unable to delete all VPN overrides: " . $e -> getMessage();
-	}
+}
 
 
 ```

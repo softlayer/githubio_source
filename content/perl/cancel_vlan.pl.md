@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```perl
 # Example to cancel a VLAN
 #
 # The script will get the Billing_Item id of the VLAN service
