@@ -1,7 +1,7 @@
 let shell = require('shelljs')
 const fs = require('fs')
-
-const ROUTE_FILES = 'C:/Users/LVV941629/Forks/Edson/githubio_source/content'
+// Put your exactly location of proyect
+const ROUTE_FILES = 'yourPath/githubio_source/content'
 const FIND_STRING_TAG = 'tags:'
 const CONDITION_STR_TO_FINISH_THE_CHANGE = ['---', 'aliases:', 'author: "sldn"', 'classes:']
 const IGNORE_DIRECTORIES = ['reference/', 'release_notes/']
