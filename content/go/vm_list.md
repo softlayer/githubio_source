@@ -3,8 +3,8 @@ title: "List Account VMs"
 description: "Basic example showing how to get a list of Virtual Guests under an account"
 date: "2016-09-19"
 tags:
-    - "VirtualGuest"
-    - "getVirtualGuests"
+    - "virtualguest"
+    - "getvirtualguests"
 ---
 
 ```go

@@ -4,10 +4,10 @@ description: "List active Bare Metal and Virtual servers from each pod from a sp
 date: "2016-11-18"
 classes: ["SoftLayer_Account"]
 tags:
-    - "objectMask"
-    - "objectFilter"
-    - "getHardware"
-    - "getVirtualGuests"
+    - "objectmask"
+    - "objectfilter"
+    - "gethardware"
+    - "getvirtualguests"
 ---
 
 

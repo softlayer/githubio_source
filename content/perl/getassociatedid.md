@@ -4,7 +4,7 @@ description: "You can use getAssociatedBillingItem or getAssociatedParent along 
 date: "2016-01-06"
 classes: ["SoftLayer_Billing_Item"]
 tags:
-  - "getAssociatedBillingItem"
+  - "getassociatedbillingitem"
   - "billing"
 ---
 

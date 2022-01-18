@@ -8,8 +8,8 @@ classes:
     - "SoftLayer_Virtual_Guest"
     - "SoftLayer_Location"
 tags:
-    - "Virtualserver"
-    - "Placeorder"
+    - "virtualserver"
+    - "placeorder"
 ---
 
 ###Create Suspend Virtual Server

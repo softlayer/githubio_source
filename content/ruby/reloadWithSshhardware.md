@@ -4,7 +4,7 @@ description: "Reloads a server with an image template and some ssh keys"
 date: "2017-04-02"
 classes: ["SoftLayer_Hardware_Server"]
 tags:
-    - "reloadOperatingSystem"
+    - "reloadoperatingsystem"
     - "reload"
     - "server"
 ---

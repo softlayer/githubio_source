@@ -4,8 +4,8 @@ description: "This allows you to optimize your bandwidth usage by _pooling_ all 
 date: "2016-08-15"
 classes: ["SoftLayer_Network_Bandwidth_Version1_Allotment"]
 tags:
-    - "orderTemplate"
-    - "createObject"
+    - "ordertemplate"
+    - "createobject"
 ---
 
 ```ruby

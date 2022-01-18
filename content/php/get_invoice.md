@@ -6,8 +6,8 @@ classes: ["SoftLayer_Account"]
 tags:
     - "billing"
     - "invoice"
-    - "objectMask"
-    - "objectFilter"
+    - "objectmask"
+    - "objectfilter"
 ---
 
 

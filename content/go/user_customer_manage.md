@@ -3,8 +3,8 @@ title: "Manage (Create, Add Permissions, Delete) User"
 description: "Example application which 1) creates a user, 2) Adds some portal permissions, and 3) Deletes the user"
 date: "2016-09-19"
 tags:
-    - "UserCustomer"
-    - "addBulkPortalPermissions"
+    - "usercustomer"
+    - "addbulkportalpermissions"
 ---
 
 ```go

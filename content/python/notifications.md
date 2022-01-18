@@ -5,7 +5,7 @@ date: "2016-02-26"
 classes: ["SoftLayer_Notification_Occurrence_Event"]
 tags:
     - "notification"
-    - "objectFilter"
+    - "objectfilter"
 ---
 
 Retrieves all notifications that were created on January 1, 2016.

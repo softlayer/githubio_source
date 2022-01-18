@@ -4,7 +4,7 @@ description: "Invoke cancelService to cancel an item by Billing ID"
 date: "2016-01-06"
 classes: ["SoftLayer_Billing_Item"]
 tags:
-  - "cancelService"
+  - "cancelservice"
   - "billing"
 ---
 

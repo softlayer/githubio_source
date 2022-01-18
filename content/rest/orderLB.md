@@ -5,8 +5,8 @@ description: "Use verifyOrder and placeOrder to order a new Local Load Balancer"
 date: "2016-05-05"
 classes: ["SoftLayer_Product_Order"]
 tags:
-  - "verifyOrder"
-  - "placeOrder"
+  - "verifyorder"
+  - "placeorder"
 ---
 
 Operation: `POST`

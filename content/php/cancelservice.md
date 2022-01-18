@@ -4,7 +4,7 @@ description: "Use cancelService to cancel am item or service."
 date: "2016-01-29"
 classes: ["SoftLayer_Billing_Item"]
 tags:
-    - "cancelService"
+    - "cancelservice"
     - "billing"
 ---
 

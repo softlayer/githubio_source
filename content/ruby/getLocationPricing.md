@@ -5,8 +5,8 @@ description: "Use an object filter to return the Location Based pricing informat
 date: "2016-09-01"
 classes: ["SoftLayer_Product_Package"]
 tags:
-    - "objectFilter"
-    - "objectMask"
+    - "objectfilter"
+    - "objectmask"
     - "pricing"
 ---
 

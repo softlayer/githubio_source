@@ -8,8 +8,8 @@ classes:
     - "SoftLayer_Network_Bandwidth_Version"
     - "SoftLayer_Network_Subnet"
 tags:
-    - "objectMask"
-    - "objectFilter"
+    - "objectmask"
+    - "objectfilter"
     - "subnet"
     - "bandwidthpools"
 ---

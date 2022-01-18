@@ -4,7 +4,7 @@ description: "A Go example to list Virtual Guests on an account."
 date: "2016-11-07"
 classes: ["SoftLayer_Account"]
 tags:
-    - "virtualGuests"
+    - "virtualguests"
 ---
 
 ```go

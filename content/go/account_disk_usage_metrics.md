@@ -4,9 +4,9 @@ description: "Get the disk usage metrics for the most recent 24 hours. Also
 demonstrates how to pass datetime values to the API"
 date: "2016-09-19"
 tags:
-    - "Account"
-    - "DateTime"
-    - "getDiskUsageMetricDataByDate"
+    - "account"
+    - "datetime"
+    - "getdiskusagemetricdatabydate"
 ---
 
 ```go

@@ -5,10 +5,10 @@ usage of Id() to specify the object to act on, as well as how to pass
 parameters (script URL) to a service method"
 date: "2016-09-19"
 tags:
-    - "VirtualGuest"
+    - "virtualguest"
     - "objectid"
     - "parameters"
-    - "executeRemoteScript"
+    - "executeremotescript"
 ---
 
 ```go

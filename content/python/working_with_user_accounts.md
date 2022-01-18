@@ -5,9 +5,9 @@ date: "2022-01-03"
 classes: 
     - "SoftLayer_Account"
 tags:
-    - "User"
-    - "Account"
-    - "User_Account"
+    - "user"
+    - "account"
+    - "user_account"
 ---
 
 ### Setup

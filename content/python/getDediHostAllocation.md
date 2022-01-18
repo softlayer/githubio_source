@@ -5,7 +5,7 @@ date: "2017-08-04"
 classes: 
     - "SoftLayer_Virtual_DedicatedHost"
 tags:
-    - "getAllocationStatus"
+    - "getallocationstatus"
 ---
 
 The first thing you need to get is a list of the Dedicated Hosts on your account. To list the Dedicated Hosts on your account you can use the following code:

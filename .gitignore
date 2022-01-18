@@ -12,3 +12,7 @@ $RECYCLE.BIN/
 # OSX
 .DS_Store
 ._.DS_Store
+
+# Files NodeJs
+node_modules
+package-lock.json

@@ -8,7 +8,7 @@ classes:
     - "SoftLayer_Virtual_Host"    
     - "SoftLayer_Product_Order"    
 tags:
-    - "Virtual_host"
+    - "virtual_host"
 ---
 
 ### getAccount

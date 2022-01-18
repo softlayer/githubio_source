@@ -3,7 +3,7 @@ title: "List Instances"
 description: "Shows how to use the ruby client's VirtualServer class"
 date: "2015-10-06"
 tags:
-    - "VirtualServer"
+    - "virtualserver"
 ---
 
 ```ruby

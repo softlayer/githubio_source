@@ -10,8 +10,7 @@ tags:
     - "network"
     - "locations"
     - "hardware"
-
---- 
+---
 
 Prints out model numbers of networking equipment that is on route to your servers. Could be useful if merged with https://softlayer.github.io/python/networktopology/
 

@@ -4,10 +4,10 @@ description: "Attaching and detaching secondary block devices on Virtual Guests"
 date: "2016-08-22"
 classes: ["SoftLayer_Virtual_Guest"]
 tags:
-    - "attachDiskImage"
-    - "detachDiskImage"
-    - "getPortableStorageVolumes"
-    - "checkHostDiskAvailability"
+    - "attachdiskimage"
+    - "detachdiskimage"
+    - "getportablestoragevolumes"
+    - "checkhostdiskavailability"
 ---
 
 Attaching a currently detached portable block device to a given guest. The disk image will need to be migrated to the host the guest is on, so make sure to check if that host has enough disk space (with checkHostDiskAvailability) before attaching. This is only required for guests with local storage guests. SAN based guests don't need that step.

@@ -5,8 +5,8 @@ date: "2016-08-10"
 classes: ["SoftLayer_Network_Storage_Iscsi"]
 tags:
     - "iscsi"
-    - "blockStorage"
-    - "objectMask"
+    - "blockstorage"
+    - "objectmask"
 ---
 
 

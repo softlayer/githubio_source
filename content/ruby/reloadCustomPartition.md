@@ -4,7 +4,7 @@ description: "The script will issue an OS reload on your Bare Metal server with 
 date: "2017-03-31"
 classes: ["Hardware_Server"]
 tags:
-    - "reloadOperatingSystem"
+    - "reloadoperatingsystem"
 ---
 
 The following code allows you to reload a Bare Metal server with a custom partitioning scheme. You simply need to change the serverId and the partitions to suit your needs. Note that one partition must be marked as the 'grow' partition.

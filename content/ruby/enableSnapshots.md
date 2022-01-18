@@ -4,8 +4,8 @@ description: "Create a snapshot schedule for Endurance storage."
 date: "2016-08-23"
 classes: ["SoftLayer_Network_Storage"]
 tags:
-    - "enableSnapshots"
-    - "blockStorage"
+    - "enablesnapshots"
+    - "blockstorage"
 ---
 
 This method is not valid for Legacy iSCSI Storage Volumes. You need to have already purchased snapshot space for the script to work properly.

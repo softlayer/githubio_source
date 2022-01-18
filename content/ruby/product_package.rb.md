@@ -6,7 +6,7 @@ date: "2020-07-01"
 classes: 
     - "SoftLayer_Product_Package"    
 tags:
-    - "Product_Package"
+    - "product_package"
 ---
 
 [Product_Package](https://https://sldn.softlayer.com/reference/services/SoftLayer_Product_Package/)

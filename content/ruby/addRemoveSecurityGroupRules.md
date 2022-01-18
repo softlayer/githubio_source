@@ -6,9 +6,9 @@ classes:
     - "SoftLayer_Network_SecurityGroup"
 tags:
     - "securitygroups"
-    - "objectTemplate"
-    - "addRules"
-    - "removeRules"
+    - "objecttemplate"
+    - "addrules"
+    - "removerules"
 ---
 
 ### Adding Rules

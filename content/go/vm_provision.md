@@ -3,7 +3,7 @@ title: "Provision a virtual guest"
 description: "Example of provisioning a virtual guest from a template object."
 date: "2016-09-19"
 tags:
-    - "VirtualGuest"
+    - "virtualguest"
 ---
 
 ```go

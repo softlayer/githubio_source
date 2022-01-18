@@ -6,7 +6,7 @@ classes:
     - "SoftLayer_Network_SecurityGroup"
 tags:
     - "securitygroups"
-    - "objectTemplate"
+    - "objecttemplate"
 ---
 
 ```ruby 

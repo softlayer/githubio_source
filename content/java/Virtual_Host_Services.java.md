@@ -6,7 +6,7 @@ classes:
     - "SoftLayer_Account"
     - "SoftLayer_Virtual_Host"
 tags:
-    - "Virtual_Host"    
+    - "virtual_host"    
 ---
 
 ```java

@@ -8,7 +8,7 @@ classes:
 tags:
     - "hardware"
     - "server"
-    - "IPMI"
+    - "ipmi"
     - "raid"
 ---
 

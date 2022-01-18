@@ -4,8 +4,8 @@ description: "Look up information about an SSH key by its label.  Demonstrates
 how to use the SDK's filter utility to apply an objectFilter to limit a result set"
 date: "2016-09-19"
 tags:
-    - "Account"
-    - "SshKey"
+    - "account"
+    - "sshkey"
     - "filter"
 ---
 

@@ -4,8 +4,8 @@ description: "Creates a new virtual server (VSI) and demonstrates the many optio
 date: "2016-11-07"
 classes: ["SoftLayer_Virtual_Guest"]
 tags:
-    - "virtualGuests"
-    - "CreateObject"
+    - "virtualguests"
+    - "createobject"
 ---
 
 ```go
