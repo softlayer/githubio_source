@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Get item prices by location
 

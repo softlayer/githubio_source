@@ -13,7 +13,7 @@ tags:
 ---
 
 
-```
+```perl
 # Get all items from Device according to an specific location.
 #
 # Important manual pages:
@@ -52,4 +52,5 @@ if ($result ->fault) {
     die 'Unable to get the item list when filtering by location. ' . $result ->faultstring;
 }
 print Dumper($result ->result);
+
 ```

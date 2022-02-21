@@ -11,7 +11,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * Add Bulk Virtual Guest Access

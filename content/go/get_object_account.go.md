@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Get information about account
 

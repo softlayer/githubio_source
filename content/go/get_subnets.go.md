@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Retrieve the subnets for a VLAN
 
@@ -39,7 +39,7 @@ import (
 func main() {
 	// SoftLayer API username and key
 	username := "set me"
-  	apikey   := "set me"
+	apikey   := "set me"
 
 	// Vlan id you wish to get its subnets
 	vlanId := 1054267

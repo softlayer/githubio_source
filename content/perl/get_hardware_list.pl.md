@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```perl
 # Get Hardware list using SoftLayer_Search::advancedSearch.
 #
 # Important manual pages:

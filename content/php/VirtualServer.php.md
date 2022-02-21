@@ -11,7 +11,8 @@ tags:
 Attaches a disk image.
 
 Creates a transaction to attach a guest's disk image. If the disk image is already attached it will be ignored.
-```
+
+```php
 <?php
 
 require_once './vendor/autoload.php';
@@ -26,11 +27,11 @@ $client = \SoftLayer\SoapClient::getClient('SoftLayer_Virtual_Guest', $guest_id,
   
 try {
 
-  $response = $client->attachDiskImage($storage_id);
-  print_r($response);
+    $response = $client->attachDiskImage($storage_id);
+    print_r($response);
 
  } catch(Exception $e) {
-     echo 'Cannot compute. Error is: ' . $e->getMessage();
+    echo 'Cannot compute. Error is: ' . $e->getMessage();
 }
 
 ?>
@@ -39,7 +40,8 @@ try {
 Get primary ip address record.
 
 For a given virtual guest id, retrieve the information concerning its primary ip address. 
-```
+
+```php
 <?php
 
 require_once './vendor/autoload.php';
@@ -50,17 +52,17 @@ $apiKey = set me;
 $vsi_id = 22983449;
 
 $client = \SoftLayer\SoapClient::getClient('SoftLayer_Virtual_Guest', $vsi_id, $apiUsername, $apiKey);
-  $objectMask = new \SoftLayer\Common\ObjectMask();
-  $objectMask->primaryNetworkComponent;
-  $objectMask->primaryNetworkComponent->primaryIpAddressRecord;
-  $client->setObjectMask($objectMask);
+    $objectMask = new \SoftLayer\Common\ObjectMask();
+    $objectMask->primaryNetworkComponent;
+    $objectMask->primaryNetworkComponent->primaryIpAddressRecord;
+    $client->setObjectMask($objectMask);
   
 try { 
-  $guest = $client->getObject();
-  print_r($guest);
+    $guest = $client->getObject();
+    print_r($guest);
 
  } catch(Exception $e) {
-     echo 'Cannot get the Primary ipAddress Record: ' . $e->getMessage();
+    echo 'Cannot get the Primary ipAddress Record: ' . $e->getMessage();
 }
 
 ?>
@@ -70,7 +72,8 @@ try {
 Month-to-date cost of a Virtual_Guest
 
 Determine the month-to-date cost of an hourly Virtual_Guest using getBillingItem and an objectMask. 
-```
+
+```php
 <?php
 
 require_once './vendor/autoload.php';
@@ -102,7 +105,8 @@ try {
 Active Private Port
 
 It actives the private network port.
-```
+
+```php
 <?php
 
 require_once(dirname(__FILE__) . '/SoftLayer/SoapClient.class.php');
@@ -127,7 +131,8 @@ try {
 Active Public Port
 
 It activates the public network port.
-```
+
+```php
 <?php
 
 require_once(dirname(__FILE__) . '/SoftLayer/SoapClient.class.php');

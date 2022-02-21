@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Retrieve the SoftLayer_Network_Storage objects that this SoftLayer_Network_Subnet has access to.
 On this case we'll use the method SoftLayer_Network_Subnet::getAllowedNetworkStorage in order to

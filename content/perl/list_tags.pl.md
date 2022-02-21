@@ -9,7 +9,7 @@ tags:
 ---
 
 
-```
+```perl
 # List the tags for a VSI
 # 
 # The script  list all the tags set in an arbitrary  VSI,

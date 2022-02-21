@@ -11,7 +11,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Get items from an image template
 

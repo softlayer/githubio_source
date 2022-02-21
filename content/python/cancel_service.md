@@ -8,7 +8,7 @@ classes:
     - "SoftLayer_Billing_Item_Hardware"
     - "SoftLayer_Billing_Item_Cancellation_Request"
 tags:
-    - "objectMask"
+    - "objectmask"
     - "billing"
 ---
 

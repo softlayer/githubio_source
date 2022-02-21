@@ -9,7 +9,7 @@ tags:
 ---
 
 
-```
+```perl
 # Get all the tags in the account.
 #
 # The script gets all the tags in the account. We make a simple

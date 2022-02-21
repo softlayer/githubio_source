@@ -13,7 +13,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Order a new Global IPv4/IPv6
 

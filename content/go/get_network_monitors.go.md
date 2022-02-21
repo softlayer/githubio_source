@@ -9,7 +9,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Retrieve all network monitors of Virtual Guest.
 

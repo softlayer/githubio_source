@@ -12,7 +12,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * Allow Access From Hardware
@@ -93,11 +93,11 @@ try {
 	 * Replace the line below with:
 	 * $result = $storageService -> removeAccessFromHardwareList($hardware);
 	 */
-    $result = $storageService -> allowAccessFromHardwareList($hardware);
-    print_r("Is Hardware access allowed: " . $result);
+	$result = $storageService -> allowAccessFromHardwareList($hardware);
+	print_r("Is Hardware access allowed: " . $result);
 
 } catch(Exception $e) {
-    echo "Unable to allow access from hardware: " . $e -> getMessage();
+	echo "Unable to allow access from hardware: " . $e -> getMessage();
 }
 
 ```

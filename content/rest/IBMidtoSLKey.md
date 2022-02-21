@@ -5,9 +5,9 @@ description: "For accounts that use IBMid, this script can be used to pull down 
 date: "2017-03-02"
 classes: ["SoftLayer_User_Customer"]
 tags:
-  - "getObject"
-  - "IBMid"
-  - "objectMask"
+  - "getobject"
+  - "ibmid"
+  - "objectmask"
 ---
 
 

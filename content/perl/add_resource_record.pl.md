@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```perl
 # Create Resource Record.
 # This script creates a new domain resource record.
 #
@@ -37,11 +37,11 @@ my $resource_record_service ='SoftLayer_Dns_Domain_ResourceRecord';
 
 # Creating a template to configure our DNS Zone edition.
 my $object_template = {
-						'domainId'=>  $dns_id,
-						'data'=> '127.1.1.1',
-						'host'=> '@',
-						'type'=> 'a'
-					};
+	'domainId'=>  $dns_id,
+	'data'=> '127.1.1.1',
+	'host'=> '@',
+	'type'=> 'a'
+};
 						
 # Create a Resource record client to the API service.
 my $resource_record_client = SoftLayer::API::SOAP->new($resource_record_service, undef, $api_username, $api_key);
@@ -49,9 +49,9 @@ my $resource_record_client = SoftLayer::API::SOAP->new($resource_record_service,
 my $result = $resource_record_client->createObject($object_template);
 				   
 if ($result->fault) {
-			die 'There is an error when trying to add a new resource record...' . $result->faultstring;
+	die 'There is an error when trying to add a new resource record...' . $result->faultstring;
 } else {
-			print Dumper($result);
+	print Dumper($result);
 }
 
 ```

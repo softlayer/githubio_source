@@ -13,7 +13,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * Get Items from Device list filtered by tags

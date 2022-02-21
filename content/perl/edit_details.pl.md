@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```perl
 #
 # Edit a bare metal server's basic information
 #

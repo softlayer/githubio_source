@@ -4,8 +4,8 @@ description: "Retrieve the IP, username, and password needed to access the KVM c
 date: "2017-05-04"
 classes: ["SoftLayer_Virtual_Guest"]
 tags:
-    - "objectMask"
-    - "getObject"
+    - "objectmask"
+    - "getobject"
 ---
 
 

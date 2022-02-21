@@ -38,7 +38,6 @@ import (
 	"encoding/json"
 	"fmt"
 	"os"
-
 	"github.com/softlayer/softlayer-go/datatypes"
 	"github.com/softlayer/softlayer-go/filter"
 	"github.com/softlayer/softlayer-go/services"
@@ -204,7 +203,7 @@ func GetServerPrices(packageID int) {
 	}
 
 	cores := "-"
-    recurringFee := 0.0
+	recurringFee := 0.0
 	fmt.Println("----------------------------------------- Item Prices ------------------------------------------")
 	fmt.Printf("| %10s | %50s | %10s | %10s | %40s |\n", "Price Id", "Description", "Cores", "Monthly Fee", "KeyName")
 	for _, item := range result.Items {
@@ -425,7 +424,6 @@ import (
 	"encoding/json"
 	"fmt"
 	"os"
-
 	"github.com/softlayer/softlayer-go/datatypes"
 	"github.com/softlayer/softlayer-go/filter"
 	"github.com/softlayer/softlayer-go/services"

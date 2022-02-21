@@ -14,7 +14,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Order a Network Gateway Appliance (Vyatta)
 

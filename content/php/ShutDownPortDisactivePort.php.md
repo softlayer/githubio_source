@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 # Sets the networks speed for a hardware devices
 #
@@ -48,17 +48,17 @@ $hardwareServerService = SoftLayer_SoapClient::getClient('SoftLayer_Hardware_Ser
 $hardwareServerService->setInitParameter($hardwareID);
 
 try {
-       # It is not possible to update the two networks at same time, you need to update one and wait until
-       # the transaction is completed to update the second one.
-       $result = $hardwareServerService->setPublicNetworkInterfaceSpeed($newSpeedPublicNetwork);
-       print ("The public network speed has been modified? " . $result);
-       $result = $hardwareServerService->setPrivateNetworkInterfaceSpeed($newSpeedPrivateNetwork);
-       print ("The private network speed has been modified? " . $result);
-    } catch (Exception $e) {
-        # If there was an error returned from the SoftLayer API then bomb out with the
-        # error message.
-        echo 'Unable to modify networks. :' . $e -> getMessage();
-    }
+    # It is not possible to update the two networks at same time, you need to update one and wait until
+    # the transaction is completed to update the second one.
+    $result = $hardwareServerService->setPublicNetworkInterfaceSpeed($newSpeedPublicNetwork);
+    print ("The public network speed has been modified? " . $result);
+    $result = $hardwareServerService->setPrivateNetworkInterfaceSpeed($newSpeedPrivateNetwork);
+    print ("The private network speed has been modified? " . $result);
+} catch (Exception $e) {
+    # If there was an error returned from the SoftLayer API then bomb out with the
+    # error message.
+    echo 'Unable to modify networks. :' . $e -> getMessage();
+}
 ?>
 
 ```

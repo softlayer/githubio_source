@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Create an flex image from a Virtual Server
 
@@ -33,15 +33,15 @@ import (
 	"github.com/softlayer/softlayer-go/services"
 	"github.com/softlayer/softlayer-go/session"
 	"github.com/softlayer/softlayer-go/sl"
-  	"encoding/json"
+	"encoding/json"
 )
 
 func main() {
 	// SoftLayer API username and key.
 	username  := "set me"
-  	apikey    := "set me"
+	apikey    := "set me"
 
-  	// The virtual guest id you wish to create a flex image disk.
+	// The virtual guest id you wish to create a flex image disk.
 	virtualGuestId := 29857155
 
 	// Build the template object that will be used to capture a flex image.
@@ -52,27 +52,27 @@ func main() {
 	}
 
 	// Create session
-  	sess := session.New(username, apikey)
+	sess := session.New(username, apikey)
 
 	// Get SoftLayer_Virtual_Guest service.
-  	service := services.GetVirtualGuestService(sess)
+	service := services.GetVirtualGuestService(sess)
 
 	// Capture flex image.
-  	flexImage, err := service.Id(virtualGuestId).CaptureImage(&captureTemplate)
+	flexImage, err := service.Id(virtualGuestId).CaptureImage(&captureTemplate)
 	if err != nil {
 		fmt.Printf("\n Unable to create Flex Image:\n - %s\n", err)
 		return
 	} 
 
 	// Following creates a JSON object which is based on data of the captured image.
-  	jsonFormat, JsonErr := json.MarshalIndent(flexImage,"","     ")
+	jsonFormat, JsonErr := json.MarshalIndent(flexImage,"","     ")
 	if JsonErr != nil {
 		fmt.Println(JsonErr)
-	    	return
+		return
 	}
 
 	// Print result in JSON format
-  	fmt.Println(string(jsonFormat))
+	fmt.Println(string(jsonFormat))
 }
 
 ```

@@ -5,7 +5,7 @@ date: "2016-08-22"
 classes:
   - "SoftLayer_Account"
 tags:
-  - "IPMI"
+  - "ipmi"
   - "dedicated"
   - "auth"
 ---
@@ -32,8 +32,8 @@ try {
 
   print_r($response);
 
- } catch(Exception $e) {
-     echo 'Cannot compute. Error is: ' . $e->getMessage();
+} catch(Exception $e) {
+  echo 'Cannot compute. Error is: ' . $e->getMessage();
 }
 
 ?>

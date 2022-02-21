@@ -11,7 +11,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * This script retrieves the SSL certificate currently associated with the VIP.
@@ -71,7 +71,7 @@ try {
 	"\nCertificate:  " . $securityCertificate -> certificate . "\nPrivate Key: " . $securityCertificate -> privateKey;
 	
 } catch(Exception $e) {
-    echo "Unable to retrieve SSL Certificate: " . $e -> getMessage();
+	echo "Unable to retrieve SSL Certificate: " . $e -> getMessage();
 }
 
 ```

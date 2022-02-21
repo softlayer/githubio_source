@@ -9,7 +9,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Get Network Gateway details.
 

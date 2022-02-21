@@ -6,7 +6,7 @@ date: "2015-12-30"
 classes: ["SoftLayer_Billing_Item"]
 tags:
   - "billing"
-  - "getAssociatedParent"
+  - "getassociatedparent"
 ---
 
 Operation: `GET`

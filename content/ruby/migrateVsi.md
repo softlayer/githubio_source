@@ -4,8 +4,8 @@ description: "Example on how to call verifyOrder / placeOrder via REST to migrat
 date: "2016-11-07"
 classes: ["SoftLayer_Product_Order"]
 tags:
-    - "placeOrder"
-    - "verifyOrder"
+    - "placeorder"
+    - "verifyorder"
     - "upgrade"
 ---
 

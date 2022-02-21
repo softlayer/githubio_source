@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Create an origin mappings in a CDN.
 

@@ -11,7 +11,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * Get the recurring cost of a single server or all servers on your account.

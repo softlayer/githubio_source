@@ -12,7 +12,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Create a standard firewall
 
@@ -34,7 +34,7 @@ package main
 
 import (
 	"fmt"
-  	"encoding/json"
+	"encoding/json"
 	"github.com/softlayer/softlayer-go/services"
 	"github.com/softlayer/softlayer-go/datatypes"
 	"github.com/softlayer/softlayer-go/sl"

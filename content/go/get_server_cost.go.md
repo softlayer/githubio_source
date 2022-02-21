@@ -11,7 +11,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Get the recurring cost of all hardware servers in the account.
 

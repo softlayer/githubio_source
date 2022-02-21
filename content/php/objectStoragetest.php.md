@@ -8,7 +8,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 
 require_once ('softlayer-object-storage-php-master/lib/ObjectStorage/Util.php');

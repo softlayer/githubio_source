@@ -5,7 +5,7 @@ date: "2015-12-30"
 classes: ["SoftLayer_Account"]
 tags:
   - "billing"
-  - "getNextInvoiceTotalAmount"
+  - "getnextinvoicetotalamount"
 ---
 
 Operation: `GET`

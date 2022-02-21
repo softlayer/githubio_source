@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Retrieve standard item prices from a package.
 

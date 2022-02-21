@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```perl
 # Retrieve the billing info for the Bare Metals in the account.
 #
 # This script makes a single call to the getHardware() method in the

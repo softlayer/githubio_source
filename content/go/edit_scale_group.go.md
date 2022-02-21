@@ -9,7 +9,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Edit Scale Group
 

@@ -4,13 +4,13 @@ description: "Use cancelService to cancel am item or service."
 date: "2016-01-29"
 classes: ["SoftLayer_Billing_Item"]
 tags:
-    - "cancelService"
+    - "cancelservice"
     - "billing"
 ---
 
 In order to cancel an item or service you must know the billing item ID. In the following example we are retrieving the billing item ID for our Virtual Guest with ID '15690533':
 
-```
+```php
 <?php
 
 require_once './vendor/autoload.php';

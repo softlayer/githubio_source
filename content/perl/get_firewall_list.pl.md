@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```perl
 # Get Firewall list using SoftLayer_Search::advancedSearch.
 #
 # Important manual pages:

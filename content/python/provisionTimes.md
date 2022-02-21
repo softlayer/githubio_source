@@ -10,10 +10,10 @@ classes:
     - "SoftLayer_Provisioning_Version1_Transaction"
 
 tags:
-    - "provisionTransaction"
-    - "resultLimit"
-    - "objectFilter"
-    - "objectMask"
+    - "provisiontransaction"
+    - "resultlimit"
+    - "objectfilter"
+    - "objectmask"
 
 ---
 

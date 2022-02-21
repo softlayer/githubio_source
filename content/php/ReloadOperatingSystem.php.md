@@ -14,7 +14,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * Reload Operating System

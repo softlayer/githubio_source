@@ -7,7 +7,7 @@ classes:
     - "SoftLayer_Account"
 tags:
     - "vsi"
-    - "VirtualGuest"
+    - "virtualguest"
 ---
 
 ### Create Virtual Server

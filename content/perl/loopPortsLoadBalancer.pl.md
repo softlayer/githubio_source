@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```perl
 use lib 'C:/softlayerApis/perl/softlayer-api-perl-client-master/';
 use SoftLayer::API::SOAP;
 use Data::Dumper;
@@ -40,35 +40,35 @@ my $loadbalancerObject = $result->result;
 my $virtualServers = $loadbalancerObject->{virtualServers};
 # loop the virtual servers in the load balancer
 for my $j (0 .. $#{$virtualServers}) {
-        my $virtualServer = $virtualServers->[$j];
-        my $serviceGroups = $virtualServer->{serviceGroups};
-        print ("virtualServerID : " . $virtualServer->{id} . "\n");
-        print ("name : " . $virtualServer->{name} . "\n");
-        print ("port : " . $virtualServer->{port} . "\n");
-        # loop the service groups in the virtual servers
-        for my $i (0 .. $#{$serviceGroups}) {
-            my $serviceGroup = $serviceGroups->[$i];
-            my $services = $serviceGroup->{services};
-            print ("    serviceGroupID : " . $serviceGroup->{id} . "\n");
-            print ("    name : " . $serviceGroup->{name} . "\n");
-            print ("    routingMethodId : " . $serviceGroup->{routingMethodId} . "\n");
-            print ("    routingTypeId : " . $serviceGroup->{routingTypeId} . "\n");
-            print ("    timeout : " . $serviceGroup->{timeout} . "\n");
-            # loop the services in the service group
-            for my $h (0 .. $#{$services}) {
-                my $service = $services->[$h];
-                print ("        serviceID : " . $service->{id} . "\n");
-                print ("        name : " . $service->{name} . "\n");
-                print ("        notes : " . $service->{notes} . "\n");
-                print ("        port : " . $service->{port} . "\n");
-                print ("        status : " . $service->{status} . "\n");
-                print ("        ipAddressId : " . $service->{ipAddressId} . "\n");
-                print ("        enabled : " . $service->{enabled} . "\n");
-            }
+    my $virtualServer = $virtualServers->[$j];
+    my $serviceGroups = $virtualServer->{serviceGroups};
+    print ("virtualServerID : " . $virtualServer->{id} . "\n");
+    print ("name : " . $virtualServer->{name} . "\n");
+    print ("port : " . $virtualServer->{port} . "\n");
+    # loop the service groups in the virtual servers
+    for my $i (0 .. $#{$serviceGroups}) {
+        my $serviceGroup = $serviceGroups->[$i];
+        my $services = $serviceGroup->{services};
+        print ("    serviceGroupID : " . $serviceGroup->{id} . "\n");
+        print ("    name : " . $serviceGroup->{name} . "\n");
+        print ("    routingMethodId : " . $serviceGroup->{routingMethodId} . "\n");
+        print ("    routingTypeId : " . $serviceGroup->{routingTypeId} . "\n");
+        print ("    timeout : " . $serviceGroup->{timeout} . "\n");
+        # loop the services in the service group
+        for my $h (0 .. $#{$services}) {
+            my $service = $services->[$h];
+            print ("        serviceID : " . $service->{id} . "\n");
+            print ("        name : " . $service->{name} . "\n");
+            print ("        notes : " . $service->{notes} . "\n");
+            print ("        port : " . $service->{port} . "\n");
+            print ("        status : " . $service->{status} . "\n");
+            print ("        ipAddressId : " . $service->{ipAddressId} . "\n");
+            print ("        enabled : " . $service->{enabled} . "\n");
         }
-        print ("\n");
-        print ("\n");
     }
+    print ("\n");
+    print ("\n");
+}
 
 #print Dumper($virtualServers);
 

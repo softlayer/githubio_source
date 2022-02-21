@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Get the associated Firewall's rules for a vsi.
 

@@ -9,7 +9,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 The script creates a monitoring network with Service ping in a determinate IP address
 

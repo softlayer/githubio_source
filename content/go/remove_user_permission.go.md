@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Remove user permission.
 

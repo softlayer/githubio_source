@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Retrieve the list of available SoftLayer_Network_Storage volumes that can be authorized
 to a SoftLayer_Network_Subnet object. To do this we'll use the method getAvailableNetworkStorages().

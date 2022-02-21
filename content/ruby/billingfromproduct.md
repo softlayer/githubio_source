@@ -4,8 +4,8 @@ description: "Determine the billing item of a provisioned product using getBilli
 date: "2016-01-29"
 classes: ["SoftLayer_Network_Storage"]
 tags:
-    - "getBillingItem"
-    - "objectMask"
+    - "getbillingitem"
+    - "objectmask"
 ---
 
 In the following example we are looking for the Billing Item of an Endurance Storage volume with an ID of 1234567.

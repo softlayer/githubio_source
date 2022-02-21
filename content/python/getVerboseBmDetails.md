@@ -4,8 +4,8 @@ description: "Retrieve the packages, categories and items associated with a Bare
 date: "2016-12-29"
 classes: ["SoftLayer_Hardware"]
 tags:
-    - "objectMask"
-    - "getObject"
+    - "objectmask"
+    - "getobject"
 ---
 
 This script will get the Packages, Categories, and items associated with a Bare Metal Server. 

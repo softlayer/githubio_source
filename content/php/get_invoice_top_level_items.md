@@ -5,8 +5,8 @@ date: "2015-05-24"
 classes: ["SoftLayer_Brand", "SoftLayer_Account", "SoftLayer_Billing_Invoice"]
 tags:
     - "billing"
-    - "objectFilter"
-    - "objectMask"
+    - "objectfilter"
+    - "objectmask"
     - "invoice"
     - "brand"
 ---

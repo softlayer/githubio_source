@@ -4,8 +4,8 @@ description: "Retrieving the username and password for Performance/Endurance Blo
 date: "2016-04-28"
 classes: ["SoftLayer_Network_Storage_Iscsi"]
 tags:
-    - "Iscsi"
-    - "BlockStorage"
+    - "iscsi"
+    - "blockstorage"
 ---
 
 The following script allows you retrieve the username and password for Performance/Endurance Block storage if you have authorized hosts against the storage.

@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```perl
 #
 # Retrieve the user data for the VSIs in the account
 # 

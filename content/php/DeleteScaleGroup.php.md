@@ -11,7 +11,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * Delete Scale Group
@@ -61,11 +61,11 @@ $account -> setObjectFilter($filter);
 
 
 try {
-    // Get Scale Groups 
-    $result = $account -> getScaleGroups();
+	// Get Scale Groups 
+	$result = $account -> getScaleGroups();
     
-    // Set init parameter, to delete the scale group
-    $client -> setInitParameter($result[0] -> id);
+	// Set init parameter, to delete the scale group
+	$client -> setInitParameter($result[0] -> id);
     
 	/**
 	 * It is possible to delete a group and destroy all members of it.
@@ -82,7 +82,7 @@ try {
 	$result = $client -> forceDeleteObject();
 	print_r("Scale Group " . $groupName . " was deleted?: " . $result);
 } catch(Exception $e) {
-    echo "Unable to delete Scale Group " . $e -> getMessage();
+	echo "Unable to delete Scale Group " . $e -> getMessage();
 }
 
 ?>

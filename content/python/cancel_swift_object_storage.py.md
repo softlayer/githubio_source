@@ -8,9 +8,9 @@ classes:
     - "SoftLayer_Network_Storage"
 tags:
     - "billing"
-    - "Account"
-    - "Objectstorage"
-    - "Swift"
+    - "account"
+    - "objectstorage"
+    - "swift"
 ---
 
 ### List, delete, deleteAll Object Storage Swift Volumes 

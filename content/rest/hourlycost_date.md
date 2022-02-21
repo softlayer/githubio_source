@@ -5,9 +5,9 @@ description: "Determine the month-to-date cost of an hourly Virtual_Guest using 
 date: "2015-12-30"
 classes: ["SoftLayer_Virtual_Guest"]
 tags:
-  - "getBillingItem"
+  - "getbillingitem"
   - "billing"
-  - "objectMask"
+  - "objectmask"
 ---
 
 Operation: `GET`

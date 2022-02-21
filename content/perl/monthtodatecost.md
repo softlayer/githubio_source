@@ -4,9 +4,9 @@ description: "Returns the month to date cost of an hourly VSI using getBillingIt
 date: "2016-01-06"
 classes: ["SoftLayer_Virtual_Guest"]
 tags:
-  - "objectMask"
+  - "objectmask"
   - "billing"
-  - "getBillingItem"
+  - "getbillingitem"
 ---
 
 ```perl

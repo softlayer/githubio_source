@@ -9,10 +9,10 @@ classes:
     - "SoftLayer_Container_Product_Order_Virtual_Guest_Upgrade"
     - "SoftLayer_Product_Order"
 tags:
-    - "placeOrder"
-    - "verifyOrder"
+    - "placeorder"
+    - "verifyorder"
     - "upgrade"
-    - "MAINTENANCE_WINDOW"
+    - "maintenance_window"
 ---
 
 ```

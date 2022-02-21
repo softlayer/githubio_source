@@ -6,7 +6,7 @@ date: "2015-12-30"
 classes: ["SoftLayer_Network_Storage"]
 tags:
   - "billing"
-  - "getBillingItem"
+  - "getbillingitem"
 ---
 
 Operation: `GET`

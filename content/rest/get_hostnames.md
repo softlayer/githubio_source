@@ -5,7 +5,7 @@ date: "2015-09-30"
 classes: 
     - "SoftLayer_Account"
 tags:
-    - "objectMask"
+    - "objectmask"
 ---
 Operation: `GET`
 

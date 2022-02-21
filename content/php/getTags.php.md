@@ -9,7 +9,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * Get all the tags in the account.

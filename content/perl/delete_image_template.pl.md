@@ -9,7 +9,7 @@ tags:
 ---
 
 
-```
+```perl
 # Delete an image template
 # 
 # The script makes a single call to the SoftLayer_Virtual_Guest_Block_Device_Template_Group::deleteObject

@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```perl
 # Get NetScaler list using SoftLayer_Search::advancedSearch.
 #
 # Important manual pages:

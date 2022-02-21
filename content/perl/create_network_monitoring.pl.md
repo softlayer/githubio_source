@@ -9,7 +9,7 @@ tags:
 ---
 
 
-```
+```perl
 # Create network monitoring
 # 
 # The script creates a monitoring network with Service ping

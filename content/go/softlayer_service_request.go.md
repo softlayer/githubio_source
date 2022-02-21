@@ -9,7 +9,7 @@ tags:
 ---
 
 
-```
+```go
 package slapi
 
 import (

@@ -12,7 +12,7 @@ tags:
 ---
 
 
-```
+```perl
 # Cancel servers from a list of IPs
 #
 # This script looks for a server with a determinate IP address and delete it.
@@ -57,13 +57,13 @@ $hardware_server_service->setObjectMask($object_mask);
 for my $ip_to_cancel (@ips_to_cancel) {
     my $server = $hardware_server_service->findByIpAddress($ip_to_cancel);
     if ($server->fault) {
-    die 'Unable to get the server. ' . $server->faultstring;
+        die 'Unable to get the server. ' . $server->faultstring;
     }
     my $billing_id = $server->result->{'billingItem'}->{'id'};
     $billing_item_service->setInitParameter($billing_id);
     my $result = $billing_item_service->cancelService();
     if ($result->fault) {
-    die 'Unable to cancel the server. ' . $server->faultstring;
+        die 'Unable to cancel the server. ' . $server->faultstring;
     }
     print Dumper($result->result);
 }

@@ -5,8 +5,8 @@ date: "2017-10-02"
 classes: ["SoftLayer_Network_SecurityGroup"]
 tags:
   - "securitygroups"
-  - "attachNetworkComponents"
-  - "detachNetworkComponents"
+  - "attachnetworkcomponents"
+  - "detachnetworkcomponents"
 ---
 
 ### Get the network component IDs for a VSI

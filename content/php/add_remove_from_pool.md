@@ -4,7 +4,7 @@ description: "Adding and removing Virtual Guests and Bare Metal Servers in an ex
 date: "2016-04-28"
 classes: ["SoftLayer_Network_Bandwidth_Version1_Allotment"]
 tags:
-    - "BandwidthPool"
+    - "bandwidthpool"
     - "bandwidth"
 ---
 

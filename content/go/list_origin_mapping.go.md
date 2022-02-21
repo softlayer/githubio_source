@@ -9,7 +9,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 List all the origin pull mappings in the CDN.
 

@@ -5,7 +5,7 @@ date: "2016-01-29"
 classes: ["Virtual_Guest"]
 tags:
     - "billing"
-    - "objectMask"
+    - "objectmask"
 ---
 
 ```ruby

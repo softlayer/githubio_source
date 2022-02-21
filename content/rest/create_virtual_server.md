@@ -6,7 +6,7 @@ classes: ["SoftLayer_Virtual_Guest"]
 tags:
   - "vsi"
   - "create"
-  - "objectMask"
+  - "objectmask"
 ---
 
 Operation: `POST`

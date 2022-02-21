@@ -5,9 +5,9 @@ date: "2017-10-02"
 classes: ["SoftLayer_Network_SecurityGroup"]
 tags:
   - "securitygroups"
-  - "addRules"
-  - "editRules"
-  - "removeRules"
+  - "addrules"
+  - "editrules"
+  - "removerules"
 ---
 
 ### Add rules

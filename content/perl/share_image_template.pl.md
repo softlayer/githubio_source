@@ -9,7 +9,7 @@ tags:
 ---
 
 
-```
+```perl
 # Share image template.
 #
 # The script shares an image template to another account, it makes

@@ -5,8 +5,8 @@ date: "2015-10-09"
 classes: ["SoftLayer_Account"]
 tags:
     - "customer"
-    - "objectMask"
-    - "objectFilter"
+    - "objectmask"
+    - "objectfilter"
 ---
 
 ```ruby

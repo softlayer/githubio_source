@@ -4,8 +4,8 @@ description: "Create a snapshot schedule for Endurance storage."
 date: "2016-08-23"
 classes: ["SoftLayer_Network_Storage"]
 tags:
-    - "enableSnapshots"
-    - "blockStorage"
+    - "enablesnapshots"
+    - "blockstorage"
     - "storage"
 ---
 

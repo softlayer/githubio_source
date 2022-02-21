@@ -9,7 +9,7 @@ classes:
 tags:
   - "spare pool"
   - "server"
-  - "objectFilter"
+  - "objectfilter"
 ---
 
 Operation: `GET`

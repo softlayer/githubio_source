@@ -12,7 +12,7 @@ tags:
 ---
 
 
-```
+```perl
 # Retrieve account VLAN and subnet information.
 #
 # Retrieving a list of all VLANs associated with a SoftLayer customer account
@@ -52,7 +52,7 @@ my $result = $account_service->getNetworkVlans();
 
 if ($result->fault) {
     die 'Unable to retrieve the VLANs. ' . $result->faultstring;
-    }
+}
 print Dumper($result->result);
 
 ```

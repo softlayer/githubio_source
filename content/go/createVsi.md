@@ -4,8 +4,8 @@ description: "Creates a new virtual server (VSI) and demonstrates the many optio
 date: "2016-11-07"
 classes: ["SoftLayer_Virtual_Guest"]
 tags:
-    - "virtualGuests"
-    - "CreateObject"
+    - "virtualguests"
+    - "createobject"
 ---
 
 ```go
@@ -14,7 +14,6 @@ package main
 
 import (
     "fmt"
-
     "github.com/softlayer/softlayer-go/datatypes"
     "github.com/softlayer/softlayer-go/services"
     "github.com/softlayer/softlayer-go/session"
@@ -22,9 +21,8 @@ import (
 )
 
 func main() {
-
-          sess := session.New()
-          doCreateVMTest(sess)
+    sess := session.New()
+    doCreateVMTest(sess)
 }
 
 

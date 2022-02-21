@@ -40,7 +40,7 @@ try {
 
   print_r($response);
 
- } catch(Exception $e) {
+} catch(Exception $e) {
      echo 'Cannot compute. Error is: ' . $e->getMessage();
 }
 

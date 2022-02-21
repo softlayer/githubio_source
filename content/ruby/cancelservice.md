@@ -5,7 +5,7 @@ date: "2016-01-29"
 classes: ["SoftLayer_Billing_Item"]
 tags:
     - "billing"
-    - "cancelService"
+    - "cancelservice"
 ---
 
 ```ruby

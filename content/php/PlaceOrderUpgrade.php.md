@@ -16,7 +16,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * Order an upgrade for Virtual Guest

@@ -9,8 +9,8 @@ classes:
     - "SoftLayer_Account"
 tags:
     - "order"
-    - "Account"
-    - "Virtual"
+    - "account"
+    - "virtual"
 ---
 
 Create Placement Group

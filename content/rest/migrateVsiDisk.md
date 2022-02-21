@@ -7,8 +7,8 @@ date: "2016-11-04"
 classes: ["SoftLayer_Product_Order"]
 tags:
   - "upgrade"
-  - "placeOrder"
-  - "verifyOrder"
+  - "placeorder"
+  - "verifyorder"
 ---
 
 Operation: `POST`

@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```perl
 # Retrieve the subnets for a VLAN 
 #
 # Retrieve all the subnets for a determinate VLAN
@@ -48,7 +48,7 @@ my $result = $network_vlan_service->getSubnets();
 # Sending the request to get the subnets
 if ($result->fault) {
     die 'Unable to retrieve the subnets. ' . $result->faultstring;
-    }
+}
 print Dumper($result->result);
 
 ```

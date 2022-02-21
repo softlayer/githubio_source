@@ -6,7 +6,7 @@ classes:
     - "SoftLayer_Virtual_Guest"
     - "SoftLayer_Metric_Tracking_Object"
 tags:
-    - "Metric Tracking Object "    
+    - "metric tracking object "    
 ---
 
 # Setup

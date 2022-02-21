@@ -11,7 +11,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Create Scale Group
 
@@ -35,7 +35,7 @@ import (
 	"github.com/softlayer/softlayer-go/services"
 	"github.com/softlayer/softlayer-go/session"
 	"github.com/softlayer/softlayer-go/sl"
-  	"encoding/json"
+	"encoding/json"
 )
 
 func main() {

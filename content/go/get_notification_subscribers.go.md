@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Get all the notification subscribers for an user.
 
@@ -27,7 +27,7 @@ import (
 	"fmt"
 	"github.com/softlayer/softlayer-go/services"
 	"github.com/softlayer/softlayer-go/session"
-  "encoding/json"
+	"encoding/json"
 )
 
 func main() {

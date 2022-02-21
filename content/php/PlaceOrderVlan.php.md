@@ -15,7 +15,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * Example to create a new VLAN.

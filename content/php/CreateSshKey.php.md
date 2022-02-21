@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * This script adds ssh key to the account for use during server provisioning and os reloads

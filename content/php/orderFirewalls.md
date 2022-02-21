@@ -10,8 +10,8 @@ classes:
 tags:
     - "ordering"
     - "firewall"
-    - "placeOrder"
-    - "FortiGate"
+    - "placeorder"
+    - "fortigate"
     - "security"
 ---
 

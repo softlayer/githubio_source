@@ -9,7 +9,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Activate or Suspend a scale group.
 
@@ -60,13 +60,13 @@ func main() {
 	service := services.GetScaleGroupService(sess)
 
 	// Call the method editObject() in order to activate or suspend the SoftLayer_Scale_Group
-  	result, err := service.Id(scaleGroupId).EditObject(&objectTemplate)
+	result, err := service.Id(scaleGroupId).EditObject(&objectTemplate)
 	if err != nil {
 		fmt.Printf("\n Unable to activate or suspend the scale group:\n - %s\n", err)
 		return
 	} 
 
-  	fmt.Println(result)
+	fmt.Println(result)
 }
 
 ```

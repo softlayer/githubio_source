@@ -13,7 +13,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * Create VPN overrides 
@@ -93,7 +93,7 @@ try {
 	print_r("The VPN overrides were created?: " . $result);
 } catch (Exception $e) {
 	echo "Unable to create VPN overrides: " . $e -> getMessage();
-	}
+}
 
 
 ```

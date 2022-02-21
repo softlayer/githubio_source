@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```perl
 # Create an flex image from a Server
 # 
 # The script makes a single call to the SoftLayer_Hardware_Server::captureTemplate

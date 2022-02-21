@@ -13,7 +13,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * Delete specific overrides for single user

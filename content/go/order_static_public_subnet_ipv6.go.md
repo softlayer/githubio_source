@@ -12,7 +12,7 @@ tags:
 ---
 
 
-```
+```go
 /*
 Order a new static public subnet ipv6
 

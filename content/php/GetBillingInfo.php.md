@@ -10,7 +10,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
 * Retrieve the billing info for the Bare Metals in the account.

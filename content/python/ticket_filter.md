@@ -5,8 +5,8 @@ date: "2016-02-26"
 classes: ["SoftLayer_Account"]
 tags:
     - "tickets"
-    - "objectFilter"
-    - "objectMask"
+    - "objectfilter"
+    - "objectmask"
 ---
 
 

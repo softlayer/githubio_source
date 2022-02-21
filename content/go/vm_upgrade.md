@@ -4,8 +4,8 @@ description: "This example demonstrates the use of helper functions that
 simplify the process of placing a virtual guest upgrade order"
 date: "2016-09-19"
 tags:
-    - "VirtualGuest"
-    - "UpgradeVirtualGuest"
+    - "virtualguest"
+    - "upgradevirtualguest"
 ---
 
 ```go

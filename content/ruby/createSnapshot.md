@@ -5,8 +5,8 @@ date: "2016-08-11"
 classes: ["SoftLayer_Network_Storage_Iscsi"]
 tags:
     - "iscsi"
-    - "blockStorage"
-    - "objectMask"
+    - "blockstorage"
+    - "objectmask"
 ---
 
 Trigger a manual snapshot creation of a Block storage volume.

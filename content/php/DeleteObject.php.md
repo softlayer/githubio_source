@@ -11,7 +11,7 @@ tags:
 ---
 
 
-```
+```php
 <?php
 /**
  * Delete Virtual Guest
@@ -61,7 +61,7 @@ $filter -> virtualGuests -> hostname -> operation = "_=" . $hostname;
 $accountService -> setObjectFilter($filter);
 
 try {
-	// Getting account's associated virtual guest objects
+    // Getting account's associated virtual guest objects
     $virtualGuest = $accountService -> getVirtualGuests();
     // Setting of init parameter
     $virtualGuestService -> setInitParameter($virtualGuest[0] -> id);
