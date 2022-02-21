@@ -58,7 +58,7 @@ REMOVE_THIS_PAGE
                             <td>{{$param.name}}</td>
                             {{ if hasPrefix $param.type "SoftLayer_" }}
 
-                            <td><a href="/reference/datatypes/"{{ $param.type }}>{{ $param.type }}{{$isArray}}</a></td>
+                            <td><a href="/reference/datatypes/{{ $param.type }}">{{ $param.type }}{{$isArray}}</a></td>
                             {{ else }}
                             <td>{{$param.type}}{{$isArray}}</td>
                             {{ end }}
