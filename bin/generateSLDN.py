@@ -228,7 +228,7 @@ class SLDNgenerator():
 
 
 @click.command()
-@click.option('--download', default=False)
+@click.option('--download', default=False, is_flag=True)
 def main(download):
     generator = SLDNgenerator()
     if download:

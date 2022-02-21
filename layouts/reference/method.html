@@ -1,5 +1,10 @@
 {{ $thisPage := index $.Site.Data.sldn_metadata .Params.MainService "methods" .Title}}
 
+{{ if not $thisPage }}
+THIS PAGE NEEDS TO BE REMOVED. It no longer exists in the metadata.
+REMOVE_THIS_PAGE
+    {{ $thisPage =  dict "b" "a"}}
+{{ end }}
 
 
 {{ partial "header.html" . }}
