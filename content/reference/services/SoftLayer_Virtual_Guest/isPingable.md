@@ -1,40 +1,14 @@
 ---
 title: "isPingable"
-description: "Issues a ping command and returns the success (true) or failure (false) of the ping command."
-layout: "method"
+description: "Issues a ping command and returns the success (true) or failure (false) of the ping command. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Virtual"
 classes:
     - "SoftLayer_Virtual_Guest"
-aliases:
-    - "/reference/services/softlayer_virtual_guest/isPingable"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Virtual_Guest"
 ---
-# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::isPingable
-
-
-Verifies if guest is pingable.
-
-
-## Overview 
-Issues a ping command and returns the success (true) or failure (false) of the ping command. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Virtual_GuestInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

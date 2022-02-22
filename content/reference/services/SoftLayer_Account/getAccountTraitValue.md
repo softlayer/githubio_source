@@ -1,40 +1,14 @@
 ---
 title: "getAccountTraitValue"
-description: "This method pulls an account trait by its key."
-layout: "method"
+description: "This method pulls an account trait by its key. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Account"
 classes:
     - "SoftLayer_Account"
-aliases:
-    - "/reference/services/softlayer_account/getAccountTraitValue"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Account"
 ---
-# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getAccountTraitValue
-
-
-Get the specific trait by its key
-
-
-## Overview 
-This method pulls an account trait by its key. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|keyName| string| |
-
-
-### Required Headers
-* authenticate
-
-
-### Return Values
-* string
-
-
-
-

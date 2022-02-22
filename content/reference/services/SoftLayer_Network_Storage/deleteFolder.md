@@ -1,41 +1,14 @@
 ---
 title: "deleteFolder"
-description: ""
-layout: "method"
+description: "Delete a folder in the root directory."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Storage"
-aliases:
-    - "/reference/services/softlayer_network_storage/deleteFolder"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Storage"
 ---
-# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::deleteFolder
-
-
-Delete a folder in the root directory.
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|folder| string| |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Network_StorageInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

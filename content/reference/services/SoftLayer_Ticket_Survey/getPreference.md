@@ -1,40 +1,14 @@
 ---
 title: "getPreference"
-description: "(DEPRECATED) To opt in or out of future surveys, please follow the link found in the email survey."
-layout: "method"
+description: "(DEPRECATED) To opt in or out of future surveys, please follow the link found in the email survey. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Ticket"
 classes:
     - "SoftLayer_Ticket_Survey"
-aliases:
-    - "/reference/services/softlayer_ticket_survey/getPreference"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Ticket_Survey"
 ---
-# [SoftLayer_Ticket_Survey](/reference/services/SoftLayer_Ticket_Survey)::getPreference
-
-<div class="deprecated"><span class="deprecation-label">Deprecated </span></div>
-
-
-
-
-## Overview 
-(DEPRECATED) To opt in or out of future surveys, please follow the link found in the email survey. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-
-
-### Return Values
-* void
-
-
-
-

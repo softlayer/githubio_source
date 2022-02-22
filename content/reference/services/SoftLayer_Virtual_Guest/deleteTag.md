@@ -1,41 +1,14 @@
 ---
 title: "deleteTag"
-description: ""
-layout: "method"
+description: "Delete a tag"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Virtual"
 classes:
     - "SoftLayer_Virtual_Guest"
-aliases:
-    - "/reference/services/softlayer_virtual_guest/deleteTag"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Virtual_Guest"
 ---
-# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::deleteTag
-
-
-Delete a tag
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|tagName| string| The name of the tag to delete.|
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Virtual_GuestInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

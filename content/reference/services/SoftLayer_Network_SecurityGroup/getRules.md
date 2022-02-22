@@ -1,46 +1,14 @@
 ---
 title: "getRules"
-description: "Retrieve the rules for this security group."
-layout: "method"
+description: "The rules for this security group."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_SecurityGroup"
-aliases:
-    - "/reference/services/softlayer_network_securitygroup/getRules"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_SecurityGroup"
 ---
-# [SoftLayer_Network_SecurityGroup](/reference/services/SoftLayer_Network_SecurityGroup)::getRules
-
-
-Retrieve the rules for this security group.
-
-
-## Overview 
-Retrieve the rules for this security group.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Network_SecurityGroupInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Network_SecurityGroupObjectMask
-* SoftLayer_Network_SecurityGroupObjectFilter
-* resultLimit
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Network_SecurityGroup_Rule'>SoftLayer_Network_SecurityGroup_Rule[] </a>
-
-
-
-

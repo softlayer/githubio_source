@@ -1,0 +1,12 @@
+{{ range $.Site.Data.sldn_metadata }}
+
+   <div class='list-row'>
+      {{ $service := replace .name "SoftLayer_" "" }}
+       <div class='list-row-title'><a href='/reference/datatypes/{{.name}}'> {{$service}}</a></div>
+   </div>
+
+   
+{{ end }}
+
+
+

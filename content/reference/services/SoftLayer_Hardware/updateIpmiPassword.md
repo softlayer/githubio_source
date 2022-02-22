@@ -1,41 +1,14 @@
 ---
 title: "updateIpmiPassword"
-description: "This method will update the root IPMI password on this SoftLayer_Hardware."
-layout: "method"
+description: "This method will update the root IPMI password on this SoftLayer_Hardware. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Hardware"
 classes:
     - "SoftLayer_Hardware"
-aliases:
-    - "/reference/services/softlayer_hardware/updateIpmiPassword"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Hardware"
 ---
-# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::updateIpmiPassword
-
-
-Update the root IPMI user password 
-
-
-## Overview 
-This method will update the root IPMI password on this SoftLayer_Hardware. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|password| string| An alpha-numeric password|
-
-
-### Required Headers
-* authenticate
-* SoftLayer_HardwareInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

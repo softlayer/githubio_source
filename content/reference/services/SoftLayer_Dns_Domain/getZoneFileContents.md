@@ -1,46 +1,14 @@
 ---
 title: "getZoneFileContents"
-description: "Return a SoftLayer hosted domain and resource records' data formatted as zone file."
-layout: "method"
+description: "Return a SoftLayer hosted domain and resource records' data formatted as zone file. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Dns"
 classes:
     - "SoftLayer_Dns_Domain"
-aliases:
-    - "/reference/services/softlayer_dns_domain/getZoneFileContents"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Dns_Domain"
 ---
-# [SoftLayer_Dns_Domain](/reference/services/SoftLayer_Dns_Domain)::getZoneFileContents
-
-
-Return a domain's data formatted as zone file text.
-
-
-## Overview 
-Return a SoftLayer hosted domain and resource records' data formatted as zone file. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Dns_DomainInitParameters
-
-
-### Return Values
-* string
-
-### External Links
-
-
-* [Zone file at Wikipedia](http://en.wikipedia.org/wiki/Zone_file)
-
-
-
-
-

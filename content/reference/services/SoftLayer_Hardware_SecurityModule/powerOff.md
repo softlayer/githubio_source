@@ -1,40 +1,14 @@
 ---
 title: "powerOff"
-description: "This method will power off the server via the server's remote management card."
-layout: "method"
+description: "This method will power off the server via the server's remote management card. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Hardware"
 classes:
     - "SoftLayer_Hardware_SecurityModule"
-aliases:
-    - "/reference/services/softlayer_hardware_securitymodule/powerOff"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Hardware_SecurityModule"
 ---
-# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::powerOff
-
-
-Power off server.
-
-
-## Overview 
-This method will power off the server via the server's remote management card. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Hardware_SecurityModuleInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

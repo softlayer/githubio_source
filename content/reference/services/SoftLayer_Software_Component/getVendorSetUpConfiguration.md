@@ -1,40 +1,14 @@
 ---
 title: "getVendorSetUpConfiguration"
 description: ""
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Software"
 classes:
     - "SoftLayer_Software_Component"
-aliases:
-    - "/reference/services/softlayer_software_component/getVendorSetUpConfiguration"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Software_Component"
 ---
-# [SoftLayer_Software_Component](/reference/services/SoftLayer_Software_Component)::getVendorSetUpConfiguration
-
-
-
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Software_ComponentInitParameters
-
-
-### Return Values
-* string
-
-
-
-

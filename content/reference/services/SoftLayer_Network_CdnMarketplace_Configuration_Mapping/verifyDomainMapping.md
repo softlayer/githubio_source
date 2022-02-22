@@ -1,40 +1,14 @@
 ---
 title: "verifyDomainMapping"
-description: "Verifies the status of the domain mapping by calling the rest api; will update the status, cname, and vendorCName if nec... "
-layout: "method"
+description: "Verifies the status of the domain mapping by calling the rest api; will update the status, cname, and vendorCName if necessary and will return the updated values. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_CdnMarketplace_Configuration_Mapping"
-aliases:
-    - "/reference/services/softlayer_network_cdnmarketplace_configuration_mapping/verifyDomainMapping"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_CdnMarketplace_Configuration_Mapping"
 ---
-# [SoftLayer_Network_CdnMarketplace_Configuration_Mapping](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Mapping)::verifyDomainMapping
-
-
-This method will verify the status of a domain mapping 
-
-
-## Overview 
-Verifies the status of the domain mapping by calling the rest api; will update the status, cname, and vendorCName if necessary and will return the updated values. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|uniqueId| integer| |
-
-
-### Required Headers
-* authenticate
-
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Container_Network_CdnMarketplace_Configuration_Mapping'>SoftLayer_Container_Network_CdnMarketplace_Configuration_Mapping[] </a>
-
-
-
-

@@ -1,45 +1,14 @@
 ---
 title: "getInterface"
-description: "Retrieve [DEPRECATED] A hardware switch's interface to the bandwidth pod."
-layout: "method"
+description: "[DEPRECATED] A hardware switch's interface to the bandwidth pod."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Component"
-aliases:
-    - "/reference/services/softlayer_network_component/getInterface"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Component"
 ---
-# [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getInterface
-
-
-Retrieve [DEPRECATED] A hardware switch's interface to the bandwidth pod.
-
-
-## Overview 
-Retrieve [DEPRECATED] A hardware switch's interface to the bandwidth pod.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Network_ComponentInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Network_ComponentObjectMask
-* SoftLayer_Network_ComponentObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Network_Bandwidth_Version1_Interface'>SoftLayer_Network_Bandwidth_Version1_Interface </a>
-
-
-
-

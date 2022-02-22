@@ -1,39 +1,14 @@
 ---
 title: "swapCreditCards"
 description: ""
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Account"
 classes:
     - "SoftLayer_Account"
-aliases:
-    - "/reference/services/softlayer_account/swapCreditCards"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Account"
 ---
-# [SoftLayer_Account](/reference/services/SoftLayer_Account)::swapCreditCards
-
-
-
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-
-
-### Return Values
-* boolean
-
-
-
-

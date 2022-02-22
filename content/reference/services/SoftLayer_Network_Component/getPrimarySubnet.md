@@ -1,45 +1,14 @@
 ---
 title: "getPrimarySubnet"
-description: "Retrieve the subnet of the primary IP address assigned to this network component."
-layout: "method"
+description: "The subnet of the primary IP address assigned to this network component."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Component"
-aliases:
-    - "/reference/services/softlayer_network_component/getPrimarySubnet"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Component"
 ---
-# [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getPrimarySubnet
-
-
-Retrieve the subnet of the primary IP address assigned to this network component.
-
-
-## Overview 
-Retrieve the subnet of the primary IP address assigned to this network component.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Network_ComponentInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Network_ComponentObjectMask
-* SoftLayer_Network_ComponentObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Network_Subnet'>SoftLayer_Network_Subnet </a>
-
-
-
-

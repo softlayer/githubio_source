@@ -1,24 +1,6 @@
 ---
 title: "editObject"
-description: "Negotiation parameters for both phases one and two are editable. Here are the phase one and two parameters that can modi... "
-layout: "method"
-tags:
-    - "method"
-    - "sldn"
-    - "Network"
-classes:
-    - "SoftLayer_Network_Tunnel_Module_Context"
-aliases:
-    - "/reference/services/softlayer_network_tunnel_module_context/editObject"
----
-# [SoftLayer_Network_Tunnel_Module_Context](/reference/services/SoftLayer_Network_Tunnel_Module_Context)::editObject
-
-
-Edit various settings for a network tunnel.
-
-
-## Overview 
-Negotiation parameters for both phases one and two are editable. Here are the phase one and two parameters that can modified: 
+description: "Negotiation parameters for both phases one and two are editable. Here are the phase one and two parameters that can modified: 
 
 
 *Phase One
@@ -67,29 +49,15 @@ The remote peer address for the network tunnel may also be modified if needed.  
 
 Configurations cannot be modified if a network tunnel's requires complex manual setups/configuration modifications by the SoftLayer Network department.  If the former is required, the configurations for the network tunnel will be locked until the manual configurations are complete. A network tunnel's configurations are applied via a transaction.  If a network tunnel configuration change transaction is currently running, the network tunnel's setting cannot be modified until the running transaction completes. 
 
-NOTE:  A network tunnel's configurations must be applied to the network device in order for the modifications made to take effect. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|templateObject| <a href='/reference/datatypes/SoftLayer_Network_Tunnel_Module_Context'>SoftLayer_Network_Tunnel_Module_Context </a>| A skeleton SoftLayer_Network_Tunnel_Module_Context object with only the properties defined that you wish to change. Unchanged properties are left alone.|
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Network_Tunnel_Module_ContextInitParameters
-
-
-### Return Values
-* boolean
-
-
-### Associated Methods
-
-*  [SoftLayer_Network_Tunnel_Module_Context::applyConfigurationsToDevice](/reference/services/SoftLayer_Network_Tunnel_Module_Context/applyConfigurationsToDevice )
-
-
-
-
+NOTE:  A network tunnel's configurations must be applied to the network device in order for the modifications made to take effect. "
+date: "2018-02-12"
+tags:
+    - "method"
+    - "sldn"
+    - "Network"
+classes:
+    - "SoftLayer_Network_Tunnel_Module_Context"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Tunnel_Module_Context"
+---

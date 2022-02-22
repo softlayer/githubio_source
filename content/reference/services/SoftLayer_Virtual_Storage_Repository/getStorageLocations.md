@@ -1,44 +1,14 @@
 ---
 title: "getStorageLocations"
-description: "Returns the public image storage locations."
-layout: "method"
+description: "Returns the public image storage locations. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Virtual"
 classes:
     - "SoftLayer_Virtual_Storage_Repository"
-aliases:
-    - "/reference/services/softlayer_virtual_storage_repository/getStorageLocations"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Virtual_Storage_Repository"
 ---
-# [SoftLayer_Virtual_Storage_Repository](/reference/services/SoftLayer_Virtual_Storage_Repository)::getStorageLocations
-
-
-The available locations for public image storage. 
-
-
-## Overview 
-Returns the public image storage locations. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Virtual_Storage_RepositoryInitParameters
-
-
-### Optional Headers
-* SoftLayer_Virtual_Storage_RepositoryObjectMask
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>
-
-
-
-

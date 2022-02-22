@@ -1,45 +1,14 @@
 ---
 title: "getAllTopLevelBillingItemsUnfiltered"
-description: "Retrieve the billing items that will be on an account's next invoice. Does not consider associated items."
-layout: "method"
+description: "The billing items that will be on an account's next invoice. Does not consider associated items."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Account"
 classes:
     - "SoftLayer_Account"
-aliases:
-    - "/reference/services/softlayer_account/getAllTopLevelBillingItemsUnfiltered"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Account"
 ---
-# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getAllTopLevelBillingItemsUnfiltered
-
-
-Retrieve the billing items that will be on an account's next invoice. Does not consider associated items.
-
-
-## Overview 
-Retrieve the billing items that will be on an account's next invoice. Does not consider associated items.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_AccountObjectMask
-* SoftLayer_AccountObjectFilter
-* resultLimit
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Billing_Item'>SoftLayer_Billing_Item[] </a>
-
-
-
-

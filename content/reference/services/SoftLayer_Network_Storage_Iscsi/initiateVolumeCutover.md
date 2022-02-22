@@ -1,40 +1,14 @@
 ---
 title: "initiateVolumeCutover"
-description: ""
-layout: "method"
+description: "Initiates Volume Cutover to remove access from the old volume."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
-aliases:
-    - "/reference/services/softlayer_network_storage_iscsi/initiateVolumeCutover"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Storage_Iscsi"
 ---
-# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::initiateVolumeCutover
-
-
-Initiates Volume Cutover to remove access from the old volume.
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Network_Storage_IscsiInitParameters
-
-
-### Return Values
-* string
-
-
-
-

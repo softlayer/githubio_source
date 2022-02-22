@@ -1,45 +1,14 @@
 ---
 title: "getHourlyFlag"
-description: "Retrieve a flag that will reflect whether this billing item is billed on an hourly basis or not."
-layout: "method"
+description: "A flag that will reflect whether this billing item is billed on an hourly basis or not."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Billing"
 classes:
     - "SoftLayer_Billing_Item"
-aliases:
-    - "/reference/services/softlayer_billing_item/getHourlyFlag"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Billing_Item"
 ---
-# [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getHourlyFlag
-
-
-Retrieve a flag that will reflect whether this billing item is billed on an hourly basis or not.
-
-
-## Overview 
-Retrieve a flag that will reflect whether this billing item is billed on an hourly basis or not.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Billing_ItemInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Billing_ItemObjectMask
-* SoftLayer_Billing_ItemObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* boolean
-
-
-
-

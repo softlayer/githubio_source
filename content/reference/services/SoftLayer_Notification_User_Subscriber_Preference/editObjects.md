@@ -1,40 +1,14 @@
 ---
 title: "editObjects"
 description: ""
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Notification"
 classes:
     - "SoftLayer_Notification_User_Subscriber_Preference"
-aliases:
-    - "/reference/services/softlayer_notification_user_subscriber_preference/editObjects"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Notification_User_Subscriber_Preference"
 ---
-# [SoftLayer_Notification_User_Subscriber_Preference](/reference/services/SoftLayer_Notification_User_Subscriber_Preference)::editObjects
-
-
-
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|templateObjects| <a href='/reference/datatypes/SoftLayer_Notification_User_Subscriber_Preference'>SoftLayer_Notification_User_Subscriber_Preference[] </a>| An array of skeleton SoftLayer_Notification_User_Subscriber_Preference objects with only the properties defined that you wish to change. Unchanged properties are left alone.|
-
-
-### Required Headers
-* authenticate
-
-
-### Return Values
-* boolean
-
-
-
-

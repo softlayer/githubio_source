@@ -1,43 +1,16 @@
 ---
 title: "setGatewayPassword"
-description: "Returns true if password change is successful, false if not successful"
-layout: "method"
+description: "Returns true if password change is successful, false if not successful 
+
+"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Gateway"
-aliases:
-    - "/reference/services/softlayer_network_gateway/setGatewayPassword"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Gateway"
 ---
-# [SoftLayer_Network_Gateway](/reference/services/SoftLayer_Network_Gateway)::setGatewayPassword
-
-
-
-
-
-## Overview 
-Returns true if password change is successful, false if not successful 
-
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|password| string| |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Network_GatewayInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

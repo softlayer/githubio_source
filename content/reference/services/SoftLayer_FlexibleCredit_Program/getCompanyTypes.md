@@ -1,43 +1,14 @@
 ---
 title: "getCompanyTypes"
 description: ""
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "FlexibleCredit"
 classes:
     - "SoftLayer_FlexibleCredit_Program"
-aliases:
-    - "/reference/services/softlayer_flexiblecredit_program/getCompanyTypes"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_FlexibleCredit_Program"
 ---
-# [SoftLayer_FlexibleCredit_Program](/reference/services/SoftLayer_FlexibleCredit_Program)::getCompanyTypes
-
-
-
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_FlexibleCredit_ProgramObjectMask
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_FlexibleCredit_Company_Type'>SoftLayer_FlexibleCredit_Company_Type[] </a>
-
-
-
-

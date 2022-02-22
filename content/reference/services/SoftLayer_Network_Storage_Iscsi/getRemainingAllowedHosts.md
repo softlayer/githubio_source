@@ -1,40 +1,14 @@
 ---
 title: "getRemainingAllowedHosts"
-description: "Retrieves the remaining number of allowed hosts per volume."
-layout: "method"
+description: "Retrieves the remaining number of allowed hosts per volume. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
-aliases:
-    - "/reference/services/softlayer_network_storage_iscsi/getRemainingAllowedHosts"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Storage_Iscsi"
 ---
-# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getRemainingAllowedHosts
-
-
-Retrieves the remaining number of allowed hosts per volume.
-
-
-## Overview 
-Retrieves the remaining number of allowed hosts per volume. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Network_Storage_IscsiInitParameters
-
-
-### Return Values
-* integer
-
-
-
-

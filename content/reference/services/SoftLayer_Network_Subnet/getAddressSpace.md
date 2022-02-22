@@ -1,45 +1,14 @@
 ---
 title: "getAddressSpace"
-description: "Retrieve identifier which distinguishes what classification of addresses the subnet represents."
-layout: "method"
+description: "Identifier which distinguishes what classification of addresses the subnet represents."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Subnet"
-aliases:
-    - "/reference/services/softlayer_network_subnet/getAddressSpace"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Subnet"
 ---
-# [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::getAddressSpace
-
-
-Retrieve identifier which distinguishes what classification of addresses the subnet represents.
-
-
-## Overview 
-Retrieve identifier which distinguishes what classification of addresses the subnet represents.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Network_SubnetInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Network_SubnetObjectMask
-* SoftLayer_Network_SubnetObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* string
-
-
-
-

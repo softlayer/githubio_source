@@ -1,40 +1,14 @@
 ---
 title: "getArchiveDiskUsageRatePerGb"
-description: "Returns the archive storage disk usage fee rate per gigabyte."
-layout: "method"
+description: "Returns the archive storage disk usage fee rate per gigabyte. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Virtual"
 classes:
     - "SoftLayer_Virtual_Storage_Repository"
-aliases:
-    - "/reference/services/softlayer_virtual_storage_repository/getArchiveDiskUsageRatePerGb"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Virtual_Storage_Repository"
 ---
-# [SoftLayer_Virtual_Storage_Repository](/reference/services/SoftLayer_Virtual_Storage_Repository)::getArchiveDiskUsageRatePerGb
-
-
-The rate that is charged for archiving every 1 gigabyte of data for a computing instance 
-
-
-## Overview 
-Returns the archive storage disk usage fee rate per gigabyte. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Virtual_Storage_RepositoryInitParameters
-
-
-### Return Values
-* decimal
-
-
-
-

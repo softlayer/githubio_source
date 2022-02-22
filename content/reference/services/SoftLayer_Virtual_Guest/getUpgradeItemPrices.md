@@ -1,47 +1,16 @@
 ---
 title: "getUpgradeItemPrices"
-description: "Retrieves a list of all upgrades available to a virtual server. Upgradeable items include, but are not limited to, numbe... "
-layout: "method"
+description: "Retrieves a list of all upgrades available to a virtual server. Upgradeable items include, but are not limited to, number of cores, amount of RAM, storage configuration, and network port speed. 
+
+This method exclude downgrade item prices by default. You can set the 'includeDowngradeItemPrices' parameter to true so that it can include downgrade item prices. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Virtual"
 classes:
     - "SoftLayer_Virtual_Guest"
-aliases:
-    - "/reference/services/softlayer_virtual_guest/getUpgradeItemPrices"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Virtual_Guest"
 ---
-# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getUpgradeItemPrices
-
-
-Retrieve a computing instance's upgradeable items.
-
-
-## Overview 
-Retrieves a list of all upgrades available to a virtual server. Upgradeable items include, but are not limited to, number of cores, amount of RAM, storage configuration, and network port speed. 
-
-This method exclude downgrade item prices by default. You can set the "includeDowngradeItemPrices" parameter to true so that it can include downgrade item prices. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|includeDowngradeItemPrices| boolean| If set to true, this method will include the downgrade item prices.|
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Virtual_GuestInitParameters
-
-
-### Optional Headers
-* SoftLayer_Virtual_GuestObjectMask
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Product_Item_Price'>SoftLayer_Product_Item_Price[] </a>
-
-
-
-

@@ -1,40 +1,14 @@
 ---
 title: "deleteObject"
-description: ""
-layout: "method"
+description: "Removes a boot parameter"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Virtual"
 classes:
     - "SoftLayer_Virtual_Guest_Boot_Parameter"
-aliases:
-    - "/reference/services/softlayer_virtual_guest_boot_parameter/deleteObject"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Virtual_Guest_Boot_Parameter"
 ---
-# [SoftLayer_Virtual_Guest_Boot_Parameter](/reference/services/SoftLayer_Virtual_Guest_Boot_Parameter)::deleteObject
-
-
-Removes a boot parameter
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Virtual_Guest_Boot_ParameterInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

@@ -1,40 +1,14 @@
 ---
 title: "deleteObject"
-description: "Start the asynchronous process to detach this VLANs from the gateway."
-layout: "method"
+description: "Start the asynchronous process to detach this VLANs from the gateway. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Gateway_Vlan"
-aliases:
-    - "/reference/services/softlayer_network_gateway_vlan/deleteObject"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Gateway_Vlan"
 ---
-# [SoftLayer_Network_Gateway_Vlan](/reference/services/SoftLayer_Network_Gateway_Vlan)::deleteObject
-
-
-Detach VLAN
-
-
-## Overview 
-Start the asynchronous process to detach this VLANs from the gateway. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Network_Gateway_VlanInitParameters
-
-
-### Return Values
-* void
-
-
-
-

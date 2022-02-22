@@ -1,45 +1,14 @@
 ---
 title: "getCredentialExpirationDate"
-description: "Retrieve the date that a VeriSign credential expires."
-layout: "method"
+description: "The date that a VeriSign credential expires."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "User"
 classes:
     - "SoftLayer_User_Customer_External_Binding_Verisign"
-aliases:
-    - "/reference/services/softlayer_user_customer_external_binding_verisign/getCredentialExpirationDate"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_User_Customer_External_Binding_Verisign"
 ---
-# [SoftLayer_User_Customer_External_Binding_Verisign](/reference/services/SoftLayer_User_Customer_External_Binding_Verisign)::getCredentialExpirationDate
-
-
-Retrieve the date that a VeriSign credential expires.
-
-
-## Overview 
-Retrieve the date that a VeriSign credential expires.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_User_Customer_External_Binding_VerisignInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_User_Customer_External_Binding_VerisignObjectMask
-* SoftLayer_User_Customer_External_Binding_VerisignObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* string
-
-
-
-

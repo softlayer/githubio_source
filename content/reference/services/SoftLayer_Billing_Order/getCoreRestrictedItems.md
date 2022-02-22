@@ -1,46 +1,14 @@
 ---
 title: "getCoreRestrictedItems"
-description: "Retrieve the [SoftLayer_Billing_Order_Item]({{<ref 'reference/datatypes/SoftLayer_Billing_Order_Item'>}}) that are core... "
-layout: "method"
+description: "The [SoftLayer_Billing_Order_Item](/reference/datatypes/SoftLayer_Billing_Order_Item) that are core restricted"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Billing"
 classes:
     - "SoftLayer_Billing_Order"
-aliases:
-    - "/reference/services/softlayer_billing_order/getCoreRestrictedItems"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Billing_Order"
 ---
-# [SoftLayer_Billing_Order](/reference/services/SoftLayer_Billing_Order)::getCoreRestrictedItems
-
-
-Retrieve the [SoftLayer_Billing_Order_Item]({{<ref "reference/datatypes/SoftLayer_Billing_Order_Item">}}) that are core restricted
-
-
-## Overview 
-Retrieve the [SoftLayer_Billing_Order_Item]({{<ref "reference/datatypes/SoftLayer_Billing_Order_Item">}}) that are core restricted
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Billing_OrderInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Billing_OrderObjectMask
-* SoftLayer_Billing_OrderObjectFilter
-* resultLimit
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Billing_Order_Item'>SoftLayer_Billing_Order_Item[] </a>
-
-
-
-

@@ -1,45 +1,14 @@
 ---
 title: "getDiskFileExtension"
-description: "Retrieve return disk file extension"
-layout: "method"
+description: "Return disk file extension"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Virtual"
 classes:
     - "SoftLayer_Virtual_Disk_Image"
-aliases:
-    - "/reference/services/softlayer_virtual_disk_image/getDiskFileExtension"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Virtual_Disk_Image"
 ---
-# [SoftLayer_Virtual_Disk_Image](/reference/services/SoftLayer_Virtual_Disk_Image)::getDiskFileExtension
-
-
-Retrieve return disk file extension
-
-
-## Overview 
-Retrieve return disk file extension
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Virtual_Disk_ImageInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Virtual_Disk_ImageObjectMask
-* SoftLayer_Virtual_Disk_ImageObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* string
-
-
-
-

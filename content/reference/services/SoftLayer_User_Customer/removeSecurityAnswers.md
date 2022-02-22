@@ -1,40 +1,14 @@
 ---
 title: "removeSecurityAnswers"
 description: ""
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "User"
 classes:
     - "SoftLayer_User_Customer"
-aliases:
-    - "/reference/services/softlayer_user_customer/removeSecurityAnswers"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_User_Customer"
 ---
-# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::removeSecurityAnswers
-
-
-
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_User_CustomerInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

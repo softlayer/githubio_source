@@ -1,46 +1,14 @@
 ---
 title: "getSummary"
-description: "Retrieve a metric summary. Ideal if you want to employ your own graphing systems.  Note not all metric types contain a s... "
-layout: "method"
+description: "Retrieve a metric summary. Ideal if you want to employ your own graphing systems.  Note not all metric types contain a summary.  These return null. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Metric"
 classes:
     - "SoftLayer_Metric_Tracking_Object"
-aliases:
-    - "/reference/services/softlayer_metric_tracking_object/getSummary"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Metric_Tracking_Object"
 ---
-# [SoftLayer_Metric_Tracking_Object](/reference/services/SoftLayer_Metric_Tracking_Object)::getSummary
-
-
-Retrieve metric summary.
-
-
-## Overview 
-Retrieve a metric summary. Ideal if you want to employ your own graphing systems.  Note not all metric types contain a summary.  These return null. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|graphType| string| The type of metric to gather data for (InstanceCount, HostMemoryUsage, HostReservedMemoryUsage).|
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Metric_Tracking_ObjectInitParameters
-
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Container_Metric_Tracking_Object_Summary'>SoftLayer_Container_Metric_Tracking_Object_Summary </a>
-
-
-### Associated Methods
-
-*  [SoftLayer_Metric_Tracking_Object::getDetailsForDateRange](/reference/services/SoftLayer_Metric_Tracking_Object/getDetailsForDateRange )
-
-
-
-

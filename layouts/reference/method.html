@@ -1,6 +1,14 @@
+{{ $thisPage := index $.Site.Data.sldn_metadata .Params.MainService "methods" .Title}}
+
+{{ if not $thisPage }}
+THIS PAGE NEEDS TO BE REMOVED. It no longer exists in the metadata.
+REMOVE_THIS_PAGE
+    {{ $thisPage =  dict "b" "a"}}
+{{ end }}
+
+
 {{ partial "header.html" . }}
 <body>
-
 {{ partial "navbar.html" . }}
 <div class="container">
     {{ partial "title.html" . }}
@@ -12,9 +20,128 @@
         </div>
         <div class="col-md-9">
 
+            <h1 id="{{.Title}}"> 
+                <a href="/reference/services/{{$.Params.MainService}}">{{$.Params.MainService}}</a>::{{.Title}} 
+            </h1>
 
-                {{ .Content }}
+            {{ if  $thisPage.deprecated}}
+                <div class="deprecated"><span class="deprecation-label">Deprecated </span></div>
+            {{ end }}
+            <p>
+                {{ $thisPage.docOverview | markdownify }}
+            </p>
+            <h2>Overview</h2>
 
+                {{ $thisPage.doc | markdownify }}
+
+            <hr>
+
+            <h3> Parameters </h3>
+
+            {{ $parameters := index $thisPage "parameters" }}
+            {{ if $parameters }}
+                <table class="table table-hover table-striped">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Type</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {{ range $param := $parameters}}
+                        {{ $isArray := "" }}
+                        {{ if $param.typeArray }}
+                            {{ $isArray = "[]" }}
+                        {{ end }}
+                        <tr>
+                            <td>{{$param.name}}</td>
+                            {{ if hasPrefix $param.type "SoftLayer_" }}
+
+                            <td><a href="/reference/datatypes/{{ $param.type }}">{{ $param.type }}{{$isArray}}</a></td>
+                            {{ else }}
+                            <td>{{$param.type}}{{$isArray}}</td>
+                            {{ end }}
+                            <td>{{$param.doc | markdownify }}</td>
+                        </tr>
+                        {{end }}
+                    </tbody>
+                </table>
+            {{ else }}
+                <p><font style="font-weight: bold; color: grey">None</font></p>
+            {{ end}}
+                
+{{ $authenticate := index $thisPage "noauth" }}
+{{ $static := index $thisPage "static" }}
+{{ $filterable := index $thisPage "filterable" }}
+{{ $maskable := index $thisPage "maskable" }}
+{{ $resultLimit := index $thisPage "limitable" }}
+{{ $returnType := index $thisPage "type" }}
+{{ $returnArray := index $thisPage "typeArray"}}
+{{ $errorHandle := index $thisPage "docErrorHandling" }}
+{{ $associated := index $thisPage "docAssociatedMethods" }}
+            <h3> Required Headers </h3>
+            <ul>
+                {{ if not $authenticate }}
+                    <li><a href="/article/authenticating-softlayer-api/">Authenticate</a></li>
+                {{ end }}
+                {{ if not $static}}
+                    <li><a href="/article/using-initialization-parameters-softlayer-api/">{{$.Params.MainService}}InitParameters</a></li>
+                {{ end }}
+            </ul>
+
+            <h3>Optional Headers</h3>
+            <ul>
+                {{ if $maskable }}
+                    <li><a href="/article/object-masks/">{{ $.Params.MainService }}ObjectMask</a></li>
+                {{ end }}
+                {{ if $filterable }}
+                    <li><a href="/article/object-filters/">{{ $.Params.MainService }}ObjectFilter</a></li>
+                {{ end }}
+                {{ if $resultLimit }}
+                    <li><a href="/article/using-result-limits-softlayer-api/">Result Limit</a></li>
+                {{ end }}
+                {{ if and  (not $maskable) (not $filterable) }}
+                    <li><p><font style="font-weight: bold; color: grey">None</font></p></li>
+                {{ end }}
+            </ul>
+
+            <h3>Return Values</h3>
+                <ul><li>
+                    {{ $isArray := "" }}
+                    {{ if $returnArray }}
+                        {{ $isArray = "[]"}}
+                    {{ end }}
+                    {{ if hasPrefix $returnType "SoftLayer_" }}
+                        <a href="/reference/datatypes/{{ $returnType }}">{{$returnType}}{{$isArray}}</a>
+                    {{ else }}
+                         {{$returnType}}{{$isArray}}
+                    {{ end }}
+                </li></ul>
+            {{ if $errorHandle }}
+                <h3>Error Handling</h3>
+                    <ul>
+                    {{ range $error := $errorHandle }}
+                        {{ if not $error.exceptionn  }}
+                            <li>{{ $error.description | markdownify}} </li>
+                        {{ else }}
+                            <li><p>{{ $error.exception }}: {{ $error.description | markdownify }} </li>
+                        {{ end }}
+                        
+
+                    {{ end }}
+                    </ul>
+            {{ end }}
+
+            {{ if $associated }}
+                <h3>Associated Methods</h3>
+                <ul>
+                {{ range $assc := $associated }}
+
+                    <li><a href='/reference/services/{{$assc.service}}/{{$assc.method}}'>{{ $assc.service }}::{{$assc.method}}</a></li>
+                {{ end }}
+                </ul>
+            {{ end }}
         </div>
 
     </div>

@@ -1,24 +1,6 @@
 ---
 title: "getPrecheckStatus"
-description: "Get the precheck status for all Juniper Gateway Action categories which require a readiness check before executing. Refe... "
-layout: "method"
-tags:
-    - "method"
-    - "sldn"
-    - "Network"
-classes:
-    - "SoftLayer_Network_Gateway_Precheck"
-aliases:
-    - "/reference/services/softlayer_network_gateway_precheck/getPrecheckStatus"
----
-# [SoftLayer_Network_Gateway_Precheck](/reference/services/SoftLayer_Network_Gateway_Precheck)::getPrecheckStatus
-
-
-Get Precheck status for Gateway
-
-
-## Overview 
-Get the precheck status for all Juniper Gateway Action categories which require a readiness check before executing. Reference cloud.ibm.com documentation for more details. 
+description: "Get the precheck status for all Juniper Gateway Action categories which require a readiness check before executing. Reference cloud.ibm.com documentation for more details. 
 
 Possible precheck readiness values include: 
 
@@ -36,28 +18,15 @@ Current categories include: upgrade_precheck : Required for major and minor upgr
 
 memberId : Integer : The softlayer member id. memberReadinessValue : String : The precheck readiness state for the member. See possible readiness values above. gatewayReadinessValue : String : The precheck readiness state for the gateway : See possible readiness values above. returnCode : Integer : The return code. 0 if no error. Reference cloud.ibm.com documentation for details. 
 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|gatewayId| integer| Id of Gateway for the precheck request.|
-|getRollbackPrecheck| boolean| [optional] [default false] If true, then rollback precheck will be included in returned data.|
-
-
-### Required Headers
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Network_Gateway_PrecheckObjectMask
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Network_Gateway_Precheck'>SoftLayer_Network_Gateway_Precheck[] </a>
-
-
-
-
+"
+date: "2018-02-12"
+tags:
+    - "method"
+    - "sldn"
+    - "Network"
+classes:
+    - "SoftLayer_Network_Gateway_Precheck"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Gateway_Precheck"
+---

@@ -1,45 +1,14 @@
 ---
 title: "getOutboundPublicBandwidthUsage"
-description: "Retrieve the total public outbound bandwidth for this computing instance for the current billing cycle."
-layout: "method"
+description: "The total public outbound bandwidth for this computing instance for the current billing cycle."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Virtual"
 classes:
     - "SoftLayer_Virtual_Guest"
-aliases:
-    - "/reference/services/softlayer_virtual_guest/getOutboundPublicBandwidthUsage"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Virtual_Guest"
 ---
-# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getOutboundPublicBandwidthUsage
-
-
-Retrieve the total public outbound bandwidth for this computing instance for the current billing cycle.
-
-
-## Overview 
-Retrieve the total public outbound bandwidth for this computing instance for the current billing cycle.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Virtual_GuestInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Virtual_GuestObjectMask
-* SoftLayer_Virtual_GuestObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* decimal
-
-
-
-

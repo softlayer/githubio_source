@@ -1,41 +1,14 @@
 ---
 title: "getStatistics"
 description: ""
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Message_Delivery_Email_Sendgrid"
-aliases:
-    - "/reference/services/softlayer_network_message_delivery_email_sendgrid/getStatistics"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Message_Delivery_Email_Sendgrid"
 ---
-# [SoftLayer_Network_Message_Delivery_Email_Sendgrid](/reference/services/SoftLayer_Network_Message_Delivery_Email_Sendgrid)::getStatistics
-
-
-
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|options| <a href='/reference/datatypes/SoftLayer_Container_Network_Message_Delivery_Email_Sendgrid_Statistics_Options'>SoftLayer_Container_Network_Message_Delivery_Email_Sendgrid_Statistics_Options </a>| |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Network_Message_Delivery_Email_SendgridInitParameters
-
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Container_Network_Message_Delivery_Email_Sendgrid_Statistics'>SoftLayer_Container_Network_Message_Delivery_Email_Sendgrid_Statistics[] </a>
-
-
-
-

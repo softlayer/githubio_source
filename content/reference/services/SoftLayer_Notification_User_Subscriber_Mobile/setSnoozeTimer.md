@@ -1,42 +1,14 @@
 ---
 title: "setSnoozeTimer"
 description: ""
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Notification"
 classes:
     - "SoftLayer_Notification_User_Subscriber_Mobile"
-aliases:
-    - "/reference/services/softlayer_notification_user_subscriber_mobile/setSnoozeTimer"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Notification_User_Subscriber_Mobile"
 ---
-# [SoftLayer_Notification_User_Subscriber_Mobile](/reference/services/SoftLayer_Notification_User_Subscriber_Mobile)::setSnoozeTimer
-
-
-
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|start| integer| Epoch time stamp representing start snooze time.|
-|end| integer| Epoch time stamp representing end snooze time.|
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Notification_User_Subscriber_MobileInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

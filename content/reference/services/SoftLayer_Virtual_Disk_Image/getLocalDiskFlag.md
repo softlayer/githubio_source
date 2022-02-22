@@ -1,45 +1,14 @@
 ---
 title: "getLocalDiskFlag"
 description: ""
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Virtual"
 classes:
     - "SoftLayer_Virtual_Disk_Image"
-aliases:
-    - "/reference/services/softlayer_virtual_disk_image/getLocalDiskFlag"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Virtual_Disk_Image"
 ---
-# [SoftLayer_Virtual_Disk_Image](/reference/services/SoftLayer_Virtual_Disk_Image)::getLocalDiskFlag
-
-
-
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Virtual_Disk_ImageInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Virtual_Disk_ImageObjectMask
-* SoftLayer_Virtual_Disk_ImageObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* boolean
-
-
-
-

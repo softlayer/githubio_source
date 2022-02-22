@@ -1,45 +1,14 @@
 ---
 title: "getPriceRestrictions"
-description: "Retrieve the item price that an account is restricted to."
-layout: "method"
+description: "The item price that an account is restricted to."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Account"
 classes:
     - "SoftLayer_Account"
-aliases:
-    - "/reference/services/softlayer_account/getPriceRestrictions"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Account"
 ---
-# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getPriceRestrictions
-
-
-Retrieve the item price that an account is restricted to.
-
-
-## Overview 
-Retrieve the item price that an account is restricted to.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_AccountObjectMask
-* SoftLayer_AccountObjectFilter
-* resultLimit
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Product_Item_Price_Account_Restriction'>SoftLayer_Product_Item_Price_Account_Restriction[] </a>
-
-
-
-

@@ -1,45 +1,14 @@
 ---
 title: "getAccount"
-description: "Retrieve the account that a Storage services belongs to."
-layout: "method"
+description: "The account that a Storage services belongs to."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
-aliases:
-    - "/reference/services/softlayer_network_storage_backup_evault/getAccount"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getAccount
-
-
-Retrieve the account that a Storage services belongs to.
-
-
-## Overview 
-Retrieve the account that a Storage services belongs to.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Network_Storage_Backup_EvaultInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Network_Storage_Backup_EvaultObjectMask
-* SoftLayer_Network_Storage_Backup_EvaultObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
-
-
-
-

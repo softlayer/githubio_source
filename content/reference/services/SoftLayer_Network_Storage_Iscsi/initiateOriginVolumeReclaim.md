@@ -1,40 +1,14 @@
 ---
 title: "initiateOriginVolumeReclaim"
-description: ""
-layout: "method"
+description: "Initiates Origin Volume Reclaim to delete volume from NetApp."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
-aliases:
-    - "/reference/services/softlayer_network_storage_iscsi/initiateOriginVolumeReclaim"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Storage_Iscsi"
 ---
-# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::initiateOriginVolumeReclaim
-
-
-Initiates Origin Volume Reclaim to delete volume from NetApp.
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Network_Storage_IscsiInitParameters
-
-
-### Return Values
-* string
-
-
-
-

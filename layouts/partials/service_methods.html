@@ -1,0 +1,30 @@
+<div id="properties" class="content service-content">
+<h2 id="methods">Methods</h2>
+<div class="view-filters">
+    <div class="clearfix">
+        <div class="search-input-box">
+            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
+                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
+        </div>
+    </div>
+</div>
+<div id="method-div">
+
+{{ $service := .name }}
+{{ range $method := .methods}}
+    {{ $deprecated := "" }}
+    {{ if  $method.deprecated}}
+        {{ $deprecated = "deprecated" }}
+    {{ end }}
+    <div class="method-row {{$deprecated}}">
+    <h4><a href="/reference/services/{{ $service }}/{{ $method.name }}">{{ $method.name }}</a></h4>
+    {{ if $method.docOverview }}
+        <p>{{ $method.docOverview | markdownify }}</p>
+    {{ else }}
+        <p>{{ $method.doc | markdownify | truncate 300 }}</p>
+    {{ end }}
+    </div>
+{{ end }}
+
+</div>
+</div>

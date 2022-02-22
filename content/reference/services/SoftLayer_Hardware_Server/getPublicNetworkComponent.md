@@ -1,51 +1,14 @@
 ---
 title: "getPublicNetworkComponent"
-description: "Retrieve a SoftLayer server's public network component. Some servers are only connected to the private network and may n... "
-layout: "method"
+description: "Retrieve a SoftLayer server's public network component. Some servers are only connected to the private network and may not have a public network component. In that case getPublicNetworkComponent returns a null object. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Hardware"
 classes:
     - "SoftLayer_Hardware_Server"
-aliases:
-    - "/reference/services/softlayer_hardware_server/getPublicNetworkComponent"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Hardware_Server"
 ---
-# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getPublicNetworkComponent
-
-
-Retrieve a server's public network component.
-
-
-## Overview 
-Retrieve a SoftLayer server's public network component. Some servers are only connected to the private network and may not have a public network component. In that case getPublicNetworkComponent returns a null object. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Hardware_ServerInitParameters
-
-
-### Optional Headers
-* SoftLayer_Hardware_ServerObjectMask
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>
-
-
-
-### Error Handling
-
-* SoftLayer_Exception 
-
-> Throw the exception "Unable to locate this server's public networking component." if the API is unable to locate a management component for this server. 
-
-
-

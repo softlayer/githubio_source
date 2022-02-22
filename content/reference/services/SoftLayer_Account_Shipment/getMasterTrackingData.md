@@ -1,45 +1,14 @@
 ---
 title: "getMasterTrackingData"
-description: "Retrieve the one master tracking data for the shipment."
-layout: "method"
+description: "The one master tracking data for the shipment."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Account"
 classes:
     - "SoftLayer_Account_Shipment"
-aliases:
-    - "/reference/services/softlayer_account_shipment/getMasterTrackingData"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Account_Shipment"
 ---
-# [SoftLayer_Account_Shipment](/reference/services/SoftLayer_Account_Shipment)::getMasterTrackingData
-
-
-Retrieve the one master tracking data for the shipment.
-
-
-## Overview 
-Retrieve the one master tracking data for the shipment.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Account_ShipmentInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Account_ShipmentObjectMask
-* SoftLayer_Account_ShipmentObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Account_Shipment_Tracking_Data'>SoftLayer_Account_Shipment_Tracking_Data </a>
-
-
-
-

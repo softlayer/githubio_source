@@ -1,42 +1,14 @@
 ---
 title: "changePassword"
-description: "The method will change the password for the given Storage/Virtual Server Storage account."
-layout: "method"
+description: "The method will change the password for the given Storage/Virtual Server Storage account. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
-aliases:
-    - "/reference/services/softlayer_network_storage_backup_evault/changePassword"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::changePassword
-
-
-Change the password for a Storage/Virtual Server Storage account
-
-
-## Overview 
-The method will change the password for the given Storage/Virtual Server Storage account. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|username| string| Username of the Storage/Virtual Server Storage account to apply the password change to|
-|currentPassword| string| The current password for the account|
-|newPassword| string| New Password for Storage/Virtual Server account|
-
-
-### Required Headers
-* authenticate
-
-
-### Return Values
-* boolean
-
-
-
-

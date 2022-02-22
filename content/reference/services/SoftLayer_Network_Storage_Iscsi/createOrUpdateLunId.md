@@ -1,45 +1,14 @@
 ---
 title: "createOrUpdateLunId"
-description: "The LUN ID only takes effect during the Host Authorization process. It is required to de-authorize all hosts before usin... "
-layout: "method"
+description: "The LUN ID only takes effect during the Host Authorization process. It is required to de-authorize all hosts before using this method. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
-aliases:
-    - "/reference/services/softlayer_network_storage_iscsi/createOrUpdateLunId"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Storage_Iscsi"
 ---
-# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::createOrUpdateLunId
-
-
-Creates or updates the LUN ID property on a volume.
-
-
-## Overview 
-The LUN ID only takes effect during the Host Authorization process. It is required to de-authorize all hosts before using this method. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|lunId| integer| <<< EOT|
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Network_Storage_IscsiInitParameters
-
-
-### Optional Headers
-* SoftLayer_Network_Storage_IscsiObjectMask
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Network_Storage_Property'>SoftLayer_Network_Storage_Property </a>
-
-
-
-

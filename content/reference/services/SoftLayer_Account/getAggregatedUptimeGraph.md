@@ -1,41 +1,14 @@
 ---
 title: "getAggregatedUptimeGraph"
-description: "Returns URL uptime data for your account"
-layout: "method"
+description: "Returns URL uptime data for your account "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Account"
 classes:
     - "SoftLayer_Account"
-aliases:
-    - "/reference/services/softlayer_account/getAggregatedUptimeGraph"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Account"
 ---
-# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getAggregatedUptimeGraph
-
-
-Returns URL uptime data for your account
-
-
-## Overview 
-Returns URL uptime data for your account 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|startDate| dateTime| timestamp of the starting date|
-|endDate| dateTime| timestamp of the ending date|
-
-
-### Required Headers
-* authenticate
-
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Container_Graph'>SoftLayer_Container_Graph </a>
-
-
-
-

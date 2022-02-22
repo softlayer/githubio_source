@@ -1,52 +1,14 @@
 ---
 title: "removeAction"
-description: "Unassigns a SoftLayer_User_Permission_Action object from the group."
-layout: "method"
+description: "Unassigns a SoftLayer_User_Permission_Action object from the group. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "User"
 classes:
     - "SoftLayer_User_Permission_Group"
-aliases:
-    - "/reference/services/softlayer_user_permission_group/removeAction"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_User_Permission_Group"
 ---
-# [SoftLayer_User_Permission_Group](/reference/services/SoftLayer_User_Permission_Group)::removeAction
-
-
-Remove a permission action from the group.
-
-
-## Overview 
-Unassigns a SoftLayer_User_Permission_Action object from the group. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|action| <a href='/reference/datatypes/SoftLayer_User_Permission_Action'>SoftLayer_User_Permission_Action </a>| Permission Action to be removed.|
-
-
-### Required Headers
-* authenticate
-* SoftLayer_User_Permission_GroupInitParameters
-
-
-### Return Values
-* void
-
-
-
-### Error Handling
-
-* SoftLayer_Exception_PermissionDenied 
-
-> Throws the exception "You cannot remove action to group: Permission Denied." if a customer user attempts this request without the proper permission. 
-
-* SoftLayer_Exception_User_Permission_Inaccessible 
-
-> Throws the exception "Can't access action" if the permission action does not exist. 
-
-
-

@@ -1,46 +1,14 @@
 ---
 title: "getL7Policies"
 description: ""
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_LBaaS_Listener"
-aliases:
-    - "/reference/services/softlayer_network_lbaas_listener/getL7Policies"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_LBaaS_Listener"
 ---
-# [SoftLayer_Network_LBaaS_Listener](/reference/services/SoftLayer_Network_LBaaS_Listener)::getL7Policies
-
-
-
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Network_LBaaS_ListenerInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Network_LBaaS_ListenerObjectMask
-* SoftLayer_Network_LBaaS_ListenerObjectFilter
-* resultLimit
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Network_LBaaS_L7Policy'>SoftLayer_Network_LBaaS_L7Policy[] </a>
-
-
-
-

@@ -1,40 +1,14 @@
 ---
 title: "cancelIsolationForDestructiveAction"
-description: "Reopens the public and/or private ports to reverse the changes made when the server was isolated for a destructive actio... "
-layout: "method"
+description: "Reopens the public and/or private ports to reverse the changes made when the server was isolated for a destructive action. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Virtual"
 classes:
     - "SoftLayer_Virtual_Guest"
-aliases:
-    - "/reference/services/softlayer_virtual_guest/cancelIsolationForDestructiveAction"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Virtual_Guest"
 ---
-# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::cancelIsolationForDestructiveAction
-
-
-
-
-
-## Overview 
-Reopens the public and/or private ports to reverse the changes made when the server was isolated for a destructive action. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Virtual_GuestInitParameters
-
-
-### Return Values
-* void
-
-
-
-

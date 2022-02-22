@@ -1,41 +1,14 @@
 ---
 title: "getCustomMetricDataByDate"
-description: "Retrieve bandwidth graph by date."
-layout: "method"
+description: "Retrieve bandwidth graph by date. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Virtual"
 classes:
     - "SoftLayer_Virtual_Guest"
-aliases:
-    - "/reference/services/softlayer_virtual_guest/getCustomMetricDataByDate"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Virtual_Guest"
 ---
-# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getCustomMetricDataByDate
-
-
-Retrieve bandwidth graph by date.
-
-
-## Overview 
-Retrieve bandwidth graph by date. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|graphData| <a href='/reference/datatypes/SoftLayer_Container_Graph'>SoftLayer_Container_Graph </a>| |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Virtual_GuestInitParameters
-
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Container_Graph'>SoftLayer_Container_Graph </a>
-
-
-
-

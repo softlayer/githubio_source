@@ -1,46 +1,14 @@
 ---
 title: "getItemCategories"
 description: ""
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Provisioning"
 classes:
     - "SoftLayer_Provisioning_Maintenance_Classification"
-aliases:
-    - "/reference/services/softlayer_provisioning_maintenance_classification/getItemCategories"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Provisioning_Maintenance_Classification"
 ---
-# [SoftLayer_Provisioning_Maintenance_Classification](/reference/services/SoftLayer_Provisioning_Maintenance_Classification)::getItemCategories
-
-
-
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Provisioning_Maintenance_ClassificationInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Provisioning_Maintenance_ClassificationObjectMask
-* SoftLayer_Provisioning_Maintenance_ClassificationObjectFilter
-* resultLimit
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Provisioning_Maintenance_Classification_Item_Category'>SoftLayer_Provisioning_Maintenance_Classification_Item_Category[] </a>
-
-
-
-

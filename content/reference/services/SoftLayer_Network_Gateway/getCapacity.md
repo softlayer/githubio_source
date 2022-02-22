@@ -1,42 +1,16 @@
 ---
 title: "getCapacity"
-description: "Returns the Gbps capacity of the gateway object"
-layout: "method"
+description: "Returns the Gbps capacity of the gateway object 
+
+"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Gateway"
-aliases:
-    - "/reference/services/softlayer_network_gateway/getCapacity"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Gateway"
 ---
-# [SoftLayer_Network_Gateway](/reference/services/SoftLayer_Network_Gateway)::getCapacity
-
-
-
-
-
-## Overview 
-Returns the Gbps capacity of the gateway object 
-
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Network_GatewayInitParameters
-
-
-### Return Values
-* string
-
-
-
-

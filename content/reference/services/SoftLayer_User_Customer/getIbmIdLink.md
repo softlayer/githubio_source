@@ -1,45 +1,14 @@
 ---
 title: "getIbmIdLink"
-description: "Retrieve specifically relating the Customer instance to an IBMid. A Customer instance may or may not have an IBMid link."
-layout: "method"
+description: "Specifically relating the Customer instance to an IBMid. A Customer instance may or may not have an IBMid link."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "User"
 classes:
     - "SoftLayer_User_Customer"
-aliases:
-    - "/reference/services/softlayer_user_customer/getIbmIdLink"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_User_Customer"
 ---
-# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getIbmIdLink
-
-
-Retrieve specifically relating the Customer instance to an IBMid. A Customer instance may or may not have an IBMid link.
-
-
-## Overview 
-Retrieve specifically relating the Customer instance to an IBMid. A Customer instance may or may not have an IBMid link.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_User_CustomerInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_User_CustomerObjectMask
-* SoftLayer_User_CustomerObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_User_Customer_Link'>SoftLayer_User_Customer_Link </a>
-
-
-
-

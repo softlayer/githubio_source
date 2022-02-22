@@ -1,41 +1,14 @@
 ---
 title: "getCustomBandwidthDataByDate"
-description: "Retrieve bandwidth graph by date."
-layout: "method"
+description: "Retrieve bandwidth graph by date. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Bandwidth_Version1_Allotment"
-aliases:
-    - "/reference/services/softlayer_network_bandwidth_version1_allotment/getCustomBandwidthDataByDate"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Bandwidth_Version1_Allotment"
 ---
-# [SoftLayer_Network_Bandwidth_Version1_Allotment](/reference/services/SoftLayer_Network_Bandwidth_Version1_Allotment)::getCustomBandwidthDataByDate
-
-
-Retrieve bandwidth graph by date.
-
-
-## Overview 
-Retrieve bandwidth graph by date. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|graphData| <a href='/reference/datatypes/SoftLayer_Container_Graph'>SoftLayer_Container_Graph </a>| |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Network_Bandwidth_Version1_AllotmentInitParameters
-
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Container_Graph'>SoftLayer_Container_Graph </a>
-
-
-
-

@@ -1,43 +1,16 @@
 ---
 title: "getAllowedOsPriceIds"
-description: "Used to get a list of OS prices (ids) which are allowed for the Gateway."
-layout: "method"
+description: "Used to get a list of OS prices (ids) which are allowed for the Gateway. 
+
+"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Gateway"
-aliases:
-    - "/reference/services/softlayer_network_gateway/getAllowedOsPriceIds"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Gateway"
 ---
-# [SoftLayer_Network_Gateway](/reference/services/SoftLayer_Network_Gateway)::getAllowedOsPriceIds
-
-
-
-
-
-## Overview 
-Used to get a list of OS prices (ids) which are allowed for the Gateway. 
-
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|memberId| integer| |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Network_GatewayInitParameters
-
-
-### Return Values
-* array of integers
-
-
-
-

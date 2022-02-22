@@ -1,45 +1,14 @@
 ---
 title: "getHardware"
-description: "Retrieve the hardware record which a virtual host resides on."
-layout: "method"
+description: "The hardware record which a virtual host resides on."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Virtual"
 classes:
     - "SoftLayer_Virtual_Host"
-aliases:
-    - "/reference/services/softlayer_virtual_host/getHardware"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Virtual_Host"
 ---
-# [SoftLayer_Virtual_Host](/reference/services/SoftLayer_Virtual_Host)::getHardware
-
-
-Retrieve the hardware record which a virtual host resides on.
-
-
-## Overview 
-Retrieve the hardware record which a virtual host resides on.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Virtual_HostInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Virtual_HostObjectMask
-* SoftLayer_Virtual_HostObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Hardware_Server'>SoftLayer_Hardware_Server </a>
-
-
-
-

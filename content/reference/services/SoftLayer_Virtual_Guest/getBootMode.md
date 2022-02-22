@@ -1,40 +1,14 @@
 ---
 title: "getBootMode"
-description: "Retrieves the boot mode of the VSI."
-layout: "method"
+description: "Retrieves the boot mode of the VSI. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Virtual"
 classes:
     - "SoftLayer_Virtual_Guest"
-aliases:
-    - "/reference/services/softlayer_virtual_guest/getBootMode"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Virtual_Guest"
 ---
-# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getBootMode
-
-
-Retrieves the boot mode of the VSI.
-
-
-## Overview 
-Retrieves the boot mode of the VSI. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Virtual_GuestInitParameters
-
-
-### Return Values
-* string
-
-
-
-

@@ -1,41 +1,14 @@
 ---
 title: "updateNote"
-description: "Update the note of an external binding.  The note is an optional property that is used to store information about a bind... "
-layout: "method"
+description: "Update the note of an external binding.  The note is an optional property that is used to store information about a binding. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "User"
 classes:
     - "SoftLayer_User_Customer_External_Binding_Phone"
-aliases:
-    - "/reference/services/softlayer_user_customer_external_binding_phone/updateNote"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_User_Customer_External_Binding_Phone"
 ---
-# [SoftLayer_User_Customer_External_Binding_Phone](/reference/services/SoftLayer_User_Customer_External_Binding_Phone)::updateNote
-
-
-Update the note of an external binding.
-
-
-## Overview 
-Update the note of an external binding.  The note is an optional property that is used to store information about a binding. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|text| string| The text that the note will be set to.|
-
-
-### Required Headers
-* authenticate
-* SoftLayer_User_Customer_External_Binding_PhoneInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

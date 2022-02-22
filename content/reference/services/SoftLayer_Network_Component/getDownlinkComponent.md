@@ -1,45 +1,14 @@
 ---
 title: "getDownlinkComponent"
-description: "Retrieve the network component linking this object to a child device"
-layout: "method"
+description: "The network component linking this object to a child device"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Component"
-aliases:
-    - "/reference/services/softlayer_network_component/getDownlinkComponent"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Component"
 ---
-# [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getDownlinkComponent
-
-
-Retrieve the network component linking this object to a child device
-
-
-## Overview 
-Retrieve the network component linking this object to a child device
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Network_ComponentInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Network_ComponentObjectMask
-* SoftLayer_Network_ComponentObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Network_Component'>SoftLayer_Network_Component </a>
-
-
-
-

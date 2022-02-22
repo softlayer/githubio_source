@@ -1,45 +1,14 @@
 ---
 title: "getVirtualDiskImages"
-description: "Retrieve an account's associated virtual server virtual disk images."
-layout: "method"
+description: "An account's associated virtual server virtual disk images."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Account"
 classes:
     - "SoftLayer_Account"
-aliases:
-    - "/reference/services/softlayer_account/getVirtualDiskImages"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Account"
 ---
-# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getVirtualDiskImages
-
-
-Retrieve an account's associated virtual server virtual disk images.
-
-
-## Overview 
-Retrieve an account's associated virtual server virtual disk images.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_AccountObjectMask
-* SoftLayer_AccountObjectFilter
-* resultLimit
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Virtual_Disk_Image'>SoftLayer_Virtual_Disk_Image[] </a>
-
-
-
-

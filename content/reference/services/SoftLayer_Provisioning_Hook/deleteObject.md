@@ -1,40 +1,14 @@
 ---
 title: "deleteObject"
 description: ""
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Provisioning"
 classes:
     - "SoftLayer_Provisioning_Hook"
-aliases:
-    - "/reference/services/softlayer_provisioning_hook/deleteObject"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Provisioning_Hook"
 ---
-# [SoftLayer_Provisioning_Hook](/reference/services/SoftLayer_Provisioning_Hook)::deleteObject
-
-
-
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Provisioning_HookInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

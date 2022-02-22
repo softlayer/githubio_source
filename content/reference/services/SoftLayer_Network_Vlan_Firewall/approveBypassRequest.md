@@ -1,51 +1,14 @@
 ---
 title: "approveBypassRequest"
-description: "Approve a request from technical support to bypass the firewall. Once approved, support will be able to route and unrout... "
-layout: "method"
+description: "Approve a request from technical support to bypass the firewall. Once approved, support will be able to route and unroute the VLAN on the firewall. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Vlan_Firewall"
-aliases:
-    - "/reference/services/softlayer_network_vlan_firewall/approveBypassRequest"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Vlan_Firewall"
 ---
-# [SoftLayer_Network_Vlan_Firewall](/reference/services/SoftLayer_Network_Vlan_Firewall)::approveBypassRequest
-
-
-Approve a request from technical support to bypass the firewall.
-
-
-## Overview 
-Approve a request from technical support to bypass the firewall. Once approved, support will be able to route and unroute the VLAN on the firewall. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Network_Vlan_FirewallInitParameters
-
-
-### Return Values
-* void
-
-
-
-### Error Handling
-
-* SoftLayer_Exception_InvalidStatus 
-
-> Throw the exception "Bypass request is already approved" 
-
-* SoftLayer_Exception_InvalidStatus 
-
-> Throw the exception "There is no bypass request pending approval" 
-
-
-

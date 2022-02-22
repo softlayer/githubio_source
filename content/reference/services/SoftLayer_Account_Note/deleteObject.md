@@ -1,40 +1,14 @@
 ---
 title: "deleteObject"
 description: ""
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Account"
 classes:
     - "SoftLayer_Account_Note"
-aliases:
-    - "/reference/services/softlayer_account_note/deleteObject"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Account_Note"
 ---
-# [SoftLayer_Account_Note](/reference/services/SoftLayer_Account_Note)::deleteObject
-
-
-
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Account_NoteInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

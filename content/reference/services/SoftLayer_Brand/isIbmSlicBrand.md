@@ -1,40 +1,14 @@
 ---
 title: "isIbmSlicBrand"
-description: "Check if the brand is IBM SLIC top level brand or sub brand."
-layout: "method"
+description: "Check if the brand is IBM SLIC top level brand or sub brand. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Brand"
 classes:
     - "SoftLayer_Brand"
-aliases:
-    - "/reference/services/softlayer_brand/isIbmSlicBrand"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Brand"
 ---
-# [SoftLayer_Brand](/reference/services/SoftLayer_Brand)::isIbmSlicBrand
-
-
-Check if the brand is IBM SLIC top level brand or sub brand.
-
-
-## Overview 
-Check if the brand is IBM SLIC top level brand or sub brand. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_BrandInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

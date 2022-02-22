@@ -1,73 +1,14 @@
 ---
 title: "SoftLayer_Network_LBaaS_Member"
-description: "The SoftLayer_Network_LBaaS_Member service allows consumers to manage (backend) members for a given load balancer. A loa... "
+description: "The SoftLayer_Network_LBaaS_Member service allows consumers to manage (backend) members for a given load balancer. A load balancer may have one or more backend pools. Adding a backend member to the load balancer will add that member to all the backend pools. Similarly, deleting a backend member from the load balancer will remove that member from all associated backend pools. Weight of the backend member is a value between 1 and 256 but only applicable when the load balancing method configured is 'Weighted Round Robin'. "
 date: "2018-02-12"
-layout: "service"
 tags:
     - "service"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_LBaaS_Member"
+type: "reference"
+layout: "service"
+mainService : "SoftLayer_Network_LBaaS_Member"
 ---
-# SoftLayer_Network_LBaaS_Member
-<div id='service-datatype'>
-    <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Network_LBaaS_Member' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Network_LBaaS_Member' >Datatype</a></li>
-    </ul>
-</div>
-
-## Description
-
-
-The SoftLayer_Network_LBaaS_Member service allows consumers to manage (backend) members for a given load balancer. A load balancer may have one or more backend pools. Adding a backend member to the load balancer will add that member to all the backend pools. Similarly, deleting a backend member from the load balancer will remove that member from all associated backend pools. Weight of the backend member is a value between 1 and 256 but only applicable when the load balancing method configured is "Weighted Round Robin". 
-
-
-
-        
-<div id="properties" class="content service-content">
-
-## Methods
-
-<div class="view-filters">
-    <div class="clearfix">
-        <div class="search-input-box">
-            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-        </div>
-    </div>
-</div>
-
-<div id="method-div">
-
-<div class="method-row">
-
-#### [addLoadBalancerMembers](/reference/services/SoftLayer_Network_LBaaS_Member/addLoadBalancerMembers)
-Add load balancer members
-
-</div>
-
-<div class="method-row">
-
-#### [deleteLoadBalancerMembers](/reference/services/SoftLayer_Network_LBaaS_Member/deleteLoadBalancerMembers)
-Delete load balancer members
-
-</div>
-
-<div class="method-row">
-
-#### [getObject](/reference/services/SoftLayer_Network_LBaaS_Member/getObject)
-Retrieve a SoftLayer_Network_LBaaS_Member record.
-
-</div>
-
-<div class="method-row">
-
-#### [updateLoadBalancerMembers](/reference/services/SoftLayer_Network_LBaaS_Member/updateLoadBalancerMembers)
-Update members weight
-
-</div>
-</div>
-
-</div>
-

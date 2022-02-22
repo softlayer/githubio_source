@@ -1,46 +1,14 @@
 ---
 title: "getRemoteManagementUsers"
-description: "Retrieve user(s) credentials to issue commands and/or interact with the server's remote management card."
-layout: "method"
+description: "User(s) credentials to issue commands and/or interact with the server's remote management card."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Component"
-aliases:
-    - "/reference/services/softlayer_network_component/getRemoteManagementUsers"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Component"
 ---
-# [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getRemoteManagementUsers
-
-
-Retrieve user(s) credentials to issue commands and/or interact with the server's remote management card.
-
-
-## Overview 
-Retrieve user(s) credentials to issue commands and/or interact with the server's remote management card.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Network_ComponentInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Network_ComponentObjectMask
-* SoftLayer_Network_ComponentObjectFilter
-* resultLimit
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Hardware_Component_RemoteManagement_User'>SoftLayer_Hardware_Component_RemoteManagement_User[] </a>
-
-
-
-

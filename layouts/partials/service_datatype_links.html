@@ -1,0 +1,14 @@
+{{ if not (isset . "noservice") }}
+  <div id='service-datatype'>
+      <ul id='sldn-reference-tabs'>
+      <li id='service'> <a href='/reference/services/{{.name}}' >Service</a></li>
+      <li id='datatype'> <a href='/reference/datatypes/{{.name}}' >Datatype</a></li>
+      </ul>
+  </div>
+{{ else }}
+  <div id='service-datatype'>
+      <ul id='sldn-reference-tabs'>
+      <li id='datatype'> <a href='/reference/datatypes/{{.name}}' >Datatype</a></li>
+      </ul>
+  </div>
+{{end }}

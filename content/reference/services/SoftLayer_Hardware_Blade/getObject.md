@@ -1,45 +1,14 @@
 ---
 title: "getObject"
-description: ""
-layout: "method"
+description: "Retrieve a SoftLayer_Hardware_Blade record."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Hardware"
 classes:
     - "SoftLayer_Hardware_Blade"
-aliases:
-    - "/reference/services/softlayer_hardware_blade/getObject"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Hardware_Blade"
 ---
-# [SoftLayer_Hardware_Blade](/reference/services/SoftLayer_Hardware_Blade)::getObject
-
-
-Retrieve a SoftLayer_Hardware_Blade record.
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Hardware_BladeInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Hardware_BladeObjectMask
-* SoftLayer_Hardware_BladeObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Hardware_Blade'>SoftLayer_Hardware_Blade </a>
-
-
-
-

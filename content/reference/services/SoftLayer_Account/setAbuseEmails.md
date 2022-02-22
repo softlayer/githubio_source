@@ -1,40 +1,14 @@
 ---
 title: "setAbuseEmails"
-description: "Set this account's abuse emails. Takes an array of email addresses as strings."
-layout: "method"
+description: "Set this account's abuse emails. Takes an array of email addresses as strings. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Account"
 classes:
     - "SoftLayer_Account"
-aliases:
-    - "/reference/services/softlayer_account/setAbuseEmails"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Account"
 ---
-# [SoftLayer_Account](/reference/services/SoftLayer_Account)::setAbuseEmails
-
-
-Set this account's abuse emails.
-
-
-## Overview 
-Set this account's abuse emails. Takes an array of email addresses as strings. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|emails| array of strings| |
-
-
-### Required Headers
-* authenticate
-
-
-### Return Values
-* boolean
-
-
-
-

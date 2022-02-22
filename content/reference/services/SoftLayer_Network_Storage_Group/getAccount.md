@@ -1,45 +1,14 @@
 ---
 title: "getAccount"
-description: "Retrieve the SoftLayer_Account which owns this group."
-layout: "method"
+description: "The SoftLayer_Account which owns this group."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_Group"
-aliases:
-    - "/reference/services/softlayer_network_storage_group/getAccount"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Storage_Group"
 ---
-# [SoftLayer_Network_Storage_Group](/reference/services/SoftLayer_Network_Storage_Group)::getAccount
-
-
-Retrieve the SoftLayer_Account which owns this group.
-
-
-## Overview 
-Retrieve the SoftLayer_Account which owns this group.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Network_Storage_GroupInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Network_Storage_GroupObjectMask
-* SoftLayer_Network_Storage_GroupObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
-
-
-
-

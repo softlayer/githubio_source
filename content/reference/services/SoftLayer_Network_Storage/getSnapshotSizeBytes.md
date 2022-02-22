@@ -1,45 +1,14 @@
 ---
 title: "getSnapshotSizeBytes"
-description: "Retrieve the snapshot size in bytes."
-layout: "method"
+description: "The snapshot size in bytes."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Storage"
-aliases:
-    - "/reference/services/softlayer_network_storage/getSnapshotSizeBytes"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Storage"
 ---
-# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getSnapshotSizeBytes
-
-
-Retrieve the snapshot size in bytes.
-
-
-## Overview 
-Retrieve the snapshot size in bytes.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Network_StorageInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Network_StorageObjectMask
-* SoftLayer_Network_StorageObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* string
-
-
-
-

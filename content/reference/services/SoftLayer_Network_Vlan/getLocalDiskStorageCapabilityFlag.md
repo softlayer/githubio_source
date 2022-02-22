@@ -1,45 +1,14 @@
 ---
 title: "getLocalDiskStorageCapabilityFlag"
-description: "Retrieve a flag indicating that a vlan can be assigned to a host that has local disk functionality."
-layout: "method"
+description: "A flag indicating that a vlan can be assigned to a host that has local disk functionality."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Vlan"
-aliases:
-    - "/reference/services/softlayer_network_vlan/getLocalDiskStorageCapabilityFlag"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Vlan"
 ---
-# [SoftLayer_Network_Vlan](/reference/services/SoftLayer_Network_Vlan)::getLocalDiskStorageCapabilityFlag
-
-
-Retrieve a flag indicating that a vlan can be assigned to a host that has local disk functionality.
-
-
-## Overview 
-Retrieve a flag indicating that a vlan can be assigned to a host that has local disk functionality.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Network_VlanInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Network_VlanObjectMask
-* SoftLayer_Network_VlanObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* boolean
-
-
-
-

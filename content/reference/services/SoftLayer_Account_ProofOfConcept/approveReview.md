@@ -1,41 +1,14 @@
 ---
 title: "approveReview"
-description: "Allows a verified reviewer to approve a request"
-layout: "method"
+description: "Allows a verified reviewer to approve a request "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Account"
 classes:
     - "SoftLayer_Account_ProofOfConcept"
-aliases:
-    - "/reference/services/softlayer_account_proofofconcept/approveReview"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Account_ProofOfConcept"
 ---
-# [SoftLayer_Account_ProofOfConcept](/reference/services/SoftLayer_Account_ProofOfConcept)::approveReview
-
-
-Allows a reviewer to approve a request
-
-
-## Overview 
-Allows a verified reviewer to approve a request 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|requestId| integer| |
-|accessToken| string| |
-
-
-### Required Headers
-* authenticate
-
-
-### Return Values
-* void
-
-
-
-

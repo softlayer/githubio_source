@@ -1,46 +1,14 @@
 ---
 title: "getPasswords"
-description: "Retrieve username/Password pairs used for access to this Software Installation."
-layout: "method"
+description: "Username/Password pairs used for access to this Software Installation."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Software"
 classes:
     - "SoftLayer_Software_Component"
-aliases:
-    - "/reference/services/softlayer_software_component/getPasswords"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Software_Component"
 ---
-# [SoftLayer_Software_Component](/reference/services/SoftLayer_Software_Component)::getPasswords
-
-
-Retrieve username/Password pairs used for access to this Software Installation.
-
-
-## Overview 
-Retrieve username/Password pairs used for access to this Software Installation.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Software_ComponentInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Software_ComponentObjectMask
-* SoftLayer_Software_ComponentObjectFilter
-* resultLimit
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Software_Component_Password'>SoftLayer_Software_Component_Password[] </a>
-
-
-
-

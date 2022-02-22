@@ -1,40 +1,14 @@
 ---
 title: "powerOn"
-description: "Power on a virtual guest"
-layout: "method"
+description: "Power on a virtual guest "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Virtual"
 classes:
     - "SoftLayer_Virtual_Guest"
-aliases:
-    - "/reference/services/softlayer_virtual_guest/powerOn"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Virtual_Guest"
 ---
-# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::powerOn
-
-
-Power on a guest.
-
-
-## Overview 
-Power on a virtual guest 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Virtual_GuestInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

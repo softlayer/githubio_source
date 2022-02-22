@@ -1,42 +1,14 @@
 ---
 title: "getEndpointsWithRefetch"
-description: "Returns a collection of endpoint URLs available to this IBM Cloud Object Storage account."
-layout: "method"
+description: "Returns a collection of endpoint URLs available to this IBM Cloud Object Storage account. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_Hub_Cleversafe_Account"
-aliases:
-    - "/reference/services/softlayer_network_storage_hub_cleversafe_account/getEndpointsWithRefetch"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Storage_Hub_Cleversafe_Account"
 ---
-# [SoftLayer_Network_Storage_Hub_Cleversafe_Account](/reference/services/SoftLayer_Network_Storage_Hub_Cleversafe_Account)::getEndpointsWithRefetch
-
-
-
-
-
-## Overview 
-Returns a collection of endpoint URLs available to this IBM Cloud Object Storage account. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|accountId| integer| |
-|refetch| boolean| |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Network_Storage_Hub_Cleversafe_AccountInitParameters
-
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Endpoint'>SoftLayer_Container_Network_Storage_Hub_ObjectStorage_Endpoint[] </a>
-
-
-
-

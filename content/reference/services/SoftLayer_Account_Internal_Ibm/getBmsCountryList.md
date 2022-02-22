@@ -1,39 +1,14 @@
 ---
 title: "getBmsCountryList"
 description: ""
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Account"
 classes:
     - "SoftLayer_Account_Internal_Ibm"
-aliases:
-    - "/reference/services/softlayer_account_internal_ibm/getBmsCountryList"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Account_Internal_Ibm"
 ---
-# [SoftLayer_Account_Internal_Ibm](/reference/services/SoftLayer_Account_Internal_Ibm)::getBmsCountryList
-
-
-
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-
-
-### Return Values
-* array of strings
-
-
-
-

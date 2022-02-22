@@ -2,47 +2,20 @@
 title: "getEncryptionOptions"
 description: "Encryption options available for both phases of the negotiation process. 
 
-The valid encryption options are as follows:... "
-layout: "method"
+The valid encryption options are as follows: 
+* DES
+* 3DES
+* AES128
+* AES192
+* AES256"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Tunnel_Module_Context"
-aliases:
-    - "/reference/services/softlayer_network_tunnel_module_context/getEncryptionOptions"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Tunnel_Module_Context"
 ---
-# [SoftLayer_Network_Tunnel_Module_Context](/reference/services/SoftLayer_Network_Tunnel_Module_Context)::getEncryptionOptions
-
-
-Returns the encryption options.
-
-
-## Overview 
-Encryption options available for both phases of the negotiation process. 
-
-The valid encryption options are as follows: 
-* DES
-* 3DES
-* AES128
-* AES192
-* AES256
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-
-
-### Return Values
-* array of strings
-
-
-
-

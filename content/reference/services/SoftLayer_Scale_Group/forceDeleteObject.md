@@ -1,40 +1,14 @@
 ---
 title: "forceDeleteObject"
-description: ""
-layout: "method"
+description: "Delete this group and destroy all members of it."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Scale"
 classes:
     - "SoftLayer_Scale_Group"
-aliases:
-    - "/reference/services/softlayer_scale_group/forceDeleteObject"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Scale_Group"
 ---
-# [SoftLayer_Scale_Group](/reference/services/SoftLayer_Scale_Group)::forceDeleteObject
-
-
-Delete this group and destroy all members of it.
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Scale_GroupInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

@@ -1,41 +1,14 @@
 ---
 title: "setTags"
 description: ""
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Ticket"
 classes:
     - "SoftLayer_Ticket"
-aliases:
-    - "/reference/services/softlayer_ticket/setTags"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Ticket"
 ---
-# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::setTags
-
-
-
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|tags| string| comma separated list of tags|
-
-
-### Required Headers
-* authenticate
-* SoftLayer_TicketInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

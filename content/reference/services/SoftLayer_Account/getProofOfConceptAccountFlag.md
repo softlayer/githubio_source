@@ -1,44 +1,14 @@
 ---
 title: "getProofOfConceptAccountFlag"
-description: "Retrieve boolean flag indicating whether or not this account is a Proof of Concept account."
-layout: "method"
+description: "Boolean flag indicating whether or not this account is a Proof of Concept account."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Account"
 classes:
     - "SoftLayer_Account"
-aliases:
-    - "/reference/services/softlayer_account/getProofOfConceptAccountFlag"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Account"
 ---
-# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getProofOfConceptAccountFlag
-
-
-Retrieve boolean flag indicating whether or not this account is a Proof of Concept account.
-
-
-## Overview 
-Retrieve boolean flag indicating whether or not this account is a Proof of Concept account.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_AccountObjectMask
-* SoftLayer_AccountObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* boolean
-
-
-
-

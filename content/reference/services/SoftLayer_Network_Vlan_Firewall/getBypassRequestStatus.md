@@ -1,45 +1,14 @@
 ---
 title: "getBypassRequestStatus"
-description: "Retrieve administrative bypass request status."
-layout: "method"
+description: "Administrative bypass request status."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Vlan_Firewall"
-aliases:
-    - "/reference/services/softlayer_network_vlan_firewall/getBypassRequestStatus"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Vlan_Firewall"
 ---
-# [SoftLayer_Network_Vlan_Firewall](/reference/services/SoftLayer_Network_Vlan_Firewall)::getBypassRequestStatus
-
-
-Retrieve administrative bypass request status.
-
-
-## Overview 
-Retrieve administrative bypass request status.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Network_Vlan_FirewallInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Network_Vlan_FirewallObjectMask
-* SoftLayer_Network_Vlan_FirewallObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* string
-
-
-
-

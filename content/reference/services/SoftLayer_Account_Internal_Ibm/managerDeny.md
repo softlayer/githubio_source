@@ -1,41 +1,14 @@
 ---
 title: "managerDeny"
-description: "Denies a pending request and prevents additional requests from the same applicant for as long as the manager remains the... "
-layout: "method"
+description: "Denies a pending request and prevents additional requests from the same applicant for as long as the manager remains the same. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Account"
 classes:
     - "SoftLayer_Account_Internal_Ibm"
-aliases:
-    - "/reference/services/softlayer_account_internal_ibm/managerDeny"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Account_Internal_Ibm"
 ---
-# [SoftLayer_Account_Internal_Ibm](/reference/services/SoftLayer_Account_Internal_Ibm)::managerDeny
-
-
-Applies manager denial to a pending request
-
-
-## Overview 
-Denies a pending request and prevents additional requests from the same applicant for as long as the manager remains the same. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|requestId| integer| |
-|accessToken| string| |
-
-
-### Required Headers
-* authenticate
-
-
-### Return Values
-* void
-
-
-
-

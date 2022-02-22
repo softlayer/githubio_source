@@ -1,42 +1,16 @@
 ---
 title: "isRollbackAllowed"
-description: "Returns true if rollback is allowed."
-layout: "method"
+description: "Returns true if rollback is allowed. 
+
+"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Gateway"
-aliases:
-    - "/reference/services/softlayer_network_gateway/isRollbackAllowed"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Gateway"
 ---
-# [SoftLayer_Network_Gateway](/reference/services/SoftLayer_Network_Gateway)::isRollbackAllowed
-
-
-
-
-
-## Overview 
-Returns true if rollback is allowed. 
-
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Network_GatewayInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

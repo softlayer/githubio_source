@@ -1,45 +1,14 @@
 ---
 title: "getObject"
-description: ""
-layout: "method"
+description: "Retrieve a SoftLayer_Virtual_Guest record."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Virtual"
 classes:
     - "SoftLayer_Virtual_Guest"
-aliases:
-    - "/reference/services/softlayer_virtual_guest/getObject"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Virtual_Guest"
 ---
-# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getObject
-
-
-Retrieve a SoftLayer_Virtual_Guest record.
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Virtual_GuestInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Virtual_GuestObjectMask
-* SoftLayer_Virtual_GuestObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>
-
-
-
-

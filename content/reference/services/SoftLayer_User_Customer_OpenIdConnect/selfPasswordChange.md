@@ -1,42 +1,14 @@
 ---
 title: "selfPasswordChange"
 description: ""
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "User"
 classes:
     - "SoftLayer_User_Customer_OpenIdConnect"
-aliases:
-    - "/reference/services/softlayer_user_customer_openidconnect/selfPasswordChange"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_User_Customer_OpenIdConnect"
 ---
-# [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::selfPasswordChange
-
-
-
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|currentPassword| string| |
-|newPassword| string| |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_User_Customer_OpenIdConnectInitParameters
-
-
-### Return Values
-* void
-
-
-
-

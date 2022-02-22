@@ -1,43 +1,14 @@
 ---
 title: "getCurrentNotifications"
-description: "Retrieve an array of SoftLayer_Auxiliary_Notification_Emergency data types, which contain all current notification event... "
-layout: "method"
+description: "Retrieve an array of SoftLayer_Auxiliary_Notification_Emergency data types, which contain all current notification events. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Auxiliary"
 classes:
     - "SoftLayer_Auxiliary_Notification_Emergency"
-aliases:
-    - "/reference/services/softlayer_auxiliary_notification_emergency/getCurrentNotifications"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Auxiliary_Notification_Emergency"
 ---
-# [SoftLayer_Auxiliary_Notification_Emergency](/reference/services/SoftLayer_Auxiliary_Notification_Emergency)::getCurrentNotifications
-
-
-Retrieve current notification events.
-
-
-## Overview 
-Retrieve an array of SoftLayer_Auxiliary_Notification_Emergency data types, which contain all current notification events. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Auxiliary_Notification_EmergencyObjectMask
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Auxiliary_Notification_Emergency'>SoftLayer_Auxiliary_Notification_Emergency[] </a>
-
-
-
-

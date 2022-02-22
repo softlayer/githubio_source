@@ -1,42 +1,14 @@
 ---
 title: "updateNotificationSubscriber"
-description: "Update the active status for a notification that the user is subscribed to. A notification along with an active flag can... "
-layout: "method"
+description: "Update the active status for a notification that the user is subscribed to. A notification along with an active flag can be supplied to update the active status for a particular notification subscription. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "User"
 classes:
     - "SoftLayer_User_Customer_OpenIdConnect"
-aliases:
-    - "/reference/services/softlayer_user_customer_openidconnect/updateNotificationSubscriber"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_User_Customer_OpenIdConnect"
 ---
-# [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::updateNotificationSubscriber
-
-
-Update the active status for a notification subscription.
-
-
-## Overview 
-Update the active status for a notification that the user is subscribed to. A notification along with an active flag can be supplied to update the active status for a particular notification subscription. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|notificationKeyName| string| |
-|active| integer| |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_User_Customer_OpenIdConnectInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

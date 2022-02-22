@@ -1,40 +1,14 @@
 ---
 title: "removeScheduledAutoClose"
 description: ""
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Ticket"
 classes:
     - "SoftLayer_Ticket"
-aliases:
-    - "/reference/services/softlayer_ticket/removeScheduledAutoClose"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Ticket"
 ---
-# [SoftLayer_Ticket](/reference/services/SoftLayer_Ticket)::removeScheduledAutoClose
-
-
-
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_TicketInitParameters
-
-
-### Return Values
-* void
-
-
-
-

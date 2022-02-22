@@ -1,45 +1,14 @@
 ---
 title: "getMetricTrackingObject"
-description: "Retrieve the metric tracking object for this virtual host."
-layout: "method"
+description: "The metric tracking object for this virtual host."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Virtual"
 classes:
     - "SoftLayer_Virtual_Host"
-aliases:
-    - "/reference/services/softlayer_virtual_host/getMetricTrackingObject"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Virtual_Host"
 ---
-# [SoftLayer_Virtual_Host](/reference/services/SoftLayer_Virtual_Host)::getMetricTrackingObject
-
-
-Retrieve the metric tracking object for this virtual host.
-
-
-## Overview 
-Retrieve the metric tracking object for this virtual host.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Virtual_HostInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Virtual_HostObjectMask
-* SoftLayer_Virtual_HostObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object'>SoftLayer_Metric_Tracking_Object </a>
-
-
-
-

@@ -1,42 +1,14 @@
 ---
 title: "denyReview"
-description: "Allows verified reviewer to deny a request"
-layout: "method"
+description: "Allows verified reviewer to deny a request "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Account"
 classes:
     - "SoftLayer_Account_ProofOfConcept"
-aliases:
-    - "/reference/services/softlayer_account_proofofconcept/denyReview"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Account_ProofOfConcept"
 ---
-# [SoftLayer_Account_ProofOfConcept](/reference/services/SoftLayer_Account_ProofOfConcept)::denyReview
-
-
-Allows reviewer to deny a request
-
-
-## Overview 
-Allows verified reviewer to deny a request 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|requestId| integer| |
-|accessToken| string| |
-|reason| string| |
-
-
-### Required Headers
-* authenticate
-
-
-### Return Values
-* void
-
-
-
-

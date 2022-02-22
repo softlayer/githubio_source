@@ -1,41 +1,14 @@
 ---
 title: "editNote"
 description: "Edit the note for this subnet."
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Subnet"
-aliases:
-    - "/reference/services/softlayer_network_subnet/editNote"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Subnet"
 ---
-# [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::editNote
-
-
-Edit the note for this subnet.
-
-
-## Overview 
-Edit the note for this subnet.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|note| string| The note|
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Network_SubnetInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

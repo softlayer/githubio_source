@@ -2,58 +2,13 @@
 title: "SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status"
 description: ""
 date: "2018-02-12"
-layout: "service"
 tags:
     - "service"
     - "sldn"
     - "Dns"
 classes:
     - "SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status"
+type: "reference"
+layout: "service"
+mainService : "SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status"
 ---
-# SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status
-<div id='service-datatype'>
-    <ul id='sldn-reference-tabs'>
-    <li id='service'> <a href='/reference/services/SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status' >Service</a></li>    <li id='datatype'> <a href='/reference/datatypes/SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status' >Datatype</a></li>
-    </ul>
-</div>
-
-## Description
-
-
-
-
-
-
-        
-<div id="properties" class="content service-content">
-
-## Methods
-
-<div class="view-filters">
-    <div class="clearfix">
-        <div class="search-input-box">
-            <input placeholder="Method Filter" onkeyup="titleSearch(inputId='edit-combine', divId='method-div', elementClass='method-row')" 
-                type="text" id="edit-combine" value="" size="30" maxlength="128" class="form-text">
-        </div>
-    </div>
-</div>
-
-<div id="method-div">
-
-<div class="method-row">
-
-#### [getAllObjects](/reference/services/SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status/getAllObjects)
-
-
-</div>
-
-<div class="method-row">
-
-#### [getObject](/reference/services/SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status/getObject)
-Retrieve a SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status record.
-
-</div>
-</div>
-
-</div>
-

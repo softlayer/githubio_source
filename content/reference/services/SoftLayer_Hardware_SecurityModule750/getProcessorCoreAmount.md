@@ -1,45 +1,14 @@
 ---
 title: "getProcessorCoreAmount"
-description: "Retrieve the total number of processor cores, summed from all processors that are attached to a piece of hardware"
-layout: "method"
+description: "The total number of processor cores, summed from all processors that are attached to a piece of hardware"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Hardware"
 classes:
     - "SoftLayer_Hardware_SecurityModule750"
-aliases:
-    - "/reference/services/softlayer_hardware_securitymodule750/getProcessorCoreAmount"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Hardware_SecurityModule750"
 ---
-# [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getProcessorCoreAmount
-
-
-Retrieve the total number of processor cores, summed from all processors that are attached to a piece of hardware
-
-
-## Overview 
-Retrieve the total number of processor cores, summed from all processors that are attached to a piece of hardware
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Hardware_SecurityModule750InitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Hardware_SecurityModule750ObjectMask
-* SoftLayer_Hardware_SecurityModule750ObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* unsigned integer
-
-
-
-

@@ -1,45 +1,14 @@
 ---
 title: "getNextInvoiceTotalRecurringTaxAmount"
-description: "Retrieve this is deprecated and will always be zero. Because tax is calculated in real-time, previewing the next recurri... "
-layout: "method"
+description: "This is deprecated and will always be zero. Because tax is calculated in real-time, previewing the next recurring invoice is pre-tax only."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Billing"
 classes:
     - "SoftLayer_Billing_Item"
-aliases:
-    - "/reference/services/softlayer_billing_item/getNextInvoiceTotalRecurringTaxAmount"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Billing_Item"
 ---
-# [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getNextInvoiceTotalRecurringTaxAmount
-
-
-Retrieve this is deprecated and will always be zero. Because tax is calculated in real-time, previewing the next recurring invoice is pre-tax only.
-
-
-## Overview 
-Retrieve this is deprecated and will always be zero. Because tax is calculated in real-time, previewing the next recurring invoice is pre-tax only.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Billing_ItemInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Billing_ItemObjectMask
-* SoftLayer_Billing_ItemObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* float
-
-
-
-

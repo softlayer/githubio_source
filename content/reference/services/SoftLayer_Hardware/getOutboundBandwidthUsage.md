@@ -1,45 +1,14 @@
 ---
 title: "getOutboundBandwidthUsage"
-description: "Retrieve the sum of all the outbound network traffic data for the last 30 days."
-layout: "method"
+description: "The sum of all the outbound network traffic data for the last 30 days."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Hardware"
 classes:
     - "SoftLayer_Hardware"
-aliases:
-    - "/reference/services/softlayer_hardware/getOutboundBandwidthUsage"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Hardware"
 ---
-# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getOutboundBandwidthUsage
-
-
-Retrieve the sum of all the outbound network traffic data for the last 30 days.
-
-
-## Overview 
-Retrieve the sum of all the outbound network traffic data for the last 30 days.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_HardwareInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_HardwareObjectMask
-* SoftLayer_HardwareObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* decimal
-
-
-
-

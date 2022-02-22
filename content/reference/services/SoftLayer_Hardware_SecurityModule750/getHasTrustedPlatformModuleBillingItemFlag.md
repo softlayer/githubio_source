@@ -1,45 +1,14 @@
 ---
 title: "getHasTrustedPlatformModuleBillingItemFlag"
-description: "Retrieve determine in hardware object has TPM enabled."
-layout: "method"
+description: "Determine in hardware object has TPM enabled."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Hardware"
 classes:
     - "SoftLayer_Hardware_SecurityModule750"
-aliases:
-    - "/reference/services/softlayer_hardware_securitymodule750/getHasTrustedPlatformModuleBillingItemFlag"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Hardware_SecurityModule750"
 ---
-# [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getHasTrustedPlatformModuleBillingItemFlag
-
-
-Retrieve determine in hardware object has TPM enabled.
-
-
-## Overview 
-Retrieve determine in hardware object has TPM enabled.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Hardware_SecurityModule750InitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Hardware_SecurityModule750ObjectMask
-* SoftLayer_Hardware_SecurityModule750ObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* boolean
-
-
-
-

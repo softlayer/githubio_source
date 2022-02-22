@@ -1,40 +1,14 @@
 ---
 title: "getPdf"
-description: "Retrieve a PDF copy of the cart."
-layout: "method"
+description: "Retrieve a PDF copy of the cart. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Billing"
 classes:
     - "SoftLayer_Billing_Order_Cart"
-aliases:
-    - "/reference/services/softlayer_billing_order_cart/getPdf"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Billing_Order_Cart"
 ---
-# [SoftLayer_Billing_Order_Cart](/reference/services/SoftLayer_Billing_Order_Cart)::getPdf
-
-
-Retrieve a PDF copy of the cart.
-
-
-## Overview 
-Retrieve a PDF copy of the cart. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Billing_Order_CartInitParameters
-
-
-### Return Values
-* binary data
-
-
-
-

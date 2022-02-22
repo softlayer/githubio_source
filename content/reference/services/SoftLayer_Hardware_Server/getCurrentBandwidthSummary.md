@@ -1,45 +1,14 @@
 ---
 title: "getCurrentBandwidthSummary"
-description: "Retrieve an object that provides commonly used bandwidth summary components for the current billing cycle."
-layout: "method"
+description: "An object that provides commonly used bandwidth summary components for the current billing cycle."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Hardware"
 classes:
     - "SoftLayer_Hardware_Server"
-aliases:
-    - "/reference/services/softlayer_hardware_server/getCurrentBandwidthSummary"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Hardware_Server"
 ---
-# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getCurrentBandwidthSummary
-
-
-Retrieve an object that provides commonly used bandwidth summary components for the current billing cycle.
-
-
-## Overview 
-Retrieve an object that provides commonly used bandwidth summary components for the current billing cycle.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Hardware_ServerInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Hardware_ServerObjectMask
-* SoftLayer_Hardware_ServerObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Metric_Tracking_Object_Bandwidth_Summary'>SoftLayer_Metric_Tracking_Object_Bandwidth_Summary </a>
-
-
-
-

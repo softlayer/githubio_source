@@ -1,45 +1,14 @@
 ---
 title: "getObject"
-description: ""
-layout: "method"
+description: "Retrieve a SoftLayer_Network_LBaaS_Listener record."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_LBaaS_Listener"
-aliases:
-    - "/reference/services/softlayer_network_lbaas_listener/getObject"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_LBaaS_Listener"
 ---
-# [SoftLayer_Network_LBaaS_Listener](/reference/services/SoftLayer_Network_LBaaS_Listener)::getObject
-
-
-Retrieve a SoftLayer_Network_LBaaS_Listener record.
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Network_LBaaS_ListenerInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Network_LBaaS_ListenerObjectMask
-* SoftLayer_Network_LBaaS_ListenerObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Network_LBaaS_Listener'>SoftLayer_Network_LBaaS_Listener </a>
-
-
-
-

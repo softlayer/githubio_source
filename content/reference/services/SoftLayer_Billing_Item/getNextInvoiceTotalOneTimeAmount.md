@@ -1,45 +1,14 @@
 ---
 title: "getNextInvoiceTotalOneTimeAmount"
-description: "Retrieve a Billing Item's total, including any child billing items if they exist.'"
-layout: "method"
+description: "A Billing Item's total, including any child billing items if they exist.'"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Billing"
 classes:
     - "SoftLayer_Billing_Item"
-aliases:
-    - "/reference/services/softlayer_billing_item/getNextInvoiceTotalOneTimeAmount"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Billing_Item"
 ---
-# [SoftLayer_Billing_Item](/reference/services/SoftLayer_Billing_Item)::getNextInvoiceTotalOneTimeAmount
-
-
-Retrieve a Billing Item's total, including any child billing items if they exist.'
-
-
-## Overview 
-Retrieve a Billing Item's total, including any child billing items if they exist.'
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Billing_ItemInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Billing_ItemObjectMask
-* SoftLayer_Billing_ItemObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* float
-
-
-
-

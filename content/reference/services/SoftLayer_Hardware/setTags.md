@@ -1,41 +1,14 @@
 ---
 title: "setTags"
 description: ""
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Hardware"
 classes:
     - "SoftLayer_Hardware"
-aliases:
-    - "/reference/services/softlayer_hardware/setTags"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Hardware"
 ---
-# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::setTags
-
-
-
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|tags| string| comma separated list of tags inputted by user|
-
-
-### Required Headers
-* authenticate
-* SoftLayer_HardwareInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

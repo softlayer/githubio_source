@@ -1,40 +1,14 @@
 ---
 title: "updateVpnUser"
-description: "Always call this function to enable changes when manually configuring VPN subnet access."
-layout: "method"
+description: "Always call this function to enable changes when manually configuring VPN subnet access. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "User"
 classes:
     - "SoftLayer_User_Customer"
-aliases:
-    - "/reference/services/softlayer_user_customer/updateVpnUser"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_User_Customer"
 ---
-# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::updateVpnUser
-
-
-Creates or updates a user's VPN access privileges.
-
-
-## Overview 
-Always call this function to enable changes when manually configuring VPN subnet access. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_User_CustomerInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

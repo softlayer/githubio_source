@@ -1,40 +1,14 @@
 ---
 title: "getTargetIpAddresses"
 description: ""
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Storage"
-aliases:
-    - "/reference/services/softlayer_network_storage/getTargetIpAddresses"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Storage"
 ---
-# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getTargetIpAddresses
-
-
-
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Network_StorageInitParameters
-
-
-### Return Values
-* array of strings
-
-
-
-

@@ -1,45 +1,14 @@
 ---
 title: "getDatacenter"
-description: "Retrieve the datacenter where the media resides."
-layout: "method"
+description: "The datacenter where the media resides."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Account"
 classes:
     - "SoftLayer_Account_Media"
-aliases:
-    - "/reference/services/softlayer_account_media/getDatacenter"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Account_Media"
 ---
-# [SoftLayer_Account_Media](/reference/services/SoftLayer_Account_Media)::getDatacenter
-
-
-Retrieve the datacenter where the media resides.
-
-
-## Overview 
-Retrieve the datacenter where the media resides.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Account_MediaInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Account_MediaObjectMask
-* SoftLayer_Account_MediaObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location </a>
-
-
-
-

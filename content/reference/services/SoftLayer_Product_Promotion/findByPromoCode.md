@@ -1,44 +1,14 @@
 ---
 title: "findByPromoCode"
 description: "Retrieves a promotion using its code."
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Product"
 classes:
     - "SoftLayer_Product_Promotion"
-aliases:
-    - "/reference/services/softlayer_product_promotion/findByPromoCode"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Product_Promotion"
 ---
-# [SoftLayer_Product_Promotion](/reference/services/SoftLayer_Product_Promotion)::findByPromoCode
-
-
-
-
-
-## Overview 
-Retrieves a promotion using its code.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|code| string| |
-
-
-### Required Headers
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Product_PromotionObjectMask
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Container_Product_Promotion'>SoftLayer_Container_Product_Promotion </a>
-
-
-
-

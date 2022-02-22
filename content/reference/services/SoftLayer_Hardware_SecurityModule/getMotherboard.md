@@ -1,45 +1,14 @@
 ---
 title: "getMotherboard"
-description: "Retrieve a server's motherboard."
-layout: "method"
+description: "Information regarding a piece of hardware's motherboard."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Hardware"
 classes:
     - "SoftLayer_Hardware_SecurityModule"
-aliases:
-    - "/reference/services/softlayer_hardware_securitymodule/getMotherboard"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Hardware_SecurityModule"
 ---
-# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::getMotherboard
-
-
-Retrieve a server's motherboard.
-
-
-## Overview 
-Retrieve a server's motherboard.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Hardware_SecurityModuleInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Hardware_SecurityModuleObjectMask
-* SoftLayer_Hardware_SecurityModuleObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Hardware_Component'>SoftLayer_Hardware_Component </a>
-
-
-
-

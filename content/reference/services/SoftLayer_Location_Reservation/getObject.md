@@ -1,45 +1,14 @@
 ---
 title: "getObject"
-description: ""
-layout: "method"
+description: "Retrieve a SoftLayer_Location_Reservation record."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Location"
 classes:
     - "SoftLayer_Location_Reservation"
-aliases:
-    - "/reference/services/softlayer_location_reservation/getObject"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Location_Reservation"
 ---
-# [SoftLayer_Location_Reservation](/reference/services/SoftLayer_Location_Reservation)::getObject
-
-
-Retrieve a SoftLayer_Location_Reservation record.
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Location_ReservationInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Location_ReservationObjectMask
-* SoftLayer_Location_ReservationObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Location_Reservation'>SoftLayer_Location_Reservation </a>
-
-
-
-

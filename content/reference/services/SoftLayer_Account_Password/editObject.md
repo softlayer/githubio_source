@@ -1,41 +1,14 @@
 ---
 title: "editObject"
-description: "The password and/or notes may be modified.  Modifying the EVault passwords here will also update the password the Webcc... "
-layout: "method"
+description: "The password and/or notes may be modified.  Modifying the EVault passwords here will also update the password the Webcc interface will use. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Account"
 classes:
     - "SoftLayer_Account_Password"
-aliases:
-    - "/reference/services/softlayer_account_password/editObject"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Account_Password"
 ---
-# [SoftLayer_Account_Password](/reference/services/SoftLayer_Account_Password)::editObject
-
-
-Edit the password and/or notes for an account password.
-
-
-## Overview 
-The password and/or notes may be modified.  Modifying the EVault passwords here will also update the password the Webcc interface will use. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|templateObject| <a href='/reference/datatypes/SoftLayer_Account_Password'>SoftLayer_Account_Password </a>| A skeleton SoftLayer_Account_Password object with only the properties defined that you wish to change. Unchanged properties are left alone.|
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Account_PasswordInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

@@ -1,24 +1,6 @@
 ---
 title: "isConnectedToPrivateEndpointService"
-description: "Accessing select IBM Cloud services attached to the private back-end network is made possible by establishing a network... "
-layout: "method"
-tags:
-    - "method"
-    - "sldn"
-    - "Network"
-classes:
-    - "SoftLayer_Network"
-aliases:
-    - "/reference/services/softlayer_network/isConnectedToPrivateEndpointService"
----
-# [SoftLayer_Network](/reference/services/SoftLayer_Network)::isConnectedToPrivateEndpointService
-
-
-Checks the current Service Endpoint network connection status.
-
-
-## Overview 
-Accessing select IBM Cloud services attached to the private back-end network is made possible by establishing a network relationship between an account's private network and the Service Endpoint network. 
+description: "Accessing select IBM Cloud services attached to the private back-end network is made possible by establishing a network relationship between an account's private network and the Service Endpoint network. 
 
 
 
@@ -36,35 +18,15 @@ Accessing select IBM Cloud services attached to the private back-end network is 
 
 
 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-
-
-### Return Values
-* boolean
-
-
-### Associated Methods
-
-*  [SoftLayer_Network::connectPrivateEndpointService](/reference/services/SoftLayer_Network/connectPrivateEndpointService )
-*  [SoftLayer_Network::disconnectPrivateEndpointService](/reference/services/SoftLayer_Network/disconnectPrivateEndpointService )
-
-
-
-### Error Handling
-
-* SoftLayer_Exception_NotReady 
-
-> <<< EOT 
-
-
-
+"
+date: "2018-02-12"
+tags:
+    - "method"
+    - "sldn"
+    - "Network"
+classes:
+    - "SoftLayer_Network"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network"
+---

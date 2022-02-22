@@ -1,40 +1,14 @@
 ---
 title: "acknowledge"
-description: ""
-layout: "method"
+description: "Acknowledge the associated [SoftLayer_Notification_Occurrence_Event](/reference/datatypes/SoftLayer_Notification_Occurrence_Event) for this impacted user. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Notification"
 classes:
     - "SoftLayer_Notification_Occurrence_User"
-aliases:
-    - "/reference/services/softlayer_notification_occurrence_user/acknowledge"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Notification_Occurrence_User"
 ---
-# [SoftLayer_Notification_Occurrence_User](/reference/services/SoftLayer_Notification_Occurrence_User)::acknowledge
-
-
-Acknowledge the associated [SoftLayer_Notification_Occurrence_Event]({{<ref "reference/datatypes/SoftLayer_Notification_Occurrence_Event">}}) for this impacted user. 
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Notification_Occurrence_UserInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

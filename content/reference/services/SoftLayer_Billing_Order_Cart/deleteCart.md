@@ -1,40 +1,14 @@
 ---
 title: "deleteCart"
-description: "If a cart is no longer needed, it can be deleted using this service. Once a cart has been deleted, it cannot be retrieve... "
-layout: "method"
+description: "If a cart is no longer needed, it can be deleted using this service. Once a cart has been deleted, it cannot be retrieved again. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Billing"
 classes:
     - "SoftLayer_Billing_Order_Cart"
-aliases:
-    - "/reference/services/softlayer_billing_order_cart/deleteCart"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Billing_Order_Cart"
 ---
-# [SoftLayer_Billing_Order_Cart](/reference/services/SoftLayer_Billing_Order_Cart)::deleteCart
-
-
-Delete an existing cart
-
-
-## Overview 
-If a cart is no longer needed, it can be deleted using this service. Once a cart has been deleted, it cannot be retrieved again. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Billing_Order_CartInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

@@ -1,40 +1,14 @@
 ---
 title: "getEmployeeAccessToken"
-description: "Exchanges a code for a token during manager validation."
-layout: "method"
+description: "Exchanges a code for a token during manager validation. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Account"
 classes:
     - "SoftLayer_Account_Internal_Ibm"
-aliases:
-    - "/reference/services/softlayer_account_internal_ibm/getEmployeeAccessToken"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Account_Internal_Ibm"
 ---
-# [SoftLayer_Account_Internal_Ibm](/reference/services/SoftLayer_Account_Internal_Ibm)::getEmployeeAccessToken
-
-
-Exchanges a token
-
-
-## Overview 
-Exchanges a code for a token during manager validation. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|unverifiedAuthenticationCode| string| |
-
-
-### Required Headers
-* authenticate
-
-
-### Return Values
-* string
-
-
-
-

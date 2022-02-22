@@ -1,42 +1,14 @@
 ---
 title: "getFileList"
-description: ""
-layout: "method"
+description: "Retrieve list of files in a given folder for this account."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Storage"
-aliases:
-    - "/reference/services/softlayer_network_storage/getFileList"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Storage"
 ---
-# [SoftLayer_Network_Storage](/reference/services/SoftLayer_Network_Storage)::getFileList
-
-
-Retrieve list of files in a given folder for this account.
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|folder| string| |
-|path| string| |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Network_StorageInitParameters
-
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Container_Utility_File_Entity'>SoftLayer_Container_Utility_File_Entity[] </a>
-
-
-
-

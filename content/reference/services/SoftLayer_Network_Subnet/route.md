@@ -1,28 +1,10 @@
 ---
 title: "route"
-description: "This interface allows you to change the route of your Account Owned subnets. It accommodates a number of ways to identif... "
-layout: "method"
-tags:
-    - "method"
-    - "sldn"
-    - "Network"
-classes:
-    - "SoftLayer_Network_Subnet"
-aliases:
-    - "/reference/services/softlayer_network_subnet/route"
----
-# [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::route
-
-
-
-
-
-## Overview 
-This interface allows you to change the route of your Account Owned subnets. It accommodates a number of ways to identify your desired routing destination through the use of a 'type' and 'identifier'. Subnets may be routed as either Static or Portable, and that designation is dictated by the routing destination specified. 
+description: "This interface allows you to change the route of your Account Owned subnets. It accommodates a number of ways to identify your desired routing destination through the use of a 'type' and 'identifier'. Subnets may be routed as either Static or Portable, and that designation is dictated by the routing destination specified. 
 
 Static subnets have an ultimate routing destination of a single IP address but may not be routed to an existing subnet's IP address whose subnet is routed as a Static. Portable subnets have an ultimate routing destination of a VLAN. 
 
-A subnet can be routed to any resource within the same "routing region" as the subnet itself. A subnet's routing region can be diverse but is usually limited to a single data center. 
+A subnet can be routed to any resource within the same 'routing region' as the subnet itself. A subnet's routing region can be diverse but is usually limited to a single data center. 
 
 The following identifier 'type' values will result in Static routing: <ul> <li>SoftLayer_Network_Subnet_IpAddress</li> <li>SoftLayer_Hardware_Server</li> <li>SoftLayer_Virtual_Guest</li> </ul> 
 
@@ -48,48 +30,15 @@ When routing a subnet that is already routed, note that the subnet first has its
 
 The behavior of this interface is such that either true or false is returned. A response of false indicates the route request would not result in the route of the subnet changing; attempts to route the subnet to the same destination, even if identified by differing means, will result in no changes. A result of false can be interpreted as the route request having already been completed. In contrast, a result of true means the requested destination is different from the current destination and the subnet's routing will be transitioned. This route change is asynchronous to the request. A response of true does not mean the subnet's route has changed, but simply that it will change. In order to monitor for the completion of the change, you may either attempt a route change again until the result is false, or monitor one or more SoftLayer_Network_Subnet properties: subnetType, networkVlanId, and or endPointIpAddress to determine if routing of the subnet has become the desired route destination. 
 
-Use of this operation is limited to a single active request per subnet. If a previous route request is not yet complete, a "not ready" message will be returned upon subsequent requests. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|type| string| See SLDN docs.|
-|identifier| string| An appropriate identifier for the specified $type. Some types have multiple identifier|
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Network_SubnetInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-### Error Handling
-
-* SoftLayer_Exception_AccessDenied 
-
-> If the user lacks permissions for route manipulation. 
-
-* SoftLayer_Exception_NotFound 
-
-> If the route destination is invalid or unknown. 
-
-* SoftLayer_Exception_ObjectDuplication 
-
-> If the route destination specification cannot uniquely identify a destination. 
-
-* SoftLayer_Exception_Unavailable 
-
-> If the subnet is not eligible for route manipulation. 
-
-* SoftLayer_Exception_NotReady 
-
-> If another route request is in progress for the subnet. 
-
-
-
+Use of this operation is limited to a single active request per subnet. If a previous route request is not yet complete, a 'not ready' message will be returned upon subsequent requests. "
+date: "2018-02-12"
+tags:
+    - "method"
+    - "sldn"
+    - "Network"
+classes:
+    - "SoftLayer_Network_Subnet"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Subnet"
+---

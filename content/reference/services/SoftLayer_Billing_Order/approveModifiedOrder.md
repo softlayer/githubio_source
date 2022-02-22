@@ -1,40 +1,14 @@
 ---
 title: "approveModifiedOrder"
-description: "When an order has been modified, the customer will need to approve the changes. This method will allow the customer to a... "
-layout: "method"
+description: "When an order has been modified, the customer will need to approve the changes. This method will allow the customer to approve the changes. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Billing"
 classes:
     - "SoftLayer_Billing_Order"
-aliases:
-    - "/reference/services/softlayer_billing_order/approveModifiedOrder"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Billing_Order"
 ---
-# [SoftLayer_Billing_Order](/reference/services/SoftLayer_Billing_Order)::approveModifiedOrder
-
-
-Approve the changes of a modified order
-
-
-## Overview 
-When an order has been modified, the customer will need to approve the changes. This method will allow the customer to approve the changes. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Billing_OrderInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

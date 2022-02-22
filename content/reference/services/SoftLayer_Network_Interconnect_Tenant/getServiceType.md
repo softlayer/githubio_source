@@ -1,45 +1,14 @@
 ---
 title: "getServiceType"
 description: ""
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Interconnect_Tenant"
-aliases:
-    - "/reference/services/softlayer_network_interconnect_tenant/getServiceType"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Interconnect_Tenant"
 ---
-# [SoftLayer_Network_Interconnect_Tenant](/reference/services/SoftLayer_Network_Interconnect_Tenant)::getServiceType
-
-
-
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Network_Interconnect_TenantInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Network_Interconnect_TenantObjectMask
-* SoftLayer_Network_Interconnect_TenantObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Network_DirectLink_ServiceType'>SoftLayer_Network_DirectLink_ServiceType </a>
-
-
-
-

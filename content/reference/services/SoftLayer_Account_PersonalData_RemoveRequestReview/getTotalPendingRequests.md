@@ -1,39 +1,14 @@
 ---
 title: "getTotalPendingRequests"
 description: ""
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Account"
 classes:
     - "SoftLayer_Account_PersonalData_RemoveRequestReview"
-aliases:
-    - "/reference/services/softlayer_account_personaldata_removerequestreview/getTotalPendingRequests"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Account_PersonalData_RemoveRequestReview"
 ---
-# [SoftLayer_Account_PersonalData_RemoveRequestReview](/reference/services/SoftLayer_Account_PersonalData_RemoveRequestReview)::getTotalPendingRequests
-
-
-
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-
-
-### Return Values
-* integer
-
-
-
-

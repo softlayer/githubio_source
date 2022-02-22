@@ -1,53 +1,21 @@
 ---
 title: "generateOrderTemplate"
-description: "Obtain an [SoftLayer_Container_Product_Order_Hardware_Server]({{<ref 'reference/datatypes/SoftLayer_Container_Product_Or... "
-layout: "method"
+description: "
+Obtain an [SoftLayer_Container_Product_Order_Hardware_Server](/reference/datatypes/SoftLayer_Container_Product_Order_Hardware_Server) that can be sent to [SoftLayer_Product_Order::verifyOrder](/reference/services/SoftLayer_Product_Order/verifyOrder) or [SoftLayer_Product_Order::placeOrder](/reference/services/SoftLayer_Product_Order/placeOrder). 
+
+
+This is primarily useful when there is a necessity to confirm the price which will be charged for an order. 
+
+
+See [SoftLayer_Hardware::createObject](/reference/services/SoftLayer_Hardware/createObject) for specifics on the requirements of the template object parameter. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Hardware"
 classes:
     - "SoftLayer_Hardware_SecurityModule"
-aliases:
-    - "/reference/services/softlayer_hardware_securitymodule/generateOrderTemplate"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Hardware_SecurityModule"
 ---
-# [SoftLayer_Hardware_SecurityModule](/reference/services/SoftLayer_Hardware_SecurityModule)::generateOrderTemplate
-
-
-Obtain an order container for a given template object
-
-
-## Overview 
-
-Obtain an [SoftLayer_Container_Product_Order_Hardware_Server]({{<ref "reference/datatypes/SoftLayer_Container_Product_Order_Hardware_Server">}}). 
-
-
-This is primarily useful when there is a necessity to confirm the price which will be charged for an order. 
-
-
-See [SoftLayer_Hardware::createObject]({{<ref "reference/services/SoftLayer_Hardware/createObject">}}) for specifics on the requirements of the template object parameter. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|templateObject| <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>| |
-
-
-### Required Headers
-* authenticate
-
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Container_Product_Order'>SoftLayer_Container_Product_Order </a>
-
-
-### Associated Methods
-
-*  [SoftLayer_Hardware::createObject](/reference/services/SoftLayer_Hardware/createObject )
-*  [SoftLayer_Hardware::getCreateObjectOptions](/reference/services/SoftLayer_Hardware/getCreateObjectOptions )
-
-
-
-

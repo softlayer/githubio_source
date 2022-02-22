@@ -1,44 +1,14 @@
 ---
 title: "getActiveFlexibleCreditEnrollment"
-description: "Retrieve [Deprecated] Please use SoftLayer_Account::activeFlexibleCreditEnrollments."
-layout: "method"
+description: "[Deprecated] Please use SoftLayer_Account::activeFlexibleCreditEnrollments."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Account"
 classes:
     - "SoftLayer_Account"
-aliases:
-    - "/reference/services/softlayer_account/getActiveFlexibleCreditEnrollment"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Account"
 ---
-# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getActiveFlexibleCreditEnrollment
-
-
-Retrieve [Deprecated] Please use SoftLayer_Account::activeFlexibleCreditEnrollments.
-
-
-## Overview 
-Retrieve [Deprecated] Please use SoftLayer_Account::activeFlexibleCreditEnrollments.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_AccountObjectMask
-* SoftLayer_AccountObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_FlexibleCredit_Enrollment'>SoftLayer_FlexibleCredit_Enrollment </a>
-
-
-
-

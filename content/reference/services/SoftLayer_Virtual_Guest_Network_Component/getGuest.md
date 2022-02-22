@@ -1,45 +1,14 @@
 ---
 title: "getGuest"
-description: "Retrieve the computing instance that this network component exists on."
-layout: "method"
+description: "The computing instance that this network component exists on."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Virtual"
 classes:
     - "SoftLayer_Virtual_Guest_Network_Component"
-aliases:
-    - "/reference/services/softlayer_virtual_guest_network_component/getGuest"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Virtual_Guest_Network_Component"
 ---
-# [SoftLayer_Virtual_Guest_Network_Component](/reference/services/SoftLayer_Virtual_Guest_Network_Component)::getGuest
-
-
-Retrieve the computing instance that this network component exists on.
-
-
-## Overview 
-Retrieve the computing instance that this network component exists on.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Virtual_Guest_Network_ComponentInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Virtual_Guest_Network_ComponentObjectMask
-* SoftLayer_Virtual_Guest_Network_ComponentObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Virtual_Guest'>SoftLayer_Virtual_Guest </a>
-
-
-
-

@@ -1,45 +1,14 @@
 ---
 title: "getCategory"
 description: ""
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Ticket"
 classes:
     - "SoftLayer_Ticket_Subject"
-aliases:
-    - "/reference/services/softlayer_ticket_subject/getCategory"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Ticket_Subject"
 ---
-# [SoftLayer_Ticket_Subject](/reference/services/SoftLayer_Ticket_Subject)::getCategory
-
-
-
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Ticket_SubjectInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Ticket_SubjectObjectMask
-* SoftLayer_Ticket_SubjectObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Ticket_Subject_Category'>SoftLayer_Ticket_Subject_Category </a>
-
-
-
-

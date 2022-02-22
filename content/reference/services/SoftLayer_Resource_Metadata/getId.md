@@ -1,38 +1,14 @@
 ---
 title: "getId"
 description: "The getId method retrieves the ID for the resource"
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Resource"
 classes:
     - "SoftLayer_Resource_Metadata"
-aliases:
-    - "/reference/services/softlayer_resource_metadata/getId"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Resource_Metadata"
 ---
-# [SoftLayer_Resource_Metadata](/reference/services/SoftLayer_Resource_Metadata)::getId
-
-
-A resource's id
-
-
-## Overview 
-The getId method retrieves the ID for the resource
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-
-
-### Return Values
-* integer
-
-
-
-

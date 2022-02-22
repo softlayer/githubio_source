@@ -1,40 +1,14 @@
 ---
 title: "getReviewerAccessToken"
-description: "Exchanges a code for a token during reviewer validation."
-layout: "method"
+description: "Exchanges a code for a token during reviewer validation. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Account"
 classes:
     - "SoftLayer_Account_ProofOfConcept"
-aliases:
-    - "/reference/services/softlayer_account_proofofconcept/getReviewerAccessToken"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Account_ProofOfConcept"
 ---
-# [SoftLayer_Account_ProofOfConcept](/reference/services/SoftLayer_Account_ProofOfConcept)::getReviewerAccessToken
-
-
-Exchanges a token
-
-
-## Overview 
-Exchanges a code for a token during reviewer validation. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|unverifiedAuthenticationCode| string| |
-
-
-### Required Headers
-* authenticate
-
-
-### Return Values
-* string
-
-
-
-

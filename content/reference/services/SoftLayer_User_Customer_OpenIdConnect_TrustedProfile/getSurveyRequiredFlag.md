@@ -1,45 +1,14 @@
 ---
 title: "getSurveyRequiredFlag"
-description: "Retrieve whether or not a user must take a brief survey the next time they log into the SoftLayer customer portal."
-layout: "method"
+description: "Whether or not a user must take a brief survey the next time they log into the SoftLayer customer portal."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "User"
 classes:
     - "SoftLayer_User_Customer_OpenIdConnect_TrustedProfile"
-aliases:
-    - "/reference/services/softlayer_user_customer_openidconnect_trustedprofile/getSurveyRequiredFlag"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_User_Customer_OpenIdConnect_TrustedProfile"
 ---
-# [SoftLayer_User_Customer_OpenIdConnect_TrustedProfile](/reference/services/SoftLayer_User_Customer_OpenIdConnect_TrustedProfile)::getSurveyRequiredFlag
-
-
-Retrieve whether or not a user must take a brief survey the next time they log into the SoftLayer customer portal.
-
-
-## Overview 
-Retrieve whether or not a user must take a brief survey the next time they log into the SoftLayer customer portal.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_User_Customer_OpenIdConnect_TrustedProfileInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_User_Customer_OpenIdConnect_TrustedProfileObjectMask
-* SoftLayer_User_Customer_OpenIdConnect_TrustedProfileObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* boolean
-
-
-
-

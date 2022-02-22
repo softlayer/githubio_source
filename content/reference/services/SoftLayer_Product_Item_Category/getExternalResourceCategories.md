@@ -1,43 +1,14 @@
 ---
 title: "getExternalResourceCategories"
 description: ""
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Product"
 classes:
     - "SoftLayer_Product_Item_Category"
-aliases:
-    - "/reference/services/softlayer_product_item_category/getExternalResourceCategories"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Product_Item_Category"
 ---
-# [SoftLayer_Product_Item_Category](/reference/services/SoftLayer_Product_Item_Category)::getExternalResourceCategories
-
-
-
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Product_Item_CategoryObjectMask
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Product_Item_Category'>SoftLayer_Product_Item_Category[] </a>
-
-
-
-

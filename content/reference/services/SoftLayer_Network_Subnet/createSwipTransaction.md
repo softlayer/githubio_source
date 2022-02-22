@@ -1,63 +1,16 @@
 ---
 title: "createSwipTransaction"
-description: "***DEPRECATED***
-This function is used to create a new SoftLayer SWIP transaction to register your RWHOIS data with ARIN... "
-layout: "method"
+description: "
+***DEPRECATED***
+This function is used to create a new SoftLayer SWIP transaction to register your RWHOIS data with ARIN. SWIP transactions can only be initiated on subnets that contain more than 8 IP addresses. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Subnet"
-aliases:
-    - "/reference/services/softlayer_network_subnet/createSwipTransaction"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Subnet"
 ---
-# [SoftLayer_Network_Subnet](/reference/services/SoftLayer_Network_Subnet)::createSwipTransaction
-
-<div class="deprecated"><span class="deprecation-label">Deprecated </span></div>
-
-create a SWIP transaction for a subnet
-
-
-## Overview 
-
-***DEPRECATED***
-This function is used to create a new SoftLayer SWIP transaction to register your RWHOIS data with ARIN. SWIP transactions can only be initiated on subnets that contain more than 8 IP addresses. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Network_SubnetInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-### Error Handling
-
-* SoftLayer_Exception_PrivateSubnet 
-
-> Exception thrown if a SWIP is attempted on a private network subnet. 
-
-* SoftLayer_Exception_SubnetTooSmall 
-
-> Exception thrown if a SWIP is attempted on a subnet smaller than 8 IP addresses. 
-
-* SoftLayer_Exception_PreexistingTransaction 
-
-> Exception thrown if a SWIP is attempted on a subnet that already has a SWIP transaction in progress. 
-
-* SoftLayer_Exception_Network_Subnet_Registration 
-
-> Exception thrown if an active registration already exists 
-
-
-

@@ -1,45 +1,14 @@
 ---
 title: "getPreviousCyclePeakUsage"
-description: "Retrieve peak number of bytes used in the vault for the previous billing cycle."
-layout: "method"
+description: "Peak number of bytes used in the vault for the previous billing cycle."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
-aliases:
-    - "/reference/services/softlayer_network_storage_backup_evault/getPreviousCyclePeakUsage"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getPreviousCyclePeakUsage
-
-
-Retrieve peak number of bytes used in the vault for the previous billing cycle.
-
-
-## Overview 
-Retrieve peak number of bytes used in the vault for the previous billing cycle.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Network_Storage_Backup_EvaultInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Network_Storage_Backup_EvaultObjectMask
-* SoftLayer_Network_Storage_Backup_EvaultObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* unsigned integer
-
-
-
-

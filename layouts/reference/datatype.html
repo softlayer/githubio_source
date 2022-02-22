@@ -1,3 +1,4 @@
+{{ $thisPage := index $.Site.Data.sldn_metadata .Title }}
 {{ partial "header.html" . }}
 <body>
 
@@ -12,11 +13,19 @@
         </div>
         <div class="col-md-9">
 
-                {{ .Content }}
-        </div>
+            <h1 id="{{.Title}}"> {{.Title}} </h1>
+            {{ partial "service_datatype_links.html" $thisPage}}
 
+            <h2 id="description">Description</h2>
+            {{ if $thisPage.deprecated }}
+                <div class="deprecated"><span class="deprecation-label">Deprecated  </span></div>
+            {{ end }}
+            {{ $thisPage.typeDoc | markdownify }}
+
+            {{ partial "datatype_properties.html" $thisPage}}
+
+        </div>
     </div>
-    <hr>
 
 {{ partial "footer.copyright.html" . }}
 </div>

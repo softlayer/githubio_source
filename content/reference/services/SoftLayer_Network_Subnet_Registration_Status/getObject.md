@@ -1,45 +1,14 @@
 ---
 title: "getObject"
-description: ""
-layout: "method"
+description: "Retrieve a SoftLayer_Network_Subnet_Registration_Status record."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Subnet_Registration_Status"
-aliases:
-    - "/reference/services/softlayer_network_subnet_registration_status/getObject"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Subnet_Registration_Status"
 ---
-# [SoftLayer_Network_Subnet_Registration_Status](/reference/services/SoftLayer_Network_Subnet_Registration_Status)::getObject
-
-
-Retrieve a SoftLayer_Network_Subnet_Registration_Status record.
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Network_Subnet_Registration_StatusInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Network_Subnet_Registration_StatusObjectMask
-* SoftLayer_Network_Subnet_Registration_StatusObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Network_Subnet_Registration_Status'>SoftLayer_Network_Subnet_Registration_Status </a>
-
-
-
-

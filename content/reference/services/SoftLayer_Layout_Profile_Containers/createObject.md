@@ -1,40 +1,14 @@
 ---
 title: "createObject"
-description: ""
-layout: "method"
+description: "Associate a layout container with a profile"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Layout"
 classes:
     - "SoftLayer_Layout_Profile_Containers"
-aliases:
-    - "/reference/services/softlayer_layout_profile_containers/createObject"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Layout_Profile_Containers"
 ---
-# [SoftLayer_Layout_Profile_Containers](/reference/services/SoftLayer_Layout_Profile_Containers)::createObject
-
-
-Associate a layout container with a profile
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|templateObject| <a href='/reference/datatypes/SoftLayer_Layout_Profile_Containers'>SoftLayer_Layout_Profile_Containers </a>| The SoftLayer_Layout_Profile_Containers object that you wish to create.|
-
-
-### Required Headers
-* authenticate
-
-
-### Return Values
-* boolean
-
-
-
-

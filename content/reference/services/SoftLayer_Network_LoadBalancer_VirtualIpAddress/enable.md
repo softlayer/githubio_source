@@ -1,45 +1,14 @@
 ---
 title: "enable"
-description: "Enable a disabled Virtual IP Address, allowing connections back to the IP address."
-layout: "method"
+description: "Enable a disabled Virtual IP Address, allowing connections back to the IP address. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_LoadBalancer_VirtualIpAddress"
-aliases:
-    - "/reference/services/softlayer_network_loadbalancer_virtualipaddress/enable"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_LoadBalancer_VirtualIpAddress"
 ---
-# [SoftLayer_Network_LoadBalancer_VirtualIpAddress](/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress)::enable
-
-
-Enable a Virtual IP Address
-
-
-## Overview 
-Enable a disabled Virtual IP Address, allowing connections back to the IP address. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Network_LoadBalancer_VirtualIpAddressInitParameters
-
-
-### Return Values
-* boolean
-
-
-### Associated Methods
-
-*  [SoftLayer_Network_LoadBalancer_VirtualIpAddress::disable](/reference/services/SoftLayer_Network_LoadBalancer_VirtualIpAddress/disable )
-
-
-
-

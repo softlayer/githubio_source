@@ -1,41 +1,14 @@
 ---
 title: "attachToVolume"
-description: "Use this method to attach a SoftLayer_Network_Storage volume to this group.  This will automatically enable access to th... "
-layout: "method"
+description: "Use this method to attach a SoftLayer_Network_Storage volume to this group.  This will automatically enable access to this volume for any SoftLayer_Network_Storage_Allowed_Host objects currently attached to this group. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_Group_Nfs"
-aliases:
-    - "/reference/services/softlayer_network_storage_group_nfs/attachToVolume"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Storage_Group_Nfs"
 ---
-# [SoftLayer_Network_Storage_Group_Nfs](/reference/services/SoftLayer_Network_Storage_Group_Nfs)::attachToVolume
-
-
-Attach a SoftLayer_Network_Storage volume to this group
-
-
-## Overview 
-Use this method to attach a SoftLayer_Network_Storage volume to this group.  This will automatically enable access to this volume for any SoftLayer_Network_Storage_Allowed_Host objects currently attached to this group. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|volume| <a href='/reference/datatypes/SoftLayer_Network_Storage'>SoftLayer_Network_Storage </a>| |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Network_Storage_Group_NfsInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

@@ -1,45 +1,14 @@
 ---
 title: "getPreconfiguredFlag"
-description: "Retrieve this flag indicates the package is pre-configured. (Deprecated)"
-layout: "method"
+description: "This flag indicates the package is pre-configured. (Deprecated)"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Product"
 classes:
     - "SoftLayer_Product_Package"
-aliases:
-    - "/reference/services/softlayer_product_package/getPreconfiguredFlag"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Product_Package"
 ---
-# [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getPreconfiguredFlag
-
-
-Retrieve this flag indicates the package is pre-configured. (Deprecated)
-
-
-## Overview 
-Retrieve this flag indicates the package is pre-configured. (Deprecated)
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Product_PackageInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Product_PackageObjectMask
-* SoftLayer_Product_PackageObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* boolean
-
-
-
-

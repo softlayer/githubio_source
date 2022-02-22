@@ -2,48 +2,15 @@
 title: "getAllGroups"
 description: "Get all configuration definition group objects. 
 
-''getAllGroups'' returns an array of SoftLayer_Configuration_Template_... "
-layout: "method"
+''getAllGroups'' returns an array of SoftLayer_Configuration_Template_Section_Definition_Group objects upon success. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Configuration"
 classes:
     - "SoftLayer_Configuration_Template_Section_Definition_Group"
-aliases:
-    - "/reference/services/softlayer_configuration_template_section_definition_group/getAllGroups"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Configuration_Template_Section_Definition_Group"
 ---
-# [SoftLayer_Configuration_Template_Section_Definition_Group](/reference/services/SoftLayer_Configuration_Template_Section_Definition_Group)::getAllGroups
-
-
-
-
-
-## Overview 
-Get all configuration definition group objects. 
-
-''getAllGroups'' returns an array of SoftLayer_Configuration_Template_Section_Definition_Group objects upon success. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Configuration_Template_Section_Definition_GroupObjectMask
-* SoftLayer_ObjectMask
-* SoftLayer_Configuration_Template_Section_Definition_GroupObjectFilter
-* resultLimit
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Configuration_Template_Section_Definition_Group'>SoftLayer_Configuration_Template_Section_Definition_Group[] </a>
-
-
-
-

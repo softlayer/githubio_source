@@ -1,45 +1,14 @@
 ---
 title: "getObject"
-description: ""
-layout: "method"
+description: "Retrieve a SoftLayer_Network_SecurityGroup record."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_SecurityGroup"
-aliases:
-    - "/reference/services/softlayer_network_securitygroup/getObject"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_SecurityGroup"
 ---
-# [SoftLayer_Network_SecurityGroup](/reference/services/SoftLayer_Network_SecurityGroup)::getObject
-
-
-Retrieve a SoftLayer_Network_SecurityGroup record.
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Network_SecurityGroupInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Network_SecurityGroupObjectMask
-* SoftLayer_Network_SecurityGroupObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Network_SecurityGroup'>SoftLayer_Network_SecurityGroup </a>
-
-
-
-

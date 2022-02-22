@@ -1,45 +1,14 @@
 ---
 title: "getBillingItemFlag"
-description: "Retrieve a flag indicating that a billing item exists."
-layout: "method"
+description: "A flag indicating that a billing item exists."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Hardware"
 classes:
     - "SoftLayer_Hardware_SecurityModule750"
-aliases:
-    - "/reference/services/softlayer_hardware_securitymodule750/getBillingItemFlag"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Hardware_SecurityModule750"
 ---
-# [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getBillingItemFlag
-
-
-Retrieve a flag indicating that a billing item exists.
-
-
-## Overview 
-Retrieve a flag indicating that a billing item exists.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Hardware_SecurityModule750InitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Hardware_SecurityModule750ObjectMask
-* SoftLayer_Hardware_SecurityModule750ObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* boolean
-
-
-
-

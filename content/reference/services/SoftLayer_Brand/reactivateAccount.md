@@ -1,41 +1,14 @@
 ---
 title: "reactivateAccount"
-description: "Reactivate an account associated with this Brand.  Anything that would disqualify the account from being reactivated wil... "
-layout: "method"
+description: "Reactivate an account associated with this Brand.  Anything that would disqualify the account from being reactivated will cause an exception to be raised. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Brand"
 classes:
     - "SoftLayer_Brand"
-aliases:
-    - "/reference/services/softlayer_brand/reactivateAccount"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Brand"
 ---
-# [SoftLayer_Brand](/reference/services/SoftLayer_Brand)::reactivateAccount
-
-
-
-
-
-## Overview 
-Reactivate an account associated with this Brand.  Anything that would disqualify the account from being reactivated will cause an exception to be raised. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|accountId| integer| |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_BrandInitParameters
-
-
-### Return Values
-* void
-
-
-
-

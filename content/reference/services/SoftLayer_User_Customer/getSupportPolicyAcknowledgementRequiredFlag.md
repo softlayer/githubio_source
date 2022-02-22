@@ -1,45 +1,14 @@
 ---
 title: "getSupportPolicyAcknowledgementRequiredFlag"
-description: "Retrieve whether or not a user is required to acknowledge the support policy for portal access."
-layout: "method"
+description: "Whether or not a user is required to acknowledge the support policy for portal access."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "User"
 classes:
     - "SoftLayer_User_Customer"
-aliases:
-    - "/reference/services/softlayer_user_customer/getSupportPolicyAcknowledgementRequiredFlag"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_User_Customer"
 ---
-# [SoftLayer_User_Customer](/reference/services/SoftLayer_User_Customer)::getSupportPolicyAcknowledgementRequiredFlag
-
-
-Retrieve whether or not a user is required to acknowledge the support policy for portal access.
-
-
-## Overview 
-Retrieve whether or not a user is required to acknowledge the support policy for portal access.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_User_CustomerInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_User_CustomerObjectMask
-* SoftLayer_User_CustomerObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* integer
-
-
-
-

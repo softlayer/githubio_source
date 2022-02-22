@@ -1,45 +1,14 @@
 ---
 title: "getStorageNetworkFlag"
-description: "Retrieve whether a network component's primary ip address is from a storage network subnet or not. [Deprecated]"
-layout: "method"
+description: "Whether a network component's primary ip address is from a storage network subnet or not. [Deprecated]"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Component"
-aliases:
-    - "/reference/services/softlayer_network_component/getStorageNetworkFlag"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Component"
 ---
-# [SoftLayer_Network_Component](/reference/services/SoftLayer_Network_Component)::getStorageNetworkFlag
-
-
-Retrieve whether a network component's primary ip address is from a storage network subnet or not. [Deprecated]
-
-
-## Overview 
-Retrieve whether a network component's primary ip address is from a storage network subnet or not. [Deprecated]
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Network_ComponentInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Network_ComponentObjectMask
-* SoftLayer_Network_ComponentObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* boolean
-
-
-
-

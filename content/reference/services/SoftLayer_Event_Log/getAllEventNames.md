@@ -1,40 +1,14 @@
 ---
 title: "getAllEventNames"
-description: "This all indexed event names."
-layout: "method"
+description: "This all indexed event names. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Event"
 classes:
     - "SoftLayer_Event_Log"
-aliases:
-    - "/reference/services/softlayer_event_log/getAllEventNames"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Event_Log"
 ---
-# [SoftLayer_Event_Log](/reference/services/SoftLayer_Event_Log)::getAllEventNames
-
-
-Return all indexed event names.
-
-
-## Overview 
-This all indexed event names. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|objectName| string| Object name.|
-
-
-### Required Headers
-* authenticate
-
-
-### Return Values
-* array of strings
-
-
-
-

@@ -1,45 +1,14 @@
 ---
 title: "getHardware"
-description: "Retrieve the downstream server that the rule set will be applied to."
-layout: "method"
+description: "The downstream server that the rule set will be applied to."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Firewall_Update_Request"
-aliases:
-    - "/reference/services/softlayer_network_firewall_update_request/getHardware"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Firewall_Update_Request"
 ---
-# [SoftLayer_Network_Firewall_Update_Request](/reference/services/SoftLayer_Network_Firewall_Update_Request)::getHardware
-
-
-Retrieve the downstream server that the rule set will be applied to.
-
-
-## Overview 
-Retrieve the downstream server that the rule set will be applied to.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Network_Firewall_Update_RequestInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Network_Firewall_Update_RequestObjectMask
-* SoftLayer_Network_Firewall_Update_RequestObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware </a>
-
-
-
-

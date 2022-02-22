@@ -1,41 +1,14 @@
 ---
 title: "checkAccountWhiteList"
 description: ""
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Gateway"
-aliases:
-    - "/reference/services/softlayer_network_gateway/checkAccountWhiteList"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Gateway"
 ---
-# [SoftLayer_Network_Gateway](/reference/services/SoftLayer_Network_Gateway)::checkAccountWhiteList
-
-
-
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|accountId| integer| |
-|category| string| |
-
-
-### Required Headers
-* authenticate
-
-
-### Return Values
-* boolean
-
-
-
-

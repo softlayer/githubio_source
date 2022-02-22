@@ -1,45 +1,14 @@
 ---
 title: "getEnabled"
 description: ""
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Email"
 classes:
     - "SoftLayer_Email_Subscription"
-aliases:
-    - "/reference/services/softlayer_email_subscription/getEnabled"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Email_Subscription"
 ---
-# [SoftLayer_Email_Subscription](/reference/services/SoftLayer_Email_Subscription)::getEnabled
-
-
-
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Email_SubscriptionInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Email_SubscriptionObjectMask
-* SoftLayer_Email_SubscriptionObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* boolean
-
-
-
-

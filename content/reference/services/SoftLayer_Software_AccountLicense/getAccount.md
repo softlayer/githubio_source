@@ -1,45 +1,14 @@
 ---
 title: "getAccount"
-description: "Retrieve the customer account this Account License belongs to."
-layout: "method"
+description: "The customer account this Account License belongs to."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Software"
 classes:
     - "SoftLayer_Software_AccountLicense"
-aliases:
-    - "/reference/services/softlayer_software_accountlicense/getAccount"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Software_AccountLicense"
 ---
-# [SoftLayer_Software_AccountLicense](/reference/services/SoftLayer_Software_AccountLicense)::getAccount
-
-
-Retrieve the customer account this Account License belongs to.
-
-
-## Overview 
-Retrieve the customer account this Account License belongs to.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Software_AccountLicenseInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Software_AccountLicenseObjectMask
-* SoftLayer_Software_AccountLicenseObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
-
-
-
-

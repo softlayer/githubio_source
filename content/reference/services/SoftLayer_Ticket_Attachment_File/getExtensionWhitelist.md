@@ -1,39 +1,14 @@
 ---
 title: "getExtensionWhitelist"
 description: ""
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Ticket"
 classes:
     - "SoftLayer_Ticket_Attachment_File"
-aliases:
-    - "/reference/services/softlayer_ticket_attachment_file/getExtensionWhitelist"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Ticket_Attachment_File"
 ---
-# [SoftLayer_Ticket_Attachment_File](/reference/services/SoftLayer_Ticket_Attachment_File)::getExtensionWhitelist
-
-
-
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-
-
-### Return Values
-* array of strings
-
-
-
-

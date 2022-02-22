@@ -1,42 +1,16 @@
 ---
 title: "osReloadPrecheck"
-description: "Create an OS Reload Network Gateway Precheck transaction."
-layout: "method"
+description: "Create an OS Reload Network Gateway Precheck transaction. 
+
+"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Gateway_Precheck"
-aliases:
-    - "/reference/services/softlayer_network_gateway_precheck/osReloadPrecheck"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Gateway_Precheck"
 ---
-# [SoftLayer_Network_Gateway_Precheck](/reference/services/SoftLayer_Network_Gateway_Precheck)::osReloadPrecheck
-
-
-OS Reload Gateway Precheck
-
-
-## Overview 
-Create an OS Reload Network Gateway Precheck transaction. 
-
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|gatewayId| integer| |
-
-
-### Required Headers
-* authenticate
-
-
-### Return Values
-* boolean
-
-
-
-

@@ -1,44 +1,14 @@
 ---
 title: "getForcePaasAccountLinkDate"
-description: "Retrieve timestamp representing the point in time when an account is required to link with PaaS."
-layout: "method"
+description: "Timestamp representing the point in time when an account is required to link with PaaS."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Account"
 classes:
     - "SoftLayer_Account"
-aliases:
-    - "/reference/services/softlayer_account/getForcePaasAccountLinkDate"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Account"
 ---
-# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getForcePaasAccountLinkDate
-
-
-Retrieve timestamp representing the point in time when an account is required to link with PaaS.
-
-
-## Overview 
-Retrieve timestamp representing the point in time when an account is required to link with PaaS.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_AccountObjectMask
-* SoftLayer_AccountObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* string
-
-
-
-

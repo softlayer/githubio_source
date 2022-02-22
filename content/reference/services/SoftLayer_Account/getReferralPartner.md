@@ -1,44 +1,14 @@
 ---
 title: "getReferralPartner"
-description: "Retrieve the Referral Partner for this account, if any."
-layout: "method"
+description: "The Referral Partner for this account, if any."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Account"
 classes:
     - "SoftLayer_Account"
-aliases:
-    - "/reference/services/softlayer_account/getReferralPartner"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Account"
 ---
-# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getReferralPartner
-
-
-Retrieve the Referral Partner for this account, if any.
-
-
-## Overview 
-Retrieve the Referral Partner for this account, if any.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_AccountObjectMask
-* SoftLayer_AccountObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Account'>SoftLayer_Account </a>
-
-
-
-

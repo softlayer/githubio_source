@@ -1,40 +1,14 @@
 ---
 title: "powerOffSoft"
-description: "Power off a virtual guest"
-layout: "method"
+description: "Power off a virtual guest "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Virtual"
 classes:
     - "SoftLayer_Virtual_Guest"
-aliases:
-    - "/reference/services/softlayer_virtual_guest/powerOffSoft"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Virtual_Guest"
 ---
-# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::powerOffSoft
-
-
-Cleanly shut down a guest and disable power
-
-
-## Overview 
-Power off a virtual guest 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Virtual_GuestInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

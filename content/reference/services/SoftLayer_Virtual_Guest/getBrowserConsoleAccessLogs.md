@@ -1,46 +1,14 @@
 ---
 title: "getBrowserConsoleAccessLogs"
-description: "Retrieve a virtual guest's browser access logs."
-layout: "method"
+description: "A virtual guest's browser access logs."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Virtual"
 classes:
     - "SoftLayer_Virtual_Guest"
-aliases:
-    - "/reference/services/softlayer_virtual_guest/getBrowserConsoleAccessLogs"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Virtual_Guest"
 ---
-# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getBrowserConsoleAccessLogs
-
-
-Retrieve a virtual guest's browser access logs.
-
-
-## Overview 
-Retrieve a virtual guest's browser access logs.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Virtual_GuestInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Virtual_GuestObjectMask
-* SoftLayer_Virtual_GuestObjectFilter
-* resultLimit
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Virtual_BrowserConsoleAccessLog'>SoftLayer_Virtual_BrowserConsoleAccessLog[] </a>
-
-
-
-

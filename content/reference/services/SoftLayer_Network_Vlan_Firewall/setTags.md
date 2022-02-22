@@ -1,41 +1,14 @@
 ---
 title: "setTags"
-description: "This method will associate a comma separated list of tags with this object."
-layout: "method"
+description: "This method will associate a comma separated list of tags with this object. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Vlan_Firewall"
-aliases:
-    - "/reference/services/softlayer_network_vlan_firewall/setTags"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Vlan_Firewall"
 ---
-# [SoftLayer_Network_Vlan_Firewall](/reference/services/SoftLayer_Network_Vlan_Firewall)::setTags
-
-
-
-
-
-## Overview 
-This method will associate a comma separated list of tags with this object. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|tags| string| comma separated list of tags input by user|
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Network_Vlan_FirewallInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

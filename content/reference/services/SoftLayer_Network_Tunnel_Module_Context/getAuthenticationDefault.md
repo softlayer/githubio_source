@@ -1,39 +1,14 @@
 ---
 title: "getAuthenticationDefault"
-description: "The default authentication type used for both phases of the negotiation process.  The default value is set to MD5."
-layout: "method"
+description: "The default authentication type used for both phases of the negotiation process.  The default value is set to MD5. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Tunnel_Module_Context"
-aliases:
-    - "/reference/services/softlayer_network_tunnel_module_context/getAuthenticationDefault"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Tunnel_Module_Context"
 ---
-# [SoftLayer_Network_Tunnel_Module_Context](/reference/services/SoftLayer_Network_Tunnel_Module_Context)::getAuthenticationDefault
-
-
-Returns the authentication default.
-
-
-## Overview 
-The default authentication type used for both phases of the negotiation process.  The default value is set to MD5. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-
-
-### Return Values
-* string
-
-
-
-

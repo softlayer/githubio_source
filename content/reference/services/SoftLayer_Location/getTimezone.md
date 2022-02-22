@@ -1,45 +1,14 @@
 ---
 title: "getTimezone"
 description: ""
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Location"
 classes:
     - "SoftLayer_Location"
-aliases:
-    - "/reference/services/softlayer_location/getTimezone"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Location"
 ---
-# [SoftLayer_Location](/reference/services/SoftLayer_Location)::getTimezone
-
-
-
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_LocationInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_LocationObjectMask
-* SoftLayer_LocationObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Locale_Timezone'>SoftLayer_Locale_Timezone </a>
-
-
-
-

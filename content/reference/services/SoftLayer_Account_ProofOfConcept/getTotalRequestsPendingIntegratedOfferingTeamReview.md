@@ -1,40 +1,14 @@
 ---
 title: "getTotalRequestsPendingIntegratedOfferingTeamReview"
 description: ""
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Account"
 classes:
     - "SoftLayer_Account_ProofOfConcept"
-aliases:
-    - "/reference/services/softlayer_account_proofofconcept/getTotalRequestsPendingIntegratedOfferingTeamReview"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Account_ProofOfConcept"
 ---
-# [SoftLayer_Account_ProofOfConcept](/reference/services/SoftLayer_Account_ProofOfConcept)::getTotalRequestsPendingIntegratedOfferingTeamReview
-
-
-
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|accessToken| string| |
-
-
-### Required Headers
-* authenticate
-
-
-### Return Values
-* integer
-
-
-
-

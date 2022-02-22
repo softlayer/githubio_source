@@ -1,46 +1,14 @@
 ---
 title: "getNetworkComponentBindings"
-description: "Retrieve the network component bindings for this security group."
-layout: "method"
+description: "The network component bindings for this security group."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_SecurityGroup"
-aliases:
-    - "/reference/services/softlayer_network_securitygroup/getNetworkComponentBindings"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_SecurityGroup"
 ---
-# [SoftLayer_Network_SecurityGroup](/reference/services/SoftLayer_Network_SecurityGroup)::getNetworkComponentBindings
-
-
-Retrieve the network component bindings for this security group.
-
-
-## Overview 
-Retrieve the network component bindings for this security group.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Network_SecurityGroupInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Network_SecurityGroupObjectMask
-* SoftLayer_Network_SecurityGroupObjectFilter
-* resultLimit
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Virtual_Network_SecurityGroup_NetworkComponentBinding'>SoftLayer_Virtual_Network_SecurityGroup_NetworkComponentBinding[] </a>
-
-
-
-

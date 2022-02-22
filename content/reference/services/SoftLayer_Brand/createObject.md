@@ -1,25 +1,6 @@
 ---
 title: "createObject"
-description: "createObject() allows the creation of a new brand. This will also create an `account` 
-to serve as the owner of the bran... "
-layout: "method"
-tags:
-    - "method"
-    - "sldn"
-    - "Brand"
-classes:
-    - "SoftLayer_Brand"
-aliases:
-    - "/reference/services/softlayer_brand/createObject"
----
-# [SoftLayer_Brand](/reference/services/SoftLayer_Brand)::createObject
-
-
-Create a new brand.
-
-
-## Overview 
-
+description: "
 createObject() allows the creation of a new brand. This will also create an `account` 
 to serve as the owner of the brand. 
 
@@ -27,7 +8,7 @@ to serve as the owner of the brand.
 In order to create a brand, a template object must be sent in with several required values. 
 
 
-### Input [SoftLayer_Brand]({{<ref "reference/datatypes/SoftLayer_Brand">}})
+### Input [SoftLayer_Brand](/reference/datatypes/SoftLayer_Brand)
 
 
 
@@ -96,45 +77,33 @@ In order to create a brand, a template object must be sent in with several requi
 REST Example: 
 ``` 
 curl -X POST -d '{ 
-    "parameters":[{ 
-        "name": "Brand Corp", 
-        "keyName": "BRAND_CORP", 
-        "longName": "Brand Corporation", 
-        "account": { 
-            "firstName": "Gloria", 
-            "lastName": "Brand", 
-            "address1": "123 Drive", 
-            "city": "Boston", 
-            "state": "MA", 
-            "postalCode": "02107", 
-            "country": "US", 
-            "companyName": "Brand Corp", 
-            "officePhone": "857-111-1111", 
-            "email": "noreply@example.com" 
+    'parameters':[{ 
+        'name': 'Brand Corp', 
+        'keyName': 'BRAND_CORP', 
+        'longName': 'Brand Corporation', 
+        'account': { 
+            'firstName': 'Gloria', 
+            'lastName': 'Brand', 
+            'address1': '123 Drive', 
+            'city': 'Boston', 
+            'state': 'MA', 
+            'postalCode': '02107', 
+            'country': 'US', 
+            'companyName': 'Brand Corp', 
+            'officePhone': '857-111-1111', 
+            'email': 'noreply@example.com' 
         } 
     }] 
 }' https://api.softlayer.com/rest/v3.1/SoftLayer_Brand/createObject.json 
-``` 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|templateObject| <a href='/reference/datatypes/SoftLayer_Brand'>SoftLayer_Brand </a>| The SoftLayer_Brand object that you wish to create.|
-
-
-### Required Headers
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_BrandObjectMask
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Brand'>SoftLayer_Brand </a>
-
-
-
-
+``` "
+date: "2018-02-12"
+tags:
+    - "method"
+    - "sldn"
+    - "Brand"
+classes:
+    - "SoftLayer_Brand"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Brand"
+---

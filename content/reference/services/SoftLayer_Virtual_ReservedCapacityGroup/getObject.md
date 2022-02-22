@@ -1,45 +1,14 @@
 ---
 title: "getObject"
-description: ""
-layout: "method"
+description: "Retrieve a SoftLayer_Virtual_ReservedCapacityGroup record."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Virtual"
 classes:
     - "SoftLayer_Virtual_ReservedCapacityGroup"
-aliases:
-    - "/reference/services/softlayer_virtual_reservedcapacitygroup/getObject"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Virtual_ReservedCapacityGroup"
 ---
-# [SoftLayer_Virtual_ReservedCapacityGroup](/reference/services/SoftLayer_Virtual_ReservedCapacityGroup)::getObject
-
-
-Retrieve a SoftLayer_Virtual_ReservedCapacityGroup record.
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Virtual_ReservedCapacityGroupInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Virtual_ReservedCapacityGroupObjectMask
-* SoftLayer_Virtual_ReservedCapacityGroupObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Virtual_ReservedCapacityGroup'>SoftLayer_Virtual_ReservedCapacityGroup </a>
-
-
-
-

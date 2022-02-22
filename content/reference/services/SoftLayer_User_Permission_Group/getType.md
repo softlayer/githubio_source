@@ -1,45 +1,14 @@
 ---
 title: "getType"
-description: "Retrieve the type of the permission group."
-layout: "method"
+description: "The type of the permission group."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "User"
 classes:
     - "SoftLayer_User_Permission_Group"
-aliases:
-    - "/reference/services/softlayer_user_permission_group/getType"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_User_Permission_Group"
 ---
-# [SoftLayer_User_Permission_Group](/reference/services/SoftLayer_User_Permission_Group)::getType
-
-
-Retrieve the type of the permission group.
-
-
-## Overview 
-Retrieve the type of the permission group.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_User_Permission_GroupInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_User_Permission_GroupObjectMask
-* SoftLayer_User_Permission_GroupObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_User_Permission_Group_Type'>SoftLayer_User_Permission_Group_Type </a>
-
-
-
-

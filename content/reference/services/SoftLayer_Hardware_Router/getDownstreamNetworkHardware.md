@@ -1,46 +1,14 @@
 ---
 title: "getDownstreamNetworkHardware"
-description: "Retrieve all network hardware downstream from the selected piece of hardware."
-layout: "method"
+description: "All network hardware downstream from the selected piece of hardware."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Hardware"
 classes:
     - "SoftLayer_Hardware_Router"
-aliases:
-    - "/reference/services/softlayer_hardware_router/getDownstreamNetworkHardware"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Hardware_Router"
 ---
-# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getDownstreamNetworkHardware
-
-
-Retrieve all network hardware downstream from the selected piece of hardware.
-
-
-## Overview 
-Retrieve all network hardware downstream from the selected piece of hardware.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Hardware_RouterInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Hardware_RouterObjectMask
-* SoftLayer_Hardware_RouterObjectFilter
-* resultLimit
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Hardware'>SoftLayer_Hardware[] </a>
-
-
-
-

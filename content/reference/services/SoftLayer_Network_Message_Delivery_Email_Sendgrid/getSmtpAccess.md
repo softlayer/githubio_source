@@ -1,45 +1,14 @@
 ---
 title: "getSmtpAccess"
-description: "Retrieve a flag that determines if a SendGrid e-mail delivery account has access to send mail through the SendGrid SMTP... "
-layout: "method"
+description: "A flag that determines if a SendGrid e-mail delivery account has access to send mail through the SendGrid SMTP server."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Message_Delivery_Email_Sendgrid"
-aliases:
-    - "/reference/services/softlayer_network_message_delivery_email_sendgrid/getSmtpAccess"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Message_Delivery_Email_Sendgrid"
 ---
-# [SoftLayer_Network_Message_Delivery_Email_Sendgrid](/reference/services/SoftLayer_Network_Message_Delivery_Email_Sendgrid)::getSmtpAccess
-
-
-Retrieve a flag that determines if a SendGrid e-mail delivery account has access to send mail through the SendGrid SMTP server.
-
-
-## Overview 
-Retrieve a flag that determines if a SendGrid e-mail delivery account has access to send mail through the SendGrid SMTP server.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Network_Message_Delivery_Email_SendgridInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Network_Message_Delivery_Email_SendgridObjectMask
-* SoftLayer_Network_Message_Delivery_Email_SendgridObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* string
-
-
-
-

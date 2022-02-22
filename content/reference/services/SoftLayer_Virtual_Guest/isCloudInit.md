@@ -1,40 +1,14 @@
 ---
 title: "isCloudInit"
-description: "Determines if the virtual guest was provisioned from a cloud-init enabled image."
-layout: "method"
+description: "Determines if the virtual guest was provisioned from a cloud-init enabled image. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Virtual"
 classes:
     - "SoftLayer_Virtual_Guest"
-aliases:
-    - "/reference/services/softlayer_virtual_guest/isCloudInit"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Virtual_Guest"
 ---
-# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::isCloudInit
-
-
-Determines if the virtual guest was provisioned from a cloud-init enabled image. 
-
-
-## Overview 
-Determines if the virtual guest was provisioned from a cloud-init enabled image. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Virtual_GuestInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

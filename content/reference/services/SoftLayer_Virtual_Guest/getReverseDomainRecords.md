@@ -1,44 +1,14 @@
 ---
 title: "getReverseDomainRecords"
-description: "Retrieve the reverse domain records associated with this server."
-layout: "method"
+description: "Retrieve the reverse domain records associated with this server. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Virtual"
 classes:
     - "SoftLayer_Virtual_Guest"
-aliases:
-    - "/reference/services/softlayer_virtual_guest/getReverseDomainRecords"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Virtual_Guest"
 ---
-# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::getReverseDomainRecords
-
-
-Retrieve the reverse domain records associated with a server.
-
-
-## Overview 
-Retrieve the reverse domain records associated with this server. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Virtual_GuestInitParameters
-
-
-### Optional Headers
-* SoftLayer_Virtual_GuestObjectMask
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Dns_Domain'>SoftLayer_Dns_Domain[] </a>
-
-
-
-

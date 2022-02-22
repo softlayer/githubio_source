@@ -1,45 +1,14 @@
 ---
 title: "getTicket"
-description: "Retrieve the ticket that a ticket update belongs to."
-layout: "method"
+description: "The ticket that a ticket update belongs to."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Ticket"
 classes:
     - "SoftLayer_Ticket_Update_Employee"
-aliases:
-    - "/reference/services/softlayer_ticket_update_employee/getTicket"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Ticket_Update_Employee"
 ---
-# [SoftLayer_Ticket_Update_Employee](/reference/services/SoftLayer_Ticket_Update_Employee)::getTicket
-
-
-Retrieve the ticket that a ticket update belongs to.
-
-
-## Overview 
-Retrieve the ticket that a ticket update belongs to.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Ticket_Update_EmployeeInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Ticket_Update_EmployeeObjectMask
-* SoftLayer_Ticket_Update_EmployeeObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Ticket'>SoftLayer_Ticket </a>
-
-
-
-

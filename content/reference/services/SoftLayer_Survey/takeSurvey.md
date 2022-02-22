@@ -1,41 +1,14 @@
 ---
 title: "takeSurvey"
-description: "Response to a SoftLayer survey's questions."
-layout: "method"
+description: "Response to a SoftLayer survey's questions. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Survey"
 classes:
     - "SoftLayer_Survey"
-aliases:
-    - "/reference/services/softlayer_survey/takeSurvey"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Survey"
 ---
-# [SoftLayer_Survey](/reference/services/SoftLayer_Survey)::takeSurvey
-
-
-Respond to the questions that a survey has.
-
-
-## Overview 
-Response to a SoftLayer survey's questions. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|responses| <a href='/reference/datatypes/SoftLayer_Survey_Response'>SoftLayer_Survey_Response[] </a>| Responses to the survey|
-
-
-### Required Headers
-* authenticate
-* SoftLayer_SurveyInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

@@ -1,39 +1,14 @@
 ---
 title: "samlBeginAuthentication"
 description: ""
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "User"
 classes:
     - "SoftLayer_User_Customer_OpenIdConnect"
-aliases:
-    - "/reference/services/softlayer_user_customer_openidconnect/samlBeginAuthentication"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_User_Customer_OpenIdConnect"
 ---
-# [SoftLayer_User_Customer_OpenIdConnect](/reference/services/SoftLayer_User_Customer_OpenIdConnect)::samlBeginAuthentication
-
-
-
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|accountId| integer| The account id|
-
-
-### Required Headers
-
-
-### Return Values
-* string
-
-
-
-

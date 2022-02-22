@@ -1,39 +1,14 @@
 ---
 title: "getPurgeGroupQuota"
-description: ""
-layout: "method"
+description: "This method gets a purge group quota. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_CdnMarketplace_Configuration_Cache_PurgeGroup"
-aliases:
-    - "/reference/services/softlayer_network_cdnmarketplace_configuration_cache_purgegroup/getPurgeGroupQuota"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_CdnMarketplace_Configuration_Cache_PurgeGroup"
 ---
-# [SoftLayer_Network_CdnMarketplace_Configuration_Cache_PurgeGroup](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Cache_PurgeGroup)::getPurgeGroupQuota
-
-
-This method gets a purge group quota. 
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-
-
-### Return Values
-* integer
-
-
-
-

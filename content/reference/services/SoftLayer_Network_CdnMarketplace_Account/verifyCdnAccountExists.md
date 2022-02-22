@@ -1,40 +1,14 @@
 ---
 title: "verifyCdnAccountExists"
-description: ""
-layout: "method"
+description: "Wrapper for UI to verify whether or not an account exists for user under specified vendor. Returns true if account exists, else false. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_CdnMarketplace_Account"
-aliases:
-    - "/reference/services/softlayer_network_cdnmarketplace_account/verifyCdnAccountExists"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_CdnMarketplace_Account"
 ---
-# [SoftLayer_Network_CdnMarketplace_Account](/reference/services/SoftLayer_Network_CdnMarketplace_Account)::verifyCdnAccountExists
-
-
-Wrapper for UI to verify whether or not an account exists for user under specified vendor. Returns true if account exists, else false. 
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|vendorName| string| |
-
-
-### Required Headers
-* authenticate
-
-
-### Return Values
-* boolean
-
-
-
-

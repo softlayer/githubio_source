@@ -1,45 +1,14 @@
 ---
 title: "getAvailableFlag"
-description: "Retrieve flag to indecate whether or not the reserved instance is available or not."
-layout: "method"
+description: "Flag to indecate whether or not the reserved instance is available or not."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Virtual"
 classes:
     - "SoftLayer_Virtual_ReservedCapacityGroup_Instance"
-aliases:
-    - "/reference/services/softlayer_virtual_reservedcapacitygroup_instance/getAvailableFlag"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Virtual_ReservedCapacityGroup_Instance"
 ---
-# [SoftLayer_Virtual_ReservedCapacityGroup_Instance](/reference/services/SoftLayer_Virtual_ReservedCapacityGroup_Instance)::getAvailableFlag
-
-
-Retrieve flag to indecate whether or not the reserved instance is available or not.
-
-
-## Overview 
-Retrieve flag to indecate whether or not the reserved instance is available or not.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Virtual_ReservedCapacityGroup_InstanceInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Virtual_ReservedCapacityGroup_InstanceObjectMask
-* SoftLayer_Virtual_ReservedCapacityGroup_InstanceObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* boolean
-
-
-
-

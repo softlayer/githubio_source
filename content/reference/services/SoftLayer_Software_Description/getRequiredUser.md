@@ -1,45 +1,14 @@
 ---
 title: "getRequiredUser"
-description: "Retrieve the default user created for a given a software description."
-layout: "method"
+description: "The default user created for a given a software description."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Software"
 classes:
     - "SoftLayer_Software_Description"
-aliases:
-    - "/reference/services/softlayer_software_description/getRequiredUser"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Software_Description"
 ---
-# [SoftLayer_Software_Description](/reference/services/SoftLayer_Software_Description)::getRequiredUser
-
-
-Retrieve the default user created for a given a software description.
-
-
-## Overview 
-Retrieve the default user created for a given a software description.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Software_DescriptionInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Software_DescriptionObjectMask
-* SoftLayer_Software_DescriptionObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* string
-
-
-
-

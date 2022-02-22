@@ -1,40 +1,14 @@
 ---
 title: "deleteObject"
-description: "Delete a placement group from your account."
-layout: "method"
+description: "Delete a placement group from your account. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Virtual"
 classes:
     - "SoftLayer_Virtual_PlacementGroup"
-aliases:
-    - "/reference/services/softlayer_virtual_placementgroup/deleteObject"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Virtual_PlacementGroup"
 ---
-# [SoftLayer_Virtual_PlacementGroup](/reference/services/SoftLayer_Virtual_PlacementGroup)::deleteObject
-
-
-
-
-
-## Overview 
-Delete a placement group from your account. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Virtual_PlacementGroupInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

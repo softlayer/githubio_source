@@ -1,45 +1,14 @@
 ---
 title: "getObject"
-description: ""
-layout: "method"
+description: "Retrieve a SoftLayer_Layout_Item record."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Layout"
 classes:
     - "SoftLayer_Layout_Item"
-aliases:
-    - "/reference/services/softlayer_layout_item/getObject"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Layout_Item"
 ---
-# [SoftLayer_Layout_Item](/reference/services/SoftLayer_Layout_Item)::getObject
-
-
-Retrieve a SoftLayer_Layout_Item record.
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Layout_ItemInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Layout_ItemObjectMask
-* SoftLayer_Layout_ItemObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Layout_Item'>SoftLayer_Layout_Item </a>
-
-
-
-

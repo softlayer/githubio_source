@@ -1,45 +1,14 @@
 ---
 title: "getNetworkStatus"
-description: "Retrieve the value of a hardware's network status attribute."
-layout: "method"
+description: "The value of a hardware's network status attribute."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Hardware"
 classes:
     - "SoftLayer_Hardware"
-aliases:
-    - "/reference/services/softlayer_hardware/getNetworkStatus"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Hardware"
 ---
-# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::getNetworkStatus
-
-
-Retrieve the value of a hardware's network status attribute.
-
-
-## Overview 
-Retrieve the value of a hardware's network status attribute.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_HardwareInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_HardwareObjectMask
-* SoftLayer_HardwareObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* string
-
-
-
-

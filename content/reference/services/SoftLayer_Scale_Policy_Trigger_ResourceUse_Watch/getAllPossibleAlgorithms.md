@@ -1,40 +1,14 @@
 ---
 title: "getAllPossibleAlgorithms"
-description: ""
-layout: "method"
+description: "Get all possible values for 'algorithm'."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Scale"
 classes:
     - "SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch"
-aliases:
-    - "/reference/services/softlayer_scale_policy_trigger_resourceuse_watch/getAllPossibleAlgorithms"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch"
 ---
-# [SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch](/reference/services/SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch)::getAllPossibleAlgorithms
-
-
-Get all possible values for "algorithm".
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Scale_Policy_Trigger_ResourceUse_WatchInitParameters
-
-
-### Return Values
-* array of strings
-
-
-
-

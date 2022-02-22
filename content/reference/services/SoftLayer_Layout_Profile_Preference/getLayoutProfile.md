@@ -1,45 +1,14 @@
 ---
 title: "getLayoutProfile"
 description: ""
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Layout"
 classes:
     - "SoftLayer_Layout_Profile_Preference"
-aliases:
-    - "/reference/services/softlayer_layout_profile_preference/getLayoutProfile"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Layout_Profile_Preference"
 ---
-# [SoftLayer_Layout_Profile_Preference](/reference/services/SoftLayer_Layout_Profile_Preference)::getLayoutProfile
-
-
-
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Layout_Profile_PreferenceInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Layout_Profile_PreferenceObjectMask
-* SoftLayer_Layout_Profile_PreferenceObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Layout_Profile'>SoftLayer_Layout_Profile </a>
-
-
-
-

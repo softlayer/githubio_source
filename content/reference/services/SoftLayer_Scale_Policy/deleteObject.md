@@ -1,40 +1,14 @@
 ---
 title: "deleteObject"
-description: ""
-layout: "method"
+description: "Delete this policy from the group."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Scale"
 classes:
     - "SoftLayer_Scale_Policy"
-aliases:
-    - "/reference/services/softlayer_scale_policy/deleteObject"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Scale_Policy"
 ---
-# [SoftLayer_Scale_Policy](/reference/services/SoftLayer_Scale_Policy)::deleteObject
-
-
-Delete this policy from the group.
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Scale_PolicyInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

@@ -1,42 +1,14 @@
 ---
 title: "updateMaintenanceWindow"
-description: "In case an upgrade cannot be performed, the maintenance window needs to be updated to a future date."
-layout: "method"
+description: "In case an upgrade cannot be performed, the maintenance window needs to be updated to a future date. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Product"
 classes:
     - "SoftLayer_Product_Upgrade_Request"
-aliases:
-    - "/reference/services/softlayer_product_upgrade_request/updateMaintenanceWindow"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Product_Upgrade_Request"
 ---
-# [SoftLayer_Product_Upgrade_Request](/reference/services/SoftLayer_Product_Upgrade_Request)::updateMaintenanceWindow
-
-
-Updates the maintenance window
-
-
-## Overview 
-In case an upgrade cannot be performed, the maintenance window needs to be updated to a future date. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|maintenanceStartTime| dateTime| A maintenance window starting time in ISO 8601 format.|
-|maintenanceWindowId| integer| |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Product_Upgrade_RequestInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

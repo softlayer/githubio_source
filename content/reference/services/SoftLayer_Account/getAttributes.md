@@ -1,45 +1,14 @@
 ---
 title: "getAttributes"
-description: "Retrieve the account attribute values for a SoftLayer customer account."
-layout: "method"
+description: "The account attribute values for a SoftLayer customer account."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Account"
 classes:
     - "SoftLayer_Account"
-aliases:
-    - "/reference/services/softlayer_account/getAttributes"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Account"
 ---
-# [SoftLayer_Account](/reference/services/SoftLayer_Account)::getAttributes
-
-
-Retrieve the account attribute values for a SoftLayer customer account.
-
-
-## Overview 
-Retrieve the account attribute values for a SoftLayer customer account.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_AccountObjectMask
-* SoftLayer_AccountObjectFilter
-* resultLimit
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Account_Attribute'>SoftLayer_Account_Attribute[] </a>
-
-
-
-

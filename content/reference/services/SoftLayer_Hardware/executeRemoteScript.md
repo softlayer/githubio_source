@@ -1,41 +1,14 @@
 ---
 title: "executeRemoteScript"
 description: "Download and run remote script from uri on the hardware."
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Hardware"
 classes:
     - "SoftLayer_Hardware"
-aliases:
-    - "/reference/services/softlayer_hardware/executeRemoteScript"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Hardware"
 ---
-# [SoftLayer_Hardware](/reference/services/SoftLayer_Hardware)::executeRemoteScript
-
-
-Download and run remote script from uri on the hardware. Requires https for script to be executed after download. 
-
-
-## Overview 
-Download and run remote script from uri on the hardware.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|uri| string| Location of the remote script|
-
-
-### Required Headers
-* authenticate
-* SoftLayer_HardwareInitParameters
-
-
-### Return Values
-* void
-
-
-
-

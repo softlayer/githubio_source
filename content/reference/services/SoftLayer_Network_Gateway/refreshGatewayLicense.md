@@ -1,42 +1,16 @@
 ---
 title: "refreshGatewayLicense"
-description: "Used to refresh the license for the Juniper Gateway, requires License readiness check has passed."
-layout: "method"
+description: "Used to refresh the license for the Juniper Gateway, requires License readiness check has passed. 
+
+"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Gateway"
-aliases:
-    - "/reference/services/softlayer_network_gateway/refreshGatewayLicense"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Gateway"
 ---
-# [SoftLayer_Network_Gateway](/reference/services/SoftLayer_Network_Gateway)::refreshGatewayLicense
-
-
-
-
-
-## Overview 
-Used to refresh the license for the Juniper Gateway, requires License readiness check has passed. 
-
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Network_GatewayInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

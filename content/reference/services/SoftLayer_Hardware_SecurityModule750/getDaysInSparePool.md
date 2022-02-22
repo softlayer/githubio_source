@@ -1,45 +1,14 @@
 ---
 title: "getDaysInSparePool"
-description: "Retrieve number of day(s) a server have been in spare pool."
-layout: "method"
+description: "Number of day(s) a server have been in spare pool."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Hardware"
 classes:
     - "SoftLayer_Hardware_SecurityModule750"
-aliases:
-    - "/reference/services/softlayer_hardware_securitymodule750/getDaysInSparePool"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Hardware_SecurityModule750"
 ---
-# [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getDaysInSparePool
-
-
-Retrieve number of day(s) a server have been in spare pool.
-
-
-## Overview 
-Retrieve number of day(s) a server have been in spare pool.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Hardware_SecurityModule750InitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Hardware_SecurityModule750ObjectMask
-* SoftLayer_Hardware_SecurityModule750ObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* integer
-
-
-
-

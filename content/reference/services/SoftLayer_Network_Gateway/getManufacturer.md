@@ -1,44 +1,16 @@
 ---
 title: "getManufacturer"
-description: "Returns manufacturer name for a given gateway object."
-layout: "method"
+description: "Returns manufacturer name for a given gateway object. 
+
+"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Gateway"
-aliases:
-    - "/reference/services/softlayer_network_gateway/getManufacturer"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Gateway"
 ---
-# [SoftLayer_Network_Gateway](/reference/services/SoftLayer_Network_Gateway)::getManufacturer
-
-
-manufacturer name
-
-
-## Overview 
-Returns manufacturer name for a given gateway object. 
-
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|checkSameOs| boolean| |
-|checkOsReloadMember| boolean| |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Network_GatewayInitParameters
-
-
-### Return Values
-* string
-
-
-
-

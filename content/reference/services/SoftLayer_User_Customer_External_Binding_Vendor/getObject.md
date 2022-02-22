@@ -1,45 +1,14 @@
 ---
 title: "getObject"
-description: ""
-layout: "method"
+description: "Retrieve a SoftLayer_User_Customer_External_Binding_Vendor record."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "User"
 classes:
     - "SoftLayer_User_Customer_External_Binding_Vendor"
-aliases:
-    - "/reference/services/softlayer_user_customer_external_binding_vendor/getObject"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_User_Customer_External_Binding_Vendor"
 ---
-# [SoftLayer_User_Customer_External_Binding_Vendor](/reference/services/SoftLayer_User_Customer_External_Binding_Vendor)::getObject
-
-
-Retrieve a SoftLayer_User_Customer_External_Binding_Vendor record.
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_User_Customer_External_Binding_VendorInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_User_Customer_External_Binding_VendorObjectMask
-* SoftLayer_User_Customer_External_Binding_VendorObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_User_Customer_External_Binding_Vendor'>SoftLayer_User_Customer_External_Binding_Vendor </a>
-
-
-
-

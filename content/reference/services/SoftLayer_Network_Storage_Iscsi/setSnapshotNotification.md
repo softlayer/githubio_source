@@ -1,41 +1,14 @@
 ---
 title: "setSnapshotNotification"
-description: "Function to enable/disable snapshot warning notification."
-layout: "method"
+description: "Function to enable/disable snapshot warning notification. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
-aliases:
-    - "/reference/services/softlayer_network_storage_iscsi/setSnapshotNotification"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Storage_Iscsi"
 ---
-# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::setSnapshotNotification
-
-
-Function to enable/disable snapshot warning notification.
-
-
-## Overview 
-Function to enable/disable snapshot warning notification. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|notificationFlag| boolean| |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Network_Storage_IscsiInitParameters
-
-
-### Return Values
-* void
-
-
-
-

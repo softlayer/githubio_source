@@ -1,43 +1,14 @@
 ---
 title: "getSurveyQuestions"
-description: "Retrieves Questions for a Referral Partner Survey"
-layout: "method"
+description: "Retrieves Questions for a Referral Partner Survey "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Account"
 classes:
     - "SoftLayer_Account_Partner_Referral_Prospect"
-aliases:
-    - "/reference/services/softlayer_account_partner_referral_prospect/getSurveyQuestions"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Account_Partner_Referral_Prospect"
 ---
-# [SoftLayer_Account_Partner_Referral_Prospect](/reference/services/SoftLayer_Account_Partner_Referral_Prospect)::getSurveyQuestions
-
-
-Retrieves Questions for a Referral Partner Survey
-
-
-## Overview 
-Retrieves Questions for a Referral Partner Survey 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Account_Partner_Referral_ProspectObjectMask
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Survey_Question'>SoftLayer_Survey_Question[] </a>
-
-
-
-

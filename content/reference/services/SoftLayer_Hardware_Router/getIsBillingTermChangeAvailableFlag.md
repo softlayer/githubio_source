@@ -1,45 +1,14 @@
 ---
 title: "getIsBillingTermChangeAvailableFlag"
-description: "Retrieve whether or not this hardware object is eligible to change to term billing."
-layout: "method"
+description: "Whether or not this hardware object is eligible to change to term billing."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Hardware"
 classes:
     - "SoftLayer_Hardware_Router"
-aliases:
-    - "/reference/services/softlayer_hardware_router/getIsBillingTermChangeAvailableFlag"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Hardware_Router"
 ---
-# [SoftLayer_Hardware_Router](/reference/services/SoftLayer_Hardware_Router)::getIsBillingTermChangeAvailableFlag
-
-
-Retrieve whether or not this hardware object is eligible to change to term billing.
-
-
-## Overview 
-Retrieve whether or not this hardware object is eligible to change to term billing.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Hardware_RouterInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Hardware_RouterObjectMask
-* SoftLayer_Hardware_RouterObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* boolean
-
-
-
-

@@ -1,43 +1,14 @@
 ---
 title: "getpointOfPresence"
-description: "Retrieve all point of presence locations."
-layout: "method"
+description: "Retrieve all point of presence locations. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Location"
 classes:
     - "SoftLayer_Location"
-aliases:
-    - "/reference/services/softlayer_location/getpointOfPresence"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Location"
 ---
-# [SoftLayer_Location](/reference/services/SoftLayer_Location)::getpointOfPresence
-
-
-Retrieve all points of presence locations
-
-
-## Overview 
-Retrieve all point of presence locations. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_LocationObjectMask
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Location'>SoftLayer_Location[] </a>
-
-
-
-

@@ -1,45 +1,14 @@
 ---
 title: "createObject"
-description: "Create a nas volume schedule"
-layout: "method"
+description: "Create a nas volume schedule "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_Schedule"
-aliases:
-    - "/reference/services/softlayer_network_storage_schedule/createObject"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Storage_Schedule"
 ---
-# [SoftLayer_Network_Storage_Schedule](/reference/services/SoftLayer_Network_Storage_Schedule)::createObject
-
-
-Create a nas volume schedule
-
-
-## Overview 
-Create a nas volume schedule 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|templateObject| <a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule'>SoftLayer_Network_Storage_Schedule </a>| The SoftLayer_Network_Storage_Schedule object that you wish to create.|
-|templateObject| <a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule'>SoftLayer_Network_Storage_Schedule </a>| The SoftLayer_Network_Storage_Schedule object that you wish to create.|
-
-
-### Required Headers
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Network_Storage_ScheduleObjectMask
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Network_Storage_Schedule'>SoftLayer_Network_Storage_Schedule </a>
-
-
-
-

@@ -1,40 +1,14 @@
 ---
 title: "isHighAvailabilityUpgradeAvailable"
-description: "Whether this firewall qualifies for High Availability upgrade."
-layout: "method"
+description: "Whether this firewall qualifies for High Availability upgrade. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Vlan_Firewall"
-aliases:
-    - "/reference/services/softlayer_network_vlan_firewall/isHighAvailabilityUpgradeAvailable"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Vlan_Firewall"
 ---
-# [SoftLayer_Network_Vlan_Firewall](/reference/services/SoftLayer_Network_Vlan_Firewall)::isHighAvailabilityUpgradeAvailable
-
-
-
-
-
-## Overview 
-Whether this firewall qualifies for High Availability upgrade. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Network_Vlan_FirewallInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

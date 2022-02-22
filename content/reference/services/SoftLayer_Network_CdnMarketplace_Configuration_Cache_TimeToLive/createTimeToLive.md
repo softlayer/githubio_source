@@ -1,42 +1,14 @@
 ---
 title: "createTimeToLive"
-description: ""
-layout: "method"
+description: "Creates a Time To Live object and inserts it into the database "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_CdnMarketplace_Configuration_Cache_TimeToLive"
-aliases:
-    - "/reference/services/softlayer_network_cdnmarketplace_configuration_cache_timetolive/createTimeToLive"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_CdnMarketplace_Configuration_Cache_TimeToLive"
 ---
-# [SoftLayer_Network_CdnMarketplace_Configuration_Cache_TimeToLive](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Cache_TimeToLive)::createTimeToLive
-
-
-Creates a Time To Live object and inserts it into the database 
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|uniqueId| string| |
-|pathName| string| |
-|ttl| string| |
-
-
-### Required Headers
-* authenticate
-
-
-### Return Values
-* string
-
-
-
-

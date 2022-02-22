@@ -1,40 +1,14 @@
 ---
 title: "convertCloneDependentToIndependent"
-description: ""
-layout: "method"
+description: "Splits a clone from its parent allowing it to be an independent volume."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
-aliases:
-    - "/reference/services/softlayer_network_storage_backup_evault/convertCloneDependentToIndependent"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::convertCloneDependentToIndependent
-
-
-Splits a clone from its parent allowing it to be an independent volume.
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Network_Storage_Backup_EvaultInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

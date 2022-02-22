@@ -1,45 +1,14 @@
 ---
 title: "getSnapshotCapacityGb"
-description: "Retrieve a volume's configured snapshot space size."
-layout: "method"
+description: "A volume's configured snapshot space size."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_Backup_Evault"
-aliases:
-    - "/reference/services/softlayer_network_storage_backup_evault/getSnapshotCapacityGb"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Storage_Backup_Evault"
 ---
-# [SoftLayer_Network_Storage_Backup_Evault](/reference/services/SoftLayer_Network_Storage_Backup_Evault)::getSnapshotCapacityGb
-
-
-Retrieve a volume's configured snapshot space size.
-
-
-## Overview 
-Retrieve a volume's configured snapshot space size.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Network_Storage_Backup_EvaultInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Network_Storage_Backup_EvaultObjectMask
-* SoftLayer_Network_Storage_Backup_EvaultObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* string
-
-
-
-

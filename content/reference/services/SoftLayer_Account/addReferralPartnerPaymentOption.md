@@ -1,40 +1,14 @@
 ---
 title: "addReferralPartnerPaymentOption"
 description: ""
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Account"
 classes:
     - "SoftLayer_Account"
-aliases:
-    - "/reference/services/softlayer_account/addReferralPartnerPaymentOption"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Account"
 ---
-# [SoftLayer_Account](/reference/services/SoftLayer_Account)::addReferralPartnerPaymentOption
-
-
-
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|paymentOption| <a href='/reference/datatypes/SoftLayer_Container_Referral_Partner_Payment_Option'>SoftLayer_Container_Referral_Partner_Payment_Option </a>| Referral Partner Payment Option for this account|
-
-
-### Required Headers
-* authenticate
-
-
-### Return Values
-* boolean
-
-
-
-

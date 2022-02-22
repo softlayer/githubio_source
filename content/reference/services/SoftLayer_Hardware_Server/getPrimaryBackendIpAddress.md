@@ -1,45 +1,14 @@
 ---
 title: "getPrimaryBackendIpAddress"
-description: "Retrieve the hardware's primary private IP address."
-layout: "method"
+description: "The hardware's primary private IP address."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Hardware"
 classes:
     - "SoftLayer_Hardware_Server"
-aliases:
-    - "/reference/services/softlayer_hardware_server/getPrimaryBackendIpAddress"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Hardware_Server"
 ---
-# [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server)::getPrimaryBackendIpAddress
-
-
-Retrieve the hardware's primary private IP address.
-
-
-## Overview 
-Retrieve the hardware's primary private IP address.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Hardware_ServerInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Hardware_ServerObjectMask
-* SoftLayer_Hardware_ServerObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* string
-
-
-
-

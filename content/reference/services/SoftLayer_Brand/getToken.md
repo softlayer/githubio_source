@@ -1,41 +1,14 @@
 ---
 title: "getToken"
-description: "(DEPRECATED) Use [SoftLayer_User_Customer::getImpersonationToken]({{<ref 'reference/services/SoftLayer_User_Customer/get... "
-layout: "method"
+description: "(DEPRECATED) Use [SoftLayer_User_Customer::getImpersonationToken](/reference/datatypes/$1/#$2) method. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Brand"
 classes:
     - "SoftLayer_Brand"
-aliases:
-    - "/reference/services/softlayer_brand/getToken"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Brand"
 ---
-# [SoftLayer_Brand](/reference/services/SoftLayer_Brand)::getToken
-
-
-
-
-
-## Overview 
-(DEPRECATED) Use [SoftLayer_User_Customer::getImpersonationToken]({{<ref "reference/services/SoftLayer_User_Customer/getImpersonationToken">}}) method. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|userId| integer| |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_BrandInitParameters
-
-
-### Return Values
-* string
-
-
-
-

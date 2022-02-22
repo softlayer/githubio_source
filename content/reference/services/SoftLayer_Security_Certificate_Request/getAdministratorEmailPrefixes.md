@@ -1,39 +1,14 @@
 ---
 title: "getAdministratorEmailPrefixes"
-description: "Gets the email accounts that can be used to validate a certificate to a domain."
-layout: "method"
+description: "Gets the email accounts that can be used to validate a certificate to a domain. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Security"
 classes:
     - "SoftLayer_Security_Certificate_Request"
-aliases:
-    - "/reference/services/softlayer_security_certificate_request/getAdministratorEmailPrefixes"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Security_Certificate_Request"
 ---
-# [SoftLayer_Security_Certificate_Request](/reference/services/SoftLayer_Security_Certificate_Request)::getAdministratorEmailPrefixes
-
-
-
-
-
-## Overview 
-Gets the email accounts that can be used to validate a certificate to a domain. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-
-
-### Return Values
-* array of strings
-
-
-
-

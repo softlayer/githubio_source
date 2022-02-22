@@ -1,45 +1,14 @@
 ---
 title: "getTotalScheduleSnapshotRetentionCount"
-description: "Retrieve the total snapshot retention count of all schedules on this network storage volume."
-layout: "method"
+description: "The total snapshot retention count of all schedules on this network storage volume."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Storage_Iscsi"
-aliases:
-    - "/reference/services/softlayer_network_storage_iscsi/getTotalScheduleSnapshotRetentionCount"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Storage_Iscsi"
 ---
-# [SoftLayer_Network_Storage_Iscsi](/reference/services/SoftLayer_Network_Storage_Iscsi)::getTotalScheduleSnapshotRetentionCount
-
-
-Retrieve the total snapshot retention count of all schedules on this network storage volume.
-
-
-## Overview 
-Retrieve the total snapshot retention count of all schedules on this network storage volume.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Network_Storage_IscsiInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Network_Storage_IscsiObjectMask
-* SoftLayer_Network_Storage_IscsiObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* unsigned integer
-
-
-
-

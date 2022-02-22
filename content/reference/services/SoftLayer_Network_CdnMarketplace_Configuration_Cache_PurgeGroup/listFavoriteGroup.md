@@ -1,47 +1,14 @@
 ---
 title: "listFavoriteGroup"
-description: ""
-layout: "method"
+description: "This method returns the list of favorite purge groups. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_CdnMarketplace_Configuration_Cache_PurgeGroup"
-aliases:
-    - "/reference/services/softlayer_network_cdnmarketplace_configuration_cache_purgegroup/listFavoriteGroup"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_CdnMarketplace_Configuration_Cache_PurgeGroup"
 ---
-# [SoftLayer_Network_CdnMarketplace_Configuration_Cache_PurgeGroup](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Cache_PurgeGroup)::listFavoriteGroup
-
-
-This method returns the list of favorite purge groups. 
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|uniqueId| string| Domain mapping uniqueID|
-
-
-### Required Headers
-* authenticate
-
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Container_Network_CdnMarketplace_Configuration_Cache_PurgeGroup'>SoftLayer_Container_Network_CdnMarketplace_Configuration_Cache_PurgeGroup[] </a>
-
-
-
-### Error Handling
-
-* SoftLayer_Exception<<< 
-
-> EOT 
-
-
-

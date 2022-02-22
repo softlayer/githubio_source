@@ -1,40 +1,14 @@
 ---
 title: "getPdfDetailedFilename"
-description: ""
-layout: "method"
+description: "Get the name of the detailed version of the PDF."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Billing"
 classes:
     - "SoftLayer_Billing_Invoice"
-aliases:
-    - "/reference/services/softlayer_billing_invoice/getPdfDetailedFilename"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Billing_Invoice"
 ---
-# [SoftLayer_Billing_Invoice](/reference/services/SoftLayer_Billing_Invoice)::getPdfDetailedFilename
-
-
-Get the name of the detailed version of the PDF.
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Billing_InvoiceInitParameters
-
-
-### Return Values
-* string
-
-
-
-

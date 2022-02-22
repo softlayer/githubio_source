@@ -1,40 +1,14 @@
 ---
 title: "deleteObject"
-description: "Remove a ssh key from your account."
-layout: "method"
+description: "Remove a ssh key from your account. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Security"
 classes:
     - "SoftLayer_Security_Ssh_Key"
-aliases:
-    - "/reference/services/softlayer_security_ssh_key/deleteObject"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Security_Ssh_Key"
 ---
-# [SoftLayer_Security_Ssh_Key](/reference/services/SoftLayer_Security_Ssh_Key)::deleteObject
-
-
-
-
-
-## Overview 
-Remove a ssh key from your account. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Security_Ssh_KeyInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

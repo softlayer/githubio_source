@@ -1,40 +1,14 @@
 ---
 title: "deleteOSProject"
 description: ""
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Account"
 classes:
     - "SoftLayer_Account_Link_OpenStack"
-aliases:
-    - "/reference/services/softlayer_account_link_openstack/deleteOSProject"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Account_Link_OpenStack"
 ---
-# [SoftLayer_Account_Link_OpenStack](/reference/services/SoftLayer_Account_Link_OpenStack)::deleteOSProject
-
-
-
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|projectId| string| |
-
-
-### Required Headers
-* authenticate
-
-
-### Return Values
-* boolean
-
-
-
-

@@ -1,39 +1,14 @@
 ---
 title: "getAllUserTypes"
-description: ""
-layout: "method"
+description: "Returns all possible event log user types"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Event"
 classes:
     - "SoftLayer_Event_Log"
-aliases:
-    - "/reference/services/softlayer_event_log/getAllUserTypes"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Event_Log"
 ---
-# [SoftLayer_Event_Log](/reference/services/SoftLayer_Event_Log)::getAllUserTypes
-
-
-Returns all possible event log user types
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-
-
-### Return Values
-* array of strings
-
-
-
-

@@ -1,40 +1,14 @@
 ---
 title: "getGeoblockingAllowedTypesAndRegions"
 description: ""
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_CdnMarketplace_Configuration_Behavior_Geoblocking"
-aliases:
-    - "/reference/services/softlayer_network_cdnmarketplace_configuration_behavior_geoblocking/getGeoblockingAllowedTypesAndRegions"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_CdnMarketplace_Configuration_Behavior_Geoblocking"
 ---
-# [SoftLayer_Network_CdnMarketplace_Configuration_Behavior_Geoblocking](/reference/services/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_Geoblocking)::getGeoblockingAllowedTypesAndRegions
-
-
-
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|uniqueId| string| |
-
-
-### Required Headers
-* authenticate
-
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_Geoblocking_Type'>SoftLayer_Network_CdnMarketplace_Configuration_Behavior_Geoblocking_Type </a>
-
-
-
-

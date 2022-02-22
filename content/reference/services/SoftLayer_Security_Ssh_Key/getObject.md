@@ -1,45 +1,14 @@
 ---
 title: "getObject"
-description: ""
-layout: "method"
+description: "Retrieve a SoftLayer_Security_Ssh_Key record."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Security"
 classes:
     - "SoftLayer_Security_Ssh_Key"
-aliases:
-    - "/reference/services/softlayer_security_ssh_key/getObject"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Security_Ssh_Key"
 ---
-# [SoftLayer_Security_Ssh_Key](/reference/services/SoftLayer_Security_Ssh_Key)::getObject
-
-
-Retrieve a SoftLayer_Security_Ssh_Key record.
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Security_Ssh_KeyInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Security_Ssh_KeyObjectMask
-* SoftLayer_Security_Ssh_KeyObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Security_Ssh_Key'>SoftLayer_Security_Ssh_Key </a>
-
-
-
-

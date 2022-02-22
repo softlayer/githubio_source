@@ -1,53 +1,14 @@
 ---
 title: "getFrontendIncomingBandwidth"
-description: "The '''getFrontendIncomingBandwidth''' method retrieves the amount of incoming public network traffic used by a server b... "
-layout: "method"
+description: "The '''getFrontendIncomingBandwidth''' method retrieves the amount of incoming public network traffic used by a server between the given start and end date parameters. When entering the ''dateTime'' parameter, only the month, day and year of the start and end dates are required - the time (hour, minute and second) are set to midnight by default and cannot be changed. The amount of bandwidth retrieved is measured in gigabytes (GB). "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Hardware"
 classes:
     - "SoftLayer_Hardware_SecurityModule750"
-aliases:
-    - "/reference/services/softlayer_hardware_securitymodule750/getFrontendIncomingBandwidth"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Hardware_SecurityModule750"
 ---
-# [SoftLayer_Hardware_SecurityModule750](/reference/services/SoftLayer_Hardware_SecurityModule750)::getFrontendIncomingBandwidth
-
-
-Retrieve the amount of incoming public network bandwidth used by a server over a period of time. 
-
-
-## Overview 
-The '''getFrontendIncomingBandwidth''' method retrieves the amount of incoming public network traffic used by a server between the given start and end date parameters. When entering the ''dateTime'' parameter, only the month, day and year of the start and end dates are required - the time (hour, minute and second) are set to midnight by default and cannot be changed. The amount of bandwidth retrieved is measured in gigabytes (GB). 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|startDate| dateTime| The start date for the range of bandwidth to retrieve.|
-|endDate| dateTime| The end date for the range of bandwidth to retrieve.|
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Hardware_SecurityModule750InitParameters
-
-
-### Return Values
-* float
-
-
-
-### Error Handling
-
-* SoftLayer_Exception_Public 
-
-> <<< EOT 
-
-* SoftLayer_Exception_Public 
-
-> <<< EOT 
-
-
-

@@ -1,40 +1,14 @@
 ---
 title: "kickAllConnections"
 description: ""
-layout: "method"
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Network"
 classes:
     - "SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service_Group"
-aliases:
-    - "/reference/services/softlayer_network_application_delivery_controller_loadbalancer_service_group/kickAllConnections"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service_Group"
 ---
-# [SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service_Group](/reference/services/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service_Group)::kickAllConnections
-
-
-
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Service_GroupInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-

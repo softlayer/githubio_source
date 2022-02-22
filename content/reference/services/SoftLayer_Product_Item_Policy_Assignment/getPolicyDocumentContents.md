@@ -1,40 +1,14 @@
 ---
 title: "getPolicyDocumentContents"
-description: "Retrieve the binary contents of the associated PDF policy document."
-layout: "method"
+description: "Retrieve the binary contents of the associated PDF policy document. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Product"
 classes:
     - "SoftLayer_Product_Item_Policy_Assignment"
-aliases:
-    - "/reference/services/softlayer_product_item_policy_assignment/getPolicyDocumentContents"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Product_Item_Policy_Assignment"
 ---
-# [SoftLayer_Product_Item_Policy_Assignment](/reference/services/SoftLayer_Product_Item_Policy_Assignment)::getPolicyDocumentContents
-
-
-Retrieve the binary content of the policy document.
-
-
-## Overview 
-Retrieve the binary contents of the associated PDF policy document. 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Product_Item_Policy_AssignmentInitParameters
-
-
-### Return Values
-* binary data
-
-
-
-

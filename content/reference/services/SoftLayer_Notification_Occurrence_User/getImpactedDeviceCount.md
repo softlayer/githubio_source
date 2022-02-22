@@ -1,40 +1,14 @@
 ---
 title: "getImpactedDeviceCount"
-description: ""
-layout: "method"
+description: "A count representing the number of the user's devices currently impacted by the associated event will be returned. "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Notification"
 classes:
     - "SoftLayer_Notification_Occurrence_User"
-aliases:
-    - "/reference/services/softlayer_notification_occurrence_user/getImpactedDeviceCount"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Notification_Occurrence_User"
 ---
-# [SoftLayer_Notification_Occurrence_User](/reference/services/SoftLayer_Notification_Occurrence_User)::getImpactedDeviceCount
-
-
-A count representing the number of the user's devices currently impacted by the associated event will be returned. 
-
-
-## Overview 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Notification_Occurrence_UserInitParameters
-
-
-### Return Values
-* integer
-
-
-
-

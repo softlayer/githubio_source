@@ -1,45 +1,14 @@
 ---
 title: "getTemplateBlockDevice"
-description: "Retrieve the template that attaches a disk image to a [SoftLayer_Virtual_Guest_Block_Device_Template_Group]({{<ref 'refe... "
-layout: "method"
+description: "The template that attaches a disk image to a [SoftLayer_Virtual_Guest_Block_Device_Template_Group](/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group)."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Virtual"
 classes:
     - "SoftLayer_Virtual_Disk_Image"
-aliases:
-    - "/reference/services/softlayer_virtual_disk_image/getTemplateBlockDevice"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Virtual_Disk_Image"
 ---
-# [SoftLayer_Virtual_Disk_Image](/reference/services/SoftLayer_Virtual_Disk_Image)::getTemplateBlockDevice
-
-
-Retrieve the template that attaches a disk image to a [SoftLayer_Virtual_Guest_Block_Device_Template_Group]({{<ref "reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group">}}).
-
-
-## Overview 
-Retrieve the template that attaches a disk image to a [SoftLayer_Virtual_Guest_Block_Device_Template_Group]({{<ref "reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template_Group">}}).
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Virtual_Disk_ImageInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Virtual_Disk_ImageObjectMask
-* SoftLayer_Virtual_Disk_ImageObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* <a href='/reference/datatypes/SoftLayer_Virtual_Guest_Block_Device_Template'>SoftLayer_Virtual_Guest_Block_Device_Template </a>
-
-
-
-

@@ -1,45 +1,14 @@
 ---
 title: "getDefaultBootCategoryCode"
-description: "Retrieve the default boot category code for the package."
-layout: "method"
+description: "The default boot category code for the package."
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Product"
 classes:
     - "SoftLayer_Product_Package"
-aliases:
-    - "/reference/services/softlayer_product_package/getDefaultBootCategoryCode"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Product_Package"
 ---
-# [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package)::getDefaultBootCategoryCode
-
-
-Retrieve the default boot category code for the package.
-
-
-## Overview 
-Retrieve the default boot category code for the package.
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* SoftLayer_Product_PackageInitParameters
-* authenticate
-
-
-### Optional Headers
-* SoftLayer_Product_PackageObjectMask
-* SoftLayer_Product_PackageObjectFilter
-* SoftLayer_ObjectMask
-
-### Return Values
-* string
-
-
-
-

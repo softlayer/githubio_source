@@ -1,24 +1,6 @@
 ---
 title: "disconnectPrivateEndpointService"
-description: "Initiate the automated process to revoke mutual connectivity from the account network and IBM Cloud Service Endpoint net... "
-layout: "method"
-tags:
-    - "method"
-    - "sldn"
-    - "Network"
-classes:
-    - "SoftLayer_Network"
-aliases:
-    - "/reference/services/softlayer_network/disconnectPrivateEndpointService"
----
-# [SoftLayer_Network](/reference/services/SoftLayer_Network)::disconnectPrivateEndpointService
-
-
-Terminates the connection between the account and Service Endpoint networks.
-
-
-## Overview 
-Initiate the automated process to revoke mutual connectivity from the account network and IBM Cloud Service Endpoint network. Once initiated, the configuration process occurs asynchronously in the background. 
+description: "Initiate the automated process to revoke mutual connectivity from the account network and IBM Cloud Service Endpoint network. Once initiated, the configuration process occurs asynchronously in the background. 
 
 
 
@@ -36,35 +18,15 @@ Initiate the automated process to revoke mutual connectivity from the account ne
 
 
 
-
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-
-
-### Required Headers
-* authenticate
-
-
-### Return Values
-* boolean
-
-
-### Associated Methods
-
-*  [SoftLayer_Network::isConnectedToPrivateEndpointService](/reference/services/SoftLayer_Network/isConnectedToPrivateEndpointService )
-*  [SoftLayer_Network::connectPrivateEndpointService](/reference/services/SoftLayer_Network/connectPrivateEndpointService )
-
-
-
-### Error Handling
-
-* SoftLayer_Exception_NotReady 
-
-> <<< EOT 
-
-
-
+"
+date: "2018-02-12"
+tags:
+    - "method"
+    - "sldn"
+    - "Network"
+classes:
+    - "SoftLayer_Network"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Network"
+---

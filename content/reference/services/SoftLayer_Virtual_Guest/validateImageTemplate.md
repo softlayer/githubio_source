@@ -1,41 +1,14 @@
 ---
 title: "validateImageTemplate"
-description: "Validate an image template for OS Reload"
-layout: "method"
+description: "Validate an image template for OS Reload "
+date: "2018-02-12"
 tags:
     - "method"
     - "sldn"
     - "Virtual"
 classes:
     - "SoftLayer_Virtual_Guest"
-aliases:
-    - "/reference/services/softlayer_virtual_guest/validateImageTemplate"
+type: "reference"
+layout: "method"
+mainService : "SoftLayer_Virtual_Guest"
 ---
-# [SoftLayer_Virtual_Guest](/reference/services/SoftLayer_Virtual_Guest)::validateImageTemplate
-
-
-Validates an image template for OS Reload
-
-
-## Overview 
-Validate an image template for OS Reload 
-
------
-
-### Parameters 
-|Name | Type | Description |
-| --- | --- | --- |
-|imageTemplateId| integer| |
-
-
-### Required Headers
-* authenticate
-* SoftLayer_Virtual_GuestInitParameters
-
-
-### Return Values
-* boolean
-
-
-
-
