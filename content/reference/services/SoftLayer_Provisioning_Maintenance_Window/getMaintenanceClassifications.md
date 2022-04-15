@@ -1,6 +1,6 @@
 ---
 title: "getMaintenanceClassifications"
-description: "getMaintenanceClassifications() returns an object of maintenance classifications "
+description: "Returns all the maintenance classifications. "
 date: "2018-02-12"
 tags:
     - "method"

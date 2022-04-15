@@ -1,6 +1,6 @@
 ---
 title: "getMaintenanceWindowForTicket"
-description: "getMaintenceWindowForTicket() returns a specific maintenance window "
+description: "Returns a specific maintenance window. "
 date: "2018-02-12"
 tags:
     - "method"
