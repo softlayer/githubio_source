@@ -6,7 +6,6 @@ classes:
     - "SoftLayer_Product_Item_Price"
     - "SoftLayer_Product_Package"
     - "SoftLayer_Product_Order"
-    - "SoftLayer_Container_Product_Order_Network_Vlan"
     - "SoftLayer_Billing_Item"
     - "SoftLayer_Network_Vlan"
     - "SoftLayer_Account"
