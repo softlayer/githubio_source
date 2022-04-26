@@ -17,4 +17,4 @@ jobs:
     - name: Build Hugo
       run: |
         mkdir html
-        ./hugo -d html -v
+        ./bin/hugo -d html -v

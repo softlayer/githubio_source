@@ -27,7 +27,7 @@ jobs:
       run: |
         pwd
         cd githubio_source
-        ./hugo -d ../softlayer.github.io -v
+        ./bin/hugo -d ../softlayer.github.io -v
     - name: Publish
       run: |
         pwd
