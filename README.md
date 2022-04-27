@@ -2,6 +2,61 @@
 
 This is the source to build [SLDN](https://sldn.softlayer.com) with [hugo](https://github.com/spf13/hugo/)
 
+## Building SLDN
+
+This repository has a copy of the Hugo binaries in the `bin` directory, and those should be used to build the site, as newer versions of Hugo might not build it properly.
+Just use the right binary for your OS.
+
+- Linux is `bin/hugo`
+- Windows is `bin/hugo.exe`
+- Mac is `bin/hugo_mac`
+
+### Updating `/content/reference`
+This section is updated by the `bin/generateSLDN.py` python script (requires Python 3.8+)
+
+`python bin/generateSLDN.py --download`
+
+This script will do the following:
+1. Download and parse the SLDN metadata from https://api.softlayer.com/metadata/v3.1
+2. Create any needed service/method/datatype stub files
+3. Generate any of the needed magic ORM methods that don't technically exist in the metadata.
+
+
+### Testing Changes Locally
+To view any changes you made without publishing the content, run the following:
+
+`./bin/hugo server -d html`
+This will create a local webserver available at http://localhost:1313/ and keep the generated HTML in the `html` directory, which is useful if you need to inspect the raw files for whatever reason.
+
+### Publishing
+
+By default https://sldn.softlayer.com ( source is on https://github.com/softlayer/softlayer.github.io) is updated by a GitHub action ([Publish Action](https://github.com/softlayer/githubio_source/actions/workflows/publish.yml)), which still requires a merged pull request on the softlayer.github.io repo, but is otherwise automated.
+
+If you want to do this manually, you will need to checkout a copy of https://github.com/softlayer/softlayer.github.io (lets say to `../softlayer.github.io`) and run the following command:
+
+```bash
+./bin/hugo -d ../softlayer.github.io -v
+```
+
+Commit and push your changes, merge to master, and wait a few minutes.
+
+## Directory Structure
+
+- `.github/` All the Github actions and other github related data
+- `bin/` Binaries and scripts needed for the site
+- `content/` Content files that represent pages and other content on the site
+    + `reference/` The auto generated documentation reference material. *Do not manually edit these files*
+    + `release_notes/` Release Note blog posts, sorted into directories by year, titled by date published.
+    + `*/` Everything is is grouped into language specific example blog posts.
+- `data/` Contains the formatted metdata from SLDN. *Do not manually edit this file*
+- `layouts/` The hugo templates that drive how pages are rendered into HTML
+    + `reference/` These layouts are specific to the `reference` content
+    + `partials/` These pare bit of pages that go in different sections, like Headers and Footers.
+    + `_default` Layouts to use when no other is specified
+    + `release_notes` Layouts specific to the release notes
+- `static/` Javascript and CSS type files, other static content
+- `config.toml` The main config for Hugo
+
 
 ## Making Changes.
 
@@ -59,36 +114,3 @@ Any main classes your examples uses should be included. Helpful in searching.
 
 If you ever find yourself wishing there was an example of how to do something in the SoftLayer API, please make a github issue on the [githubio_source](https://github.com/softlayer/githubio_source/issues) repository. We are always on the look out for more content ideas!
 
-
-## Building the project
-
-To generate the HTML and see what your changes would look like, just run the `hugo` binary included in this repository ( or build the hugo project yourself if you want to test a different version).
-
-```bash
-$ ./hugo server ./sldnHtml/
-WARN 2021/04/15 15:43:54 [en] REF_NOT_FOUND: Ref "reference/datatypes/SoftLayer_Workload_Citrix_Order": "./githubio_source/content/reference/services/SoftLayer_Workload_Citrix_Workspace_Response/_index.md:21:107": page not found
-
-                   |  EN
--------------------+--------
-  Pages            | 10279
-  Paginator pages  |    25
-  Non-page files   |     2
-  Static files     |  1797
-  Processed images |     0
-  Aliases          |  5649
-  Sitemaps         |     1
-  Cleaned          |     0
-
-Built in 7417 ms
-Watching for changes in ./githubio_source/{content,layouts,static}
-Watching for config changes in ./Source/githubio_source/config.toml
-Environment: "development"
-Serving pages from memory
-Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
-Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
-Press Ctrl+C to stop
-```
-
-This will start a temporary web server at http://localhost:1313/ to display the content, which was generated locally to the ./sldnHtml folder
-
-You can ignore the `WARN` about `REF_NOT_FOUND` errors, they come from the automtically generated content.
