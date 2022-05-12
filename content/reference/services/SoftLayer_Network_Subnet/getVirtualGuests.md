@@ -1,6 +1,6 @@
 ---
 title: "getVirtualGuests"
-description: "The Virtual Servers using IP addresses on this subnet."
+description: "The Virtual Server devices which have been assigned a primary IP address from this subnet."
 date: "2018-02-12"
 tags:
     - "method"

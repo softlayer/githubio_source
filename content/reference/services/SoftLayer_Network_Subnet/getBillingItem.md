@@ -1,6 +1,6 @@
 ---
 title: "getBillingItem"
-description: "The billing item for a subnet."
+description: "The active billing item for this subnet."
 date: "2018-02-12"
 tags:
     - "method"

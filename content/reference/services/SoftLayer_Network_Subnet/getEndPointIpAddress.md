@@ -1,6 +1,6 @@
 ---
 title: "getEndPointIpAddress"
-description: "A static routed ip address"
+description: "The IP address target of this statically routed subnet."
 date: "2018-02-12"
 tags:
     - "method"

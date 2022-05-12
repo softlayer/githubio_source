@@ -1,6 +1,6 @@
 ---
 title: "getAllowedNetworkStorageReplicas"
-description: "The SoftLayer_Network_Storage objects whose Replica that this SoftLayer_Hardware has access to."
+description: "The network storage device replicas this subnet has been granted access to."
 date: "2018-02-12"
 tags:
     - "method"

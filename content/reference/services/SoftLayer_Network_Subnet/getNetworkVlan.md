@@ -1,6 +1,6 @@
 ---
 title: "getNetworkVlan"
-description: "The VLAN object that a subnet is associated with."
+description: "The VLAN this subnet is associated with."
 date: "2018-02-12"
 tags:
     - "method"

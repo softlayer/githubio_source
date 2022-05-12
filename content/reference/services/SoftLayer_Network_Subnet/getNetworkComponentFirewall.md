@@ -1,6 +1,6 @@
 ---
 title: "getNetworkComponentFirewall"
-description: "The upstream network component firewall."
+description: "The hardware firewall associated to this subnet via access control list."
 date: "2018-02-12"
 tags:
     - "method"

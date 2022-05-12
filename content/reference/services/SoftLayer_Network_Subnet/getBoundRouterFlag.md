@@ -1,6 +1,6 @@
 ---
 title: "getBoundRouterFlag"
-description: "Whether or not this subnet is associated with a router. Subnets that are not associated with a router cannot be routed."
+description: "Indicates whether this subnet is associated to a network router and is routable on the network."
 date: "2018-02-12"
 tags:
     - "method"

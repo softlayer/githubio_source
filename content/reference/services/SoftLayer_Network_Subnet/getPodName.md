@@ -1,6 +1,6 @@
 ---
 title: "getPodName"
-description: "The pod in which this subnet resides."
+description: "The pod in which this subnet is currently routed."
 date: "2018-02-12"
 tags:
     - "method"

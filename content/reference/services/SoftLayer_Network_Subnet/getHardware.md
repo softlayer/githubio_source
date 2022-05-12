@@ -1,6 +1,6 @@
 ---
 title: "getHardware"
-description: "The hardware using IP addresses on this subnet."
+description: "The Bare Metal devices which have been assigned a primary IP address from this subnet."
 date: "2018-02-12"
 tags:
     - "method"

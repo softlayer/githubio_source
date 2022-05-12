@@ -1,6 +1,6 @@
 ---
 title: "getActiveRegistration"
-description: "If present, the active registration for this subnet."
+description: "The active regional internet registration for this subnet."
 date: "2018-02-12"
 tags:
     - "method"

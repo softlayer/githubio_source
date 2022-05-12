@@ -1,6 +1,6 @@
 ---
 title: "getTagReferences"
-description: "References to all tags for this subnet."
+description: "The tags associated to this subnet."
 date: "2018-02-12"
 tags:
     - "method"

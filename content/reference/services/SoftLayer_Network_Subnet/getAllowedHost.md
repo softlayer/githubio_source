@@ -1,6 +1,6 @@
 ---
 title: "getAllowedHost"
-description: "The SoftLayer_Network_Storage_Allowed_Host information to connect this Subnet to Network Storage supporting access control lists."
+description: "The link from this subnet to network storage devices supporting access control lists."
 date: "2018-02-12"
 tags:
     - "method"
