@@ -1,6 +1,6 @@
 ---
 title: "getAddressSpace"
-description: "Identifier which distinguishes what classification of addresses the subnet represents."
+description: "The classifier of IP addresses this subnet represents, generally PUBLIC or PRIVATE. This does not necessarily correlate with the network on which the subnet is used."
 date: "2018-02-12"
 tags:
     - "method"

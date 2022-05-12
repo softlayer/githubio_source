@@ -1,6 +1,6 @@
 ---
 title: "removeAccessToNetworkStorageList"
-description: "This method is used to remove access to multiple SoftLayer_Network_Storage volumes "
+description: "Removes access to multiple devices and replicas this subnet has been granted access to. "
 date: "2018-02-12"
 tags:
     - "method"

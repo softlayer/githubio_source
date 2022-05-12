@@ -1,6 +1,6 @@
 ---
 title: "getRegionalInternetRegistry"
-description: ""
+description: "The RIR which is authoritative over the network in which this subnet resides."
 date: "2018-02-12"
 tags:
     - "method"

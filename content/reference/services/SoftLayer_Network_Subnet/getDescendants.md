@@ -1,6 +1,6 @@
 ---
 title: "getDescendants"
-description: ""
+description: "The descendants of this subnet, including all parents and children."
 date: "2018-02-12"
 tags:
     - "method"

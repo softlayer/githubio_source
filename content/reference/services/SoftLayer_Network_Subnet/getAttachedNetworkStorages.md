@@ -1,6 +1,6 @@
 ---
 title: "getAttachedNetworkStorages"
-description: "This method is retrieve a list of SoftLayer_Network_Storage volumes that are authorized access to this SoftLayer_Network_Subnet. "
+description: "Retrieves the combination of network storage devices and replicas this subnet has been granted access to. Allows for filtering based on storage device type. "
 date: "2018-02-12"
 tags:
     - "method"

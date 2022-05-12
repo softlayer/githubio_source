@@ -1,6 +1,6 @@
 ---
 title: "getObject"
-description: "getObject retrieves the SoftLayer_Network_Subnet object whose ID number corresponds to the ID number of the init parameter passed to the SoftLayer_Network_Subnet service. You can only retrieve the subnet whose vlan is associated with the account that you portal user is assigned to. "
+description: "Retrieves a subnet by its id value. Only subnets assigned to your account are accessible. "
 date: "2018-02-12"
 tags:
     - "method"

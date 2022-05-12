@@ -1,6 +1,6 @@
 ---
 title: "getRoleKeyName"
-description: "An identifier of the role the subnet is within. Roles dictate how a subnet may be used."
+description: "The role identifier that this subnet is participating in. Roles dictate how a subnet may be used."
 date: "2018-02-12"
 tags:
     - "method"

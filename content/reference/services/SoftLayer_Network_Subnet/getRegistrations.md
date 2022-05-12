@@ -1,6 +1,6 @@
 ---
 title: "getRegistrations"
-description: "All registrations that have been created for this subnet."
+description: "The regional internet registrations that have been created for this subnet."
 date: "2018-02-12"
 tags:
     - "method"

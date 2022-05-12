@@ -1,6 +1,6 @@
 ---
 title: "getChildren"
-description: ""
+description: "The immediate descendants of this subnet."
 date: "2018-02-12"
 tags:
     - "method"

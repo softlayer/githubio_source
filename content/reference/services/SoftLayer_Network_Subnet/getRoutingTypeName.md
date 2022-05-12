@@ -1,6 +1,6 @@
 ---
 title: "getRoutingTypeName"
-description: "The name for the type of route then subnet is currently configured for."
+description: "The description of the product and route classifier for this routed subnet, with the following values: Primary, Portable, Static, Global, IPSec Static NAT."
 date: "2018-02-12"
 tags:
     - "method"

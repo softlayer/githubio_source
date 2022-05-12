@@ -1,6 +1,6 @@
 ---
 title: "getNetworkTunnelContexts"
-description: "IPSec network tunnels that have access to a private subnet."
+description: "The IPSec VPN tunnels associated to this subnet."
 date: "2018-02-12"
 tags:
     - "method"

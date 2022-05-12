@@ -1,6 +1,6 @@
 ---
 title: "getDatacenter"
-description: "The data center this subnet may be routed within."
+description: "The datacenter this subnet is primarily associated with."
 date: "2018-02-12"
 tags:
     - "method"

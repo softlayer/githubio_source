@@ -1,6 +1,6 @@
 ---
 title: "getIpAddresses"
-description: "All the ip addresses associated with a subnet."
+description: "The IP address records belonging to this subnet."
 date: "2018-02-12"
 tags:
     - "method"

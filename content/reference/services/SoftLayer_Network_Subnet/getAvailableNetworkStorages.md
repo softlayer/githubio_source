@@ -1,6 +1,6 @@
 ---
 title: "getAvailableNetworkStorages"
-description: "This method retrieves a list of SoftLayer_Network_Storage volumes that can be authorized to this SoftLayer_Network_Subnet. "
+description: "Retrieves the combination of network storage devices and replicas this subnet has NOT been granted access to. Allows for filtering based on storage device type. "
 date: "2018-02-12"
 tags:
     - "method"
