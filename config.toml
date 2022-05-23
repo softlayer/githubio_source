@@ -6,6 +6,7 @@ SectionPagesMenu = "sections"
 pygmentsUseClasses=true
 pluralizelisttitles = "false"
 paginate = 10
+googleAnalytics = "G-9XPZ9ZBSJE"
 disablePathToLower = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
