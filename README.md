@@ -21,6 +21,12 @@ This script will do the following:
 2. Create any needed service/method/datatype stub files
 3. Generate any of the needed magic ORM methods that don't technically exist in the metadata.
 
+Running `python bin/generateSLDN.py` without the `--download` option will simply re-parse the `data/sldn_metadata.json` file, creating and updating template fies as needed. This is useful if you want to test out changes that don't exist in the real metadata, or build the internal API documentation.
+
+If services/datatypes are REMOVED from the metadata, this might cause issues with the hugo site generation. To fix this, simply remove the reference content and regenerate from the metadata.
+
+`rm -rf content/reference/datatypes content/reference/services; python bin/generateSLDN.py`
+
 
 ### Testing Changes Locally
 To view any changes you made without publishing the content, run the following:
