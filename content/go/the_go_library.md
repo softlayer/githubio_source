@@ -188,16 +188,102 @@ make generate
 If you dont have make installed:
 `go run tools/main.go tools/loadmeta.go tools/common.go tools/version.go generate`
 
-## Contributing to softlayer-go
-
-## ibmcloud sl and other softlayer-go examples
-
-## Object Masks
-
-## Object Filters
-
 ## Iteration
+
+On occasions where the result you want from the API is too large to be done in one request, or takes too long for a single request, iterating (paginating) through the results is always a good idea.
+
+>ALWAYS use an orderBy objectFilter when paginating through results. Otherwise the API might not order the results the same way between queries.
+
+For these cases, the following is a good pattern to use
+
+```go
+import (
+        "github.com/softlayer/softlayer-go/datatypes"
+        "github.com/softlayer/softlayer-go/filter"
+        "github.com/softlayer/softlayer-go/services"
+        "github.com/softlayer/softlayer-go/session"
+        "github.com/softlayer/softlayer-go/sl"
+)
+
+func ListInstances()  ([]datatypes.Virtual_Guest, error) {
+        sess := session.New()
+        filters := filter.New()
+        filters = append(filters, filter.Path("virtualGuests.id").OrderBy("DESC"))
+        accountService := services.GetAccountService(session)
+        limit := 50
+        i := 0
+        resourceList := []datatypes.Virtual_Guest{}
+        for {
+                // Get limit results to start off with
+                resp, err := vs.AccountService.Mask(mask).Filter(filters.Build())
+                                .Limit(limit).Offset(i * limit).GetMonthlyVirtualGuests()
+                // increment the offset so we get a new page next request
+                i++
+                // If there was an error, return that and nothing else
+                if err != nil {
+                        return []datatypes.Virtual_Guest{}, err
+                }
+                // append the results to our resourceList
+                resourceList = append(resourceList, resp...)
+                // if we got fewer results than what we asked for, we are done.
+                if len(resp) < limit {
+                        break
+                }
+        }
+        return resourceList, nil
+}
+```
 
 ## Error Handling
 
-## Debuggin
+For any error that occurs within one of the SoftLayer API services, a custom error type is returned, with individual fields that can be parsed separately.
+
+Note that sl.Error implements the standard error interface, so it can be handled like any other error, if the above granularity is not needed:
+
+```go
+
+_, err := service.Id(0).GetObject()
+
+if err != nil {
+        fmt.Println("Error during processing: ", err)
+        // Note: type assertion is only necessary for inspecting individual fields
+        apiErr := err.(sl.Error)
+        fmt.Printf("API Error:")
+        fmt.Printf("HTTP Status Code: %d\n", apiErr.StatusCode)
+        fmt.Printf("API Code: %s\n", apiErr.Exception)
+        fmt.Printf("API Error: %s\n", apiErr.Message)
+}
+```
+
+## Debugging
+
+When running into issues, its always important to know exactly what the softlayer-go client is sending into the API, and getting back in return. For this, simply set `session.Debug=True`. This will cause softlayer-go to print out API calls it makes, and the JSON data it gets back.
+
+```go
+sess := session.New()
+sess.Debug = true
+```
+
+Output will look something like this:
+
+```bash
+2022/05/26 11:51:51 [DEBUG] Request URL:  GET https://api.softlayer.com/rest/v3.1/SoftLayer_Account/getHardware.json?objectFilter=%7B%22hardware%22%3A%7B%22hostname%22%3A%7B%22operation%22%3A%22%5E%3Dspectrum%22%7D%7D%7D&objectMask=mask%5Bid%2Chostname%2Cdomain%5D
+2022/05/26 11:51:51 [DEBUG] Parameters:
+2022/05/26 11:51:52 [DEBUG] Status Code:  200
+2022/05/26 11:51:52 [DEBUG] Response:  [{"domain":"test.com","hostname":"spectrum-virtualize-par-1","id":3071920}]
+```
+
+## ibmcloud sl and other softlayer-go examples
+
+For a good example of how the softlayer-go library works, the [ibmcloud sl](https://github.com/softlayer/softlayer-cli) command is a good place to start.
+[SLDN GO Library](https://sldn.softlayer.com/go/) also has a nice collection of smaller single use examples that could be useful.
+
+## Contributing to softlayer-go
+
+If you ever feel the softlayer-go library could be improved please feel free to make a pull request, or even open an [issue](https://github.com/softlayer/softlayer-go/issues) on the project's github would be very helpful.
+
+## Further Reading
+- [Basics of the SoftLayer-Go Library](/article/golang/)
+- [SoftLayer-Go Examples](/go/)
+- [SoftLayer-Go Github](https://github.com/softlayer/softlayer-go)
+- [IBMCLOUD SL Plugin](https://github.com/softlayer/softlayer-cli)
