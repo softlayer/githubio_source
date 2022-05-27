@@ -1,6 +1,6 @@
 ---
 title: "getOrderTrackingState"
-description: "An identifying string that corresponds to the state of the order"
+description: ""
 date: "2018-02-12"
 tags:
     - "method"
