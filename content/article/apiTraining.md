@@ -13,15 +13,15 @@ tags:
 
 <iframe  width="100%" height="630" src="https://www.youtube.com/embed/B-qEvFhIL-Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-# SoftLayer API: Getting Started
+# [SoftLayer API: Getting Started](/apiVideo01-Basics.md.html)
 
 <iframe width="100%" height="630" src="https://www.youtube.com/embed/SFSmaX9CEAQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-# SoftLayer API: Object Masks
+# [SoftLayer API: Object Masks](/ApiVideo02-ObjectMasks.md.html)
 
 <iframe width="100%" height="630" src="https://www.youtube.com/embed/opuvAMp75co" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-# SoftLayer API: Object Filters
+# [SoftLayer API: Object Filters](/ApiVIdeo03-ObjectFilters.md.html)
 
 <iframe width="100%" height="630" src="https://www.youtube.com/embed/LUSzSZSv_Fw"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
