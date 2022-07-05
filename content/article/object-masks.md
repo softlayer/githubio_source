@@ -10,6 +10,8 @@ tags:
 
 ## Overview
 
+<iframe width="100%" height="630" src="https://www.youtube.com/embed/opuvAMp75co" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 In order to obtain relational data from an object in the API you must declare an object mask in your API call. With standard object masks, relational data is pulled using a SOAP header, an XML-RPC struct or a GET parameter in REST.
 
 Extended object masks make use of a <a href="http://en.wikipedia.org/wiki/Domain-specific_language" target="_blank">Domain-specific language</a> to reduce the effort required to express what data should be returned from the API. In order to support this new method of object mask, a new input method has been added to each protocol.
