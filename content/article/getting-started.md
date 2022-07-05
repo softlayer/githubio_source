@@ -8,6 +8,11 @@ tags:
 ---
 
 # Introduction to the SoftLayer API
+
+<iframe width="100%" height="630" src="https://www.youtube.com/embed/SFSmaX9CEAQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+[slides](/apiVideo01-Basics.md.html)
+
 Welcome to SLDN, the home of the documentation for the SoftLayer, or IBM Classic Infrastructure, API. Here you can find a collection of [Articles](/article/) that cover some of the core concepts in details, [Reference Documentation](/reference/softlayerapi/) which is the automatically generated API specifications and documentation, and also a collection of examples in a variety of programming languages like [Golang](/go/), [Python](/python/), and [Java](/java/)
 
 ## Before You Start
