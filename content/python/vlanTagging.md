@@ -136,7 +136,7 @@ if __name__ == "__main__":
 
 ### Output
 
-```bash
+```
 $ python vlanTaggingExample.py 1403539 --detail --public 997  --private 1325
 Calling: SoftLayer_Hardware_Server::getPrimaryNetworkComponent(id=1403539, mask='', filter='None', args=(), limit=None, offset=None))
 Calling: SoftLayer_Network_Component::addNetworkVlanTrunks(id=10646647, mask='', filter='None', args=([{'vlanNumber': '997'}],), limit=None, offset=None))
@@ -146,12 +146,13 @@ Calling: SoftLayer_Network_Component::addNetworkVlanTrunks(id=10646645, mask='',
 VLANs successfully added
 Calling: SoftLayer_Hardware_Server::getObject(id=1403539, mask='mask[id,hostname,domain,networkComponents[uplinkComponent[ networkVlan,networkVlanTrunks[networkVlan[id,vlanNumber]]]]]', filter='None', args=(), limit=None, offset=None))
         bardcabero.testedit.com Network Components
-┏━━━━━━━━━━┳━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━┳━━━━━━━━━━━━━┓
-┃ Id       ┃ Primary IP     ┃ Primary VLAN ┃ VLAN Trunks ┃
-┡━━━━━━━━━━╇━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━╇━━━━━━━━━━━━━┩
-│ 10646645 │ 10.93.138.202  │ 886          │ 1325        │
-│ 10646647 │ 169.48.191.244 │ 1236         │ 997         │
-└──────────┴────────────────┴──────────────┴─────────────┘
++--------------------------------------------------------+
+| Id       | Primary IP     | Primary VLAN | VLAN Trunks |
+|----------+----------------+--------------+-------------|
+| 10646645 | 10.93.138.202  | 886          | 1325        |
+| 10646647 | 169.48.191.244 | 1236         | 997         |
++--------------------------------------------------------+
+
 ```
 
 
