@@ -1,6 +1,6 @@
 ---
 title: "Trunking VLANs"
-description: "Some examles of how to adding VLAN Trunks. AKA VLAN Tagging"
+description: "Some examples of how to add VLAN Trunks. AKA VLAN Tagging"
 date: "2022-08-04"
 classes: 
     - "SoftLayer_Network_Component"
@@ -10,7 +10,7 @@ tags:
 ---
 This example shows how to add VLAN Trunks to a server.
 
-*NOTE* When trying to get the vlan tags/trunks from a server, the trunk information is on the `Hardware_Server->networkComponent->uplinkComponent->vlanTrunks` relationship. Esentially the Server's NIC doesn't know about network VLANs, but the switch port that is connected to the NIC does.
+*NOTE* When trying to get the vlan tags/trunks from a server, the trunk information is on the `Hardware_Server->networkComponent->uplinkComponent->networkVlanTrunks` relationship.
 
 
 ## VLAN Trunks
@@ -35,7 +35,7 @@ from rich.table import Table
 import SoftLayer
 from pprint import pprint as pp 
 
-class testVlanTrunk():
+class VlanTrunk():
     def __init__(self):
         """SoftLayer Client"""
         self.client = SoftLayer.Client()
@@ -46,13 +46,13 @@ class testVlanTrunk():
         """Adds Trunks to a Public network component"""
         component = self.getNetworkComponents(serverId, private=False)
         networkVlans = self.listToVlan(vlans)
-        self.addTrunks(component.get('id'), networkVlans)
+        self.addTrunks(component.get('id'), networkVlans, type="Public")
        
     def trunkPrivate(self, serverId, vlans):
         """Adds Trunks to a Private network component"""
         component = self.getNetworkComponents(serverId, private=True)
         networkVlans = self.listToVlan(vlans)
-        self.addTrunks(component.get('id'), networkVlans)
+        self.addTrunks(component.get('id'), networkVlans, type="Private")
 
     def addTrunks(self, component_id, networkVlans, type="Public"):
         """Makes the actual API call to add VLAN Trunks"""
@@ -118,7 +118,7 @@ class testVlanTrunk():
 @click.option('-i', '--private', multiple=True, help="Private VLAN number to add")
 @click.option('-d', '--detail', is_flag=True, help="Shows details of this server's network components")
 def trunkVlans(serverid, public, private, detail):
-    vlanTrunk = testVlanTrunk()
+    vlanTrunk = VlanTrunk()
     if not any([public, private, detail]):
         raise(click.ClickException("Specify at least one VLAN, or --detail"))
     if public:
