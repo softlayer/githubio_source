@@ -1,6 +1,6 @@
 ---
 title: "getSanStorageCapabilityFlag"
-description: "A flag indicating that a vlan can be assigned to a host that has SAN disk functionality."
+description: "A value of '1' indicates this VLAN's pod has VSI SAN disk storage capability."
 date: "2018-02-12"
 tags:
     - "method"

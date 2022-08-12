@@ -1,6 +1,8 @@
 ---
 title: "getPublicVlanByFqdn"
-description: "Retrieve the VLAN that belongs to a server's public network interface, as described by a server's fully-qualified domain name. A server's ''FQDN'' is it's hostname, followed by a period then it's domain name. "
+description: "
+*** DEPRECATED ***
+Retrieves a public VLAN associated to the host matched by the given fully-qualified domain name. "
 date: "2018-02-12"
 tags:
     - "method"

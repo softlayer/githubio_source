@@ -1,6 +1,6 @@
 ---
 title: "getFirewallNetworkComponents"
-description: "A firewalled Vlan's network components."
+description: "The uplinks of the hardware network interfaces connected natively to this VLAN and associated with a Hardware Firewall."
 date: "2018-02-12"
 tags:
     - "method"

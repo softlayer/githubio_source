@@ -1,6 +1,6 @@
 ---
 title: "getHighAvailabilityFirewallFlag"
-description: ""
+description: "A value of '1' indicates this VLAN is associated with a firewall device in a high availability configuration."
 date: "2018-02-12"
 tags:
     - "method"

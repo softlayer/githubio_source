@@ -1,6 +1,6 @@
 ---
 title: "getVlanForIpAddress"
-description: "Retrieve the VLAN associated with an IP address via the IP's associated subnet. "
+description: "Retrieves the VLAN on which the given IP address is routed."
 date: "2018-02-12"
 tags:
     - "method"

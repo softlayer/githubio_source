@@ -1,6 +1,6 @@
 ---
 title: "getFirewallGuestNetworkComponents"
-description: "A firewalled Vlan's network components."
+description: "The VSI network interfaces connected to this VLAN and associated with a Hardware Firewall."
 date: "2018-02-12"
 tags:
     - "method"

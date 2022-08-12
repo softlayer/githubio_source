@@ -1,6 +1,6 @@
 ---
 title: "getBillingItem"
-description: "The billing item for a network vlan."
+description: "The billing item for this VLAN."
 date: "2018-02-12"
 tags:
     - "method"

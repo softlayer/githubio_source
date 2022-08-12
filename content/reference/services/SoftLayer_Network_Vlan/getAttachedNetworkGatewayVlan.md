@@ -1,6 +1,6 @@
 ---
 title: "getAttachedNetworkGatewayVlan"
-description: "The inside VLAN record if this VLAN is inside a network gateway."
+description: "The gateway device VLAN context this VLAN is associated with for routing purposes."
 date: "2018-02-12"
 tags:
     - "method"

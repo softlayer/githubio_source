@@ -1,6 +1,6 @@
 ---
 title: "getObject"
-description: "getObject retrieves the SoftLayer_Network_Vlan object whose ID number corresponds to the ID number of the init parameter passed to the SoftLayer_Network_Vlan service. You can only retrieve VLANs that are associated with your SoftLayer customer account. "
+description: "Retrieves a VLAN by its id value. Only VLANs assigned to your account are accessible. "
 date: "2018-02-12"
 tags:
     - "method"

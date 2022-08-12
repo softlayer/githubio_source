@@ -1,6 +1,8 @@
 ---
 title: "getFirewallProtectableSubnets"
-description: "Get the subnets associated with this server that are protectable by a network component firewall. "
+description: "
+*** DEPRECATED ***
+Retrieves the subnets routed on this VLAN that are protectable by a Hardware Firewall. "
 date: "2018-02-12"
 tags:
     - "method"

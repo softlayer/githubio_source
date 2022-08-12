@@ -1,6 +1,6 @@
 ---
 title: "getNetworkComponents"
-description: "The networking components that are connected to a VLAN."
+description: "The hardware network interfaces connected natively to this VLAN."
 date: "2018-02-12"
 tags:
     - "method"

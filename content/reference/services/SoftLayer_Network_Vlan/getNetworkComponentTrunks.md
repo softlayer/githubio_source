@@ -1,6 +1,6 @@
 ---
 title: "getNetworkComponentTrunks"
-description: "The network components that are connected to this VLAN through a trunk."
+description: "The hardware network interfaces connected via trunk to this VLAN."
 date: "2018-02-12"
 tags:
     - "method"

@@ -1,6 +1,6 @@
 ---
 title: "getHardware"
-description: "All of the hardware that exists on a VLAN. Hardware is associated with a VLAN by its networking components."
+description: "The hardware with network interfaces connected natively to this VLAN."
 date: "2018-02-12"
 tags:
     - "method"

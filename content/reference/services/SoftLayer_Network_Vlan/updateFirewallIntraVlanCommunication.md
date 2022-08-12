@@ -1,6 +1,8 @@
 ---
 title: "updateFirewallIntraVlanCommunication"
-description: "The '''getSensorData''' method updates a VLAN's firewall to allow or disallow intra-VLAN communication. "
+description: "
+*** DEPRECATED ***
+Updates the firewall associated to this VLAN to allow or disallow intra-VLAN communication. "
 date: "2018-02-12"
 tags:
     - "method"

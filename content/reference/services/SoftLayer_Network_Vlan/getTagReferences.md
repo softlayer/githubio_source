@@ -1,6 +1,6 @@
 ---
 title: "getTagReferences"
-description: "References to all tags for this VLAN."
+description: "The tags associated to this VLAN."
 date: "2018-02-12"
 tags:
     - "method"

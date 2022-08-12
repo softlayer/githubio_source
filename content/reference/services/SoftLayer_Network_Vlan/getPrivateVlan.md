@@ -1,6 +1,8 @@
 ---
 title: "getPrivateVlan"
-description: "Retrieve a VLAN's associated private network VLAN. getPrivateVlan gathers it's information by retrieving the private VLAN of a VLAN's primary hardware object. "
+description: "
+*** DEPRECATED ***
+Retrieves a private VLAN associated to one or more hosts also associated to this public VLAN. "
 date: "2018-02-12"
 tags:
     - "method"

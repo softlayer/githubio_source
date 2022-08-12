@@ -1,6 +1,6 @@
 ---
 title: "getLocalDiskStorageCapabilityFlag"
-description: "A flag indicating that a vlan can be assigned to a host that has local disk functionality."
+description: "A value of '1' indicates this VLAN's pod has VSI local disk storage capability."
 date: "2018-02-12"
 tags:
     - "method"

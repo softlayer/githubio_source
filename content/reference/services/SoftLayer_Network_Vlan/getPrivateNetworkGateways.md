@@ -1,6 +1,6 @@
 ---
 title: "getPrivateNetworkGateways"
-description: "The gateways this VLAN is the private VLAN of."
+description: "The gateway devices with connectivity supported by this private VLAN."
 date: "2018-02-12"
 tags:
     - "method"

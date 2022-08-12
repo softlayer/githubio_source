@@ -1,6 +1,6 @@
 ---
 title: "getNetworkVlanFirewall"
-description: "The Hardware Firewall (Dedicated) for a network vlan."
+description: "The firewall device associated with this VLAN."
 date: "2018-02-12"
 tags:
     - "method"

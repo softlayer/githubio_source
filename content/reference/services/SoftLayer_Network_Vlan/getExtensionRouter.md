@@ -1,6 +1,6 @@
 ---
 title: "getExtensionRouter"
-description: "[DEPRECATED] The extension router that a VLAN is associated with."
+description: "[DEPRECATED] The extension router that this VLAN is associated with."
 date: "2018-02-12"
 tags:
     - "method"
