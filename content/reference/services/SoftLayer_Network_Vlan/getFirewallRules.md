@@ -1,6 +1,6 @@
 ---
 title: "getFirewallRules"
-description: "The currently running rule set of a firewalled VLAN."
+description: "The access rules for the firewall device associated with this VLAN."
 date: "2018-02-12"
 tags:
     - "method"

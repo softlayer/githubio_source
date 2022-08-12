@@ -1,6 +1,6 @@
 ---
 title: "getSubnets"
-description: "All of the subnets that exist as VLAN interfaces."
+description: "All subnets routed on this VLAN."
 date: "2018-02-12"
 tags:
     - "method"

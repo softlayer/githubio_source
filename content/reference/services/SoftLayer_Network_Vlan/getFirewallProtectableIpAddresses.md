@@ -1,6 +1,8 @@
 ---
 title: "getFirewallProtectableIpAddresses"
-description: "Get the IP addresses associated with this server that are protectable by a network component firewall. Note, this may not return all values for IPv6 subnets for this VLAN. Please use getFirewallProtectableSubnets to get all protectable subnets. "
+description: "
+*** DEPRECATED ***
+Retrieves the IP addresses routed on this VLAN that are protectable by a Hardware Firewall. "
 date: "2018-02-12"
 tags:
     - "method"

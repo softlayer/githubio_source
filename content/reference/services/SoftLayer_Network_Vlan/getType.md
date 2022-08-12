@@ -1,6 +1,6 @@
 ---
 title: "getType"
-description: "The type of this VLAN."
+description: "The type for this VLAN, with the following values: STANDARD, GATEWAY, INTERCONNECT"
 date: "2018-02-12"
 tags:
     - "method"

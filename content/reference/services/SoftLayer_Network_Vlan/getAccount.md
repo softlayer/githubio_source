@@ -1,6 +1,6 @@
 ---
 title: "getAccount"
-description: "The SoftLayer customer account associated with a VLAN."
+description: "The account this VLAN is associated with."
 date: "2018-02-12"
 tags:
     - "method"

@@ -1,6 +1,6 @@
 ---
 title: "getPrimarySubnets"
-description: ""
+description: "All primary subnets routed on this VLAN."
 date: "2018-02-12"
 tags:
     - "method"

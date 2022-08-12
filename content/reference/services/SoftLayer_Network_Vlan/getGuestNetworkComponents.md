@@ -1,6 +1,6 @@
 ---
 title: "getGuestNetworkComponents"
-description: "The networking components that are connected to a VLAN."
+description: "The VSI network interfaces connected to this VLAN."
 date: "2018-02-12"
 tags:
     - "method"

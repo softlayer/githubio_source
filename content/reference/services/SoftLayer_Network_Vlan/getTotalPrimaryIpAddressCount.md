@@ -1,6 +1,6 @@
 ---
 title: "getTotalPrimaryIpAddressCount"
-description: "The number of primary IP addresses in a VLAN."
+description: "The number of primary IPv4 addresses routed on this VLAN."
 date: "2018-02-12"
 tags:
     - "method"

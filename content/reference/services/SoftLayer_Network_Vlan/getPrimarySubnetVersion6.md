@@ -1,6 +1,6 @@
 ---
 title: "getPrimarySubnetVersion6"
-description: "A VLAN's primary IPv6 subnet. Some VLAN's may not have a primary IPv6 subnet."
+description: "The primary IPv6 subnet routed on this VLAN, if IPv6 is enabled."
 date: "2018-02-12"
 tags:
     - "method"

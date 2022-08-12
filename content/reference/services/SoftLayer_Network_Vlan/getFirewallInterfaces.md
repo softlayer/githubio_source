@@ -1,6 +1,6 @@
 ---
 title: "getFirewallInterfaces"
-description: "A firewalled vlan's inbound/outbound interfaces."
+description: "The context for the firewall device associated with this VLAN."
 date: "2018-02-12"
 tags:
     - "method"

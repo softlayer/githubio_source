@@ -1,6 +1,6 @@
 ---
 title: "getAttachedNetworkGateway"
-description: "The gateway this VLAN is inside of."
+description: "The gateway device this VLAN is associated with for routing purposes."
 date: "2018-02-12"
 tags:
     - "method"

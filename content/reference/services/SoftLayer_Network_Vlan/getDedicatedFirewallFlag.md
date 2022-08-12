@@ -1,6 +1,6 @@
 ---
 title: "getDedicatedFirewallFlag"
-description: "A flag indicating that a network vlan is on a Hardware Firewall (Dedicated)."
+description: "A value of '1' indicates this VLAN is associated with a firewall device. This does not include Hardware Firewalls."
 date: "2018-02-12"
 tags:
     - "method"

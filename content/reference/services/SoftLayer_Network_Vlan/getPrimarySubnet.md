@@ -1,6 +1,6 @@
 ---
 title: "getPrimarySubnet"
-description: "A VLAN's primary subnet. Each VLAN has at least one subnet, usually the subnet that is assigned to a server or new IP address block when it's purchased."
+description: "A primary IPv4 subnet routed on this VLAN, if accessible."
 date: "2018-02-12"
 tags:
     - "method"

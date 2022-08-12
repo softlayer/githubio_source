@@ -1,8 +1,26 @@
 ---
 title: "SoftLayer_Network_Vlan"
-description: "Virtual LANs are an integral part of SoftLayer' s public and private networks. A VLAN is a networking concept in which network interfaces on different routers, switches, and servers act as if they're on the same local network broadcast domain. This kind of network segmentation helps keep SoftLayer customers' networks separate from each other and provides a convenient mechanism for routing new IP subnets to servers. They also enable easy IP address sharing and swapping between servers on the same VLAN. SoftLayer servers are provisioned on private VLANs per router on the public and private networks. 
+description: "This service enables interaction with VLANs assigned to your account. 
 
-The SoftLayer_Network_Vlan service controls these VLANs and provides relationships between VLANs, subnets, IP addresses, and network components. "
+Automatic VLANs are assigned as needed and are reclaimed when no longer in use. 
+
+Premium VLANs are assigned when ordered and are reclaimed when cancelled. 
+
+VLANs can be tagged for discoverability and tracking purposes. 
+
+Refer to the following services and methods for related concepts and actions involving VLANs. 
+
+- [SoftLayer_Network_Pod](/reference/datatypes/SoftLayer_Network_Pod) 
+
+- [SoftLayer_Network_Subnet](/reference/datatypes/SoftLayer_Network_Subnet) 
+
+- [SoftLayer_Network_Subnet::route](/reference/services/SoftLayer_Network_Subnet/route) 
+
+- [SoftLayer_Network_Subnet::clearRoute](/reference/services/SoftLayer_Network_Subnet/clearRoute) 
+
+- [SoftLayer_Network_Component::addNetworkVlanTrunks](/reference/services/SoftLayer_Network_Component/addNetworkVlanTrunks) 
+
+- [SoftLayer_Network_Component::removeNetworkVlanTrunks](/reference/services/SoftLayer_Network_Component/removeNetworkVlanTrunks) "
 date: "2018-02-12"
 tags:
     - "service"

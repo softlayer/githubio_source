@@ -1,6 +1,6 @@
 ---
 title: "getNetwork"
-description: "The network in which this VLAN resides."
+description: "[DEPRECATED] The network in which this VLAN resides."
 date: "2018-02-12"
 tags:
     - "method"

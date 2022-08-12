@@ -1,6 +1,10 @@
 ---
 title: "editObject"
-description: "Edit a VLAN's properties"
+description: "Updates this VLAN using the provided VLAN template. 
+
+The following properties may be modified. 
+
+- 'name' - A description no more than 20 characters in length. "
 date: "2018-02-12"
 tags:
     - "method"

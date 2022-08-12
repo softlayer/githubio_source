@@ -1,6 +1,6 @@
 ---
 title: "getSecondarySubnets"
-description: "The subnets that exist as secondary interfaces on a VLAN"
+description: "All non-primary subnets routed on this VLAN."
 date: "2018-02-12"
 tags:
     - "method"

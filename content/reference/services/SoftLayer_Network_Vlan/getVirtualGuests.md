@@ -1,6 +1,6 @@
 ---
 title: "getVirtualGuests"
-description: "All of the Virtual Servers that are connected to a VLAN."
+description: "The VSIs with network interfaces connected to this VLAN."
 date: "2018-02-12"
 tags:
     - "method"

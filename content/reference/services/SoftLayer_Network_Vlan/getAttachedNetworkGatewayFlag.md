@@ -1,6 +1,6 @@
 ---
 title: "getAttachedNetworkGatewayFlag"
-description: "Whether or not this VLAN is inside a gateway."
+description: "A value of '1' indicates this VLAN is associated with a gateway device for routing purposes."
 date: "2018-02-12"
 tags:
     - "method"

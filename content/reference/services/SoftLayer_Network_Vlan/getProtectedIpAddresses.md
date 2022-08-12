@@ -1,6 +1,6 @@
 ---
 title: "getProtectedIpAddresses"
-description: ""
+description: "IP addresses routed on this VLAN which are actively associated with network protections."
 date: "2018-02-12"
 tags:
     - "method"

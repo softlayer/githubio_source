@@ -1,6 +1,6 @@
 ---
 title: "getNetworkSpace"
-description: "Identifier to denote whether a VLAN is used for public or private connectivity."
+description: "The network that this VLAN is on, either PUBLIC or PRIVATE, if applicable."
 date: "2018-02-12"
 tags:
     - "method"

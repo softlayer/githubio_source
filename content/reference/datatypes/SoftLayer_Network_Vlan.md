@@ -1,6 +1,12 @@
 ---
 title: "SoftLayer_Network_Vlan"
-description: "The SoftLayer_Network_Vlan data type models a single VLAN within SoftLayer's public and private networks. a Virtual LAN is a structure that associates network interfaces on routers, switches, and servers in different locations to act as if they were on the same local network broadcast domain. VLANs are a central part of the SoftLayer network. They can determine how new IP subnets are routed and how individual servers communicate to each other. "
+description: "VLANs comprise the fundamental segmentation model on the network, isolating customer networks from one another. 
+
+VLANs are scoped to a single network, generally public or private, and a pod. Through association to a single VLAN, assigned subnets are routed on the network to provide IP address connectivity. 
+
+Compute devices are associated to a single VLAN per active network, to which the Primary IP Address and containing Primary Subnet belongs. Additional VLANs may be associated to bare metal devices using VLAN trunking. 
+
+[VLAN at Wikipedia](https://en.wikipedia.org/wiki/VLAN) "
 date: "2018-02-12"
 tags:
     - "datatype"

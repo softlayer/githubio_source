@@ -1,6 +1,6 @@
 ---
 title: "getPublicNetworkGateways"
-description: "The gateways this VLAN is the public VLAN of."
+description: "The gateway devices with connectivity supported by this public VLAN."
 date: "2018-02-12"
 tags:
     - "method"

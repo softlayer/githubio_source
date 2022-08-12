@@ -1,6 +1,6 @@
 ---
 title: "getNetworkStatus"
-description: "The value of a hardware's network status attribute."
+description: "The value of a hardware's network status attribute. [DEPRECATED]"
 date: "2018-02-12"
 tags:
     - "method"

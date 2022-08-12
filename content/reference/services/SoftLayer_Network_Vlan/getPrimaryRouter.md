@@ -1,6 +1,6 @@
 ---
 title: "getPrimaryRouter"
-description: "The primary router that a VLAN is associated with. Every SoftLayer VLAN is connected to more than one router for greater network redundancy."
+description: "The router device that this VLAN is associated with."
 date: "2018-02-12"
 tags:
     - "method"
