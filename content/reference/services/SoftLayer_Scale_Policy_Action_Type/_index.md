@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Scale_Policy_Action_Type"
-description: "An action type"
+description: "[DEPRECATED] An action type"
 date: "2018-02-12"
 tags:
     - "service"

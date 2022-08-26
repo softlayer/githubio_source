@@ -1,6 +1,6 @@
 ---
 title: "getScaleGroups"
-description: "All scale groups on this account."
+description: "[DEPRECATED] All scale groups on this account."
 date: "2018-02-12"
 tags:
     - "method"

@@ -1,6 +1,6 @@
 ---
 title: "getScaleAssets"
-description: "Collection of scale assets this guest corresponds to."
+description: "[DEPRECATED] Collection of scale assets this guest corresponds to."
 date: "2018-02-12"
 tags:
     - "method"

@@ -1,6 +1,6 @@
 ---
 title: "getScaleLoadBalancers"
-description: "Collection of scale load balancers that use this health check."
+description: "[DEPRECATED] Collection of scale load balancers that use this health check."
 date: "2018-02-12"
 tags:
     - "method"

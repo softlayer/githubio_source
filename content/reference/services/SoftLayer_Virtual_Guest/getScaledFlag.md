@@ -1,6 +1,6 @@
 ---
 title: "getScaledFlag"
-description: "Whether or not this guest is a member of a scale group and was automatically created as part of a scale group action."
+description: "[DEPRECATED] Whether or not this guest is a member of a scale group and was automatically created as part of a scale group action."
 date: "2018-02-12"
 tags:
     - "method"

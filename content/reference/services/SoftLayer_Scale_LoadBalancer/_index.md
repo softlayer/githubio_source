@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Scale_LoadBalancer"
-description: "A scale load balancer is a configuration for a load balancer virtual server that autoscaled members will be automatically configured for. "
+description: "[DEPRECATED] A scale load balancer is a configuration for a load balancer virtual server that autoscaled members will be automatically configured for. "
 date: "2018-02-12"
 tags:
     - "service"

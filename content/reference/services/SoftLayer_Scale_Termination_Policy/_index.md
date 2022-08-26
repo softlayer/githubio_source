@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Scale_Termination_Policy"
-description: "A policy for automatic removal of members from a group. This policy determines which members are chosen first for removal. The values can be: 
+description: "[DEPRECATED] A policy for automatic removal of members from a group. This policy determines which members are chosen first for removal. The values can be: 
 
 
 * OLDEST - The oldest member is the next one removed.

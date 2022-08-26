@@ -1,6 +1,6 @@
 ---
 title: "getScaleMember"
-description: "The scale member for this guest, if applicable."
+description: "[DEPRECATED] The scale member for this guest, if applicable."
 date: "2018-02-12"
 tags:
     - "method"
