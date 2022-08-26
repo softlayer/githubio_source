@@ -1,6 +1,6 @@
 ---
 title: "getScaleLoadBalancers"
-description: "Collection of scale load balancers this virtual server applies to."
+description: "[DEPRECATED] Collection of scale load balancers this virtual server applies to."
 date: "2018-02-12"
 tags:
     - "method"

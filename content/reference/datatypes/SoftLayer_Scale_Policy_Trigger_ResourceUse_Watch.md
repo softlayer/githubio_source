@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Scale_Policy_Trigger_ResourceUse_Watch"
-description: "This is a specific watch for a resource use policy trigger."
+description: "[DEPRECATED] This is a specific watch for a resource use policy trigger."
 date: "2018-02-12"
 tags:
     - "datatype"

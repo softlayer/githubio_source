@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Scale_Network_Vlan"
-description: "A scale network VLAN is a VLAN that scaled members will be placed on."
+description: "[DEPRECATED] A scale network VLAN is a VLAN that scaled members will be placed on. "
 date: "2018-02-12"
 tags:
     - "service"

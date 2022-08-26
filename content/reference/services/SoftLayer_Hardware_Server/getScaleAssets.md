@@ -1,6 +1,6 @@
 ---
 title: "getScaleAssets"
-description: "Collection of scale assets this hardware corresponds to."
+description: "[DEPRECATED] Collection of scale assets this hardware corresponds to."
 date: "2018-02-12"
 tags:
     - "method"

@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Scale_Group_Status"
-description: "The status of a scale group. This status affects what actions can occur on a group. The values can be: 
+description: "[DEPRECATED] The status of a scale group. This status affects what actions can occur on a group. The values can be: 
 
 
 * ACTIVE - There are no actions execution for any members or assets of any type.

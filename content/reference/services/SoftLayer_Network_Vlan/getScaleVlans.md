@@ -1,6 +1,6 @@
 ---
 title: "getScaleVlans"
-description: "Collection of scale VLANs this VLAN applies to."
+description: "[DEPRECATED] The scale VLANs associated to this VLAN."
 date: "2018-02-12"
 tags:
     - "method"
