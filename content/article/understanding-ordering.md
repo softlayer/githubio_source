@@ -38,22 +38,22 @@ When using the order CLI, we build an order from the top (package) to the bottom
 $ slcli order package-list --help
 Usage: slcli order package-list [OPTIONS]
 
-  List packages that can be ordered via the placeOrder API.
+  List packages that can be ordered via the placeOrder API.
 
-  Example:
-      # List out all packages for ordering
-      slcli order package-list
+  Example:
+      # List out all packages for ordering
+      slcli order package-list
 
-  Keywords can also be used for some simple filtering functionality to help
-  find a package easier.
+  Keywords can also be used for some simple filtering functionality to help
+  find a package easier.
 
-  Example:
-     # List out all packages with "server" in the name
-      slcli order package-list --keyword server
+  Example:
+     # List out all packages with "server" in the name
+      slcli order package-list --keyword server
 
 Options:
-  --keyword TEXT  A word (or string) used to filter package names.
-  -h, --help      Show this message and exit.
+  --keyword TEXT  A word (or string) used to filter package names.
+  -h, --help      Show this message and exit.
 
 {{< /highlight >}}
 
@@ -66,10 +66,10 @@ We can use the “server” keyword to search for server packages:
 ```
 $ slcli order package-list --keyword "Bare Metal"
 :.....................:.....................:
-:         name        :       keyName       :
+:         name        :       keyName       :
 :.....................:.....................:
 : Bare Metal Instance : BARE_METAL_INSTANCE :
-:  Bare Metal Server  :  BARE_METAL_SERVER  :
+:  Bare Metal Server  :  BARE_METAL_SERVER  :
 :.....................:.....................:
 ```
 
@@ -78,20 +78,20 @@ We will be using the *BARE_METAL_SERVER* package for this order. Bare metal serv
 ```
 $ slcli order preset-list BARE_METAL_SERVER
 :.............................................:...............................................:.................................................................:
-:                     name                    :                    keyName                    :                           description                           :
+:                     name                    :                    keyName                    :                           description                           :
 :.............................................:...............................................:.................................................................:
-:         S1270 32GB 1X1TBSATA NORAID         :          S1270_32GB_1X1TBSATA_NORAID          :      Single Xeon 1270, 32GB Ram, 1x1TB SATA disks, Non-RAID     :
-:         S1270 32GB 2X960GBSSD NORAID        :          S1270_32GB_2X960GBSSD_NORAID         :     Single Xeon 1270, 32GB Ram, 2x960GB SSD disks, Non-RAID     :
-:         D2690 128GB 2X600GBSAS RAID1        :         D2690_128GB_2X600GBSAS_RAID1_2        :       Dual Xeon 2690, 128GB Ram, 2x600GB SAS disks, RAID1       :
-:        D2690 256GB 4X600GBSAS RAID10        :     D2690_256GB_4X600GBSAS_RAID10_RAID_10     :       Dual Xeon 2690, 256GB Ram, 4x600GB SAS disks, RAID10      :
-:        D2620v4 64GB 1X1TBSATA NORAID        :         D2620V4_64GB_1X1TBSATA_NORAID         :      Dual Xeon 2620v4, 64GB Ram, 1x1TB SATA disks, Non-RAID     :
-:     D2620 128GB 2X1T SATA RAID 1xM60 GPU    :     D2620_128GB_2X1TB_SATA_RAID_1_M60_GPU1    : Dual Xeon 2620, 128GB Ram, 2X1TB SATA disks, RAID 1   1xM60 GPU :
-:    D2690 256GB 2x4TB SATA RAID1 2xM60 GPU   : D2690_256GB_2X4TB_SATA_RAID1_2XM60_GPU_RAID_1 :        Dual Xeon 2690, 256GB Ram, 2X4TB SATA disk, RAID 1       :
-:       D2690v4 128GB 2X600GB SAS RAID 1      :        D2690V4_128GB_2X600GB_SAS_RAID_1       :      Dual Xeon 2690v4, 128GB Ram, 2x600GB SAS disks, RAID1      :
-:        D2620v4 64GB 2X1TB SATA RAID 1       :         D2620V4_64GB_2X1TB_SATA_RAID_1        :       Dual Xeon 2620v4, 64GB Ram, 2x1TB SATA disks, RAID1       :
-: D2620v4 128GB 2X800GB SSD RAID 1 K80 GPU(2) :   D2620V4_128GB_2X800GB_SSD_RAID_1_K80_GPU2   :      Dual Xeon 2620v4, 128GB Ram, 2x800GB SSD disks, RAID1      :
-:  D2690v4 128GB 2X4TB SATA RAID 1 K2 GPU(2)  :    D2690V4_128GB_2X4TB_SATA_RAID_1_K2_GPU2    :            D2690v4 128GB 2x4TB SATA RAID 1 K2 GPU(2)            :
-:      D2690v4 256GB 4X600GB SAS RAID 10      :       D2690V4_256GB_4X600GB_SAS_RAID_10       :     Dual Xeon 2690v4, 256GB Ram, 4x600GB SAS disks, RAID 10     :
+:         S1270 32GB 1X1TBSATA NORAID         :          S1270_32GB_1X1TBSATA_NORAID          :      Single Xeon 1270, 32GB Ram, 1x1TB SATA disks, Non-RAID     :
+:         S1270 32GB 2X960GBSSD NORAID        :          S1270_32GB_2X960GBSSD_NORAID         :     Single Xeon 1270, 32GB Ram, 2x960GB SSD disks, Non-RAID     :
+:         D2690 128GB 2X600GBSAS RAID1        :         D2690_128GB_2X600GBSAS_RAID1_2        :       Dual Xeon 2690, 128GB Ram, 2x600GB SAS disks, RAID1       :
+:        D2690 256GB 4X600GBSAS RAID10        :     D2690_256GB_4X600GBSAS_RAID10_RAID_10     :       Dual Xeon 2690, 256GB Ram, 4x600GB SAS disks, RAID10      :
+:        D2620v4 64GB 1X1TBSATA NORAID        :         D2620V4_64GB_1X1TBSATA_NORAID         :      Dual Xeon 2620v4, 64GB Ram, 1x1TB SATA disks, Non-RAID     :
+:     D2620 128GB 2X1T SATA RAID 1xM60 GPU    :     D2620_128GB_2X1TB_SATA_RAID_1_M60_GPU1    : Dual Xeon 2620, 128GB Ram, 2X1TB SATA disks, RAID 1   1xM60 GPU :
+:    D2690 256GB 2x4TB SATA RAID1 2xM60 GPU   : D2690_256GB_2X4TB_SATA_RAID1_2XM60_GPU_RAID_1 :        Dual Xeon 2690, 256GB Ram, 2X4TB SATA disk, RAID 1       :
+:       D2690v4 128GB 2X600GB SAS RAID 1      :        D2690V4_128GB_2X600GB_SAS_RAID_1       :      Dual Xeon 2690v4, 128GB Ram, 2x600GB SAS disks, RAID1      :
+:        D2620v4 64GB 2X1TB SATA RAID 1       :         D2620V4_64GB_2X1TB_SATA_RAID_1        :       Dual Xeon 2620v4, 64GB Ram, 2x1TB SATA disks, RAID1       :
+: D2620v4 128GB 2X800GB SSD RAID 1 K80 GPU(2) :   D2620V4_128GB_2X800GB_SSD_RAID_1_K80_GPU2   :      Dual Xeon 2620v4, 128GB Ram, 2x800GB SSD disks, RAID1      :
+:  D2690v4 128GB 2X4TB SATA RAID 1 K2 GPU(2)  :    D2690V4_128GB_2X4TB_SATA_RAID_1_K2_GPU2    :            D2690v4 128GB 2x4TB SATA RAID 1 K2 GPU(2)            :
+:      D2690v4 256GB 4X600GB SAS RAID 10      :       D2690V4_256GB_4X600GB_SAS_RAID_10       :     Dual Xeon 2690v4, 256GB Ram, 4x600GB SAS disks, RAID 10     :
 :.............................................:...............................................:.................................................................:
 
 ```
@@ -105,32 +105,32 @@ For this example, we will use the *S1270_32GB_1X1TBSATA_NORAID* preset. Now let�
 ```
 slcli order category-list BARE_METAL_SERVER
 :........................................:.......................:............:
-:                  name                  :      categoryCode     : isRequired :
+:                  name                  :      categoryCode     : isRequired :
 :........................................:.......................:............:
-:                 Server                 :         server        :     Y      :
-:        New Cloud Customer Setup        :   new_customer_setup  :     N      :
-:               Surcharges               :        premium        :     N      :
-:            Operating System            :           os          :     Y      :
-:                  RAM                   :          ram          :     Y      :
-:            Disk Controller             :    disk_controller    :     Y      :
-:            First Hard Drive            :         disk0         :     Y      :
-:           Second Hard Drive            :         disk1         :     N      :
-:            Third Hard Drive            :         disk2         :     N      :
-:           Fourth Hard Drive            :         disk3         :     N      :
-:            Public Bandwidth            :       bandwidth       :     Y      :
-:           Uplink Port Speeds           :       port_speed      :     Y      :
-:           Remote Management            :   remote_management   :     Y      :
-:          Primary IP Addresses          :    pri_ip_addresses   :     Y      :
-:     Public Secondary IP Addresses      :    sec_ip_addresses   :     N      :
-:              Power Supply              :      power_supply     :     N      :
-:      Public Static IPv6 Addresses      : static_ipv6_addresses :     N      :
-:         Primary IPv6 Addresses         :   pri_ipv6_addresses  :     N      :
-:                 EVault                 :         evault        :     N      :
-:        Graphics Processing Unit        :          gpu0         :     N      :
-:   Secondary Graphics Processing Unit   :          gpu1         :     N      :
-:                 Other                  :         other         :     N      :
-:    VPN Management - Private Network    :     vpn_management    :     Y      :
-: Vulnerability Assessments & Management : vulnerability_scanner :     N      :
+:                 Server                 :         server        :     Y      :
+:        New Cloud Customer Setup        :   new_customer_setup  :     N      :
+:               Surcharges               :        premium        :     N      :
+:            Operating System            :           os          :     Y      :
+:                  RAM                   :          ram          :     Y      :
+:            Disk Controller             :    disk_controller    :     Y      :
+:            First Hard Drive            :         disk0         :     Y      :
+:           Second Hard Drive            :         disk1         :     N      :
+:            Third Hard Drive            :         disk2         :     N      :
+:           Fourth Hard Drive            :         disk3         :     N      :
+:            Public Bandwidth            :       bandwidth       :     Y      :
+:           Uplink Port Speeds           :       port_speed      :     Y      :
+:           Remote Management            :   remote_management   :     Y      :
+:          Primary IP Addresses          :    pri_ip_addresses   :     Y      :
+:     Public Secondary IP Addresses      :    sec_ip_addresses   :     N      :
+:              Power Supply              :      power_supply     :     N      :
+:      Public Static IPv6 Addresses      : static_ipv6_addresses :     N      :
+:         Primary IPv6 Addresses         :   pri_ipv6_addresses  :     N      :
+:                 EVault                 :         evault        :     N      :
+:        Graphics Processing Unit        :          gpu0         :     N      :
+:   Secondary Graphics Processing Unit   :          gpu1         :     N      :
+:                 Other                  :         other         :     N      :
+:    VPN Management - Private Network    :     vpn_management    :     Y      :
+: Vulnerability Assessments & Management : vulnerability_scanner :     N      :
 :........................................:.......................:............:
 ```
 
@@ -139,18 +139,18 @@ This is a minimal order, so we are only specifying items that are required for t
 ```
 $ slcli order category-list BARE_METAL_SERVER --required
 :..................................:...................:............:
-:               name               :    categoryCode   : isRequired :
+:               name               :    categoryCode   : isRequired :
 :..................................:...................:............:
-:              Server              :       server      :     Y      :
-:         Operating System         :         os        :     Y      :
-:               RAM                :        ram        :     Y      :
-:         Disk Controller          :  disk_controller  :     Y      :
-:         First Hard Drive         :       disk0       :     Y      :
-:         Public Bandwidth         :     bandwidth     :     Y      :
-:        Uplink Port Speeds        :     port_speed    :     Y      :
-:        Remote Management         : remote_management :     Y      :
-:       Primary IP Addresses       :  pri_ip_addresses :     Y      :
-: VPN Management - Private Network :   vpn_management  :     Y      :
+:              Server              :       server      :     Y      :
+:         Operating System         :         os        :     Y      :
+:               RAM                :        ram        :     Y      :
+:         Disk Controller          :  disk_controller  :     Y      :
+:         First Hard Drive         :       disk0       :     Y      :
+:         Public Bandwidth         :     bandwidth     :     Y      :
+:        Uplink Port Speeds        :     port_speed    :     Y      :
+:        Remote Management         : remote_management :     Y      :
+:       Primary IP Addresses       :  pri_ip_addresses :     Y      :
+: VPN Management - Private Network :   vpn_management  :     Y      :
 :..................................:...................:............:
 ```
 
@@ -162,35 +162,35 @@ We can now select the rest of our items for our order using the item-list comman
 ```
 $ slcli order item-list BARE_METAL_SERVER --category os
 :.....................................................:..................................................................:
-:                       keyName                       :                           description                            :
+:                       keyName                       :                           description                            :
 :.....................................................:..................................................................:
-:       OS_RHEL_5_32_BIT_PER_PROCESSOR_LICENSING      : Red Hat Enterprise Linux 5.x (32 bit) (per-processor licensing)  :
-:       OS_RHEL_6_64_BIT_PER_PROCESSOR_LICENSING      : Red Hat Enterprise Linux 6.x (64 bit) (per-processor licensing)  :
-:                OS_FREEBSD_9_X_64_BIT                :                       FreeBSD 9.x (64 bit)                       :
-:          OS_WINDOWS_2012_R2_FULL_STD_64_BIT         :         Windows Server 2012 R2 Standard Edition (64 bit)         :
-:                OS_FREEBSD_10_X_64_BIT               :                      FreeBSD 10.x (64 bit)                       :
-:                 OS_CENTOS_7_X_64_BIT                :                       CentOS 7.x (64 bit)                        :
-:          OS_WINDOWS_2008_FULL_STD_64_BIT_R2         :         Windows Server 2008 R2 Standard Edition (64bit)          :
-:                 OS_CENTOS_6_X_32_BIT                :                       CentOS 6.x (32 bit)                        :
-:           OS_WINDOWS_2012_FULL_STD_64_BIT           :          Windows Server 2012 Standard Edition (64 bit)           :
-:     OS_UBUNTU_12_04_LTS_PRECISE_PANGOLIN_64_BIT     :         Ubuntu Linux 12.04 LTS Precise Pangolin (64 bit)         :
-:                OS_FREEBSD_10_X_32_BIT               :                      FreeBSD 10.x (32 bit)                       :
-:                  OS_RHEL_7_1_64_BIT                 : Red Hat Enterprise Linux 7.x (64 bit)  (per-processor licensing) :
-:       OS_UBUNTU_16_04_LTS_XENIAL_XERUS_64_BIT       :           Ubuntu Linux 16.04 LTS Xenial Xerus (64 bit)           :
-:                 OS_CENTOS_6_X_64_BIT                :                       CentOS 6.x (64 bit)                        :
-:            OS_CENTOS_7_X_MINIMAL_64_BIT_2           :              CentOS 7.x - Minimal Install (64 bit)               :
-:     OS_UBUNTU_12_04_LTS_PRECISE_PANGOLIN_32_BIT     :         Ubuntu Linux 12.04 LTS Precise Pangolin (32 bit)         :
-:                OS_NO_OPERATING_SYSTEM               :                       No Operating System                        :
-:             OS_CENTOS_6_X_MINIMAL_64_BIT            :              CentOS 6.x - Minimal Install (64 bit)               :
-:               OS_FREEBSD_9_X_32_BIT_2               :                       FreeBSD 9.x (32 bit)                       :
-:        OS_UBUNTU_14_04_LTS_TRUSTY_TAHR_32_BIT       :           Ubuntu Linux 14.04 LTS Trusty Tahr (32 bit)            :
-: OS_WINDOWS_SERVER_2012_STANDARD_EDITION_64_BIT_CORE :         Windows Server 2012 R2 Standard Edition (64 bit)         :
-:        OS_WINDOWS_2008_FULL_WEB_64_BIT_R2_SP1       :            Windows Server 2008 R2 Web Edition (64bit)            :
-:       OS_RHEL_5_64_BIT_PER_PROCESSOR_LICENSING      : Red Hat Enterprise Linux 5.x (64 bit) (per-processor licensing)  :
-:       OS_RHEL_6_32_BIT_PER_PROCESSOR_LICENSING      : Red Hat Enterprise Linux 6.x (32 bit) (per-processor licensing)  :
-:        OS_UBUNTU_14_04_LTS_TRUSTY_TAHR_64_BIT       :           Ubuntu Linux 14.04 LTS Trusty Tahr (64 bit)            :
-:           OS_WINDOWS_2016_FULL_STD_64_BIT           :          Windows Server 2016 Standard Edition (64 bit)           :
-:                OS_FREEBSD_11_X_64_BIT               :                      FreeBSD 11.x (64 bit)                       :
+:       OS_RHEL_5_32_BIT_PER_PROCESSOR_LICENSING      : Red Hat Enterprise Linux 5.x (32 bit) (per-processor licensing)  :
+:       OS_RHEL_6_64_BIT_PER_PROCESSOR_LICENSING      : Red Hat Enterprise Linux 6.x (64 bit) (per-processor licensing)  :
+:                OS_FREEBSD_9_X_64_BIT                :                       FreeBSD 9.x (64 bit)                       :
+:          OS_WINDOWS_2012_R2_FULL_STD_64_BIT         :         Windows Server 2012 R2 Standard Edition (64 bit)         :
+:                OS_FREEBSD_10_X_64_BIT               :                      FreeBSD 10.x (64 bit)                       :
+:                 OS_CENTOS_7_X_64_BIT                :                       CentOS 7.x (64 bit)                        :
+:          OS_WINDOWS_2008_FULL_STD_64_BIT_R2         :         Windows Server 2008 R2 Standard Edition (64bit)          :
+:                 OS_CENTOS_6_X_32_BIT                :                       CentOS 6.x (32 bit)                        :
+:           OS_WINDOWS_2012_FULL_STD_64_BIT           :          Windows Server 2012 Standard Edition (64 bit)           :
+:     OS_UBUNTU_12_04_LTS_PRECISE_PANGOLIN_64_BIT     :         Ubuntu Linux 12.04 LTS Precise Pangolin (64 bit)         :
+:                OS_FREEBSD_10_X_32_BIT               :                      FreeBSD 10.x (32 bit)                       :
+:                  OS_RHEL_7_1_64_BIT                 : Red Hat Enterprise Linux 7.x (64 bit)  (per-processor licensing) :
+:       OS_UBUNTU_16_04_LTS_XENIAL_XERUS_64_BIT       :           Ubuntu Linux 16.04 LTS Xenial Xerus (64 bit)           :
+:                 OS_CENTOS_6_X_64_BIT                :                       CentOS 6.x (64 bit)                        :
+:            OS_CENTOS_7_X_MINIMAL_64_BIT_2           :              CentOS 7.x - Minimal Install (64 bit)               :
+:     OS_UBUNTU_12_04_LTS_PRECISE_PANGOLIN_32_BIT     :         Ubuntu Linux 12.04 LTS Precise Pangolin (32 bit)         :
+:                OS_NO_OPERATING_SYSTEM               :                       No Operating System                        :
+:             OS_CENTOS_6_X_MINIMAL_64_BIT            :              CentOS 6.x - Minimal Install (64 bit)               :
+:               OS_FREEBSD_9_X_32_BIT_2               :                       FreeBSD 9.x (32 bit)                       :
+:        OS_UBUNTU_14_04_LTS_TRUSTY_TAHR_32_BIT       :           Ubuntu Linux 14.04 LTS Trusty Tahr (32 bit)            :
+: OS_WINDOWS_SERVER_2012_STANDARD_EDITION_64_BIT_CORE :         Windows Server 2012 R2 Standard Edition (64 bit)         :
+:        OS_WINDOWS_2008_FULL_WEB_64_BIT_R2_SP1       :            Windows Server 2008 R2 Web Edition (64bit)            :
+:       OS_RHEL_5_64_BIT_PER_PROCESSOR_LICENSING      : Red Hat Enterprise Linux 5.x (64 bit) (per-processor licensing)  :
+:       OS_RHEL_6_32_BIT_PER_PROCESSOR_LICENSING      : Red Hat Enterprise Linux 6.x (32 bit) (per-processor licensing)  :
+:        OS_UBUNTU_14_04_LTS_TRUSTY_TAHR_64_BIT       :           Ubuntu Linux 14.04 LTS Trusty Tahr (64 bit)            :
+:           OS_WINDOWS_2016_FULL_STD_64_BIT           :          Windows Server 2016 Standard Edition (64 bit)           :
+:                OS_FREEBSD_11_X_64_BIT               :                      FreeBSD 11.x (64 bit)                       :
 :.....................................................:..................................................................:
 ```
 
@@ -198,34 +198,34 @@ $ slcli order item-list BARE_METAL_SERVER --category os
 ```
 $slcli order item-list BARE_METAL_SERVER --category bandwidth
 :.....................................:.......................................:
-:               keyName               :              description              :
+:               keyName               :              description              :
 :.....................................:.......................................:
-:            BANDWIDTH_0_GB           :             0 GB Bandwidth            :
-:           BANDWIDTH_500_GB          :            500 GB Bandwidth           :
+:            BANDWIDTH_0_GB           :             0 GB Bandwidth            :
+:           BANDWIDTH_500_GB          :            500 GB Bandwidth           :
 : BANDWIDTH_UNLIMITED_100_MBPS_UPLINK : Unlimited Bandwidth (100 Mbps Uplink) :
-:          BANDWIDTH_1000_GB          :           1000 GB Bandwidth           :
-:          BANDWIDTH_5000_GB          :           5000 GB Bandwidth           :
-:          BANDWIDTH_10000_GB         :           10000 GB Bandwidth          :
-:           BANDWIDTH_0_GB_2          :             0 GB Bandwidth            :
-:          BANDWIDTH_20000_GB         :           20000 GB Bandwidth          :
+:          BANDWIDTH_1000_GB          :           1000 GB Bandwidth           :
+:          BANDWIDTH_5000_GB          :           5000 GB Bandwidth           :
+:          BANDWIDTH_10000_GB         :           10000 GB Bandwidth          :
+:           BANDWIDTH_0_GB_2          :             0 GB Bandwidth            :
+:          BANDWIDTH_20000_GB         :           20000 GB Bandwidth          :
 :.....................................:.......................................:
 ```
 
 ```
 $ slcli order item-list BARE_METAL_SERVER --category port_speed
 :......................................................:..........................................................:
-:                       keyName                        :                       description                        :
+:                       keyName                        :                       description                        :
 :......................................................:..........................................................:
-:            1_GBPS_PRIVATE_NETWORK_UPLINK             :              1 Gbps Private Network Uplink               :
-:           100_MBPS_PRIVATE_NETWORK_UPLINK            :             100 Mbps Private Network Uplink              :
-:   10_GBPS_REDUNDANT_PUBLIC_PRIVATE_NETWORK_UPLINKS   :    10 Gbps Redundant Public & Private Network Uplinks    :
-:    10_GBPS_DUAL_PRIVATE_NETWORK_UPLINKS_UNBONDED     :     10 Gbps Dual Private Network Uplinks (Unbonded)      :
-:        10_MBPS_PUBLIC_PRIVATE_NETWORK_UPLINKS        :         10 Mbps Public & Private Network Uplinks         :
-:        1_GBPS_PUBLIC_PRIVATE_NETWORK_UPLINKS         :         1 Gbps Public & Private Network Uplinks          :
-:            10_MBPS_PRIVATE_NETWORK_UPLINK            :              10 Mbps Private Network Uplink              :
-:      10_GBPS_REDUNDANT_PRIVATE_NETWORK_UPLINKS       :        10 Gbps Redundant Private Network Uplinks         :
-:       100_MBPS_PUBLIC_PRIVATE_NETWORK_UPLINKS        :        100 Mbps Public & Private Network Uplinks         :
-:    1_GBPS_PUBLIC_PRIVATE_NETWORK_UPLINKS_UNBONDED    :    1 Gbps Public & Private Network Uplinks (Unbonded)    :
+:            1_GBPS_PRIVATE_NETWORK_UPLINK             :              1 Gbps Private Network Uplink               :
+:           100_MBPS_PRIVATE_NETWORK_UPLINK            :             100 Mbps Private Network Uplink              :
+:   10_GBPS_REDUNDANT_PUBLIC_PRIVATE_NETWORK_UPLINKS   :    10 Gbps Redundant Public & Private Network Uplinks    :
+:    10_GBPS_DUAL_PRIVATE_NETWORK_UPLINKS_UNBONDED     :     10 Gbps Dual Private Network Uplinks (Unbonded)      :
+:        10_MBPS_PUBLIC_PRIVATE_NETWORK_UPLINKS        :         10 Mbps Public & Private Network Uplinks         :
+:        1_GBPS_PUBLIC_PRIVATE_NETWORK_UPLINKS         :         1 Gbps Public & Private Network Uplinks          :
+:            10_MBPS_PRIVATE_NETWORK_UPLINK            :              10 Mbps Private Network Uplink              :
+:      10_GBPS_REDUNDANT_PRIVATE_NETWORK_UPLINKS       :        10 Gbps Redundant Private Network Uplinks         :
+:       100_MBPS_PUBLIC_PRIVATE_NETWORK_UPLINKS        :        100 Mbps Public & Private Network Uplinks         :
+:    1_GBPS_PUBLIC_PRIVATE_NETWORK_UPLINKS_UNBONDED    :    1 Gbps Public & Private Network Uplinks (Unbonded)    :
 : 10_GBPS_DUAL_PUBLIC_PRIVATE_NETWORK_UPLINKS_UNBONDED : 10 Gbps Dual Public & Private Network Uplinks (Unbonded) :
 :......................................................:..........................................................:
 ```
@@ -233,7 +233,7 @@ $ slcli order item-list BARE_METAL_SERVER --category port_speed
 ```
 $ slcli order item-list BARE_METAL_SERVER --category remote_management
 :....................:......................:
-:      keyName       :     description      :
+:      keyName       :     description      :
 :....................:......................:
 : REBOOT_KVM_OVER_IP : Reboot / KVM over IP :
 :....................:......................:
@@ -242,7 +242,7 @@ $ slcli order item-list BARE_METAL_SERVER --category remote_management
 ```
 $ slcli order item-list BARE_METAL_SERVER --category pri_ip_addresses
 :..............:..............:
-:   keyName    : description  :
+:   keyName    : description  :
 :..............:..............:
 : 1_IP_ADDRESS : 1 IP Address :
 :..............:..............:
@@ -251,7 +251,7 @@ $ slcli order item-list BARE_METAL_SERVER --category pri_ip_addresses
 ```
 $ slcli order item-list BARE_METAL_SERVER --category vpn_management
 :.....................................................:.......................................................:
-:                       keyName                       :                      description                      :
+:                       keyName                       :                      description                      :
 :.....................................................:.......................................................:
 : UNLIMITED_SSL_VPN_USERS_1_PPTP_VPN_USER_PER_ACCOUNT : Unlimited SSL VPN Users & 1 PPTP VPN User per account :
 :.....................................................:.......................................................:
@@ -283,18 +283,18 @@ _Note_: The type information is used by the order API to determine the data that
 ```
 $ slcli order place --verify --billing hourly BARE_METAL_SERVER DALLAS13 --preset S1270_32GB_1X1TBSATA_NORAID BANDWIDTH_0_GB_2 1_GBPS_PUBLIC_PRIVATE_NETWORK_UPLINKS REBOOT_KVM_OVER_IP 1_IP_ADDRESS UNLIMITED_SSL_VPN_USERS_1_PPTP_VPN_USER_PER_ACCOUNT OS_CENTOS_7_X_64_BIT --complex-type SoftLayer_Container_Product_Order_Hardware_Server
 :.....................................................:.......................................................:......:
-:                       keyName                       :                      description                      : cost :
+:                       keyName                       :                      description                      : cost :
 :.....................................................:.......................................................:......:
-:                   BANDWIDTH_0_GB_2                  :                     0 GB Bandwidth                    :  0   :
-:        1_GBPS_PUBLIC_PRIVATE_NETWORK_UPLINKS        :        1 Gbps Public & Private Network Uplinks        : .04  :
-:                  REBOOT_KVM_OVER_IP                 :                  Reboot / KVM over IP                 :  0   :
-:                     1_IP_ADDRESS                    :                      1 IP Address                     :  0   :
-: UNLIMITED_SSL_VPN_USERS_1_PPTP_VPN_USER_PER_ACCOUNT : Unlimited SSL VPN Users & 1 PPTP VPN User per account :  0   :
-:                 OS_CENTOS_7_X_64_BIT                :                  CentOS 7.x (64 bit)                  :  0   :
-:               DISK_CONTROLLER_NONRAID               :                        Non-RAID                       :  0   :
-:              HARD_DRIVE_1_00_TB_SATA_2              :                      1.00 TB SATA                     : .036 :
-:             INTEL_SINGLE_XEON_1270_3_50             :    Single Intel Xeon E3-1270 v3 (4 Cores, 3.50 GHz)   : .173 :
-:              RAM_32_GB_DDR3_1333_REG_2              :                       32 GB RAM                       : .356 :
+:                   BANDWIDTH_0_GB_2                  :                     0 GB Bandwidth                    :  0   :
+:        1_GBPS_PUBLIC_PRIVATE_NETWORK_UPLINKS        :        1 Gbps Public & Private Network Uplinks        : .04  :
+:                  REBOOT_KVM_OVER_IP                 :                  Reboot / KVM over IP                 :  0   :
+:                     1_IP_ADDRESS                    :                      1 IP Address                     :  0   :
+: UNLIMITED_SSL_VPN_USERS_1_PPTP_VPN_USER_PER_ACCOUNT : Unlimited SSL VPN Users & 1 PPTP VPN User per account :  0   :
+:                 OS_CENTOS_7_X_64_BIT                :                  CentOS 7.x (64 bit)                  :  0   :
+:               DISK_CONTROLLER_NONRAID               :                        Non-RAID                       :  0   :
+:              HARD_DRIVE_1_00_TB_SATA_2              :                      1.00 TB SATA                     : .036 :
+:             INTEL_SINGLE_XEON_1270_3_50             :    Single Intel Xeon E3-1270 v3 (4 Cores, 3.50 GHz)   : .173 :
+:              RAM_32_GB_DDR3_1333_REG_2              :                       32 GB RAM                       : .356 :
 :.....................................................:.......................................................:......:
 ```
 
@@ -341,11 +341,11 @@ $ slcli order place --billing hourly BARE_METAL_SERVER DALLAS13 \
 This action will incur charges on your account. Continue? [y/N]: y
 
 :.........:...........................:
-:    name : value                     :
+:    name : value                     :
 :.........:...........................:
-:      id : 21924753                  :
+:      id : 21924753                  :
 : created : 2018-01-03T10:08:03-06:00 :
-:  status : PENDING_APPROVAL          :
+:  status : PENDING_APPROVAL          :
 :.........:...........................:
 ```
 
@@ -386,22 +386,22 @@ import SoftLayer
 package = 'BARE_METAL_SERVER'
 location = 'DALLAS13'
 extras = {'hardware': [{'hostname': 'test-demo',
-                        'domain': 'softlayer.com'}]}
+                        'domain': 'softlayer.com'}]}
 preset = 'S1270_32GB_1X1TBSATA_NORAID'
 items = ['BANDWIDTH_0_GB_2',
-         '1_GBPS_PUBLIC_PRIVATE_NETWORK_UPLINKS',
-         'REBOOT_KVM_OVER_IP',
-         '1_IP_ADDRESS',
-         'UNLIMITED_SSL_VPN_USERS_1_PPTP_VPN_USER_PER_ACCOUNT',
-         'OS_CENTOS_7_X_64_BIT']
+         '1_GBPS_PUBLIC_PRIVATE_NETWORK_UPLINKS',
+         'REBOOT_KVM_OVER_IP',
+         '1_IP_ADDRESS',
+         'UNLIMITED_SSL_VPN_USERS_1_PPTP_VPN_USER_PER_ACCOUNT',
+         'OS_CENTOS_7_X_64_BIT']
 complex_type = 'SoftLayer_Container_Product_Order_Hardware_Server'
 
 client = SoftLayer.create_client_from_env()
 order_mgr = SoftLayer.OrderingManager(client)
 order_mgr.verify_order(package, location, items,
-                       hourly=True, preset_keyname=preset,
-                       complex_type=complex_type,
-                       extras=extras)
+                       hourly=True, preset_keyname=preset,
+                       complex_type=complex_type,
+                       extras=extras)
 
 ```
 
@@ -431,11 +431,11 @@ keyname_mask = 'mask[keyName, prices[id]]'
 keynames = []
 print("Items:")
 pkg_items = client['Product_Package'].getItems(id=package_id,
-                                               mask=keyname_mask)
+                                               mask=keyname_mask)
 for price in prices:
-    pkg_item = [i for i in pkg_items
-                if price in [p['id'] for p in i['prices']]][0]
-    print(pkg_item['keyName'])
+    pkg_item = [i for i in pkg_items
+                if price in [p['id'] for p in i['prices']]][0]
+    print(pkg_item['keyName'])
 ```
 
 
@@ -538,7 +538,7 @@ Since this item has `capacityRestrictedProductFlag`, we need to check each price
 Here is an example of a `PROCESSOR` restriction. Here we would match our server item's `totalProcessorCapacity` field.
 
 
-#### Other example 
+#### Other example
 
 ``` json
 [{

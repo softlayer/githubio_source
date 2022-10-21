@@ -7,12 +7,13 @@ tags:
     - "sldn"
 ---
 
-## Packages
+## [Packages](#package) {#package .anchor-link}
 
 The first step in ordering is to find the appropriate [SoftLayer_Product_Package](/reference/services/SoftLayer_Product_Package/) for what you need to order. These packages contain a varierty of items that will describe the order. Each of those items will have properties that define where it  can be ordered, how much it costs, and any restrictions needed to order the item.
 
 [SoftLayer_Product_Package::getAllObject()](/reference/services/SoftLayer_Product_Package/getAllObjects/) is used to get a list of all packages.
 
+### Curl Example
 ```bash
 $ curl -s  -g -u $SL_USER:$SL_APIKEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Product_Package/getAllObjects?objectMask=mask[type[keyName]]'  | python -m json.tool
 
@@ -27,6 +28,12 @@ $ curl -s  -g -u $SL_USER:$SL_APIKEY 'https://api.softlayer.com/rest/v3.1/SoftLa
 },
 ```
 
+### CLI Example
+
+[slcli order package-list](https://softlayer-python.readthedocs.io/en/latest/cli/ordering/#order-package-list)
+<img src="/img/articles/slcli-order-package-list.png" alt="slcli-order-package-list.png" width="100%"/> 
+
+*NOTE*: These commands also exist in the `ibmcloud` CLI tool, just replace `slcli` with `ibmcloud sl`.
 
 While the wider cloud.ibm.com offerings exist in the catalog as packages, they are not usually oderable from the softlayer api. To easily filter these out, the following `objectFilter` can be used
 
@@ -76,10 +83,11 @@ Some packages will have presets, which will cover the CPU, RAM, and Boot Disk co
 
 Notably the `PUBLIC_CLOUD_SERVER` and `BARE_METAL_SERVER` packages require presets to be used when ordering.
 
-## Items
+## [Items](#package-items) {#package-items .anchor-link}
 
 Now that we have found a Package that we are interested in ordering (lets say package id=835, PUBLIC_CLOUD_SERVER for these examples), we need to find their items. For this we will use [SoftLayer_Product_Package::getItems()](/reference/services/SoftLayer_Product_Package/getItems/).
 
+### Curl Example
 
 ```bash
 curl -s  -g -u $SL_USER:$SL_APIKEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Product_Package/835/getItems' | python -m json.tool
@@ -105,16 +113,24 @@ curl -s  -g -u $SL_USER:$SL_APIKEY 'https://api.softlayer.com/rest/v3.1/SoftLaye
 },
 ```
 
+### CLI Example
+
+[slcli order item-list PUBLIC_CLOUD_SERVER --prices](https://softlayer-python.readthedocs.io/en/latest/cli/ordering/#order-item-list)
+<img src="/img/articles/slcli-order-item-list.png" alt="slcli-order-package-list.png" width="100%"/> 
+
 ### Useful Item properties
 
 - [capacityRestrictedProductFlag](https://sldn.softlayer.com/reference/datatypes/SoftLayer_Product_Item/#capacityrestrictedproductflag) Indicates if this item can only be ordered with certain configurations. Check the Item->prices->[capacityRestrictionType](/reference/datatypes/SoftLayer_Product_Item_Price/#capacityrestrictiontype) to see if this restriction is a Core, Processor, Disk or other type. The item will have a separate price for each orderable capacity level. Generally you will find this on the Storage as a Service offering, and some Operating Systems that charge per core or processor. 
 - [conflicts](/reference/datatypes/SoftLayer_Product_Item/#conflicts) will let you know if this item is not orderable with other items in the package. 
-- [requirements](/reference/datatypes/SoftLayer_Product_Item/#requirements) will lis any required items if this item is selected
+- [requirements](/reference/datatypes/SoftLayer_Product_Item/#requirements) will list any required items if this item is selected
+- [prices](https://sldn.softlayer.com/reference/datatypes/SoftLayer_Product_Item/#prices) will list all the costs associated with this item. Some locations will have different pricing for the same item, so check `locationGroupId` for the location you are ordering in. When actually placing the order, use the price associated with the `locationGroupId = null`.
+- [prices->recurringFee](https://sldn.softlayer.com/reference/datatypes/SoftLayer_Product_Item_Price/#recurringFee) shows how much this item will actually costs per month. Use the [hourlyRecurringFee](https://sldn.softlayer.com/reference/datatypes/SoftLayer_Product_Item_Price/#hourlyRecurringFee) for hourly billed items.
+- [upgradeItems](https://sldn.softlayer.com/reference/datatypes/SoftLayer_Product_Item/#upgradeItems) these are the options you have to upgrade this item, if you want to.
 
 
 ## Price Ids
 
-Each item in a package will have at least one, often several, prices. The "Default" price will be the on with a `locationGroupId` property set to `null`. You can always order wit hthe default price id, and the API will automatically adjust it when ordering in other regions. This can be confirmed with the result of [SoftLayer_Product_Order::verifyOrder()](/reference/services/SoftLayer_Product_Order/verifyOrder/) and [SoftLayer_Product_Order::placeOrder()](/reference/services/SoftLayer_Product_Order/placeOrder/), as their output will have the adjusted priceIds included.
+Each item in a package will have at least one, often several, prices. The "Default" price will be the on with a `locationGroupId` property set to `null` (or `None`, or `''`, or some other empty value). You can always order wit hthe default price id, and the API will automatically adjust it when ordering in other regions. This can be confirmed with the result of [SoftLayer_Product_Order::verifyOrder()](/reference/services/SoftLayer_Product_Order/verifyOrder/) and [SoftLayer_Product_Order::placeOrder()](/reference/services/SoftLayer_Product_Order/placeOrder/), as their output will have the adjusted priceIds included.
 
 Every item will need a priceId when ordering, even the Zero cost items.
 
@@ -129,6 +145,7 @@ Some prices might have a [capacityRestrictionType](/reference/datatypes/SoftLaye
 Some items may have different prices in certain regions, this is indicated by a special Price object with the `locationGroupId` set to a specific location. You can find the specific datacenters a locationGroup corresponds with by tapping into the item->prices->pricingLocationGroup->locations relationship.
 
 
+### Curl Example
 ```bash
 curl -s  -g -u $SL_USER:$SL_APIKEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Product_Package/835/getItems?objectMask=mask[prices[pricingLocationGroup[locations]]]' | python -m json.tool 
 {
@@ -190,6 +207,11 @@ curl -s  -g -u $SL_USER:$SL_APIKEY 'https://api.softlayer.com/rest/v3.1/SoftLaye
             }
         },
 ```
+
+### CLI Example
+
+
+[slcli order item-list PUBLIC_CLOUD_SERVER --prices mon01](https://softlayer-python.readthedocs.io/en/latest/cli/ordering/#cmdoption-order-item-list-p)
 
 
 ## The Order Container

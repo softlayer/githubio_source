@@ -6,13 +6,14 @@ author: "Christopher Gallo"
 tags:
     - "article"
     - "ordering"
+    - "quotes"
 ---
 
 ## The Catalog
 Before we can order anything, we need a list of the valid price IDs that represent our order. This article on [The Catalog](/article/catalog/) will explain how to retrieve those. Always remember that the price ID that represents a specific item can change at any time, without notice, but the item's KeyName will not. So it is always important before submitting an order to lookup the item keynames to fine the current price ID. While price IDs don't change often, not using a current one will cause your order to fail with the exception `SoftLayer_Exception_Public: Price # 454616 does not exist.`
 
 
-## A Simple Order
+## [A Simple Order](#simple_order) {#simple_order .anchor-link}
 In these examples, we will be using [SoftLayer_Product_Order::verifyOrder()](/reference/services/SoftLayer_Product_Order/verifyOrder/), which will let us know if our order would have worked, without actually placing an order. [SoftLayer_Product_Order::placeOrder()](/reference/services/SoftLayer_Product_Order/placeOrder/) is what you would need to use to actually order something, it takes the exact same options as verifyOrder, so the only thing you need to change is the word `verify` to `place`.
 
 To start off with, this method takes in one parameters, called `orderData`, which is a [SoftLayer_Container_Product_Order](/reference/datatypes/SoftLayer_Container_Product_Order/) type. This is the generic container, you will likely want to refer to the container that matches the product you are ordering. While the containers are mostly the same, some offer different fields that you might need to set when ordering different products. These containers will all start with `SoftLayer_Container_Product_Order_`
@@ -89,7 +90,7 @@ Below is what a basic order structure would look like. The container is defined 
           "item": {
             "description": "Email and Ticket"
           }
-        },
+        }, 
         {
           "id": 210353,
           "item": {
@@ -130,7 +131,7 @@ Below is what a basic order structure would look like. The container is defined 
 
 
 
-## Complex Orders
+## [Complex Orders](#comple_order) {#complex_order .anchor_link}
 
 While the above example lets you order multiple products that have the exact same configuration, ordering different products in the same API call is a little more complicated.
 
@@ -236,3 +237,71 @@ curl -u $SL_USER:$SL_APIKEY  -X POST -d  @testOrder.json 'https://api.softlayer.
     }]
 }
 ```
+
+You can also use the SLCLI and IBMCLOUD SL tools to place orders.
+[slcli order place](https://softlayer-python.readthedocs.io/en/latest/cli/ordering/#order-place)
+
+## [Quotes](#quotes) {#quotes .anchor_link}
+
+The [SoftLayer_Billing_Order_Quote](https://sldn.softlayer.com/reference/services/SoftLayer_Billing_Order_Quote/) is very similar to the Billing_Order service, but with quotes you can save an order for later use. Quote features exist in the SLCLI and IBMCLOUD SL tools. 
+[Python example for working with quotes](https://sldn.softlayer.com/python/quotes/)
+
+### Creating a Quote
+
+Use the same process for creating a normal order, but use [SoftLayer_Billing_Order_Quote::placeQuote](https://sldn.softlayer.com/reference/services/SoftLayer_Billing_Order_Quote/placeQuote/) instead of SoftLayer_Billing_Order::placeOrder. 
+
+#### Curl Example
+```bash
+curl -u $SL_USER:$SL_APIKEY -X POST  -d '{"parameters": [{"orderContainers": [{"packageId": 46, "quantity": 1, "location": 1854895, "useHourlyPricing": false,
+"complexType": "SoftLayer_Container_Product_Order_Virtual_Guest", "prices": [{"id": 1642}, {"id": 1927}, {"id": 905}, {"id": 274}, {"id": 1800}, {"id": 21}, {"id": 1639}, {"id": 211481}, {"id": 55}, {"id": 57}, {"id":
+58}, {"id": 420}]}], "quoteName": "test1", "sendQuoteEmailFlag": false}]}' 'https://api.softlayer.com/rest/v3.1/SoftLayer_Product_Order/placeQuote.json'
+````
+
+### Listing Quotes
+
+Use [SoftLayer_Account::getQuotes](https://sldn.softlayer.com/reference/services/SoftLayer_Account/getQuotes/) to list the quotes on your account. You will need the quote ID for placing the actual order.
+
+[slcli order  quote-list](https://softlayer-python.readthedocs.io/en/latest/cli/ordering/#order-quote-list)
+
+### Ordering from a Quote
+
+To actually order from a quote, you need to use [SoftLayer_Billing_Order_Quote::placeOrder](https://sldn.softlayer.com/reference/services/SoftLayer_Billing_Order_Quote/placeOrder/), and *NOT* SoftLayer_Billing_Order::placeOrder. 
+
+You will also need to order container, which you can get with [SoftLayer_Billing_Order_Quote::getRecalculatedOrderContainer](https://sldn.softlayer.com/reference/services/SoftLayer_Billing_Order_Quote/getRecalculatedOrderContainer/), this will return an object you will then send in as your order. The only real change you need to make is fille out the `hardware` or `virtualGuests` property with the hostname/domain for each server in the order.
+
+#### Curl Example
+This will be a little complicated, because you need to modify the results of SoftLayer_Billing_Order_Quote::getRecalculatedOrderContainer() a little bit before sending it in.
+
+```bash
+# All parameters you send into the API need to start with this bit
+echo '{"parameters":[' > my_quote.json
+# Get the order container and append it to the my_quote.json file
+curl -u $SL_USER:$SL_APIKEY 'https://api.softlayer.com/rest/v3.1/SoftLayer_Billing_Order_Quote/2998225/getRecalculatedOrderContainer.json' >> my_quote.json
+# Close out the parameters bit
+echo ']}' >> my_quote.json
+```
+Now you need to edit `my_quote.json` and add the `virtualGuests` or `hardware` property, there should be 1 entry for each server you are ordering. It will look something like this. Make sure to edit `quantity` and set the `complexType`
+
+```json
+{
+  "parameters":[{
+    // Lots of stuff removed for brevity.....
+    "quantity": 1,
+    "hostId": null,
+    "reservedCapacityId": null,
+    "complexType": "SoftLayer_Container_Product_Order_Virtual_Guest",
+    "virtualGuests":[{"hostname": "testing","domain": "ibm.com"}]
+}]}
+```
+
+Then just verify or place the order (with the `SoftLayer_Billing_Order_Quote` service)
+```bash
+curl -u  $SL_USER:$SL_APIKEY -X POST -d @my_quote.json  'https://api.softlayer.com/rest/v3.1/SoftLayer_Billing_Order_Quote/2998225/verifyOrder.json'
+```
+#### CLI Example
+
+```bash
+slcli -vvv  order  quote  2998225 --verify --quantity 1 --complex-type SoftLayer_Container_Product_Order_Virtual_Guest --fqdn testing.ibm.com
+```
+
+
