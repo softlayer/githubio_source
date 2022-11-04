@@ -1,6 +1,6 @@
 ---
 title: "getVirtualGuests"
-description: "A hardware server's virtual servers."
+description: "[DEPRECATED] A hardware server's virtual servers."
 date: "2018-02-12"
 tags:
     - "method"
