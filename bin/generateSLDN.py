@@ -5,6 +5,7 @@ import click
 import json
 import requests
 import os
+import shutil
 from string import Template
 import re
 
@@ -229,7 +230,24 @@ class SLDNgenerator():
 
 @click.command()
 @click.option('--download', default=False, is_flag=True)
-def main(download):
+@click.option('--clean', default=False, is_flag=True, help="Removes the services and datatypes directories so they can be built from scratch")
+def main(download, clean):
+    cwd = os.getcwd()
+    if not cwd.endswith('githubio_source'):
+        raise Exception(f"Working Directory should be githubio_source, is currently {cwd}")
+
+    if clean:
+        print(f"Removing {cwd}/content/reference/datatypes")
+        try:
+            shutil.rmtree(f'{cwd}/content/reference/datatypes')
+        except FileNotFoundError:
+            print("Directory doesnt exist...")
+        print(f"Removing {cwd}/content/reference/services")
+        try:
+            shutil.rmtree(f'{cwd}/content/reference/services')
+        except FileNotFoundError:
+            print("Directory doesnt exist...")
+
     generator = SLDNgenerator()
     if download:
         try:

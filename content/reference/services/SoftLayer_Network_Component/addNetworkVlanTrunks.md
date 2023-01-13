@@ -1,10 +1,14 @@
 ---
 title: "addNetworkVlanTrunks"
-description: "Add VLANs as trunks to a network component. The VLANs given must be assigned to your account, and on the router to which this network component is connected. The current native VLAN (networkVlanId/networkVlan) cannot be added as a trunk. This method should be called on a network component attached directly to customer assigned hardware, though all trunking operations will occur on the uplinkComponent. A current list of VLAN trunks for a network component on a customer server can be found at 'uplinkComponent->networkVlanTrunks'. 
+description: "Add VLANs as trunks to a network component. The VLANs given must be assigned to your account and belong to the same pod in which this network component and its hardware reside. The current native VLAN cannot be added as a trunk. 
 
-This method returns an array of SoftLayer_Network_Vlans which were added as trunks. Any requested trunks which are already trunked will be silently ignored, and will not be returned. 
+This method should be called on a network component of assigned hardware. A current list of VLAN trunks for a network component on a customer server can be found at 'uplinkComponent->networkVlanTrunks'. 
 
-Configuration of network hardware is done asynchronously, do not depend on the return of this call as an indication that the newly trunked VLANs will be accessible. "
+This method returns an array of SoftLayer_Network_Vlans which were added as trunks. Any requested VLANs which are already trunked will be ignored and will not be returned. 
+
+Affected VLANs will not yet be operational as trunks on the network upon return of this call, but activation will have been scheduled and should be considered imminent. The trunking records associated with the affected VLANs will maintain an 'isUpdating' value of '1' so long as this is the case. 
+
+Note that in the event of an 'internal system error' some VLANs may still have been affected and scheduled for activation. "
 date: "2018-02-12"
 tags:
     - "method"
