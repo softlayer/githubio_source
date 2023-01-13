@@ -1,6 +1,6 @@
 ---
 title: "getBluemixAccountLink"
-description: "The Bluemix account link associated with this SoftLayer account, if one exists."
+description: "The Platform account link associated with this SoftLayer account, if one exists."
 date: "2018-02-12"
 tags:
     - "method"
