@@ -1,6 +1,6 @@
 ---
 title: "getLegacyBandwidthAllotments"
-description: "The legacy bandwidth allotments for an account."
+description: "[DEPRECATED] The legacy bandwidth allotments for an account."
 date: "2018-02-12"
 tags:
     - "method"
