@@ -1,6 +1,6 @@
 ---
 title: "getPrecheckStatus"
-description: "Get the precheck status for all Juniper Gateway Action categories which require a readiness check before executing. Reference cloud.ibm.com documentation for more details. 
+description: "Get the precheck status for all Virtual (Juniper, Fortigate vFSA Gateway Action categories which require a readiness check before executing. Reference cloud.ibm.com documentation for more details. 
 
 Possible precheck readiness values include: 
 
