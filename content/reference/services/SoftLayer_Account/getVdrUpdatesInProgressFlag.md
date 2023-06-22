@@ -1,6 +1,6 @@
 ---
 title: "getVdrUpdatesInProgressFlag"
-description: "Return 0 if vpn updates are currently in progress on this account otherwise 1."
+description: "DEPRECATED - Return 0 if VDR updates are currently in progress on this account otherwise 1."
 date: "2018-02-12"
 tags:
     - "method"
