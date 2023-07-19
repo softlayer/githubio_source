@@ -46,7 +46,7 @@ The following resource types and associated dependent properties are supported:
 
 -- <i>resourceFullyQualifiedName</i>: The full DNS address of the load balancer. 
 
--- <i>resourceContext</i>: The term 'ephemeral' to indicate a currently assigned IP address, subject to change. Users are strongly encouraged to access the service by the fully qualified DNS name and not the underlying IP addresses. 
+-- <i>resourceContext</i>: The term 'ephemeral' to indicate a currently assigned IP address, subject to change. Users are strongly encouraged to access the service by the fully qualified DNS name and not the underlying IP addresses. The UUID of the load balancer is also provided, surrounded by '<' and '>', e.g. ephemeral<84f0affb-0d5e-40f1-ad87-a92d6544936a> 
 
 - <b>NETSCALER_VPX</b>: A [Netscaler VPX Load Balancer](/reference/datatypes/SoftLayer_Network_Application_Delivery_Controller) 
 
