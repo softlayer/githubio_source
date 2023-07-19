@@ -10,13 +10,13 @@ tags:
 
 
 
-# POPs and PODs 
+# POPs and PODs
 A Point Of Presence (POP) refers to the networking equipment responsible for handling traffic from The Internet and customer Direct Links. Each POP is connected to at least two others on our backend network
 
 A Point of Delivery (POD) is a segmentation of our physical datacenters. Each POP will service several POD, although some POPs are standalone. These PODs are generally recognizable by their router in the datacenter.
 
 
-## Listing Datacenters and PODs 
+## Listing Datacenters and PODs
 [SoftLayer_Location_Datacenter::getDatacenters](https://sldn.softlayer.com/reference/services/SoftLayer_Location_Datacenter/getDatacenters/) will return a list of all Datacenters and with an objectMask, can return each datacenter's routers.
 
 Here, we have to force the API to use the SoftlLayer_Location_Datacenter objectMask instead of the default return type of SoftLayer_Location. That is why the objectMask is like `mask(SoftLayer_Location_Datacenter)[`.
@@ -67,7 +67,7 @@ By default this feature is disabled, preventing servers in your account from com
 ## Vlan Trunking/Tagging
 VLan Trunking (or tagging) allows a server's network component to exist on multiple VLANs at the same time. This can only be done through the API.
 
-- [Vlan Trunking Example](python/vlanTagging/)
+- [Vlan Trunking Example](/python/vlanTagging/)
 - [SoftLayer_Network_Component::addNetworkVlanTrunks](/reference/services/SoftLayer_Network_Component/addNetworkVlanTrunks/) Adds a VLAN trunk to a Network Component
 - [SoftLayer_Network_Component::removeNetworkVlanTrunks](/reference/services/SoftLayer_Network_Component/removeNetworkVlanTrunks/) Removes a VLAN trunk to a Network Component
 - [SoftLayer_Network_Component::getNetworkVlanTrunks](/reference/services/SoftLayer_Network_Component/getNetworkVlanTrunks/) Lists all VLAN trunks on a Network Component
