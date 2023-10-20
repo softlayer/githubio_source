@@ -13,11 +13,12 @@ tags:
 
 
 # Basic of Threads
-If you are unfamiliar with Threads these examples will use the [concurrent.futures](https://docs.python.org/3/library/concurrent.futures.html#module-concurrent.futures) library within the python standard library (available after python3.2) which is fairly simple to get setup. 
+If you are unfamiliar with Threads, these examples will use the [concurrent.futures](https://docs.python.org/3/library/concurrent.futures.html#module-concurrent.futures) library within python (available after python3.2) which is fairly simple to get setup. I wont really go over HOW it works on a technical level, only how to best use it threads to improve performance when making SoftLayer API requests.
 
 For some technical details on how python handles Threads the following are good reading on the topic
 - [Python Threading Tutorial: Run Code Concurrently Using the Threading Module](https://youtu.be/IEEhzQoKtQU?si=5F9NvQcf6km9QHan)
 - [An Intro to Threading in Python](https://realpython.com/intro-to-python-threading/)
+- [What Is Python concurrent.futures? (with examples)](https://www.packetswitch.co.uk/what-is-concurrent-futures-and-how-can-it-boost-your-python-performance/)
 
 The basic pattern will look something like this
 
@@ -36,11 +37,11 @@ with cf.ThreadPoolExecutor(max_workers=10) as executor:
     print(api_call.result())
 ```
 
-With regards to the SoftLayer API, threads are useful in two situations. First is Pagination, when you make a series of API calls with a [resultLimit](/article/using-result-limits-softlayer-api/) to get chunks of data from a long list of results. Instead of making 1 api call, then another and another, you can make them all at the same time (up to your max_works limit). Also threads are great to break up a single API call that might take a long time to complete, into multiple smaller api calls that each execute quickly, thus making the overall execution time faster.
+With regards to the SoftLayer API, threads are useful in three situations. First is Pagination, when you make a series of identical API calls with a [resultLimit](/article/using-result-limits-softlayer-api/) to get chunks of data from a long list of results. Instead of making 1 api call, then another and another, you can make them all at the same time (up to your max_works limit). Second, threads are great to break up a single API call that might take a long time to complete, into multiple smaller api calls that each execute quickly, thus making the overall execution time faster. Third is a sort of combination of the two previous. You will make a single API call to get a large list of Ids, then threads to pull each individual item and the verbose details you want about it.
 
 # Threads for Pagination
 
-[v6.2.0](https://github.com/softlayer/softlayer-python/releases/tag/v6.2.0) implements a new feature to easily enable threaded API calls to page through data in the client.cf_call() method. Here is that code and I will explain a bit on how it works.
+[softlayer-python v6.2.0](https://github.com/softlayer/softlayer-python/releases/tag/v6.2.0) implements a new feature to easily enable threaded API calls to page through data in the client.cf_call() method. Here is that code and I will explain a bit on how it works.
 
 ```python
 def cf_call(self, service, method, *args, **kwargs):
@@ -131,7 +132,7 @@ return first_call
 
 # Threads for large API calls
 
-For API calls that get a single resources (for example, SoftLayer_Hardware_Server::GetObject()), it can still be possible to use threading to improve performance if you are getting a lot of relational properties about the object. [get_hardware_fast()](https://github.com/softlayer/softlayer-python/blob/master/SoftLayer/managers/hardware.py#L281) is a good example of this pattern. 
+For API calls that get a single resources (for example, SoftLayer_Hardware_Server::GetObject()), it can still be possible to use threading to improve performance if you are getting a lot of relational properties about the object. The function [get_hardware_fast()](https://github.com/softlayer/softlayer-python/blob/master/SoftLayer/managers/hardware.py#L281) is a good example of this pattern. 
 
 The basic process is to remove any relational properties from your object mask that have corresponding methods, and call those methods instead.
 
@@ -144,13 +145,7 @@ def get_hardware_fast(self, hardware_id):
     :returns: A dictionary containing a large amount of information about the specified server.
     """
 
-    hw_mask = (
-        'id, globalIdentifier, fullyQualifiedDomainName, hostname, domain,'
-        'provisionDate, hardwareStatus, bareMetalInstanceFlag, processorPhysicalCoreAmount,'
-        'memoryCapacity, notes, privateNetworkOnlyFlag, primaryBackendIpAddress,'
-        'primaryIpAddress, networkManagementIpAddress, userData, datacenter, hourlyBillingFlag,'
-        'lastTransaction[transactionGroup], hardwareChassis[id,name]'
-    )
+    hw_mask = "mask[id, globalIdentifier, fullyQualifiedDomainName, hostname, domain]"
     server = self.client.call('SoftLayer_Hardware_Server', 'getObject', id=hardware_id, mask=hw_mask)
     with cf.ThreadPoolExecutor(max_workers=10) as executor:
         networkComponents = executor.submit(
@@ -193,7 +188,9 @@ def get_hardware_fast(self, hardware_id):
 
 So instead of having `networkComponents` in the Hardware_Server objectMask, you remove it and make its own API call to `Hardware_Server::getNetworkComponents`, and put the result in the `networkComponents` property of the Hardware_Server object. Then do the same for all the other properties as shown above. 
 
-This can overall be faster than a single API call because with all the properties we are selecting originally, the database has to join in quite a few different tables and that can be very complex for the database. However each individual query is much simpler and can be returned very quickly. Since we are making all the seperate calls at the same time, the overall API execution time is much faster.
+This can overall be faster than a single API call because with all the properties we are selecting originally, the database has to join in quite a few different tables and that can be very complex for the database. However each individual query is much simpler and can be returned very quickly. Since we are making all the seperate calls at the same time, the overall API execution time is much faster. 
+
+For this specific example, getting all the relational properties in a single api call takes about 4-9s. When breaking it up, each api call takes about 1-2s, and since they execute all at the same time, our overall execution time is just a bit over 2s.
 
 # Threads for two stage API calls
 
