@@ -28,6 +28,27 @@ mainService : "$mainService"
 ---
 """
 
+METHODARKDOWN = """---
+title: "$service"
+description: "$documentation"
+date: "2018-02-12"
+tags:
+    - "$layoutType"
+    - "sldn"
+    - "$serviceType"
+classes:
+    - "$mainService"
+type: "reference"
+layout: "$layoutType"
+mainService : "$mainService"
+---
+
+### Curl Example
+```bash
+$curlExample
+```
+"""
+
 LISTMARKDOWN = """---
 title: "$type"
 description: "List of $type"
@@ -204,10 +225,11 @@ class SLDNgenerator():
             f.write(template.substitute(substitions))
 
     def writeMethodMarkdown(self, serviceJson, serviceName):
+        """Creates the individual method page required for hugo to generate a method"""
         service_dir = f"./content/reference/services/{serviceName}/"
         if not (os.path.isdir(service_dir)):
             os.mkdir(service_dir)
-        template = Template(SERVICEMARKDOWN)
+        template = Template(METHODARKDOWN)
         # Needed to get the category of the service.
         service_parts = serviceName.split('_')
         documentation = serviceJson.get('doc', '')
@@ -219,10 +241,28 @@ class SLDNgenerator():
             'documentation': cleanupYaml(documentation),
             'serviceType': service_parts[1],
             'layoutType' : 'method',
-            'mainService': serviceName
+            'mainService': serviceName,
+            'curlExample': self.generateCurlExample(serviceJson, serviceName)
         }
         with open(f"{service_dir}/{serviceJson.get('name','')}.md", "w", encoding="utf-8") as f:
             f.write(template.substitute(substitions))
+
+    def generateCurlExample(self, methodJson, serviceName):
+        """Creates the CURL examples on each of the method pages"""
+        methodName = methodJson.get('name')
+        base = "curl -u $SL_USER:$SL_APIKEY"
+        initParam = ''
+        if not methodJson.get('static', False):
+            initParam = f"{{{serviceName}ID}}/"
+        curlAction = "-X GET"
+        if methodJson.get('parameters', False):
+            params = [x.get('type', '') for x in methodJson.get('parameters', [])]
+            paramString = ", ".join(params)
+            curlAction = f"""-X POST -d '{{"parameters": [{paramString}]}}'"""
+        url = f"'https://api.softlayer.com/rest/v3.1/{serviceName}/"
+        return f"""{base} {curlAction} \\
+{url}{initParam}{methodName}'"""
+
 
 
 
