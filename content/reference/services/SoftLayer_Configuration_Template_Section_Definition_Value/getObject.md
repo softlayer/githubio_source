@@ -12,3 +12,9 @@ type: "reference"
 layout: "method"
 mainService : "SoftLayer_Configuration_Template_Section_Definition_Value"
 ---
+
+### Curl Example
+```bash
+curl -u $SL_USER:$SL_APIKEY -X GET \
+'https://api.softlayer.com/rest/v3.1/SoftLayer_Configuration_Template_Section_Definition_Value/{SoftLayer_Configuration_Template_Section_Definition_ValueID}/getObject'
+```

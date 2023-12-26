@@ -12,3 +12,9 @@ type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Vlan"
 ---
+
+### Curl Example
+```bash
+curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string]}' \
+'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Vlan/getVlanForIpAddress'
+```

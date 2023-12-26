@@ -12,3 +12,9 @@ type: "reference"
 layout: "method"
 mainService : "SoftLayer_Billing_Currency"
 ---
+
+### Curl Example
+```bash
+curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [float, SoftLayer_Container_Billing_Currency_Format]}' \
+'https://api.softlayer.com/rest/v3.1/SoftLayer_Billing_Currency/{SoftLayer_Billing_CurrencyID}/getPrice'
+```

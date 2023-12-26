@@ -12,3 +12,9 @@ type: "reference"
 layout: "method"
 mainService : "SoftLayer_Ticket"
 ---
+
+### Curl Example
+```bash
+curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Ticket_Update, SoftLayer_Container_Utility_File_Attachment]}' \
+'https://api.softlayer.com/rest/v3.1/SoftLayer_Ticket/{SoftLayer_TicketID}/addUpdate'
+```

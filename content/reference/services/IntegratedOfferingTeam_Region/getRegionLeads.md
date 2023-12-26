@@ -12,3 +12,9 @@ type: "reference"
 layout: "method"
 mainService : "IntegratedOfferingTeam_Region"
 ---
+
+### Curl Example
+```bash
+curl -u $SL_USER:$SL_APIKEY -X GET \
+'https://api.softlayer.com/rest/v3.1/IntegratedOfferingTeam_Region/getRegionLeads'
+```

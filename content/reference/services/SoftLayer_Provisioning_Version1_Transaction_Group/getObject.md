@@ -12,3 +12,9 @@ type: "reference"
 layout: "method"
 mainService : "SoftLayer_Provisioning_Version1_Transaction_Group"
 ---
+
+### Curl Example
+```bash
+curl -u $SL_USER:$SL_APIKEY -X GET \
+'https://api.softlayer.com/rest/v3.1/SoftLayer_Provisioning_Version1_Transaction_Group/{SoftLayer_Provisioning_Version1_Transaction_GroupID}/getObject'
+```

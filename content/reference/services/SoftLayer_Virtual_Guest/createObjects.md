@@ -96,3 +96,9 @@ type: "reference"
 layout: "method"
 mainService : "SoftLayer_Virtual_Guest"
 ---
+
+### Curl Example
+```bash
+curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Virtual_Guest]}' \
+'https://api.softlayer.com/rest/v3.1/SoftLayer_Virtual_Guest/createObjects'
+```

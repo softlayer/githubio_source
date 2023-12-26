@@ -12,3 +12,9 @@ type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_LBaaS_L7Policy"
 ---
+
+### Curl Example
+```bash
+curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string, SoftLayer_Network_LBaaS_PolicyRule]}' \
+'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_LBaaS_L7Policy/addL7Policies'
+```

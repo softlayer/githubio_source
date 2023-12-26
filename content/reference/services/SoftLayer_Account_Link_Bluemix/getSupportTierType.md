@@ -12,3 +12,9 @@ type: "reference"
 layout: "method"
 mainService : "SoftLayer_Account_Link_Bluemix"
 ---
+
+### Curl Example
+```bash
+curl -u $SL_USER:$SL_APIKEY -X GET \
+'https://api.softlayer.com/rest/v3.1/SoftLayer_Account_Link_Bluemix/{SoftLayer_Account_Link_BluemixID}/getSupportTierType'
+```

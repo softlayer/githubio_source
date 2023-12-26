@@ -14,3 +14,9 @@ type: "reference"
 layout: "method"
 mainService : "SoftLayer_Account_ProofOfConcept"
 ---
+
+### Curl Example
+```bash
+curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Container_Account_ProofOfConcept_Request_GlobalFunded]}' \
+'https://api.softlayer.com/rest/v3.1/SoftLayer_Account_ProofOfConcept/requestGlobalFundedAccount'
+```

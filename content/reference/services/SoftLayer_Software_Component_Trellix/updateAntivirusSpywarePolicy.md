@@ -17,3 +17,9 @@ type: "reference"
 layout: "method"
 mainService : "SoftLayer_Software_Component_Trellix"
 ---
+
+### Curl Example
+```bash
+curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string, boolean]}' \
+'https://api.softlayer.com/rest/v3.1/SoftLayer_Software_Component_Trellix/{SoftLayer_Software_Component_TrellixID}/updateAntivirusSpywarePolicy'
+```

@@ -12,3 +12,9 @@ type: "reference"
 layout: "method"
 mainService : "SoftLayer_Account_Reports_Request"
 ---
+
+### Curl Example
+```bash
+curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Account_Reports_Request]}' \
+'https://api.softlayer.com/rest/v3.1/SoftLayer_Account_Reports_Request/updateTicketOnDecline'
+```

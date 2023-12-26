@@ -61,3 +61,9 @@ type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Tunnel_Module_Context"
 ---
+
+### Curl Example
+```bash
+curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Network_Tunnel_Module_Context]}' \
+'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Tunnel_Module_Context/{SoftLayer_Network_Tunnel_Module_ContextID}/editObject'
+```

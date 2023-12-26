@@ -24,3 +24,9 @@ type: "reference"
 layout: "method"
 mainService : "SoftLayer_Billing_Item"
 ---
+
+### Curl Example
+```bash
+curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [boolean, boolean, string, string]}' \
+'https://api.softlayer.com/rest/v3.1/SoftLayer_Billing_Item/{SoftLayer_Billing_ItemID}/cancelItem'
+```

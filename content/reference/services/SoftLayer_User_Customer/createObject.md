@@ -34,3 +34,9 @@ type: "reference"
 layout: "method"
 mainService : "SoftLayer_User_Customer"
 ---
+
+### Curl Example
+```bash
+curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_User_Customer, string, string]}' \
+'https://api.softlayer.com/rest/v3.1/SoftLayer_User_Customer/createObject'
+```
