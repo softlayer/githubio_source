@@ -12,3 +12,9 @@ type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Storage"
 ---
+
+# [REST Example](#allowAccessToReplicantFromVirtualGuest-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#allowAccessToReplicantFromVirtualGuest-example .anchor-link} 
+```bash
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Virtual_Guest]}' \
+'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Storage/{SoftLayer_Network_StorageID}/allowAccessToReplicantFromVirtualGuest'
+```

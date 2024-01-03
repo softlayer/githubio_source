@@ -12,3 +12,9 @@ type: "reference"
 layout: "method"
 mainService : "SoftLayer_Dns_Domain"
 ---
+
+# [REST Example](#createNsRecord-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#createNsRecord-example .anchor-link} 
+```bash
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string, string, int]}' \
+'https://api.softlayer.com/rest/v3.1/SoftLayer_Dns_Domain/{SoftLayer_Dns_DomainID}/createNsRecord'
+```

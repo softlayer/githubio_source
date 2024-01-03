@@ -12,3 +12,9 @@ type: "reference"
 layout: "method"
 mainService : "SoftLayer_Sales_Presale_Event"
 ---
+
+# [REST Example](#getActiveFlag-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getActiveFlag-example .anchor-link} 
+```bash
+curl -g -u $SL_USER:$SL_APIKEY -X GET \
+'https://api.softlayer.com/rest/v3.1/SoftLayer_Sales_Presale_Event/{SoftLayer_Sales_Presale_EventID}/getActiveFlag'
+```

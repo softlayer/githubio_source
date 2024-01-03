@@ -14,3 +14,9 @@ type: "reference"
 layout: "method"
 mainService : "SoftLayer_Account"
 ---
+
+# [REST Example](#getFlexibleCreditProgramInfo-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getFlexibleCreditProgramInfo-example .anchor-link} 
+```bash
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [boolean]}' \
+'https://api.softlayer.com/rest/v3.1/SoftLayer_Account/getFlexibleCreditProgramInfo'
+```

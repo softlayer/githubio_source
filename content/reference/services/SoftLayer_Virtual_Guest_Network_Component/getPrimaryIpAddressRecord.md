@@ -12,3 +12,9 @@ type: "reference"
 layout: "method"
 mainService : "SoftLayer_Virtual_Guest_Network_Component"
 ---
+
+# [REST Example](#getPrimaryIpAddressRecord-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getPrimaryIpAddressRecord-example .anchor-link} 
+```bash
+curl -g -u $SL_USER:$SL_APIKEY -X GET \
+'https://api.softlayer.com/rest/v3.1/SoftLayer_Virtual_Guest_Network_Component/{SoftLayer_Virtual_Guest_Network_ComponentID}/getPrimaryIpAddressRecord'
+```

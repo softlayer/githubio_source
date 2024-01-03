@@ -14,3 +14,9 @@ type: "reference"
 layout: "method"
 mainService : "SoftLayer_Dns_Domain_ResourceRecord"
 ---
+
+# [REST Example](#editObject-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#editObject-example .anchor-link} 
+```bash
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Dns_Domain_ResourceRecord]}' \
+'https://api.softlayer.com/rest/v3.1/SoftLayer_Dns_Domain_ResourceRecord/{SoftLayer_Dns_Domain_ResourceRecordID}/editObject'
+```

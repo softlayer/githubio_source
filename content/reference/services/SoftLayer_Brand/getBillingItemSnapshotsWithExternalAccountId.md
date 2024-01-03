@@ -14,3 +14,9 @@ type: "reference"
 layout: "method"
 mainService : "SoftLayer_Brand"
 ---
+
+# [REST Example](#getBillingItemSnapshotsWithExternalAccountId-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getBillingItemSnapshotsWithExternalAccountId-example .anchor-link} 
+```bash
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string]}' \
+'https://api.softlayer.com/rest/v3.1/SoftLayer_Brand/{SoftLayer_BrandID}/getBillingItemSnapshotsWithExternalAccountId'
+```

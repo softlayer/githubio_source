@@ -24,3 +24,9 @@ type: "reference"
 layout: "method"
 mainService : "SoftLayer_Billing_Item_Virtual_DedicatedHost"
 ---
+
+# [REST Example](#cancelItem-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#cancelItem-example .anchor-link} 
+```bash
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [boolean, boolean, string, string]}' \
+'https://api.softlayer.com/rest/v3.1/SoftLayer_Billing_Item_Virtual_DedicatedHost/{SoftLayer_Billing_Item_Virtual_DedicatedHostID}/cancelItem'
+```

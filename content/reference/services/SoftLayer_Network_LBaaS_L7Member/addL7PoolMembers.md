@@ -12,3 +12,9 @@ type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_LBaaS_L7Member"
 ---
+
+# [REST Example](#addL7PoolMembers-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#addL7PoolMembers-example .anchor-link} 
+```bash
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string, SoftLayer_Network_LBaaS_L7Member]}' \
+'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_LBaaS_L7Member/addL7PoolMembers'
+```

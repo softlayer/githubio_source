@@ -12,3 +12,9 @@ type: "reference"
 layout: "method"
 mainService : "SoftLayer_User_Customer_ApiAuthentication"
 ---
+
+# [REST Example](#editObject-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#editObject-example .anchor-link} 
+```bash
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_User_Customer_ApiAuthentication]}' \
+'https://api.softlayer.com/rest/v3.1/SoftLayer_User_Customer_ApiAuthentication/{SoftLayer_User_Customer_ApiAuthenticationID}/editObject'
+```

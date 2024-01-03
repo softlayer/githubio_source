@@ -24,3 +24,9 @@ type: "reference"
 layout: "method"
 mainService : "SoftLayer_Hardware_Server"
 ---
+
+# [REST Example](#setPublicNetworkInterfaceSpeed-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#setPublicNetworkInterfaceSpeed-example .anchor-link} 
+```bash
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [int, string]}' \
+'https://api.softlayer.com/rest/v3.1/SoftLayer_Hardware_Server/{SoftLayer_Hardware_ServerID}/setPublicNetworkInterfaceSpeed'
+```

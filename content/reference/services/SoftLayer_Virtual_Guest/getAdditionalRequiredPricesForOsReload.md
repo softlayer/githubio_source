@@ -12,3 +12,9 @@ type: "reference"
 layout: "method"
 mainService : "SoftLayer_Virtual_Guest"
 ---
+
+# [REST Example](#getAdditionalRequiredPricesForOsReload-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getAdditionalRequiredPricesForOsReload-example .anchor-link} 
+```bash
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Container_Hardware_Server_Configuration]}' \
+'https://api.softlayer.com/rest/v3.1/SoftLayer_Virtual_Guest/{SoftLayer_Virtual_GuestID}/getAdditionalRequiredPricesForOsReload'
+```

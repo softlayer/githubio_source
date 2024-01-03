@@ -12,3 +12,9 @@ type: "reference"
 layout: "method"
 mainService : "SoftLayer_Virtual_Guest_Block_Device_Template_Group"
 ---
+
+# [REST Example](#copyToExternalSource-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#copyToExternalSource-example .anchor-link} 
+```bash
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Container_Virtual_Guest_Block_Device_Template_Configuration]}' \
+'https://api.softlayer.com/rest/v3.1/SoftLayer_Virtual_Guest_Block_Device_Template_Group/{SoftLayer_Virtual_Guest_Block_Device_Template_GroupID}/copyToExternalSource'
+```

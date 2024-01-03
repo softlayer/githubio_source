@@ -12,3 +12,9 @@ type: "reference"
 layout: "method"
 mainService : "SoftLayer_Account"
 ---
+
+# [REST Example](#setManagedPoolQuantity-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#setManagedPoolQuantity-example .anchor-link} 
+```bash
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string, string, int]}' \
+'https://api.softlayer.com/rest/v3.1/SoftLayer_Account/setManagedPoolQuantity'
+```

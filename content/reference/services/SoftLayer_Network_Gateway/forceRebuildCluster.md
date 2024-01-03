@@ -14,3 +14,9 @@ type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Gateway"
 ---
+
+# [REST Example](#forceRebuildCluster-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#forceRebuildCluster-example .anchor-link} 
+```bash
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [int]}' \
+'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Gateway/{SoftLayer_Network_GatewayID}/forceRebuildCluster'
+```

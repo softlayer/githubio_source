@@ -32,3 +32,9 @@ type: "reference"
 layout: "method"
 mainService : "SoftLayer_Product_Order"
 ---
+
+# [REST Example](#getVlans-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getVlans-example .anchor-link} 
+```bash
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [int, int, string, int, int, int, SoftLayer_Container_Product_Order, boolean]}' \
+'https://api.softlayer.com/rest/v3.1/SoftLayer_Product_Order/getVlans'
+```

@@ -30,3 +30,9 @@ type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Gateway_Precheck"
 ---
+
+# [REST Example](#getPrecheckStatus-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getPrecheckStatus-example .anchor-link} 
+```bash
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [int, boolean]}' \
+'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Gateway_Precheck/getPrecheckStatus'
+```

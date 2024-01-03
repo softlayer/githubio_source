@@ -12,3 +12,9 @@ type: "reference"
 layout: "method"
 mainService : "SoftLayer_Hardware"
 ---
+
+# [REST Example](#getPrivateBandwidthData-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getPrivateBandwidthData-example .anchor-link} 
+```bash
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [int, int]}' \
+'https://api.softlayer.com/rest/v3.1/SoftLayer_Hardware/{SoftLayer_HardwareID}/getPrivateBandwidthData'
+```

@@ -68,7 +68,6 @@ pluralizeListTitles = false
 [outputs]
   home     = ["HTML", "RSS"]
   section  = ["HTML"]
-  taxonomyTerm = ["HTML"]
   taxonomy = ["HTML"]
 
 

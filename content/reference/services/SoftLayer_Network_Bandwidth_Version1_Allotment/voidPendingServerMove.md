@@ -12,3 +12,9 @@ type: "reference"
 layout: "method"
 mainService : "SoftLayer_Network_Bandwidth_Version1_Allotment"
 ---
+
+# [REST Example](#voidPendingServerMove-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#voidPendingServerMove-example .anchor-link} 
+```bash
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [int, string]}' \
+'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Bandwidth_Version1_Allotment/{SoftLayer_Network_Bandwidth_Version1_AllotmentID}/voidPendingServerMove'
+```

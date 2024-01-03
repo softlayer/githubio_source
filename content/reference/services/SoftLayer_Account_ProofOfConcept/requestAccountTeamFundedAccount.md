@@ -14,3 +14,9 @@ type: "reference"
 layout: "method"
 mainService : "SoftLayer_Account_ProofOfConcept"
 ---
+
+# [REST Example](#requestAccountTeamFundedAccount-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#requestAccountTeamFundedAccount-example .anchor-link} 
+```bash
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Container_Account_ProofOfConcept_Request_AccountFunded]}' \
+'https://api.softlayer.com/rest/v3.1/SoftLayer_Account_ProofOfConcept/requestAccountTeamFundedAccount'
+```

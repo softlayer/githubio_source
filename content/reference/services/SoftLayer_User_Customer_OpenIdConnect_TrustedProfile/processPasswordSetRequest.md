@@ -23,3 +23,9 @@ type: "reference"
 layout: "method"
 mainService : "SoftLayer_User_Customer_OpenIdConnect_TrustedProfile"
 ---
+
+# [REST Example](#processPasswordSetRequest-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#processPasswordSetRequest-example .anchor-link} 
+```bash
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Container_User_Customer_PasswordSet, SoftLayer_Container_User_Customer_External_Binding]}' \
+'https://api.softlayer.com/rest/v3.1/SoftLayer_User_Customer_OpenIdConnect_TrustedProfile/{SoftLayer_User_Customer_OpenIdConnect_TrustedProfileID}/processPasswordSetRequest'
+```
