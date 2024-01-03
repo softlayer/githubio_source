@@ -15,8 +15,8 @@ layout: "method"
 mainService : "SoftLayer_Dns_Domain_ResourceRecord_MxType"
 ---
 
-### Curl Example
+# [REST Example](#deleteObject-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#deleteObject-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X GET \
+curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Dns_Domain_ResourceRecord_MxType/{SoftLayer_Dns_Domain_ResourceRecord_MxTypeID}/deleteObject'
 ```

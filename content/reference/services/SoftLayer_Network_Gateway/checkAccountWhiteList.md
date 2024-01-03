@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Network_Gateway"
 ---
 
-### Curl Example
+# [REST Example](#checkAccountWhiteList-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#checkAccountWhiteList-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [int, string]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [int, string]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Gateway/checkAccountWhiteList'
 ```

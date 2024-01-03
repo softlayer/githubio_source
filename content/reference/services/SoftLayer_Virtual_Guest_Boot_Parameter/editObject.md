@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Virtual_Guest_Boot_Parameter"
 ---
 
-### Curl Example
+# [REST Example](#editObject-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#editObject-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Virtual_Guest_Boot_Parameter]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Virtual_Guest_Boot_Parameter]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Virtual_Guest_Boot_Parameter/{SoftLayer_Virtual_Guest_Boot_ParameterID}/editObject'
 ```

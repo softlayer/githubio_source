@@ -15,8 +15,8 @@ layout: "method"
 mainService : "SoftLayer_Billing_Order_Cart"
 ---
 
-### Curl Example
+# [REST Example](#claim-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#claim-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string, int]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string, int]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Billing_Order_Cart/claim'
 ```

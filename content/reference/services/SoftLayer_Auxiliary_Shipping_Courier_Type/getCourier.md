@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Auxiliary_Shipping_Courier_Type"
 ---
 
-### Curl Example
+# [REST Example](#getCourier-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getCourier-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X GET \
+curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Auxiliary_Shipping_Courier_Type/{SoftLayer_Auxiliary_Shipping_Courier_TypeID}/getCourier'
 ```

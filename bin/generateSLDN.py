@@ -43,7 +43,7 @@ layout: "$layoutType"
 mainService : "$mainService"
 ---
 
-### Curl Example
+# [REST Example](#$service-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#$service-example .anchor-link} 
 ```bash
 $curlExample
 ```
@@ -250,7 +250,7 @@ class SLDNgenerator():
     def generateCurlExample(self, methodJson, serviceName):
         """Creates the CURL examples on each of the method pages"""
         methodName = methodJson.get('name')
-        base = "curl -u $SL_USER:$SL_APIKEY"
+        base = "curl -g -u $SL_USER:$SL_APIKEY"
         initParam = ''
         if not methodJson.get('static', False):
             initParam = f"{{{serviceName}ID}}/"

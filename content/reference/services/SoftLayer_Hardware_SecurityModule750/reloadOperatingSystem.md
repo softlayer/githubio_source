@@ -19,8 +19,8 @@ layout: "method"
 mainService : "SoftLayer_Hardware_SecurityModule750"
 ---
 
-### Curl Example
+# [REST Example](#reloadOperatingSystem-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#reloadOperatingSystem-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string, SoftLayer_Container_Hardware_Server_Configuration]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string, SoftLayer_Container_Hardware_Server_Configuration]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Hardware_SecurityModule750/{SoftLayer_Hardware_SecurityModule750ID}/reloadOperatingSystem'
 ```

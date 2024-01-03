@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Hardware_Component_Model"
 ---
 
-### Curl Example
+# [REST Example](#getCompatibleArrayTypes-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getCompatibleArrayTypes-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X GET \
+curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Hardware_Component_Model/{SoftLayer_Hardware_Component_ModelID}/getCompatibleArrayTypes'
 ```

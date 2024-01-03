@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Account"
 ---
 
-### Curl Example
+# [REST Example](#createUser-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#createUser-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_User_Customer, string, string, boolean]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_User_Customer, string, string, boolean]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Account/createUser'
 ```

@@ -17,8 +17,8 @@ layout: "method"
 mainService : "SoftLayer_Network_Storage"
 ---
 
-### Curl Example
+# [REST Example](#setMountable-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#setMountable-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [boolean]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [boolean]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Storage/{SoftLayer_Network_StorageID}/setMountable'
 ```

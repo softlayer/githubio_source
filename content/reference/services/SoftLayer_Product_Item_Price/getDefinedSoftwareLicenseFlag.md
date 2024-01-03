@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Product_Item_Price"
 ---
 
-### Curl Example
+# [REST Example](#getDefinedSoftwareLicenseFlag-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getDefinedSoftwareLicenseFlag-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X GET \
+curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Product_Item_Price/{SoftLayer_Product_Item_PriceID}/getDefinedSoftwareLicenseFlag'
 ```

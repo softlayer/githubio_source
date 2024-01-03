@@ -15,8 +15,8 @@ layout: "method"
 mainService : "SoftLayer_Layout_Profile"
 ---
 
-### Curl Example
+# [REST Example](#modifyPreferences-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#modifyPreferences-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Layout_Profile_Preference]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Layout_Profile_Preference]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Layout_Profile/{SoftLayer_Layout_ProfileID}/modifyPreferences'
 ```

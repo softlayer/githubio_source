@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Network_Service_Vpn_Overrides"
 ---
 
-### Curl Example
+# [REST Example](#deleteObjects-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#deleteObjects-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Network_Service_Vpn_Overrides]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Network_Service_Vpn_Overrides]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Service_Vpn_Overrides/deleteObjects'
 ```

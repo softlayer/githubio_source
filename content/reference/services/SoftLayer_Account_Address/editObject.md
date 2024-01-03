@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Account_Address"
 ---
 
-### Curl Example
+# [REST Example](#editObject-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#editObject-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Account_Address]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Account_Address]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Account_Address/{SoftLayer_Account_AddressID}/editObject'
 ```

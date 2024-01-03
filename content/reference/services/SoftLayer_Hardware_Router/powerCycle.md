@@ -17,8 +17,8 @@ layout: "method"
 mainService : "SoftLayer_Hardware_Router"
 ---
 
-### Curl Example
+# [REST Example](#powerCycle-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#powerCycle-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X GET \
+curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Hardware_Router/{SoftLayer_Hardware_RouterID}/powerCycle'
 ```

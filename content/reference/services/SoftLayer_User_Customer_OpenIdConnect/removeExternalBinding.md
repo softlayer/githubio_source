@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_User_Customer_OpenIdConnect"
 ---
 
-### Curl Example
+# [REST Example](#removeExternalBinding-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#removeExternalBinding-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_User_External_Binding]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_User_External_Binding]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_User_Customer_OpenIdConnect/{SoftLayer_User_Customer_OpenIdConnectID}/removeExternalBinding'
 ```

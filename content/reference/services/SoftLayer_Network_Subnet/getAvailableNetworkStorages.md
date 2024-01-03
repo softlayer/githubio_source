@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Network_Subnet"
 ---
 
-### Curl Example
+# [REST Example](#getAvailableNetworkStorages-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getAvailableNetworkStorages-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Subnet/{SoftLayer_Network_SubnetID}/getAvailableNetworkStorages'
 ```

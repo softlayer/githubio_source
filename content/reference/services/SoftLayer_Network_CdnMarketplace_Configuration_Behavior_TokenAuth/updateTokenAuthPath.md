@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Network_CdnMarketplace_Configuration_Behavior_TokenAuth"
 ---
 
-### Curl Example
+# [REST Example](#updateTokenAuthPath-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#updateTokenAuthPath-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Container_Network_CdnMarketplace_Configuration_Behavior_TokenAuth]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Container_Network_CdnMarketplace_Configuration_Behavior_TokenAuth]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_CdnMarketplace_Configuration_Behavior_TokenAuth/updateTokenAuthPath'
 ```

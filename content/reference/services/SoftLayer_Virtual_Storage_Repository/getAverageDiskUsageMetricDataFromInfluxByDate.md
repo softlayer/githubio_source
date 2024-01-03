@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Virtual_Storage_Repository"
 ---
 
-### Curl Example
+# [REST Example](#getAverageDiskUsageMetricDataFromInfluxByDate-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getAverageDiskUsageMetricDataFromInfluxByDate-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [dateTime, dateTime]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [dateTime, dateTime]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Virtual_Storage_Repository/{SoftLayer_Virtual_Storage_RepositoryID}/getAverageDiskUsageMetricDataFromInfluxByDate'
 ```

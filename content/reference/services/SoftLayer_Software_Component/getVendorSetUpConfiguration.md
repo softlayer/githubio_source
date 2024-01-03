@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Software_Component"
 ---
 
-### Curl Example
+# [REST Example](#getVendorSetUpConfiguration-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getVendorSetUpConfiguration-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X GET \
+curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Software_Component/{SoftLayer_Software_ComponentID}/getVendorSetUpConfiguration'
 ```

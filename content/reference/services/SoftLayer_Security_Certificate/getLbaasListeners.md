@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Security_Certificate"
 ---
 
-### Curl Example
+# [REST Example](#getLbaasListeners-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getLbaasListeners-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X GET \
+curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Security_Certificate/{SoftLayer_Security_CertificateID}/getLbaasListeners'
 ```

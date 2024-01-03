@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Provisioning_Hook_Type"
 ---
 
-### Curl Example
+# [REST Example](#getAllHookTypes-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getAllHookTypes-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X GET \
+curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Provisioning_Hook_Type/getAllHookTypes'
 ```

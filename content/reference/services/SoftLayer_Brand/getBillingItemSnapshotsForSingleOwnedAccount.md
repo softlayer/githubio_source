@@ -15,8 +15,8 @@ layout: "method"
 mainService : "SoftLayer_Brand"
 ---
 
-### Curl Example
+# [REST Example](#getBillingItemSnapshotsForSingleOwnedAccount-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getBillingItemSnapshotsForSingleOwnedAccount-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [int]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [int]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Brand/{SoftLayer_BrandID}/getBillingItemSnapshotsForSingleOwnedAccount'
 ```

@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Network_Application_Delivery_Controller"
 ---
 
-### Curl Example
+# [REST Example](#getBandwidthImageByDate-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getBandwidthImageByDate-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [dateTime, dateTime, string]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [dateTime, dateTime, string]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Application_Delivery_Controller/{SoftLayer_Network_Application_Delivery_ControllerID}/getBandwidthImageByDate'
 ```

@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Network_Storage_Hub_Swift_Metrics"
 ---
 
-### Curl Example
+# [REST Example](#getSummaryData-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getSummaryData-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [dateTime, dateTime, SoftLayer_Container_Metric_Data_Type, int]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [dateTime, dateTime, SoftLayer_Container_Metric_Data_Type, int]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Storage_Hub_Swift_Metrics/{SoftLayer_Network_Storage_Hub_Swift_MetricsID}/getSummaryData'
 ```

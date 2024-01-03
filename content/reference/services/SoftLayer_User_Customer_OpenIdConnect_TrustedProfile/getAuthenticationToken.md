@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_User_Customer_OpenIdConnect_TrustedProfile"
 ---
 
-### Curl Example
+# [REST Example](#getAuthenticationToken-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getAuthenticationToken-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Container_User_Authentication_Token]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Container_User_Authentication_Token]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_User_Customer_OpenIdConnect_TrustedProfile/{SoftLayer_User_Customer_OpenIdConnect_TrustedProfileID}/getAuthenticationToken'
 ```

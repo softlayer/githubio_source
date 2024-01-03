@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Account_Agreement"
 ---
 
-### Curl Example
+# [REST Example](#getAgreementType-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getAgreementType-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X GET \
+curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Account_Agreement/{SoftLayer_Account_AgreementID}/getAgreementType'
 ```

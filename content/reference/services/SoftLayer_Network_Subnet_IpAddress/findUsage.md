@@ -17,8 +17,8 @@ layout: "method"
 mainService : "SoftLayer_Network_Subnet_IpAddress"
 ---
 
-### Curl Example
+# [REST Example](#findUsage-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#findUsage-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X GET \
+curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Subnet_IpAddress/findUsage'
 ```

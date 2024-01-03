@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Resource_Metadata"
 ---
 
-### Curl Example
+# [REST Example](#getRouter-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getRouter-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Resource_Metadata/{SoftLayer_Resource_MetadataID}/getRouter'
 ```

@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Network_Storage_Group_Nfs"
 ---
 
-### Curl Example
+# [REST Example](#removeFromVolume-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#removeFromVolume-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Network_Storage]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Network_Storage]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Storage_Group_Nfs/{SoftLayer_Network_Storage_Group_NfsID}/removeFromVolume'
 ```

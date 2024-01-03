@@ -15,8 +15,8 @@ layout: "method"
 mainService : "SoftLayer_Network_LBaaS_LoadBalancer"
 ---
 
-### Curl Example
+# [REST Example](#getListenerTimeSeriesData-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getListenerTimeSeriesData-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string, string, string, string]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string, string, string, string]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_LBaaS_LoadBalancer/getListenerTimeSeriesData'
 ```

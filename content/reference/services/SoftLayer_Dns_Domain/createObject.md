@@ -29,8 +29,8 @@ layout: "method"
 mainService : "SoftLayer_Dns_Domain"
 ---
 
-### Curl Example
+# [REST Example](#createObject-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#createObject-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Dns_Domain]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Dns_Domain]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Dns_Domain/createObject'
 ```

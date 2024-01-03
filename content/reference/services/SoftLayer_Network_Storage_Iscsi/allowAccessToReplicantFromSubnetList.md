@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Network_Storage_Iscsi"
 ---
 
-### Curl Example
+# [REST Example](#allowAccessToReplicantFromSubnetList-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#allowAccessToReplicantFromSubnetList-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Network_Subnet]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Network_Subnet]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Storage_Iscsi/{SoftLayer_Network_Storage_IscsiID}/allowAccessToReplicantFromSubnetList'
 ```

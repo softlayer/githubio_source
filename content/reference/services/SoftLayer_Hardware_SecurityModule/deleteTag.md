@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Hardware_SecurityModule"
 ---
 
-### Curl Example
+# [REST Example](#deleteTag-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#deleteTag-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Hardware_SecurityModule/{SoftLayer_Hardware_SecurityModuleID}/deleteTag'
 ```

@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Product_Order"
 ---
 
-### Curl Example
+# [REST Example](#checkItemAvailabilityForImageTemplate-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#checkItemAvailabilityForImageTemplate-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [int, int, int, string]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [int, int, int, string]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Product_Order/checkItemAvailabilityForImageTemplate'
 ```

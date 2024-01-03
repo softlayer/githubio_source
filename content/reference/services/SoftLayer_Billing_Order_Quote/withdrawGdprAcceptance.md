@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Billing_Order_Quote"
 ---
 
-### Curl Example
+# [REST Example](#withdrawGdprAcceptance-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#withdrawGdprAcceptance-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X GET \
+curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Billing_Order_Quote/{SoftLayer_Billing_Order_QuoteID}/withdrawGdprAcceptance'
 ```

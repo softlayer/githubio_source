@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Notification_User_Subscriber_Billing"
 ---
 
-### Curl Example
+# [REST Example](#getUserRecord-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getUserRecord-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X GET \
+curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Notification_User_Subscriber_Billing/{SoftLayer_Notification_User_Subscriber_BillingID}/getUserRecord'
 ```

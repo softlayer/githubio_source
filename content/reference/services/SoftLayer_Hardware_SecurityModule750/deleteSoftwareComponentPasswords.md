@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Hardware_SecurityModule750"
 ---
 
-### Curl Example
+# [REST Example](#deleteSoftwareComponentPasswords-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#deleteSoftwareComponentPasswords-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Software_Component_Password]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Software_Component_Password]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Hardware_SecurityModule750/{SoftLayer_Hardware_SecurityModule750ID}/deleteSoftwareComponentPasswords'
 ```

@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Provisioning_Maintenance_Window"
 ---
 
-### Curl Example
+# [REST Example](#addCustomerUpgradeWindow-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#addCustomerUpgradeWindow-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Container_Provisioning_Maintenance_Window]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Container_Provisioning_Maintenance_Window]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Provisioning_Maintenance_Window/addCustomerUpgradeWindow'
 ```

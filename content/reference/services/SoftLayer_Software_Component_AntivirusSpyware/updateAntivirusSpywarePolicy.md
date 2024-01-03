@@ -18,8 +18,8 @@ layout: "method"
 mainService : "SoftLayer_Software_Component_AntivirusSpyware"
 ---
 
-### Curl Example
+# [REST Example](#updateAntivirusSpywarePolicy-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#updateAntivirusSpywarePolicy-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string, boolean]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string, boolean]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Software_Component_AntivirusSpyware/{SoftLayer_Software_Component_AntivirusSpywareID}/updateAntivirusSpywarePolicy'
 ```

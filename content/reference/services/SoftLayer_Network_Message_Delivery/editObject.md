@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Network_Message_Delivery"
 ---
 
-### Curl Example
+# [REST Example](#editObject-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#editObject-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Network_Message_Delivery]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Network_Message_Delivery]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Message_Delivery/{SoftLayer_Network_Message_DeliveryID}/editObject'
 ```

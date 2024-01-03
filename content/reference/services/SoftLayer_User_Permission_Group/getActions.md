@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_User_Permission_Group"
 ---
 
-### Curl Example
+# [REST Example](#getActions-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getActions-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X GET \
+curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_User_Permission_Group/{SoftLayer_User_Permission_GroupID}/getActions'
 ```

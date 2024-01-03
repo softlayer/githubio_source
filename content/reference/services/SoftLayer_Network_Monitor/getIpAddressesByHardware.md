@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Network_Monitor"
 ---
 
-### Curl Example
+# [REST Example](#getIpAddressesByHardware-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getIpAddressesByHardware-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Hardware, string]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Hardware, string]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Monitor/getIpAddressesByHardware'
 ```

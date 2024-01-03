@@ -25,8 +25,8 @@ layout: "method"
 mainService : "SoftLayer_Notification_User_Subscriber"
 ---
 
-### Curl Example
+# [REST Example](#editObject-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#editObject-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Notification_User_Subscriber]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Notification_User_Subscriber]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Notification_User_Subscriber/{SoftLayer_Notification_User_SubscriberID}/editObject'
 ```

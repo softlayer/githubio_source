@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Ticket"
 ---
 
-### Curl Example
+# [REST Example](#createUpgradeTicket-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#createUpgradeTicket-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [int, string, string, string, enum, string]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [int, string, string, string, enum, string]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Ticket/createUpgradeTicket'
 ```

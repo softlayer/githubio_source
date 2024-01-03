@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Marketplace_Partner"
 ---
 
-### Curl Example
+# [REST Example](#getLogoMediumTemp-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getLogoMediumTemp-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X GET \
+curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Marketplace_Partner/{SoftLayer_Marketplace_PartnerID}/getLogoMediumTemp'
 ```

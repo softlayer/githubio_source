@@ -19,8 +19,8 @@ layout: "method"
 mainService : "SoftLayer_Hardware_SecurityModule"
 ---
 
-### Curl Example
+# [REST Example](#runPassmarkCertificationBenchmark-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#runPassmarkCertificationBenchmark-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X GET \
+curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Hardware_SecurityModule/{SoftLayer_Hardware_SecurityModuleID}/runPassmarkCertificationBenchmark'
 ```

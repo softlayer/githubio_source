@@ -17,8 +17,8 @@ layout: "method"
 mainService : "SoftLayer_Network_Storage"
 ---
 
-### Curl Example
+# [REST Example](#deleteFiles-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#deleteFiles-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Storage/{SoftLayer_Network_StorageID}/deleteFiles'
 ```

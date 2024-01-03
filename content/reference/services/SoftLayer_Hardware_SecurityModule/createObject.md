@@ -278,8 +278,8 @@ layout: "method"
 mainService : "SoftLayer_Hardware_SecurityModule"
 ---
 
-### Curl Example
+# [REST Example](#createObject-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#createObject-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Hardware_SecurityModule]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Hardware_SecurityModule]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Hardware_SecurityModule/createObject'
 ```

@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Configuration_Template_Section_Reference"
 ---
 
-### Curl Example
+# [REST Example](#getSection-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getSection-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X GET \
+curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Configuration_Template_Section_Reference/{SoftLayer_Configuration_Template_Section_ReferenceID}/getSection'
 ```

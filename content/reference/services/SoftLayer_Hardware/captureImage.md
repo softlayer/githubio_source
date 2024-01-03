@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Hardware"
 ---
 
-### Curl Example
+# [REST Example](#captureImage-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#captureImage-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Container_Disk_Image_Capture_Template]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Container_Disk_Image_Capture_Template]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Hardware/{SoftLayer_HardwareID}/captureImage'
 ```

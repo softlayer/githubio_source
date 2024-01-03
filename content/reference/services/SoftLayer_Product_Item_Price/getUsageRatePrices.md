@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Product_Item_Price"
 ---
 
-### Curl Example
+# [REST Example](#getUsageRatePrices-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getUsageRatePrices-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Location, SoftLayer_Product_Item]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Location, SoftLayer_Product_Item]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Product_Item_Price/getUsageRatePrices'
 ```

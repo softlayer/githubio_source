@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Billing_Order_Cart"
 ---
 
-### Curl Example
+# [REST Example](#verifyOrder-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#verifyOrder-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Container_Product_Order]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Container_Product_Order]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Billing_Order_Cart/{SoftLayer_Billing_Order_CartID}/verifyOrder'
 ```

@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Billing_Order_Quote"
 ---
 
-### Curl Example
+# [REST Example](#getQuoteByQuoteKey-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getQuoteByQuoteKey-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Billing_Order_Quote/getQuoteByQuoteKey'
 ```

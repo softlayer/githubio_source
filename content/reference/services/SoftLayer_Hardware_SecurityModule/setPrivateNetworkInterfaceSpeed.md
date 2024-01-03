@@ -25,8 +25,8 @@ layout: "method"
 mainService : "SoftLayer_Hardware_SecurityModule"
 ---
 
-### Curl Example
+# [REST Example](#setPrivateNetworkInterfaceSpeed-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#setPrivateNetworkInterfaceSpeed-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [int, string]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [int, string]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Hardware_SecurityModule/{SoftLayer_Hardware_SecurityModuleID}/setPrivateNetworkInterfaceSpeed'
 ```

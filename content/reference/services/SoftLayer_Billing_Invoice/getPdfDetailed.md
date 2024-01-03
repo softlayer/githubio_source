@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Billing_Invoice"
 ---
 
-### Curl Example
+# [REST Example](#getPdfDetailed-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getPdfDetailed-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X GET \
+curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Billing_Invoice/{SoftLayer_Billing_InvoiceID}/getPdfDetailed'
 ```

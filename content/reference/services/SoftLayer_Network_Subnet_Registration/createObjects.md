@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Network_Subnet_Registration"
 ---
 
-### Curl Example
+# [REST Example](#createObjects-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#createObjects-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Network_Subnet_Registration]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Network_Subnet_Registration]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Subnet_Registration/createObjects'
 ```

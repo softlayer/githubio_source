@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Product_Item_Category"
 ---
 
-### Curl Example
+# [REST Example](#getCustomUsageRatesCategories-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getCustomUsageRatesCategories-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [boolean]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [boolean]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Product_Item_Category/getCustomUsageRatesCategories'
 ```

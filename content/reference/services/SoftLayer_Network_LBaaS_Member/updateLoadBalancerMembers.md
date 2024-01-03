@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Network_LBaaS_Member"
 ---
 
-### Curl Example
+# [REST Example](#updateLoadBalancerMembers-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#updateLoadBalancerMembers-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string, SoftLayer_Network_LBaaS_Member]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string, SoftLayer_Network_LBaaS_Member]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_LBaaS_Member/updateLoadBalancerMembers'
 ```

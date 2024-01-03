@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Billing_Currency_ExchangeRate"
 ---
 
-### Curl Example
+# [REST Example](#getPrice-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getPrice-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [float, SoftLayer_Container_Billing_Currency_Format]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [float, SoftLayer_Container_Billing_Currency_Format]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Billing_Currency_ExchangeRate/{SoftLayer_Billing_Currency_ExchangeRateID}/getPrice'
 ```

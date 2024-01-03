@@ -13,10 +13,10 @@ tags:
 SoftLayer provides a RESTful API in addition to RPC-style API services. Use the REST API in cases where your programming language may not have good SOAP or XML-RPC support but can perform simple HTTP protocol actions and can interpret XML or JSON data.
 
 
-## REST URLs
+# [REST URLs](#rest-urls){#rest-urls .anchor-link}
 REST API URLs are structured to easily traverse SoftLayer's object hierarchy. A basic REST request is structured as follows:
 
-```
+```bash
 curl -u [username]:[apiKey]  -d '{"parameters": ["first", "second"]}'
 https://api.[service.]softlayer.com/rest/v3.1/[serviceName]/[initializationParameter]/[methodName].[json|xml|txt]?
 objectMask=mask[]&objectFilter={}&resultLimit=[offsetValue],[limitValue]
@@ -32,7 +32,7 @@ objectMask=mask[]&objectFilter={}&resultLimit=[offsetValue],[limitValue]
 
 A request like this calls the getObject() method of the API service you're trying to call. [SoftLayer_Account::getObject](/reference/services/SoftLayer_Account/getObject) doesn't require an initialization parameter, so its REST URL looks like this
 
-```
+```bash
 https://username:apiKey@api.softlayer.com/rest/v3/SoftLayer_Account.json
 ```
 
@@ -40,7 +40,7 @@ https://username:apiKey@api.softlayer.com/rest/v3/SoftLayer_Account.json
 
 To call the [getObject()](/reference/services/SoftLayer_Hardware_Server/getObject) method for a specific [SoftLayer_Hardware_Server](/reference/services/SoftLayer_Hardware_Server/) record use the following URL, assuming "1234" is the id of the server you wish to retrieve:
 
-```
+```bash
 https://api.softlayer.com/rest/v3/SoftLayer_Hardware_Server/1234.json
 ```
 
@@ -55,7 +55,7 @@ When building a REST API call, you can drill down into the various relational pr
 
 For example:
 
-```
+```bash
 https://api.softlayer.com/rest/v3.1/SoftLayer_Account/getHardware
 ```
 
@@ -68,13 +68,13 @@ If you wanted a specific hardware object, you could do
 
 And you can go deeper, if you wanted to get just the hardware [networkComponents](/reference/datatypes/SoftLayer_Hardware_Server/#networkComponents) you can do this:
 
-```
+```bash
 https://api.softlayer.com/rest/v3.1/SoftLayer_Account/getHardware/365112/getNetworkComponents
 ```
 
 A specific network component?
 
-```
+```bash
 https://api.softlayer.com/rest/v3.1/SoftLayer_Account/getHardware/365112/getNetworkComponents/22222
 ```
 
@@ -82,14 +82,14 @@ https://api.softlayer.com/rest/v3.1/SoftLayer_Account/getHardware/365112/getNetw
 
 In the url, you will see `v3.1` or `v3`. Both versions are basically the same, `v3.1` is the "newer" version, and the only real difference is it handles objectFilters a little faster.
 
-## HTTP Request Types
+# [HTTP Request Types](#rest-request-types) {#rest-request-types .anchor-link}
 It is important to understand that the REST endpoint is mostly just a wrapper for the SOAP endpoint, and as such might not work exactly like other REST services.
 
 As a general rule, you can use a `GET` request UNLESS you need to send in optional parameters, then you should use a `POST` request.
 
 ### DELETE
 A `DELETE` request assume you want to use the `deleteObject()` method. 
-```
+```bash
 curl -X DELETE https://api.softlayer.com/rest/v3/SoftLayer_Dns_Domain/1234.json
 ```
 
@@ -98,7 +98,7 @@ curl -X DELETE https://api.softlayer.com/rest/v3/SoftLayer_Dns_Domain/1234.json
 ### GET
 Use a `GET` request for method that doesn't have optional parameters that need to be sent in. a `GET` request will assume `getObject` if you don't specify a method.
 
-```
+```bash
 https://api.softlayer.com/rest/v3/SoftLayer_Dns_Domain/1234.json
 ```
 
@@ -107,13 +107,13 @@ https://api.softlayer.com/rest/v3/SoftLayer_Dns_Domain/1234.json
 A `POST` request is needed for optional parameters. `POST` assums the `createObject` method if you don't specify one.
 
 This method takes in a single Boolean parameter.
-```
+```bash
 curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": ["1"]} 
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Hardware_Server/12345/toggleManagementInterface.json'`
 ```
 
 This method takes in a single SoftLayer_Dns_Domain object.
-```
+```bash
 curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters" : [
     {"name" : "example.org", "resourceRecords" : [{"type" : "a","host" : "@","data" : "127.0.0.1" }]}
 ]}' 'https://api.softlayer.com/rest/v3.1/SoftLayer_Dns_Domain.json'
@@ -126,12 +126,12 @@ curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters" : [
 ### PUT
 Use an HTTP PUT request to edit an object instead of a service's `editObject() `method. PUT a single JSON or XML structure containing a single element called "parameters" containing your object's skeleton structure and any other parameters required by your API service's `editObject()` method. For instance, pass an HTTP PUT request with the following data to the following URL in order to edit domain resource record 5678 within domain record 1234 on SoftLayer's DNS servers, changing its `data` to "10.0.0.1".
 
-```
+```bash
 curl -u $SL_USER:$SL_APIKEY -X PUT -d '{"parameters": [{"data": "10.0.0.1",}]}'
 https://api.softlayer.com/rest/v3/SoftLayer_Dns_Domain/1234/ResourceRecords/5678.json
 ```
 
-## Passing Method Parameters
+# [Passing Method Parameters](#rest-params) {#rest-params .anchor-link}
 
 The order (top to bottom) you send in parameters needs to match the order they are listed in the documentation. For example, [SoftLayer_Account::createUser()](/reference/services/SoftLayer_Account/createUser/) takes in 4 parameters, first would be the `templateObject`, then `password`, then `vpnPassword`, then `silentlyCreateFlag`. The data passed in the parameters are treated like an array, so you don't need to include the parameter name anywhere.
 
@@ -139,20 +139,20 @@ There are 2 main ways to pass in parameters. The most consistent, and what I rec
 
 For example [SoftLayer_Monitoring_Agent::setActiveAlarmSubscriber](/reference/services/SoftLayer_Monitoring_Agent/setActiveAlarmSubscriber) requires the userRecordId parameter:
 
-```
+```bash
 curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [5678]}'
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Monitoring_Agent/1234/setActiveAlarmSubscriber/'
 ```
 
 Alternatively, you can put the parameters in the URL for simple types like string, int, and bool. 
 
-```
+```bash
 curl -u $SL_USER:$SL_APIKEY https://api.softlayer.com/rest/v3/SoftLayer_Monitoring_Agent/1234/setActiveAlarmSubscriber/5678.json
 ```
 
 
 Some methods will request a single parameter which is an array such as [SoftLayer_Dns_Domain_ResourceRecord::createObjects](/reference/services/SoftLayer_Dns_Domain_ResourceRecord/createObjects)
-```
+```json
 {
   "parameters":
     [
@@ -166,26 +166,26 @@ Some methods will request a single parameter which is an array such as [SoftLaye
 ```
 
 
-## Using Object Masks
+# [Using Object Masks](#rest-objectmask) {#rest-objectmask .anchor-link}
 Create an [object mask](/article/object-masks) in your API call URL by adding an `objectMask` variable to your query string. Object masks are a nested array of relational or local properties. 
 
 The following URL creates an object mask that retrieves an account's hardware records along with the datacenters that hardware is located in. Note that the object mask only contains the relational property we want to retrieve related to hardware, not our account.
 
-```
+```bash
 https://api.softlayer.com/rest/v3/SoftLayer_Account/getHardware.json?objectMask=mask[datacenter]
 ```
 
 
 This URL gets an account's hardware records along with that hardware's associated datacenter, operating system, and network component records. Note that these relational items are separate by semicolons.
 
-```
+```bash
 https://api.softlayer.com/rest/v3/SoftLayer_Account/getHardware.json?objectMask=mask[datacenter,operatingSystem,networkComponents]
 ```
 
 
 This URL gets an account's hardware records along with that hardware's associated datacenter, operating system, operating system password, and network component records. 
 
-```
+```bash
 https://api.softlayer.com/rest/v3/SoftLayer_Account/Hardware.json?objectMask=mask[datacenter,operatingSystem[passwords],networkComponents]
 ```
 
@@ -193,11 +193,11 @@ https://api.softlayer.com/rest/v3/SoftLayer_Account/Hardware.json?objectMask=mas
 
 Selecting a `local` property in your objectMask will remove all other local properties on that level of your objectMask. 
 
-## Using Result Limits
+# [Using Result Limits](#rest-resultlimit) {#rest-resultlimit .anchor-link}
 Any method that returns an array of values can make use of a [resultLimit](/article/using-result-limits-softlayer-api/) to page through the results. This is useful if not including the resultLimit makes an API call timeout. 
 
 For example, [SoftLayer_Account::getOpenTickets](/reference/services/SoftLayer_Account/getOpenTickets) returns an array of SoftLayer_Ticket[] (if the return type ends with [] the method is returning an array). The following URL creates a `resultLimit` with "0" as an `offset` value, and "2" as a `limit` value, retrieving only 2 items starting at item 0 of the result set.
-```
+```bash
 https://api.softlayer.com/rest/v3.1/SoftLayer_Account/getOpenTickets.json?resultLimit=0,2
 ```
 **Note:** In the example the offset is 0 and the limit is 2, and in this case we can remove the offset to get the same response (resultLimit=2).
@@ -226,11 +226,11 @@ curl -v -u $SL_USER:$SL_APIKEY https://api.softlayer.com/rest/v3.1/SoftLayer_Acc
 
 ```
 
-## Error Handling
+# [Error Handling](#rest-errors) {#rest-errors .anchor-link}
 
 The SoftLayer REST API returns XML or JSON output with a single <tt>error</tt> node containing any error messages returned by your API call. For instance, the URL to the nonexistent service:
 
-```
+```bash
 https://api.softlayer.com/rest/v3/Nonexistent.xml
 ```
 
@@ -256,3 +256,23 @@ returns the error:
 
 ### Authentication Errors
 The SoftLayer REST API returns an HTTP 401 Unauthorized error if an invalid username / API key combination is used when requesting a REST URL.
+
+
+# [REST Examples](#rest-examples) {#rest-examples .anchor-link}
+
+In a method's documentation you will see a REST example at the bottom, these will use [CURL](https://curl.se) to make the API call.
+
+To explain the example a bit, I will use the [SoftLayer_User_Customer::createUser](/reference/services/SoftLayer_Account/createUser) Method as an example
+
+```bash
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_User_Customer, string, string, boolean]}' \
+'https://api.softlayer.com/rest/v3.1/SoftLayer_Account/createUser'
+```
+
+* `-g` Tells CURL to to turn off ["URL globbing parser"](https://curl.se/docs/manpage.html#-g) basically allowing you to use `[]` and `{}` in your url without having to escape them.
+* `-u $SL_USER:$SL_APIKEY` is your authentication information. Ideally you would set a SL_USER and SL_APIKEY environment variable so you don't put your credentials directly on the command line.
+* `-X POST` is because this method requires parameters be sent in, and this specifically forces curl to send this data in as a POST request. The SoftLayer API will ignore data sent in as a GET request.
+* `-d '{"parameters": [` tells CURL what data you want to send in. This is a JSON formatted string, and should start with the 'parameters' object. The parameters are in an array, in the order they appear in the documentation.
+* `SoftLayer_User_Customer` This method takes in as its first parameter a user object. This is marked in the documentation as the base class that the API expects. You would replace this with a JSON object that fills out all the User_Customer data you want for this new user 
+* `string, string, boolean` this is the rest of the parameters, they are simple types so just fill out the information as required.
+* `'https://api.softlayer.com/rest/v3.1/SoftLayer_Account/createUser'` The API url to send the request to.

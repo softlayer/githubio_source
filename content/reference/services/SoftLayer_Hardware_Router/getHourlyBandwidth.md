@@ -19,8 +19,8 @@ layout: "method"
 mainService : "SoftLayer_Hardware_Router"
 ---
 
-### Curl Example
+# [REST Example](#getHourlyBandwidth-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getHourlyBandwidth-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string, dateTime]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string, dateTime]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Hardware_Router/{SoftLayer_Hardware_RouterID}/getHourlyBandwidth'
 ```

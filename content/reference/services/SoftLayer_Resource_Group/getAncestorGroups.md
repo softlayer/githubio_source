@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Resource_Group"
 ---
 
-### Curl Example
+# [REST Example](#getAncestorGroups-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getAncestorGroups-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X GET \
+curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Resource_Group/{SoftLayer_Resource_GroupID}/getAncestorGroups'
 ```

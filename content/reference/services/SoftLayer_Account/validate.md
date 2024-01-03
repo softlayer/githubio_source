@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Account"
 ---
 
-### Curl Example
+# [REST Example](#validate-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#validate-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Account]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Account]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Account/validate'
 ```

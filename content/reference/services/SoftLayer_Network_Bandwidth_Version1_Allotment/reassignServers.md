@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Network_Bandwidth_Version1_Allotment"
 ---
 
-### Curl Example
+# [REST Example](#reassignServers-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#reassignServers-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Hardware, int]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Hardware, int]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Bandwidth_Version1_Allotment/reassignServers'
 ```

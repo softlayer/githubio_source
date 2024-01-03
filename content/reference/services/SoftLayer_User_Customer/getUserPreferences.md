@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_User_Customer"
 ---
 
-### Curl Example
+# [REST Example](#getUserPreferences-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getUserPreferences-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string, string]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string, string]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_User_Customer/{SoftLayer_User_CustomerID}/getUserPreferences'
 ```

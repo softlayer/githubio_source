@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Resource_Group"
 ---
 
-### Curl Example
+# [REST Example](#editObject-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#editObject-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Resource_Group]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Resource_Group]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Resource_Group/{SoftLayer_Resource_GroupID}/editObject'
 ```

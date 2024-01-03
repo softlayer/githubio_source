@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Survey"
 ---
 
-### Curl Example
+# [REST Example](#takeSurvey-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#takeSurvey-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Survey_Response]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Survey_Response]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Survey/{SoftLayer_SurveyID}/takeSurvey'
 ```

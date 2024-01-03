@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Network_Gateway_Member_Attribute"
 ---
 
-### Curl Example
+# [REST Example](#getGatewayMember-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getGatewayMember-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X GET \
+curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Gateway_Member_Attribute/{SoftLayer_Network_Gateway_Member_AttributeID}/getGatewayMember'
 ```

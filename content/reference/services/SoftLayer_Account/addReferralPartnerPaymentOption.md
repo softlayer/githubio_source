@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Account"
 ---
 
-### Curl Example
+# [REST Example](#addReferralPartnerPaymentOption-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#addReferralPartnerPaymentOption-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Container_Referral_Partner_Payment_Option]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Container_Referral_Partner_Payment_Option]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Account/addReferralPartnerPaymentOption'
 ```

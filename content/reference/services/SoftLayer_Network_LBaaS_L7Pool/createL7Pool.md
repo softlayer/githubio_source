@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Network_LBaaS_L7Pool"
 ---
 
-### Curl Example
+# [REST Example](#createL7Pool-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#createL7Pool-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string, SoftLayer_Network_LBaaS_L7Pool, SoftLayer_Network_LBaaS_L7Member, SoftLayer_Network_LBaaS_L7HealthMonitor, SoftLayer_Network_LBaaS_L7SessionAffinity]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string, SoftLayer_Network_LBaaS_L7Pool, SoftLayer_Network_LBaaS_L7Member, SoftLayer_Network_LBaaS_L7HealthMonitor, SoftLayer_Network_LBaaS_L7SessionAffinity]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_LBaaS_L7Pool/createL7Pool'
 ```

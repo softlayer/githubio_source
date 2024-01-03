@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Network_Security_Scanner_Request"
 ---
 
-### Curl Example
+# [REST Example](#createObject-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#createObject-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Network_Security_Scanner_Request]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Network_Security_Scanner_Request]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Security_Scanner_Request/createObject'
 ```

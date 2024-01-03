@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Account_ProofOfConcept"
 ---
 
-### Curl Example
+# [REST Example](#isCurrentReviewer-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#isCurrentReviewer-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [int, string]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [int, string]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Account_ProofOfConcept/isCurrentReviewer'
 ```

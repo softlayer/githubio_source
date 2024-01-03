@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Network_Tunnel_Module_Context"
 ---
 
-### Curl Example
+# [REST Example](#getBillingItem-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getBillingItem-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X GET \
+curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Tunnel_Module_Context/{SoftLayer_Network_Tunnel_Module_ContextID}/getBillingItem'
 ```

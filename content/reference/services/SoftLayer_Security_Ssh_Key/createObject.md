@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Security_Ssh_Key"
 ---
 
-### Curl Example
+# [REST Example](#createObject-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#createObject-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Security_Ssh_Key]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Security_Ssh_Key]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Security_Ssh_Key/createObject'
 ```

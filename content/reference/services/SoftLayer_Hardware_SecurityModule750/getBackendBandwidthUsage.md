@@ -15,8 +15,8 @@ layout: "method"
 mainService : "SoftLayer_Hardware_SecurityModule750"
 ---
 
-### Curl Example
+# [REST Example](#getBackendBandwidthUsage-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getBackendBandwidthUsage-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [dateTime, dateTime]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [dateTime, dateTime]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Hardware_SecurityModule750/{SoftLayer_Hardware_SecurityModule750ID}/getBackendBandwidthUsage'
 ```

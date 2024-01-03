@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Network_LBaaS_Listener"
 ---
 
-### Curl Example
+# [REST Example](#deleteLoadBalancerProtocols-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#deleteLoadBalancerProtocols-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string, string]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string, string]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_LBaaS_Listener/deleteLoadBalancerProtocols'
 ```

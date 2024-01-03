@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Dns_Domain_Registration"
 ---
 
-### Curl Example
+# [REST Example](#modifyRegisteredNameserver-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#modifyRegisteredNameserver-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string, string, string]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string, string, string]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Dns_Domain_Registration/{SoftLayer_Dns_Domain_RegistrationID}/modifyRegisteredNameserver'
 ```

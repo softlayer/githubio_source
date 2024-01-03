@@ -15,8 +15,8 @@ layout: "method"
 mainService : "SoftLayer_Hardware_SecurityModule"
 ---
 
-### Curl Example
+# [REST Example](#massFirmwareReflash-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#massFirmwareReflash-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [int, boolean, boolean, boolean]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [int, boolean, boolean, boolean]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Hardware_SecurityModule/massFirmwareReflash'
 ```

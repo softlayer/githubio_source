@@ -13,8 +13,8 @@ layout: "method"
 mainService : "SoftLayer_Billing_Order"
 ---
 
-### Curl Example
+# [REST Example](#getOrderTotalSetupAmount-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getOrderTotalSetupAmount-example .anchor-link} 
 ```bash
-curl -u $SL_USER:$SL_APIKEY -X GET \
+curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Billing_Order/{SoftLayer_Billing_OrderID}/getOrderTotalSetupAmount'
 ```
