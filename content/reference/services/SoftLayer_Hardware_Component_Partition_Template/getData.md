@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Hardware_Component_Partition_Template"
 ---
 
-# [REST Example](#getData-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getData-example .anchor-link} 
+### [REST Example](#getData-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getData-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Hardware_Component_Partition_Template/{SoftLayer_Hardware_Component_Partition_TemplateID}/getData'

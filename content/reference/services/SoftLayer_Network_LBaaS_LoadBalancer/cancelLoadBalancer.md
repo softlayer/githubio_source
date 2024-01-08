@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Network_LBaaS_LoadBalancer"
 ---
 
-# [REST Example](#cancelLoadBalancer-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#cancelLoadBalancer-example .anchor-link} 
+### [REST Example](#cancelLoadBalancer-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#cancelLoadBalancer-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_LBaaS_LoadBalancer/cancelLoadBalancer'

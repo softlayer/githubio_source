@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Brand"
 ---
 
-# [REST Example](#getTicketGroups-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getTicketGroups-example .anchor-link} 
+### [REST Example](#getTicketGroups-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getTicketGroups-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Brand/{SoftLayer_BrandID}/getTicketGroups'

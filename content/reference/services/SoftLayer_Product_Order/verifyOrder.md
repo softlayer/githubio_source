@@ -19,7 +19,7 @@ layout: "method"
 mainService : "SoftLayer_Product_Order"
 ---
 
-# [REST Example](#verifyOrder-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#verifyOrder-example .anchor-link} 
+### [REST Example](#verifyOrder-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#verifyOrder-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Container_Product_Order]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Product_Order/verifyOrder'

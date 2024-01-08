@@ -15,7 +15,7 @@ layout: "method"
 mainService : "SoftLayer_User_Customer_OpenIdConnect_TrustedProfile"
 ---
 
-# [REST Example](#removeBulkVirtualGuestAccess-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#removeBulkVirtualGuestAccess-example .anchor-link} 
+### [REST Example](#removeBulkVirtualGuestAccess-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#removeBulkVirtualGuestAccess-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [int]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_User_Customer_OpenIdConnect_TrustedProfile/{SoftLayer_User_Customer_OpenIdConnect_TrustedProfileID}/removeBulkVirtualGuestAccess'

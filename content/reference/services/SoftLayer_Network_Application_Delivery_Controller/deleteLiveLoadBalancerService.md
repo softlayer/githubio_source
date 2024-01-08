@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Network_Application_Delivery_Controller"
 ---
 
-# [REST Example](#deleteLiveLoadBalancerService-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#deleteLiveLoadBalancerService-example .anchor-link} 
+### [REST Example](#deleteLiveLoadBalancerService-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#deleteLiveLoadBalancerService-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Network_LoadBalancer_Service]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Application_Delivery_Controller/{SoftLayer_Network_Application_Delivery_ControllerID}/deleteLiveLoadBalancerService'

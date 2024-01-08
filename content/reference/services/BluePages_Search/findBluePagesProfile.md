@@ -13,7 +13,7 @@ layout: "method"
 mainService : "BluePages_Search"
 ---
 
-# [REST Example](#findBluePagesProfile-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#findBluePagesProfile-example .anchor-link} 
+### [REST Example](#findBluePagesProfile-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#findBluePagesProfile-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string]}' \
 'https://api.softlayer.com/rest/v3.1/BluePages_Search/findBluePagesProfile'

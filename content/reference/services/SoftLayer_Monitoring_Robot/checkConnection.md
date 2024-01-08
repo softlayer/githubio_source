@@ -15,7 +15,7 @@ layout: "method"
 mainService : "SoftLayer_Monitoring_Robot"
 ---
 
-# [REST Example](#checkConnection-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#checkConnection-example .anchor-link} 
+### [REST Example](#checkConnection-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#checkConnection-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Monitoring_Robot/{SoftLayer_Monitoring_RobotID}/checkConnection'

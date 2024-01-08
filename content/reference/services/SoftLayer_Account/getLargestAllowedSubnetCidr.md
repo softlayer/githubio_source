@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Account"
 ---
 
-# [REST Example](#getLargestAllowedSubnetCidr-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getLargestAllowedSubnetCidr-example .anchor-link} 
+### [REST Example](#getLargestAllowedSubnetCidr-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getLargestAllowedSubnetCidr-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [int, int]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Account/getLargestAllowedSubnetCidr'

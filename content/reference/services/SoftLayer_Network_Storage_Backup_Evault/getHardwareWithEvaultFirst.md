@@ -21,7 +21,7 @@ layout: "method"
 mainService : "SoftLayer_Network_Storage_Backup_Evault"
 ---
 
-# [REST Example](#getHardwareWithEvaultFirst-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getHardwareWithEvaultFirst-example .anchor-link} 
+### [REST Example](#getHardwareWithEvaultFirst-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getHardwareWithEvaultFirst-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string, boolean, string, string]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Storage_Backup_Evault/getHardwareWithEvaultFirst'

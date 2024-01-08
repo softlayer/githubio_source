@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Layout_Profile"
 ---
 
-# [REST Example](#editObject-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#editObject-example .anchor-link} 
+### [REST Example](#editObject-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#editObject-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Layout_Profile]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Layout_Profile/{SoftLayer_Layout_ProfileID}/editObject'

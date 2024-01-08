@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Network_Message_Delivery_Email_Sendgrid"
 ---
 
-# [REST Example](#getStatistics-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getStatistics-example .anchor-link} 
+### [REST Example](#getStatistics-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getStatistics-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Container_Network_Message_Delivery_Email_Sendgrid_Statistics_Options]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Message_Delivery_Email_Sendgrid/{SoftLayer_Network_Message_Delivery_Email_SendgridID}/getStatistics'

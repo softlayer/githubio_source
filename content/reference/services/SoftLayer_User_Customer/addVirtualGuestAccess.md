@@ -17,7 +17,7 @@ layout: "method"
 mainService : "SoftLayer_User_Customer"
 ---
 
-# [REST Example](#addVirtualGuestAccess-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#addVirtualGuestAccess-example .anchor-link} 
+### [REST Example](#addVirtualGuestAccess-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#addVirtualGuestAccess-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [int]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_User_Customer/{SoftLayer_User_CustomerID}/addVirtualGuestAccess'

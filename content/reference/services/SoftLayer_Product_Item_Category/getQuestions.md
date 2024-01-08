@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Product_Item_Category"
 ---
 
-# [REST Example](#getQuestions-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getQuestions-example .anchor-link} 
+### [REST Example](#getQuestions-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getQuestions-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Product_Item_Category/{SoftLayer_Product_Item_CategoryID}/getQuestions'

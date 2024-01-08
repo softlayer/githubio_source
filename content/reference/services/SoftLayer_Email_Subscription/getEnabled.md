@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Email_Subscription"
 ---
 
-# [REST Example](#getEnabled-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getEnabled-example .anchor-link} 
+### [REST Example](#getEnabled-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getEnabled-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Email_Subscription/{SoftLayer_Email_SubscriptionID}/getEnabled'

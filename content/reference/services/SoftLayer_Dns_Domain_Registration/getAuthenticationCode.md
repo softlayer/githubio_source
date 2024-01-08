@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Dns_Domain_Registration"
 ---
 
-# [REST Example](#getAuthenticationCode-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getAuthenticationCode-example .anchor-link} 
+### [REST Example](#getAuthenticationCode-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getAuthenticationCode-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Dns_Domain_Registration/{SoftLayer_Dns_Domain_RegistrationID}/getAuthenticationCode'

@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Billing_Currency_ExchangeRate"
 ---
 
-# [REST Example](#getFundingCurrency-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getFundingCurrency-example .anchor-link} 
+### [REST Example](#getFundingCurrency-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getFundingCurrency-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Billing_Currency_ExchangeRate/{SoftLayer_Billing_Currency_ExchangeRateID}/getFundingCurrency'

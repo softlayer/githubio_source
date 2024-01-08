@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_User_Customer_OpenIdConnect"
 ---
 
-# [REST Example](#getNotificationSubscribers-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getNotificationSubscribers-example .anchor-link} 
+### [REST Example](#getNotificationSubscribers-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getNotificationSubscribers-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_User_Customer_OpenIdConnect/{SoftLayer_User_Customer_OpenIdConnectID}/getNotificationSubscribers'

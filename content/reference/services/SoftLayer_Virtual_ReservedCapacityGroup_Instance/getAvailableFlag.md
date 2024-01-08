@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Virtual_ReservedCapacityGroup_Instance"
 ---
 
-# [REST Example](#getAvailableFlag-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getAvailableFlag-example .anchor-link} 
+### [REST Example](#getAvailableFlag-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getAvailableFlag-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Virtual_ReservedCapacityGroup_Instance/{SoftLayer_Virtual_ReservedCapacityGroup_InstanceID}/getAvailableFlag'

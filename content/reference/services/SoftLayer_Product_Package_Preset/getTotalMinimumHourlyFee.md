@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Product_Package_Preset"
 ---
 
-# [REST Example](#getTotalMinimumHourlyFee-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getTotalMinimumHourlyFee-example .anchor-link} 
+### [REST Example](#getTotalMinimumHourlyFee-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getTotalMinimumHourlyFee-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Product_Package_Preset/{SoftLayer_Product_Package_PresetID}/getTotalMinimumHourlyFee'

@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Billing_Order"
 ---
 
-# [REST Example](#getOrderStatuses-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getOrderStatuses-example .anchor-link} 
+### [REST Example](#getOrderStatuses-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getOrderStatuses-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Billing_Order/getOrderStatuses'

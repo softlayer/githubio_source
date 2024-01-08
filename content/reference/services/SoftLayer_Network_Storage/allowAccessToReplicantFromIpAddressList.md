@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Network_Storage"
 ---
 
-# [REST Example](#allowAccessToReplicantFromIpAddressList-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#allowAccessToReplicantFromIpAddressList-example .anchor-link} 
+### [REST Example](#allowAccessToReplicantFromIpAddressList-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#allowAccessToReplicantFromIpAddressList-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Network_Subnet_IpAddress]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Storage/{SoftLayer_Network_StorageID}/allowAccessToReplicantFromIpAddressList'

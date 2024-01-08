@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Virtual_Guest"
 ---
 
-# [REST Example](#getPowerState-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getPowerState-example .anchor-link} 
+### [REST Example](#getPowerState-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getPowerState-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Virtual_Guest/{SoftLayer_Virtual_GuestID}/getPowerState'

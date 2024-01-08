@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Network_Storage_Backup_Evault"
 ---
 
-# [REST Example](#getAllFilesByFilter-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getAllFilesByFilter-example .anchor-link} 
+### [REST Example](#getAllFilesByFilter-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getAllFilesByFilter-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Container_Utility_File_Entity]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Storage_Backup_Evault/{SoftLayer_Network_Storage_Backup_EvaultID}/getAllFilesByFilter'

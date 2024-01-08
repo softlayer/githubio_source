@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Attribute"
 ---
 
-# [REST Example](#getObject-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getObject-example .anchor-link} 
+### [REST Example](#getObject-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getObject-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_Attribute/{SoftLayer_Network_Application_Delivery_Controller_LoadBalancer_Health_AttributeID}/getObject'

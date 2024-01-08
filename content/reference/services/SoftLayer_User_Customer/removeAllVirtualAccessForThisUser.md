@@ -15,7 +15,7 @@ layout: "method"
 mainService : "SoftLayer_User_Customer"
 ---
 
-# [REST Example](#removeAllVirtualAccessForThisUser-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#removeAllVirtualAccessForThisUser-example .anchor-link} 
+### [REST Example](#removeAllVirtualAccessForThisUser-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#removeAllVirtualAccessForThisUser-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_User_Customer/{SoftLayer_User_CustomerID}/removeAllVirtualAccessForThisUser'

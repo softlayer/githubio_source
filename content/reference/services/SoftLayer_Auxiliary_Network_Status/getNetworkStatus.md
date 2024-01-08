@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Auxiliary_Network_Status"
 ---
 
-# [REST Example](#getNetworkStatus-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getNetworkStatus-example .anchor-link} 
+### [REST Example](#getNetworkStatus-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getNetworkStatus-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [enum]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Auxiliary_Network_Status/getNetworkStatus'

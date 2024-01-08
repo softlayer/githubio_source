@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Resource_Group_Template"
 ---
 
-# [REST Example](#getChildren-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getChildren-example .anchor-link} 
+### [REST Example](#getChildren-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getChildren-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Resource_Group_Template/{SoftLayer_Resource_Group_TemplateID}/getChildren'

@@ -28,7 +28,7 @@ layout: "method"
 mainService : "SoftLayer_Ticket"
 ---
 
-# [REST Example](#createCancelServerTicket-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#createCancelServerTicket-example .anchor-link} 
+### [REST Example](#createCancelServerTicket-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#createCancelServerTicket-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [int, string, string, boolean, enum]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Ticket/createCancelServerTicket'

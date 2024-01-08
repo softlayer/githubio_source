@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Billing_Invoice"
 ---
 
-# [REST Example](#emailInvoices-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#emailInvoices-example .anchor-link} 
+### [REST Example](#emailInvoices-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#emailInvoices-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Container_Billing_Invoice_Email]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Billing_Invoice/emailInvoices'

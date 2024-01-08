@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Network_Storage_Group_Nfs"
 ---
 
-# [REST Example](#getAttachedVolumes-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getAttachedVolumes-example .anchor-link} 
+### [REST Example](#getAttachedVolumes-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getAttachedVolumes-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Storage_Group_Nfs/{SoftLayer_Network_Storage_Group_NfsID}/getAttachedVolumes'

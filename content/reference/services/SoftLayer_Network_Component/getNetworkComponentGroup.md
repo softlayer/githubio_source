@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Network_Component"
 ---
 
-# [REST Example](#getNetworkComponentGroup-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getNetworkComponentGroup-example .anchor-link} 
+### [REST Example](#getNetworkComponentGroup-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getNetworkComponentGroup-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Component/{SoftLayer_Network_ComponentID}/getNetworkComponentGroup'

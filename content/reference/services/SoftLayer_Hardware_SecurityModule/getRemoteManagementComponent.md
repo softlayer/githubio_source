@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Hardware_SecurityModule"
 ---
 
-# [REST Example](#getRemoteManagementComponent-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getRemoteManagementComponent-example .anchor-link} 
+### [REST Example](#getRemoteManagementComponent-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getRemoteManagementComponent-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Hardware_SecurityModule/{SoftLayer_Hardware_SecurityModuleID}/getRemoteManagementComponent'

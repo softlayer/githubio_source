@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_User_Customer_OpenIdConnect_TrustedProfile"
 ---
 
-# [REST Example](#getPortalLoginToken-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getPortalLoginToken-example .anchor-link} 
+### [REST Example](#getPortalLoginToken-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getPortalLoginToken-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string, string, int, string]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_User_Customer_OpenIdConnect_TrustedProfile/getPortalLoginToken'

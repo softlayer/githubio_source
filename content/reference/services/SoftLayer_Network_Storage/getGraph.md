@@ -15,7 +15,7 @@ layout: "method"
 mainService : "SoftLayer_Network_Storage"
 ---
 
-# [REST Example](#getGraph-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getGraph-example .anchor-link} 
+### [REST Example](#getGraph-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getGraph-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [dateTime, dateTime, string]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Storage/{SoftLayer_Network_StorageID}/getGraph'

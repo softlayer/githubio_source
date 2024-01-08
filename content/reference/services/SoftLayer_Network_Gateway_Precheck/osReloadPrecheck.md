@@ -15,7 +15,7 @@ layout: "method"
 mainService : "SoftLayer_Network_Gateway_Precheck"
 ---
 
-# [REST Example](#osReloadPrecheck-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#osReloadPrecheck-example .anchor-link} 
+### [REST Example](#osReloadPrecheck-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#osReloadPrecheck-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [int]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Gateway_Precheck/osReloadPrecheck'

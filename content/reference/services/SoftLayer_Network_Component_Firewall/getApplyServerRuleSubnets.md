@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Network_Component_Firewall"
 ---
 
-# [REST Example](#getApplyServerRuleSubnets-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getApplyServerRuleSubnets-example .anchor-link} 
+### [REST Example](#getApplyServerRuleSubnets-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getApplyServerRuleSubnets-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Component_Firewall/{SoftLayer_Network_Component_FirewallID}/getApplyServerRuleSubnets'
