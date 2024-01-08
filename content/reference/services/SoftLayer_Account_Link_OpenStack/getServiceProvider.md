@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Account_Link_OpenStack"
 ---
 
-# [REST Example](#getServiceProvider-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getServiceProvider-example .anchor-link} 
+### [REST Example](#getServiceProvider-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getServiceProvider-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Account_Link_OpenStack/{SoftLayer_Account_Link_OpenStackID}/getServiceProvider'

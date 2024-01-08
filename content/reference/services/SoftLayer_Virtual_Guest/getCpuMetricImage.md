@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Virtual_Guest"
 ---
 
-# [REST Example](#getCpuMetricImage-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getCpuMetricImage-example .anchor-link} 
+### [REST Example](#getCpuMetricImage-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getCpuMetricImage-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [enum, dateTime]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Virtual_Guest/{SoftLayer_Virtual_GuestID}/getCpuMetricImage'

@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Network_Subnet"
 ---
 
-# [REST Example](#allowAccessToNetworkStorageList-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#allowAccessToNetworkStorageList-example .anchor-link} 
+### [REST Example](#allowAccessToNetworkStorageList-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#allowAccessToNetworkStorageList-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Network_Storage]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Subnet/{SoftLayer_Network_SubnetID}/allowAccessToNetworkStorageList'

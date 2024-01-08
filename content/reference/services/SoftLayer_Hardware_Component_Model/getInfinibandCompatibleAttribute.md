@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Hardware_Component_Model"
 ---
 
-# [REST Example](#getInfinibandCompatibleAttribute-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getInfinibandCompatibleAttribute-example .anchor-link} 
+### [REST Example](#getInfinibandCompatibleAttribute-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getInfinibandCompatibleAttribute-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Hardware_Component_Model/{SoftLayer_Hardware_Component_ModelID}/getInfinibandCompatibleAttribute'

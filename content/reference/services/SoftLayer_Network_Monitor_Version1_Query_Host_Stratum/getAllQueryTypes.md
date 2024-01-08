@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Network_Monitor_Version1_Query_Host_Stratum"
 ---
 
-# [REST Example](#getAllQueryTypes-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getAllQueryTypes-example .anchor-link} 
+### [REST Example](#getAllQueryTypes-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getAllQueryTypes-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Monitor_Version1_Query_Host_Stratum/getAllQueryTypes'

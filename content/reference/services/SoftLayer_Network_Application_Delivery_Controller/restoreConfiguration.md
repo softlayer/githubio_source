@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Network_Application_Delivery_Controller"
 ---
 
-# [REST Example](#restoreConfiguration-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#restoreConfiguration-example .anchor-link} 
+### [REST Example](#restoreConfiguration-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#restoreConfiguration-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [int]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Application_Delivery_Controller/{SoftLayer_Network_Application_Delivery_ControllerID}/restoreConfiguration'

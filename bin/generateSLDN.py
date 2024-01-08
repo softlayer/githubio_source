@@ -43,7 +43,7 @@ layout: "$layoutType"
 mainService : "$mainService"
 ---
 
-# [REST Example](#$service-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#$service-example .anchor-link} 
+### [REST Example](#$service-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#$service-example .anchor-link} 
 ```bash
 $curlExample
 ```

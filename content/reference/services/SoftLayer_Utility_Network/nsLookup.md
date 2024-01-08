@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Utility_Network"
 ---
 
-# [REST Example](#nsLookup-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#nsLookup-example .anchor-link} 
+### [REST Example](#nsLookup-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#nsLookup-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string, string]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Utility_Network/nsLookup'

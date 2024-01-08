@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Brand_Business_Partner"
 ---
 
-# [REST Example](#getChannel-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getChannel-example .anchor-link} 
+### [REST Example](#getChannel-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getChannel-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Brand_Business_Partner/{SoftLayer_Brand_Business_PartnerID}/getChannel'

@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Software_Component_Trellix"
 ---
 
-# [REST Example](#getCurrentHostIpsPolicies-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getCurrentHostIpsPolicies-example .anchor-link} 
+### [REST Example](#getCurrentHostIpsPolicies-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getCurrentHostIpsPolicies-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Software_Component_Trellix/{SoftLayer_Software_Component_TrellixID}/getCurrentHostIpsPolicies'

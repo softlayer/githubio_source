@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Network_Storage_Allowed_Host_IpAddress"
 ---
 
-# [REST Example](#getAssignedIscsiVolumes-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getAssignedIscsiVolumes-example .anchor-link} 
+### [REST Example](#getAssignedIscsiVolumes-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getAssignedIscsiVolumes-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Storage_Allowed_Host_IpAddress/{SoftLayer_Network_Storage_Allowed_Host_IpAddressID}/getAssignedIscsiVolumes'

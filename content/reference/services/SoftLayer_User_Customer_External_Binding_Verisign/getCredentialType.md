@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_User_Customer_External_Binding_Verisign"
 ---
 
-# [REST Example](#getCredentialType-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getCredentialType-example .anchor-link} 
+### [REST Example](#getCredentialType-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getCredentialType-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_User_Customer_External_Binding_Verisign/{SoftLayer_User_Customer_External_Binding_VerisignID}/getCredentialType'

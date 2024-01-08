@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Account"
 ---
 
-# [REST Example](#requestManualPaymentUsingCreditCardOnFile-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#requestManualPaymentUsingCreditCardOnFile-example .anchor-link} 
+### [REST Example](#requestManualPaymentUsingCreditCardOnFile-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#requestManualPaymentUsingCreditCardOnFile-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string, boolean, string]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Account/requestManualPaymentUsingCreditCardOnFile'

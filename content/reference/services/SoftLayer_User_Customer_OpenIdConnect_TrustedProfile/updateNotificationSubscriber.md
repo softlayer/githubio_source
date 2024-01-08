@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_User_Customer_OpenIdConnect_TrustedProfile"
 ---
 
-# [REST Example](#updateNotificationSubscriber-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#updateNotificationSubscriber-example .anchor-link} 
+### [REST Example](#updateNotificationSubscriber-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#updateNotificationSubscriber-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string, int]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_User_Customer_OpenIdConnect_TrustedProfile/{SoftLayer_User_Customer_OpenIdConnect_TrustedProfileID}/updateNotificationSubscriber'

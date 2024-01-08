@@ -15,7 +15,7 @@ layout: "method"
 mainService : "SoftLayer_Network_LoadBalancer_Global_Account"
 ---
 
-# [REST Example](#addNsRecord-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#addNsRecord-example .anchor-link} 
+### [REST Example](#addNsRecord-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#addNsRecord-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_LoadBalancer_Global_Account/{SoftLayer_Network_LoadBalancer_Global_AccountID}/addNsRecord'

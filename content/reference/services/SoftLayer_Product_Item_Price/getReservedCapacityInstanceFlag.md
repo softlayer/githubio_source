@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Product_Item_Price"
 ---
 
-# [REST Example](#getReservedCapacityInstanceFlag-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getReservedCapacityInstanceFlag-example .anchor-link} 
+### [REST Example](#getReservedCapacityInstanceFlag-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getReservedCapacityInstanceFlag-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Product_Item_Price/{SoftLayer_Product_Item_PriceID}/getReservedCapacityInstanceFlag'

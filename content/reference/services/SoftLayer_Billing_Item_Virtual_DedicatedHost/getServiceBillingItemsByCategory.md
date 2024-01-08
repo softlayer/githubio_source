@@ -15,7 +15,7 @@ layout: "method"
 mainService : "SoftLayer_Billing_Item_Virtual_DedicatedHost"
 ---
 
-# [REST Example](#getServiceBillingItemsByCategory-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getServiceBillingItemsByCategory-example .anchor-link} 
+### [REST Example](#getServiceBillingItemsByCategory-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getServiceBillingItemsByCategory-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string, boolean]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Billing_Item_Virtual_DedicatedHost/getServiceBillingItemsByCategory'

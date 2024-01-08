@@ -15,7 +15,7 @@ layout: "method"
 mainService : "SoftLayer_Network_Tunnel_Module_Context"
 ---
 
-# [REST Example](#removePrivateSubnetFromNetworkTunnel-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#removePrivateSubnetFromNetworkTunnel-example .anchor-link} 
+### [REST Example](#removePrivateSubnetFromNetworkTunnel-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#removePrivateSubnetFromNetworkTunnel-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [int]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Tunnel_Module_Context/{SoftLayer_Network_Tunnel_Module_ContextID}/removePrivateSubnetFromNetworkTunnel'

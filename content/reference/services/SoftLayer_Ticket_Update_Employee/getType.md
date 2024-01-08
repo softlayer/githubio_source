@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Ticket_Update_Employee"
 ---
 
-# [REST Example](#getType-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getType-example .anchor-link} 
+### [REST Example](#getType-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getType-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Ticket_Update_Employee/{SoftLayer_Ticket_Update_EmployeeID}/getType'

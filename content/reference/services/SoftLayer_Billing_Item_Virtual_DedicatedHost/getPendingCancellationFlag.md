@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Billing_Item_Virtual_DedicatedHost"
 ---
 
-# [REST Example](#getPendingCancellationFlag-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getPendingCancellationFlag-example .anchor-link} 
+### [REST Example](#getPendingCancellationFlag-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getPendingCancellationFlag-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Billing_Item_Virtual_DedicatedHost/{SoftLayer_Billing_Item_Virtual_DedicatedHostID}/getPendingCancellationFlag'

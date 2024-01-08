@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Catalyst_Enrollment"
 ---
 
-# [REST Example](#getIsActiveFlag-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getIsActiveFlag-example .anchor-link} 
+### [REST Example](#getIsActiveFlag-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getIsActiveFlag-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Catalyst_Enrollment/{SoftLayer_Catalyst_EnrollmentID}/getIsActiveFlag'

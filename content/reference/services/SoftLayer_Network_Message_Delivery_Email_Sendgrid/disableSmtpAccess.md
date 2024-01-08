@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Network_Message_Delivery_Email_Sendgrid"
 ---
 
-# [REST Example](#disableSmtpAccess-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#disableSmtpAccess-example .anchor-link} 
+### [REST Example](#disableSmtpAccess-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#disableSmtpAccess-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [boolean]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Message_Delivery_Email_Sendgrid/{SoftLayer_Network_Message_Delivery_Email_SendgridID}/disableSmtpAccess'

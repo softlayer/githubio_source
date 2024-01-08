@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Hardware_SecurityModule750"
 ---
 
-# [REST Example](#getPublicVlan-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getPublicVlan-example .anchor-link} 
+### [REST Example](#getPublicVlan-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getPublicVlan-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Hardware_SecurityModule750/{SoftLayer_Hardware_SecurityModule750ID}/getPublicVlan'

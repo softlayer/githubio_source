@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Network_Firewall_AccessControlList"
 ---
 
-# [REST Example](#getNetworkFirewallUpdateRequests-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getNetworkFirewallUpdateRequests-example .anchor-link} 
+### [REST Example](#getNetworkFirewallUpdateRequests-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getNetworkFirewallUpdateRequests-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Firewall_AccessControlList/{SoftLayer_Network_Firewall_AccessControlListID}/getNetworkFirewallUpdateRequests'

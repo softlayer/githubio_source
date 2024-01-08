@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Network_Storage_Hub_Cleversafe_Account"
 ---
 
-# [REST Example](#getEndpointsWithRefetch-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getEndpointsWithRefetch-example .anchor-link} 
+### [REST Example](#getEndpointsWithRefetch-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getEndpointsWithRefetch-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [int, boolean]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Storage_Hub_Cleversafe_Account/{SoftLayer_Network_Storage_Hub_Cleversafe_AccountID}/getEndpointsWithRefetch'

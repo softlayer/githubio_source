@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Network_Vlan"
 ---
 
-# [REST Example](#getSanStorageCapabilityFlag-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getSanStorageCapabilityFlag-example .anchor-link} 
+### [REST Example](#getSanStorageCapabilityFlag-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getSanStorageCapabilityFlag-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Vlan/{SoftLayer_Network_VlanID}/getSanStorageCapabilityFlag'

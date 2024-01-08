@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Network_Storage_Allowed_Host"
 ---
 
-# [REST Example](#getAssignedReplicationVolumes-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getAssignedReplicationVolumes-example .anchor-link} 
+### [REST Example](#getAssignedReplicationVolumes-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getAssignedReplicationVolumes-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Storage_Allowed_Host/{SoftLayer_Network_Storage_Allowed_HostID}/getAssignedReplicationVolumes'

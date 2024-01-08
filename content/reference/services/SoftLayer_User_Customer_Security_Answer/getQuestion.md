@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_User_Customer_Security_Answer"
 ---
 
-# [REST Example](#getQuestion-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getQuestion-example .anchor-link} 
+### [REST Example](#getQuestion-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getQuestion-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_User_Customer_Security_Answer/{SoftLayer_User_Customer_Security_AnswerID}/getQuestion'

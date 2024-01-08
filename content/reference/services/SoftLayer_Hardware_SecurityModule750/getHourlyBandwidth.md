@@ -19,7 +19,7 @@ layout: "method"
 mainService : "SoftLayer_Hardware_SecurityModule750"
 ---
 
-# [REST Example](#getHourlyBandwidth-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getHourlyBandwidth-example .anchor-link} 
+### [REST Example](#getHourlyBandwidth-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getHourlyBandwidth-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string, dateTime]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Hardware_SecurityModule750/{SoftLayer_Hardware_SecurityModule750ID}/getHourlyBandwidth'

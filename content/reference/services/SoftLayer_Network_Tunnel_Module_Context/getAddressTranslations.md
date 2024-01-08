@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Network_Tunnel_Module_Context"
 ---
 
-# [REST Example](#getAddressTranslations-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getAddressTranslations-example .anchor-link} 
+### [REST Example](#getAddressTranslations-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getAddressTranslations-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Tunnel_Module_Context/{SoftLayer_Network_Tunnel_Module_ContextID}/getAddressTranslations'

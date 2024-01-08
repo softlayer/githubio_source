@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Auxiliary_Notification_Emergency"
 ---
 
-# [REST Example](#getCurrentNotifications-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getCurrentNotifications-example .anchor-link} 
+### [REST Example](#getCurrentNotifications-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getCurrentNotifications-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X GET \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Auxiliary_Notification_Emergency/getCurrentNotifications'

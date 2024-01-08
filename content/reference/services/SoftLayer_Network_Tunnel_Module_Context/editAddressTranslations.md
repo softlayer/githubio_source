@@ -17,7 +17,7 @@ layout: "method"
 mainService : "SoftLayer_Network_Tunnel_Module_Context"
 ---
 
-# [REST Example](#editAddressTranslations-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#editAddressTranslations-example .anchor-link} 
+### [REST Example](#editAddressTranslations-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#editAddressTranslations-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_Network_Tunnel_Module_Context_Address_Translation]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Tunnel_Module_Context/{SoftLayer_Network_Tunnel_Module_ContextID}/editAddressTranslations'

@@ -15,7 +15,7 @@ layout: "method"
 mainService : "SoftLayer_Network_Storage_Iscsi"
 ---
 
-# [REST Example](#collectBandwidth-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#collectBandwidth-example .anchor-link} 
+### [REST Example](#collectBandwidth-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#collectBandwidth-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string, dateTime, dateTime]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Network_Storage_Iscsi/{SoftLayer_Network_Storage_IscsiID}/collectBandwidth'

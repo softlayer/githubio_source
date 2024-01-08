@@ -21,7 +21,7 @@ layout: "method"
 mainService : "SoftLayer_User_Customer"
 ---
 
-# [REST Example](#removeBulkPortalPermission-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#removeBulkPortalPermission-example .anchor-link} 
+### [REST Example](#removeBulkPortalPermission-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#removeBulkPortalPermission-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [SoftLayer_User_Customer_CustomerPermission_Permission, boolean]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_User_Customer/{SoftLayer_User_CustomerID}/removeBulkPortalPermission'

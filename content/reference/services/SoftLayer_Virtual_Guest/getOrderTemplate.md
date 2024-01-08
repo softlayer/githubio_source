@@ -13,7 +13,7 @@ layout: "method"
 mainService : "SoftLayer_Virtual_Guest"
 ---
 
-# [REST Example](#getOrderTemplate-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getOrderTemplate-example .anchor-link} 
+### [REST Example](#getOrderTemplate-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getOrderTemplate-example .anchor-link} 
 ```bash
 curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [enum, SoftLayer_Product_Item_Price]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Virtual_Guest/{SoftLayer_Virtual_GuestID}/getOrderTemplate'
