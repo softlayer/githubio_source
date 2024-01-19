@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status"
-description: "SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status models the state of the registrant. Here are the following status codes: 
+description: "[DEPRECATED] SoftLayer_Dns_Domain_Registration_Registrant_Verification_Status models the state of the registrant. Here are the following status codes: 
 
 
 *'''Admin Reviewing''': The registrant data has been submitted and being reviewed by compliance team.

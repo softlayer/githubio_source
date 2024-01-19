@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Dns_Domain_Registration_Status"
-description: "SoftLayer_Dns_Domain_Registration_Status models the state of domain name. Here are the following status codes: 
+description: "[DEPRECATED] SoftLayer_Dns_Domain_Registration_Status models the state of domain name. Here are the following status codes: 
 
 
 *'''Active''': This domain name is active.
