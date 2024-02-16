@@ -1,6 +1,6 @@
 ---
 title: "getRegionalInternetRegistry"
-description: "The related Regional Internet Registry."
+description: "[Deprecated] The related Regional Internet Registry."
 date: "2018-02-12"
 tags:
     - "method"

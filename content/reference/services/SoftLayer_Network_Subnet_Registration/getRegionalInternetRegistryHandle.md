@@ -1,6 +1,6 @@
 ---
 title: "getRegionalInternetRegistryHandle"
-description: "The RIR handle that this registration object belongs to. This field may not be populated until the registration is complete."
+description: "[Deprecated] The RIR handle that this registration object belongs to. This field may not be populated until the registration is complete."
 date: "2018-02-12"
 tags:
     - "method"

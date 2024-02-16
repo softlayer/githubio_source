@@ -1,6 +1,6 @@
 ---
 title: "getNetworkDetail"
-description: "The 'network' detail object."
+description: "[Deprecated] The 'network' detail object."
 date: "2018-02-12"
 tags:
     - "method"

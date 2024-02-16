@@ -1,6 +1,6 @@
 ---
 title: "getRegionalInternetRegistryHandle"
-description: "The associated RWhois handle of this detail object. Used only when detailed reassignments are necessary."
+description: "[Deprecated] The associated RWhois handle of this detail object. Used only when detailed reassignments are necessary."
 date: "2018-02-12"
 tags:
     - "method"

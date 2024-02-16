@@ -1,8 +1,6 @@
 ---
 title: "SoftLayer_Account_Regional_Registry_Detail"
-description: "
-
-
+description: "The subnet registration detail type has been deprecated. 
 
 "
 date: "2018-02-12"

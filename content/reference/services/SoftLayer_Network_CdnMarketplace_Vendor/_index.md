@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_CdnMarketplace_Vendor"
-description: "This service allows internal users to create, read, update, and delete  vendor instances. "
+description: "This service allows internal users to create, read, update, and delete vendor instances. "
 date: "2018-02-12"
 tags:
     - "service"

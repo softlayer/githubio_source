@@ -1,6 +1,6 @@
 ---
 title: "getDetailType"
-description: "The associated type of this detail object."
+description: "[Deprecated] The associated type of this detail object."
 date: "2018-02-12"
 tags:
     - "method"

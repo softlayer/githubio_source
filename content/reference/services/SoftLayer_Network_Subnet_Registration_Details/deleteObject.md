@@ -1,6 +1,8 @@
 ---
 title: "deleteObject"
-description: "This method will delete an existing SoftLayer_Account_Regional_Registry_Detail object. "
+description: "The subnet registration details service has been deprecated. 
+
+This method will delete an existing SoftLayer_Account_Regional_Registry_Detail object. "
 date: "2018-02-12"
 tags:
     - "method"

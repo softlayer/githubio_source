@@ -1,6 +1,6 @@
 ---
 title: "getEvents"
-description: "The related registration events."
+description: "[Deprecated] The related registration events."
 date: "2018-02-12"
 tags:
     - "method"

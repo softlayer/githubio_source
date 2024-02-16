@@ -1,6 +1,6 @@
 ---
 title: "getStatus"
-description: "The status of this registration."
+description: "[Deprecated] The status of this registration."
 date: "2018-02-12"
 tags:
     - "method"
