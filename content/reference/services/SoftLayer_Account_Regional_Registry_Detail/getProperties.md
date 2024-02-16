@@ -1,6 +1,6 @@
 ---
 title: "getProperties"
-description: "The individual properties that define this detail object's values."
+description: "[Deprecated] The individual properties that define this detail object's values."
 date: "2018-02-12"
 tags:
     - "method"

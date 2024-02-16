@@ -1,6 +1,8 @@
 ---
 title: "validatePersonForAllRegistrars"
-description: "Validates this person detail against all supported external registrars (APNIC/ARIN/RIPE). The validation uses the most restrictive rules ensuring that any person detail passing this validation would be acceptable to any supported registrar. 
+description: "The subnet registration detail service has been deprecated. 
+
+Validates this person detail against all supported external registrars (APNIC/ARIN/RIPE). The validation uses the most restrictive rules ensuring that any person detail passing this validation would be acceptable to any supported registrar. 
 
 The person detail properties are validated against - Non-emptiness - Minimum length - Maximum length - Maximum words - Supported characters - Format of data 
 

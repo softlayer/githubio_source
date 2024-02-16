@@ -1,6 +1,6 @@
 ---
 title: "getPersonDetail"
-description: "The 'person' detail object."
+description: "[Deprecated] The 'person' detail object."
 date: "2018-02-12"
 tags:
     - "method"

@@ -1,6 +1,8 @@
 ---
 title: "clearRegistration"
-description: "This method will initiate the removal of a subnet registration. "
+description: "The subnet registration service has been deprecated. 
+
+This method will initiate the removal of a subnet registration. "
 date: "2018-02-12"
 tags:
     - "method"

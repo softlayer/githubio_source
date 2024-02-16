@@ -1,6 +1,6 @@
 ---
 title: "getAccount"
-description: "The account that this registration belongs to."
+description: "[Deprecated] The account that this registration belongs to."
 date: "2018-02-12"
 tags:
     - "method"

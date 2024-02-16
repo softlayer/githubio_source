@@ -1,6 +1,6 @@
 ---
 title: "getDetails"
-description: "References to the [SoftLayer_Network_Subnet_Registration](/reference/datatypes/SoftLayer_Network_Subnet_Registration) that consume this detail object."
+description: "[Deprecated] References to the [SoftLayer_Network_Subnet_Registration](/reference/datatypes/SoftLayer_Network_Subnet_Registration) that consume this detail object."
 date: "2018-02-12"
 tags:
     - "method"

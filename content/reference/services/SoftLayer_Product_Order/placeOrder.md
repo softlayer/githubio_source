@@ -36,7 +36,6 @@ from being provisioned in a timely manner. Some common order containers are incl
 | Bare metal server by CPU | [SoftLayer_Container_Product_Order_Hardware_Server](/reference/datatypes/SoftLayer_Container_Product_Order_Hardware_Server) | BARE_METAL_CPU |
 | Bare metal server by core | [SoftLayer_Container_Product_Order_Hardware_Server](/reference/datatypes/SoftLayer_Container_Product_Order_Hardware_Server) | BARE_METAL_CORE |
 | Virtual server | [SoftLayer_Container_Product_Order_Virtual_Guest](/reference/datatypes/SoftLayer_Container_Product_Order_Virtual_Guest) | VIRTUAL_SERVER_INSTANCE |
-| DNS domain registration | [SoftLayer_Container_Product_Order_Dns_Domain_Registrationn](/reference/datatypes/SoftLayer_Container_Product_Order_Dns_Domain_Registrationn) | ADDITIONAL_SERVICES |
 | Local & dedicated load balancers | [SoftLayer_Container_Product_Order_Network_LoadBalancer](/reference/datatypes/SoftLayer_Container_Product_Order_Network_LoadBalancer) | ADDITIONAL_SERVICES_LOAD_BALANCER |
 | Content delivery network | [SoftLayer_Container_Product_Order_Network_ContentDelivery_Account](/reference/datatypes/SoftLayer_Container_Product_Order_Network_ContentDelivery_Account) | ADDITIONAL_SERVICES_CDN |
 | Content delivery network Addon | [SoftLayer_Container_Product_Order_Network_ContentDelivery_Account_Addon](/reference/datatypes/SoftLayer_Container_Product_Order_Network_ContentDelivery_Account_Addon) | ADDITIONAL_SERVICES_CDN_ADDON |

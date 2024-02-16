@@ -1,6 +1,6 @@
 ---
 title: "getSubnet"
-description: "The subnet that this registration pertains to."
+description: "[Deprecated] The subnet that this registration pertains to."
 date: "2018-02-12"
 tags:
     - "method"

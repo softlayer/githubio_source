@@ -1,6 +1,8 @@
 ---
 title: "createObject"
-description: "Create registration with a global registrar to associate an assigned subnet with the provided contact details. 
+description: "The subnet registration service has been deprecated. 
+
+Create registration with a global registrar to associate an assigned subnet with the provided contact details. 
 
 Contact information is provided in the form of a [SoftLayer_Account_Regional_Registry_Detail](/reference/datatypes/SoftLayer_Account_Regional_Registry_Detail), which reference can be provided when the registration is created or afterwards. Registrations without an associated person detail will remain in the ``OPEN`` status. To specify a person detail when creating a registration, the ``detailReferences`` property should be populated with a list item providing a ``detailId`` value referencing the [SoftLayer_Account_Regional_Registry_Detail](/reference/datatypes/SoftLayer_Account_Regional_Registry_Detail). 
 

@@ -1,6 +1,8 @@
 ---
 title: "createObjects"
-description: "Create registrations with respective registrars to associate multiple assigned subnets with the provided contact details. "
+description: "The subnet registration service has been deprecated. 
+
+Create registrations with respective registrars to associate multiple assigned subnets with the provided contact details. "
 date: "2018-02-12"
 tags:
     - "method"
