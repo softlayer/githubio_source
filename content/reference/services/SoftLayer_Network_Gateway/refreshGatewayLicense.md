@@ -1,6 +1,6 @@
 ---
 title: "refreshGatewayLicense"
-description: "Used to refresh the license for the Juniper Gateway, requires License readiness check has passed. 
+description: "Used to refresh the all licenses (Required and add ons) for Virtual gateways.  License precheck must be ready. 
 
 "
 date: "2018-02-12"
