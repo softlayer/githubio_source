@@ -11,6 +11,7 @@ from pprint import pprint as pp
 # from http.client import HTTPConnection
 from rich.console import Console
 import concurrent.futures as cf
+import time
 
 
 
@@ -34,6 +35,8 @@ class JiraAPI():
         apirequest = f"{self.jira_url}/search?jql={jql}"
         self.printDebug(f"Calling {apirequest}")
         result = requests.get(apirequest, headers=self.headers, verify=True)
+        # sleep a bit so we don't get rate limited
+        time.sleep(0.2)
         return self.jiraToJson(result)
 
     def getNotes(self, jira_issue):
@@ -81,8 +84,11 @@ class JiraAPI():
             self.releases.append(this_issue)
         return self.releases
 
-    def processSubIssue(self, sub_issue):
-        outward_issue = sub_issue.get('outwardIssue')
+    def processSubIssue(self, sub_issue={}):
+        outward_issue = sub_issue.get('outwardIssue', {})
+        if not outward_issue:
+            self.printDebug(f"{sub_issue} is empty???")
+            return {"key": "", "self": "", "summary": "", "notes": ""}
         released = {
             "key": outward_issue.get('key'),
             "self": outward_issue.get('self'),
@@ -147,7 +153,8 @@ def cli(debug, days):
 
     j_api = JiraAPI(apitoken, debug)
     releases = j_api.getReleaseJiras(days)
-    parsed = j_api.processReleasesWithThreads(releases)
+    #parsed = j_api.processReleasesWithThreads(releases)
+    parsed = j_api.processReleases(releases)
     j_api.printIssues(parsed)
     j_api.printReleaseNotes(parsed)
 
