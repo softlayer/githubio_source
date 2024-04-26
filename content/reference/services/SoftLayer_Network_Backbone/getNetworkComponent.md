@@ -1,6 +1,6 @@
 ---
 title: "getNetworkComponent"
-description: "A backbone's primary network component."
+description: "[Deprecated] A backbone's primary network component."
 date: "2018-02-12"
 tags:
     - "method"
