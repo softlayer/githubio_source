@@ -1,6 +1,6 @@
 ---
 title: "getHealth"
-description: "A backbone's status."
+description: "[Deprecated] A backbone's status."
 date: "2018-02-12"
 tags:
     - "method"

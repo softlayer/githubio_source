@@ -24,6 +24,8 @@ class JiraAPI():
         self.releases = []
         self.internal =  re.compile(r"internal", re.I)
         self.debug = debug
+        self.verify = '/etc/ssl/certs/allCAbundle.pem'
+        # self.verify = True
 
     def getReleaseJiras(self, days=7):
         jql_project = """project = JIRA"""
@@ -34,14 +36,14 @@ class JiraAPI():
         jql = f"{jql_project} AND {jql_type} AND {jql_start} AND {jql_status} {jql_orderby}"
         apirequest = f"{self.jira_url}/search?jql={jql}"
         self.printDebug(f"Calling {apirequest}")
-        result = requests.get(apirequest, headers=self.headers, verify=True)
+        result = requests.get(apirequest, headers=self.headers, verify=self.verify)
         # sleep a bit so we don't get rate limited
         time.sleep(0.2)
         return self.jiraToJson(result)
 
     def getNotes(self, jira_issue):
         self.printDebug(f"Getting JIRA: {jira_issue}")
-        result = requests.get(jira_issue, headers=self.headers, verify=True)
+        result = requests.get(jira_issue, headers=self.headers, verify=self.verify)
         json = self.jiraToJson(result)
         return json.get('fields', {}).get('customfield_10113', 'NONE')
 
@@ -148,6 +150,8 @@ def cli(debug, days):
     """CLI entrypoint"""
 
     apitoken = os.getenv('SL_JIRA_TOKEN')
+    # I'm not sure why this has to be set along with verify, but it works this way.
+    os.environ['SSL_CERT_FILE'] = '/etc/ssl/certs/allCAbundle.pem'
     if not apitoken:
         raise click.UsageError("APITOKEN env variable is not set")
 

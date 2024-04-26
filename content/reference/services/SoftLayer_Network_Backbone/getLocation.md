@@ -1,6 +1,6 @@
 ---
 title: "getLocation"
-description: "Which of the SoftLayer datacenters a backbone is connected to."
+description: "[Deprecated] Which of the SoftLayer datacenters a backbone is connected to."
 date: "2018-02-12"
 tags:
     - "method"
