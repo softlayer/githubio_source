@@ -51,6 +51,8 @@ class JiraAPI():
     def processReleases(self, releases):
         r_issues = releases.get('issues', [])
         for issue in r_issues:
+            # Slow things down otherwise we get rate limited
+            time.sleep(0.5)
             fileds  = issue.get('fields', {})
             this_issue = {
                 "key": issue.get('key'),
