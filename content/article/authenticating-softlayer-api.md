@@ -205,7 +205,7 @@ That will give you a new access_token, you can then use for making SoftLayer API
 Once you have the access token, simply add set it as the `"Authorization: Bearer"` HTTP header.
 
 ```bash
-curl -H "Authorization: Bearer zzzzzzzzzzzzzzzzzzzzzzzzzzaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasssssssssssssssssssssssssssssssdddddddddddddddddddddddddddddddddddddd" 'https://api.sotlayer.com/rest/v3.1/SoftLayer_Account/getObject'
+curl -H "Authorization: Bearer zzzzzzzzzzzzzzzzzzzzzzzzzzaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaasssssssssssssssssssssssssssssssdddddddddddddddddddddddddddddddddddddd" 'https://api.softlayer.com/rest/v3.1/SoftLayer_Account/getObject'
 ```
 
 There will also be a `refresh_token` which will only work to get you a new token.
