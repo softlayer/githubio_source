@@ -1,6 +1,6 @@
 ---
 title: "getActiveColocationContainers"
-description: "The account's active top level colocation containers."
+description: "Deprecated."
 date: "2018-02-12"
 tags:
     - "method"

@@ -24,8 +24,8 @@ class JiraAPI():
         self.releases = []
         self.internal =  re.compile(r"internal", re.I)
         self.debug = debug
-        self.verify = '/etc/ssl/certs/allCAbundle.pem'
-        # self.verify = True
+        #self.verify = '/etc/ssl/certs/allCAbundle.pem'
+        self.verify = False
 
     def getReleaseJiras(self, days=7):
         jql_project = """project = JIRA"""
