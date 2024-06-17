@@ -9,7 +9,7 @@ tags:
 ---
 
 
-```
+```ruby
 require 'softlayer_api'
 require 'pp'
 
@@ -27,9 +27,7 @@ userClient = client.service_named('SoftLayer_User_Customer')
 result = userClient.object_with_id(customerID).addNotificationSubscriber("UNPLANNED_INCIDENT")
 # if the notification suscriber has been added we procede to create the suscriberDeliveryMethods
 if result
-  deliveryMethodKeyNames = [
-                           "EMAIL"
-                           ]
+  deliveryMethodKeyNames = [ "EMAIL" ]
   result = userClient.object_with_id(customerID).createSubscriberDeliveryMethods("UNPLANNED_INCIDENT", deliveryMethodKeyNames)
   pp (result)
 end
