@@ -1,5 +1,32 @@
+:root {
+  --Dark01: #161616;
+  --Dark02: #525252;
+  --Dark03: #333333;
+  --GrayDarkest: #586e75;
+  --GrayDark: #657b83;
+  --GrayMid: #839496;
+  --GrayLight: #93a1a1;
+  --Light01: #eee8d5;
+  --Light02: #bdbdc7;
+  --Red: #f77e7c;
+  --Orange: #cb4b16;
+  --Yellow: #b58900;
+  --Green: #859900;
+  --Teal: #2aa198;
+  --Blue: #268bd2;
+  --Purple: #6c71c4;
+  --Pink: #d33682;
+  --Black: #000000;
+  --White: #FFFFFF;
+}
+
+
 body {
     margin-top: 75px; /* 100px is double the height of the navbar - I made it a big larger for some more space - keep it at 50px at least if you want to use the fixed top nav */
+    background-color: var(--Dark01);
+    color: var(--Light02);
+    font-size: 18px;
+    font-family: "Lato";
 }
 
 footer {
@@ -10,22 +37,68 @@ div.example {
   -webkit-border-radius: 5px;
      -moz-border-radius: 5px;
           border-radius: 5px;
+    background-color: var(--Dark02);
+    border-color: var(--Dark02);
+}
+
+
+.example-summary {
+    color: var(--Light01);
 }
 
 div.release-note h3 {
-	background-color: #e2e2e2;
+	background-color: var(--GrayDarkest);
+    
 	margin-top: -10px;
 	margin-right: -10px;
 	margin-left: -10px;
 	padding: 10px;
 }
 
+a {
+    color: var(--Red);
+}
+
+div.release-note {
+    background-color: var(--Dark02);
+    color: var(--Light01);
+    border-color: var(--Dark02);
+}
 div.article h3 {
     padding: 10px;
     background-color: #e2e2e2;
     color: #152935;
 }
 
+.panel {
+    background: var(--Dark02);
+    border-color: var(--Dark02);
+    color: var(--Light02);
+}
+
+.reference-title {
+    color: var(--Light01);
+}
+
+.reference-main {
+    background-color: var(--Dark02);
+}
+
+.footer {
+    color: var(--Light02);
+    background-color: var(--Dark01);
+}
+
+.panel-default > .panel-heading {
+    background: var(--GrayDarkest);
+    border-color: var(--Dark02);
+    color: var(--Light02);
+}
+
+
+.service-method-search {
+    background-color: var(--Black);
+}
 .article-title {
     background-color: #152935;
     color: grey;
@@ -38,10 +111,18 @@ div.article h3 {
 
 .article-title h1 {
     text-align: center;
-    color: #f2f4f8;
+    color: var(--Teal);
 }
 
+.article {
+    color: var(--Light02);
+    background-color: var(--Dark02);
+    border-color: var(--Dark02);
+}
 
+.main-top {
+    color: var(--Light01);
+}
 
 #custom-search-input{
     margin-top:2px;
@@ -77,18 +158,28 @@ div.article h3 {
 }
 
 .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: var(--Dark03);
+    border-bottom: 1px solid var(--Green);
+}
+
+.table-striped > tbody > tr:nth-child(2n) > td, .table-striped > tbody > tr:nth-child(2n) > th  {
+    background-color: var(--Dark01);
+    border-bottom: 1px solid var(--Green);
 }
 
 table {
 	font-size: 15px;
+    background-color: var(--Black);
 }
-body {
-	font-size: 18px;
-	font-family: "Lato";
+
+table > thead {
+    border-bottom: 5px solid var(--Green);
 }
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-	font-family: "Lato"
+
+blockquote {
+    background-color: var(--Dark03);
 }
+
 
 h3 {
 	font-size: 18px;
@@ -110,6 +201,8 @@ h1 small, .h1 small, h2 small, .h2 small, h3 small, .h3 small, h1 .small, .h1 .s
 code {
 	font-family: "Lucida Console", Monaco, monospace;
 	font-size: 15px !important;
+    color: var(--Pink);
+    background-color: var(--Dark03);
 }
 
 .prop-content > div.prop-row > hr {
@@ -124,7 +217,7 @@ code {
     font-size: 14px;
     line-height: 1.42857143;
     box-sizing: border-box;
-    color: #008cba;
+    color: var(--Light01);
     text-decoration: none;
     margin-bottom: 0px;
     /* needed to make anchor links work properly */
@@ -171,6 +264,12 @@ code {
 
 .highlight > div.chroma  {
     display: table;
+    
+}
+
+.highlight > pre {
+    border-color: var(--Dark02);
+    padding: 2px;
 }
 
 .service-content > div#method-div > div.method-row > p {

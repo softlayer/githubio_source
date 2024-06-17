@@ -39,30 +39,7 @@
     font-weight:bold;
 }
 
-/*body {
-    font-family: "BentonSans Regular" !important;
-    line-height: 1.5;
-    font-size: 87.5%;
-    word-wrap: break-word;
-    color: #3b3b3b;
-    background-color: #2b2b2b;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    outline: 0;
-}*/
 
-/*a, a:link, a:visited, a:hover {
-    color: #972f2c;
-    text-decoration: none;
-}
-*/
-
-/*ul.menu {
-    border: none;
-    list-style: none;
-    text-align: left;
-}*/
 
 #header {
     position: relative;
@@ -89,14 +66,11 @@
 }
 
 #menubar {
-    background-color: #1b1b1b;
+    background-color: var(--Dark01);
     color: #fff;
     border-bottom: 4px solid #701614;
 }
 
-#main {
-
-}
 
 #main #content .inner-content {
     padding-left: 25px;
@@ -200,14 +174,14 @@
 
 #leftsidebar {
     float: left;
-    background-color: #efefef;
+    background-color: var(--Dark02);
     max-height: 1500px;
     overflow: auto;
     width: 100%;
 
 }
 #leftsidebar .block {
-    background-color: #E2E2E2;
+    background-color: var(--Dark02);
 
 }
 
@@ -275,8 +249,6 @@
 
 }
 
-
-
 #sldn-reference-tabs {
     display: block;
     height: 32px;
@@ -324,30 +296,19 @@
     /*overflow-x: auto;*/
     word-wrap: normal;
     padding: 0px 11px;
+    color: var(--Light01);
 }
 
 .search-input-box {
     margin: 0px;
     float: left;
-    margin-top: 5px;
-    margin-bottom: 0;
-    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    background-color: var(--Dark01);
+    color: var(--Blue);
+    border-color: var(--Dark02);
 
-}
-#edit-combine {
-    margin: 0px;
-    border: 1px solid #ccc;
-    font-family: "BentonSans Regular" !important;
-    font-size: 0.929em;
-    padding: 10px;
-    vertical-align: middle;
-
-}
-
-.view-filters {
-    background-color: #eeeeee;
-    padding: 15px 10px;
-    border-bottom: 1px dotted #B5B5B5;
 }
 
 .method-param-tr  {

@@ -1,7 +1,7 @@
 <div class="well well-sm example">
     <h4>
         <a href="{{ .Permalink }}"><i class="fas fa-terminal"></i> {{ .Title }} </a> <small class="pull-right">{{ .Date.Format "Jan 2, 2006" }}</small><br>
-        <small>{{ .Description }}</small>
     </h4>
+    <div class = "example-summary"> {{ .Description }}</div>
     <a class="btn btn-primary btn-xs" href="{{ .Permalink }}"><i class="fas fa-file"></i> Read Me </a>
 </div>
