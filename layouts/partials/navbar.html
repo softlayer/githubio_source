@@ -14,11 +14,11 @@
                     {{ range .Site.Menus.main }}
                         <li><a href="{{.URL}}">{{ .Name }}</a></li>
                     {{ end }}
-
-                    <!--
-                    And here is where you'd add more links to sections, or anywhere you like.
-                    <li><a href="#">About Me</a></li>
-                    -->
+                    <li>
+                        <a id="dark-toggle" class="dark-mode-toggle" aria-label="dark-mode-toggle" style="color: var(--Red); font-size: 20px">
+                            <i class="fas fa-sun"></i>
+                        </a>
+                    </li>
                 </ul>
                 <div id="custom-search-input" class="pull-right">
                   <form class="navbar-form" role="search" method="get" action="https://www.bing.com/search">
@@ -33,6 +33,37 @@
                     </div>
                   </form>
                 </div>
+                
             </div>
+
         </div>
     </nav>
+
+<script type="text/javascript">
+const darkIconClass = 'fas fa-moon'
+const lightIconClass = 'fas fa-sun'
+var darkCSS = $("#dark-theme");
+var darkToggleIcon = $("#dark-toggle i");
+
+// Set theme with the given mode and toggle the theme icon button
+// The button won't actually change for some reason on page load, will
+// change when its pressed though.
+function setThemeMode(mode) {
+    localStorage.setItem("dark-mode-theme", mode);
+    if (mode === "dark") {
+        darkToggleIcon.attr('class', darkIconClass)
+    } else  {
+        darkToggleIcon.attr('class', lightIconClass)
+    }
+}
+
+// Toggle dark mode when user click on the icon button
+$("#dark-toggle").click(function () {
+  if (darkToggleIcon.attr("class") == lightIconClass) {
+    setThemeMode("dark")
+  } else if (darkToggleIcon.attr("class") == darkIconClass) {
+    setThemeMode("light")
+  }
+  location.reload();
+});
+</script>
