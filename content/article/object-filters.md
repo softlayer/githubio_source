@@ -207,7 +207,7 @@ _filter = {
     operation = 'betweenDate'
     options = [{
         'name': 'startDate',
-        'value: ['01/01/2015']
+        'value': ['01/01/2015']
         },
         {
         'name': 'endDate',
