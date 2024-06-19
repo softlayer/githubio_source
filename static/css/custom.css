@@ -583,3 +583,27 @@ code {
     padding-left: 0px;
     padding-right: 0px;
 }
+
+
+.container {
+    min-width: 1000px;
+}
+
+.nav-container {
+    width: 70%;
+    min-width: 1000px;
+    margin: auto;
+    height: 45px;
+}
+
+.navbar-nav li {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    width: 8%;
+    border: 0 0;
+    overflow: hidden;
+
+}
+
