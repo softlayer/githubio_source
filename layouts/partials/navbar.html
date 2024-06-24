@@ -10,7 +10,7 @@
                 <a class="navbar-brand" href="{{ .Site.BaseURL}}">{{ .Site.Title }}</a>
             </div>
 
-            <div class="navbar-header" style="width: calc(100% - 400px)">
+            <div class="navbar-header" style="width: calc(100% - 350px)">
                 <ul class="nav navbar-nav" style="width: 100%">
                     {{ range .Site.Menus.main }}
                         <li><a href="{{.URL}}">{{ .Name }}</a></li>
@@ -23,7 +23,7 @@
                 </ul>
             </div>
 
-            <div id="custom-search-input" class="pull-right" style="width: 250px">
+            <div id="custom-search-input" class="pull-right" style="width: 200px">
               <form class="navbar-form" role="search" method="get" action="https://www.bing.com/search">
                 <div class="input-group col-md-12">
                   <input type="text" class="form-control input-md" placeholder="Search" name="q" id="srch-term">

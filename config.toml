@@ -25,7 +25,7 @@ refLinksNotFoundURL = '#'
 pluralizeListTitles = false
 
 [[menu.main]]
-    name = "Documentation"
+    name = "Docs"
     identifier = "sldn"
     url = "/reference/softlayerapi"
 [[menu.main]]
@@ -36,10 +36,6 @@ pluralizeListTitles = false
     name = "Go"
     identifier = "go"
     url = "/go/"
-[[menu.main]]
-    name = "Perl"
-    identifier = "perl"
-    url = "/perl/"
 [[menu.main]]
     name = "Java"
     identifier = "java"
