@@ -1,12 +1,11 @@
 {{ partial "header.html" . }}
-
 <body>
 {{ partial "navbar.html" . }}
 <!-- REFERENCE PAGE -->
 <div class="container">
     <div class="row">
         <div class="col-md-12 ">
-            <div class="well well-lg">
+            <div class="well well-lg panel">
                 <h3>SoftLayer Reference<br> <small>This is a collection of automatically generated documentation regarding the SoftLayer API. </small></h3>
                 <hr>
                 {{ .Content }}
@@ -14,7 +13,7 @@
 <!-- Service Filer BEGIN -->
                         <div class="view-filters">
 
-                                <div class="clearfix">
+                                <div class="clearfix panel">
                                     <div class="search-input-box">
                                         <input placeholder="Filter" onkeyup="titleSearch(inputId='list-input', divId='sidebar-list', elementClass='list-row')" 
                                             type="text" id="list-input" value="" size="30" maxlength="128" class="form-text">

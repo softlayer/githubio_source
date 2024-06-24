@@ -3,6 +3,7 @@
     <link href="/css/custom.css" rel="stylesheet">
     <link href="/css/monokai.css" rel="stylesheet">
     <link href="/css/highlight/solarized_dark.css" rel="stylesheet">
+    
 
     <script src="/js/highlight.pack.js"></script>
 
@@ -22,3 +23,17 @@
     <script defer src="/fontawesome/js/solid.min.js"></script>
     <script defer src="/fontawesome/js/brands.min.js"></script>
     <script defer src="/fontawesome/js/fontawesome.min.js"></script>
+
+    <script>
+        var head = document.getElementsByTagName('head')[0]
+        var style = document.createElement('link')
+        style.type = 'text/css'
+        style.rel = 'stylesheet'
+        style.id = "dark-theme"
+        if (localStorage.getItem("dark-mode-theme") == "dark") {
+            style.href = '/css/dark.css'
+        } else {
+            style.href = '/css/light.css'
+        }
+        head.append(style)
+    </script>

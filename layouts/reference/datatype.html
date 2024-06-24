@@ -8,10 +8,10 @@
     <hr>
 
     <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-3 zeroPad">
                 {{ partial "datatype-bar.html" . }}
         </div>
-        <div class="col-md-9">
+        <div class="col-md-9 reference-main">
 
             <h1 id="{{.Title}}"> {{.Title}} </h1>
             {{ partial "service_datatype_links.html" $thisPage}}

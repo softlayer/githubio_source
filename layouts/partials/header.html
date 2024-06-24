@@ -12,6 +12,7 @@
 	<script>
 		$(document).ready(function() {
 			$('table').addClass("table table-hover table-striped")
+            setThemeMode(localStorage.getItem("dark-mode-theme") || "dark");
 		})
 	</script>
     {{ template "_internal/google_analytics.html" . }}
