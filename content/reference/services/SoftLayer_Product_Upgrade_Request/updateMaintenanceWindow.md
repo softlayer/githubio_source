@@ -15,6 +15,6 @@ mainService : "SoftLayer_Product_Upgrade_Request"
 
 ### [REST Example](#updateMaintenanceWindow-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#updateMaintenanceWindow-example .anchor-link} 
 ```bash
-curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [dateTime, int]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string, int]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Product_Upgrade_Request/{SoftLayer_Product_Upgrade_RequestID}/updateMaintenanceWindow'
 ```
