@@ -113,8 +113,12 @@ class JiraAPI():
         for issue in issues:
             self.console.print(f"[orange3]{issue['key']}, {issue['summary']}, {issue['resolution']}")
             for sub_issue in issue.get('issues'):
-                notes = sub_issue.get('notes')
+                notes = sub_issue.get('notes', '')
                 color = "green"
+                if notes is None:
+                    print(f"Notes for {sub_issue.get('key')} is |{notes}|")
+                    
+                    notes = ""
                 isInternal = self.internal.search(notes)
                 if isInternal:
                     color = "red"
@@ -134,7 +138,9 @@ tags:
         self.console.print(template, highlight=False)
         for issue in issues:
             for sub_issue in issue.get('issues'):
-                notes = sub_issue.get('notes')
+                notes = sub_issue.get('notes', '')
+                if notes is None:
+                    notes = ''
                 isInternal = self.internal.search(notes)
                 if isInternal is None:
                     self.console.print(f"- {notes}. {sub_issue.get('summary')} {sub_issue.get('key')}")
