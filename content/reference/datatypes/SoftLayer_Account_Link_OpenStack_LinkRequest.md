@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Account_Link_OpenStack_LinkRequest"
-description: "Details required for OpenStack link request"
+description: "Details Deprecated."
 date: "2018-02-12"
 tags:
     - "datatype"
