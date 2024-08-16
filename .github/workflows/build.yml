@@ -32,5 +32,5 @@ jobs:
         pip install --upgrade "git+https://github.com/ibm/detect-secrets.git@master#egg=detect-secrets"
     - name: Detect Secrets
       run: |
-        detect-secrets scan --update .secrets.baseline
+        detect-secrets scan --update .secrets.baseline --exclude-files "static/*|content/reference/*|data/sldn_metadata\.json"
         detect-secrets audit .secrets.baseline --report --fail-on-unaudited --omit-instructions
