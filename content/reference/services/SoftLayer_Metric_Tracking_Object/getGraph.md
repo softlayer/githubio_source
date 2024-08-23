@@ -1,6 +1,6 @@
 ---
 title: "getGraph"
-description: "Retrieve a PNG image of a metric in graph form. "
+description: "[DEPRECATED] Retrieve a PNG image of a metric in graph form. "
 date: "2018-02-12"
 tags:
     - "method"
