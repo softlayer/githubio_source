@@ -1,6 +1,6 @@
 ---
 title: "getBandwidthGraph"
-description: "Retrieve a PNG image of a bandwidth graph representing the bandwidth usage over time recorded by SofTLayer's bandwidth pollers. "
+description: "[DEPRECATED] Retrieve a PNG image of a bandwidth graph representing the bandwidth usage over time recorded by SofTLayer's bandwidth pollers. "
 date: "2018-02-12"
 tags:
     - "method"
