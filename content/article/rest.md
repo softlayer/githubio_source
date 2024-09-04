@@ -176,7 +176,7 @@ https://api.softlayer.com/rest/v3/SoftLayer_Account/getHardware.json?objectMask=
 ```
 
 
-This URL gets an account's hardware records along with that hardware's associated datacenter, operating system, and network component records. Note that these relational items are separate by semicolons.
+This URL gets an account's hardware records along with that hardware's associated datacenter, operating system, and network component records. Note that these relational items are separate by commas.
 
 ```bash
 https://api.softlayer.com/rest/v3/SoftLayer_Account/getHardware.json?objectMask=mask[datacenter,operatingSystem,networkComponents]
@@ -189,7 +189,7 @@ This URL gets an account's hardware records along with that hardware's associate
 https://api.softlayer.com/rest/v3/SoftLayer_Account/Hardware.json?objectMask=mask[datacenter,operatingSystem[passwords],networkComponents]
 ```
 
->There are some other ways of specifying object mask, just as `objectMask=datacenter;operatingSystem.passwords;networkComponents`, but for clarity I use the `mask[datacenter,operatingSystem[passwords],networkComponents]` format.
+>There are some other ways of specifying object mask, just as `objectMask=datacenter;operatingSystem.passwords;networkComponents`, but for clarity I use the `objectMask=mask[datacenter,operatingSystem[passwords],networkComponents]` format.
 
 Selecting a `local` property in your objectMask will remove all other local properties on that level of your objectMask. 
 
@@ -243,8 +243,8 @@ returns the error:
 </root>
 ```
 
-<p>While it's JSON equivalent:</p>
-```
+While it's JSON equivalent:
+```bash
 https://@api.softlayer.com/rest/v3/Nonexistent.json
 ```
 
