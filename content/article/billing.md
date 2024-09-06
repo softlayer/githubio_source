@@ -165,8 +165,6 @@ While the invoice is a great way to get a high level view of what you are being 
 
 -----------------------------
 
-## Other Link
+## IBM Cloud Documentation
 
-+ [Billing Overview](https://cloud.ibm.com/docs/billing-usage?topic=billing-usage-overview)
-+ [Consolidated Billing](https://cloud.ibm.com/docs/customer-portal?topic=customer-portal-unifybillaccounts)
-+ [Managing Billing Items](https://cloud.ibm.com/docs/customer-portal?topic=customer-portal-manage-billing)
++ [IBM Billing Documentation](https://cloud.ibm.com/docs/billing-usage)
