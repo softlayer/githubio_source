@@ -1,6 +1,6 @@
 ---
 title: "getConsoleIpAddressFlag"
-description: "A flag indicating a computing instance's console IP address is assigned."
+description: "[DEPRECATED] A flag indicating a computing instance's console IP address is assigned."
 date: "2018-02-12"
 tags:
     - "method"
