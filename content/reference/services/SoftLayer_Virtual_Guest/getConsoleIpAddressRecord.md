@@ -1,6 +1,6 @@
 ---
 title: "getConsoleIpAddressRecord"
-description: "A record containing information about a computing instance's console IP and port number."
+description: "[DEPRECATED] A record containing information about a computing instance's console IP and port number."
 date: "2018-02-12"
 tags:
     - "method"
