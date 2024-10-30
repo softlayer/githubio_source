@@ -35,8 +35,8 @@ class OpenAPIGen():
                 "url": "https://sldn.softlayer.com"
             },
             "servers": [
-                {"url": "https://api.softlayer.com"},
-                {"url": "https://api.service.softlayer.com"}
+                {"url": "https://api.softlayer.com/rest/v3.1"},
+                {"url": "https://api.service.softlayer.com/rest/v3.1"}
             ],
             "paths": {},
             "components": {
@@ -45,11 +45,11 @@ class OpenAPIGen():
                 "securitySchemes": { # https://swagger.io/specification/#security-scheme-object
                     "api_key": {
                         "type": "http",
-                        "sscheme": "basic"
+                        "scheme": "basic"
                     }
                 }
             },
-            "security": {"api_key": []}
+            "security": [{"api_key": []}]
         }
 
     def getMetadata(self, url: str) -> dict:
@@ -123,6 +123,7 @@ class OpenAPIGen():
             # Writing the check this way to be more clear to myself when reading it
             # This service has methods
             if service.get('noservice', False) == False:
+            # if serviceName in  ["SoftLayer_Account", "SoftLayer_User_Customer"]:
                 for methodName, method in service.get('methods', {}).items():
                     self.openapi['paths'].update(self.genPath(serviceName, methodName, method))
             self.openapi['components']['schemas'][serviceName] = self.genComponent(serviceName, service)
@@ -136,16 +137,20 @@ class OpenAPIGen():
         if method.get('parameters', False):
             http_method = "post"
         init_param = ''
-        if not method.get('static', False):
+        if not method.get('static', False) and not serviceName == "SoftLayer_Account":
             init_param = f"{{{serviceName}ID}}/"
 
         schema = method.get('type')
+        path_name = f"/{serviceName}/{init_param}{methodName}"
         new_path = {
-            f"{serviceName}/{init_param}{methodName}": {
+            path_name: {
                 http_method: {
                     "description": method.get('doc'),
                     "summary": method.get('docOverview', ''),
-                    "externalDocs": f"https://sldn.softlayer.com/reference/services/{serviceName}/{methodName}/",
+                    "externalDocs": {
+                        "description": "SLDN Documentation",
+                        "url": f"https://sldn.softlayer.com/reference/services/{serviceName}/{methodName}/"
+                    },
                     "operationId": f"{serviceName}::{methodName}",
                     "responses": {
                         "200": {
@@ -163,6 +168,16 @@ class OpenAPIGen():
                 }
             }
         }
+        if init_param != '':
+            new_path[path_name][http_method]['parameters'] = [
+                {
+                    "name": f"{serviceName}ID",
+                    "in": "path",
+                    "description": f"ID for a {serviceName} object",
+                    "required": True,
+                    "schema": {"type": "integer"}
+                }
+            ]
         return new_path
 
     def getSchema(self, method: dict) -> dict:
@@ -170,17 +185,20 @@ class OpenAPIGen():
         is_array = method.get('typeArray', False)
         sl_type = method.get('type', "null")
         ref = {}
-        if sl_type.startswith("SoftLayer_") or method.get('form') == 'relational':
+
+        if sl_type in ["int", "decimal", "unsignedLong", "float", "unsignedInt"]:
+            ref = {"type": "number"}
+        elif sl_type in ["dateTime", "enum", "base64Binary", "string", "json"]:
+            ref = {"type": "string"}
+        elif sl_type == "void":
+            ref = {"type": "null"}
+        elif sl_type == "boolean":
+            ref = {"type": "boolean"}
+        # This is last because SOME properties are marked relational when they are not really.
+        elif sl_type.startswith("SoftLayer_") or method.get('form') == 'relational':
             ref = {"$ref": f"#/components/schemas/{sl_type}"}
         else:
-            if sl_type in ["int", "decimal", "unsignedLong", "float", "unsignedInt"]:
-                ref = {"type": "number"}
-            elif sl_type in ["dateTime", "enum", "base64Binary", "string", "json"]:
-                ref = {"type": "string"}
-            elif sl_type == "void":
-                ref = {"type": "null"}
-            else:
-                ref = {"type": sl_type}
+            ref = {"type": sl_type}
 
         if is_array:
             schema = {"type": "array", "items": ref}
