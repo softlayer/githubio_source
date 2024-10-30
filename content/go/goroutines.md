@@ -1,7 +1,7 @@
 ---
 title: "Goroutines, Pagination and the SoftLayer API"
 description: "Describes some ways to implement concurrency in your golang applications when interacting with the SoftLayer API. A few examples and explanation of softlayer-go's features."
-date: "2024-0216"
+date: "2024-02-16"
 tags:
     - "cli"
     - "sdk"
