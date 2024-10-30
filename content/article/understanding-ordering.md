@@ -22,7 +22,7 @@ In version 5.4.0 of [softlayer-python](https://github.com/softlayer/softlayer-py
 * Place an order programmatically using Python.
 
 
-## Build an order
+## [Build an order](#build_order) {#build_order .anchor-link}
 
 ### Step 1: Understand the order structure
 
@@ -352,7 +352,7 @@ This action will incur charges on your account. Continue? [y/N]: y
 We now have ordered a bare metal server!
 
 
-## Place an order programmatically with Python
+## [Place an order programmatically with Python](#with_python) {#with_python .anchor-link}
 
 Now that we have used the CLI to build an order with the package and items that we want, we can convert this order to Python code and programmatically place the order.
 
@@ -615,7 +615,7 @@ curl -u $SL_USER:$SL_APIKEY -X POST -H "Accept: */*" -H "Accept-Encoding: gzip, 
 ```
 
 
-## Step by Step Example with ibmcloud CLI
+## [Step by Step Example with ibmcloud CLI](#step_by_step) {#step_by_step .anchor-link}
 These commands will use the `ibmcloud sl` command, but it works the same way as `slcli`. The only big difference is `ibmcloud` requires Items be a comma seperated list, where `slcli` requires them be space seperated.
 
 Here we want to order a Cascade Lake Dual Xeon server.
@@ -696,4 +696,78 @@ ibmcloud sl order place DUAL_INTEL_XEON_PROCESSOR_CASCADE_LAKE_SCALABLE_FAMILY_4
 
 ```
 slcli order place DUAL_INTEL_XEON_PROCESSOR_CASCADE_LAKE_SCALABLE_FAMILY_4_DRIVES  DALLAS13  INTEL_XEON_4210_2_20 RAM_32_GB_DDR4_2133_ECC_NON_REG OS_DEBIAN_10_X_BUSTER_MINIMAL_64_BIT 1_GBPS_REDUNDANT_PUBLIC_PRIVATE_NETWORK_UPLINKS DISK_CONTROLLER_RAID HARD_DRIVE_2_00_TB_SATA_2 HARD_DRIVE_2_00_TB_SATA_2 BANDWIDTH_1000_GB REBOOT_KVM_OVER_IP 1_IP_ADDRESS UNLIMITED_SSL_VPN_USERS_1_PPTP_VPN_USER_PER_ACCOUNT NOTIFICATION_EMAIL_AND_TICKET MONITORING_HOST_PING AUTOMATED_NOTIFICATION --complex-type SoftLayer_Container_Product_Order_Hardware_Server --extras '{"hardware":[{"hostname":"cgallo-test","domain":"cgallo.com","primaryBackendNetworkComponent": {"networkVlan": {"primarySubnet":{"id": 1942931}}},"primaryNetworkComponent": {"networkVlan": {"id": 2848660}}}],"storageGroups":[{"arrayTypeId": 2,"arraySize": 2000,"hardDrives": [0,1],"partitionTemplateId": 1}],"sshKeys": [{"sshKeyIds":[87634,92868]}],"provisionScripts": ["https://pastebin.com/raw/SCp607Tm"]}' --billing monthly --verify
+```
+
+
+## [Portal to CLI](#portal_to_cli) {#portal_to_cli .anchor-link}
+
+
+Lets say you are ordering a server, and want to automate it. For this example, we will build a server that looks like this:
+![2U_QUAD_XEON_PROCESSOR_CASCADE_LAKE_SCALABLE_FAMILY_24_DRIVES](/img/articles/orderExampleCascadeLake.png)
+
+Most of the information you need to build an API order is on the order form already. The only thing you need to know is that the [Intel Xeon 8260](https://www.intel.com/content/www/us/en/products/sku/192474/intel-xeon-platinum-8260-processor-35-75m-cache-2-40-ghz/specifications.html?wapkw=8260) is a Cascade Lake class of processor, so when you look for packages, that is the keyword you will search for.
+
+1. Find the package:
+```bash
+$> slcli order package-list  | grep -i cascade
+ 1105     Dual Intel Xeon Processor Cascade Lake Scalable Family (4 Drives)     DUAL_INTEL_XEON_PROCESSOR_CASCADE_LAKE_SCALABLE_FAMILY_4_DRIVES                     BARE_METAL_CPU
+ 1107    Dual Intel Xeon Processor Cascade Lake Scalable Family (12 Drives)       DUAL_INTEL_XEON_PROC_CASCADE_LAKE_SCALABLE_FAMILY_12_DRIVES                       BARE_METAL_CPU
+ 1111          Cascade Lake for VMware vSAN QualifiedNode (12 Drives)                    2U_CASCADE_LAKE_FOR_VMWARE_VSAN_QUALIFIEDNODE                              BARE_METAL_CPU
+ 1113       Quad Xeon Processor Cascade Lake Scalable Family (24 Drives)         2U_QUAD_XEON_PROCESSOR_CASCADE_LAKE_SCALABLE_FAMILY_24_DRIVES                      BARE_METAL_CPU
+ 2670          Cascade Lake for VMware vSAN QualifiedNode (24 Drives)                             2U_VMWARE_VSAN_QUALIFIEDNODE                                      BARE_METAL_CPU
+ 2692         Dual Xeon Proc Cascade Lake Multi-GPU Family (24 Drives)              4U_DUAL_XEON_PROC_CASCADE_LAKE_MULTIGPU_FAMILY_24_DRIVES                        BARE_METAL_CPU
+ 2708  CVAD Dual Intel Xeon Processor Cascade Lake Scalable Family (12 Drives)   CVAD_DUAL_INTEL_XEON_PROCESSOR_CASCADE_LAKE_SCALABLE_12_DRIVES                     BARE_METAL_CPU
+ 2710  CVAD Dual Intel Xeon Processor Cascade Lake Scalable Family (4 Drives)    CVAD_DUAL_INTEL_XEON_PROCESSOR_CASCADE_LAKE_SCALABLE_4_DRIVES                      BARE_METAL_CPU
+ 2796           Cascade Lake for VMware vSAN QualifiedNode (4 Drives)                    1U_CASCADE_LAKE_FOR_VMWARE_VSAN_QUALIFIEDNODE                              BARE_METAL_CPU
+ 2866    Oracle Application Cluster Cascade Lake Scalable Family (4 Drives)     ORACLE_APPLICATION_CLUSTER_CASCADE_LAKE_SCALABLE_FAMILY_4_DRIVES                    BARE_METAL_CPU
+ 3110            Cascade Lake VMW PMEM Enabled 1.5TB-3TB (12 Drives)                  2U_CASCADE_LAKE_VMW_PMEM_ENABLED_1_5TB_3TB_12_DRIVES                          BARE_METAL_CPU
+ 3116             Cascade Lake VMW PMEM Enabled 3TB-6TB (24 Drives)                      CASCADE_LAKE_VMW_PMEM_ENABLED_3TB6TB_24_DRIVES                             BARE_METAL_CPU
+```
+
+We want the `2U_QUAD_XEON_PROCESSOR_CASCADE_LAKE_SCALABLE_FAMILY_24_DRIVES` package here since it has the `Quad Processor` and `Up to 24 Drives` mentioned on the order form.
+
+2. Find all the items you need.
+```bash
+$> slcli order item-list 2U_QUAD_XEON_PROCESSOR_CASCADE_LAKE_SCALABLE_FAMILY_24_DRIVES
+```
+
+We will need the following to match the order:
+
+| Category | KeyName |
+| -------- | ------- |
+| bandwidth | BANDWIDTH_20000_GB |
+| disk0 | HARD_DRIVE_960GB_SSD_SED_5DWPD |
+| disk_controller | DISK_CONTROLLER_NONRAID |
+| monitoring | MONITORING_HOST_PING |
+| notification | NOTIFICATION_EMAIL_AND_TICKET |
+| os | OS_CENTOS_STREAM_9_X_64_BIT |
+| port_speed | 100_MBPS_REDUNDANT_PUBLIC_PRIVATE_NETWORK_UPLINKS |
+| power_supply | REDUNDANT_POWER_SUPPLY |
+| pri_ip_addresses | 1_IP_ADDRESS |
+| ram | RAM_384_GB_DDR4_2133_ECC_REG | 
+| remote_management | REBOOT_KVM_OVER_IP |
+| response  | AUTOMATED_NOTIFICATION |
+| server | INTEL_XEON_8260_2_4_96 |
+| vpn_management | UNLIMITED_SSL_VPN_USERS_1_PPTP_VPN_USER_PER_ACCOUNT |
+
+3. Add it all and verify the order
+
+(use `slcli -vvv order place` to see actual API calls this makes)
+```bash
+$> slcli order place 2U_QUAD_XEON_PROCESSOR_CASCADE_LAKE_SCALABLE_FAMILY_24_DRIVES DALLAS10  BANDWIDTH_20000_GB \
+HARD_DRIVE_960GB_SSD_SED_5DWPD DISK_CONTROLLER_NONRAID MONITORING_HOST_PING NOTIFICATION_EMAIL_AND_TICKET \
+OS_CENTOS_STREAM_9_X_64_BIT 100_MBPS_REDUNDANT_PUBLIC_PRIVATE_NETWORK_UPLINKS REDUNDANT_POWER_SUPPLY 1_IP_ADDRESS \
+RAM_384_GB_DDR4_2133_ECC_REG REBOOT_KVM_OVER_IP AUTOMATED_NOTIFICATION INTEL_XEON_8260_2_4_96 \
+UNLIMITED_SSL_VPN_USERS_1_PPTP_VPN_USER_PER_ACCOUNT \
+--verify --quantity 1 --billing monthly  --complex-type SoftLayer_Container_Product_Order_Hardware_Server \
+--extras '{"hardware": [{"hostname": "baremetal01", "domain": "ibmcloud.private"}]}'
+```
+
+To make this into a pure API call, use the output of `slcli -vvv order place` and the slcli will convert the item keynames into the required priceIds needed for [SoftLayer_Product_Order::placeOrder()](https://sldn.softlayer.com/reference/services/SoftLayer_Product_Order/placeOrder/)
+
+```bash
+$> curl -u $SL_USER:$SL_APIKEY -X POST -H "Accept: */*" -H "Accept-Encoding: gzip, deflate, compress" -d '{"parameters": [{"orderContainers": [{"hardware": [{"hostname": "baremetal01", "domain":
+"ibmcloud.private"}], "packageId": 1113, "quantity": 1, "location": 1441195, "useHourlyPricing": false, "complexType": "SoftLayer_Container_Product_Order_Hardware_Server", "prices": [{"id": 342}, {"id":
+230475}, {"id": 876}, {"id": 55}, {"id": 57}, {"id": 307539}, {"id": 21513}, {"id": 50221}, {"id": 21}, {"id": 165785}, {"id": 906}, {"id": 58}, {"id": 254988}, {"id": 420}]}]}]}'
+'https://api.softlayer.com/rest/v3.1/SoftLayer_Product_Order/placeOrder.json'
 ```
