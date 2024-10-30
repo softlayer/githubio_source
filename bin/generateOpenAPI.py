@@ -42,14 +42,14 @@ class OpenAPIGen():
             "components": {
                 "schemas": {},
                 "requestBodies": {},
-                "securitySchemes": {
+                "securitySchemes": { # https://swagger.io/specification/#security-scheme-object
                     "api_key": {
-                        "type": "apiKey",
-                        "name": "api_key",
-                        "in": "header"
+                        "type": "http",
+                        "sscheme": "basic"
                     }
                 }
-            }
+            },
+            "security": {"api_key": []}
         }
 
     def getMetadata(self, url: str) -> dict:
@@ -125,6 +125,7 @@ class OpenAPIGen():
             if service.get('noservice', False) == False:
                 for methodName, method in service.get('methods', {}).items():
                     self.openapi['paths'].update(self.genPath(serviceName, methodName, method))
+            self.openapi['components']['schemas'][serviceName] = self.genComponent(serviceName, service)
 
 
         with open(f"{self.outdir}/sl_openapi.json", "w") as outfile:
@@ -169,16 +170,34 @@ class OpenAPIGen():
         is_array = method.get('typeArray', False)
         sl_type = method.get('type', "null")
         ref = {}
-        if sl_type.startswith("SoftLayer_"):
+        if sl_type.startswith("SoftLayer_") or method.get('form') == 'relational':
             ref = {"$ref": f"#/components/schemas/{sl_type}"}
         else:
-            ref = {"type": sl_type}
+            if sl_type in ["int", "decimal", "unsignedLong", "float", "unsignedInt"]:
+                ref = {"type": "number"}
+            elif sl_type in ["dateTime", "enum", "base64Binary", "string", "json"]:
+                ref = {"type": "string"}
+            elif sl_type == "void":
+                ref = {"type": "null"}
+            else:
+                ref = {"type": sl_type}
+
         if is_array:
             schema = {"type": "array", "items": ref}
         else:
             schema = ref
         return schema
-        
+    
+    def genComponent(self, serviceName: str, service: dict) -> dict:
+        """Generates return component for a datatype"""
+        schema = {
+            "type": "object",
+            "properties": {}
+        }
+        for propName, prop in service.get('properties').items():
+            schema['properties'][propName] = self.getSchema(prop)
+
+        return schema
 
 
 @click.command()
