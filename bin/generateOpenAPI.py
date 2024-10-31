@@ -129,6 +129,7 @@ class OpenAPIGen():
             self.openapi['components']['schemas'][serviceName] = self.genComponent(serviceName, service)
 
 
+        # WRITE OUTPUT HERE
         with open(f"{self.outdir}/sl_openapi.json", "w") as outfile:
             json.dump(self.openapi, outfile, indent=4)
 
@@ -168,16 +169,35 @@ class OpenAPIGen():
                 }
             }
         }
+        api_parameters = []
         if init_param != '':
-            new_path[path_name][http_method]['parameters'] = [
-                {
-                    "name": f"{serviceName}ID",
-                    "in": "path",
-                    "description": f"ID for a {serviceName} object",
-                    "required": True,
-                    "schema": {"type": "integer"}
-                }
-            ]
+            this_param = {
+                "name": f"{serviceName}ID",
+                "in": "path",
+                "description": f"ID for a {serviceName} object",
+                "required": True,
+                "schema": {"type": "integer"}
+            }
+            api_parameters.append(this_param)
+        post_param = {
+            "in": "body",
+            "name": "parameters",
+            "description": "POST Parameters",
+            "schema": {"type": "array", "properties": []}
+        }
+        for parameter in method.get('parameters', []):
+            this_param = {
+                "name": parameter.get('name'),
+                "in": "path",
+                "description": parameter.get('docOverview'),
+                "required": True,
+                "schema": self.getSchema(parameter)
+            }
+            post_param['schema']['properties'].append(this_param)
+        if len(post_param['schema']['properties']) > 0:
+            api_parameters.append(post_param)
+        if len(api_parameters) > 0:
+            new_path[path_name][http_method]['parameters'] = api_parameters
         return new_path
 
     def getSchema(self, method: dict) -> dict:
