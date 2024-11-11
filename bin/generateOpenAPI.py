@@ -179,23 +179,45 @@ class OpenAPIGen():
                 "schema": {"type": "integer"}
             }
             api_parameters.append(this_param)
-        post_param = {
-            "in": "body",
-            "name": "parameters",
-            "description": "POST Parameters",
-            "schema": {"type": "array", "properties": []}
+        # post_param = {
+        #     "in": "body",
+        #     "name": "parameters",
+        #     "description": "POST Parameters",
+        #     "schema": {"type": "array", "properties": []}
+        # }
+        request_body = {
+            "description": "POST parameters",
+            "content": {
+                "application/json": {
+                    "schema": {
+                        "type": "object",
+                        "properties": {
+                            "parameters": {}
+                        }
+                    }
+                }
+            }
+        }
+        requet_parameters = {
+            "parameters": {
+                "type": "object",
+                "properties": {}
+            }
         }
         for parameter in method.get('parameters', []):
             this_param = {
                 "name": parameter.get('name'),
-                "in": "path",
                 "description": parameter.get('docOverview'),
                 "required": True,
                 "schema": self.getSchema(parameter)
             }
-            post_param['schema']['properties'].append(this_param)
-        if len(post_param['schema']['properties']) > 0:
-            api_parameters.append(post_param)
+            # post_param['schema']['properties'].append(this_param)
+            requet_parameters['parameters']['properties'][parameter.get('name')] = self.getSchema(parameter)
+            
+        if len(method.get('parameters', [])) > 0:
+            request_body['content']['application/json']['schema']['properties'] = requet_parameters
+            new_path[path_name][http_method]['requestBody'] = request_body
+            # api_parameters.append(post_param)
         if len(api_parameters) > 0:
             new_path[path_name][http_method]['parameters'] = api_parameters
         return new_path
