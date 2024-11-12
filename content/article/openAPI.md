@@ -9,7 +9,7 @@ tags:
 
 # [Open API](https://swagger.io/specification/)
 
-We now have tenative support for an Open API spec. You can download it from [SLDN](/static/openapi/sl_openapi.json)
+We now have tenative support for an Open API spec. You can download it from [SLDN](/openapi/sl_openapi.json)
 
 Due to the way SLDN is designed, the spec sheet is fairly lengthy and a bit complicated, but perhaps it will be useful.
 
