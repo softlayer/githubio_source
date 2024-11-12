@@ -20,6 +20,7 @@ class OpenAPIGen():
         if not os.path.isdir(self.outdir):
             print(f"Creating directory {self.outdir}")
             os.mkdir(self.outdir)
+            os.mkdir(f"{self.outdir}/generated")
         self.metajson = None
         self.metapath = f'{self.outdir}/sldn_metadata.json'
         self.openapi = {
@@ -179,18 +180,13 @@ class OpenAPIGen():
                 "schema": {"type": "integer"}
             }
             api_parameters.append(this_param)
-        # post_param = {
-        #     "in": "body",
-        #     "name": "parameters",
-        #     "description": "POST Parameters",
-        #     "schema": {"type": "array", "properties": []}
-        # }
         request_body = {
             "description": "POST parameters",
             "content": {
                 "application/json": {
                     "schema": {
                         "type": "object",
+                        "title": f"{serviceName}::{methodName}::Parameters",
                         "properties": {
                             "parameters": {}
                         }
@@ -201,17 +197,11 @@ class OpenAPIGen():
         requet_parameters = {
             "parameters": {
                 "type": "object",
+                "title": f"{serviceName}::{methodName}::Parameters::Input",
                 "properties": {}
             }
         }
         for parameter in method.get('parameters', []):
-            this_param = {
-                "name": parameter.get('name'),
-                "description": parameter.get('docOverview'),
-                "required": True,
-                "schema": self.getSchema(parameter)
-            }
-            # post_param['schema']['properties'].append(this_param)
             requet_parameters['parameters']['properties'][parameter.get('name')] = self.getSchema(parameter)
             
         if len(method.get('parameters', [])) > 0:
@@ -237,7 +227,7 @@ class OpenAPIGen():
         elif sl_type == "boolean":
             ref = {"type": "boolean"}
         # This is last because SOME properties are marked relational when they are not really.
-        elif sl_type.startswith("SoftLayer_") or method.get('form') == 'relational':
+        elif sl_type.startswith("SoftLayer_") or method.get('form') == 'relational' or "_" in sl_type:
             ref = {"$ref": f"#/components/schemas/{sl_type}"}
         else:
             ref = {"type": sl_type}
@@ -265,7 +255,7 @@ class OpenAPIGen():
 @click.option('--clean', default=False, is_flag=True, help="Removes the services and datatypes directories so they can be built from scratch")
 def main(download: bool, clean: bool):
     cwd = os.getcwd()
-    outdir = f'{cwd}/openapi'
+    outdir = f'{cwd}/static/openapi'
     if not cwd.endswith('githubio_source'):
         raise Exception(f"Working Directory should be githubio_source, is currently {cwd}")
 
