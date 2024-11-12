@@ -120,3 +120,22 @@ Any main classes your examples uses should be included. Helpful in searching.
 
 If you ever find yourself wishing there was an example of how to do something in the SoftLayer API, please make a github issue on the [githubio_source](https://github.com/softlayer/githubio_source/issues) repository. We are always on the look out for more content ideas!
 
+
+
+# OpenAPI Spec Generation
+
+You should be in the githubio_source directory first before running these commands.
+
+First download the metadata. You can use `--clean` option to remove any other files in the directories as well. Sub directories should be created automatically.
+```
+$> python bin/generateOpenAPI.py --download
+```
+
+[OpenAPI CLI](https://openapi-generator.tech/docs/installation) Can be used to generate HTML or whatever from this document.
+```
+$> java -jar openapi-generator-cli.jar  generate -g html -i static/openapi/sl_openapi.json -o static/openapi/generated/ --skip-operation-example
+```
+
+`--skip-operation-example` is needed otherwise the generator will run out of memory trying to build examples.
+
+`./bin/generateOpenAPI-multiFile.py` can be used for a multi-file output if one file is too much to deal with.
