@@ -1,6 +1,6 @@
 ---
 title: "getRoutableBoundSubnets"
-description: "Retrieve all subnets that are eligible to be routed; those which the account has permission to associate with a vlan."
+description: "[DEPRECATED] Retrieve all subnets that are eligible to be routed; those which the account has permission to associate with a vlan."
 date: "2018-02-12"
 tags:
     - "method"

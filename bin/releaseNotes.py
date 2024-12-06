@@ -38,12 +38,13 @@ class JiraAPI():
         self.printDebug(f"Calling {apirequest}")
         result = requests.get(apirequest, headers=self.headers, verify=self.verify)
         # sleep a bit so we don't get rate limited
-        time.sleep(0.2)
+        time.sleep(0.5)
         return self.jiraToJson(result)
 
     def getNotes(self, jira_issue):
         self.printDebug(f"Getting JIRA: {jira_issue}")
         result = requests.get(jira_issue, headers=self.headers, verify=self.verify)
+        time.sleep(0.5)
         json = self.jiraToJson(result)
         return json.get('fields', {}).get('customfield_10113', 'NONE')
 

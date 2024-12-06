@@ -1,6 +1,6 @@
 ---
 title: "getBoundRouters"
-description: "The list of network routers that this subnet is directly associated with, defining where this subnet may be routed on the network."
+description: "[DEPRECATED] The list of network routers that this subnet is directly associated with, defining where this subnet may be routed on the network."
 date: "2018-02-12"
 tags:
     - "method"
