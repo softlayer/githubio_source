@@ -1,6 +1,6 @@
 ---
 title: "getBoundSubnets"
-description: "Associated subnets for a router object."
+description: "[DEPRECATED] Associated subnets for a router object."
 date: "2018-02-12"
 tags:
     - "method"

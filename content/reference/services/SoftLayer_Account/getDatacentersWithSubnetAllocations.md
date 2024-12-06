@@ -1,6 +1,6 @@
 ---
 title: "getDatacentersWithSubnetAllocations"
-description: "Datacenters which contain subnets that the account has access to route."
+description: "[DEPRECATED] Datacenters which contain subnets that the account has access to route."
 date: "2018-02-12"
 tags:
     - "method"
