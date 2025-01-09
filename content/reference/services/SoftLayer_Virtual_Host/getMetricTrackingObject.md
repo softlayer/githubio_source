@@ -1,6 +1,6 @@
 ---
 title: "getMetricTrackingObject"
-description: "The metric tracking object for this virtual host."
+description: "[DEPRECATED] - The metric tracking object for this virtual host."
 date: "2018-02-12"
 tags:
     - "method"
