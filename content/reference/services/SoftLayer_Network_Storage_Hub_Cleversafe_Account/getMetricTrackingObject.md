@@ -1,6 +1,6 @@
 ---
 title: "getMetricTrackingObject"
-description: "Provides an interface to various metrics relating to the usage of an IBM Cloud Object Storage account."
+description: "[DEPRECATED] - Provides an interface to various metrics relating to the usage of an IBM Cloud Object Storage account."
 date: "2018-02-12"
 tags:
     - "method"
