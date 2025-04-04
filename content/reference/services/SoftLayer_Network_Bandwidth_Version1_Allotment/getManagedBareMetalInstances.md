@@ -1,6 +1,6 @@
 ---
 title: "getManagedBareMetalInstances"
-description: "The managed bare metal server instances contained within a virtual rack."
+description: "[DEPRECATED] The managed bare metal server instances contained within a virtual rack."
 date: "2018-02-12"
 tags:
     - "method"

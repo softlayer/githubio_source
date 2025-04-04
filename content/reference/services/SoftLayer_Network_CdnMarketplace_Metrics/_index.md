@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_CdnMarketplace_Metrics"
-description: "This Service class will describe in detail each Simple Object Access Protocol (SOAP) API call used in the Content Delivery Network (CDN) metrics. These APIs will allow callers to collect metrics for the CDN service. "
+description: "This class is deprecated and will be removed in future. "
 date: "2018-02-12"
 tags:
     - "service"

@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_CdnMarketplace_Vendor"
-description: "The SoftLayer_Network_CdnMarketplace_Vendor contains information regarding a CDN Vendor. This class is associated with SoftLayer_Network_CdnMarketplace_Vendor_Attribute class. "
+description: "This class is deprecated and will be removed in future. "
 date: "2018-02-12"
 tags:
     - "datatype"

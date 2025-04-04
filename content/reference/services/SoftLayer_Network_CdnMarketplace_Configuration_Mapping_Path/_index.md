@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_CdnMarketplace_Configuration_Mapping_Path"
-description: "This service manages the paths for domain mapping configurations. "
+description: "This class is deprecated and will be removed in future. "
 date: "2018-02-12"
 tags:
     - "service"

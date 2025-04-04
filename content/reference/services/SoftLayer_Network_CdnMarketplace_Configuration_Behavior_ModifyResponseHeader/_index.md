@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_CdnMarketplace_Configuration_Behavior_ModifyResponseHeader"
-description: "This service manages the modify response headers for domain mapping configurations. "
+description: "This class is deprecated and will be removed in future. "
 date: "2018-02-12"
 tags:
     - "service"
