@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_CdnMarketplace_Configuration_Cache_PurgeGroup"
-description: "This service manages purge group associated with a CDN mapping Configuration. "
+description: "This class is deprecated and will be removed in future. "
 date: "2018-02-12"
 tags:
     - "service"

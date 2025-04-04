@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_CdnMarketplace_Configuration_Cache_TimeToLive"
-description: "This service manages Times To Live (TTLs) associated with a CDN mapping Configuration. A time to live represents the time a purge will occur at a given path. "
+description: "This class is deprecated and will be removed in future. "
 date: "2018-02-12"
 tags:
     - "service"

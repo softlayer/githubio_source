@@ -1,6 +1,6 @@
 ---
 title: "getManagedHardware"
-description: "The managed hardware contained within a virtual rack."
+description: "[DEPRECATED] The managed hardware contained within a virtual rack."
 date: "2018-02-12"
 tags:
     - "method"

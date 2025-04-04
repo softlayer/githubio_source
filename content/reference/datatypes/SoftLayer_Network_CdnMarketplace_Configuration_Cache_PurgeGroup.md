@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_CdnMarketplace_Configuration_Cache_PurgeGroup"
-description: "This data type models a purge group event that occurs in caching server. It contains a reference to a mapping configuration and the path to execute the purge on. "
+description: "This class is deprecated and will be removed in future. "
 date: "2018-02-12"
 tags:
     - "datatype"

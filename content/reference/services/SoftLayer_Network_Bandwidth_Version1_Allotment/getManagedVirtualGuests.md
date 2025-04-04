@@ -1,6 +1,6 @@
 ---
 title: "getManagedVirtualGuests"
-description: "The managed Virtual Server contained within a virtual rack."
+description: "[DEPRECATED] The managed Virtual Server contained within a virtual rack."
 date: "2018-02-12"
 tags:
     - "method"

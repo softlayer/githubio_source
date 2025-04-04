@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_CdnMarketplace_Metrics"
-description: "This Metrics class provides methods to get CDN metrics based on account or mapping unique id. "
+description: "This class is deprecated and will be removed in future. "
 date: "2018-02-12"
 tags:
     - "datatype"
