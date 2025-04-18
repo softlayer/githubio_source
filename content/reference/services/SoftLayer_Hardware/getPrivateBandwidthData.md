@@ -1,6 +1,6 @@
 ---
 title: "getPrivateBandwidthData"
-description: "Retrieve a graph of a server's private network bandwidth usage over the specified timeframe. If no timeframe is specified then getPublicBandwidthGraphImage retrieves the last 24 hours of public bandwidth usage. getPrivateBandwidthGraphImage returns a PNG image measuring 827 pixels by 293 pixels. "
+description: "Retrieve this server's private bandwidth data. If no timeframe is specified then getPrivateBandwidthData retrieves the last 24 hours of public bandwidth usage. "
 date: "2018-02-12"
 tags:
     - "method"
