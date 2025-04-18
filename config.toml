@@ -10,6 +10,7 @@ googleAnalytics = "G-9XPZ9ZBSJE"
 disablePathToLower = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
+buildFuture = true
 
 refLinksErrorLevel = "WARNING"
 refLinksNotFoundURL = '#'
