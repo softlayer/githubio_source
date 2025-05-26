@@ -69,6 +69,8 @@ Commit and push your changes, merge to master, and wait a few minutes.
 I version SLDN by dates, so I keep the dates in the container tag, you can change `20250526` to `latest` or whatever when building locally.
 
 ```bash
+# To be able to pull from IBM private registry
+$> ibmcloud cr login --client podman
 $> podman build . -t sldn:20250526
 $> podman run -p 1313:1313 sldn:20250526
 ```
