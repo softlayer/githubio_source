@@ -64,6 +64,18 @@ Commit and push your changes, merge to master, and wait a few minutes.
 - `config.toml` The main config for Hugo
 
 
+## Docker
+
+I version SLDN by dates, so I keep the dates in the container tag, you can change `20250526` to `latest` or whatever when building locally.
+
+```bash
+# To be able to pull from IBM private registry
+$> ibmcloud cr login --client podman
+$> podman build . -t sldn:20250526
+$> podman run -p 1313:1313 sldn:20250526
+```
+Site will be available on `http://localhost:1313`
+
 ## Making Changes.
 
 Files in the /content/reference section are automatically generated and shouldn't be modified by hand. Otherwise, simply creating a pull request for changes is usually sufficient. See the [CONTRIBUTING](https://github.com/softlayer/githubio_source/blob/master/CONTRIBUTING.md) guide for more specific details.
