@@ -74,7 +74,7 @@ $> ibmcloud cr login --client podman
 $> podman build . -t sldn:20250526
 $> podman run -p 1313:1313 sldn:20250526
 ```
-Site will be availble on `http://localhost:1313`
+Site will be available on `http://localhost:1313`
 
 ## Making Changes.
 
