@@ -1,6 +1,6 @@
 ---
 title: "getAvailableSecureTransportProtocols"
-description: "Yields a list of the secure communication protocols that are currently supported on this virtual IP address instance. The list of supported ciphers for each protocol is culled to match availability. "
+description: "Deprecated "
 date: "2018-02-12"
 tags:
     - "method"

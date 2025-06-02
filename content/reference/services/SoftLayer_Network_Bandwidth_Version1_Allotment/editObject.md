@@ -1,6 +1,6 @@
 ---
 title: "editObject"
-description: "Edit a bandwidth allotment's local properties. Currently you may only change an allotment's name. Use the [SoftLayer_Network_Bandwidth_Version1_Allotment::reassignServers](/reference/datatypes/$1/#$2) and [SoftLayer_Network_Bandwidth_Version1_Allotment::unassignServers](/reference/datatypes/$1/#$2) methods to move servers in and out of your allotments. "
+description: "Edit a bandwidth allotment's local properties. Currently you may only change an allotment's name. Use the [SoftLayer_Network_Bandwidth_Version1_Allotment::setVdrContent](/reference/datatypes/$1/#$2) and [SoftLayer_Network_Bandwidth_Version1_Allotment::requestVdrContentUpdates](/reference/datatypes/$1/#$2) methods to move servers in and out of your allotments. "
 date: "2018-02-12"
 tags:
     - "method"

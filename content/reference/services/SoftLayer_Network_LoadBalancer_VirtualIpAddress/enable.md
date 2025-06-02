@@ -1,6 +1,6 @@
 ---
 title: "enable"
-description: "Enable a disabled Virtual IP Address, allowing connections back to the IP address. "
+description: "Deprecated "
 date: "2018-02-12"
 tags:
     - "method"

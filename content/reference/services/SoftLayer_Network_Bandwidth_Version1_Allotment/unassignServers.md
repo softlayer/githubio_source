@@ -1,6 +1,6 @@
 ---
 title: "unassignServers"
-description: "This method will reassign a collection of SoftLayer hardware to the virtual private rack "
+description: "[DEPRECATED] This method will reassign a collection of SoftLayer hardware to the virtual private rack "
 date: "2018-02-12"
 tags:
     - "method"

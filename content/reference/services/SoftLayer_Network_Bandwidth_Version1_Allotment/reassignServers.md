@@ -1,6 +1,6 @@
 ---
 title: "reassignServers"
-description: "This method will reassign a collection of SoftLayer hardware to a bandwidth allotment Bandwidth Pool. "
+description: "[DEPRECATED] This method will reassign a collection of SoftLayer hardware to a bandwidth allotment Bandwidth Pool. "
 date: "2018-02-12"
 tags:
     - "method"
