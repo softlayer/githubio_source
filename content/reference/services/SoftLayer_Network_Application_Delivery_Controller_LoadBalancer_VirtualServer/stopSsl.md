@@ -1,6 +1,6 @@
 ---
 title: "stopSsl"
-description: "Stop SSL acceleration on all SSL virtual services (those with a type of HTTPS). "
+description: "Deprecated "
 date: "2018-02-12"
 tags:
     - "method"

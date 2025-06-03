@@ -1,8 +1,6 @@
 ---
 title: "getGraphImage"
-description: "Get the graph image for a load balancer service group based on the supplied graph type and metric.  The only available graph type currently is: 'connections', and the available metrics are: 'day', 'week' and 'month'. 
-
-This method returns the raw binary image data. "
+description: "Deprecated "
 date: "2018-02-12"
 tags:
     - "method"

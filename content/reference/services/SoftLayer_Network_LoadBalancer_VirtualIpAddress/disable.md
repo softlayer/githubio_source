@@ -1,6 +1,6 @@
 ---
 title: "disable"
-description: "Disable a Virtual IP Address, removing it from load balancer rotation and denying all connections to that IP address. "
+description: "Deprecated "
 date: "2018-02-12"
 tags:
     - "method"

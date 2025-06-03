@@ -1,6 +1,6 @@
 ---
 title: "kickAllConnections"
-description: "Quickly remove all active external connections to a Virtual IP Address. "
+description: "Deprecated "
 date: "2018-02-12"
 tags:
     - "method"

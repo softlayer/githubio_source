@@ -1,6 +1,6 @@
 ---
 title: "getAvailableSecureTransportCiphers"
-description: "Yields a list of the SSL/TLS encryption ciphers that are currently supported on this virtual IP address instance. "
+description: "Deprecated "
 date: "2018-02-12"
 tags:
     - "method"

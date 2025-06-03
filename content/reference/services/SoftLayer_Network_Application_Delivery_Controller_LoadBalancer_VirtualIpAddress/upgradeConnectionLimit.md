@@ -1,6 +1,6 @@
 ---
 title: "upgradeConnectionLimit"
-description: "Upgrades the connection limit on the Virtual IP to Address to the next, higher connection limit of the same product. "
+description: "Deprecated "
 date: "2018-02-12"
 tags:
     - "method"
