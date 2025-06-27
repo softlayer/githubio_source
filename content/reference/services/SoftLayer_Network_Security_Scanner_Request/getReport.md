@@ -1,6 +1,6 @@
 ---
 title: "getReport"
-description: "Get the vulnerability report for a scan request, formatted as HTML string. Previous scan reports are held indefinitely. "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "method"
