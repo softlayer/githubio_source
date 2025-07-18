@@ -1,6 +1,6 @@
 ---
 title: "getMappingUsageMetrics"
-description: "Get the total number of predetermined statistics for direct display for the given mapping "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "method"

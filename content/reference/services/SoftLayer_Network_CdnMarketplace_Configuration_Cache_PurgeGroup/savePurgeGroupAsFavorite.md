@@ -1,6 +1,6 @@
 ---
 title: "savePurgeGroupAsFavorite"
-description: "This method saves a purge group as favorite. "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "method"

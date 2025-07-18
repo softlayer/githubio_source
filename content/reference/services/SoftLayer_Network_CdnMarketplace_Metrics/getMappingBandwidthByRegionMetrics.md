@@ -1,6 +1,6 @@
 ---
 title: "getMappingBandwidthByRegionMetrics"
-description: "Get the total number of predetermined statistics for direct display (no graph) for a customer's account over a given period of time "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "method"

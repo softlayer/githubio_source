@@ -1,6 +1,6 @@
 ---
 title: "listModifyResponseHeader"
-description: "SOAP API will list modify response headers for an existing mapping and for a particular customer. "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "method"

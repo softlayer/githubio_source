@@ -1,8 +1,6 @@
 ---
 title: "updateDomainMapping"
-description: "SOAP API will update the Domain Mapping identified by the Unique Id. Following fields are allowed to be changed: originHost, HttpPort/HttpsPort, RespectHeaders, ServeStale 
-
-Additionally, bucketName and fileExtension if OriginType is Object Store "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "method"

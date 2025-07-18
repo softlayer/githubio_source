@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Network_CdnMarketplace_Configuration_Mapping_Path"
-description: ""
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "datatype"

@@ -1,6 +1,6 @@
 ---
 title: "updateTimeToLive"
-description: "Updates an existing Time To Live object. If the old and new inputs are equal, exits early. "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "method"

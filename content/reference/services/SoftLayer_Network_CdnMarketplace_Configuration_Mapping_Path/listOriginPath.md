@@ -1,6 +1,6 @@
 ---
 title: "listOriginPath"
-description: "SOAP API will list origin path for an existing mapping and for a particular customer. "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "method"

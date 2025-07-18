@@ -1,6 +1,6 @@
 ---
 title: "listTokenAuthPath"
-description: "SOAP API will list token authentication paths for an existing mapping and for a particular customer. "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "method"

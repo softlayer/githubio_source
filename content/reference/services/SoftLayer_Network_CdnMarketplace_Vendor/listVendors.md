@@ -1,6 +1,6 @@
 ---
 title: "listVendors"
-description: "SOAP API will return all CDN vendors available. "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "method"

@@ -1,6 +1,6 @@
 ---
 title: "updateModifyResponseHeader"
-description: "SOAP API will update modify response header for an existing mapping and for a particular customer. "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "method"

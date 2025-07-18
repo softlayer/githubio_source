@@ -1,6 +1,6 @@
 ---
 title: "listDomainMappings"
-description: "SOAP API will return all domains for a particular customer. "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "method"

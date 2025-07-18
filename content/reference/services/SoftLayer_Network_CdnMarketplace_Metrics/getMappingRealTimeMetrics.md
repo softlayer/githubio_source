@@ -1,6 +1,6 @@
 ---
 title: "getMappingRealTimeMetrics"
-description: "Get the real time metrics data for the given mapping "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "method"

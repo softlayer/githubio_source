@@ -1,6 +1,6 @@
 ---
 title: "getPurgeHistoryPerMapping"
-description: "This method returns the purge history for a given domain and CDN account. "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "method"

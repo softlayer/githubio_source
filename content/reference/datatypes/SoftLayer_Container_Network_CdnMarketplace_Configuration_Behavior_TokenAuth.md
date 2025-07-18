@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Network_CdnMarketplace_Configuration_Behavior_TokenAuth"
-description: "The SoftLayer_Container_Network_CdnMarketplace_Configuration_Behavior_TokenAuth data type contains information for specific responses from the Token Authentication API. "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "datatype"

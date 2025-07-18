@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Container_Network_CdnMarketplace_Configuration_Cache_Purge"
-description: ""
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "datatype"

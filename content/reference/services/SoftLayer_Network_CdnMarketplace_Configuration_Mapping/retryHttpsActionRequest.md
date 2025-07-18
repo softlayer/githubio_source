@@ -1,6 +1,6 @@
 ---
 title: "retryHttpsActionRequest"
-description: "For specific mappings in HTTPS-related error states, this SOAP API will determine whether it needs to re-attempt an enable or disable HTTPS. "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "method"

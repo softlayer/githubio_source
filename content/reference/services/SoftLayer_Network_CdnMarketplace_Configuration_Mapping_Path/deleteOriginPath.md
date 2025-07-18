@@ -1,6 +1,6 @@
 ---
 title: "deleteOriginPath"
-description: "SOAP API will delete Origin Path for an existing mapping and for a particular customer. "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "method"

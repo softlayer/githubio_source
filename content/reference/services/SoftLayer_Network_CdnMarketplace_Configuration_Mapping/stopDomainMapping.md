@@ -1,6 +1,6 @@
 ---
 title: "stopDomainMapping"
-description: "SOAP API will stop CDN mapping for a particular customer. "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "method"
