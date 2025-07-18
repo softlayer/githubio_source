@@ -1,6 +1,6 @@
 ---
 title: "listUnfavoriteGroup"
-description: "This method returns the list of unsaved purge groups. "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "method"

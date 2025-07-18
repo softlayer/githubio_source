@@ -1,6 +1,6 @@
 ---
 title: "startDomainMapping"
-description: "SOAP API will start CDN domain mapping for a particular customer. "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "method"

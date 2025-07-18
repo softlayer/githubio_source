@@ -1,6 +1,6 @@
 ---
 title: "getPurgeGroupQuota"
-description: "This method gets a purge group quota. "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "method"

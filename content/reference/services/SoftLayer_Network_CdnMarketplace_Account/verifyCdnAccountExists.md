@@ -1,6 +1,6 @@
 ---
 title: "verifyCdnAccountExists"
-description: "Wrapper for UI to verify whether or not an account exists for user under specified vendor. Returns true if account exists, else false. "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "method"

@@ -1,6 +1,6 @@
 ---
 title: "listFavoriteGroup"
-description: "This method returns the list of favorite purge groups. "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "method"

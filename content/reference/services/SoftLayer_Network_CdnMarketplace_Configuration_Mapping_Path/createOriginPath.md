@@ -1,6 +1,6 @@
 ---
 title: "createOriginPath"
-description: "SOAP API will create Origin Path for an existing CDN mapping and for a particular customer. "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "method"

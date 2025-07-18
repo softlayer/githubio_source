@@ -1,6 +1,6 @@
 ---
 title: "createPurge"
-description: "This method creates a purge record in the purge table, and also initiates the create purge call. "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "method"

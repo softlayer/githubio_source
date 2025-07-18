@@ -1,6 +1,6 @@
 ---
 title: "listDomainMappingByUniqueId"
-description: "SOAP API will return the domain mapping based on the uniqueId. "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "method"

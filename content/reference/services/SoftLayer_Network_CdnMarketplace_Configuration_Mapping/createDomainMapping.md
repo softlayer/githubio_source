@@ -1,6 +1,6 @@
 ---
 title: "createDomainMapping"
-description: "SOAP API will create a new CDN domain mapping for a particular customer. "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "method"

@@ -1,6 +1,6 @@
 ---
 title: "getMappingBandwidthMetrics"
-description: "Get the amount of edge hits for an individual mapping. "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "method"

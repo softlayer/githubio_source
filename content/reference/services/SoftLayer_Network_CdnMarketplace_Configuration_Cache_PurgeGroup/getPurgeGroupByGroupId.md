@@ -1,6 +1,6 @@
 ---
 title: "getPurgeGroupByGroupId"
-description: "This method returns the purge group for a given domain and group ID. "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "method"

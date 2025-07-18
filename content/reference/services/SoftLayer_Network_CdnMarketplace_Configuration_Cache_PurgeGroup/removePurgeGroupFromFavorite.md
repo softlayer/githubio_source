@@ -1,6 +1,6 @@
 ---
 title: "removePurgeGroupFromFavorite"
-description: "This method removes a purge group from favorite. "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "method"

@@ -1,6 +1,6 @@
 ---
 title: "purgeByGroupIds"
-description: "This method purges the content from purge groups. "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "method"

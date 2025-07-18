@@ -1,6 +1,6 @@
 ---
 title: "getPurgeStatus"
-description: "This method gets the status of a given purge path. "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "method"

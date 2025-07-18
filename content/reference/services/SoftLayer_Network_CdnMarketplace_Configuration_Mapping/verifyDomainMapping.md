@@ -1,6 +1,6 @@
 ---
 title: "verifyDomainMapping"
-description: "Verifies the status of the domain mapping by calling the rest api; will update the status, cname, and vendorCName if necessary and will return the updated values. "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "method"

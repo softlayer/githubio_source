@@ -1,6 +1,6 @@
 ---
 title: "createModifyResponseHeader"
-description: "SOAP API will create modify response header for an existing CDN mapping and for a particular customer. "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "method"

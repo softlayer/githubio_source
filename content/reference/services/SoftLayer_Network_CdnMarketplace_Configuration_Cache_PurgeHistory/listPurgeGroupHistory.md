@@ -1,6 +1,6 @@
 ---
 title: "listPurgeGroupHistory"
-description: "This method returns the list of purge group histories "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "method"

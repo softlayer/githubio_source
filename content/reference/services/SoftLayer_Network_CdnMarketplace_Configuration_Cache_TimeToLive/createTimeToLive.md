@@ -1,6 +1,6 @@
 ---
 title: "createTimeToLive"
-description: "Creates a Time To Live object and inserts it into the database "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "method"

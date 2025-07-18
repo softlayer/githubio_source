@@ -1,6 +1,6 @@
 ---
 title: "saveOrUnsavePurgePath"
-description: "Creates a new saved purge if a purge path is saved. Deletes a saved purge record if the path is unsaved. "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "method"

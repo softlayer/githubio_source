@@ -1,6 +1,6 @@
 ---
 title: "verifyCname"
-description: "Verifies the CNAME is Unique in the domain. The method will return true if CNAME is unique else returns false "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "method"
