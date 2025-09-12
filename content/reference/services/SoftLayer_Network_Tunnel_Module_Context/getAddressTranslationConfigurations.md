@@ -1,10 +1,6 @@
 ---
 title: "getAddressTranslationConfigurations"
-description: "The address translations will be returned.  All the translations will be formatted so that the configurations can be copied into a host file. 
-
-Format: 
-
-{address translation SoftLayer IP Address}        {address translation name} "
+description: "Deprecated "
 date: "2018-02-12"
 tags:
     - "method"

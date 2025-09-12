@@ -1,6 +1,6 @@
 ---
 title: "downloadAddressTranslationConfigurations"
-description: "Provides all of the address translation configurations for an IPSec VPN tunnel in a text file "
+description: "Deprecated "
 date: "2018-02-12"
 tags:
     - "method"

@@ -1,12 +1,6 @@
 ---
 title: "getDiffieHellmanGroupOptions"
-description: "The Diffie-Hellman group options used for both phases of the negotiation process. 
-
-The diffie-hellman group options are as follows: 
-* 0 (None)
-* 1
-* 2
-* 5"
+description: "Deprecated "
 date: "2018-02-12"
 tags:
     - "method"

@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Network_Customer_Subnet"
-description: "The SoftLayer_Network_Customer_Subnet data type contains general information relating to a single customer subnet (remote). "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "datatype"

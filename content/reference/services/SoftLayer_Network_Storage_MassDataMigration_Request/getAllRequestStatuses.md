@@ -1,6 +1,6 @@
 ---
 title: "getAllRequestStatuses"
-description: "Retrieves a list of all the possible statuses to which a request may be set."
+description: "DEPRECATED"
 date: "2018-02-12"
 tags:
     - "method"
