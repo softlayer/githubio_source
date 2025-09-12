@@ -1,6 +1,6 @@
 ---
 title: "getPhaseTwoKeylifeDefault"
-description: "The default phase 2 keylife used if a value is not provided.  The default value is set to 28800. "
+description: "Deprecated "
 date: "2018-02-12"
 tags:
     - "method"

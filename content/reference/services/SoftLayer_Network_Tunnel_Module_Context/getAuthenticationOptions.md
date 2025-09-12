@@ -1,11 +1,6 @@
 ---
 title: "getAuthenticationOptions"
-description: "Authentication options available for both phases of the negotiation process. 
-
-The authentication options are as follows: 
-* MD5
-* SHA1
-* SHA256"
+description: "Deprecated "
 date: "2018-02-12"
 tags:
     - "method"

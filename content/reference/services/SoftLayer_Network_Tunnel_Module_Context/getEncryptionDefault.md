@@ -1,6 +1,6 @@
 ---
 title: "getEncryptionDefault"
-description: "The default encryption type used for both phases of the negotiation process.  The default value is set to 3DES. "
+description: "Deprecated "
 date: "2018-02-12"
 tags:
     - "method"

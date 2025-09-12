@@ -1,6 +1,6 @@
 ---
 title: "createObject"
-description: "For IPSec network tunnels, customers can create their local subnets using this method.  After the customer is created successfully, the customer subnet can then be added to the IPSec network tunnel. "
+description: "DEPRECATED "
 date: "2018-02-12"
 tags:
     - "method"

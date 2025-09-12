@@ -1,6 +1,6 @@
 ---
 title: "getAuthenticationDefault"
-description: "The default authentication type used for both phases of the negotiation process.  The default value is set to MD5. "
+description: "Deprecated "
 date: "2018-02-12"
 tags:
     - "method"

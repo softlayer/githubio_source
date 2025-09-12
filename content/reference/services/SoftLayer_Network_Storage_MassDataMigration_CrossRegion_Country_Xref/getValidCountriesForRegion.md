@@ -1,6 +1,6 @@
 ---
 title: "getValidCountriesForRegion"
-description: "Returns countries assigned to the region having pricing info set. "
+description: "DEPRECATED"
 date: "2018-02-12"
 tags:
     - "method"

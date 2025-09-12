@@ -1,10 +1,6 @@
 ---
 title: "deleteAddressTranslation"
-description: "Remove an existing address translation from a network tunnel. 
-
-Address translations deliver packets to a destination ip address that is on a customer subnet (remote). 
-
-NOTE:  A network tunnel's configurations must be applied to the network device in order for an address translation to be deleted. "
+description: "Deprecated "
 date: "2018-02-12"
 tags:
     - "method"

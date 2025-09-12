@@ -1,6 +1,6 @@
 ---
 title: "getKeylifeLimits"
-description: "The keylife limits.  Keylife max limit is set to 120.  Keylife min limit is set to 172800."
+description: "Deprecated "
 date: "2018-02-12"
 tags:
     - "method"

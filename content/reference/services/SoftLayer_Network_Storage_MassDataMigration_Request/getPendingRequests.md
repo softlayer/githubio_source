@@ -1,6 +1,6 @@
 ---
 title: "getPendingRequests"
-description: "Returns placeholder MDMS requests for any MDMS order pending approval. "
+description: "DEPRECATED"
 date: "2018-02-12"
 tags:
     - "method"

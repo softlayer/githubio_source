@@ -1,6 +1,6 @@
 ---
 title: "downloadParameterConfigurations"
-description: "Provides all of the configurations for an IPSec VPN network tunnel in a text file "
+description: "Deprecated "
 date: "2018-02-12"
 tags:
     - "method"
