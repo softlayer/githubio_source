@@ -152,7 +152,7 @@ try:
         config = {
             'itemPrices': [
                 {
-                    'id': serversToReload[ipToReload]['id']
+                    'id': serversToReload[ipToReload]['priceId']
                 }
                 ]
             }
