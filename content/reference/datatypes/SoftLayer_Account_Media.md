@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Account_Media"
-description: "The SoftLayer_Account_Media data type contains information on a single piece of media associated with a Data Transfer Service request. "
+description: "DEPRECATED"
 date: "2018-02-12"
 tags:
     - "datatype"
