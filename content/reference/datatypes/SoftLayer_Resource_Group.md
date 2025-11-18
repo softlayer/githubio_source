@@ -1,6 +1,6 @@
 ---
 title: "SoftLayer_Resource_Group"
-description: "SoftLayer's resource group service allows users to access a broad overview of the resource group and its members "
+description: "DEPRECATED"
 date: "2018-02-12"
 tags:
     - "datatype"
