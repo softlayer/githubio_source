@@ -37,8 +37,6 @@ from being provisioned in a timely manner. Some common order containers are incl
 | Bare metal server by core | [SoftLayer_Container_Product_Order_Hardware_Server](/reference/datatypes/SoftLayer_Container_Product_Order_Hardware_Server) | BARE_METAL_CORE |
 | Virtual server | [SoftLayer_Container_Product_Order_Virtual_Guest](/reference/datatypes/SoftLayer_Container_Product_Order_Virtual_Guest) | VIRTUAL_SERVER_INSTANCE |
 | Local & dedicated load balancers | [SoftLayer_Container_Product_Order_Network_LoadBalancer](/reference/datatypes/SoftLayer_Container_Product_Order_Network_LoadBalancer) | ADDITIONAL_SERVICES_LOAD_BALANCER |
-| Content delivery network | [SoftLayer_Container_Product_Order_Network_ContentDelivery_Account](/reference/datatypes/SoftLayer_Container_Product_Order_Network_ContentDelivery_Account) | ADDITIONAL_SERVICES_CDN |
-| Content delivery network Addon | [SoftLayer_Container_Product_Order_Network_ContentDelivery_Account_Addon](/reference/datatypes/SoftLayer_Container_Product_Order_Network_ContentDelivery_Account_Addon) | ADDITIONAL_SERVICES_CDN_ADDON |
 | Hardware & software firewalls | [SoftLayer_Container_Product_Order_Network_Protection_Firewall](/reference/datatypes/SoftLayer_Container_Product_Order_Network_Protection_Firewall) | ADDITIONAL_SERVICES_FIREWALL |
 | Dedicated firewall | [SoftLayer_Container_Product_Order_Network_Protection_Firewall_Dedicated](/reference/datatypes/SoftLayer_Container_Product_Order_Network_Protection_Firewall_Dedicated) | ADDITIONAL_SERVICES_FIREWALL |
 | Object storage | [SoftLayer_Container_Product_Order_Network_Storage_Object](/reference/datatypes/SoftLayer_Container_Product_Order_Network_Storage_Object) | ADDITIONAL_SERVICES_OBJECT_STORAGE |
