@@ -258,7 +258,6 @@ Location: https://api.softlayer.com/rest/v3/SoftLayer_Hardware/f5a3fcff-db1d-4b7
     'hostname': 'host1', 
     'id': null, 
     'serviceProviderId': null, 
-    'serviceProviderResourceId': null, 
     'globalIdentifier': 'f5a3fcff-db1d-4b7c-9fa0-0349e41c29c5', 
     'hourlyBillingFlag': true, 
     'memoryCapacity': 2, 
