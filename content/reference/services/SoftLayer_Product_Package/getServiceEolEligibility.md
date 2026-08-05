@@ -17,6 +17,6 @@ mainService : "SoftLayer_Product_Package"
 
 ### [REST Example](#getServiceEolEligibility-example) <a href="/article/rest/"><i class="fas fa-question"></i></a> {#getServiceEolEligibility-example .anchor-link} 
 ```bash
-curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string, string]}' \
+curl -g -u $SL_USER:$SL_APIKEY -X POST -d '{"parameters": [string, string, boolean]}' \
 'https://api.softlayer.com/rest/v3.1/SoftLayer_Product_Package/{SoftLayer_Product_PackageID}/getServiceEolEligibility'
 ```

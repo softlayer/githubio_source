@@ -1461,6 +1461,69 @@
                 "maskable": true,
                 "static": true
             },
+            "getOrderEligibility": {
+                "name": "getOrderEligibility",
+                "type": "boolean",
+                "doc": "See [SoftLayer_Account::getOrderEligibilityServiceOrderTypes](/reference/services/SoftLayer_Account/getOrderEligibilityServiceOrderTypes) for the order type values available. \n\nSome packages may also require a resource type. See [SoftLayer_Account::getOrderEligibilityServiceResourceTypes](/reference/services/SoftLayer_Account/getOrderEligibilityServiceResourceTypes) for the values available. ",
+                "docOverview": "Determines if a customer is eligible to place orders to modify or grow their footprint while a service is end-of-life. ",
+                "parameters": [
+                    {
+                        "name": "packageId",
+                        "type": "int",
+                        "doc": "An optional package id to check eligibility for",
+                        "defaultValue": null
+                    },
+                    {
+                        "name": "orderType",
+                        "type": "string",
+                        "doc": "An optional order type to check eligibility for",
+                        "defaultValue": null
+                    },
+                    {
+                        "name": "resourceType",
+                        "type": "string",
+                        "doc": "An optional resource type to check eligibility for",
+                        "defaultValue": null
+                    },
+                    {
+                        "name": "preEolFlag",
+                        "type": "boolean",
+                        "doc": "An optional flag to check eligibility before services are EOL",
+                        "defaultValue": false
+                    }
+                ],
+                "static": true
+            },
+            "getOrderEligibilityServiceOrderTypes": {
+                "name": "getOrderEligibilityServiceOrderTypes",
+                "type": "SoftLayer_Container_Product_Package_ServiceEol_OrderType",
+                "typeArray": true,
+                "docOverview": "Gets the order types available for the [SoftLayer_Account::getOrderEligibility](/reference/services/SoftLayer_Account/getOrderEligibility) API. ",
+                "parameters": [
+                    {
+                        "name": "packageId",
+                        "type": "int",
+                        "doc": "An optional package id to get order types for",
+                        "defaultValue": null
+                    }
+                ],
+                "static": true
+            },
+            "getOrderEligibilityServiceResourceTypes": {
+                "name": "getOrderEligibilityServiceResourceTypes",
+                "type": "SoftLayer_Container_Product_Package_ServiceEol_ResourceType",
+                "typeArray": true,
+                "docOverview": "Gets the resource types available for the [SoftLayer_Account::getOrderEligibility](/reference/services/SoftLayer_Account/getOrderEligibility) API. ",
+                "parameters": [
+                    {
+                        "name": "packageId",
+                        "type": "int",
+                        "doc": "An optional package id to get resource types for",
+                        "defaultValue": null
+                    }
+                ],
+                "static": true
+            },
             "getPendingCreditCardChangeRequestData": {
                 "name": "getPendingCreditCardChangeRequestData",
                 "type": "SoftLayer_Container_Account_Payment_Method_CreditCard",
@@ -87651,8 +87714,7 @@
                         "name": "hardwareIds",
                         "type": "string",
                         "typeArray": true,
-                        "doc": "List of hardware ids to be added/removed from spare pool",
-                        "defaultValue": []
+                        "doc": "List of hardware ids to be added/removed from spare pool"
                     },
                     {
                         "name": "action",
@@ -93347,8 +93409,7 @@
                         "name": "hardwareIds",
                         "type": "string",
                         "typeArray": true,
-                        "doc": "List of hardware ids to be added/removed from spare pool",
-                        "defaultValue": []
+                        "doc": "List of hardware ids to be added/removed from spare pool"
                     },
                     {
                         "name": "action",
@@ -99063,8 +99124,7 @@
                         "name": "hardwareIds",
                         "type": "string",
                         "typeArray": true,
-                        "doc": "List of hardware ids to be added/removed from spare pool",
-                        "defaultValue": []
+                        "doc": "List of hardware ids to be added/removed from spare pool"
                     },
                     {
                         "name": "action",
@@ -109465,6 +109525,13 @@
                 "doc": "A count of a location can be a member of 1 or more regions. This will show which regions to which a location belongs."
             }
         }
+    },
+    "SoftLayer_Location_RackConfiguration": {
+        "name": "SoftLayer_Location_RackConfiguration",
+        "base": "SoftLayer_Entity",
+        "noservice": true,
+        "methods": {},
+        "properties": {}
     },
     "SoftLayer_Location_Region": {
         "name": "SoftLayer_Location_Region",
@@ -144895,6 +144962,7 @@
                 "name": "getMetricData",
                 "type": "SoftLayer_Metric_Tracking_Object_Data",
                 "typeArray": true,
+                "deprecated": true,
                 "parameters": [
                     {
                         "name": "startDateTime",
@@ -144918,6 +144986,7 @@
                 "name": "getSummaryData",
                 "type": "SoftLayer_Metric_Tracking_Object_Data",
                 "typeArray": true,
+                "deprecated": true,
                 "parameters": [
                     {
                         "name": "startDateTime",
@@ -144940,6 +145009,7 @@
                 ]
             }
         },
+        "deprecated": true,
         "properties": {}
     },
     "SoftLayer_Network_Storage_Hub_Swift_Share": {
@@ -144952,7 +145022,8 @@
                 "typeArray": true,
                 "doc": "This method returns a collection of container objects. ",
                 "docOverview": "Get a list of the file containers for a brand.",
-                "static": true
+                "static": true,
+                "deprecated": true
             },
             "getFile": {
                 "name": "getFile",
@@ -144960,6 +145031,7 @@
                 "doc": "This method returns a file object given the file's full name. ",
                 "docOverview": "Download a file.",
                 "static": true,
+                "deprecated": true,
                 "parameters": [
                     {
                         "name": "fileName",
@@ -144981,6 +145053,7 @@
                 "docOverview": "Get a list of the files in a container and path.",
                 "static": true,
                 "limitable": true,
+                "deprecated": true,
                 "parameters": [
                     {
                         "name": "container",
@@ -144995,6 +145068,7 @@
                 ]
             }
         },
+        "deprecated": true,
         "properties": {}
     },
     "SoftLayer_Network_Storage_Hub_Swift_Version1": {
@@ -169107,12 +169181,20 @@
                 "parameters": [
                     {
                         "name": "orderType",
-                        "type": "string"
+                        "type": "string",
+                        "doc": "An optional order type to check eligibility for"
                     },
                     {
                         "name": "resourceType",
                         "type": "string",
+                        "doc": "An optional resource type to check eligibility for",
                         "defaultValue": null
+                    },
+                    {
+                        "name": "preEolFlag",
+                        "type": "boolean",
+                        "doc": "An optional flag to check eligibility before services are EOL",
+                        "defaultValue": false
                     }
                 ]
             },
@@ -192996,6 +193078,29 @@
                     }
                 ]
             },
+            "createNewUserInMultipleAccounts": {
+                "name": "createNewUserInMultipleAccounts",
+                "type": "void",
+                "static": true,
+                "parameters": [
+                    {
+                        "name": "invokingIamId",
+                        "type": "string",
+                        "doc": "The IAMid that initiated the UUM call to add the user.  For audit logging purposes only."
+                    },
+                    {
+                        "name": "templateObject",
+                        "type": "SoftLayer_User_Customer",
+                        "doc": "Object with enough information to eventually build a SoftLayer_User_Customer_OpenIdConnect instance"
+                    },
+                    {
+                        "name": "accountList",
+                        "type": "string",
+                        "typeArray": true,
+                        "doc": "A list of IMS account ids in which to create the user represented by the $templateObject"
+                    }
+                ]
+            },
             "createObject": {
                 "name": "createObject",
                 "type": "SoftLayer_User_Customer_OpenIdConnect",
@@ -196867,6 +196972,29 @@
                         "name": "emailRegistrationCode",
                         "type": "string",
                         "doc": "The registration code from OpenIdConnect process"
+                    }
+                ]
+            },
+            "createNewUserInMultipleAccounts": {
+                "name": "createNewUserInMultipleAccounts",
+                "type": "void",
+                "static": true,
+                "parameters": [
+                    {
+                        "name": "invokingIamId",
+                        "type": "string",
+                        "doc": "The IAMid that initiated the UUM call to add the user.  For audit logging purposes only."
+                    },
+                    {
+                        "name": "templateObject",
+                        "type": "SoftLayer_User_Customer",
+                        "doc": "Object with enough information to eventually build a SoftLayer_User_Customer_OpenIdConnect instance"
+                    },
+                    {
+                        "name": "accountList",
+                        "type": "string",
+                        "typeArray": true,
+                        "doc": "A list of IMS account ids in which to create the user represented by the $templateObject"
                     }
                 ]
             },
@@ -241914,6 +242042,44 @@
                 "type": "string",
                 "form": "local",
                 "doc": "The name of the vendor that will be used for external authentication"
+            }
+        },
+        "methods": {}
+    },
+    "SoftLayer_Container_User_Customer_OpenIdConnect_CreateUserInMultipleAccountsOneResult": {
+        "name": "SoftLayer_Container_User_Customer_OpenIdConnect_CreateUserInMultipleAccountsOneResult",
+        "base": "SoftLayer_Entity",
+        "noservice": true,
+        "typeDoc": "Container for holding result of adding a user to one of N accounts in bulk ",
+        "properties": {
+            "imsAccountId": {
+                "name": "imsAccountId",
+                "type": "string",
+                "form": "local",
+                "doc": "The IMS account for which this object is a result."
+            },
+            "imsUserId": {
+                "name": "imsUserId",
+                "type": "int",
+                "form": "local"
+            },
+            "message": {
+                "name": "message",
+                "type": "string",
+                "form": "local",
+                "doc": "A message describing the result in more detail. May be empty. "
+            },
+            "paasAccountId": {
+                "name": "paasAccountId",
+                "type": "string",
+                "form": "local",
+                "doc": "The PaaS account for which this object is a result."
+            },
+            "success": {
+                "name": "success",
+                "type": "boolean",
+                "form": "local",
+                "doc": "The create result for a user in one account"
             }
         },
         "methods": {}
